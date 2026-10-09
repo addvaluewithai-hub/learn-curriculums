@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-09. **Scope:** active B01 (printed pp. 1–20; photographed PDF pp. 4–13), not B02.  
 **Authorization:** new human `next` after the B01 Stage 03 manuscript/IDs gate. No `next block`, audio payment, merge or student publication was requested.  
-**Source ID:** `abd-el-salam-math-i-scan`. Original retention remains `chat-only-temporary` and was expressly deferred by the user; see `../../references/SOURCE_MANIFEST.md`. Newly written diagrams, numerical questions and examples are **authored teaching material**, not copied original book exercises.
+**Source ID:** `abd-el-salam-math-i-scan`. Original retention remains `chat-only-temporary` and was expressly deferred by the user; see `../../../references/SOURCE_MANIFEST.md`. Newly written diagrams, numerical questions and examples are **authored teaching material**, not copied original book exercises.
 
 ## Canonical file handoff (5 previously issued IDs/order)
 
