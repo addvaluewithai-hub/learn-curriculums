@@ -9,3 +9,6 @@ node_modules/
 *.tmp
 preview-sdk/.generated/
 preview-sdk/test-results/
+# Keep locally retained private curriculum originals out of public Git.
+curricula/*/references/private/
+curricula/*/references/originals/
