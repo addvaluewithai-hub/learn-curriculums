@@ -1,5 +1,5 @@
 # مسودة شرح متصلة 01 — الميكانيكا كطريقة لفهم العالم وتبسيطه
-**Working label only — not a stable lesson ID.** Stage 01. Source: Chapter 1, printed pp.1–3 (scan pp.7–9).
+**Working label only — not a stable lesson ID.** Stage 02 editorial revision; lesson boundaries remain provisional. Source: Chapter 1, printed pp.1–3 (scan pp.7–9).
 **تعليمات تحريرية غير منطوقة:** هذه مسودة قراءة متصلة، ليست Scenes ولا توقيتات. المعادلات والتسميات الإنجليزية تُنطق بوضوح. المثال والأسئلة أدناه مؤلفة للتدريس، وليست مسائل مرقمة من الكتاب.
 
 ## نص الشرح المنطوق
