@@ -1,6 +1,37 @@
-# Engineering Mechanics – Statics | Year 1 | Stage 03 frozen lesson map
+# Engineering Mechanics – Statics | Curriculum master roadmap
 
-**Scope:** Chapter 1 only, original printed pp.1–6 (user-uploaded image-only PDF scan pp.7–12).
+**Whole-course scope:** First-year engineering mechanics — Statics. Egyptian Arabic teaching, English engineering/exam terms and bilingual question/feedback support. This roadmap is **provisional outside B01** and must not be mistaken for finished teaching or access to an entire printed book.
+**Revision note:** 2026-10-09 adaptation of the existing Stage 01–03 work to the newer curriculum → Block workflow. We **did not run Stage 00 as a separate historical gate**; this is a retrospective structure/source inventory created with explicit human permission. The three stable B01 lesson IDs and script content are preserved.
+**Source:** `statics-scan-2026-10-08` (36-page scanned PDF). Manifest `references/SOURCE_MANIFEST.md` stores the **measured** file hash, current temporary access and unresolved private archival blocker; `references/SOURCE_COVERAGE.md` distinguishes body-inspected/available from contents-only.
+
+## Whole-course Block plan — deliberately conditional
+
+| Block | Working scope, not a lesson | Source status | Prerequisite/dependency | Gate / next step |
+|---|---|---|---|---|
+| **B01** | Intro: mechanics, quantity/models, Newton laws, gravitation/weight, units | **Body inspected:** Ch.1 printed pp.1–6, scan pp.7–12 | school algebra, units, basic motion | **Active: Stage 03 complete**; three stable lesson IDs listed below; Stage 04 awaits new human `next` |
+| **B02** | Vector foundations and planar force resolution — Ch.2 sections 2.1–2.5 | **Body supplied, partial skim only:** printed pp.9–18, scan pp.14–23 | B01: Force as vector, units | Candidate after B01 Stage 04 and human `next block`; must re-open actual pages at Stage 01 |
+| **B03** | Unit vectors, coplanar resultants and position vectors — Ch.2 2.6–2.8 plus available exercises | **Body supplied, partial skim only:** printed pp.19–30, scan pp.24–36 | B02: planar vectors/components | Candidate future source Block; review boundary against actual material before authoring |
+| **B04** | Three-dimensional forces and later Ch.2 topics (e.g., dot product) | **INDEX ONLY / BODY MISSING:** begins printed p.32 | B02/B03 planar & vector basics | **Blocked** until original chapter pages supplied and inspected |
+| **B05** | Equilibrium of Particles (Ch.3) | **INDEX ONLY / BODY MISSING** | vector/resultant reasoning | **Blocked** — title-level plan only |
+| **B06** | Moment of a Force and Equivalent Force Systems (Ch.4) | **INDEX ONLY / BODY MISSING** | forces/vector reasoning | **Blocked** — title-level plan only |
+| **B07** | Equilibrium of Rigid Body (Ch.5) | **INDEX ONLY / BODY MISSING** | rigid-body idealization, forces and moments | **Blocked** — title-level plan only |
+| **B08** | Structure Analysis (Ch.6) | **INDEX ONLY / BODY MISSING** | rigid-body equilibrium and structural models | **Blocked** — title-level plan only |
+| **B09** | Friction (Ch.7) | **INDEX ONLY / BODY MISSING** | equilibrium and contact forces | **Blocked** — title-level plan only |
+
+A Block is an **editorial production unit**, not automatically one textbook chapter or student lesson. B02/B03 boundaries reflect available section clusters and are hypotheses until their own Stage 01 source review and subsequent critique. B04–B09 topics come **only from the index**, so no numbered lessons, scripts, questions or source claims were created for them.
+
+## Curriculum-wide dependency and operational rules
+- Core trajectory: recognize bodies and forces → understand laws/units → resolve force vectors → analyze equilibrium/force systems → later statics applications *only after actual material is supplied*.
+- One curriculum STATUS tracks source/roadmap and the **active Block**; `blocks/B01/STATUS.md` tracks the active Block's actual human gate and outputs. For B02 onward, create block STATUS only on activation (do not preclaim Stage 01).
+- B01 remains the selected bounded block for existing content. Stage 01–03 took place historically under the old rules; their genuine recorded editorial results are carried forward, **not replayed** or marked human-academic approved.
+- On the **next separate** `next`, only B01 Stage 04 scenes/storyboards are in scope **if source accessibility/rights blockers and required dependencies are appropriately handled**. After Stage 04, `next block` starts B02 Stage 01 without audio; plain `next` means B01 Stage 05 pilot preparation, not paid dispatch.
+- No new original PDF committed to public Git, no guessed edition, no invented future source pages and no automatic merge/teacher sign-off/publication.
+
+---
+
+## B01 — finalized Stage 03 editorial lesson map and coverage
+
+**B01 scope:** Chapter 1 only, original printed pp.1–6 (user-uploaded image-only PDF scan pp.7–12).
 **Status:** Stage 03 editorial boundary decision, final spoken scripts and **issued stable lesson IDs**. The human authorized this production stage by sending “next”. This is **not scientific/human publication approval**.
 **Language:** Egyptian Arabic explanation; essential English exam terminology, English prompts and model answers, natural Arabic support. Headings/directions not spoken.
 

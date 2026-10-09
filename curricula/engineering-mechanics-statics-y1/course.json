@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "engineering-mechanics-statics-y1",
   "title": "الميكانيكا الهندسية - الاستاتيكا | أولى هندسة",
-  "revision": "chapter1-stage03-final-scripts-v1",
-  "description": "Arabic-first, English-exam vocabulary introduction to Engineering Mechanics (Statics) for first-year engineering students. Content limited to currently visible source pages.",
+  "revision": "chapter1-stage03-block-roadmap-reconciled-v2",
+  "description": "First-year Engineering Mechanics (Statics): whole-course provisional Block roadmap based on partial 36-page scan; B01 alone has finalized editorial scripts.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",
@@ -16,8 +16,13 @@
       "access": "available",
       "originalFilename": "مسح المستندات٢٠٢٦١٠٠٨_٢٠٢٢٢٨.pdf",
       "format": "scanned PDF; 36 image-only pages",
-      "availability": "Available as a user upload in the initiating conversation; PDF itself is not committed to this public repository.",
-      "limits": "The PDF contains front matter, printed chapter 1 pages 1–6 and chapter 2 pages 9–30. Chapters 3–7 are only represented in contents listings. Do not infer their explanations from headings."
+      "availability": "Original 36-page PDF was verified and SHA-256 hashed in the initiating conversation runtime on 2026-10-09; no durable private retrieval or future-agent access verified.",
+      "limits": "Full body inspected for Ch.1 printed pp.1–6; Ch.2 printed pp.9–30 supplied but source detail must be reopened for new Blocks. Ch.2 pp.31+ and Ch.3–7 body missing, contents headings only. See SOURCE_COVERAGE.md.",
+      "storageClass": "chat-only-temporary",
+      "rights": "unknown; no permission to redistribute source in public repository",
+      "sha256": "d05d173a02514f6093662c072fa0d8d08deba18d5e552b9586ecdcee1d6591d9",
+      "byteLength": 7938527,
+      "pageCount": 36
     }
   ],
   "teacher": {
