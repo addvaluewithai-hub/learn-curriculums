@@ -3,7 +3,7 @@
 - **Date:** 2026-10-09
 - **Scope:** `engineering-math-1`, source-backed Chapter 1 (printed pp. 21–53), working labels A–E.
 - **Current branch:** `curriculum/engineering-math-1/stage-01-functions`
-- **Draft PR:** pending creation; update this link after opening.
+- **Draft PR:** [#8 — Stage 01 Chapter 1 working drafts](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8), OPEN / DRAFT (no merge approval).
 - **Last completed human gate:** **01 — source access, provisional outline, and five full connected working lesson drafts**. This states the gate's authored outputs are ready; it is not a human approval or academic sign-off.
 - **Next authorized gate:** **NONE — awaiting human "next" or comments**. A correction revises Stage 01; next advances only to Stage 02.
 - **Draft outputs:** `course.json`, `references/SOURCE_REVIEW.md`, `OUTLINE.md`, `working-drafts/01-functions.md`, `02-function-families.md`, `03-monotonicity-limits.md`, `04-calculating-limits.md`, `05-continuity.md`.
