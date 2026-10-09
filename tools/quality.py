@@ -5,7 +5,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 SUFFIXES = {".py", ".ts", ".tsx", ".js", ".mjs", ".css", ".md", ".json", ".yaml", ".yml"}
-IGNORED = {".git", "dist", "node_modules", "__pycache__", ".venv", "media", "jobs"}
+IGNORED = {".git", "dist", "node_modules", "__pycache__", ".venv", "media", "jobs", ".generated", "test-results"}
 
 
 def check():
@@ -14,6 +14,8 @@ def check():
         if any(part in IGNORED for part in path.relative_to(ROOT).parts):
             continue
         if path.is_file() and path.suffix in SUFFIXES:
+            if path.name == "package-lock.json":
+                continue  # Generated dependency lock; authored JSON still obeys the limit.
             if len(path.read_text().splitlines()) > 300:
                 errors.append(f"Over 300 lines: {path.relative_to(ROOT)}")
     skill = ROOT / ".agents/skills/produce-learn-lesson/SKILL.md"

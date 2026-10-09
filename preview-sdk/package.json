@@ -1,0 +1,30 @@
+{
+  "name": "learn-curriculum-preview",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prepare": "python3 ../tools/preview.py",
+    "predev": "node tools/check-edition.mjs && python3 ../tools/preview.py",
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "node tools/check-edition.mjs && python3 ../tools/preview.py",
+    "build": "tsc --noEmit && vite build",
+    "check": "tsc --noEmit",
+    "test:browser": "node tests/browser.mjs",
+    "check:edition": "node tools/check-edition.mjs"
+  },
+  "dependencies": {
+    "@learn/lesson-runtime": "https://raw.githubusercontent.com/addvaluewithai-hub/new-learn/768865b996e5fb47f14ce98d23459dfbabb5bacb/distributions/learn-lesson-runtime-0.2.1.tgz",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "playwright": "1.62.1",
+    "typescript": "5.9.3",
+    "vite": "8.2.2"
+  }
+}

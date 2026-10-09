@@ -1,0 +1,63 @@
+:root {
+  font-family: Tahoma, Arial, sans-serif;
+  color: #193a35;
+  background: #eff3ef;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 24px;
+}
+button,
+select {
+  font: inherit;
+}
+.preview-header p {
+  line-height: 1.8;
+}
+.picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 24px 0;
+}
+.picker label {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+select {
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid #9caca2;
+  border-radius: 8px;
+}
+.provenance {
+  margin: 16px 0;
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+}
+.provenance code {
+  overflow-wrap: anywhere;
+}
+[role="alert"] {
+  padding: 18px;
+  background: #fff1e6;
+  overflow-wrap: anywhere;
+  line-height: 1.8;
+}
+@media (max-width: 650px) {
+  main {
+    padding: 12px;
+  }
+  .picker {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": ["vite/client", "node"],
+    "paths": {
+      "@learn/lesson-runtime": [
+        "./node_modules/@learn/lesson-runtime/dist/index.d.ts"
+      ],
+      "@learn/lesson-runtime/core": [
+        "./node_modules/@learn/lesson-runtime/dist/core.d.ts"
+      ],
+      "react": ["./node_modules/@types/react/index.d.ts"],
+      "react/*": ["./node_modules/@types/react/*"],
+      "remotion": ["./node_modules/remotion/dist/cjs/index.d.ts"]
+    }
+  },
+  "include": ["src", ".generated/modules.ts", "vite.config.ts"]
+}

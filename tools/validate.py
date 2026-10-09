@@ -1,6 +1,7 @@
 """Authoring validation, independent of playback and database services."""
 import math
 from common import clips_for, identity, load_lesson, read_json, require, safe_path, source_hash
+from runtime_review import sdk_identity, check_runtime_review
 
 STAGES = ("draft", "script", "media", "timed")
 ACCESS = {"available", "reviewed-notes", "unavailable"}
@@ -147,10 +148,13 @@ def validate_lesson(root, course_id, lesson_id, stage="draft"):
             require(text(check.get("reviewer")) and text(check.get("evidence")), "Passed review needs evidence/reviewer")
             require(review.get("sourceHash") == source_hash(folder), "Stale editorial review")
         if key == "runtime":
-            require(check["status"] == "untested", "Runtime cannot pass before the preview SDK exists")
+            check_runtime_review(root, check)
+    sdk = sdk_identity(root)
     return {"courseId": course_id, "lessonId": lesson_id, "stage": stage, "valid": True,
             "sourceHash": source_hash(folder), "clipCount": len(clips),
-            "preview": "pending-sdk", "runtimeVerified": False, "publicationApproved": False}
+            "preview": "sdk-available" if sdk else "pending-sdk",
+            "runtimeVersion": sdk["version"] if sdk else None,
+            "runtimeVerified": review["checks"]["runtime"]["status"] == "passed", "publicationApproved": False}
 
 
 def validate_curriculum(root, course_id, stage="draft"):

@@ -8,7 +8,8 @@ After scene decomposition the spoken source of truth is scene narration/question
 Defaults are untested. Passed means real reviewer/evidence tied to current sourceHash from validate.
 Hash binds course policy/source files and lesson inputs; input edits invalidate review conservatively.
 Changes to existing scripts after accepted audio require an explicit rework plan: preserve previous takes/IDs and revalidate affected reviews, clip hashes, timing and export; don't silently move recorded speech between lessons.
-Never fill faithful/approved/passed to satisfy a checker. Runtime stays untested until SDK exists.
+Never fill faithful/approved/passed to satisfy a checker. Runtime stays untested until actual playback review.
+Bind runtime evidence to the exact SDK version/artifact hash as described in preview-sdk/README.md.
 Reconsider the relevant reviews after source, language-policy or script edits; audio changes also invalidate bound timing/listening evidence.
 
 Use lesson branches/PRs, stable IDs/order from the outline and existing channels for coordination.

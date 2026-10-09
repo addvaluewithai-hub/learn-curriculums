@@ -1,7 +1,8 @@
 # Authoring data contract v1
 
 Production source format, not the platform's native LessonPackage.
-Later the shared SDK adapts sources to approved playback; no adapter is implemented yet.
+tools/preview.py adapts verified timed sources to ephemeral playback through the pinned shared SDK.
+Adaptation never establishes listening review or publication approval.
 Preserve source content and stable IDs; make contract revisions explicit.
 
 ## Curriculum and lesson
@@ -29,6 +30,14 @@ Discovery uses folders, not tools with hardcoded lesson names.
 - answer={english, arabic, reasoning}; feedback={id, role: feedback, script, units} is a separate clip.
 - attempt=written|choice|choice-and-written; choice needs options and zero-based correctIndex.
 - Teaching and question scenes are separate; feedback is not a normal learning-path scene.
+- For preview, module default-exports a component accepting SDK VisualProps; renderer IDs are lesson-local.
+- Question narration uses the scene visual with phase=question-reading; question contains prompts/options only.
+- Optional question.feedback.visual supplies a bespoke feedback module; otherwise the SDK answer board is used.
+- Full English/Arabic question and answer clauses each need one occurrence-qualified unit and reviewed timing cue.
+- Optional question.readingUnitIds={english,arabic} and feedback.answerUnitIds resolve repeated full-clause units explicitly.
+- Optional englishOptions translates options; omitted means options already use exam English.
+- Components use question.readingParts or answer.parts for gradual disclosure; answer arrives only in feedback.
+- Assets belong under lesson assets/; preview reserves params.assetBase for their URL prefix.
 - Model answers never belong in pre-attempt audio/visuals.
 
 Example question object:
@@ -71,4 +80,5 @@ media adds verified delivered recordings; timed adds semantic anchor bindings.
 None automatically proves scientific, listening, visual or playback quality.
 review.json: sourceHash + checks sources/teaching/audio/timing/visual/runtime, each passed|failed|untested with reviewer/evidence.
 Use current sourceHash from validate only after actual review. Source policy/input changes invalidate it.
-Runtime stays untested while SDK is absent.
+Runtime stays untested until playback is actually reviewed. Passed runtime checks also require runtimeVersion
+and runtimeArtifactHash matching preview-sdk/sdk-version.json; an SDK upgrade invalidates that declaration.

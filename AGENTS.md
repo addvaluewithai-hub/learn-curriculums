@@ -9,7 +9,7 @@
 - After decomposition, scene narration and feedback are canonical; do not independently edit a duplicate master script.
 - Validate script stage and review a bilingual/value pilot before batch synthesis within authorized scope.
 - Accepted is not delivery; structural success is not listening review.
-- There is no preview SDK. Continue production; do not scaffold another player or claim runtime acceptance.
+- Use the pinned shared SDK in preview-sdk; read its README. Do not scaffold another player or infer runtime acceptance from a build.
 - Put bespoke React/Remotion components under the lesson scenes folder; no fixed component menu restriction.
 - Later keep preview SDK integration independent; never copy DB/auth/student persistence into it.
 - Keep readable modular code <=300 lines. Generated media/transcript/jobs are separate outputs.

@@ -1,6 +1,6 @@
 ---
 name: produce-learn-lesson
-description: Author or repair source-grounded Learn curricula and lessons in learn-curriculums. Use for produce lesson 3, curriculum scripts, storyboard, custom React scenes, Gemini TTS, word timestamps, semantic cue alignment and production handoff. This repository currently has no preview SDK or student publication service.
+description: Author or repair source-grounded Learn curricula and lessons in learn-curriculums. Use for produce lesson 3, curriculum scripts, storyboard, custom React scenes, Gemini TTS, word timestamps, semantic cue alignment, shared SDK preview and production handoff. Student publication is a separate platform service.
 ---
 
 # Produce a Learn lesson
@@ -28,7 +28,10 @@ Read [board and scenes](../../../instructions/board.md) for semantic units, both
 Use visual ideas during drafting to improve teaching, but assign formal visual units and word onsets only after the narrative critique.
 Keep data and custom React/Remotion code inside the lesson folder.
 Do not clone a player, create a temporary platform or install a guessed SDK.
-Produce storyboards/component drafts now; report runtime untested until the shared SDK exists.
+Read [shared preview](../../../preview-sdk/README.md) before implementing components or reviewing playback.
+Default-export components accepting the public SDK VisualProps; keep them inside the lesson.
+Add full English/Arabic question and answer units with reviewed anchors; never estimate missing timings.
+Run the shared preview after timed validation and module completion; keep authoring moving when recordings are not ready.
 
 Read [audio](../../../instructions/audio.md) before calls or delivery imports.
 Use the existing asynchronous gemini-tts factory; accepted/queued is not completed.
@@ -42,6 +45,7 @@ Run draft/script/media/timed checks appropriate to the actual stage.
 Structural validation and AI self-critique cannot substitute for evidence-backed source/scientific and teaching review.
 Read [handoff](../../../instructions/handoff.md), update STATUS and export the selected curriculum.
 Passed reviews need real evidence/reviewer and current sourceHash; never fill approval placeholders.
-Keep runtime untested while SDK is absent. Exports are authoring handoffs, not runtime packages/releases.
+Keep runtime untested until actual playback review in both ratios; bind passed evidence to sourceHash, runtimeVersion and runtimeArtifactHash.
+Exports are authoring handoffs, not platform releases. Build/tests never grant publication approval.
 Do not access the platform DB or publish students' lessons from this repository.
 Finish with files/stage, actual checks, limitations and next executable action.

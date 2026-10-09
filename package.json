@@ -2,7 +2,7 @@
   "name": "learn-curriculums",
   "private": true,
   "version": "0.1.0",
-  "description": "Source-grounded lesson production; preview SDK is pending.",
+  "description": "Source-grounded lesson production with an isolated shared SDK preview.",
   "scripts": {
     "course:new": "python3 tools/cli.py course-new",
     "lesson:new": "python3 tools/cli.py lesson-new",
@@ -13,6 +13,10 @@
     "audio:align": "python3 tools/cli.py audio-align",
     "export": "python3 tools/cli.py export",
     "check": "python3 tools/quality.py",
-    "test": "python3 -m unittest discover -s tests -v"
+    "test": "python3 -m unittest discover -s tests -v",
+    "preview:setup": "npm ci --prefix preview-sdk",
+    "preview": "npm run dev --prefix preview-sdk",
+    "preview:prepare": "python3 tools/preview.py",
+    "preview:build": "npm run build --prefix preview-sdk"
   }
 }
