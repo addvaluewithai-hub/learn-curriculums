@@ -1,0 +1,55 @@
+{
+  "id": "S03",
+  "title": "Rational numbers والكسور",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "mathematics-i-scan",
+      "locator": "printed pp. 3–4; scan PDF image p. 5"
+    },
+    {
+      "sourceId": "author-created",
+      "locator": "references/authored-examples.md: fraction/decimal bridges"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "النوع اللي يقدر يتكتب ككسر بسطه ومقامه عددين صحيحين، بشرط المقام مش صفر، بنسميه Rational Number، أو عدد نسبي. تلاتة على أربعة بتساوي صفر فاصلة خمسة وسبعين؛ الاتنين نفس العدد مش نوعين مختلفين. وحتى سالب تلاتة عدد نسبي، لأنه ممكن يتكتب سالب تلاتة على واحد. فيه تمثيل عشري بينتهي زي صفر فاصلة خمسة وسبعين، وفيه عشري بيكرر نفس النمط زي واحد على تلاتة: صفر فاصلة تلاتة تلاتة تلاتة وهكذا. لما تشوف كسر أو عشري منتهي أو متكرر، فكّر في القيمة، مش شكل الكتابة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "المقام مش صفر",
+        "occurrence": 1,
+        "visualIntent": "Show a/b with a,b integers and b ≠ 0."
+      },
+      {
+        "id": "U02",
+        "text": "تلاتة على أربعة بتساوي صفر فاصلة خمسة وسبعين",
+        "occurrence": 1,
+        "visualIntent": "Reveal 3/4 = 0.75 together."
+      },
+      {
+        "id": "U03",
+        "text": "سالب تلاتة على واحد",
+        "occurrence": 1,
+        "visualIntent": "Reveal −3 = −3/1 as an integer that is rational."
+      },
+      {
+        "id": "U04",
+        "text": "صفر فاصلة تلاتة تلاتة تلاتة",
+        "occurrence": 1,
+        "visualIntent": "Reveal 1/3 = 0.333… with repeating 3s."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {},
+    "landscape": "16:9 show one equivalence at a time with a large fraction and decimal; keep b ≠ 0 legible; next row illustrates repeating pattern.",
+    "portrait": "9:16 one full-width equation per step with a large active expression and an uncluttered denominator constraint."
+  }
+}
