@@ -1,38 +1,47 @@
 # Mathematics I — أولى هندسة
-**Editorial status:** Stage 01 / provisional split. The row labels below are **NOT assigned stable lesson IDs**; no lessons, scenes or audio have been produced.
+**Editorial status:** Stage 01 / **provisional** module and lesson split. Labels P-A–P-D and A–E are **working labels, not issued stable lesson IDs**. No scenes, TTS or student publication.
 
-## Audience and language
-First-year engineering students, assumed familiar with basic algebra, fractions, solving simple equations, Cartesian coordinates and high-school trigonometry, though a diagnostic/remediation check may be needed. Spoken explanation in accessible Egyptian Arabic; the standard calculus terms, written exam prompts and model answers in English with natural Arabic support. **These are working assumptions**, not a confirmed university syllabus.
+## Intended audience and bilingual approach
+First-year engineering students learning calculus. Egyptian Arabic natural spoken instruction introduces concepts alongside familiar standard English mathematical terms; exam-style questions/model answers in English with Arabic support. We assume basic arithmetic, factorization and Cartesian coordinates; actual placement/syllabus is **awaiting human input**, not verified.
 
-## Course/source map
-- **Preliminaries (printed pp. 1–20, source present):** real numbers and sets; intervals; inequalities; absolute value. Support material/possible diagnostic bridge, not drafted in this block.
-- **Chapter 1 (pp. 21–53, source present):** *Functions and Their Graphs*; includes families of functions, increasing/decreasing, limits and continuity. **Stage 01 working block**.
-- **Chapter 2 (pp. 54–80, source present):** differentiation (definition, standard and chain rules, higher derivatives, trigonometric, implicit and parametric methods). Planned for another authorized stage/block; not drafted.
-- **Chapter 3 (contents only, full pages absent):** inverse and inverse trig functions, exponential/logarithmic differentiation.
-- **Chapter 4 (contents only, full pages absent):** hyperbolic functions.
-- **Chapter 5 (contents only, full pages absent):** Maclaurin expansion, tangent and normal lines, L'Hôpital's rule.
-- **Chapter 6 (contents only, full pages absent):** partial derivatives.
-Do not treat the index-only chapters as verified full instructional content.
+## Course map from what is actually visible
+1. **Preliminaries — printed pp. 1–20 (PDF images 4–13):** real number system, real line, order properties, sets, intervals, linear inequalities, absolute value and multi-factor/rational inequalities. Printed pp. **19–20 are Exercises (1)**, treated as practice coverage rather than an invented fifth lecture. **Stage 01 expanded draft block; placed BEFORE Chapter 1.**
+2. **Chapter 1 — printed pp. 21–53:** *Functions and Their Graphs*, including families, increasing/decreasing, limits and continuity. Stage 01 drafted previously; still awaiting Stage 02 critique.
+3. **Chapter 2 — printed pp. 54–80:** visible start of differentiation and exercises; not scripted in this PR.
+4. **Chapters 3–6 — table-of-contents only:** inverse functions and related differentiation, hyperbolic functions, Maclaurin and related topics, partial differentiation. Detailed pages are not provided, so no lesson drafting based on their unseen text.
 
-## Chapter 1 — provisional connected-draft clusters
-| Working label (not ID) | Printed pages | Learner objectives; separate independent check |
+## Module 0: Preliminaries — provisional lessons BEFORE Functions
+| Working label (not stable ID) | Printed source pages | Connected learner goal and independent check | Working-draft path |
+|---|---|---|---|
+| **P-A. Real numbers and sets** | 1–5 | Recognize rational/irrational/real numbers and number-line order; interpret set notation, membership, union and intersection; two independent number/set questions. | `working-drafts/prelim-01-real-numbers-sets.md` |
+| **P-B. Intervals and linear inequalities** | 5–8 (order rules also pp. 1–2) | Express open/closed/half-open/unbounded intervals; solve single and compound linear inequalities with correct negative sign reversal; two independent questions. | `working-drafts/prelim-02-intervals-linear-inequalities.md` |
+| **P-C. Absolute value** | 9–12 | Interpret distance, use properties, solve absolute-value equations and inequalities; two independent questions. | `working-drafts/prelim-03-absolute-value.md` |
+| **P-D. Polynomial/rational inequalities** | 13–18, and exercises 19–20 for practice coverage | Make a sign chart, handle zeros and excluded denominators, combine conditions; two independent questions. | `working-drafts/prelim-04-polynomial-rational-inequalities.md` |
+
+**Coverage:** the source's numbered preliminary pages 1–18 contain the instructional narrative and solved examples; pages 19–20 are the exercise bank. The original independent questions in our drafts are **authored instructional material**, not copies of those exercise pages. Proposed lesson split is provisional pending review of learner cognitive load.
+
+## Chapter 1 — existing provisional lessons, after the Preliminaries
+| Working label (not stable ID) | Printed source pages | Learner objectives; independent check |
 |---|---|---|
-| A. What makes a function? | 21–25 | Interpret input/output, domain and range; decide domain restrictions; inspect a graph using vertical-line test. Exam-style independent domain/range task. |
-| B. Reading the function family | 25–35 | Recognize polynomial/power/rational versus trigonometric/exponential/logarithmic functions; connect graph shape, domain and basic transformations; separate independent classification task. |
-| C. Increasing/decreasing and the idea of a limit | 35–40 | Describe intervals where a graph rises/falls, distinguish nearby behavior from function value, find basic limits; independent graph and limit checks. |
-| D. Computing limits safely | 40–46 | Use direct substitution when valid, algebraic cancellation, one-sided thinking and fundamental trigonometric limits in radians; independent cancellation/trig check. |
-| E. Continuity and piecewise functions | 47–53 | Check the three conditions for continuity at a point, interpret breaks, make a piecewise function continuous; independent parameter task. |
+| **A. What makes a function?** | 21–25 | Interpret input/output, domain/range, domain restrictions and the vertical-line test. |
+| **B. Reading the function family** | 25–35 | Recognize power/polynomial/rational versus trig/exp/log families and related graphs. |
+| **C. Increasing/decreasing and the limit idea** | 35–40 | Interpret monotonic intervals and values approached around a point. |
+| **D. Computing limits safely** | 40–46 | Apply valid limit laws, factoring/rationalization, one-sided reasoning and radians-based trigonometric limits. |
+| **E. Continuity and piecewise functions** | 47–53 | Test the three continuity conditions and solve a parameter matching problem. |
 
-## Concept dependency map
-- **Established/assumed:** numbers and fractions, squares, roots, factorization, inequalities, basic trig, reading coordinate axes.
-- **Brief bridge at first use:** set/interval notation, input-output intuition, slope-free meaning of increasing, approaching without reaching, radians for trig limits.
-- **Taught in this block:** function/domain/range → function families → monotonic intervals → limit/one-sided limit → algebraic/trig limit methods → continuity/piecewise matching.
-- **Deferred:** derivative, formal epsilon–delta proof, L'Hôpital's rule, inverse-function subtleties, differentiation rules.
+Chapter 1 working drafts: `working-drafts/01-functions.md` to `working-drafts/05-continuity.md`.
 
-## Proposed instructional visual beats (not storyboards)
-Input/output arrows and restricted domain; comparing 4 graph silhouettes; a left-to-right graph walk; a removable hole with neighboring values; cancellation on an equation board and a unit-circle/radian reminder; matching a piecewise curve at its join.
+## Concept/prerequisite map
+- **Assumed/possibly diagnosed:** basic arithmetic with positive/negative values, fraction operations, solving equations, polynomial factorization, plotting axes, introductory trigonometry.
+- **Taught in Module 0:** real numbers and sets → line/order and set operations → intervals and inequality solutions → absolute value as distance → factored polynomials, rational sign analysis and boundary exclusion.
+- **Taught in Chapter 1 drafts:** domain/range using interval fluency → function families → increasing/decreasing → limits and their laws → continuity.
+- **Deferred:** derivatives, formal epsilon–delta rigor, L'Hôpital, derivative rules and later-book chapters.
 
-## Source traceability
-- Primary: `references/SOURCE_REVIEW.md`; source key `abd-el-salam-math-i-scan`.
-- Complete spoken working drafts plus independent attempts/feedback: `working-drafts/01-functions.md` through `05-continuity.md`.
-- **No stable IDs/order issued.** Stage 02 is explicitly reserved for full educational/scientific critique and rewrite; Stage 03 will decide boundaries and issue approved IDs.
+## Preliminary visual ideas (nonproduction)
+A real-line zoom; set union/intersection overlap; bracket/circle endpoint examples; flipping order under negative scaling; distance arrows for absolute value; alternating signs on intervals and hollow excluded denominator point. These are **rough teaching ideas only**; formal storyboards and scene JSON must wait for Stage 04.
+
+## Evidence and workflow
+- Original scanned source and exact page map: `references/SOURCE_REVIEW.md`.
+- Four **complete** Preliminaries continuous spoken drafts and five previously authored Chapter 1 drafts are in `working-drafts/`. Each contains its own independent attempt prompts and post-attempt feedback.
+- Stage 01 is **not** a scientific or teaching critique. Stage 02 after a human `next` will critique and rewrite the combined sequence (P-A–P-D, A–E), without prematurely freezing boundaries or creating scenes.
+- **No stable lesson IDs/order have been issued.**
