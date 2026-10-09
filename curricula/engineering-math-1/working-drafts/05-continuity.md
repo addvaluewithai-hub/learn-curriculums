@@ -25,16 +25,16 @@
 في مسائل الاتصال، أنصحك تحط ترتيب صغير على الورقة: القيمة عند النقطة، نهاية من الشمال، نهاية من اليمين، ثم المقارنة. ما تبدأش بحل المجهول قبل ما تتأكد إن الناحيتين متفقتان أصلًا. وفي الدرس القادم عن المشتقة هنحتاج نفهم اتصال الدالة وسلوكها القريب جدًا، فالاتصال هنا مش نهاية منفصلة، ده أساس للحساب التفاضلي.
 
 ## Independent attempt Q-E1 — not spoken as heading
-**Question spoken (English):** A piecewise function is defined by $f(x)=x^2-2$ for (x<1), $f(1)=a$, and $f(x)=3x-4$ for (x>1). Find (a) so the function is continuous at $x=1$.
+**Question spoken (English):** A piecewise function is defined by $f(x)=x^2-2$ for $x<1$, $f(1)=a$, and $f(x)=3x-4$ for $x>1$. Find $a$ so the function is continuous at $x=1$.
 **Question spoken (Arabic support):** الدالة إكس تربيع ناقص اتنين قبل الواحد، وقيمتها عند واحد هي إيه المجهولة، وبعد الواحد ثلاثة إكس ناقص أربعة. أوجد إيه عشان تكون متصلة عند واحد.
 **Attempt:** written; withhold limits and parameter until after submission.
 
 ### Post-attempt feedback E1 — separate spoken text
-**Model answer (English):** $a=-1$; both one-sided limits equal $(-1)$.
+**Model answer (English):** $a=-1$; both one-sided limits equal $-1$.
 **Feedback spoken:** من الشمال نعوض في إكس تربيع ناقص اتنين لما إكس تقرب من واحد، فالنهاية سالب واحد. ومن اليمين ثلاثة في واحد ناقص أربعة برضه سالب واحد. إذن النهاية الكلية سالب واحد. عشان الاتصال لازم قيمة الدالة عند واحد، اللي رمزنا لها بإيه، تساوي سالب واحد.
 
 ## Independent attempt Q-E2 — not spoken as heading
-**Question spoken (English):** Let $h(x)=(x^2-4)/(x-2)$ for $x\ne2$, and let $h(2)=5$. Is (h) continuous at $x=2$? Explain using the limit and the function value.
+**Question spoken (English):** Let $h(x)=(x^2-4)/(x-2)$ for $x\ne2$, and let $h(2)=5$. Is $h$ continuous at $x=2$? Explain using the limit and the function value.
 **Question spoken (Arabic support):** لو الدالة بتساوي إكس تربيع ناقص أربعة على إكس ناقص اتنين بعيدًا عن اتنين، لكن قيمتها عند اتنين تساوي خمسة؛ هل هي متصلة عند اتنين؟ وضح السبب.
 **Attempt:** written; no answer or factored equation before response.
 
