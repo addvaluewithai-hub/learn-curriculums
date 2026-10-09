@@ -25,8 +25,10 @@
 - **B02 drafts:** `working-drafts/01-functions.md`, `02-function-families.md`, `03-monotonicity-limits.md`, `04-calculating-limits.md`, `05-continuity.md`.
 - **Shared historical critique:** `reviews/STAGE_02_CRITIQUE.md`, P-A–P-D for B01, A–E for B02. **Nine** script drafts; **29** independent question / post-attempt-feedback pairs total. Source/artifact IDs and ordering are **provisional**, not stable issued IDs.
 
+- **Migration evidence:** `reviews/WORKFLOW_MIGRATION.md` preserves the prior-to-current governance mapping, safe two-parent main sync and historical content invariants.
+
 ## Actual evidence, outstanding controls and next authorization
 - **Earlier Stage 02 actual checks:** Github readback of 9 scripts, 29 prompts/29 feedback pairs, 21 narrowly scoped math/numerical spot checks. **No** verified source/teaching human sign-off, spoken TTS playback, local full repository check, or published student edition.
-- **Migration check scope:** new `SOURCE_MANIFEST.md` and `SOURCE_COVERAGE.md` written from verified PDF bytes/current sampled page views; Blocks STATUS and master roadmap now tie to original unchanged scripts and prior critique. Any claim of a successful merge/rebase, CI run or future-agent PDF retrieval requires **separate direct verification**.
+- **Migration check scope:** new `SOURCE_MANIFEST.md` and `SOURCE_COVERAGE.md` written from verified PDF bytes/current sampled page views; Blocks STATUS and master roadmap now tie to original unchanged scripts and prior critique. The governance merge into **this curriculum branch** was verified against main; **no merge into main**. CI/local checkout and future-agent PDF retrieval remain unverified.
 - **Unresolved human decisions:** authorized private source location/access; textbook redistribution rights; institution syllabus, expert validation and novice tests; final B01 lessons/IDs; subsequent B02 activation and source re-inspection.
 - **Current gate:** **NO new stage authorized**. Await comments on migrated structure or a **later** `next`, meaning **B01 Stage 03 only**. A separate later `next block` is not available until B01 Stage 04 checkpoint and human inspection. Stage 05/06 audio/preview remain explicitly deferred.
