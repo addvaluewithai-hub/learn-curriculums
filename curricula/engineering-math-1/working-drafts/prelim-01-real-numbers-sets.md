@@ -1,6 +1,6 @@
 # Provisional working draft P-A — الأعداد الحقيقية والمجموعات
 **Stage:** 01 — complete connected spoken teaching draft; not an issued lesson ID or scenes.
-**Source:** \`abd-el-salam-math-i-scan\`; printed textbook pp. 1–5 (PDF image pages 4–6).
+**Source:** `abd-el-salam-math-i-scan`; printed textbook pp. 1–5 (PDF image pages 4–6).
 **Starting knowledge:** basic arithmetic, reading number lines; number-set language taught here.
 **Working objectives:** distinguish real/rational/irrational numbers; represent order on the real line; interpret finite sets, membership, union, intersection and the empty set.
 **Attribution:** all conversational demonstrations and questions below are newly authored examples, not copied textbook exercises.
