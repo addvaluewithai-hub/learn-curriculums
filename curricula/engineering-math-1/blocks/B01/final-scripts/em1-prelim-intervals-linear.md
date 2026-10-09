@@ -1,6 +1,6 @@
 # Stage 03 final connected teaching script — Intervals & Linear Inequalities
-**Stable lesson ID:** \`em1-prelim-intervals-linear\` | **B01 order:** 2 of 5 | **Title:** الفترات والمتباينات الخطية
-**Source:** \`abd-el-salam-math-i-scan\`; printed pp. 5–8, PDF pp. 6–7; number-order rules also pp. 1–2. Precise photographed page boundaries may overlap adjacent concepts.
+**Stable lesson ID:** `em1-prelim-intervals-linear` | **B01 order:** 2 of 5 | **Title:** الفترات والمتباينات الخطية
+**Source:** `abd-el-salam-math-i-scan`; printed pp. 5–8, PDF pp. 6–7; number-order rules also pp. 1–2. Precise photographed page boundaries may overlap adjacent concepts.
 **Prerequisites:** real number line/order, sets, union/intersection (previous finalized B01 lesson); basic solving equations (brief bridge).
 **Taught targets:** interval notation with included/excluded endpoints and infinities; translate AND/OR into intersection/union; solve single and compound linear inequalities including a sign reversal under negative division.
 **Deferred:** absolute value (next lesson), signs of variable factors/rational expressions (last two B01 lessons).
