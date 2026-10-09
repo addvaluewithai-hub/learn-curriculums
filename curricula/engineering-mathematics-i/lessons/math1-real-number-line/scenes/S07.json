@@ -1,0 +1,85 @@
+{
+  "id": "S07",
+  "title": "Q02 — ترتيب الأعداد",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "mathematics-i-scan",
+      "locator": "printed pp.1–2; scan PDF image p.4"
+    },
+    {
+      "sourceId": "author-created",
+      "locator": "references/authored-examples.md: Q02"
+    }
+  ],
+  "narration": {
+    "id": "N07",
+    "role": "question",
+    "script": "سؤال على مكان العدد. Arrange -1/2, 0, and -2 from left to right on the real number line. رتّب سالب نص، وصفر، وسالب اتنين من الشمال لليمين على خط الأعداد. اكتب الترتيب بنفسك، وفكّر: مين أبعد ناحية السالب؟",
+    "units": [
+      {
+        "id": "U01",
+        "text": "Arrange -1/2, 0, and -2 from left to right on the real number line.",
+        "occurrence": 1,
+        "visualIntent": "Show exact English order prompt at its speech onset."
+      },
+      {
+        "id": "U02",
+        "text": "رتّب سالب نص، وصفر، وسالب اتنين من الشمال لليمين على خط الأعداد.",
+        "occurrence": 1,
+        "visualIntent": "Show Arabic support after English onset."
+      },
+      {
+        "id": "U03",
+        "text": "اكتب الترتيب بنفسك",
+        "occurrence": 1,
+        "visualIntent": "Allow independent written attempt before revealing point locations."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {},
+    "landscape": "16:9 an empty number line with zero tick and a written response field; do not pre-position −2 or −1/2.",
+    "portrait": "9:16 long prompt wraps legibly, followed by empty short number line and free-response area; show feedback only after submit."
+  },
+  "question": {
+    "id": "Q02",
+    "english": "Arrange -1/2, 0, and -2 from left to right on the real number line.",
+    "arabic": "رتّب سالب نص، وصفر، وسالب اتنين من الشمال لليمين على خط الأعداد.",
+    "attempt": "written",
+    "answer": {
+      "english": "-2, -1/2, 0.",
+      "arabic": "−٢، −١/٢، ٠.",
+      "reasoning": "-2 < -1/2 < 0 because real values increase left to right."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "From left to right: negative two, negative one half, zero. من الشمال لليمين: سالب اتنين، وبعده سالب نص، وبعده صفر. لأن سالب اتنين أصغر من سالب نص، وسالب نص أصغر من صفر. كل ما نروح يمين على خط الأعداد القيمة بتكبر حتى بين الأعداد السالبة. هنا بنقارن العدد نفسه، مش المسافة بتاعته من الصفر.",
+      "units": [
+        {
+          "id": "U01",
+          "text": "From left to right: negative two, negative one half, zero",
+          "occurrence": 1,
+          "visualIntent": "Reveal ordered markers only after attempt."
+        },
+        {
+          "id": "U02",
+          "text": "سالب اتنين أصغر من سالب نص",
+          "occurrence": 1,
+          "visualIntent": "Show −2 < −1/2 < 0 in math notation."
+        },
+        {
+          "id": "U03",
+          "text": "مش المسافة بتاعته من الصفر",
+          "occurrence": 1,
+          "visualIntent": "Clarify ordering vs distance; do not confuse with absolute value."
+        }
+      ]
+    }
+  }
+}
