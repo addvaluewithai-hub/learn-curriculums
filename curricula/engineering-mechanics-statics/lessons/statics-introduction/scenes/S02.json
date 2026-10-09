@@ -1,0 +1,61 @@
+{
+  "id": "S02",
+  "title": "Physics, mechanics, and design",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "book",
+      "locator": "PDF p. 7 / book p. 1 / §1.1"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "خلّينا نفرّق بين ثلاث أفكار. Physics بتساعدنا نفهم المادة والطاقة والقوانين اللي بتحكم الظواهر. Mechanics فرع من الفيزياء بيركّز على تأثير القوى على الأجسام أو الموائع، سواء ساكنة أو متحركة. أمّا Engineering فهي استخدام المعرفة العلمية والرياضية علشان نصمّم مكوّن أو نظام يلبّي احتياج حقيقي. لما ناخد مبادئ الـMechanics ونستخدمها في قرار تصميم هندسي مع مراعاة تأثير القوى، ده اسمه Engineering Mechanics. المهم نفهم الرحلة من تفسير الظاهرة إلى قرار التصميم، مش نحفظ كلمات وخلاص.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "Physics بتساعدنا نفهم المادة والطاقة",
+        "occurrence": 1,
+        "visualIntent": "Reveal physics concept."
+      },
+      {
+        "id": "U02",
+        "text": "Mechanics فرع من الفيزياء",
+        "occurrence": 1,
+        "visualIntent": "Nest mechanics under physics."
+      },
+      {
+        "id": "U03",
+        "text": "نصمّم مكوّن أو نظام يلبّي احتياج حقيقي",
+        "occurrence": 1,
+        "visualIntent": "Show engineering-design panel."
+      },
+      {
+        "id": "U04",
+        "text": "ده اسمه Engineering Mechanics",
+        "occurrence": 1,
+        "visualIntent": "Join ideas in design path."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {
+      "steps": [
+        "physics",
+        "mechanics as branch",
+        "engineering design",
+        "connection"
+      ],
+      "reveal": "word-anchored, no pre-disclosure",
+      "questionAnswerVisibleBeforeSubmission": false,
+      "reducedMotion": true
+    },
+    "landscape": "16:9 three concept columns with visual arrows; reveal only one main idea at once.",
+    "portrait": "9:16 vertical connected cards, English terms and Arabic support in large type."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "S05",
+  "title": "Checkpoint: concept",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "book",
+      "locator": "PDF p. 7 / book p. 1 / §1.1"
+    }
+  ],
+  "narration": {
+    "id": "Q01",
+    "role": "question",
+    "script": "دلوقتي خلّينا نجرب سؤال قصير عشان نتأكد إن الفكرة واضحة. Which statement best describes engineering mechanics? أنهي عبارة بتوصف الميكانيكا الهندسية بشكل أدق؟ اقرأ الاختيارات واختار أفضل وصف، وبعدين راجع التفسير.",
+    "units": [
+      {
+        "id": "UQ11",
+        "text": "Which statement best describes engineering mechanics?",
+        "occurrence": 1,
+        "visualIntent": "Reveal English question at onset."
+      },
+      {
+        "id": "UQ12",
+        "text": "أنهي عبارة بتوصف الميكانيكا الهندسية بشكل أدق؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when spoken."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {
+      "steps": [
+        "English question",
+        "Arabic support",
+        "neutral choice cards",
+        "valid submission then feedback"
+      ],
+      "reveal": "word-anchored, no pre-disclosure",
+      "questionAnswerVisibleBeforeSubmission": false,
+      "reducedMotion": true
+    },
+    "landscape": "16:9 sizeable question top, four large choices below; do not mark answer.",
+    "portrait": "9:16 English and Arabic above four full-width options; answer hidden."
+  },
+  "question": {
+    "id": "Q01",
+    "english": "Which statement best describes engineering mechanics?",
+    "arabic": "أنهي عبارة بتوصف الميكانيكا الهندسية بشكل أدق؟",
+    "attempt": "choice",
+    "answer": {
+      "english": "Applying mechanics principles to engineering design while accounting for forces.",
+      "arabic": "تطبيق مبادئ الميكانيكا في التصميم الهندسي مع مراعاة القوى.",
+      "reasoning": "Engineering mechanics connects the physical effect of forces to a real design decision."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "Applying mechanics principles to engineering design while accounting for forces. يعني بنستخدم مبادئ الميكانيكا في التصميم وبنراعي القوى. Engineering mechanics connects the physical effect of forces to a real design decision. وده الفرق بين فهم الظاهرة واستخدامها في تصميم.",
+      "units": [
+        {
+          "id": "F01a",
+          "text": "Applying mechanics principles to engineering design while accounting for forces.",
+          "occurrence": 1,
+          "visualIntent": "Show model answer after a valid attempt."
+        },
+        {
+          "id": "F01b",
+          "text": "Engineering mechanics connects the physical effect of forces to a real design decision.",
+          "occurrence": 1,
+          "visualIntent": "Reveal causal reasoning as heard."
+        }
+      ]
+    },
+    "options": [
+      "Memorizing physical constants only.",
+      "Applying mechanics principles to engineering design while accounting for forces.",
+      "Studying only chemical reactions.",
+      "Ignoring forces if a body is stationary."
+    ],
+    "correctIndex": 1
+  }
+}

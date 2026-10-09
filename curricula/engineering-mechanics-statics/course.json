@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "engineering-mechanics-statics",
+  "title": "Engineering Mechanics — Statics | الميكانيكا الهندسية",
+  "revision": "outline-v1",
+  "description": "Source-grounded statics lessons; first-year engineering audience is a working instructional assumption.",
+  "language": {
+    "explanation": "ar-EG",
+    "exam": "en",
+    "arabicSupport": true
+  },
+  "sources": [
+    {
+      "id": "book",
+      "title": "Engineering Mechanics [Statics], Prof. Rabea Abo-Elkhair — photographed PDF provided in conversation",
+      "access": "reviewed-notes",
+      "file": "references/source-review.md",
+      "limitations": "Original 36-page scanned PDF was read during authoring but is not stored in GitHub; notes alone cannot prove independent current access to the original."
+    },
+    {
+      "id": "examples",
+      "title": "Original Lesson 01 examples, authored for teaching",
+      "access": "available",
+      "file": "references/original-examples.md",
+      "limitations": "New explanatory examples, not reproductions of printed examples."
+    }
+  ],
+  "teacher": {
+    "voice": "Gacrux",
+    "style": "Mature warm calm Egyptian private teacher; medium pace, clear English engineering terms and natural pauses."
+  }
+}

@@ -1,0 +1,12 @@
+# Lesson 01 — authoring status
+- Date: 2026-10-09
+- Editor: ChatGPT authoring agent
+- Branch: `content/statics-lesson-01-introduction-20261009`
+- Scope: course sources/outline; lesson 01 metadata; eight structured scenes; three independent questions; bilingual scripts; separate feedback; wide + portrait storyboards.
+- Stage: script pilot awaiting review; not audio, timed, runtime, or student release.
+- PDF p. 7 (printed p. 1) §1.1 source reviewed in authoring session; PDF p. 8 (printed p. 2) used for transition. Original scan not stored in repository.
+- Academic blockers: independent re-verification of the source and teaching examples; audience first-year engineering provisional; TOC/body heading inconsistency acknowledged.
+- Checks: pending repository validation and CI; do not infer acceptance from structural status.
+- Media: no synthesis/paid requests; no audio/timestamps. Visual components: storyboards only, SDK absent.
+- Review: source, teaching, audio, timing, visual and runtime intentionally untested; no placeholder approvals.
+- Next: run script validation, python test suite and quality check; review source/teaching; request bilingual audio pilot only after approval.

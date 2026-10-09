@@ -1,0 +1,72 @@
+{
+  "id": "S03",
+  "title": "Statics and Dynamics",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "book",
+      "locator": "PDF p. 7 / book p. 1 / §1.1"
+    },
+    {
+      "sourceId": "examples",
+      "locator": "references/original-examples.md / scenario statements"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "الكتاب بيقدّم لنا مجالين أساسيين: Statics وDynamics. في مدخل الاستاتيكا بنركز على مواقف الجسم فيها ثابت أو في اتزان، وده ما يعنيش إن القوى اختفت؛ ممكن تكون فيه قوى موجودة ومتوازنة. أما Dynamics فبندرس فيها الحركة وتأثير القوى عليها. تخيّل اللوحة المعلقة ثابتة مكانها: ده مثال مناسب نبدأ نفكر فيه باستاتيكا. وتخيّل كابينة أسانسير سرعتها بتتغيّر: ده مثال يقرب لنا أسئلة الديناميكا. خد بالك، ده تصنيف تمهيدي؛ ومش بنقول إن مجرد الحركة معناها تسارع.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "Statics وDynamics",
+        "occurrence": 1,
+        "visualIntent": "Reveal topic labels at spoken onset."
+      },
+      {
+        "id": "U02",
+        "text": "ثابت أو في اتزان",
+        "occurrence": 1,
+        "visualIntent": "Show stationary sign."
+      },
+      {
+        "id": "U03",
+        "text": "وده ما يعنيش إن القوى اختفت",
+        "occurrence": 1,
+        "visualIntent": "Add neutral balanced-forces idea."
+      },
+      {
+        "id": "U04",
+        "text": "كابينة أسانسير سرعتها بتتغيّر",
+        "occurrence": 1,
+        "visualIntent": "Show changing-speed lift."
+      },
+      {
+        "id": "U05",
+        "text": "مجرد الحركة معناها تسارع",
+        "occurrence": 1,
+        "visualIntent": "Reveal misconception correction only now."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {
+      "steps": [
+        "two topics",
+        "stationary sign",
+        "present forces",
+        "speed-changing lift",
+        "caution"
+      ],
+      "reveal": "word-anchored, no pre-disclosure",
+      "questionAnswerVisibleBeforeSubmission": false,
+      "reducedMotion": true
+    },
+    "landscape": "16:9 side-by-side large sign and lift; no false implication of zero force.",
+    "portrait": "9:16 sequential sign/lift vertical frames, labels revealed with speech."
+  }
+}

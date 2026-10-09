@@ -1,0 +1,71 @@
+{
+  "id": "S08",
+  "title": "Recap and next lesson",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "book",
+      "locator": "PDF p. 7 / book p. 1 / §1.1"
+    },
+    {
+      "sourceId": "book",
+      "locator": "PDF p. 8 / book p. 2 / closing §1.1"
+    },
+    {
+      "sourceId": "examples",
+      "locator": "references/original-examples.md / scenario statements"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "نلخّص اللي فهمناه. Physics بتشرح الظواهر. Mechanics بتركّز على تأثير القوى. وEngineering Mechanics بتستخدم الفهم ده في قرارات التصميم. قابلنا مجالين: Statics لما نفكر في جسم ثابت أو في اتزان، وDynamics لما ندرس الحركة وتأثير القوى. وفي الأمثلة الهندسية لازم نحدد الحالة قبل ما نختار الطريقة. المرة الجاية هنبدأ من الكتاب بالـFundamental Concepts زي Length وTime وMass وForce، واحدة واحدة.",
+    "units": [
+      {
+        "id": "U51",
+        "text": "Physics بتشرح الظواهر",
+        "occurrence": 1,
+        "visualIntent": "Recap physics."
+      },
+      {
+        "id": "U52",
+        "text": "Engineering Mechanics بتستخدم الفهم ده",
+        "occurrence": 1,
+        "visualIntent": "Connect mechanics to design."
+      },
+      {
+        "id": "U53",
+        "text": "Statics لما نفكر في جسم ثابت أو في اتزان",
+        "occurrence": 1,
+        "visualIntent": "Contrast topics."
+      },
+      {
+        "id": "U54",
+        "text": "Fundamental Concepts زي Length وTime وMass وForce",
+        "occurrence": 1,
+        "visualIntent": "Preview next lesson without teaching definitions."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {
+      "steps": [
+        "physics",
+        "mechanics/design",
+        "statics/dynamics",
+        "next lesson"
+      ],
+      "reveal": "word-anchored, no pre-disclosure",
+      "questionAnswerVisibleBeforeSubmission": false,
+      "reducedMotion": true
+    },
+    "landscape": "16:9 3 progressive summary cards with a separated next-lesson footer.",
+    "portrait": "9:16 one recap idea per card and next lesson teaser; large readable text."
+  }
+}

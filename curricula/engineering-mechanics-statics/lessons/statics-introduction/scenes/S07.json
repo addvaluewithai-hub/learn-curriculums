@@ -1,0 +1,83 @@
+{
+  "id": "S07",
+  "title": "Checkpoint: design decision",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "book",
+      "locator": "PDF p. 7 / book p. 1 / §1.1"
+    },
+    {
+      "sourceId": "examples",
+      "locator": "references/original-examples.md / scenario statements"
+    }
+  ],
+  "narration": {
+    "id": "Q03",
+    "role": "question",
+    "script": "آخر سؤال، حاول تجاوب في سطر أو سطرين بنفسك. Why must an engineer consider forces before choosing a support for a wall-mounted sign? ليه المهندس لازم يراعي القوى قبل ما يختار حامل للوحة مثبتة في الحائط؟ اكتب فكرتك الأول، وبعدين قارنها بالإجابة النموذجية.",
+    "units": [
+      {
+        "id": "UQ31",
+        "text": "Why must an engineer consider forces before choosing a support for a wall-mounted sign?",
+        "occurrence": 1,
+        "visualIntent": "English written prompt appears."
+      },
+      {
+        "id": "UQ32",
+        "text": "ليه المهندس لازم يراعي القوى قبل ما يختار حامل للوحة مثبتة في الحائط؟",
+        "occurrence": 1,
+        "visualIntent": "Arabic follows its actual onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {
+      "steps": [
+        "neutral original bracket",
+        "English written question",
+        "Arabic support",
+        "empty text-input area; no answer"
+      ],
+      "reveal": "word-anchored, no pre-disclosure",
+      "questionAnswerVisibleBeforeSubmission": false,
+      "reducedMotion": true
+    },
+    "landscape": "16:9 bracket sketch left, large question and writing field right; model answer hidden.",
+    "portrait": "9:16 bracket top; bilingual prompt and comfortable text field below."
+  },
+  "question": {
+    "id": "Q03",
+    "english": "Why must an engineer consider forces before choosing a support for a wall-mounted sign?",
+    "arabic": "ليه المهندس لازم يراعي القوى قبل ما يختار حامل للوحة مثبتة في الحائط؟",
+    "attempt": "written",
+    "answer": {
+      "english": "Because forces affect the sign and its support, so their effects matter when choosing a suitable support.",
+      "arabic": "لأن القوى بتؤثر على اللوحة والحامل ولازم نراعي تأثيرها لما نختار التصميم.",
+      "reasoning": "This is a design-purpose explanation; load calculations and safety checks come later."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "Because forces affect the sign and its support, so their effects matter when choosing a suitable support. يعني لازم نراعي تأثير القوى قبل الاختيار. This is a design-purpose explanation; load calculations and safety checks come later. الشرح هنا للفكرة، مش شهادة بأمان حامل من غير حسابات.",
+      "units": [
+        {
+          "id": "F03a",
+          "text": "Because forces affect the sign and its support, so their effects matter when choosing a suitable support.",
+          "occurrence": 1,
+          "visualIntent": "Show model answer after a valid attempt."
+        },
+        {
+          "id": "F03b",
+          "text": "This is a design-purpose explanation; load calculations and safety checks come later.",
+          "occurrence": 1,
+          "visualIntent": "Reveal causal reasoning as heard."
+        }
+      ]
+    }
+  }
+}

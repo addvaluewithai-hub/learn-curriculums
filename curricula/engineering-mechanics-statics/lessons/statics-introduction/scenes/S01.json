@@ -1,0 +1,58 @@
+{
+  "id": "S01",
+  "title": "Why learn engineering mechanics?",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "book",
+      "locator": "PDF p. 7 / book p. 1 / §1.1"
+    },
+    {
+      "sourceId": "examples",
+      "locator": "references/original-examples.md / scenario statements"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "قبل ما ندخل في أي قانون، تخيّل لوحة إعلانية متعلقة في واجهة مبنى. إزاي المهندس يقرر إن الحامل بتاعها مناسب؟ لازم يفهم تأثير القوى على اللوحة والحامل. هنا بيظهر دور Engineering Mechanics، أو الميكانيكا الهندسية. النهارده هنفهم معناها، وعلاقتها بالفيزياء والتصميم، وهنعرف الفرق الأولي بين Statics وDynamics. مفيش حسابات مطلوبة دلوقتي، إحنا بنبني الفكرة اللي هنستخدمها طول المنهج.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "تخيّل لوحة إعلانية متعلقة في واجهة مبنى",
+        "occurrence": 1,
+        "visualIntent": "Show neutral original sign+bracket drawing."
+      },
+      {
+        "id": "U02",
+        "text": "لازم يفهم تأثير القوى على اللوحة والحامل",
+        "occurrence": 1,
+        "visualIntent": "Disclose force-direction hints without magnitudes."
+      },
+      {
+        "id": "U03",
+        "text": "Engineering Mechanics، أو الميكانيكا الهندسية",
+        "occurrence": 1,
+        "visualIntent": "Introduce bilingual title."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {
+      "steps": [
+        "sign sketch",
+        "force effect idea",
+        "bilingual course title"
+      ],
+      "reveal": "word-anchored, no pre-disclosure",
+      "questionAnswerVisibleBeforeSubmission": false,
+      "reducedMotion": true
+    },
+    "landscape": "16:9 left sign drawing and spacious right keywords; progressive disclosure, no calculations.",
+    "portrait": "9:16 sign top, question middle, bilingual title bottom; ≥320 px readability."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "statics-introduction",
+  "curriculumId": "engineering-mechanics-statics",
+  "order": 1,
+  "title": "مقدمة في الميكانيكا الهندسية",
+  "englishTitle": "Introduction to Engineering Mechanics",
+  "scriptRevision": "script-v1",
+  "prerequisites": [
+    "School-level idea of a push or pull."
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Relate physics, mechanics, design and engineering mechanics.",
+      "taughtIn": [
+        "S01",
+        "S02"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Distinguish a stationary sign / statics case from a changing-speed lift / dynamics case.",
+      "taughtIn": [
+        "S03"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Explain why considering forces matters to the support-design decision without calculating loads.",
+      "taughtIn": [
+        "S04"
+      ],
+      "assessedIn": [
+        "Q03"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08"
+  ],
+  "glossary": [
+    {
+      "english": "Physics",
+      "arabic": "الفيزياء"
+    },
+    {
+      "english": "Mechanics",
+      "arabic": "الميكانيكا"
+    },
+    {
+      "english": "Engineering Mechanics",
+      "arabic": "الميكانيكا الهندسية"
+    },
+    {
+      "english": "Statics",
+      "arabic": "الاستاتيكا"
+    },
+    {
+      "english": "Dynamics",
+      "arabic": "الديناميكا"
+    },
+    {
+      "english": "Design",
+      "arabic": "التصميم الهندسي"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "S06",
+  "title": "Checkpoint: statics or dynamics",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "book",
+      "locator": "PDF p. 7 / book p. 1 / §1.1"
+    },
+    {
+      "sourceId": "examples",
+      "locator": "references/original-examples.md / scenario statements"
+    }
+  ],
+  "narration": {
+    "id": "Q02",
+    "role": "question",
+    "script": "خلّينا نطبّق التصنيف. A sign hangs motionless from a bracket. Which topic would you study first? لو لوحة معلقة وثابتة على حامل، نبدأ بأي فرع من الميكانيكا؟ افتكر إن الجسم ممكن يكون ثابت ومع ذلك عليه قوى. اختار وبعدين شوف السبب.",
+    "units": [
+      {
+        "id": "UQ21",
+        "text": "A sign hangs motionless from a bracket. Which topic would you study first?",
+        "occurrence": 1,
+        "visualIntent": "English question and diagram on onset."
+      },
+      {
+        "id": "UQ22",
+        "text": "لو لوحة معلقة وثابتة على حامل، نبدأ بأي فرع من الميكانيكا؟",
+        "occurrence": 1,
+        "visualIntent": "Arabic at spoken onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {
+      "steps": [
+        "neutral sign",
+        "English question",
+        "Arabic question",
+        "unmarked options"
+      ],
+      "reveal": "word-anchored, no pre-disclosure",
+      "questionAnswerVisibleBeforeSubmission": false,
+      "reducedMotion": true
+    },
+    "landscape": "16:9 sign on left, English/Arabic question plus choice cards on right.",
+    "portrait": "9:16 sign top, readable English/Arabic prompt and stacked answers."
+  },
+  "question": {
+    "id": "Q02",
+    "english": "A sign hangs motionless from a bracket. Which topic would you study first?",
+    "arabic": "لو لوحة معلقة وثابتة على حامل، نبدأ بأي فرع من الميكانيكا؟",
+    "attempt": "choice",
+    "answer": {
+      "english": "Statics.",
+      "arabic": "الاستاتيكا.",
+      "reasoning": "The sign is described as motionless; a statics model is the first useful way to reason about the forces on its support."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "Statics. يعني الاستاتيكا. The sign is described as motionless; a statics model is the first useful way to reason about the forces on its support. خلي بالك السكون مش معناه إن مفيش قوى.",
+      "units": [
+        {
+          "id": "F02a",
+          "text": "Statics.",
+          "occurrence": 1,
+          "visualIntent": "Show model answer after a valid attempt."
+        },
+        {
+          "id": "F02b",
+          "text": "The sign is described as motionless; a statics model is the first useful way to reason about the forces on its support.",
+          "occurrence": 1,
+          "visualIntent": "Reveal causal reasoning as heard."
+        }
+      ]
+    },
+    "options": [
+      "Statics",
+      "Dynamics",
+      "Thermodynamics",
+      "Electrical circuits"
+    ],
+    "correctIndex": 0
+  }
+}

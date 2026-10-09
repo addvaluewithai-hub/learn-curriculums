@@ -1,0 +1,69 @@
+{
+  "id": "S04",
+  "title": "Engineering application",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "book",
+      "locator": "PDF p. 7 / book p. 1 / §1.1"
+    },
+    {
+      "sourceId": "book",
+      "locator": "PDF p. 8 / book p. 2 / closing §1.1"
+    },
+    {
+      "sourceId": "examples",
+      "locator": "references/original-examples.md / scenario statements"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "نرجع للوحة الإعلانية. المهندس مش بس بيسأل: القوى موجودة ولا لأ؟ هو محتاج يعرف تأثيرها علشان يختار طريقة تثبيت مناسبة. الفكرة نفسها مهمة في تصميم حامل معدني، أو جزء في ماكينة، أو حتى كوبري مشاة. عشان كده الميكانيكا الهندسية أساسية في تخصصات زي Civil Engineering وMechanical Engineering وتخصصات تانية. لسه قدّامنا أدوات هنتعلمها خطوة خطوة: تمثيل القوى، وبعدها تحليلها وحل مسائلها. أهم فكرة إن فهم القوى خطوة في قرار التصميم، مش مجرد قانون في ورقة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "يختار طريقة تثبيت مناسبة",
+        "occurrence": 1,
+        "visualIntent": "Reveal design decision (not a safety certification)."
+      },
+      {
+        "id": "U02",
+        "text": "جزء في ماكينة، أو حتى كوبري مشاة",
+        "occurrence": 1,
+        "visualIntent": "New original icons appear."
+      },
+      {
+        "id": "U03",
+        "text": "Civil Engineering وMechanical Engineering",
+        "occurrence": 1,
+        "visualIntent": "Show the English discipline terms."
+      },
+      {
+        "id": "U04",
+        "text": "تمثيل القوى، وبعدها تحليلها",
+        "occurrence": 1,
+        "visualIntent": "Preview later topics without teaching mathematics."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {
+      "steps": [
+        "sign bracket",
+        "applications",
+        "disciplines",
+        "future learning"
+      ],
+      "reveal": "word-anchored, no pre-disclosure",
+      "questionAnswerVisibleBeforeSubmission": false,
+      "reducedMotion": true
+    },
+    "landscape": "16:9 dominant original bracket graphic; short stepwise examples on right.",
+    "portrait": "9:16 dominant bracket at top, stacked application cards, later-topic teaser at bottom."
+  }
+}
