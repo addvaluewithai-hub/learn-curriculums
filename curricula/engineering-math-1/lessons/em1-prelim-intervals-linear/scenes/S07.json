@@ -1,0 +1,49 @@
+{
+  "id": "S07",
+  "title": "Teaching 7",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 5–8, order rules pp. 1–2; PDF pp. 6–7; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N07",
+    "role": "teaching",
+    "script": "دلوقتي نستخدم لغة الفترات عشان نكتب حلول Inequalities، يعني متباينات. المعادلة ممكن تسألنا عن قيمة واحدة، لكن المتباينة عادةً بتدينا مجموعة أعداد. مثال: $4x+3<15$. اطرح تلاتة من الطرفين فيبقى $4x<12$. نقسم على أربعة الموجب فنحصل على $x<3$. الحل مش «تلاتة»؛ تلاتة أصلاً مش داخلة! الحل هو كل القيم اللي أقل منها، أو $(-\\infty,3)$.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "دلوقتي نستخدم لغة الفترات عشان نكتب حلول Inequalities، يعني متباينات. ",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "د. مثال: $4x+3<15$. اطرح تلاتة من الطرفين فيبقى $4x<12$. نقس",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": "تة أصلاً مش داخلة! الحل هو كل القيم اللي أقل منها، أو $(-\\infty,3)$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-intervals-linear-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve inequalities with negative division sign reversal",
+      "stage": 1
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

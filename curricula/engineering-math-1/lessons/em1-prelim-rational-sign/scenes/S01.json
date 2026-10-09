@@ -1,0 +1,49 @@
+{
+  "id": "S01",
+  "title": "Teaching 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "فاكر جدول الإشارات اللي قسمنا بيه خط الأعداد عند جذور العوامل؟ دلوقتي هناخد نفس الطريقة، بس بدل حاصل ضرب كثيرات حدود، هيكون عندنا كسر. والكسر له قانون لازم نفتكره قبل أي رسم: المقام ماينفعش يساوي صفر. يعني لو طلع عندنا جذر للبسط، ممكن نضمّه أو نستبعده حسب علامة المتباينة. لكن لو لقيت قيمة تخلي المقام صفر، القيمة دي ممنوعة دائمًا؛ لأنها أصلًا مش ضمن الأعداد اللي التعبير معرف عندها.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "فاكر جدول الإشارات اللي قسمنا بيه خط الأعداد عند جذور العوامل؟ دلوقتي ",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "سم: المقام ماينفعش يساوي صفر. يعني لو طلع عندنا جذر للبسط، م",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": "ي ممنوعة دائمًا؛ لأنها أصلًا مش ضمن الأعداد اللي التعبير معرف عندها.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve rational inequalities and exclude zero denominators",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

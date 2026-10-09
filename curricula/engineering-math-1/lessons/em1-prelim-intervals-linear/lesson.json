@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-prelim-intervals-linear",
+  "curriculumId": "engineering-math-1",
+  "order": 2,
+  "title": "الفترات والمتباينات الخطية",
+  "englishTitle": "Intervals and Linear Inequalities",
+  "scriptRevision": "b01-stage04-canonical-v1",
+  "prerequisites": [
+    "em1-prelim-real-sets",
+    "Basic linear equations"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Write and interpret intervals, AND/OR conditions",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S15"
+      ],
+      "assessedIn": [
+        "EM1-IL-Q1"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Solve inequalities with negative division sign reversal",
+      "taughtIn": [
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S15"
+      ],
+      "assessedIn": [
+        "EM1-IL-Q2"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Solve compound linear bounds and express intervals",
+      "taughtIn": [
+        "S12",
+        "S13",
+        "S15"
+      ],
+      "assessedIn": [
+        "EM1-IL-Q3"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15"
+  ],
+  "glossary": []
+}

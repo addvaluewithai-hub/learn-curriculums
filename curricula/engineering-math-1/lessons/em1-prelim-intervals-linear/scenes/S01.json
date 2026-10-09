@@ -1,0 +1,49 @@
+{
+  "id": "S01",
+  "title": "Teaching 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 5–8, order rules pp. 1–2; PDF pp. 6–7; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "تخيل إن دكتور المادة قال لك: اختار أي درجة بين ستين وتمانين. هتسأل السؤال اللي ممكن يغير إجابتك تمامًا: هل الستين داخلة؟ وهل التمانين داخلة؟ في الرياضيات لازم الكلام يبقى محدد. عشان كده هنستخدم Intervals، يعني فترات من الأعداد الحقيقية، ونرسمها على خط الأعداد اللي عرفناه.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "تخيل إن دكتور المادة قال لك: اختار أي درجة بين ستين وتمانين. هتسأل الس",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "خلة؟ وهل التمانين داخلة؟ في الرياضيات لازم الكلام يبقى محدد.",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": " يعني فترات من الأعداد الحقيقية، ونرسمها على خط الأعداد اللي عرفناه.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-intervals-linear-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Write and interpret intervals, AND/OR conditions",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

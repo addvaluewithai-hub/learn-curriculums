@@ -1,0 +1,49 @@
+{
+  "id": "S02",
+  "title": "Teaching 2",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "خد المسألة $\\frac{x+1}{x-2}\\le0$. بسط الكسر يساوي صفر لما إكس تساوي سالب واحد. والمقام يساوي صفر لما إكس تساوي اتنين. هنرسم النقطتين على خط الأعداد، ونعلّم إن اتنين ممنوعة، حتى قبل ما نعرف الإشارة. كده عندنا تلات مناطق: أقل من سالب واحد، وبين سالب واحد واتنين، وأكبر من اتنين.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خد المسألة $\\frac{x+1}{x-2}\\le0$. بسط الكسر يساوي صفر لما إكس تساوي سا",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "هنرسم النقطتين على خط الأعداد، ونعلّم إن اتنين ممنوعة، حتى ق",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": "تلات مناطق: أقل من سالب واحد، وبين سالب واحد واتنين، وأكبر من اتنين.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve rational inequalities and exclude zero denominators",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

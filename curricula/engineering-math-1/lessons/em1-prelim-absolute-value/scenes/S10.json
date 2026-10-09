@@ -1,0 +1,91 @@
+{
+  "id": "S10",
+  "title": "Independent exam question 2",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 9–12; PDF pp. 8–9; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N10",
+    "role": "question",
+    "script": "Solve $|2x-3|\\le7$ and express the real solution set in interval notation.\nحل القيمة المطلقة لاتنين إكس ناقص تلاتة أصغر من أو تساوي سبعة، واكتب الحل في صورة فترة.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Solve $|2x-3|\\le7$ and express the real solution set in interval notation.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "حل القيمة المطلقة لاتنين إكس ناقص تلاتة أصغر من أو تساوي سبعة، واكتب الحل في صورة فترة.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-absolute-value-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Solve absolute-value inequalities with proper endpoints",
+      "stage": 1
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-AV-Q2",
+    "english": "Solve $|2x-3|\\le7$ and express the real solution set in interval notation.",
+    "arabic": "حل القيمة المطلقة لاتنين إكس ناقص تلاتة أصغر من أو تساوي سبعة، واكتب الحل في صورة فترة.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$-7\\le2x-3\\le7$, so $-4\\le2x\\le10$ and $-2\\le x\\le5$; solution $[-2,5]$.",
+      "arabic": "نكتب اللي جوه القيمة المطلقة بين سالب سبعة وموجب سبعة، ونضيف تلاتة للأطراف، وبعدها نقسم على اتنين الموجب. الناتج من سالب اتنين لحد خمسة، والطرفان داخلان. طريقة الفترات هنا مبنية على المسافة، مش قاعدة محفوظة من غير سبب.",
+      "reasoning": "نكتب اللي جوه القيمة المطلقة بين سالب سبعة وموجب سبعة، ونضيف تلاتة للأطراف، وبعدها نقسم على اتنين الموجب. الناتج من سالب اتنين لحد خمسة، والطرفان داخلان. طريقة الفترات هنا مبنية على المسافة، مش قاعدة محفوظة من غير سبب."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "$-7\\le2x-3\\le7$, so $-4\\le2x\\le10$ and $-2\\le x\\le5$; solution $[-2,5]$.\nنكتب اللي جوه القيمة المطلقة بين سالب سبعة وموجب سبعة، ونضيف تلاتة للأطراف، وبعدها نقسم على اتنين الموجب. الناتج من سالب اتنين لحد خمسة، والطرفان داخلان. طريقة الفترات هنا مبنية على المسافة، مش قاعدة محفوظة من غير سبب.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$-7\\le2x-3\\le7$, so $-4\\le2x\\le10$ and $-2\\le x\\le5$; solution $[-2,5]$.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "نكتب اللي جوه القيمة المطلقة بين سالب سبعة وموجب سبعة، ونضيف تلاتة للأطراف، وبعدها نقسم على اتنين الموجب. الناتج من سالب اتنين لحد خمسة، والطرفان داخلان. طريقة الفترات هنا مبنية على المسافة، مش قاعدة محفوظة من غير سبب.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-absolute-value-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 1
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

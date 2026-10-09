@@ -1,0 +1,49 @@
+{
+  "id": "S12",
+  "title": "Teaching 12",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N12",
+    "role": "teaching",
+    "script": "وهنا طريقة منظمة للامتحان: اكتب القيم الممنوعة من البداية لو فيه مقام، حدد أصفار البسط والعوامل، اعمل جدول الإشارات، حل كل شرط لوحده، ثم استخدم تقاطعًا لو السؤال قال and أو اتحادًا لو السؤال قال or. بعدين راجع الأقواس: هل القيمة ناتجها صفر؟ هل مسموح بالمساواة؟ وهل المقام معرف؟ ده سبب إننا بدأنا المنهج كله بخط الأعداد والفترات.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "وهنا طريقة منظمة للامتحان: اكتب القيم الممنوعة من البداية لو فيه مقام،",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "تقاطعًا لو السؤال قال and أو اتحادًا لو السؤال قال or. بعدين",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": " وهل المقام معرف؟ ده سبب إننا بدأنا المنهج كله بخط الأعداد والفترات.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Intersect separate rational/linear constraints",
+      "stage": 2
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

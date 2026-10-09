@@ -1,0 +1,37 @@
+{
+  "id": "S10",
+  "title": "Teaching 10",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 5–8, order rules pp. 1–2; PDF pp. 6–7; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N10",
+    "role": "teaching",
+    "script": "يلا نختبر قلب اتجاه العلامة بأرقام مختلفة عن المثال المحلول.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "يلا نختبر قلب اتجاه العلامة بأرقام مختلفة عن المثال المحلول.",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-intervals-linear-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve inequalities with negative division sign reversal",
+      "stage": 1
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

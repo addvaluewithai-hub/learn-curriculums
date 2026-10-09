@@ -1,0 +1,49 @@
+{
+  "id": "S09",
+  "title": "Teaching 9",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 1–5; PDF pp. 4–6; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "teaching",
+    "script": "ولو العناصر كتير، نقدر نعرّف المجموعة بشرط بدل ما نعدها. مثال: $\\{x\\in\\mathbb R:x>0\\}$، وده معناه الأعداد الحقيقية الموجبة. علامة $\\mathbb R$ بتحدد مجموعة الأعداد اللي بنختار منها، والشرط $x>0$ بيحدد مين اللي يدخل. هنحوّل نفس الفكرة لفترات لما نبدأ الدرس الجاي.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "ولو العناصر كتير، نقدر نعرّف المجموعة بشرط بدل ما نعدها. مثال: $\\{x\\in",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "يقية الموجبة. علامة $\\mathbb R$ بتحدد مجموعة الأعداد اللي بن",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": " بيحدد مين اللي يدخل. هنحوّل نفس الفكرة لفترات لما نبدأ الدرس الجاي.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-real-sets-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Interpret set union, intersection, membership and the empty set",
+      "stage": 1
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

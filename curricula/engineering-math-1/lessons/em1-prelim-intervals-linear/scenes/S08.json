@@ -1,0 +1,49 @@
+{
+  "id": "S08",
+  "title": "Teaching 8",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 5–8, order rules pp. 1–2; PDF pp. 6–7; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "teaching",
+    "script": "فيه قاعدة لازم نفهم سببها: لما نضرب أو نقسم طرفي متباينة على عدد سالب معلوم الإشارة، بنعكس اتجاه علامة الترتيب. ليه؟ لأن $3>1$، لكن لو ضربنا الرقمين في سالب واحد، بقى $-3<-1$. ترتيب أماكن النقط على خط الأعداد اتقلب. لو عندنا $-2x+5>11$، نطرح خمسة فتبقى $-2x>6$، ثم نقسم على سالب اتنين، فنقلب العلامة ونطلع $x<-3$. لازم تجرب رقم يحقق شرطك، زي سالب أربعة: سالب اتنين في سالب أربعة زائد خمسة يساوي تلتاشر، فعلًا أكبر من حداشر.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "فيه قاعدة لازم نفهم سببها: لما نضرب أو نقسم طرفي متباينة على عدد سالب ",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "قط على خط الأعداد اتقلب. لو عندنا $-2x+5>11$، نطرح خمسة فتبق",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": "الب اتنين في سالب أربعة زائد خمسة يساوي تلتاشر، فعلًا أكبر من حداشر.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-intervals-linear-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve inequalities with negative division sign reversal",
+      "stage": 1
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

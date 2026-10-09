@@ -1,0 +1,91 @@
+{
+  "id": "S06",
+  "title": "Independent exam question 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "question",
+    "script": "Solve $\\frac{x-4}{x+3}>0$ over the real numbers. Identify every excluded denominator value.\nحل إكس ناقص أربعة على إكس زائد تلاتة أكبر من صفر، واكتب القيمة الممنوعة بسبب المقام.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Solve $\\frac{x-4}{x+3}>0$ over the real numbers. Identify every excluded denominator value.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "حل إكس ناقص أربعة على إكس زائد تلاتة أكبر من صفر، واكتب القيمة الممنوعة بسبب المقام.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Solve rational inequalities and exclude zero denominators",
+      "stage": 0
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-RA-Q1",
+    "english": "Solve $\\frac{x-4}{x+3}>0$ over the real numbers. Identify every excluded denominator value.",
+    "arabic": "حل إكس ناقص أربعة على إكس زائد تلاتة أكبر من صفر، واكتب القيمة الممنوعة بسبب المقام.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$(-\\infty,-3)\\cup(4,\\infty)$; $x=-3$ is excluded because the denominator is zero. $x=4$ is not included because the inequality is strict.",
+      "arabic": "المقام يساوي صفر عند سالب تلاتة، فهي نقطة ممنوعة. البسط يساوي صفر عند أربعة، لكن علامة أكبر من صفر لا تسمح بضمها. قبل سالب تلاتة البسط والمقام سالبين فالناتج موجب. بين سالب تلاتة وأربعة إشارتهم مختلفة فالناتج سالب. وبعد أربعة الاتنين موجبين. ناخد الفترتين الخارجيتين ونستبعد الحدين.",
+      "reasoning": "المقام يساوي صفر عند سالب تلاتة، فهي نقطة ممنوعة. البسط يساوي صفر عند أربعة، لكن علامة أكبر من صفر لا تسمح بضمها. قبل سالب تلاتة البسط والمقام سالبين فالناتج موجب. بين سالب تلاتة وأربعة إشارتهم مختلفة فالناتج سالب. وبعد أربعة الاتنين موجبين. ناخد الفترتين الخارجيتين ونستبعد الحدين."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "$(-\\infty,-3)\\cup(4,\\infty)$; $x=-3$ is excluded because the denominator is zero. $x=4$ is not included because the inequality is strict.\nالمقام يساوي صفر عند سالب تلاتة، فهي نقطة ممنوعة. البسط يساوي صفر عند أربعة، لكن علامة أكبر من صفر لا تسمح بضمها. قبل سالب تلاتة البسط والمقام سالبين فالناتج موجب. بين سالب تلاتة وأربعة إشارتهم مختلفة فالناتج سالب. وبعد أربعة الاتنين موجبين. ناخد الفترتين الخارجيتين ونستبعد الحدين.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$(-\\infty,-3)\\cup(4,\\infty)$; $x=-3$ is excluded because the denominator is zero. $x=4$ is not included because the inequality is strict.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "المقام يساوي صفر عند سالب تلاتة، فهي نقطة ممنوعة. البسط يساوي صفر عند أربعة، لكن علامة أكبر من صفر لا تسمح بضمها. قبل سالب تلاتة البسط والمقام سالبين فالناتج موجب. بين سالب تلاتة وأربعة إشارتهم مختلفة فالناتج سالب. وبعد أربعة الاتنين موجبين. ناخد الفترتين الخارجيتين ونستبعد الحدين.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-rational-sign-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 0
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

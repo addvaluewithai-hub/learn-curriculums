@@ -1,0 +1,49 @@
+{
+  "id": "S03",
+  "title": "Teaching 3",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 5–8, order rules pp. 1–2; PDF pp. 6–7; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "طيب لو شرطنا مش محصور بين رقمين؟ لو $x\\ge-1$، نبدأ من سالب واحد بقوس مربع، ونمشي لليمين للأبد، فنكتب $[-1,\\infty)$. وما لا نهاية مش عدد نقدر نوصل له أو نساويه؛ لذلك القوس عند $\\infty$ أو $-\\infty$ دايمًا دائري. لو $x<4$، الفترة $(-\\infty,4)$. وكل الأعداد الحقيقية نكتبها $(-\\infty,\\infty)$ أو $\\mathbb R$.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "طيب لو شرطنا مش محصور بين رقمين؟ لو $x\\ge-1$، نبدأ من سالب واحد بقوس م",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "عدد نقدر نوصل له أو نساويه؛ لذلك القوس عند $\\infty$ أو $-\\in",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": ",4)$. وكل الأعداد الحقيقية نكتبها $(-\\infty,\\infty)$ أو $\\mathbb R$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-intervals-linear-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Write and interpret intervals, AND/OR conditions",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "S10",
+  "title": "Independent exam question 2",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N10",
+    "role": "question",
+    "script": "Solve $\\frac{(x-2)(x+5)}{x-2}\\ge0$ over the real numbers. Explain whether $x=2$ may be included after cancellation.\nحل الكسر إكس ناقص اتنين في إكس زائد خمسة على إكس ناقص اتنين أكبر من أو يساوي صفر. هل ينفع تضم اتنين بعد الاختصار؟",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Solve $\\frac{(x-2)(x+5)}{x-2}\\ge0$ over the real numbers. Explain whether $x=2$ may be included after cancellation.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "حل الكسر إكس ناقص اتنين في إكس زائد خمسة على إكس ناقص اتنين أكبر من أو يساوي صفر. هل ينفع تضم اتنين بعد الاختصار؟",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Keep cancelled-factor holes excluded",
+      "stage": 1
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-RA-Q2",
+    "english": "Solve $\\frac{(x-2)(x+5)}{x-2}\\ge0$ over the real numbers. Explain whether $x=2$ may be included after cancellation.",
+    "arabic": "حل الكسر إكس ناقص اتنين في إكس زائد خمسة على إكس ناقص اتنين أكبر من أو يساوي صفر. هل ينفع تضم اتنين بعد الاختصار؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "The original expression requires $x\\ne2$. For allowed $x$, it reduces to $x+5\\ge0$. Solution $[-5,2)\\cup(2,\\infty)$. The point $x=2$ remains excluded.",
+      "arabic": "الاختصار صح بس لما إكس مش اتنين. بعيدًا عن القيمة دي، المتباينة بتقول إكس زائد خمسة أكبر من أو يساوي صفر، فنختار إكس من سالب خمسة وطالع. لكن لازم نشيل اتنين، لأن المقام الأصلي عندها صفر. وإشارة أو يساوي سمحت بسالب خمسة، ما سمحتش بقسمة على صفر.",
+      "reasoning": "الاختصار صح بس لما إكس مش اتنين. بعيدًا عن القيمة دي، المتباينة بتقول إكس زائد خمسة أكبر من أو يساوي صفر، فنختار إكس من سالب خمسة وطالع. لكن لازم نشيل اتنين، لأن المقام الأصلي عندها صفر. وإشارة أو يساوي سمحت بسالب خمسة، ما سمحتش بقسمة على صفر."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "The original expression requires $x\\ne2$. For allowed $x$, it reduces to $x+5\\ge0$. Solution $[-5,2)\\cup(2,\\infty)$. The point $x=2$ remains excluded.\nالاختصار صح بس لما إكس مش اتنين. بعيدًا عن القيمة دي، المتباينة بتقول إكس زائد خمسة أكبر من أو يساوي صفر، فنختار إكس من سالب خمسة وطالع. لكن لازم نشيل اتنين، لأن المقام الأصلي عندها صفر. وإشارة أو يساوي سمحت بسالب خمسة، ما سمحتش بقسمة على صفر.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "The original expression requires $x\\ne2$. For allowed $x$, it reduces to $x+5\\ge0$. Solution $[-5,2)\\cup(2,\\infty)$. The point $x=2$ remains excluded.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "الاختصار صح بس لما إكس مش اتنين. بعيدًا عن القيمة دي، المتباينة بتقول إكس زائد خمسة أكبر من أو يساوي صفر، فنختار إكس من سالب خمسة وطالع. لكن لازم نشيل اتنين، لأن المقام الأصلي عندها صفر. وإشارة أو يساوي سمحت بسالب خمسة، ما سمحتش بقسمة على صفر.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-rational-sign-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 1
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-prelim-polynomial-sign",
+  "curriculumId": "engineering-math-1",
+  "order": 4,
+  "title": "المتباينات التربيعية وجدول إشارات كثيرات الحدود",
+  "englishTitle": "Polynomial Inequalities and Sign Charts",
+  "scriptRevision": "b01-stage04-canonical-v1",
+  "prerequisites": [
+    "em1-prelim-intervals-linear",
+    "Factorization and zero-product rule"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Solve factored quadratic signs on line regions",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S14"
+      ],
+      "assessedIn": [
+        "EM1-PS-Q1"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Reason about repeated roots without forced sign flips",
+      "taughtIn": [
+        "S07",
+        "S08",
+        "S09",
+        "S14"
+      ],
+      "assessedIn": [
+        "EM1-PS-Q2"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Respect strict versus inclusive roots",
+      "taughtIn": [
+        "S11",
+        "S12",
+        "S14"
+      ],
+      "assessedIn": [
+        "EM1-PS-Q3"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14"
+  ],
+  "glossary": []
+}

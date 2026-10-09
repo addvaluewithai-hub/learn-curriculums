@@ -1,0 +1,49 @@
+{
+  "id": "S02",
+  "title": "Teaching 2",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 9–12; PDF pp. 8–9; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "لو $x$ عدد حقيقي موجب أو صفر، هتلاقي $|x|=x$. ولو $x$ سالب، $|x|=-x$؛ وخد بالك إن التعبير $-x$ هنا بيطلع موجب لأن إكس نفسها سالبة. يعني لو إكس بسالب ستة، سالب إكس تساوي موجب ستة. ده سبب إن القيمة المطلقة ما ينفعش تساوي عددًا سالبًا. وفيه كتابة مفيدة: $|x|=\\sqrt{x^2}$ مع استخدام الجذر التربيعي الرئيسي غير السالب. ما ينفعش نكتب بدلها إن $\\sqrt{x^2}=x$ لكل الأعداد من غير شرط، لأن ده هيغلط عند السالب.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "لو $x$ عدد حقيقي موجب أو صفر، هتلاقي $|x|=x$. ولو $x$ سالب، $|x|=-x$؛ ",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "ه سبب إن القيمة المطلقة ما ينفعش تساوي عددًا سالبًا. وفيه كت",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": "ا إن $\\sqrt{x^2}=x$ لكل الأعداد من غير شرط، لأن ده هيغلط عند السالب.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-absolute-value-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Interpret absolute value as distance and solve two-root equations",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

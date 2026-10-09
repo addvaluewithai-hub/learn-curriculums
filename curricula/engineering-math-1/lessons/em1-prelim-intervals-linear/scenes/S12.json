@@ -1,0 +1,49 @@
+{
+  "id": "S12",
+  "title": "Teaching 12",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 5–8, order rules pp. 1–2; PDF pp. 6–7; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N12",
+    "role": "teaching",
+    "script": "ساعات بيظهر إكس في وسط تلات أجزاء، زي $-3\\le2x+1<7$. هنا لازم تعمل نفس العملية على الأطراف التلاتة عشان المقارنة تفضل صحيحة. نطرح واحد من الكل: $-4\\le2x<6$. نقسم على اتنين الموجب: $-2\\le x<3$. ونكتب $[-2,3)$. جرب سالب اتنين، هتلاقي التعبير الأصلي يساوي سالب تلاتة، فالنقطة دي داخلة. جرب تلاتة، هيدينا سبعة، لكن الشرط الأخير بيقول أقل من سبعة، فالنقطة دي خارج الحل. اختبار الحدود بيساعدك تتأكد من الأقواس اللي كتبتها.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "ساعات بيظهر إكس في وسط تلات أجزاء، زي $-3\\le2x+1<7$. هنا لازم تعمل نفس",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "<3$. ونكتب $[-2,3)$. جرب سالب اتنين، هتلاقي التعبير الأصلي ي",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": "طة دي خارج الحل. اختبار الحدود بيساعدك تتأكد من الأقواس اللي كتبتها.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-intervals-linear-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve compound linear bounds and express intervals",
+      "stage": 2
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "S11",
+  "title": "Teaching 11",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N11",
+    "role": "teaching",
+    "script": "آخر خطوة هنجمع فيها الدروس مع بعضها: أحيانًا يكون عندنا شرطين لازم يحصلوا في نفس الوقت. لو اتقال $x^2-4\\ge0$ and $x<3$، نحل كل شرط الأول. الشرط التربيعي يعني $(x-2)(x+2)\\ge0$، وده يدينا $(-\\infty,-2]\\cup[2,\\infty)$. الشرط الخطي التاني يدينا $(-\\infty,3)$. كلمة and معناها تقاطع الحلين؛ ناخد الأرقام المشتركة بينهم: $(-\\infty,-2]\\cup[2,3)$. استخدمنا اتحادًا بين فرعي الحل النهائي، لكن التقاطع هو اللي طبّق شرط «و» الأساسي.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "آخر خطوة هنجمع فيها الدروس مع بعضها: أحيانًا يكون عندنا شرطين لازم يحص",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "infty,-2]\\cup[2,\\infty)$. الشرط الخطي التاني يدينا $(-\\infty",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": "دًا بين فرعي الحل النهائي، لكن التقاطع هو اللي طبّق شرط «و» الأساسي.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Intersect separate rational/linear constraints",
+      "stage": 2
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

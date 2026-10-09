@@ -1,0 +1,91 @@
+{
+  "id": "S10",
+  "title": "Independent exam question 2",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18; PDF pp. 10–12 (interwoven source); explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N10",
+    "role": "question",
+    "script": "Solve $(x+1)^2(x-4)>0$ over $\\mathbb R$. Explain why the sign need not change at $x=-1$.\nحل إكس زائد واحد الكل تربيع في إكس ناقص أربعة أكبر من صفر. ليه الإشارة مش لازم تتقلب عند سالب واحد؟",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Solve $(x+1)^2(x-4)>0$ over $\\mathbb R$. Explain why the sign need not change at $x=-1$.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "حل إكس زائد واحد الكل تربيع في إكس ناقص أربعة أكبر من صفر. ليه الإشارة مش لازم تتقلب عند سالب واحد؟",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-polynomial-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Reason about repeated roots without forced sign flips",
+      "stage": 1
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-PS-Q2",
+    "english": "Solve $(x+1)^2(x-4)>0$ over $\\mathbb R$. Explain why the sign need not change at $x=-1$.",
+    "arabic": "حل إكس زائد واحد الكل تربيع في إكس ناقص أربعة أكبر من صفر. ليه الإشارة مش لازم تتقلب عند سالب واحد؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$(4,\\infty)$. At $x=-1$ the squared factor is zero, but on both sides it is positive, while $x-4<0$ for $x<4$; hence the product is non-positive there.",
+      "arabic": "العامل إكس زائد واحد كله مربع عمره ما يبقى سالب، لكنه بصفر عند سالب واحد. والعامل إكس ناقص أربعة سالب قبل أربعة، وبالتالي حاصل الضرب سالب هناك ما عدا عند سالب واحد بيكون صفر، وده مش مقبول لأن السؤال أكبر من صفر فقط. بعد أربعة العاملين موجبين، فالحل من بعد أربعة للأبد. حتى لو الجذر سالب واحد موجود، مش معناه ظهور منطقة موجبة جديدة.",
+      "reasoning": "العامل إكس زائد واحد كله مربع عمره ما يبقى سالب، لكنه بصفر عند سالب واحد. والعامل إكس ناقص أربعة سالب قبل أربعة، وبالتالي حاصل الضرب سالب هناك ما عدا عند سالب واحد بيكون صفر، وده مش مقبول لأن السؤال أكبر من صفر فقط. بعد أربعة العاملين موجبين، فالحل من بعد أربعة للأبد. حتى لو الجذر سالب واحد موجود، مش معناه ظهور منطقة موجبة جديدة."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "$(4,\\infty)$. At $x=-1$ the squared factor is zero, but on both sides it is positive, while $x-4<0$ for $x<4$; hence the product is non-positive there.\nالعامل إكس زائد واحد كله مربع عمره ما يبقى سالب، لكنه بصفر عند سالب واحد. والعامل إكس ناقص أربعة سالب قبل أربعة، وبالتالي حاصل الضرب سالب هناك ما عدا عند سالب واحد بيكون صفر، وده مش مقبول لأن السؤال أكبر من صفر فقط. بعد أربعة العاملين موجبين، فالحل من بعد أربعة للأبد. حتى لو الجذر سالب واحد موجود، مش معناه ظهور منطقة موجبة جديدة.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$(4,\\infty)$. At $x=-1$ the squared factor is zero, but on both sides it is positive, while $x-4<0$ for $x<4$; hence the product is non-positive there.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "العامل إكس زائد واحد كله مربع عمره ما يبقى سالب، لكنه بصفر عند سالب واحد. والعامل إكس ناقص أربعة سالب قبل أربعة، وبالتالي حاصل الضرب سالب هناك ما عدا عند سالب واحد بيكون صفر، وده مش مقبول لأن السؤال أكبر من صفر فقط. بعد أربعة العاملين موجبين، فالحل من بعد أربعة للأبد. حتى لو الجذر سالب واحد موجود، مش معناه ظهور منطقة موجبة جديدة.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-polynomial-sign-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 1
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

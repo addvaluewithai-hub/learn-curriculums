@@ -1,0 +1,37 @@
+{
+  "id": "S09",
+  "title": "Teaching 9",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 9–12; PDF pp. 8–9; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "teaching",
+    "script": "الاختبار الجاي بيخليك تستخدم المعنى ده على حالة متباينة مختلفة. حل الأول وبعدين اقرأ تفسير الطرفين.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "الاختبار الجاي بيخليك تستخدم المعنى ده على حالة متباينة مختلفة. حل الأ",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-absolute-value-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve absolute-value inequalities with proper endpoints",
+      "stage": 1
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "S01",
+  "title": "Teaching 1",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 1–5; PDF pp. 4–6; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "تخيل إننا بنحاول نرسم خريطة لكل الأعداد اللي ممكن نقابلها في حسابات أولى هندسة. على خط الأعداد هتحط الصفر في النص، واحد واتنين ناحية اليمين، وسالب واحد وسالب اتنين ناحية الشمال. كل ما نمشي يمين، القيمة بتكبر. عشان كده سالب اتنين أكبر من سالب خمسة؛ لأن مكانه على الخط على يمينه. اسم الخط ده Real Number Line، وكل عدد حقيقي ليه نقطة بتمثله عليه، حتى لو مش عددًا صحيحًا.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "تخيل إننا بنحاول نرسم خريطة لكل الأعداد اللي ممكن نقابلها في حسابات أو",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": " ناحية الشمال. كل ما نمشي يمين، القيمة بتكبر. عشان كده سالب ",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": "er Line، وكل عدد حقيقي ليه نقطة بتمثله عليه، حتى لو مش عددًا صحيحًا.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-real-sets-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Classify rational and irrational real numbers",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

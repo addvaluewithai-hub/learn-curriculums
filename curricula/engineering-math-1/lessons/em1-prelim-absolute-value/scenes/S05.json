@@ -1,0 +1,91 @@
+{
+  "id": "S05",
+  "title": "Independent exam question 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 9–12; PDF pp. 8–9; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "question",
+    "script": "Solve $|3x+1|=8$ over the real numbers.\nحل معادلة القيمة المطلقة لتلاتة إكس زائد واحد تساوي تمانية على الأعداد الحقيقية.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Solve $|3x+1|=8$ over the real numbers.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "حل معادلة القيمة المطلقة لتلاتة إكس زائد واحد تساوي تمانية على الأعداد الحقيقية.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-absolute-value-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Interpret absolute value as distance and solve two-root equations",
+      "stage": 0
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-AV-Q1",
+    "english": "Solve $|3x+1|=8$ over the real numbers.",
+    "arabic": "حل معادلة القيمة المطلقة لتلاتة إكس زائد واحد تساوي تمانية على الأعداد الحقيقية.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$3x+1=8$ or $3x+1=-8$; hence $x=\\frac73$ or $x=-3$.",
+      "arabic": "اللي جوه القيمة المطلقة ممكن يكون موجب تمانية أو سالب تمانية، لأن الاتنين بعدهم عن الصفر تمانية. نحل الفرع الأول فنلاقي سبعة على تلاتة، والتاني فنلاقي سالب تلاتة. جرب كل قيمة في المعادلة الأصلية، هتلاقي القيمة المطلقة فعلًا تساوي تمانية.",
+      "reasoning": "اللي جوه القيمة المطلقة ممكن يكون موجب تمانية أو سالب تمانية، لأن الاتنين بعدهم عن الصفر تمانية. نحل الفرع الأول فنلاقي سبعة على تلاتة، والتاني فنلاقي سالب تلاتة. جرب كل قيمة في المعادلة الأصلية، هتلاقي القيمة المطلقة فعلًا تساوي تمانية."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "$3x+1=8$ or $3x+1=-8$; hence $x=\\frac73$ or $x=-3$.\nاللي جوه القيمة المطلقة ممكن يكون موجب تمانية أو سالب تمانية، لأن الاتنين بعدهم عن الصفر تمانية. نحل الفرع الأول فنلاقي سبعة على تلاتة، والتاني فنلاقي سالب تلاتة. جرب كل قيمة في المعادلة الأصلية، هتلاقي القيمة المطلقة فعلًا تساوي تمانية.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$3x+1=8$ or $3x+1=-8$; hence $x=\\frac73$ or $x=-3$.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "اللي جوه القيمة المطلقة ممكن يكون موجب تمانية أو سالب تمانية، لأن الاتنين بعدهم عن الصفر تمانية. نحل الفرع الأول فنلاقي سبعة على تلاتة، والتاني فنلاقي سالب تلاتة. جرب كل قيمة في المعادلة الأصلية، هتلاقي القيمة المطلقة فعلًا تساوي تمانية.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-absolute-value-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 0
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

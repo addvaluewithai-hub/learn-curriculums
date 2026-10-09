@@ -1,0 +1,49 @@
+{
+  "id": "S01",
+  "title": "Teaching 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 9–12; PDF pp. 8–9; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "عايزك تتخيل إن فيه نقطة اسمها الصفر على خط الأعداد، وإنت واقف عندها. لو مشيت أربعة خطوات ناحية اليمين، بُعدك عن الصفر أربعة. ولو مشيت أربعة ناحية الشمال، برضه بُعدك أربعة. الاتجاه مختلف، لكن المسافة نفسها مش سالبة. ده معنى Absolute Value أو القيمة المطلقة: $|4|=4$ و$|-4|=4$، والصفر قيمته المطلقة صفر.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "عايزك تتخيل إن فيه نقطة اسمها الصفر على خط الأعداد، وإنت واقف عندها. ل",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "شيت أربعة ناحية الشمال، برضه بُعدك أربعة. الاتجاه مختلف، لكن",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": "alue أو القيمة المطلقة: $|4|=4$ و$|-4|=4$، والصفر قيمته المطلقة صفر.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-absolute-value-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Interpret absolute value as distance and solve two-root equations",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

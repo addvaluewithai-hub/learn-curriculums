@@ -1,0 +1,91 @@
+{
+  "id": "S13",
+  "title": "Independent exam question 3",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 9–12; PDF pp. 8–9; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N13",
+    "role": "question",
+    "script": "Let $a=-6$ and $b=2$. Compute $|a+b|$ and $|a|+|b|$. Does the triangle inequality hold, and is it an equality for these values?\nلو إيه سالب ستة وبي اتنين، احسب القيمة المطلقة لمجموعهم ومجموع القيمتين المطلقـتين. تحقق من متباينة المثلث، وهل حصلت مساواة؟",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Let $a=-6$ and $b=2$. Compute $|a+b|$ and $|a|+|b|$. Does the triangle inequality hold, and is it an equality for these values?",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "لو إيه سالب ستة وبي اتنين، احسب القيمة المطلقة لمجموعهم ومجموع القيمتين المطلقـتين. تحقق من متباينة المثلث، وهل حصلت مساواة؟",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-absolute-value-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Verify and interpret the triangle inequality",
+      "stage": 2
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-AV-Q3",
+    "english": "Let $a=-6$ and $b=2$. Compute $|a+b|$ and $|a|+|b|$. Does the triangle inequality hold, and is it an equality for these values?",
+    "arabic": "لو إيه سالب ستة وبي اتنين، احسب القيمة المطلقة لمجموعهم ومجموع القيمتين المطلقـتين. تحقق من متباينة المثلث، وهل حصلت مساواة؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$|a+b|=|-4|=4$, while $|a|+|b|=6+2=8$. Thus $4\\le8$ holds; equality does not hold.",
+      "arabic": "سالب ستة زائد اتنين يساوي سالب أربعة، ومقداره أربعة. لكن لو أخدنا مقدار كل واحدة لوحدها يبقى ستة زائد اتنين تمانية. أربعة أقل من تمانية، فمتباينة المثلث صحيحة من غير ما تتحول لمساواة. لو كتبت مساواة دايمًا هتخالف معنى المسافة.",
+      "reasoning": "سالب ستة زائد اتنين يساوي سالب أربعة، ومقداره أربعة. لكن لو أخدنا مقدار كل واحدة لوحدها يبقى ستة زائد اتنين تمانية. أربعة أقل من تمانية، فمتباينة المثلث صحيحة من غير ما تتحول لمساواة. لو كتبت مساواة دايمًا هتخالف معنى المسافة."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "$|a+b|=|-4|=4$, while $|a|+|b|=6+2=8$. Thus $4\\le8$ holds; equality does not hold.\nسالب ستة زائد اتنين يساوي سالب أربعة، ومقداره أربعة. لكن لو أخدنا مقدار كل واحدة لوحدها يبقى ستة زائد اتنين تمانية. أربعة أقل من تمانية، فمتباينة المثلث صحيحة من غير ما تتحول لمساواة. لو كتبت مساواة دايمًا هتخالف معنى المسافة.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$|a+b|=|-4|=4$, while $|a|+|b|=6+2=8$. Thus $4\\le8$ holds; equality does not hold.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "سالب ستة زائد اتنين يساوي سالب أربعة، ومقداره أربعة. لكن لو أخدنا مقدار كل واحدة لوحدها يبقى ستة زائد اتنين تمانية. أربعة أقل من تمانية، فمتباينة المثلث صحيحة من غير ما تتحول لمساواة. لو كتبت مساواة دايمًا هتخالف معنى المسافة.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-absolute-value-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 2
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

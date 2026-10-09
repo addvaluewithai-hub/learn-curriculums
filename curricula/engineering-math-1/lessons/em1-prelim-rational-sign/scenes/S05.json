@@ -1,0 +1,37 @@
+{
+  "id": "S05",
+  "title": "Teaching 5",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "خلينا نعمل تطبيق على كسر جديد، ولازم تكتب فيه القيمة الممنوعة صراحةً.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا نعمل تطبيق على كسر جديد، ولازم تكتب فيه القيمة الممنوعة صراحةً.",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve rational inequalities and exclude zero denominators",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "S04",
+  "title": "Teaching 4",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18; PDF pp. 10–12 (interwoven source); explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "المطلوب أكبر من صفر، يعني هنختار المنطقتين الأولى والتالتة. الجذران نفسهما مش داخلين لأن عندهم التعبير بيساوي صفر، والمطلوب أكبر من مش أكبر من أو يساوي. إذن مجموعة الحل $(-\\infty,-2)\\cup(3,\\infty)$. لو السؤال قال أكبر من أو يساوي صفر، ساعتها هينفع نضم سالب اتنين وتلاتة، ويبقى الحل $(-\\infty,-2]\\cup[3,\\infty)$.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "المطلوب أكبر من صفر، يعني هنختار المنطقتين الأولى والتالتة. الجذران نف",
+        "occurrence": 1,
+        "visualIntent": "Show initial neutral concept drawing"
+      },
+      {
+        "id": "U02",
+        "text": "أكبر من أو يساوي. إذن مجموعة الحل $(-\\infty,-2)\\cup(3,\\infty",
+        "occurrence": 1,
+        "visualIntent": "Develop diagram only at spoken phrase"
+      },
+      {
+        "id": "U03",
+        "text": "ينفع نضم سالب اتنين وتلاتة، ويبقى الحل $(-\\infty,-2]\\cup[3,\\infty)$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal next concept relation at its spoken phrase"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-polynomial-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve factored quadratic signs on line regions",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}
