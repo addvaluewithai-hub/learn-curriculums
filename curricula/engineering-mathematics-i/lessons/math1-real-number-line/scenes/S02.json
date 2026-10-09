@@ -1,0 +1,51 @@
+{
+  "id": "S02",
+  "title": "Natural numbers و Integers",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "mathematics-i-scan",
+      "locator": "printed pp. 2–4; scan PDF images pp. 4–5"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "خلّينا نسمي مجموعات الأعداد. واحد واتنين وتلاتة وهكذا هي Natural Numbers، أعداد العد، والكتاب هنا بيبدأها من واحد. لو ضفنا الصفر والأعداد السالبة الصحيحة، المجموعة الأوسع اسمها Integers. زي سالب تلاتة وصفر وخمسة. الصفر عدد صحيح، لكنه مش من أعداد العد حسب تعريف الكتاب ده. بس لو عندنا نص متر أو تلات أرباع متر، العدد الصحيح وحده مش كفاية. بنحتاج أعداد تقع ما بين العلامات الصحيحة على الخط.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "Natural Numbers",
+        "occurrence": 1,
+        "visualIntent": "Reveal {1,2,3,…} and this source's convention starts at 1."
+      },
+      {
+        "id": "U02",
+        "text": "Integers",
+        "occurrence": 1,
+        "visualIntent": "Expand set to include 0 and negative integers."
+      },
+      {
+        "id": "U03",
+        "text": "الصفر عدد صحيح",
+        "occurrence": 1,
+        "visualIntent": "Highlight zero inside Z and not inside N."
+      },
+      {
+        "id": "U04",
+        "text": "تلات أرباع متر",
+        "occurrence": 1,
+        "visualIntent": "Show unlabelled point between 0 and 1 to motivate fractions."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {},
+    "landscape": "16:9 number-line view with nested N and Z set bands; finish with empty point between integer ticks.",
+    "portrait": "9:16 show two stacked labeled number-set cards, then a wide line with a fractional gap."
+  }
+}
