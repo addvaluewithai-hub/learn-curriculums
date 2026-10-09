@@ -24,18 +24,42 @@
 دلوقتي هنجرب نطبق اختيار النموذج بنفسنا، مش مجرد نكرر تعريف.
 
 ## سؤال مستقل 1 — يُقرأ قبل المحاولة فقط
-**English:** A crane carries a compact load. We only need to study the load’s translation, and its dimensions do not affect the calculation. Which is the more useful model: particle or rigid body? Explain the condition.
-**دعم عربي منطوق:** ونش شايل حمولة، وإحنا مهتمين بانتقال الحمولة بس، وأبعادها مش مؤثرة في الحساب. تختار نموذج Particle ولا Rigid Body؟ وليه؟
+**English:** A crane carries a small sensor. It is 10 cm wide, and its path is many meters long. We only track its position during translation. Is a particle model reasonable? State the assumption.
+**دعم عربي منطوق:** ونش بينقل حساس صغير عرضه عشرة سنتيمتر في مسار طويل. عايزين نتابع مكانه أثناء النقل. هل Particle نموذج مناسب؟ قول الشرط اللي بتفترضه.
 **Attempt:** written — توقف هنا، اترك للطالب فرصة يجاوب. **لا تنطق التغذية الراجعة قبل المحاولة.**
 
 ## Feedback منفصل بعد المحاولة — لا يُدمج في صوت السؤال
-**English model answer:** A particle model is suitable because the load’s dimensions are negligible for this analysis.
-**شرح مصري:** هنا Particle أنسب، مش لأن الحمولة فعلًا ملهاش حجم، لكن لأن السؤال حدد إن أبعادها مش هتغير النتيجة المطلوبة. لو كنا بندرس دورانها أو توزيع الضغط عليها، ممكن نحتاج نموذج مختلف. أهم كلمة في الإجابة: «بالنسبة للمسألة دي».
+**English model answer:** A particle model is reasonable if the sensor’s dimensions and rotation do not materially affect the position calculation.
+**شرح مصري:** نقدر نستخدم Particle بشرط إن حجم الحساس ودورانه مش هيغيروا نتيجة حساب المكان. ده مش حكم مطلق؛ لو المطلوب أثر دورانه أو توزيع الضغط عليه، النموذج يتغير. في الهندسة لازم نذكر صلاحية الافتراض.
 
 ## استكمال النص المنطوق
-ممتاز، وبكده ما بقيناش بنختار النموذج من شكل الجسم فقط. فيه اختبار صغير تاني عن وصف القوة، علشان نتأكد إننا هنكون جاهزين قبل ما ندخل قوانين نيوتن.
+الاختيار هنا مش من شكل الجسم، لكن من السؤال نفسه. خلينا نجرب نموذجًا تاني في سياق مختلف.
 
 ## سؤال مستقل 2 — يُقرأ قبل المحاولة فقط
+**English:** A long steel bracket is analyzed without deformation. A bolt applies a load over a tiny contact area relative to the bracket. Choose a body model and a possible load idealization for overall analysis.
+**دعم عربي منطوق:** حامل معدني طويل هنُهمل تشوّهه. ومسمار بيضغط عليه في مساحة صغيرة جدًا مقارنة بالحامل. هنختار أنهي نموذج للجسم؟ وإزاي ممكن نبسط حمل المسمار في التحليل الكلي؟
+**Attempt:** written — اترك وقتًا للمحاولة.
+
+## Feedback منفصل بعد المحاولة
+**English model answer:** Model the bracket as a rigid body. The bolt load may be a concentrated force if the contact area does not affect the requested global result.
+**شرح مصري:** بنحتفظ بأبعاد الحامل ونهمل تغير شكله، فده Rigid Body. وحمل المسمار ممكن نمثله كقوة مركزة لو مساحة التلامس مش مؤثرة في النتيجة المطلوبة. لو بندرس الضغط المحلي تحت المسمار نفسه، التبسيط ده ممكن ما يكونش مناسب.
+
+## استكمال النص المنطوق
+وسؤال سريع عن نوع الدراسة: هل بندرس جسمًا متزنًا ولا حركة بتتغير؟
+
+## سؤال مستقل 3 — يُقرأ قبل المحاولة فقط
+**English:** An elevator accelerates upward. To understand this changing motion, should we use statics or dynamics? Why?
+**دعم عربي منطوق:** أسانسير بيتسارع لفوق. لو بنحاول نفهم تغير حركته، نستخدم Statics ولا Dynamics؟ وليه؟
+**Attempt:** written — توقّف قبل الحل.
+
+## Feedback منفصل بعد المحاولة
+**English model answer:** Dynamics, because the motion has acceleration.
+**شرح مصري:** ده سؤال Dynamics، لأن سرعة الأسانسير بتتغير. Statics هنستخدمها لما نحل اتزان الأجسام، خصوصًا وهي ساكنة في البداية.
+
+## استكمال النص المنطوق
+باقي سؤال عن وصف القوة؛ ده هيساعدنا نفهم ليه اتجاهها ومكانها مهمين.
+
+## سؤال مستقل 4 — يُقرأ قبل المحاولة فقط
 **English:** A student says, “The force on the door is 30 N.” Is the magnitude alone enough to describe the force completely? What other information is needed?
 **دعم عربي منطوق:** طالب قال إن القوة على الباب تلاتين نيوتن. هل المقدار لوحده وصف كامل للقوة؟ وإيه المعلومات اللي ناقصة؟
 **Attempt:** written — توقف للمحاولة، والإجابة لا تظهر قبلها.
@@ -48,4 +72,4 @@
 النهارده اتفقنا على لغة هتفضل معانا في كل الاستاتيكا: Mechanics هو فهم القوى والأجسام، وStatics جزء منه بيهتم بالاتزان، والقوة محتاجة أكتر من رقم، والنموذج المبسط مفيد لما نكون عارفين هو بيهمل إيه وليه. المرة الجاية هناخد السؤال اللي بيكمل الصورة: إيه القانون اللي يربط القوى بالحركة، وإزاي نفهم وزن الجسم من غير ما نخلطه بكتلته؟
 
 ## بصريات مبدئية فقط — غير منفذة
-كوبري وصندوق عليه قوتان، سهم Force مع مقدار/اتجاه/نقطة تأثير، مقارنة بين حمولة واقعية وParticle، وباب كـRigid Body؛ لا رسم مشاهد أو Components في هذه المرحلة.
+سهم الدعم والجاذبية على صندوق، أسانسير متسارع، حساس صغير كنموذج Particle، حامل Rigid Body مع حمل المسمار كقوة مركزة مشروطة، وسهم القوة على باب مع مقدار واتجاه ونقطة تأثير. أفكار فقط بلا Scenes.
