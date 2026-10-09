@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "engineering-math-1",
   "title": "Mathematics I — Calculus (Differentiation) | أولى هندسة",
-  "revision": "legacy-stage-02-mapped-to-block-governance-v1",
-  "description": "First-year engineering Mathematics I. Historical Stage 02 teaching drafts for Preliminaries (B01, printed pp. 1–20) and Functions/Limits (B02, pp. 21–53), now mapped to a whole-course provisional Block roadmap. Active B01 remains awaiting human Stage 03 authorization; academic review and private source persistence unresolved.",
+  "revision": "b01-stage-03-5-lesson-boundaries-v1",
+  "description": "First-year engineering Mathematics I. B01 Preliminaries printed pp. 1–20: Stage 03 five issued stable student lesson IDs and complete connected editorial scripts, awaiting Stage 04 scenes and independent academic review. B02 Functions/Limits pp. 21–53: historically Stage 02 drafts only, inactive. Whole-course roadmap B01–B07 remains provisional; PDF source storage deferred.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",
