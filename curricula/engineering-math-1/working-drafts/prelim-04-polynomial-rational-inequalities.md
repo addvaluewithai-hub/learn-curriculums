@@ -1,6 +1,6 @@
 # Provisional working draft P-D — المتباينات التربيعية والكسرية ومخطط الإشارة
 **Stage:** 01 — complete connected spoken working script; not final approved lesson boundary or scenes.
-**Source:** \`abd-el-salam-math-i-scan\`; printed pp. 13–18 (PDF image pages 10–12); pp. 19–20 (PDF page 13) contain end-of-preliminaries exercises.
+**Source:** `abd-el-salam-math-i-scan`; printed pp. 13–18 (PDF image pages 10–12); pp. 19–20 (PDF page 13) contain end-of-preliminaries exercises.
 **Prerequisites:** intervals, inequality direction, factorization and the sign of a product; sign tables taught here.
 **Working objectives:** solve factored polynomial inequalities using sign regions; solve rational inequalities respecting denominator exclusions; combine solution sets using intersection/union.
 **Attribution:** every numerical worked example and independent prompt here is new teaching material, not copied from the scanned exercise bank.
