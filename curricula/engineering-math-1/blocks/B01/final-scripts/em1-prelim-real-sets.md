@@ -1,6 +1,6 @@
 # Stage 03 final connected teaching script — Real Numbers, Order & Sets
-**Stable lesson ID:** \`em1-prelim-real-sets\` | **B01 order:** 1 of 5 | **Title:** الأعداد الحقيقية وخط الأعداد والمجموعات
-**Source:** \`abd-el-salam-math-i-scan\`, printed pp. 1–5, PDF pp. 4–6; inspected historically for Stage 01. Examples and questions here are *newly authored*, not copied book exercises.
+**Stable lesson ID:** `em1-prelim-real-sets` | **B01 order:** 1 of 5 | **Title:** الأعداد الحقيقية وخط الأعداد والمجموعات
+**Source:** `abd-el-salam-math-i-scan`, printed pp. 1–5, PDF pp. 4–6; inspected historically for Stage 01. Examples and questions here are *newly authored*, not copied book exercises.
 **Prerequisites:** counting, four operations, fractions and the idea of a point on a line (established/quick bridge).
 **Taught targets:** rational/irrational number classification; position/order on the real line; set elements, empty set, membership, union and intersection.
 **Deferred:** interval notation and solving inequalities (next lesson); complex numbers (later/unneeded here).
