@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "آخر خطوة هنجمع فيها الدروس مع بعضها: أحيانًا يكون عندنا شرطين لازم يحص",
+        "text": "آخر خطوة هنجمع فيها الدروس مع بعضها: أحيانًا يكون عندنا شرطين لازم يحصلوا في نفس الوقت.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "infty,-2]\\cup[2,\\infty)$. الشرط الخطي التاني يدينا $(-\\infty",
+        "text": "الشرط الخطي التاني يدينا $(-\\infty,3)$.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "دًا بين فرعي الحل النهائي، لكن التقاطع هو اللي طبّق شرط «و» الأساسي.",
+        "text": "لكن التقاطع هو اللي طبّق شرط «و» الأساسي.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

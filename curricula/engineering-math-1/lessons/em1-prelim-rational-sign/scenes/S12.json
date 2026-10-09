@@ -19,19 +19,19 @@
         "id": "U01",
         "text": "وهنا طريقة منظمة للامتحان: اكتب القيم الممنوعة من البداية لو فيه مقام،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "تقاطعًا لو السؤال قال and أو اتحادًا لو السؤال قال or. بعدين",
+        "text": "ثم استخدم تقاطعًا لو السؤال قال and أو اتحادًا لو السؤال قال or.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": " وهل المقام معرف؟ ده سبب إننا بدأنا المنهج كله بخط الأعداد والفترات.",
+        "text": "ده سبب إننا بدأنا المنهج كله بخط الأعداد والفترات.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

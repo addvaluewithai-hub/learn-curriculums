@@ -18,9 +18,15 @@
     "units": [
       {
         "id": "U01",
-        "text": "دلوقتي خلينا نجرب سؤال عن تصنيف الأعداد بعيدًا عن أمثلة الشرح. اكتب إج",
+        "text": "دلوقتي خلينا نجرب سؤال عن تصنيف الأعداد بعيدًا عن أمثلة الشرح.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "اكتب إجابتك وسبب مختصر قبل ما نفتح التفسير.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       }
     ]
   },

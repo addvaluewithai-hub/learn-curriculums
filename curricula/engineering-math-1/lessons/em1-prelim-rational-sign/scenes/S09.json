@@ -17,9 +17,15 @@
     "units": [
       {
         "id": "U01",
-        "text": "السؤال اللي جاي هيقيس النقطة دي بأرقام مختلفة. ما تخليش بساطة التعبير ",
+        "text": "السؤال اللي جاي هيقيس النقطة دي بأرقام مختلفة.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "ما تخليش بساطة التعبير بعد الاختصار تنسيك قيمة ممنوعة في الأصل.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       }
     ]
   },

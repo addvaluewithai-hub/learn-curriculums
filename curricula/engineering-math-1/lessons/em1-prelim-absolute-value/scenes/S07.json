@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "في الحالات دي كنا بنقارن المسافة بعدد موجب. لازم نقف عند الشرط ده: هل ",
+        "text": "في الحالات دي كنا بنقارن المسافة بعدد موجب.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "ش سالبة. وهل $|x-4|<-2$ ممكن؟ برضه لأ. لكن $|x-4|\\ge0$ صحيحة",
+        "text": "وهل $|x-4|<-2$ ممكن؟",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "فتح الفرعين، شوف الحد اللي على الناحية التانية وهل يسمح بحلول أصلاً.",
+        "text": "شوف الحد اللي على الناحية التانية وهل يسمح بحلول أصلاً.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

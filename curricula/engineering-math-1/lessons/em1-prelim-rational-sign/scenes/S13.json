@@ -17,9 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "خلينا نختم بسؤال يجمع متباينة كسرية وشرطًا ثانيًا. حل كل جزء الأول، وب",
+        "text": "خلينا نختم بسؤال يجمع متباينة كسرية وشرطًا ثانيًا.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "حل كل جزء الأول،",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "وبعدها خد المشترك.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "عايزك تتخيل إن فيه نقطة اسمها الصفر على خط الأعداد، وإنت واقف عندها. ل",
+        "text": "عايزك تتخيل إن فيه نقطة اسمها الصفر على خط الأعداد،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "شيت أربعة ناحية الشمال، برضه بُعدك أربعة. الاتجاه مختلف، لكن",
+        "text": "برضه بُعدك أربعة.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "alue أو القيمة المطلقة: $|4|=4$ و$|-4|=4$، والصفر قيمته المطلقة صفر.",
+        "text": "والصفر قيمته المطلقة صفر.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

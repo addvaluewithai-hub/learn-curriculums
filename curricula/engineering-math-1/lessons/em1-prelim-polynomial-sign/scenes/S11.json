@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "قبل ما نخلص، نثبت الفرق بين علامة فيها مساواة وعلامة من غير مساواة باس",
+        "text": "قبل ما نخلص،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": " يقل عن صفر أبدًا. لكن لو نفس التعبير $>0$، هنستبعد إكس تساو",
+        "text": "لأن المربع لا يقل عن صفر أبدًا.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "لجذر داخل الحل، وإشارة العوامل بتقرر إذا كانت الفترات حوالينه داخلة.",
+        "text": "وإشارة العوامل بتقرر إذا كانت الفترات حوالينه داخلة.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

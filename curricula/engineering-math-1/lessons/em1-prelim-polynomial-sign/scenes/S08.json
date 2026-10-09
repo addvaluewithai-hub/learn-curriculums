@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "ده معناه إن القاعدة المضمونة مش «موجب ثم سالب بالتبادل»؛ القاعدة هي اف",
+        "text": "ده معناه إن القاعدة المضمونة مش «موجب ثم سالب بالتبادل»؛",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "د، لكن العامل إكس زائد تلاتة سالب قبل سالب تلاتة وموجب بعده.",
+        "text": "وإشارته ما بتقلبش لما تعدي الواحد،",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "ة مع استبعاد الواحد واستبعاد سالب تلاتة؛ وده $(-3,1)\\cup(1,\\infty)$.",
+        "text": "وده $(-3,1)\\cup(1,\\infty)$.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

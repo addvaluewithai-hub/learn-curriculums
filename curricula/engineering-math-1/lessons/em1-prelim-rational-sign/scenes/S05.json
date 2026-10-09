@@ -17,9 +17,15 @@
     "units": [
       {
         "id": "U01",
-        "text": "خلينا نعمل تطبيق على كسر جديد، ولازم تكتب فيه القيمة الممنوعة صراحةً.",
+        "text": "خلينا نعمل تطبيق على كسر جديد،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "ولازم تكتب فيه القيمة الممنوعة صراحةً.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       }
     ]
   },

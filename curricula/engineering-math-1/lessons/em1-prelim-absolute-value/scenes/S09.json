@@ -17,9 +17,15 @@
     "units": [
       {
         "id": "U01",
-        "text": "الاختبار الجاي بيخليك تستخدم المعنى ده على حالة متباينة مختلفة. حل الأ",
+        "text": "الاختبار الجاي بيخليك تستخدم المعنى ده على حالة متباينة مختلفة.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "حل الأول وبعدين اقرأ تفسير الطرفين.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       }
     ]
   },

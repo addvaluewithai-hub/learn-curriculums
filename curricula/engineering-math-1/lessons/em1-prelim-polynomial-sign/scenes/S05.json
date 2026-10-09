@@ -17,15 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "دلوقتي جرّب كثيرة حدود مختلفة بنفس الروتين: تحليل، جذور، إشارات، ثم أق",
+        "text": "دلوقتي جرّب كثيرة حدود مختلفة بنفس الروتين: تحليل،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "م أقواس صحيحة. المهم مش شكل الرسم النهائي، المهم تقدر تبرر كل منطقة.",
+        "text": "ثم أقواس صحيحة.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "المهم تقدر تبرر كل منطقة.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

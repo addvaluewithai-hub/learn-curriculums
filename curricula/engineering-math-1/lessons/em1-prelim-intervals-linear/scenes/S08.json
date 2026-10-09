@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "فيه قاعدة لازم نفهم سببها: لما نضرب أو نقسم طرفي متباينة على عدد سالب ",
+        "text": "فيه قاعدة لازم نفهم سببها: لما نضرب أو نقسم طرفي متباينة على عدد سالب معلوم الإشارة،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "قط على خط الأعداد اتقلب. لو عندنا $-2x+5>11$، نطرح خمسة فتبق",
+        "text": "لو عندنا $-2x+5>11$،",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "الب اتنين في سالب أربعة زائد خمسة يساوي تلتاشر، فعلًا أكبر من حداشر.",
+        "text": "فعلًا أكبر من حداشر.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

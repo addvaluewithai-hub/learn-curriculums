@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "إحنا لسه بنتكلم عن أعداد، لكن ساعات السؤال مش عايز رقم واحد؛ عايز مجمو",
+        "text": "إحنا لسه بنتكلم عن أعداد،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "تلاتة عناصر. بنقول $3\\in A$ لما تلاتة تنتمي للمجموعة، و$2\\no",
+        "text": "مثلًا $A=\\{1,3,5\\}$ فيها تلاتة عناصر.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": ",3\\}$ هي نفس $A$. وكمان تكرار الرقم في الكتابة مش بيزود عدد العناصر.",
+        "text": "وكمان تكرار الرقم في الكتابة مش بيزود عدد العناصر.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

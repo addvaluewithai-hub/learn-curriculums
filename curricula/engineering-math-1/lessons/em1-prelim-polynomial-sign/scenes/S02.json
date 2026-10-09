@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "اسم طريقتنا Sign Chart أو جدول الإشارة. بنبدأ بتحديد القيم اللي بتخلي ",
+        "text": "اسم طريقتنا Sign Chart أو جدول الإشارة.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "ع نفحص نقطة واحدة؟ في المثال اللي كله عوامل خطية، إشارة كل ع",
+        "text": "ليه ينفع نفحص نقطة واحدة؟",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "س. عشان كده الفترات المقسومة بالجذور بتدينا مناطق منتظمة في الإشارة.",
+        "text": "عشان كده الفترات المقسومة بالجذور بتدينا مناطق منتظمة في الإشارة.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

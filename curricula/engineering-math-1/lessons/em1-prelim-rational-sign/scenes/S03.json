@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "نجرب سالب اتنين في المنطقة الأولى: البسط سالب والمقام سالب، فالكسر موج",
+        "text": "نجرب سالب اتنين في المنطقة الأولى: البسط سالب والمقام سالب،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": " وده مناسب. ونجرب تلاتة بعد اتنين: البسط والمقام موجبان، فال",
+        "text": "ومش مناسب.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "فنضم سالب واحد. أما اتنين فالمقام صفر، فنستبعدها. إذن الحل $[-1,2)$.",
+        "text": "إذن الحل $[-1,2)$.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

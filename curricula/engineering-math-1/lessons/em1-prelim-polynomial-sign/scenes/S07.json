@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "هنا فيه فخ مهم: في المثال اللي فات الإشارة اتغيرت عند كل جذر لأن العوا",
+        "text": "هنا فيه فخ مهم: في المثال اللي فات الإشارة اتغيرت عند كل جذر لأن العوامل كانت من الدرجة الأولى وكل جذر اتكرر مرة واحدة.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "شارة. جرّب التعبير $(x-2)^2$. لو إكس تساوي واحد، الناتج واحد",
+        "text": "الناتج واحد موجب.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "لقيمة صفر. يعني الإشارة على جانبي الجذر ما اتقلبتش لأن التعبير مربع.",
+        "text": "يعني الإشارة على جانبي الجذر ما اتقلبتش لأن التعبير مربع.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

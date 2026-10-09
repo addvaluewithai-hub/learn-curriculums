@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "دلوقتي نستخدم لغة الفترات عشان نكتب حلول Inequalities، يعني متباينات. ",
+        "text": "دلوقتي نستخدم لغة الفترات عشان نكتب حلول Inequalities،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "د. مثال: $4x+3<15$. اطرح تلاتة من الطرفين فيبقى $4x<12$. نقس",
+        "text": "اطرح تلاتة من الطرفين فيبقى $4x<12$.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "تة أصلاً مش داخلة! الحل هو كل القيم اللي أقل منها، أو $(-\\infty,3)$.",
+        "text": "أو $(-\\infty,3)$.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

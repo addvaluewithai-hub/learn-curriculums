@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "هنعرف عمليتين هنستخدمهم طول السنة. Union أو الاتحاد $A\\cup B$ معناه كل",
+        "text": "هنعرف عمليتين هنستخدمهم طول السنة.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "$A=\\{1,3,5\\}$ و$B=\\{3,4,5\\}$، الاتحاد هيضم واحد وتلاتة وأربع",
+        "text": "لكن التقاطع هيضم تلاتة وخمسة بس.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "hing$؛ مش هي المجموعة اللي فيها العدد صفر، دي مجموعة مفيهاش أي عنصر.",
+        "text": "دي مجموعة مفيهاش أي عنصر.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

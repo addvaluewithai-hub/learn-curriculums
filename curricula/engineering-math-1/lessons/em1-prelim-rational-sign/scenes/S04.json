@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "لو تعاملت مع اتنين زي سالب واحد من غير ما تبص مين في البسط ومين في الم",
+        "text": "لو تعاملت مع اتنين زي سالب واحد من غير ما تبص مين في البسط ومين في المقام،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "ول نمنعها من البداية: Zero of the numerator مش زي Zero of th",
+        "text": "ودي غلطة بنحاول نمنعها من البداية: Zero of the numerator مش زي Zero of the denominator.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": " بيقسموا الخط لمناطق نختبرها، سبب ضم كل حد أو استبعاده مختلف تمامًا.",
+        "text": "سبب ضم كل حد أو استبعاده مختلف تمامًا.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

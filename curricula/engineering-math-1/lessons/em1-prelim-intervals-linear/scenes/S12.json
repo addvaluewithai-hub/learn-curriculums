@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "ساعات بيظهر إكس في وسط تلات أجزاء، زي $-3\\le2x+1<7$. هنا لازم تعمل نفس",
+        "text": "ساعات بيظهر إكس في وسط تلات أجزاء،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "<3$. ونكتب $[-2,3)$. جرب سالب اتنين، هتلاقي التعبير الأصلي ي",
+        "text": "هتلاقي التعبير الأصلي يساوي سالب تلاتة،",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "طة دي خارج الحل. اختبار الحدود بيساعدك تتأكد من الأقواس اللي كتبتها.",
+        "text": "اختبار الحدود بيساعدك تتأكد من الأقواس اللي كتبتها.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

@@ -17,9 +17,15 @@
     "units": [
       {
         "id": "U01",
-        "text": "عايزك دلوقتي تحل متباينة مزدوجة تانية من غير ما أعرض خطوة من حلها، وبع",
+        "text": "عايزك دلوقتي تحل متباينة مزدوجة تانية من غير ما أعرض خطوة من حلها،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "وبعدين نربط الدرس بما بعده.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       }
     ]
   },

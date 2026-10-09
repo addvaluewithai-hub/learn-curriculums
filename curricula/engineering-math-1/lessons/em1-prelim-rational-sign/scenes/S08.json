@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "يعني لو حد طلب حل متباينة من النوع $\\frac{(x-1)(x+3)}{x-1}>0$، لازم نق",
+        "text": "يعني لو حد طلب حل متباينة من النوع $\\frac{(x-1)(x+3)}{x-1}>0$،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "حل $x+3>0$ يعني $x>-3$، وبعدين نشيل الواحد من الحل لأنه ممنو",
+        "text": "إذن نحل $x+3>0$ يعني $x>-3$،",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "مش محذوف لأنه بيخلي البسط صفر فقط؛ اتحذف عشان المقام الأصلي كان صفر.",
+        "text": "اتحذف عشان المقام الأصلي كان صفر.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "فيه فخ تاني بيظهر في الكسور لما نختصر عاملًا مشتركًا. لو كتبت $\\frac{(",
+        "text": "فيه فخ تاني بيظهر في الكسور لما نختصر عاملًا مشتركًا.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "عبير بقى $x+3$. الجبر ده صحيح فقط عند القيم اللي إكس فيها مش",
+        "text": "الجبر ده صحيح فقط عند القيم اللي إكس فيها مش واحد.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": " فيه قسمة على صفر ومش معرف. الاختصار ماينفعش يرجّع النقطة دي للمجال.",
+        "text": "الاختصار ماينفعش يرجّع النقطة دي للمجال.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

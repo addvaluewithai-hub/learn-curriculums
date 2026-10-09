@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "فيه طلبة بتسمع كلمة متباينة المثلث فتفتكر لازم مجموع الأطوال يساوي الم",
+        "text": "فيه طلبة بتسمع كلمة متباينة المثلث فتفتكر لازم مجموع الأطوال يساوي المسافة النهائية.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "ساواة بتحصل بس في بعض الحالات، زي الحركتين في نفس الاتجاه عل",
+        "text": "زي الحركتين في نفس الاتجاه على الخط.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "خط. السؤال اللي جاي هيقارن قيمتين ويأكد معنى علامة أصغر من أو يساوي.",
+        "text": "السؤال اللي جاي هيقارن قيمتين ويأكد معنى علامة أصغر من أو يساوي.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

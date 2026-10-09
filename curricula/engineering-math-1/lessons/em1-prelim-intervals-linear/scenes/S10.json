@@ -19,7 +19,7 @@
         "id": "U01",
         "text": "يلا نختبر قلب اتجاه العلامة بأرقام مختلفة عن المثال المحلول.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       }
     ]
   },

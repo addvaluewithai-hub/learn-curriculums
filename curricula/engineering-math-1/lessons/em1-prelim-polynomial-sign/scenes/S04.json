@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "المطلوب أكبر من صفر، يعني هنختار المنطقتين الأولى والتالتة. الجذران نف",
+        "text": "المطلوب أكبر من صفر،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "أكبر من أو يساوي. إذن مجموعة الحل $(-\\infty,-2)\\cup(3,\\infty",
+        "text": "إذن مجموعة الحل $(-\\infty,-2)\\cup(3,\\infty)$.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "ينفع نضم سالب اتنين وتلاتة، ويبقى الحل $(-\\infty,-2]\\cup[3,\\infty)$.",
+        "text": "ويبقى الحل $(-\\infty,-2]\\cup[3,\\infty)$.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

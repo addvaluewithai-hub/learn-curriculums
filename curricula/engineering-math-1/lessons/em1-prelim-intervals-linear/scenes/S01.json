@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "تخيل إن دكتور المادة قال لك: اختار أي درجة بين ستين وتمانين. هتسأل الس",
+        "text": "تخيل إن دكتور المادة قال لك: اختار أي درجة بين ستين وتمانين.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "خلة؟ وهل التمانين داخلة؟ في الرياضيات لازم الكلام يبقى محدد.",
+        "text": "في الرياضيات لازم الكلام يبقى محدد.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": " يعني فترات من الأعداد الحقيقية، ونرسمها على خط الأعداد اللي عرفناه.",
+        "text": "ونرسمها على خط الأعداد اللي عرفناه.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "طيب لو شرطنا مش محصور بين رقمين؟ لو $x\\ge-1$، نبدأ من سالب واحد بقوس م",
+        "text": "طيب لو شرطنا مش محصور بين رقمين؟",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "عدد نقدر نوصل له أو نساويه؛ لذلك القوس عند $\\infty$ أو $-\\in",
+        "text": "وما لا نهاية مش عدد نقدر نوصل له أو نساويه؛",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": ",4)$. وكل الأعداد الحقيقية نكتبها $(-\\infty,\\infty)$ أو $\\mathbb R$.",
+        "text": "وكل الأعداد الحقيقية نكتبها $(-\\infty,\\infty)$ أو $\\mathbb R$.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

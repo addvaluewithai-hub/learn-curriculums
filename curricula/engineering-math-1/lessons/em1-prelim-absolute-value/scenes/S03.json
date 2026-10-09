@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "ونقدر نقيس المسافة مش بس عن الصفر. التعبير $|x-a|$ معناه المسافة بين م",
+        "text": "ونقدر نقيس المسافة مش بس عن الصفر.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "مسافة تلاتة. على الخط فيه نقطتان: واحد ناحية الشمال، وسبعة ن",
+        "text": "وسبعة ناحية اليمين.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "x-4=-3$. وبالتالي $x=7$ أو $x=1$. الفرعين بديلان مش شرط يحصلوا معًا.",
+        "text": "الفرعين بديلان مش شرط يحصلوا معًا.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

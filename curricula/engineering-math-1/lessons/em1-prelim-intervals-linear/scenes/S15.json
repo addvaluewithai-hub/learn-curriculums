@@ -19,21 +19,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "النهارده قدرنا نحوّل بين خط الأعداد والشروط والفترات: القوس المربع دخو",
+        "text": "النهارده قدرنا نحوّل بين خط الأعداد والشروط والفترات: القوس المربع دخول،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "تباينة على سالب بنقلب علامتها، ونعمل نفس الخطوة على أطراف ال",
+        "text": "ولما نقسم متباينة على سالب بنقلب علامتها،",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "ن، هنسأل هو بعيد قد إيه عن نقطة معينة. ومن هنا هنفهم القيمة المطلقة.",
+        "text": "ومن هنا هنفهم القيمة المطلقة.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

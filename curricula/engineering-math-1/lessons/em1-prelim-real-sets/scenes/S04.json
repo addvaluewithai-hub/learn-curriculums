@@ -18,21 +18,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "تعال نبص على المقارنة. لما نقول $a<b$ فده معناه إن مكان $a$ على الشمال",
+        "text": "تعال نبص على المقارنة.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "يفضل الترتيب زي ما هو. ولو ضربت في عدد سالب، الاتجاه بيتعكس،",
+        "text": "ولو ضربت في عدد سالب،",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": " القاعدة بدقة في درس المتباينات، لكن دلوقتي عايزك تربطها بمعنى الخط.",
+        "text": "لكن دلوقتي عايزك تربطها بمعنى الخط.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

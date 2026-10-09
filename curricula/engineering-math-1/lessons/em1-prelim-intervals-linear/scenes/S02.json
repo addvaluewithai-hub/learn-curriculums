@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "لو قلت $2<x<6$، أنا طالب الأعداد بين اتنين وستة، لكن مش اتنين نفسها ول",
+        "text": "لو قلت $2<x<6$،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "al. لو بدلنا الرمزين بعلامات تسمح بالمساواة، $2\\le x\\le6$، ا",
+        "text": "$2\\le x\\le6$،",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "عد، تبقى $[2,6)$. ركز: شكل القوس مش للزينة؛ هو جزء من إجابة المسألة.",
+        "text": "هو جزء من إجابة المسألة.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

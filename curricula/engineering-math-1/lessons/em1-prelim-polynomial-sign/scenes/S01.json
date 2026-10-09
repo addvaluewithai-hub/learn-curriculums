@@ -17,21 +17,21 @@
     "units": [
       {
         "id": "U01",
-        "text": "تفتكر لما قسمنا متباينة خطية على عدد سالب كنا بنعكس العلامة؟ النهارده ",
+        "text": "تفتكر لما قسمنا متباينة خطية على عدد سالب كنا بنعكس العلامة؟",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": " الضرب هيطلع موجب ولا سالب. تخيل التعبير $(x-3)(x+2)$. هل ين",
+        "text": "هل ينفع نقول عشان يبقى موجب نخلي العاملين موجبين بس؟",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       },
       {
         "id": "U03",
-        "text": "صل ضربهم موجب برضه. إذن هنحتاج نفكر في إشارة كل عامل على خط الأعداد.",
+        "text": "إذن هنحتاج نفكر في إشارة كل عامل على خط الأعداد.",
         "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Reveal the final relation when this clause is heard"
       }
     ]
   },

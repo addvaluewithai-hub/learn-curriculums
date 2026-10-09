@@ -17,15 +17,15 @@
     "units": [
       {
         "id": "U01",
-        "text": "السؤال الأخير هيربط جذور مختلفة مع شرط غير سالب، ويطلب منك إجابة موثوق",
+        "text": "السؤال الأخير هيربط جذور مختلفة مع شرط غير سالب،",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "الب، ويطلب منك إجابة موثوقة على خط الأعداد من غير ما تحفظ شكل منحنى.",
+        "text": "ويطلب منك إجابة موثوقة على خط الأعداد من غير ما تحفظ شكل منحنى.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       }
     ]
   },

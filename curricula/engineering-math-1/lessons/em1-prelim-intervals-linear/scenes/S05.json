@@ -17,9 +17,15 @@
     "units": [
       {
         "id": "U01",
-        "text": "خلينا نأكد إننا فاهمين رسم الفترات قبل ما ندخل خطوات الجبر. السؤال الأ",
+        "text": "خلينا نأكد إننا فاهمين رسم الفترات قبل ما ندخل خطوات الجبر.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "السؤال الأول تحويل بين لغة الشروط والفترات.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       }
     ]
   },

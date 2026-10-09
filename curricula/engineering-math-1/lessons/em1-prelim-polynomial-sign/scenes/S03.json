@@ -17,21 +17,15 @@
     "units": [
       {
         "id": "U01",
-        "text": "خلينا نجرب $x^2-x-6>0$. أول حاجة نحلل: $x^2-x-6=(x-3)(x+2)$. الجذران ت",
+        "text": "خلينا نجرب $x^2-x-6>0$.",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       },
       {
         "id": "U02",
-        "text": "ا تلات مناطق. قبل سالب اتنين، نجرب سالب تلاتة: العاملين سالب",
+        "text": "فالحاصل موجب.",
         "occurrence": 1,
-        "visualIntent": "Develop diagram only at spoken phrase"
-      },
-      {
-        "id": "U03",
-        "text": " فالحاصل سالب. بعد تلاتة، نجرب أربعة: العاملين موجبين، فالحاصل موجب.",
-        "occurrence": 1,
-        "visualIntent": "Reveal next concept relation at its spoken phrase"
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
       }
     ]
   },

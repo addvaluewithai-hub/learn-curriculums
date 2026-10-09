@@ -19,7 +19,7 @@
         "id": "U01",
         "text": "خلينا نختبر العمليات بمجموعات جديدة ونشوف الفرق بين «أو» و«و».",
         "occurrence": 1,
-        "visualIntent": "Show initial neutral concept drawing"
+        "visualIntent": "Reveal the initial complete spoken concept clause"
       }
     ]
   },
