@@ -30,11 +30,11 @@
 **Attempt:** written; show no answer, number line boundary or feedback before response.
 
 ### Post-attempt feedback A1 — separate spoken text
-**Model answer (English):** The domain is (x>3), or $(3,\infty)$.
+**Model answer (English):** The domain is $x>3$, or $(3,\infty)$.
 **Feedback spoken:** المجال هو كل إكس أكبر من ثلاثة. عايزين اللي تحت الجذر يكون غير سالب، وفي نفس الوقت الجذر موجود في المقام ومينفعش يساوي صفر؛ فشرطنا الأقوى هو إكس ناقص ثلاثة أكبر من صفر، مش أكبر من أو يساوي. عند ثلاثة المقام صفر، ولذلك النقطة مستبعدة.
 
 ## Independent attempt Q-A2 — not spoken as heading
-**Question spoken (English):** For $f(x)=(x-1)^2$ with all real inputs, state its range. Would the points ((2,1)) and ((2,4)) belong to one function graph at the same time?
+**Question spoken (English):** For $f(x)=(x-1)^2$ with all real inputs, state its range. Would the points $(2,1)$ and $(2,4)$ belong to one function graph at the same time?
 **Question spoken (Arabic support):** دالة إكس ناقص واحد الكل تربيع على الأعداد الحقيقية: اكتب المدى، وهل النقطتين اتنين وواحد، واتنين وأربعة ينفع يكونوا على رسم نفس الدالة معًا؟
 **Attempt:** written; do not pre-reveal range or graph result.
 
