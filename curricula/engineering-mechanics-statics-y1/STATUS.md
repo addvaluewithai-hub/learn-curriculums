@@ -3,7 +3,7 @@
 - Scope: new course / Chapter 1 printed pp.1–6 / three provisional working lesson labels.
 - Source: user-supplied scanned Engineering Mechanics [Statics] PDF, 36 image-only pages; see references/SOURCE_REVIEW.md. Original PDF not committed.
 - Current branch: curriculum/engineering-statics-y1-stage01
-- Current PR: draft PR to be recorded after opening.
+- Current PR: Draft PR #7 — https://github.com/addvaluewithai-hub/learn-curriculums/pull/7
 - Last completed human gate: **01 — source assessment, provisional boundaries, complete connected working drafts**.
 - Next authorized gate: **NONE — awaiting human "next" or comments**.
 - Stage outputs: course.json; OUTLINE.md; references/SOURCE_REVIEW.md; drafts/01-mechanics-and-models.md; drafts/02-newton-and-weight.md; drafts/03-units-and-conversions.md.

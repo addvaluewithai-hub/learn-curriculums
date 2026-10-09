@@ -1,7 +1,7 @@
 # Source review — actual access and locators (Stage 01)
 
 ## File inspected
-- Original supplied with the request: **مسح المستندات٢٠٢٦١٠٠٨_٢٠٢٢٢٢٨.pdf** [filename note: see course.json for exact original filename].
+- Original supplied with the request: **مسح المستندات٢٠٢٦١٠٠٨_٢٠٢٢٢٨.pdf** [filename note: see course.json for exact original filename].
 - Format: 36-page scanned **image-only** PDF; no extractable text layer. Page numbers below distinguish PDF scan index (1-based) from printed book page.
 - Access status for this working session: **available — direct visual inspection of uploaded scan**. The original binary is **not** stored in this public repo; later editors need access to the upload or a properly licensed archival source.
 - Title visible on cover: **Engineering Mechanics [Statics]**; author on cover: Prof. Rabea Abo-Elkhar... (cover spelling partially unclear, do not expand without checking).
