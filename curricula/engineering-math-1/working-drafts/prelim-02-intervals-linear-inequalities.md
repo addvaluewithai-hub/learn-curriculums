@@ -1,6 +1,6 @@
 # Provisional working draft P-B — الفترات والمتباينات الخطية
 **Stage:** 01 — complete connected spoken teaching draft; provisional working label only.
-**Source:** \`abd-el-salam-math-i-scan\`; printed pp. 5–8 (PDF image pages 6–7), with order rules in pp. 1–2.
+**Source:** `abd-el-salam-math-i-scan`; printed pp. 5–8 (PDF image pages 6–7), with order rules in pp. 1–2.
 **Starting knowledge:** real number line, set membership/intersection (P-A), basic one-step equations.
 **Working objectives:** translate between interval notation and inequalities; distinguish included/excluded endpoints; solve linear and compound inequalities while preserving the order rule.
 **Attribution:** worked numbers and assessment prompts are original classroom examples.
