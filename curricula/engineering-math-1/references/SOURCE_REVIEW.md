@@ -11,7 +11,11 @@
 | PDF page(s) | Printed pages | Verified subjects |
 |---|---|---|
 | 2–3 | Contents | Preliminary and chapter headings through Chapter 6, index only for later chapters |
-| 4–13 | 1–20 | Preliminaries: real numbers, intervals, inequalities, absolute value, examples/exercises |
+| 4–6 | 1–5 | Preliminaries: real numbers/real line, number families, real-number order properties, set notation and operations |
+| 6–7 | 5–8 | Sets and intervals (open/closed/unbounded), start of inequalities and number-line solutions |
+| 8–9 | 9–12 | Absolute value as distance, properties, equations and inequalities |
+| 10–12 | 13–18 | Solving linear, factored/polynomial and rational inequalities, sign charts and combined inequalities |
+| 13 | 19–20 | Exercises (1), the preliminary practice bank (not a new theory chapter) |
 | 14–16 | 21–26 | Functions, domain, range, vertical-line test, introductory function types |
 | 17–21 | 27–34 | Power/polynomial/rational, trigonometric, exponential and logarithmic functions |
 | 21–22 | 35–38 | Increasing/decreasing, introduction to limits, first examples |
@@ -20,8 +24,8 @@
 | 30 (right half)–43 | 54–80 | Chapter 2: differentiation, rules, higher derivatives, chain rule, trig derivatives, implicit/parametric differentiation, exercises |
 
 ## Scope and uncertainty
-- **Working drafts in this PR:** *Chapter 1, Functions and Their Graphs*, printed pp. **21–53**, including limits and continuity; all five proposed lesson clusters are editorial, **not final lesson boundaries or IDs**.
-- **Preliminaries:** visible and likely prerequisites; a remediation/diagnostic lesson is only a future candidate.
+- **Working drafts in this PR:** *Preliminaries* (printed pp. **1–20**) now have **four complete continuous provisional lesson drafts** covering the instructional pages and original practice questions; *Chapter 1: Functions and Their Graphs* (printed pp. **21–53**) has the earlier five complete continuous drafts. All nine labels are editorial, **not final lesson boundaries or IDs**.
+- **Preliminaries:** now drafted as an explicit **Module 0 before Chapter 1** at the user's request, rather than treated only as implicit prerequisites. The printed pp. 19–20 are an exercise bank; exercises in new drafts are original/independently authored, not copied from the scanned bank.
 - **Chapter 2:** visible, not yet scripted at this stage.
 - **Chapters 3–6:** headings in contents only (inverse functions, inverse trig, exponential/log differentiation; hyperbolic functions; Maclaurin expansion, tangent/normal, L'Hôpital's rule; partial derivatives). Their detailed teaching must wait for full pages, not be invented from the index.
 - **Unresolved academic choices:** first-year university/syllabus alignment, notation preferences, learner entry-level and textbook reproduction rights. These do not prevent Stage 01 working drafts.
