@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "engineering-math-1",
   "title": "Mathematics I — Calculus (Differentiation) | أولى هندسة",
-  "revision": "stage-01-provisional",
-  "description": "Source-grounded first-year engineering Mathematics I; initial working block covers Chapter 1 (Functions and Their Graphs). Not an approved full textbook edition.",
+  "revision": "stage-01-expanded-preliminaries-and-functions",
+  "description": "Source-grounded Mathematics I for first-year engineering. Stage 01 continuous working scripts include Preliminaries (printed pages 1–20) and Chapter 1 (pages 21–53); boundaries, academic review and source rights remain provisional.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",
