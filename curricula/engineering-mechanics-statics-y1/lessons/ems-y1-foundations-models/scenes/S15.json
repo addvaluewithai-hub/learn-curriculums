@@ -1,0 +1,99 @@
+{
+  "id": "S15",
+  "title": "تقييم 3: Particle",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed pp.2–3; PDF scan pp.8–9 — original authored learner checkpoint, not a printed exercise"
+    }
+  ],
+  "narration": {
+    "id": "N15",
+    "role": "question",
+    "script": "A crane transports a sensor 10 cm wide along a path several meters long. Only its position during translation is needed. Would a particle model be reasonable? State the condition.\nونش بينقل حساس عرضه عشرة سنتيمتر في مسار طوله أمتار، وإحنا مهتمين بمكانه أثناء الانتقال. هل نموذج Particle مناسب؟ قول الشرط اللي يخليه مناسبًا.",
+    "units": [
+      {
+        "id": "EN",
+        "text": "A crane transports a sensor 10 cm wide along a path several meters long. Only its position during translation is needed. Would a particle model be reasonable? State the condition.",
+        "occurrence": 1,
+        "visualIntent": "أظهر السؤال بالإنجليزية من أول كلمة منطوقة؛ لا تسرّب أي إجابة."
+      },
+      {
+        "id": "AR",
+        "text": "ونش بينقل حساس عرضه عشرة سنتيمتر في مسار طوله أمتار، وإحنا مهتمين بمكانه أثناء الانتقال. هل نموذج Particle مناسب؟ قول الشرط اللي يخليه مناسبًا.",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي فقط عند بداية نطقه مع بقاء السؤال الإنجليزي."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "question",
+      "topic": "سؤال مستقل 3 — Particle",
+      "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+      "primaryUnitId": "EN",
+      "questionMode": true
+    },
+    "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+    "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+  },
+  "question": {
+    "id": "Q03",
+    "english": "A crane transports a sensor 10 cm wide along a path several meters long. Only its position during translation is needed. Would a particle model be reasonable? State the condition.",
+    "arabic": "ونش بينقل حساس عرضه عشرة سنتيمتر في مسار طوله أمتار، وإحنا مهتمين بمكانه أثناء الانتقال. هل نموذج Particle مناسب؟ قول الشرط اللي يخليه مناسبًا.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "EN",
+      "arabic": "AR"
+    },
+    "writtenLabel": "اكتب إجابتك بالإنجليزي ثم أرسلها",
+    "writtenPlaceholder": "Your answer…",
+    "answer": {
+      "english": "A particle model is reasonable if the sensor dimensions and rotation do not affect the required position calculation.",
+      "arabic": "هنا نقدر نهمل الأبعاد بشرط إن حجم الحساس ودورانه ما يكونوش مؤثرين في حساب المكان المطلوب. لو السؤال اتغير لقياس دوران الحساس نفسه، لازم نراجع النموذج. النموذج الصح تابع للمطلوب مش لاسم الجسم.",
+      "reasoning": "هنا نقدر نهمل الأبعاد بشرط إن حجم الحساس ودورانه ما يكونوش مؤثرين في حساب المكان المطلوب. لو السؤال اتغير لقياس دوران الحساس نفسه، لازم نراجع النموذج. النموذج الصح تابع للمطلوب مش لاسم الجسم."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "A particle model is reasonable if the sensor dimensions and rotation do not affect the required position calculation.\nهنا نقدر نهمل الأبعاد بشرط إن حجم الحساس ودورانه ما يكونوش مؤثرين في حساب المكان المطلوب. لو السؤال اتغير لقياس دوران الحساس نفسه، لازم نراجع النموذج. النموذج الصح تابع للمطلوب مش لاسم الجسم.",
+      "units": [
+        {
+          "id": "EN",
+          "text": "A particle model is reasonable if the sensor dimensions and rotation do not affect the required position calculation.",
+          "occurrence": 1,
+          "visualIntent": "بعد submit فقط، ابدأ إظهار model answer الإنجليزي."
+        },
+        {
+          "id": "AR",
+          "text": "هنا نقدر نهمل الأبعاد بشرط إن حجم الحساس ودورانه ما يكونوش مؤثرين في حساب المكان المطلوب. لو السؤال اتغير لقياس دوران الحساس نفسه، لازم نراجع النموذج. النموذج الصح تابع للمطلوب مش لاسم الجسم.",
+          "occurrence": 1,
+          "visualIntent": "بعد بداية النطق العربي، أظهر التعليل تدريجيًا؛ لا يظهر أثناء المحاولة."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "EN",
+        "arabic": "AR"
+      },
+      "visual": {
+        "renderer": "statics-concept-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "mode": "question",
+          "topic": "Feedback — سؤال مستقل 3 — Particle",
+          "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+          "primaryUnitId": "EN",
+          "questionMode": true,
+          "feedbackOnly": true
+        },
+        "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+        "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+      }
+    }
+  }
+}

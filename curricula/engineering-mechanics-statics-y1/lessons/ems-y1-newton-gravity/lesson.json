@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "ems-y1-newton-gravity",
+  "curriculumId": "engineering-mechanics-statics-y1",
+  "order": 2,
+  "title": "قوانين نيوتن والجاذبية والوزن",
+  "englishTitle": "Newton's Laws, Gravitation and Weight",
+  "scriptRevision": "b01-stage04-canonical-scenes-v1",
+  "prerequisites": [
+    "ems-y1-foundations-models"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "فهم قانون نيوتن الأول والفرق بين محصلة صفر وسرعة صفر",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S20"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "حساب التسارع من محصلة القوى والكتلة الثابتة",
+      "taughtIn": [
+        "S06",
+        "S07",
+        "S08",
+        "S20"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "تفسير زوج الفعل ورد الفعل على جسمين مختلفين",
+      "taughtIn": [
+        "S10",
+        "S11",
+        "S20"
+      ],
+      "assessedIn": [
+        "Q03"
+      ]
+    },
+    {
+      "id": "O4",
+      "description": "تطبيق علاقة مربع المسافة العكسية بين كتلتين ثابتتين",
+      "taughtIn": [
+        "S13",
+        "S14",
+        "S20"
+      ],
+      "assessedIn": [
+        "Q04"
+      ]
+    },
+    {
+      "id": "O5",
+      "description": "تمييز الكتلة والوزن وحساب W = mg قرب الأرض",
+      "taughtIn": [
+        "S16",
+        "S17",
+        "S18",
+        "S20"
+      ],
+      "assessedIn": [
+        "Q05"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20"
+  ],
+  "glossary": []
+}

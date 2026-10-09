@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "ems-y1-units-conversions",
+  "curriculumId": "engineering-mechanics-statics-y1",
+  "order": 3,
+  "title": "الوحدات والتحويلات في الاستاتيكا",
+  "englishTitle": "Systems of Units and Unit Conversions",
+  "scriptRevision": "b01-stage04-canonical-scenes-v1",
+  "prerequisites": [
+    "ems-y1-foundations-models",
+    "ems-y1-newton-gravity"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "تصنيف وحدات الكتلة والقوة في نظامي SI وFPS",
+      "taughtIn": [
+        "S08",
+        "S09",
+        "S10",
+        "S18"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "استنتاج وحدة القوة من قانون نيوتن والتحقق من الأبعاد",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S18"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "تحويل الأطوال والقوى بين الأنظمة مع اختصار الوحدات",
+      "taughtIn": [
+        "S12",
+        "S13",
+        "S15",
+        "S16",
+        "S18"
+      ],
+      "assessedIn": [
+        "Q03",
+        "Q04"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18"
+  ],
+  "glossary": []
+}

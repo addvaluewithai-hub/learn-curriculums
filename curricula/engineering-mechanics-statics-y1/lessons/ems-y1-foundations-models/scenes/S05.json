@@ -1,0 +1,99 @@
+{
+  "id": "S05",
+  "title": "تقييم 1: بعد الجزء الأول، قبل أي إجابة",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed pp.1–2; PDF scan pp.7–8 — original authored learner checkpoint, not a printed exercise"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "question",
+    "script": "An elevator is accelerating upward. Which branch is more suitable for studying its changing motion: statics or dynamics? Give a reason.\nأسانسير بيتسارع لفوق. عشان ندرس تغيّر حركته، نختار Statics ولا Dynamics؟ وليه؟",
+    "units": [
+      {
+        "id": "EN",
+        "text": "An elevator is accelerating upward. Which branch is more suitable for studying its changing motion: statics or dynamics? Give a reason.",
+        "occurrence": 1,
+        "visualIntent": "أظهر السؤال بالإنجليزية من أول كلمة منطوقة؛ لا تسرّب أي إجابة."
+      },
+      {
+        "id": "AR",
+        "text": "أسانسير بيتسارع لفوق. عشان ندرس تغيّر حركته، نختار Statics ولا Dynamics؟ وليه؟",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي فقط عند بداية نطقه مع بقاء السؤال الإنجليزي."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "question",
+      "topic": "سؤال مستقل 1 — بعد الجزء الأول، قبل أي إجابة",
+      "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+      "primaryUnitId": "EN",
+      "questionMode": true
+    },
+    "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+    "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+  },
+  "question": {
+    "id": "Q01",
+    "english": "An elevator is accelerating upward. Which branch is more suitable for studying its changing motion: statics or dynamics? Give a reason.",
+    "arabic": "أسانسير بيتسارع لفوق. عشان ندرس تغيّر حركته، نختار Statics ولا Dynamics؟ وليه؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "EN",
+      "arabic": "AR"
+    },
+    "writtenLabel": "اكتب إجابتك بالإنجليزي ثم أرسلها",
+    "writtenPlaceholder": "Your answer…",
+    "answer": {
+      "english": "Dynamics, because the elevator has acceleration and its motion is changing.",
+      "arabic": "ده Dynamics لأن السرعة بتتغير. أمّا مسائل Statics اللي بنبدأ بيها فبندرس فيها اتزان الأجسام، وخصوصًا الأجسام الساكنة. كلمة \"بيتحرك\" لوحدها مش هي السبب؛ وجود تسارع هو العلامة الواضحة هنا.",
+      "reasoning": "ده Dynamics لأن السرعة بتتغير. أمّا مسائل Statics اللي بنبدأ بيها فبندرس فيها اتزان الأجسام، وخصوصًا الأجسام الساكنة. كلمة \"بيتحرك\" لوحدها مش هي السبب؛ وجود تسارع هو العلامة الواضحة هنا."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "Dynamics, because the elevator has acceleration and its motion is changing.\nده Dynamics لأن السرعة بتتغير. أمّا مسائل Statics اللي بنبدأ بيها فبندرس فيها اتزان الأجسام، وخصوصًا الأجسام الساكنة. كلمة \"بيتحرك\" لوحدها مش هي السبب؛ وجود تسارع هو العلامة الواضحة هنا.",
+      "units": [
+        {
+          "id": "EN",
+          "text": "Dynamics, because the elevator has acceleration and its motion is changing.",
+          "occurrence": 1,
+          "visualIntent": "بعد submit فقط، ابدأ إظهار model answer الإنجليزي."
+        },
+        {
+          "id": "AR",
+          "text": "ده Dynamics لأن السرعة بتتغير. أمّا مسائل Statics اللي بنبدأ بيها فبندرس فيها اتزان الأجسام، وخصوصًا الأجسام الساكنة. كلمة \"بيتحرك\" لوحدها مش هي السبب؛ وجود تسارع هو العلامة الواضحة هنا.",
+          "occurrence": 1,
+          "visualIntent": "بعد بداية النطق العربي، أظهر التعليل تدريجيًا؛ لا يظهر أثناء المحاولة."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "EN",
+        "arabic": "AR"
+      },
+      "visual": {
+        "renderer": "statics-concept-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "mode": "question",
+          "topic": "Feedback — سؤال مستقل 1 — بعد الجزء الأول، قبل أي إجابة",
+          "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+          "primaryUnitId": "EN",
+          "questionMode": true,
+          "feedbackOnly": true
+        },
+        "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+        "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "S15",
+  "title": "تقييم 4: Inverse-square gravitation",
+  "objectiveIds": [
+    "O4"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed p.4; PDF scan p.10 — original authored learner checkpoint, not a printed exercise"
+    }
+  ],
+  "narration": {
+    "id": "N15",
+    "role": "question",
+    "script": "In a particle model, the distance between two unchanged masses becomes three times as large. What fraction of the original gravitational force remains? Explain from the inverse-square relation.\nفي نموذج جسيمين كتلتهما ثابتة، المسافة بينهم بقت تلات أضعاف. قوة التجاذب الجديدة هتبقى كام جزء من القديمة؟ استخدم علاقة مربع المسافة.",
+    "units": [
+      {
+        "id": "EN",
+        "text": "In a particle model, the distance between two unchanged masses becomes three times as large. What fraction of the original gravitational force remains? Explain from the inverse-square relation.",
+        "occurrence": 1,
+        "visualIntent": "أظهر السؤال بالإنجليزية من أول كلمة منطوقة؛ لا تسرّب أي إجابة."
+      },
+      {
+        "id": "AR",
+        "text": "في نموذج جسيمين كتلتهما ثابتة، المسافة بينهم بقت تلات أضعاف. قوة التجاذب الجديدة هتبقى كام جزء من القديمة؟ استخدم علاقة مربع المسافة.",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي فقط عند بداية نطقه مع بقاء السؤال الإنجليزي."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "question",
+      "topic": "سؤال مستقل 4 — Inverse-square gravitation",
+      "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+      "primaryUnitId": "EN",
+      "questionMode": true
+    },
+    "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+    "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+  },
+  "question": {
+    "id": "Q04",
+    "english": "In a particle model, the distance between two unchanged masses becomes three times as large. What fraction of the original gravitational force remains? Explain from the inverse-square relation.",
+    "arabic": "في نموذج جسيمين كتلتهما ثابتة، المسافة بينهم بقت تلات أضعاف. قوة التجاذب الجديدة هتبقى كام جزء من القديمة؟ استخدم علاقة مربع المسافة.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "EN",
+      "arabic": "AR"
+    },
+    "writtenLabel": "اكتب إجابتك بالإنجليزي ثم أرسلها",
+    "writtenPlaceholder": "Your answer…",
+    "answer": {
+      "english": "One ninth of the original force remains: F_new/F_old = 1/3² = 1/9.",
+      "arabic": "الكتلتان زي ما هما، فكل التغير سببه المسافة. لما المسافة تبقى ثلاثة أمثال، المقام فيه ثلاثة تربيع، يعني تسعة، فتقل القوة لتُسع قيمتها. ما نقولش تلت القوة، لأن القانون فيه مربع المسافة مش المسافة وحدها.",
+      "reasoning": "الكتلتان زي ما هما، فكل التغير سببه المسافة. لما المسافة تبقى ثلاثة أمثال، المقام فيه ثلاثة تربيع، يعني تسعة، فتقل القوة لتُسع قيمتها. ما نقولش تلت القوة، لأن القانون فيه مربع المسافة مش المسافة وحدها."
+    },
+    "feedback": {
+      "id": "F04",
+      "role": "feedback",
+      "script": "One ninth of the original force remains: F_new/F_old = 1/3² = 1/9.\nالكتلتان زي ما هما، فكل التغير سببه المسافة. لما المسافة تبقى ثلاثة أمثال، المقام فيه ثلاثة تربيع، يعني تسعة، فتقل القوة لتُسع قيمتها. ما نقولش تلت القوة، لأن القانون فيه مربع المسافة مش المسافة وحدها.",
+      "units": [
+        {
+          "id": "EN",
+          "text": "One ninth of the original force remains: F_new/F_old = 1/3² = 1/9.",
+          "occurrence": 1,
+          "visualIntent": "بعد submit فقط، ابدأ إظهار model answer الإنجليزي."
+        },
+        {
+          "id": "AR",
+          "text": "الكتلتان زي ما هما، فكل التغير سببه المسافة. لما المسافة تبقى ثلاثة أمثال، المقام فيه ثلاثة تربيع، يعني تسعة، فتقل القوة لتُسع قيمتها. ما نقولش تلت القوة، لأن القانون فيه مربع المسافة مش المسافة وحدها.",
+          "occurrence": 1,
+          "visualIntent": "بعد بداية النطق العربي، أظهر التعليل تدريجيًا؛ لا يظهر أثناء المحاولة."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "EN",
+        "arabic": "AR"
+      },
+      "visual": {
+        "renderer": "statics-concept-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "mode": "question",
+          "topic": "Feedback — سؤال مستقل 4 — Inverse-square gravitation",
+          "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+          "primaryUnitId": "EN",
+          "questionMode": true,
+          "feedbackOnly": true
+        },
+        "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+        "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+      }
+    }
+  }
+}

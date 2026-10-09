@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "ems-y1-foundations-models",
+  "curriculumId": "engineering-mechanics-statics-y1",
+  "order": 1,
+  "title": "مدخل الميكانيكا ونماذج الأجسام",
+  "englishTitle": "Engineering Mechanics and Idealized Models",
+  "scriptRevision": "b01-stage04-canonical-scenes-v1",
+  "prerequisites": [
+    "School arithmetic and basic everyday motion"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "التمييز بين استاتيكا الاتزان وديناميكا الحركة المتسارعة",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S18"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "توصيف القوى ومقادير الطول والزمن والكتلة والقوة، والمعلومات اللازمة لتأثير القوة على جسم ممتد",
+      "taughtIn": [
+        "S06",
+        "S07",
+        "S08",
+        "S18"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "اختيار Particle وRigid Body وConcentrated Force مع حدود النموذج",
+      "taughtIn": [
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S16",
+        "S18"
+      ],
+      "assessedIn": [
+        "Q03",
+        "Q04"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18"
+  ],
+  "glossary": []
+}

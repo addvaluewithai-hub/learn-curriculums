@@ -1,0 +1,99 @@
+{
+  "id": "S17",
+  "title": "تقييم 4: تحويل القوة",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed pp.5–6; PDF scan pp.11–12 — original authored learner checkpoint, not a printed exercise"
+    }
+  ],
+  "narration": {
+    "id": "N17",
+    "role": "question",
+    "script": "A cable pulls with a force of 8 lbf. Convert the force approximately to newtons using 1 lbf ≈ 4.448 N.\nكابل بيشد بقوة تمانية pound-force. احسب تقريبًا القوة بالنيوتن باستخدام إن الواحد pound-force حوالي 4.448 نيوتن.",
+    "units": [
+      {
+        "id": "EN",
+        "text": "A cable pulls with a force of 8 lbf. Convert the force approximately to newtons using 1 lbf ≈ 4.448 N.",
+        "occurrence": 1,
+        "visualIntent": "أظهر السؤال بالإنجليزية من أول كلمة منطوقة؛ لا تسرّب أي إجابة."
+      },
+      {
+        "id": "AR",
+        "text": "كابل بيشد بقوة تمانية pound-force. احسب تقريبًا القوة بالنيوتن باستخدام إن الواحد pound-force حوالي 4.448 نيوتن.",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي فقط عند بداية نطقه مع بقاء السؤال الإنجليزي."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "question",
+      "topic": "سؤال مستقل 4 — تحويل القوة",
+      "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+      "primaryUnitId": "EN",
+      "questionMode": true
+    },
+    "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+    "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+  },
+  "question": {
+    "id": "Q04",
+    "english": "A cable pulls with a force of 8 lbf. Convert the force approximately to newtons using 1 lbf ≈ 4.448 N.",
+    "arabic": "كابل بيشد بقوة تمانية pound-force. احسب تقريبًا القوة بالنيوتن باستخدام إن الواحد pound-force حوالي 4.448 نيوتن.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "EN",
+      "arabic": "AR"
+    },
+    "writtenLabel": "اكتب إجابتك بالإنجليزي ثم أرسلها",
+    "writtenPlaceholder": "Your answer…",
+    "answer": {
+      "english": "8 lbf × 4.448 N/lbf = 35.584 N, approximately 35.6 N.",
+      "arabic": "ضربنا تمانية في 4.448، فوصلنا لحوالي 35.6 نيوتن. كان التحويل لقوة، والنتيجة بوحدة قوة. كتابة الرقم من غير N أو اعتبار lbf وحدة كتلة في السؤال ده هتضيّع معنى الحساب.",
+      "reasoning": "ضربنا تمانية في 4.448، فوصلنا لحوالي 35.6 نيوتن. كان التحويل لقوة، والنتيجة بوحدة قوة. كتابة الرقم من غير N أو اعتبار lbf وحدة كتلة في السؤال ده هتضيّع معنى الحساب."
+    },
+    "feedback": {
+      "id": "F04",
+      "role": "feedback",
+      "script": "8 lbf × 4.448 N/lbf = 35.584 N, approximately 35.6 N.\nضربنا تمانية في 4.448، فوصلنا لحوالي 35.6 نيوتن. كان التحويل لقوة، والنتيجة بوحدة قوة. كتابة الرقم من غير N أو اعتبار lbf وحدة كتلة في السؤال ده هتضيّع معنى الحساب.",
+      "units": [
+        {
+          "id": "EN",
+          "text": "8 lbf × 4.448 N/lbf = 35.584 N, approximately 35.6 N.",
+          "occurrence": 1,
+          "visualIntent": "بعد submit فقط، ابدأ إظهار model answer الإنجليزي."
+        },
+        {
+          "id": "AR",
+          "text": "ضربنا تمانية في 4.448، فوصلنا لحوالي 35.6 نيوتن. كان التحويل لقوة، والنتيجة بوحدة قوة. كتابة الرقم من غير N أو اعتبار lbf وحدة كتلة في السؤال ده هتضيّع معنى الحساب.",
+          "occurrence": 1,
+          "visualIntent": "بعد بداية النطق العربي، أظهر التعليل تدريجيًا؛ لا يظهر أثناء المحاولة."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "EN",
+        "arabic": "AR"
+      },
+      "visual": {
+        "renderer": "statics-concept-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "mode": "question",
+          "topic": "Feedback — سؤال مستقل 4 — تحويل القوة",
+          "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+          "primaryUnitId": "EN",
+          "questionMode": true,
+          "feedbackOnly": true
+        },
+        "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+        "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+      }
+    }
+  }
+}

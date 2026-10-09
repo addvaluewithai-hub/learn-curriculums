@@ -1,0 +1,99 @@
+{
+  "id": "S19",
+  "title": "تقييم 5: Mass vs Weight",
+  "objectiveIds": [
+    "O5"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed pp.4–5; PDF scan pp.10–11 — original authored learner checkpoint, not a printed exercise"
+    }
+  ],
+  "narration": {
+    "id": "N19",
+    "role": "question",
+    "script": "An object has a mass of 5 kg. Estimate its weight near Earth's surface using g = 9.81 m/s². Give the unit.\nجسم كتلته خمسة كيلوجرام، احسب وزنه تقريبًا قرب سطح الأرض باستخدام تسارع جاذبية 9.81 متر لكل ثانية تربيع، واكتب الوحدة.",
+    "units": [
+      {
+        "id": "EN",
+        "text": "An object has a mass of 5 kg. Estimate its weight near Earth's surface using g = 9.81 m/s². Give the unit.",
+        "occurrence": 1,
+        "visualIntent": "أظهر السؤال بالإنجليزية من أول كلمة منطوقة؛ لا تسرّب أي إجابة."
+      },
+      {
+        "id": "AR",
+        "text": "جسم كتلته خمسة كيلوجرام، احسب وزنه تقريبًا قرب سطح الأرض باستخدام تسارع جاذبية 9.81 متر لكل ثانية تربيع، واكتب الوحدة.",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي فقط عند بداية نطقه مع بقاء السؤال الإنجليزي."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "question",
+      "topic": "سؤال مستقل 5 — Mass vs Weight",
+      "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+      "primaryUnitId": "EN",
+      "questionMode": true
+    },
+    "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+    "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+  },
+  "question": {
+    "id": "Q05",
+    "english": "An object has a mass of 5 kg. Estimate its weight near Earth's surface using g = 9.81 m/s². Give the unit.",
+    "arabic": "جسم كتلته خمسة كيلوجرام، احسب وزنه تقريبًا قرب سطح الأرض باستخدام تسارع جاذبية 9.81 متر لكل ثانية تربيع، واكتب الوحدة.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "EN",
+      "arabic": "AR"
+    },
+    "writtenLabel": "اكتب إجابتك بالإنجليزي ثم أرسلها",
+    "writtenPlaceholder": "Your answer…",
+    "answer": {
+      "english": "W = mg = 5 × 9.81 = 49.05 N.",
+      "arabic": "حسبنا وزن الجسم، يعني قوة جذب الأرض، فبنضرب الكتلة في g. الوحدة كيلو جرام في متر لكل ثانية تربيع، ودي نيوتن. الرقم 5 kg هو كتلة الجسم؛ أما 49.05 N فهو الوزن التقريبي قرب الأرض.",
+      "reasoning": "حسبنا وزن الجسم، يعني قوة جذب الأرض، فبنضرب الكتلة في g. الوحدة كيلو جرام في متر لكل ثانية تربيع، ودي نيوتن. الرقم 5 kg هو كتلة الجسم؛ أما 49.05 N فهو الوزن التقريبي قرب الأرض."
+    },
+    "feedback": {
+      "id": "F05",
+      "role": "feedback",
+      "script": "W = mg = 5 × 9.81 = 49.05 N.\nحسبنا وزن الجسم، يعني قوة جذب الأرض، فبنضرب الكتلة في g. الوحدة كيلو جرام في متر لكل ثانية تربيع، ودي نيوتن. الرقم 5 kg هو كتلة الجسم؛ أما 49.05 N فهو الوزن التقريبي قرب الأرض.",
+      "units": [
+        {
+          "id": "EN",
+          "text": "W = mg = 5 × 9.81 = 49.05 N.",
+          "occurrence": 1,
+          "visualIntent": "بعد submit فقط، ابدأ إظهار model answer الإنجليزي."
+        },
+        {
+          "id": "AR",
+          "text": "حسبنا وزن الجسم، يعني قوة جذب الأرض، فبنضرب الكتلة في g. الوحدة كيلو جرام في متر لكل ثانية تربيع، ودي نيوتن. الرقم 5 kg هو كتلة الجسم؛ أما 49.05 N فهو الوزن التقريبي قرب الأرض.",
+          "occurrence": 1,
+          "visualIntent": "بعد بداية النطق العربي، أظهر التعليل تدريجيًا؛ لا يظهر أثناء المحاولة."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "EN",
+        "arabic": "AR"
+      },
+      "visual": {
+        "renderer": "statics-concept-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "mode": "question",
+          "topic": "Feedback — سؤال مستقل 5 — Mass vs Weight",
+          "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+          "primaryUnitId": "EN",
+          "questionMode": true,
+          "feedbackOnly": true
+        },
+        "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+        "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+      }
+    }
+  }
+}

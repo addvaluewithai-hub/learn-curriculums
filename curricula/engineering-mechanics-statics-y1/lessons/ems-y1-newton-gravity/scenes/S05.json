@@ -1,0 +1,99 @@
+{
+  "id": "S05",
+  "title": "تقييم 1: Newton I",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed p.3; PDF scan p.9 — original authored learner checkpoint, not a printed exercise"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "question",
+    "script": "A puck moves in a straight line with constant velocity. Its net external force is zero. Must it be at rest? Explain.\nجسم بينزلق في خط مستقيم بسرعة ثابتة، ومحصلة القوى الخارجية عليه صفر. هل لازم يكون ساكن؟ وضّح السبب.",
+    "units": [
+      {
+        "id": "EN",
+        "text": "A puck moves in a straight line with constant velocity. Its net external force is zero. Must it be at rest? Explain.",
+        "occurrence": 1,
+        "visualIntent": "أظهر السؤال بالإنجليزية من أول كلمة منطوقة؛ لا تسرّب أي إجابة."
+      },
+      {
+        "id": "AR",
+        "text": "جسم بينزلق في خط مستقيم بسرعة ثابتة، ومحصلة القوى الخارجية عليه صفر. هل لازم يكون ساكن؟ وضّح السبب.",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي فقط عند بداية نطقه مع بقاء السؤال الإنجليزي."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "question",
+      "topic": "سؤال مستقل 1 — Newton I",
+      "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+      "primaryUnitId": "EN",
+      "questionMode": true
+    },
+    "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+    "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+  },
+  "question": {
+    "id": "Q01",
+    "english": "A puck moves in a straight line with constant velocity. Its net external force is zero. Must it be at rest? Explain.",
+    "arabic": "جسم بينزلق في خط مستقيم بسرعة ثابتة، ومحصلة القوى الخارجية عليه صفر. هل لازم يكون ساكن؟ وضّح السبب.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "EN",
+      "arabic": "AR"
+    },
+    "writtenLabel": "اكتب إجابتك بالإنجليزي ثم أرسلها",
+    "writtenPlaceholder": "Your answer…",
+    "answer": {
+      "english": "No. Zero net external force gives zero acceleration, so the puck may be at rest or moving at constant velocity.",
+      "arabic": "القانون الأول مش بيقول إن السرعة نفسها صفر؛ بيقول إن مفيش تسارع، يعني السرعة واتجاه الحركة مش بيتغيروا. ممكن ساكن أو ماشي بسرعة ثابتة في خط مستقيم.",
+      "reasoning": "القانون الأول مش بيقول إن السرعة نفسها صفر؛ بيقول إن مفيش تسارع، يعني السرعة واتجاه الحركة مش بيتغيروا. ممكن ساكن أو ماشي بسرعة ثابتة في خط مستقيم."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "No. Zero net external force gives zero acceleration, so the puck may be at rest or moving at constant velocity.\nالقانون الأول مش بيقول إن السرعة نفسها صفر؛ بيقول إن مفيش تسارع، يعني السرعة واتجاه الحركة مش بيتغيروا. ممكن ساكن أو ماشي بسرعة ثابتة في خط مستقيم.",
+      "units": [
+        {
+          "id": "EN",
+          "text": "No. Zero net external force gives zero acceleration, so the puck may be at rest or moving at constant velocity.",
+          "occurrence": 1,
+          "visualIntent": "بعد submit فقط، ابدأ إظهار model answer الإنجليزي."
+        },
+        {
+          "id": "AR",
+          "text": "القانون الأول مش بيقول إن السرعة نفسها صفر؛ بيقول إن مفيش تسارع، يعني السرعة واتجاه الحركة مش بيتغيروا. ممكن ساكن أو ماشي بسرعة ثابتة في خط مستقيم.",
+          "occurrence": 1,
+          "visualIntent": "بعد بداية النطق العربي، أظهر التعليل تدريجيًا؛ لا يظهر أثناء المحاولة."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "EN",
+        "arabic": "AR"
+      },
+      "visual": {
+        "renderer": "statics-concept-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "mode": "question",
+          "topic": "Feedback — سؤال مستقل 1 — Newton I",
+          "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+          "primaryUnitId": "EN",
+          "questionMode": true,
+          "feedbackOnly": true
+        },
+        "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+        "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+      }
+    }
+  }
+}
