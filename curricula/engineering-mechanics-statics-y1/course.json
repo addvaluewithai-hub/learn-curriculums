@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "engineering-mechanics-statics-y1",
   "title": "الميكانيكا الهندسية - الاستاتيكا | أولى هندسة",
-  "revision": "chapter1-stage03-block-roadmap-reconciled-v2",
-  "description": "First-year Engineering Mechanics (Statics): whole-course provisional Block roadmap based on partial 36-page scan; B01 alone has finalized editorial scripts.",
+  "revision": "b01-stage04-canonical-scenes-v1",
+  "description": "Year-one Engineering Mechanics (Statics): provisional Blocks B01–B09; B01 Stage 04 canonical scripts/scenes authored and structurally checked; source/scientific/audio approval pending.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",

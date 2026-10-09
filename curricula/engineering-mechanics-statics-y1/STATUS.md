@@ -6,8 +6,8 @@
 - Course ID: `engineering-mechanics-statics-y1`.
 - Active Block: **B01 — Introduction / printed Chapter 1 pp.1–6**.
 - Course branch/PR: `curriculum/engineering-statics-y1-stage01` / Draft PR #7 — https://github.com/addvaluewithai-hub/learn-curriculums/pull/7.
-- Last completed human gate in active B01: **Stage 03 — final connected scripts, objective/assessment/source map and issued stable lesson IDs**.
-- **Next authorized gate: NONE — awaiting new human `next` or comments**. The user's “ظبط الهيكل الجديد” authorizes only this structural reconciliation, not Stage 04 or Stage 05.
+- Last completed human gate in B01: **Stage 04 — 56 canonical scenes, 13 question/feedback pairs, independent 16:9/9:16 storyboard plans and React boards**. Human science, visual playback and audio remain untested.
+- **Next authorized gate: NONE — awaiting new human `next`, `next block` or review comments**. This `next` authorized Stage 04 only.
 
 ## Global source and roadmap
 - Master plan: `OUTLINE.md` — provisional whole-course B01–B09, including unavailable source blocks. The **B01 subsection only** contains finalized Stage 03 lesson mapping.
@@ -19,7 +19,7 @@
 ## Blocks overview (not lesson IDs)
 | Block | Roadmap coverage | Current editorial gate/status |
 |---|---|---|
-| **B01 (active)** | Ch.1 printed pp.1–6 | Stage 01, 02 and 03 completed *under pre-Stage-00 workflow*; **Stage 04 NOT started**; see `blocks/B01/STATUS.md` |
+| **B01 (active)** | Ch.1 printed pp.1–6 | **Stage 04 authored and script-validated**; source/teaching approval and audio deferred; see `blocks/B01/STATUS.md` |
 | B02 | Ch.2 printed pp.9–18; scalar/vector and planar force foundations | Planned only; no active Block STATUS or lesson IDs |
 | B03 | Ch.2 printed pp.19–30; unit vectors/resultants/position vectors | Planned only; no active Block STATUS or lesson IDs |
 | B04 | Ch.2 printed pp.32 onward, missing body | Blocked: index only |
@@ -31,15 +31,17 @@
 
 ## B01 editorial and production status
 - Stable issued lesson IDs (unchanged): `ems-y1-foundations-models`, `ems-y1-newton-gravity`, `ems-y1-units-conversions`; order 1/2/3.
-- Stage 03 scripts **remain identical and complete** in `drafts/01-mechanics-and-models.md`, `drafts/02-newton-and-weight.md`, `drafts/03-units-and-conversions.md`; 4+5+4 = **13** independent question / attempt / feedback sequences.
+- Historical Stage 03 scripts remain untouched as **read-only comparison snapshots** in `drafts/*.md`; the new canonical spoken text lives in `lessons/<stable-id>/scenes/*.json` narration + separate feedback. Total: **43 teaching scenes + 13 question scenes = 56 scenes**; 13 independent written attempts.
 - Critique and boundaries: `reviews/STAGE_02_CRITIQUE.md` and `reviews/STAGE_03_BOUNDARIES.md`.
 - Previous editorial arithmetic/structure preflight passed as recorded in Git history; **no formal human scientific approval or student test claimed**.
 - **2026-10-09 reconciliation verification:** GitHub readback passed for source manifest, coverage, course/Block checkpoints and roadmap; measured SHA/pages/bytes align with source metadata; all three B01 script Git blob SHAs **exactly unchanged** from prior Stage 03 head; authored Markdown/JSON files remain <=300 lines. Local full `tools/quality.py`, `unittest`, and `validate` were **not run**: cloning the repo failed due to DNS resolution of `github.com` (exit 128). No CI, teacher or runtime pass inferred.
-- Not started: `lesson.json`, scenes, 16:9/9:16 storyboards, TTS/audio/timing, SDK playback, source approval, platform release or merge to main.
+- **Created:** lesson.json/review.json/STATUS per stable lesson, 56 scenes, original SVG/React visual boards, 16:9/9:16 storyboard specifications and 114 semantic-unit anchors. **Not started:** paid TTS, delivered audio/word alignment, runtime preview, science approval, platform release or merge.
 
 ## Handoff and unresolved decisions
-- Next separate `next`: B01 Stage 04 **only** (canonical scenes/storyboards/checks) when prerequisite access/source integrity are appropriately addressed.
-- After successful Stage 04 and human inspection: `next block` starts B02 Stage 01, **not audio**; bare `next` would enter B01 Stage 05 pilot preparation only, without paid dispatch authorization.
+- Next separate **`next`**: B01 Stage 05 dry-run pilot preparation (**never** paid dispatch without separate permission).
+- Alternative after inspection: **`next block`** starts B02 Stage 01 without waiting for B01 audio, but actual Ch.2 pages must be available and reopened.
 - **Open source decision:** owner must supply/authorize an approved private durable PDF location, with future-agent access and retrieval verification; public upload not authorized.
 - Reviewer pending: accurate print/source detail including skewed pages, teacher/learner evaluation (especially B01 L02), scientific and bilingual checks. Source hash is measured, but rights/persistent storage have not been verified.
 - Change audit: structural-only alignment to new workflow; no renames or modification to stable lesson IDs, accepted content, audio or published editions. Any script amendment is a separate explicitly reviewed change.
+
+- **Stage 04 actual CI:** `Production contracts` completed **success** on head `c6857f8e739ef9277a43d784bfdec141f196f869` (run `37948932838`), including `tests/test_statics_b01_script.py` which executes the actual `--stage script` validator on each B01 lesson, plus repository unittest/quality/default validation. Final STATUS-only change will trigger a new head run. These are structural checks, not human approvals.

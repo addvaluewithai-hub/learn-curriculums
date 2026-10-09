@@ -42,7 +42,7 @@ A Block is an **editorial production unit**, not automatically one textbook chap
 | 2 | `ems-y1-newton-gravity` | قوانين نيوتن والجاذبية والوزن / Newton's Laws, Gravitation and Weight | Ch.1 pp.3–5; scan pp.9–11 | `drafts/02-newton-and-weight.md` |
 | 3 | `ems-y1-units-conversions` | الوحدات والتحويلات في الاستاتيكا / Systems of Units and Unit Conversions | Ch.1 pp.5–6; scan pp.11–12 | `drafts/03-units-and-conversions.md` |
 
-**Identity rule:** IDs above are newly issued and stable; never change/recycle them without owner coordination. Shared printed page overlap is deliberate at transitions; identical worked explanations are not copied between lessons. The `drafts/` path is historical; these three in-place files are now **Stage 03 final scripts**, not competing source documents. Stage 04 must replace them as canonical script with scene/feedback narration, deriving any review copy from the scenes. **Do not create lesson.json or scene JSON in Stage 03.**
+**Identity rule:** issued lesson IDs remain unchanged. The `drafts/` links above point to historical Stage 03 snapshots; after Stage 04, the canonical spoken source is `lessons/<stable-id>/scenes/*.json` narration/feedback. Do not edit a parallel master. Generated reading copies must follow canonical clips.
 
 ## Audience and prerequisites
 - **Assumed from school:** basic arithmetic, substitution, everyday length/time, notion of motion, basic right/left/up/down spatial orientation.
@@ -84,4 +84,4 @@ Source locators above refer to **printed** pages first, then 1-based PDF scan pa
 - The original PDF is not added to this public GitHub repository. Teacher reviewer should inspect original blurry details/section numbering and source reuse permissions.
 - Source/science and teaching still **untested by independent human reviewer**. No student work, durations or production audio assessed. No review.json checks marked passed.
 
-**Next human stage (NOT authorized yet):** Stage 04 — create formal lesson.json/scenes/questions/feedback and independent 16:9/9:16 storyboards with script-level validation, then stop before audio.
+**B01 Stage 04 checkpoint:** canonical teaching/question/feedback narration now lives in `lessons/<stable-id>/scenes/*.json`, not editable `drafts/*.md`; both storyboard ratios are defined per scene. See `blocks/B01/STAGE_04_AUDIT.md` for verified checks and pending human review. Next human `next` = B01 Stage 05 dry-run audio pilot prep, or `next block` = B02 Stage 01 with source access.
