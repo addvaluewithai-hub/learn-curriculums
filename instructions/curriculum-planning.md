@@ -1,6 +1,8 @@
 # Curriculum planning: provisional lesson boundaries
 
-This is an **authoring workflow**, not an amendment to the authoring JSON schema or a new mandatory file format. Follow [teaching](teaching.md), [contract](contract.md), and [handoff](handoff.md) as appropriate.
+This is an **authoring workflow**, not an amendment to the authoring JSON schema or a new mandatory file format. Follow [human stage gates](stage-gates.md), [teaching](teaching.md), [contract](contract.md), and [handoff](handoff.md) as appropriate.
+
+**Execution boundary:** the steps below describe the end-to-end dependency order, **not permission to complete them all in one run**. Initial request executes steps 1–3 (Stage 01) for a bounded block and stops. The next human turns unlock critique (Stage 02), boundary decision/final writing (Stage 03), then scenes (Stage 04). Do not auto-run step 4 just because draft writing finished.
 
 ## Goal
 
