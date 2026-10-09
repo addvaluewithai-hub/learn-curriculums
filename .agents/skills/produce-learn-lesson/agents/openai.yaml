@@ -1,0 +1,4 @@
+interface:
+  display_name: "Produce a Learn lesson"
+  short_description: "Author grounded lessons, audio and timed scene drafts"
+  default_prompt: "Use $produce-learn-lesson to produce lesson 3 in the selected curriculum."

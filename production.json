@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "audio": {
+    "repository": "addvaluewithai-hub/gemini-tts",
+    "voice": "Gacrux",
+    "style": "Mature warm calm Egyptian private teacher. Natural medium pace, short pauses between ideas, clear English terms. Friendly and precise; no advertising performance.",
+    "routing": "quality",
+    "format": "wav",
+    "sampleRate": 24000,
+    "languageCodes": []
+  },
+  "preview": {
+    "status": "pending-sdk",
+    "directory": "preview-sdk",
+    "runtimeVersion": null
+  }
+}

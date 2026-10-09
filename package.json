@@ -1,0 +1,18 @@
+{
+  "name": "learn-curriculums",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Source-grounded lesson production; preview SDK is pending.",
+  "scripts": {
+    "course:new": "python3 tools/cli.py course-new",
+    "lesson:new": "python3 tools/cli.py lesson-new",
+    "validate": "python3 tools/cli.py validate",
+    "audio:prepare": "python3 tools/cli.py audio-prepare",
+    "audio:dispatch": "python3 tools/cli.py audio-dispatch",
+    "audio:collect": "python3 tools/cli.py audio-collect",
+    "audio:align": "python3 tools/cli.py audio-align",
+    "export": "python3 tools/cli.py export",
+    "check": "python3 tools/quality.py",
+    "test": "python3 -m unittest discover -s tests -v"
+  }
+}
