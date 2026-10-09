@@ -1,0 +1,91 @@
+{
+  "id": "S06",
+  "title": "Q01 — تصنيف العدد النسبي",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "mathematics-i-scan",
+      "locator": "printed pp.3–4; scan PDF image p.5"
+    },
+    {
+      "sourceId": "author-created",
+      "locator": "references/authored-examples.md: Q01"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "question",
+    "script": "دلوقتي سؤال جديد من غير حل قدامك. Which of these numbers is rational? أي عدد من دول نسبي وممكن تكتبه ككسر من عددين صحيحين؟ الاختيارات: Square root of two. Pi. Zero point three seven five. اختار إجابة واحدة، وفسّر لنفسك ليه.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "Which of these numbers is rational?",
+        "occurrence": 1,
+        "visualIntent": "Reveal exact English question at first spoken onset."
+      },
+      {
+        "id": "U02",
+        "text": "أي عدد من دول نسبي وممكن تكتبه ككسر من عددين صحيحين؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic interpretation on spoken onset."
+      },
+      {
+        "id": "U03",
+        "text": "الاختيارات",
+        "occurrence": 1,
+        "visualIntent": "Show three neutral equal option tiles with no correct state before submission."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {},
+    "landscape": "16:9 equal neutral option cards √2, π, 0.375 under the question; no answer or reason appears until submitted.",
+    "portrait": "9:16 question wraps over three stacked equally neutral option tiles; enable submit after reading without color-coded hints."
+  },
+  "question": {
+    "id": "Q01",
+    "english": "Which of these numbers is rational?",
+    "arabic": "أي عدد من دول نسبي وممكن تكتبه ككسر من عددين صحيحين؟",
+    "attempt": "choice",
+    "options": [
+      "√2",
+      "π",
+      "0.375"
+    ],
+    "correctIndex": 2,
+    "answer": {
+      "english": "0.375 is rational because 0.375 = 3/8.",
+      "arabic": "٠٫٣٧٥ عدد نسبي لأنه يساوي ٣/٨.",
+      "reasoning": "A terminating decimal is a ratio of two integers with a nonzero denominator."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "The rational number is zero point three seven five. العدد النسبي هو صفر فاصلة تلاتة سبعة خمسة، لأنه بيساوي تلاتة على تمانية. أما الجذر التربيعي لاتنين وباي فهم أعداد غير نسبية. العدد العشري المنتهي ينفع يتحول لكسر، ومجرد إن العدد مش صحيح ما يخليهوش غير نسبي.",
+      "units": [
+        {
+          "id": "U01",
+          "text": "The rational number is zero point three seven five",
+          "occurrence": 1,
+          "visualIntent": "Reveal correct choice only after attempt."
+        },
+        {
+          "id": "U02",
+          "text": "بيساوي تلاتة على تمانية",
+          "occurrence": 1,
+          "visualIntent": "Show 0.375 = 3/8 and reduction."
+        },
+        {
+          "id": "U03",
+          "text": "فهم أعداد غير نسبية",
+          "occurrence": 1,
+          "visualIntent": "Explain why the other two taught irrational examples are excluded."
+        }
+      ]
+    }
+  }
+}
