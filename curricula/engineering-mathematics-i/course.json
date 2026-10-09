@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "engineering-mathematics-i",
+  "title": "Mathematics I — Calculus (Differentiation) for Engineering",
+  "revision": "pilot-script-v1",
+  "description": "مدخل لتفاضل كلية الهندسة: الأعداد الحقيقية، الدوال، النهايات، والتفاضل. مبني فقط على الصفحات التي ظهرت في نسخة مصوّرة.",
+  "language": {
+    "explanation": "ar-EG",
+    "exam": "en",
+    "arabicSupport": true
+  },
+  "sources": [
+    {
+      "id": "mathematics-i-scan",
+      "title": "Mathematics I (Calculus-Differentiation) For Engineering, Dr. Mohamed A. Abd El Salam — scanned excerpt",
+      "access": "reviewed-notes",
+      "file": "references/source-notes.md",
+      "limitations": "43 scanned PDF image pages inspected in this authoring session, printed pages 1–80. Original attachment is not stored in public GitHub; later chapters appear in table of contents only."
+    },
+    {
+      "id": "author-created",
+      "title": "Original teaching examples and assessments",
+      "access": "available",
+      "file": "references/authored-examples.md",
+      "limitations": "Newly authored examples, not printed book exercises."
+    }
+  ],
+  "teacher": {
+    "persona": "مدرس مصري هادئ؛ الشرح بالعربي المصري والمصطلحات الرياضية والامتحان بالإنجليزي",
+    "audience": "طلاب هندسة مبتدئون"
+  }
+}
