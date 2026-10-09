@@ -1,6 +1,6 @@
 # Stage 03 final connected teaching script — Absolute Value as Distance
-**Stable lesson ID:** \`em1-prelim-absolute-value\` | **B01 order:** 3 of 5 | **Title:** القيمة المطلقة ومعادلاتها ومتبايناتها
-**Source:** \`abd-el-salam-math-i-scan\`, printed pp. 9–12, PDF pp. 8–9. Classroom examples and questions independently authored.
+**Stable lesson ID:** `em1-prelim-absolute-value` | **B01 order:** 3 of 5 | **Title:** القيمة المطلقة ومعادلاتها ومتبايناتها
+**Source:** `abd-el-salam-math-i-scan`, printed pp. 9–12, PDF pp. 8–9. Classroom examples and questions independently authored.
 **Prerequisites:** sign of real numbers, real-line distance, open/closed interval notation and linear inequalities (B01 lessons 1–2).
 **Taught targets:** explain $\lvert x-a\rvert$ as real-line distance and piecewise magnitude; solve simple absolute-value equations, inside/outside inequalities and handle zero/negative thresholds; verify triangle inequality numerically.
 **Deferred:** absolute values within more advanced rational/polynomial expressions; differentiation.
