@@ -20,17 +20,17 @@
 
 قبل ما نقارن الرسمين: في الدالة الأسية $2^x$ إكس يقدر يكون أي عدد حقيقي، حتى السالب، لكن الناتج يفضل موجب. أما في اللوغاريتم $\log_2x$ فلازم إكس نفسه يكون موجب. والأساس في اللوغاريتم لازم يكون موجب ومختلف عن واحد. فرق المجال ده يهم أكتر من شكل المنحنى المحفوظ.
 
-دلوقتي نربط الخطوط ببعضها. لو بدلنا $x^2$ بـ $((x-2)^2)$، نقطة القاع هتتحرك ناحية اليمين إلى إكس تساوي اتنين. ولو ضفنا ثلاثة خارج التربيع، القاع هيطلع لفوق ثلاثة. الفكرة دي اسمها **Graph transformation**. التفصيل ده جسر تفسيري مننا عشان نفهم الرسومات، مش تمرين منقول حرفيًا من الكتاب. ماتعتمدش على الاسم بس؛ اعرف القاعدة والمجال والإشارة والشكل العام.
+دلوقتي نربط الخطوط ببعضها. لو بدلنا $x^2$ بـ $(x-2)^2$، نقطة القاع هتتحرك ناحية اليمين إلى إكس تساوي اتنين. ولو ضفنا ثلاثة خارج التربيع، القاع هيطلع لفوق ثلاثة. الفكرة دي اسمها **Graph transformation**. التفصيل ده جسر تفسيري مننا عشان نفهم الرسومات، مش تمرين منقول حرفيًا من الكتاب. ماتعتمدش على الاسم بس؛ اعرف القاعدة والمجال والإشارة والشكل العام.
 
 تخيّل قدامك ثلاث قواعد: $(x^3-1)$، و$(1/(x+4))$، و$(5^x)$. الأولى متعددة حدود، والثانية كسرية وفيها قيمة ممنوعة، والثالثة أسية. مش مطلوب منك تحفظ كل رسمة في الدنيا؛ المطلوب تربط شكل التعبير بالأسئلة اللي لازم تسألها. خلينا نشوف هل تقدر تصنف دوال جديدة بنفسك.
 
 ## Independent attempt Q-B1 — heading not spoken
-**Question spoken (English):** Classify $f(x)=x^4-3x+2$ and $g(x)=1/(x^2-9)$. State every excluded real input for (g).
+**Question spoken (English):** Classify $f(x)=x^4-3x+2$ and $g(x)=1/(x^2-9)$. State every excluded real input for $g$.
 **Question spoken (Arabic support):** صنّف الدالتين، وحدد قيم إكس الحقيقية المستبعدة من مجال الدالة اللي فيها كسر.
 **Attempt:** written; do not show classification or excluded values before answer.
 
 ### Post-attempt feedback B1 — separate spoken text
-**Model answer (English):** (f) is polynomial; (g) is rational, and $x=3$ and $x=-3$ are excluded.
+**Model answer (English):** $f$ is polynomial; $g$ is rational, and $x=3$ and $x=-3$ are excluded.
 **Feedback spoken:** الأولى كثيرة حدود لأن كل قوى إكس فيها أعداد صحيحة غير سالبة. الثانية نسبة كثيرتي حدود. المقام إكس تربيع ناقص تسعة يساوي صفر عند ثلاثة وسالب ثلاثة، فالاتنين خارج المجال، حتى لو الرسم محتاج حسابات أكتر.
 
 ## Independent attempt Q-B2 — heading not spoken
@@ -39,7 +39,7 @@
 **Attempt:** written; do not display a number line before attempt.
 
 ### Post-attempt feedback B2 — separate spoken text
-**Model answer (English):** Logarithmic; domain (x>2), or $(2,\infty)$.
+**Model answer (English):** Logarithmic; domain $x>2$, or $(2,\infty)$.
 **Feedback spoken:** دي دالة لوغاريتمية. أي حاجة داخل اللوغاريتم لازم تكون أكبر من صفر، يعني إكس ناقص اتنين أكبر من صفر، وبالتالي إكس أكبر من اتنين. مش بنسمح بالصفر هنا، حتى لو هو مسموح جوه الجذر التربيعي في بعض الدوال.
 
 ## Independent attempt Q-B3 — separate graph-transfer question
@@ -55,4 +55,4 @@
 لما تقابل دالة جديدة، شوف مكان إكس: في حد كثير حدود، في مقام، جوه دالة مثلثية، ولا في الأس، ولا جوه لوغاريتم؟ بعد التصنيف اسأل عن المجال والشكل العام. في الدرس الجاي هنتحرك من شكل الرسم إلى سلوكه: إمتى بيزيد، وإمتى بيقل، وإزاي نقيس اقترابه من نقطة.
 
 ## Rough visual ideas (editorial, NOT final storyboard)
-Compare a line, parabola, cubic and hyperbola on paired axes; show sine's repeated cycle; place $(2^x)$ beside (log_2 x); show $((x-2)^2+3)$ sliding right/up.
+Compare a line, parabola, cubic and hyperbola on paired axes; show sine's repeated cycle; place $(2^x)$ beside (log_2 x); show $(x-2)^2+3$ sliding right/up.
