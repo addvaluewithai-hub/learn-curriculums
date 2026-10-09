@@ -53,13 +53,13 @@
 خلينا نختم بسؤال يجمع متباينة كسرية وشرطًا ثانيًا. حل كل جزء الأول، وبعدها خد المشترك.
 
 ## Independent attempt EM1-RA-Q3 — question only
-**English exam question:** Solve both conditions: $\frac{x+2}{x-1}\le0$ and $x<3$. Give the final real solution set as intervals and state the excluded denominator point.
-**Arabic spoken support:** حل الشرطين مع بعض: إكس زائد اتنين على إكس ناقص واحد أصغر من أو يساوي صفر، وإكس أقل من تلاتة. اكتب مجموعة الحل وحدد القيمة الممنوعة للمقام.
+**English exam question:** Solve both conditions: $\frac{x+2}{x-1}\le0$ and $x<0$. Give the final real solution set as intervals and state the excluded denominator point.
+**Arabic spoken support:** حل الشرطين مع بعض: إكس زائد اتنين على إكس ناقص واحد أصغر من أو يساوي صفر، وإكس أقل من صفر. اكتب مجموعة الحل وحدد القيمة الممنوعة للمقام.
 **Attempt direction (non-spoken):** hold denominator and sign-chart/interval result until submission.
 
 ### Post-attempt explanatory feedback EM1-RA-Q3 — separate
-**English model answer:** $\frac{x+2}{x-1}\le0$ yields $[-2,1)$; intersecting with $(-\infty,3)$ leaves $[-2,1)$. The excluded denominator point is $x=1$.
-**Egyptian Arabic spoken explanation:** البسط صفر عند سالب اتنين، والمقام صفر عند واحد. الكسر موجب قبل سالب اتنين، وسالب بين سالب اتنين وواحد، وموجب بعد واحد. نضم سالب اتنين لأن الكسر صفر والشرط يسمح، ونستبعد واحد لأن المقام عنده صفر. فالشرط الأول حلّه من سالب اتنين شاملًا لحد أقل من واحد. الشرط التاني إكس أقل من تلاتة، وكل أرقام الفترة الأولى أصلًا أقل من تلاتة، فالتقاطع ما يغيرش الحل.
+**English model answer:** $\frac{x+2}{x-1}\le0$ yields $[-2,1)$; intersecting with $(-\infty,0)$ gives $[-2,0)$. The excluded denominator point is $x=1$.
+**Egyptian Arabic spoken explanation:** البسط صفر عند سالب اتنين، والمقام صفر عند واحد. الكسر موجب قبل سالب اتنين، وسالب بين سالب اتنين وواحد، وموجب بعد واحد. نضم سالب اتنين لأن الكسر صفر والشرط يسمح، ونستبعد واحد لأن المقام عنده صفر. فالشرط الأول حلّه من سالب اتنين شاملًا لحد أقل من واحد. الشرط التاني إكس أقل من صفر، وده يقطع جزءًا من الفترة الأولى. فالتقاطع هو من سالب اتنين شاملًا لحد أقل من صفر، يعني $[-2,0)$. واحد يفضل قيمة ممنوعة للمقام حتى لو أصلًا خارج التقاطع النهائي.
 
 ## Closing spoken recap
 
