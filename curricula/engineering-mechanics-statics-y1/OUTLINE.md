@@ -1,4 +1,4 @@
-# Engineering Mechanics – Statics | خطة مؤقتة، Stage 01
+# Engineering Mechanics – Statics | خطة مؤقتة — بعد نقد Stage 02
 
 > **مهم:** هذه خطة أولية وليست قرارًا نهائيًا لحدود الدروس. أسماء الدروس أدناه working labels، **ليست lesson IDs مستقرة**. لم تُنشأ lesson.json أو scenes.
 
@@ -27,4 +27,4 @@
 ## ما بعد البلوك الأول — مرجع فهرس فقط
 يشير الفهرس إلى: Chapter 2 Force Vectors؛ Chapter 3 Equilibrium of Particles؛ Chapter 4 Moment of a Force and Equivalent Force Systems؛ Chapter 5 Equilibrium of Rigid Body؛ Chapter 6 Structure Analysis؛ Chapter 7 Friction. الصفحات المتاحة فعليًا من Chapter 2 حتى printed p.30؛ بقية الفصول غير متاحة للشرح أو الادعاء بفحصها.
 
-**القرار القادم في Stage 02:** نقد المسودات كاملة علميًا وتعليميًا ولغويًا، لا اعتماد التقسيم النهائي بعد.
+**نقطة ما بعد Stage 02:** تمت مراجعة المسودات الثلاث وإعادة كتابتها. التفاصيل في reviews/STAGE_02_CRITIQUE.md. الخيارات الممكنة لتقسيم الدروس مسجلة للمناقشة فقط؛ لا حدود نهائية، ولا lesson IDs معتمدة. Stage 03 تنتظر next منفصلًا.
