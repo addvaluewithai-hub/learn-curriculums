@@ -8,12 +8,16 @@ description: Author or repair source-grounded Learn curricula and lessons in lea
 Read root AGENTS.md, the selected course.json, OUTLINE.md, sources and lesson STATUS.md.
 Resolve the requested ordinal to a stable ID; ask only when the course is genuinely ambiguous.
 Use [the data contract](../../../instructions/contract.md) before creating or changing files.
+Read [curriculum planning](../../../instructions/curriculum-planning.md) before setting or revising boundaries; an outline split is provisional until teaching critique.
 Preserve another editor's work and accepted takes; scope changes to the selected course/lesson.
 
 Read [teaching](../../../instructions/teaching.md) and map audience, source boundaries, objectives and prerequisite concepts.
 Classify key terms: already known, needs a brief bridge, taught in this lesson, or deliberately deferred.
-Plan the learner journey and rough visual beats; write a coherent continuous spoken *working draft* before formal scenes.
-Critique specific novice gaps, scientific/source fidelity, Arabic-English comprehension, independent transfer questions and purposeful length; revise material weaknesses before decomposition.
+Propose initial lesson boundaries from source coverage and objectives; for a manageable chapter/block, write coherent continuous *working drafts* without forcing production scene cuts.
+Plan the learner journey and rough visual beats for each draft; preserve natural paragraphs, question/attempt/feedback boundaries.
+Critique novice gaps, scientific/source fidelity, Arabic-English comprehension, independent transfer questions and purposeful length **and cognitive load**.
+After critique, decide explicitly whether each draft stays one lesson, becomes short internal sections, splits, merges or moves content to a neighboring lesson. Do not split solely by word count or the source's section headings.
+Confirm the final lesson map, coverage, prerequisites, assessments and stable IDs/order; rewrite each resulting lesson's opening, transitions, attempts and recap, then critique the revised boundaries before scenes.
 Map every objective to teaching and independent questions. Use exact source locators; distinguish authored examples from book facts and record missing-source limits.
 Decompose the settled draft into scenes, with teaching, question/attempt and explanatory feedback separated; preserve spoken words and conceptual sequence.
 Once split, scene narration and feedback are the canonical script; regenerate any continuous review copy instead of maintaining another editable source.
