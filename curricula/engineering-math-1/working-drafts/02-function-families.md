@@ -51,6 +51,15 @@
 **Model answer (English):** Vertex $(-3,-2)$; the parabola opens upward.
 **Feedback spoken:** اللي جوه التربيع إكس زائد تلاتة معناه إن القاع اتحرك تلات وحدات شمال، والناقص اتنين خارج التربيع نزّله وحدتين. عشان كده الرأس عند سالب تلاتة وسالب اتنين، وبما إن معامل التربيع موجب، المنحنى مفتوح لفوق. ده تطبيق على قراءة الرسم مش مجرد تصنيف اسم الدالة.
 
+## Independent attempt Q-B4 — separate family/domain-range transfer
+**Question spoken (English):** Classify $f(x)=\sin x$ and $g(x)=3^x$. For real $x$, state the domain of $f$ and the range of $g$.
+**Question spoken (Arabic support):** صنّف ساين إكس وتلاتة أس إكس، وبعدها اكتب مجال ساين إكس ومدى تلاتة أس إكس لما إكس عدد حقيقي.
+**Attempt:** written; do not expose the families or domain/range until response.
+
+### Post-attempt feedback B4 — separate spoken text
+**Model answer (English):** $f$ is trigonometric with domain $\mathbb R$; $g$ is exponential with range $(0,\infty)$.
+**Feedback spoken:** ساين إكس دالة مثلثية وتقبل أي زاوية حقيقية بوحدة متفقة. تلاتة أس إكس دالة أسية، ومهما كانت إكس موجبة أو سالبة الناتج يفضل موجب، ومش بيساوي صفر. لذلك مدى الدالة الأسية هنا كل الأعداد الموجبة فقط. السؤال بيختبر إنك تربط العائلة بالمجال والمدى، مش الاسم وحده.
+
 ## Closing spoken recap
 لما تقابل دالة جديدة، شوف مكان إكس: في حد كثير حدود، في مقام، جوه دالة مثلثية، ولا في الأس، ولا جوه لوغاريتم؟ بعد التصنيف اسأل عن المجال والشكل العام. في الدرس الجاي هنتحرك من شكل الرسم إلى سلوكه: إمتى بيزيد، وإمتى بيقل، وإزاي نقيس اقترابه من نقطة.
 
