@@ -1,5 +1,5 @@
 # Provisional working draft P-D — المتباينات التربيعية والكسرية ومخطط الإشارة
-**Stage:** 01 — complete connected spoken working script; not final approved lesson boundary or scenes.
+**Stage:** 02 — critically revised complete working script; not final approved lesson boundary or scenes.
 **Source:** `abd-el-salam-math-i-scan`; printed pp. 13–18 (PDF image pages 10–12); pp. 19–20 (PDF page 13) contain end-of-preliminaries exercises.
 **Prerequisites:** intervals, inequality direction, factorization and the sign of a product; sign tables taught here.
 **Working objectives:** solve factored polynomial inequalities using sign regions; solve rational inequalities respecting denominator exclusions; combine solution sets using intersection/union.
@@ -14,6 +14,8 @@
 قبل سالب اتنين، جرّب سالب تلاتة: العامل إكس ناقص تلاتة سالب، والعامل إكس زائد اتنين سالب، فحاصل الضرب موجب. بين سالب اتنين وتلاتة، جرّب صفر: أول عامل سالب والتاني موجب، فحاصل الضرب سالب. بعد تلاتة، جرّب أربعة: الاتنين موجبين، فالحاصل موجب. لأن المطلوب **أكبر من صفر**، هنختار المنطقتين الخارجيتين، من غير الجذرين؛ الحل $(-\infty,-2)\cup(3,\infty)$. لو العلامة كانت أكبر من أو يساوي، كنا هنضم الجذرين لأن حاصل الضرب عندهما صفر.
 
 ليه اختيار رقم واحد من كل منطقة بيكفي في المثال ده؟ لأن التعبير حاصل ضرب عوامل خطية، وكل عامل مش بيغير إشارته إلا لما يعدي صفره. وبالتالي بين أي جذرين متتاليين، الإشارات ثابتة. ولو المسألة كثيرة حدود أعلى أو فيها عوامل متكررة، ماينفعش نفترض تناوب موجب وسالب من غير حساب؛ هنرجع لإشارة كل عامل. القاعدة الآمنة هي تقسيم الخط عند كل نقطة ممكن تغير الإشارة واختبار المناطق.
+
+خد بالك من فخ حفظ الإشارات بالتناوب. مثلًا $(x-2)^2>0$، الطرفين حوالين اتنين بيدّوا قيمة موجبة؛ لأن عندنا مربع، فالإشارة **مش** بتتقلب عند الجذر ده. عشان كده لازم نعرف إشارة التعبير في كل فترة، حتى لو قابلتنا جذور مكررة، ومش نعتمد على نمط موجب وسالب محفوظ من الرسم.
 
 ندخل بقى على **Rational inequalities**، المتباينات الكسرية. هنا عندنا بسط ومقام، وهنحتاج نقطتين نوعهم مختلف: نقطة البسط لما يساوي صفر ممكن تكون حلًا لو العلامة بتسمح بالمساواة، لكن نقطة المقام لما يساوي صفر **ممنوعة دايمًا** لأن القسمة على صفر غير معرفة. خلينا ناخد $\frac{x+1}{x-2}\le0$. البسط يساوي صفر عند سالب واحد، والمقام يساوي صفر عند اتنين. دول بيقسموا الخط إلى تلات مناطق.
 
@@ -44,6 +46,15 @@
 ### Separate post-attempt feedback P-D2
 **English model answer:** $(-\infty,-2)\cup(3,\infty)$; $x=-2$ is excluded because the denominator is zero.
 **Spoken feedback:** عند سالب اتنين المقام صفر، فهي قيمة ممنوعة. وعند تلاتة البسط صفر، لكن المطلوب أكبر من صفر فقط، فلا نضمها. قبل سالب اتنين البسط والمقام سالبان فالكسر موجب. بين سالب اتنين وتلاتة الإشارتان مختلفتان فالكسر سالب. بعد تلاتة كلاهما موجب، فالكسر موجب. إذن ناخد الفترتين الخارجيتين بقوسين مفتوحين عند الحدين.
+
+## Independent attempt Q-P-D3 — separate combined-conditions transfer prompt
+**English exam question:** Solve both conditions simultaneously: $x^2-1\ge0$ and $x<2$. Give the final answer in interval notation.
+**Spoken Arabic support:** حل الشرطين مع بعض: إكس تربيع ناقص واحد أكبر من أو يساوي صفر، وفي نفس الوقت إكس أصغر من اتنين. اكتب مجموعة الحل النهائية بالفترات.
+**Attempt:** written; no factorization, number-line shading or intersection result before attempt.
+
+### Separate post-attempt feedback P-D3
+**English model answer:** $(-\infty,-1]\cup[1,2)$.
+**Spoken feedback:** أول شرط يتحلل إلى إكس ناقص واحد في إكس زائد واحد، وحاصله غير سالب قبل سالب واحد أو بعد واحد، مع دخول النقطتين. الشرط الثاني يستبعد أي إكس من اتنين وطالع. ناخد **التقاطع** مع حل الشرط الأول، فيفضل الجزء لحد سالب واحد شاملًا، والجزء من واحد لحد أقل من اتنين. استخدمنا اتحاد لربط فرعي الحل النهائي، لكن تقاطعًا بين الشرطين الأصليين.
 
 ## Closing spoken recap
 كده خلصنا رحلة التمهيدات من خط الأعداد لحد مسائل محتاجة تحليل وجدول إشارة. في المتباينة التربيعية ركّز على جذور العوامل ومناطق الموجب والسالب، وفي الكسر افتكر إن أي صفر للمقام مستبعد مهما حصل. ولو السؤال فيه شرطين، استعمل التقاطع، ولو فيه بدائل مقبولة استعمل الاتحاد. دلوقتي لما نبدأ **Functions and Their Graphs**، هنبقى جاهزين نقرأ المجال والمدى ونفهم ليه بعض النقاط تدخل وبعضها تخرج.
