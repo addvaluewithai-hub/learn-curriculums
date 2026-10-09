@@ -1,6 +1,6 @@
 # Stage 03 final connected teaching script — Rational Inequalities & Combined Conditions
-**Stable lesson ID:** \`em1-prelim-rational-sign\` | **B01 order:** 5 of 5 | **Title:** المتباينات الكسرية وتقاطع الشروط
-**Source:** \`abd-el-salam-math-i-scan\`, printed pp. 13–18, PDF pp. 10–12 (the photographed instruction spans polynomial/rational inequalities; precise split into two *student lessons* is pedagogical). Source pp. 19–20, PDF p. 13, are Exercises (1) and **not transcribed**.
+**Stable lesson ID:** `em1-prelim-rational-sign` | **B01 order:** 5 of 5 | **Title:** المتباينات الكسرية وتقاطع الشروط
+**Source:** `abd-el-salam-math-i-scan`, printed pp. 13–18, PDF pp. 10–12 (the photographed instruction spans polynomial/rational inequalities; precise split into two *student lessons* is pedagogical). Source pp. 19–20, PDF p. 13, are Exercises (1) and **not transcribed**.
 **Prerequisites:** completed B01 sign chart lesson 4, sets/intervals from lessons 1–2 and linear inequality constraints; rational arithmetic with nonzero denominators (bridge).
 **Taught targets:** distinguish numerator zeros from denominator exclusions; solve rational sign regions; retain exclusions after factor cancellation; intersect multiple conditions and express the final union of solution intervals.
 **Deferred:** function-domain formalism and limit holes (B02), algebraic differentiation.
