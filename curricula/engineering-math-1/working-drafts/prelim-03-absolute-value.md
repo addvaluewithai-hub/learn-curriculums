@@ -1,6 +1,6 @@
 # Provisional working draft P-C — القيمة المطلقة والمعادلات والمتباينات
 **Stage:** 01 — complete connected spoken working script; boundary not finalized.
-**Source:** \`abd-el-salam-math-i-scan\`; printed pp. 9–12 (PDF image pages 8–9).
+**Source:** `abd-el-salam-math-i-scan`; printed pp. 9–12 (PDF image pages 8–9).
 **Prerequisites:** number line, intervals and linear inequalities from P-A/P-B.
 **Working objectives:** interpret absolute value as distance; use simple properties; solve absolute-value equations and inequalities, including two-branch and between-bounds reasoning.
 **Attribution:** explanatory situations, worked examples and independent questions are original material, not transcribed exercises.
