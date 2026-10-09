@@ -1,12 +1,12 @@
 # Mathematics I — أولى هندسة
-**Editorial status:** Stage 01 / **provisional** module and lesson split. Labels P-A–P-D and A–E are **working labels, not issued stable lesson IDs**. No scenes, TTS or student publication.
+**Editorial status:** Stage 02 / nine full scripts critically revised; **lesson boundaries remain provisional**. Labels P-A–P-D and A–E are **working labels, not issued stable lesson IDs**. No scenes, TTS or student publication.
 
 ## Intended audience and bilingual approach
 First-year engineering students learning calculus. Egyptian Arabic natural spoken instruction introduces concepts alongside familiar standard English mathematical terms; exam-style questions/model answers in English with Arabic support. We assume basic arithmetic, factorization and Cartesian coordinates; actual placement/syllabus is **awaiting human input**, not verified.
 
 ## Course map from what is actually visible
-1. **Preliminaries — printed pp. 1–20 (PDF images 4–13):** real number system, real line, order properties, sets, intervals, linear inequalities, absolute value and multi-factor/rational inequalities. Printed pp. **19–20 are Exercises (1)**, treated as practice coverage rather than an invented fifth lecture. **Stage 01 expanded draft block; placed BEFORE Chapter 1.**
-2. **Chapter 1 — printed pp. 21–53:** *Functions and Their Graphs*, including families, increasing/decreasing, limits and continuity. Stage 01 drafted previously; still awaiting Stage 02 critique.
+1. **Preliminaries — printed pp. 1–20 (PDF images 4–13):** real number system, real line, order properties, sets, intervals, linear inequalities, absolute value and multi-factor/rational inequalities. Printed pp. **19–20 are Exercises (1)**, treated as practice coverage rather than an invented fifth lecture. **Stage 02 revised draft block; placed BEFORE Chapter 1 provisionally.**
+2. **Chapter 1 — printed pp. 21–53:** *Functions and Their Graphs*, including families, increasing/decreasing, limits and continuity. Stage 02 rewritten; structural lesson boundaries still await the next human gate.
 3. **Chapter 2 — printed pp. 54–80:** visible start of differentiation and exercises; not scripted in this PR.
 4. **Chapters 3–6 — table-of-contents only:** inverse functions and related differentiation, hyperbolic functions, Maclaurin and related topics, partial differentiation. Detailed pages are not provided, so no lesson drafting based on their unseen text.
 
@@ -18,7 +18,7 @@ First-year engineering students learning calculus. Egyptian Arabic natural spoke
 | **P-C. Absolute value** | 9–12 | Interpret distance, use properties, solve absolute-value equations and inequalities; two independent questions. | `working-drafts/prelim-03-absolute-value.md` |
 | **P-D. Polynomial/rational inequalities** | 13–18, and exercises 19–20 for practice coverage | Make a sign chart, handle zeros and excluded denominators, combine conditions; two independent questions. | `working-drafts/prelim-04-polynomial-rational-inequalities.md` |
 
-**Coverage:** the source's numbered preliminary pages 1–18 contain the instructional narrative and solved examples; pages 19–20 are the exercise bank. The original independent questions in our drafts are **authored instructional material**, not copies of those exercise pages. Proposed lesson split is provisional pending review of learner cognitive load.
+**Coverage:** the source's numbered preliminary pages 1–18 contain the instructional narrative and solved examples; pages 19–20 are the exercise bank. The independent questions are **authored instructional material**, not copies of those exercise pages. Stage 02 critique identified possible high cognitive load in P-D, B, C, and D; **no split has been approved**.
 
 ## Chapter 1 — existing provisional lessons, after the Preliminaries
 | Working label (not stable ID) | Printed source pages | Learner objectives; independent check |
@@ -42,6 +42,18 @@ A real-line zoom; set union/intersection overlap; bracket/circle endpoint exampl
 
 ## Evidence and workflow
 - Original scanned source and exact page map: `references/SOURCE_REVIEW.md`.
-- Four **complete** Preliminaries continuous spoken drafts and five previously authored Chapter 1 drafts are in `working-drafts/`. Each contains its own independent attempt prompts and post-attempt feedback.
-- Stage 01 is **not** a scientific or teaching critique. Stage 02 after a human `next` will critique and rewrite the combined sequence (P-A–P-D, A–E), without prematurely freezing boundaries or creating scenes.
+- Four **complete critically revised** Preliminaries continuous spoken drafts and five likewise revised Chapter 1 drafts are in `working-drafts/`. Together they contain **29** independent attempts with **29** separate explanatory feedback sections. Detailed review: `reviews/STAGE_02_CRITIQUE.md`.
+- Stage 02 AI editorial critique and full-draft rewrites are complete, but **this is not academic sign-off or learner testing**. A subsequent explicit human `next` authorizes **Stage 03 only**: decide keep/internal parts/split/merge using the critique and rewrite each final resulting script; STOP before scenes.
 - **No stable lesson IDs/order have been issued.**
+
+## Stage 02 boundary options for human consideration — NOT final decisions
+- P-A: possibly internal sections on numbers/order vs set notation.
+- P-B: likely keep as one connected inequality/interval unit with small checks.
+- P-C: internal sections on distance, equations, inequalities and properties.
+- P-D: potential split between polynomial signs and rational/compound conditions.
+- A: input/output/domain-range and vertical-line sections may remain connected.
+- B: high-priority candidate for algebraic vs trig/exponential/log families; graph shifts are authored pedagogical extension.
+- C: high-priority candidate to separate monotonicity from the first limit concept.
+- D: high-priority candidate to separate algebraic and trigonometric limits.
+- E: likely connected internal parts on the continuity test, hole, jump and piecewise repair.
+These are recommendations only. Source/assessment mapping, stable IDs and coherent rewritten openings/closings require the separately authorized Stage 03 decision.
