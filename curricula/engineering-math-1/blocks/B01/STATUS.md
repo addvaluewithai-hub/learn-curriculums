@@ -1,30 +1,31 @@
-# Block B01 STATUS — Preliminaries (Engineering Mathematics I)
+# Block B01 STATUS — Preliminaries, Engineering Mathematics I
 
 **Date:** 2026-10-09  
-**Block:** **B01**, source `abd-el-salam-math-i-scan`, printed pp. **1–20**, PDF image pp. **4–13** (pp. 19–20 = textbook exercises). This is the **active** curriculum Block; later B02 remains inactive.  
-**Branch:** `curriculum/engineering-math-1/stage-01-functions` | **PR:** [#8](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8), open/draft/unmerged.
+**Block/source:** B01 (ACTIVE), `abd-el-salam-math-i-scan`, printed pp. **1–20**, PDF image pp. **4–13**; printed pp. 19–20 are the source exercise bank, not copied problems.  
+**Branch and draft review:** `curriculum/engineering-math-1/stage-01-functions`, [PR #8](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8), **open, draft, not merged**. B02 is inactive.
 
-## Actual authorized gate and completed artifacts
-- **Last completed Stage:** **03 — FINAL EDITORIAL BOUNDARIES + FIVE complete connected standalone B01 teaching scripts.** This user's `next` after migration authorized **B01 Stage 03 only**; no scene production advanced.
-- **Stable lesson IDs are NOW ISSUED** for B01 only, **order 1–5 within this Block**:
-  1. `em1-prelim-real-sets` → `final-scripts/em1-prelim-real-sets.md` (real numbers, number line and sets; source pp. 1–5).
-  2. `em1-prelim-intervals-linear` → `final-scripts/em1-prelim-intervals-linear.md` (interval notation, conjunction/disjunction, linear inequalities; source pp. 5–8).
-  3. `em1-prelim-absolute-value` → `final-scripts/em1-prelim-absolute-value.md` (distance, equations/inequalities, triangle inequality; pp. 9–12).
-  4. `em1-prelim-polynomial-sign` → `final-scripts/em1-prelim-polynomial-sign.md` (quadratic and repeated-root sign charts; pp. 13–18).
-  5. `em1-prelim-rational-sign` → `final-scripts/em1-prelim-rational-sign.md` (forbidden denominator, cancellation, compound intersections; pp. 13–18, exercise-bank coverage 19–20).
-- **Stage 03 re-review/decision artifact:** `reviews/STAGE_03_BOUNDARY_DECISION.md`: keep P-A/P-C with internal sections, keep P-B, split P-D into two independently authored full coherent scripts; precise objective-source-assessment mapping, prerequisites, transitions, limitations and remaining human reviews.
-- **Global master identity/coverage map:** `../../OUTLINE.md`, now issues the same five B01 IDs and explicit 1–5 within-Block orders. B02 remains historically critiqued Stage 02 working material with **no issued IDs**.
-- **Historical manuscripts preserved:** original Stage 02 `../../working-drafts/prelim-01-real-numbers-sets.md`, `prelim-02-intervals-linear-inequalities.md`, `prelim-03-absolute-value.md`, `prelim-04-polynomial-rational-inequalities.md`; critique `../../reviews/STAGE_02_CRITIQUE.md` (P-A–P-D). Legacy drafts are traceable history, **not** competing canonical Stage 03 text.
+## Human stage and real current checkpoint
 
-## Checks actually performed
-- **GitHub read-back:** fetched **all 5** new scripts by exact path after edits, confirmed unique stable lesson IDs/order, source records, complete continuous spoken body and closing recap.
-- **Assessment integrity:** **15 English independently attempted questions and 15 distinct, separately sequenced post-attempt English-model + Egyptian-Arabic reasoning** sections, with correct Question→Feedback ordering; Arabic question support present. Question text does not include model answer, and rough visuals direct that answers remain concealed.
-- **Text format:** all five under 300 lines, every line has balanced inline math dollar markers, no leftover escaped code backticks.
-- **Math verification:** **17/17** spot checks for classification/order, interval boundaries/negative sign flip, absolute-value roots and bound, polynomial repeated roots, rational denominator and intersection passed. These are **selected tests**, not exhaustive expert verification.
-- **Not run:** local `npm test`, `tools/quality.py`, full CLI script validator, preview or TTS; previous runtime could not clone GitHub over DNS. This is Stage 03 authoring Markdown, **not** `lesson.json` scene assets yet; no claim of a green CI or runtime.
-- **No human mathematical, educational, or novice-learning `passed` review**. First-year course syllabus alignment, faint scanned formulas and all new examples remain subject to external specialist review.
+- **Last completed authorized gate: Stage 04 — five lessons decomposed into 72 canonical scene JSON files, with 15 written-question scenes and 15 separate feedback clips (87 clips total).** No progression to any next gate.
+- **Issued B01 student lesson IDs and orders 1–5** were finalized in Stage 03 and retained unchanged:
+  1. `em1-prelim-real-sets` — number system, line and sets; printed pp. 1–5; **14 scenes**.
+  2. `em1-prelim-intervals-linear` — intervals and linear/compound inequalities; pp. 5–8; **15 scenes**.
+  3. `em1-prelim-absolute-value` — distance, equations, inequalities, triangle inequality; pp. 9–12; **14 scenes**.
+  4. `em1-prelim-polynomial-sign` — polynomial sign charts and repeated roots; pp. 13–18; **14 scenes**.
+  5. `em1-prelim-rational-sign` — rational sign charts, forbidden denominator and combined constraints; pp. 13–18, exercise-bank coverage 19–20; **15 scenes**.
+- **Canonical spoken/script source NOW:** `../../lessons/<stable-id>/lesson.json`, plus `scenes/Sxx.json` narration and question feedback in each of the five lesson folders. `blocks/B01/final-scripts/*.md` from Stage 03 are retained **for historical comparison only**, not as a separately editable final runtime script. Original Stage 02 working-drafts and joint critique also retained unmodified.
+- **Stage 04 evidence and human review checkpoint:** `reviews/STAGE_04_SCENES.md`; Stage 03 rationale `reviews/STAGE_03_BOUNDARY_DECISION.md`; global `../../OUTLINE.md` shows fixed B01 identities/coverage. Each lesson owns a responsive `scenes/ConceptBoard.tsx`, independent `STORYBOARDS.md` directions for **16:9 and 9:16**, `review.json` with all six checks **untested**, and a separate lesson STATUS. No invented sourceHash or reviewer.
+- **Source access and rights:** `../../references/SOURCE_MANIFEST.md`, `SOURCE_COVERAGE.md`; original PDF is **not publicly uploaded or proven retrievable by future agents**, rights unknown. The user expressly deferred durable PDF storage; no action requested here.
 
-## Source and future gates
-- **Source rights and durability:** see `../../references/SOURCE_MANIFEST.md` / `SOURCE_COVERAGE.md`. Original is not in public GitHub; **future-agent retrieval unverified**. The user explicitly chose to **defer PDF storage**; don't block this Stage 03 editorial checkpoint by demanding an upload or claim it is safely retained.
-- **STOP — awaiting another human `next` or requested revisions**. A future `next` authorizes **B01 Stage 04 only**, converting these five finalized manuscripts into `lessons/<stable-id>/lesson.json` and canonical scene narration, distinct attempts and feedback, bilingual storyboards with script validation, then STOP. It does **not** authorize paid synthesis, a PR merge or publication.
-- **`next block` is NOT YET available** until B01 Stage 04 scene checkpoint and human inspection. B02 historical Stage 02 scripts remain untouched.
+## Checks ACTUALLY done — evidence limited to what happened
+
+- **GitHub readback:** all 72 scene texts and 15 post-attempt feedbacks mapped to the five Stage 03 manuscripts; **5/5 exact source-spoken-words parity**, removing Markdown emphasis formatting only. Three independent written questions per lesson, kept completely separate from feedback; 87 distinct clip IDs within their lessons.
+- **Actual `--stage script` repository validation in GitHub CI:** new general `tests/test_script_stage_ready.py` invokes `validate_lesson(..., "script")` for each non-scaffold lesson (all five B01 lessons). [Production contracts workflow run 37952958546](https://github.com/addvaluewithai-hub/learn-curriculums/actions/runs/37952958546) completed **successfully**, including Python unit tests, authoring quality limits, default validation and existing fixture preview checks. **No local checkout**; this success is from GitHub Actions, not container commands.
+- **Storyboards, component source and answer gates checked structurally**, but real lesson components have **not been built/played with their own recorded word timings**. The passing SDK/preview CI fixture is **not** a student lesson visual/runtime approval.
+- **Untested independent reviews:** source/math professor sign-off; novice teaching trial; English/Arabic listening and formula pronunciation; delivered audio, measured word timestamps, 320px overflow/reduced motion, pause/replay/seek and actual SDK runtime playback. No paid TTS, accepted takes, platform DB or publication.
+
+## STOP — two separately authorized next choices
+
+- **`next`** (bare) = **B01 Stage 05 representative bilingual/formula audio pilot preparation (dry-run only)**, following audio guidance. **Paid TTS requires separate explicit approval**. Stop again after this gate.
+- **`next block`** = **start/resume B02 Stage 01** following human inspection of B01 Stage 04 files, source re-access check and reconciliation of B02's preexisting historical Stage 01/02 scripts/critique; **do not invent B02 stable IDs or skip its newly required gates**. Deferred B01 audio/scientific approvals do not become `passed` by proceeding.
+- Until the user chooses, **no future gate is authorized**. Corrections only revise Stage 04 and stop.
