@@ -39,7 +39,7 @@
 **Attempt:** written; keep answer hidden.
 
 ### Post-attempt feedback C2 — separate spoken text
-**Model answer (English):** The limit is $4$; it describes nearby values as $(x\to2)$.
+**Model answer (English):** The limit is $4$; it describes nearby values as $x\to2$.
 **Feedback spoken:** ناتج التعويض هنا أربعة، والدالة الخطية مفيهاش مشكلة حوالين اتنين، فالقيم القريبة فعلًا بتقرب من أربعة. معنى النهاية هو سلوك القيم القريبة، وإنها ساوت قيمة الدالة عند اتنين في المثال ده حاجة إضافية مش تعريف النهاية.
 
 ## Independent attempt Q-C3 — separate one-sided-transfer question
