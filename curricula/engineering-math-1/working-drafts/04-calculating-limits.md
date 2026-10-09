@@ -51,6 +51,15 @@
 **Model answer (English):** Multiply by the conjugate; for $x\ne0$, the expression becomes $\frac{2}{\sqrt{2x+9}+3}$, so the limit is $\frac13$.
 **Feedback spoken:** الضرب في المرافق يخلي البسط اتنين إكس، فنقدر نختصر إكس مع المقام **لما إكس مش صفر**؛ والنهاية بتدرس القيم القريبة غير المساوية للصفر. اللي يتبقى اتنين على الجذر زائد تلاتة. عند الاقتراب من الصفر المقام يقرب من ستة، فالناتج تلت. ما قلناش إن الكسر الأصلي معرف عند إكس صفر.
 
+## Independent attempt Q-D4 — separate one-sided rational-limit transfer
+**Question spoken (English):** Describe the left-hand and right-hand behavior of $f(x)=\frac{1}{x-2}$ as $x$ approaches $2$. Does a finite two-sided limit exist?
+**Question spoken (Arabic support):** اوصف سلوك واحد على إكس ناقص اتنين لما إكس تقرب من اتنين من الشمال واليمين. هل فيه نهاية حقيقية محددة من الناحيتين؟
+**Attempt:** written; conceal signs and nonexistence statement until response.
+
+### Post-attempt feedback D4 — separate spoken text
+**Model answer (English):** From the left, $f(x)\to-\infty$; from the right, $f(x)\to+\infty$. No finite two-sided limit exists.
+**Feedback spoken:** قبل اتنين مباشرة، المقام سالب وصغير جدًا، فالكسر قيمته سالبة ومقدارها بيكبر بلا حد. بعد اتنين المقام موجب وصغير جدًا، فتكون القيم موجبة وبتكبر بلا حد. الجهتين مش بيقربوا من نفس عدد حقيقي، وبالتالي مفيش نهاية حقيقية محددة من الناحيتين. علامة ما لا نهاية هنا بتوصف السلوك، مش قيمة نعوض بيها في الدالة.
+
 ## Closing spoken recap
 لو النهايات عندك متاحة ومفيش مقام بيوصل للصفر، قوانين النهايات والتعويض غالبًا الطريق الأسرع. لو ظهرت صفر على صفر، فكر في تحليل أو مرافق بدل ما تعتبرها إجابة. ولو في اتجاهين مختلفين، افصل اليمين عن الشمال. والنهايات المثلثية الأساسية تعتمد على الراديان. الخطوة الجاية هي سؤال مختلف: هل قرب الدالة من نقطة بيتفق مع قيمتها عند النقطة؟ هنا بندخل على الاتصال.
 
