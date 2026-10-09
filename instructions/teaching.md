@@ -1,21 +1,68 @@
 # Teaching contract
 
-Resolve audience, level, sources and prerequisites first.
-Open with what we will understand today and why; introduce terms as their ideas appear.
-Default Egyptian explanation, English terms/exam questions and model answers, with Arabic support.
-Honor an explicitly chosen course language policy rather than imposing chemistry on every subject.
-Use familiar example → observation → reason → definition → application.
-Preserve conditions, units and model limits; verify numerical/scientific answers independently.
-For density explain mass per volume and equal-volume comparison, then conditional particle-spacing trends; density is not total mass.
-Label original examples and source inconsistencies; never invent PDF access or choose an inconsistent printed answer blindly.
-Map every objective to teaching plus an independent assessment; combined questions must not omit required skills.
+## 1. Source, learner, and concept readiness
 
-Introduce every checkpoint naturally: “دلوقتي خلينا نجرب سؤال قصير عشان نتأكد إن الفكرة واضحة.”
-Vary transitions; avoid abrupt exam sentences. English question and Arabic support go in the question clip.
-Feedback separately contains the English answer, Arabic meaning and reasoning.
-Recorded feedback is explanatory, not personalized judgment of an unknown attempt; avoid automatic congratulations.
-Written attempt/model review does not prove semantic mastery without a real evaluator.
-Use a meaningful opening, contextual term, example, misconception, guided application, independent attempt and recap.
-These are responsibilities, not mandatory separate screens. Avoid repeated mechanical translation and front-loaded glossary walls.
-Keep headings/directions/timestamps outside speech. Author the complete lesson before audio batches.
-Script-only requests do not trigger synthesis.
+- Resolve audience, level, stable lesson ID/order, objectives, prerequisites, actual source availability and course language policy before authoring.
+- Inspect original sources when available; cite exact locators. Old page-reviewed notes alone do not prove current access to the original. Preserve source wording/conditions, limits, units, and source inconsistencies; independently check numerical/scientific answers.
+- Separate source-grounded facts from **original teaching analogies**. Label additional claims not in the source and verify them independently or flag for specialist review; never present invented examples as printed textbook exercises.
+- For every objective, map prerequisite concepts in the order they become necessary. Mark each as **established**, **brief bridge needed**, **new concept taught here**, or **reserved for a later lesson**.
+- Do not assume that a common expert word is familiar to a novice. Explain essential terms at first need using observation/experience; give only the minimal bridge needed now, not an accidental full lesson on a future topic. Record genuinely uncertain prerequisites.
+
+## 2. Design the teaching journey first
+
+- Plan a meaningful opening/problem → familiar example → observation → reason → contextual definition → guided application → independent attempt → explanatory feedback → recap.
+- These are instructional responsibilities, **not required separate screens**. Plan rough visual beats during the learning architecture; a diagram can reveal an unclear explanation and prompt rewriting before scene implementation.
+- Identify likely misconceptions and correct them with justified conditions. Avoid shortcuts that become false when the conditions change.
+- Map **each** objective to teaching and a truly independent assessment, ideally using a new but comparable scenario rather than only repeating the demonstrated example.
+- Introduce every checkpoint naturally (“دلوقتي خلينا نجرب سؤال قصير عشان نتأكد إن الفكرة واضحة.” is one example); vary transitions and avoid abrupt isolated exam sentences.
+
+## 3. Write a continuous working script before scene JSON
+
+- Draft the **complete coherent spoken teaching journey** as one connected working narrative; test whether transitions and examples carry understanding. A master draft is an **editorial method**, not a new runtime schema or required extra deliverable.
+- Mark question/learner-attempt/feedback boundaries clearly in working material. Write questions and feedback separately: the model answer may **never** appear in question audio, spoken options as hints, or pre-attempt visuals.
+- Keep directions, timestamps and headings outside spoken text; TTS must receive speech only.
+- Think visually while drafting; defer final scene structure, word-anchored semantic units and responsive storyboards until the narrative has passed critique.
+- **After decomposition, scenes/*.json narration and question.feedback scripts are the canonical words.** Never keep an independently edited master script alongside them. Any continuous reading copy must be regenerated from canonical clips, preserve speech verbatim and show non-spoken question/attempt/feedback boundaries.
+- Compare the decomposed clips with the reviewed working draft for missing conditions, transitions, English terms, assessments and feedback. Revisit critique if wording or meaning changes.
+- For **script-only** requests, return only the requested script. Do not synthesize audio, scaffold scenes, or create visual artifacts unless asked.
+
+## 4. Natural bilingual comprehension
+
+- Obey the course language policy: default Egyptian Arabic explanation, English technical vocabulary and exam questions/model answers with Arabic support. Do not impose subject-specific jargon across curricula.
+- **Build the meaning before or around the English term.** Introduce a relatable action or observation and attach the English label after the learner has a usable concept. Never abandon an essential English phrase untranslated in meaning, and never force literal word-by-word translations.
+- A *method example* (not mandatory copy): “لما تزق الباب أو تشده، إنت كده بتأثر عليه بقوة. التأثير اللي بنسميه Force ممكن يغيّر حركة الجسم أو شكله حسب الظروف.” Scientifically verify each example's nuance for its actual topic.
+- For exam questions, voice the English wording clearly, then support comprehension in natural Arabic within the question clip; reveal clauses with their spoken onset. Keep answers hidden until submission.
+- Feedback is a **separate** clip with a useful English model answer, an accessible Arabic explanation **and the reasoning**. Avoid long English-only boilerplate, mechanical repetitive translation and false personalized praise about an unseen answer.
+- Introduce glossary words as needed, not in a front-loaded wall of definitions. Reuse technical English when it helps student recognition.
+
+## 5. Treat length as a design trade-off
+
+- Do not target a fixed duration, word count, or number of scenes. Preserve essential causal bridges and practice; trim padding and repeated examples that do not add new understanding.
+- A long coherent lesson can contain brief conceptual segments and attempts. Duration estimates are not measured audio; use actual delivered WAV duration for playback.
+- Don't cut a necessary explanation just to meet an arbitrary time quota; don't expand every assumed prerequisite into a full adjacent lesson.
+
+## 6. Critique, rewrite and show evidence
+
+Before formal scene decomposition, review the **whole connected narrative**:
+1. **Novice gaps:** Which essential term or step occurs before it can be understood? Cite the specific passage and the smallest adequate bridge.
+2. **Source/science:** Which claim lacks source evidence, overgeneralizes, loses a condition/unit or gives an unverified answer? Name the locator or uncertainty.
+3. **Teaching/transfer:** Is each objective taught and checked independently in a non-identical context? Are likely misconceptions actually addressed?
+4. **Bilingual/read-aloud:** Is English meaningful in context, is Egyptian Arabic natural, and would a human speak this sentence? Remove mechanical translation and pointless repetition.
+5. **Visual/interaction:** Is a helpful diagram missing? Is an answer inadvertently disclosed before a valid attempt? Is recorded feedback explanatory rather than falsely personalized?
+
+- Fix substantive findings in the script, then re-check the specific passages. Record material findings, edits, remaining blockers and actual review scope in STATUS.md or the lesson PR; don't invent issues or claim a quality score proves success.
+- AI self-critique is **editorial work**, not an independent scientific or learner test. Do not mark review.json `passed` without real reviewer/evidence bound to the current source hash.
+- Follow [subject-specific notes](subject-notes/chemistry-density.md) only for relevant subject matter; generic instructions must not force chemistry rules onto statics or other curricula.
+
+## 7. Teaching quality gate before audio batch
+
+Show objective/scene/passage evidence for the following questions:
+- **Concept readiness:** are critical terms taught or bridged at first use, with future lessons kept in scope?
+- **Scientific and source fidelity:** are original examples labeled, quantities/conditions accurate, uncertainties disclosed?
+- **Coherence:** can the learner follow one connected arc from the problem to the explanation and recap?
+- **Language:** can a learner understand the English vocabulary/questions without literal-translation overload?
+- **Assessment:** is every objective independently tested and its model answer concealed before attempt?
+- **Efficiency:** does each example/paragraph add understanding rather than unnecessary repetition?
+- **Production fidelity:** are reviewed words, independent feedback, exact anchors and two responsive storyboards retained during splitting?
+
+The structural `validate --stage script` is necessary but **does not prove** educational/scientific quality. For source/teaching checks, provide real human reviewer/evidence before marking `passed`; otherwise leave `untested` and record blockers. Follow [audio guidance](audio.md) for a bilingual/value pilot before any authorized batch. Script-only requests never trigger synthesis.
