@@ -39,7 +39,7 @@
 **Attempt:** written; keep transformation and answer concealed.
 
 ### Post-attempt feedback D2 — separate spoken text
-**Model answer (English):** The limit is (5/2).
+**Model answer (English):** The limit is $\frac52$.
 **Feedback spoken:** نخلي الكسر فيه ساين خمسة إكس على خمسة إكس، ونطلع معامل خمسة على اتنين بره. النهاية الأساسية جوه بتساوي واحد لما إكس تقرب من صفر بالراديان، فيبقى الجواب خمسة على اتنين. كتابة الوحدة مش تفصيلة زائدة هنا.
 
 ## Independent attempt Q-D3 — separate rationalization transfer
