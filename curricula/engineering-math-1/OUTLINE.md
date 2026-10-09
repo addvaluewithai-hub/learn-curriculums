@@ -1,5 +1,5 @@
 # Mathematics I — أولى هندسة
-**Editorial status:** Stage 02 / nine full scripts critically revised; **lesson boundaries remain provisional**. Labels P-A–P-D and A–E are **working labels, not issued stable lesson IDs**. No scenes, TTS or student publication.
+**Editorial status:** new Stage 00 / Blocks governance **retrospectively documented** around legacy Stage 02 editorial work. Active B01; no Stage 03 permission. **Lesson boundaries remain provisional**. Labels P-A–P-D and A–E are **working labels, not issued stable lesson IDs**. No scenes, TTS or student publication.
 
 ## Intended audience and bilingual approach
 First-year engineering students learning calculus. Egyptian Arabic natural spoken instruction introduces concepts alongside familiar standard English mathematical terms; exam-style questions/model answers in English with Arabic support. We assume basic arithmetic, factorization and Cartesian coordinates; actual placement/syllabus is **awaiting human input**, not verified.
@@ -9,6 +9,25 @@ First-year engineering students learning calculus. Egyptian Arabic natural spoke
 2. **Chapter 1 — printed pp. 21–53:** *Functions and Their Graphs*, including families, increasing/decreasing, limits and continuity. Stage 02 rewritten; structural lesson boundaries still await the next human gate.
 3. **Chapter 2 — printed pp. 54–80:** visible start of differentiation and exercises; not scripted in this PR.
 4. **Chapters 3–6 — table-of-contents only:** inverse functions and related differentiation, hyperbolic functions, Maclaurin and related topics, partial differentiation. Detailed pages are not provided, so no lesson drafting based on their unseen text.
+
+## Master roadmap — provisional production Blocks (whole available book)
+
+A **Block** is a bounded source/workflow unit, not a student lesson, ID, or guarantee that all pages are available. **B01 is currently active.** The suggested ranges beyond printed p. 80 are inferred from the table of contents and must not be taught as inspected content.
+
+| Block | Proposed printed pages | Source availability | Prerequisite purpose / status |
+|---|---|---|---|
+| **B01 — Preliminaries** | **1–20** | Body supplied, editorially reviewed; exercises pp. 19–20 | Real-number and inequality foundations; **active; legacy Stage 02 drafts/critique retained** |
+| **B02 — Functions, limits, continuity** | **21–53** | Body supplied, editorially reviewed | Depends on B01; five prior Stage 02 drafts retained, **inactive until authorized Block activation** |
+| **B03 — Differentiation** | **54–80** | Body supplied but not scripted; coverage skimmed | Depends on B02 limits/function fluency; **future Stage 01** |
+| **B04 — Inverse-related and exp/log functions** | **81–143 (inferred)** | **Contents only; pages not supplied** | Chapter 3 headings in contents; **blocked on actual body source** |
+| **B05 — Hyperbolic functions** | **144–150 (inferred)** | **Contents only; pages not supplied** | Chapter 4 headings; **blocked** |
+| **B06 — Maclaurin and applications** | **151–174 (inferred)** | **Contents only; pages not supplied** | Chapter 5 headings; **blocked** |
+| **B07 — Partial derivatives** | **175–181 (inferred)** | **Contents only; pages not supplied** | Chapter 6 heading; **blocked** |
+| Closing matter | Summary 182; references 186 (TOC) | Contents only | Not yet an instructional Block |
+
+**Source-of-truth docs:** `references/SOURCE_MANIFEST.md` (exact file hash, provisional storage and rights), `references/SOURCE_COVERAGE.md` (PDF/printed-page map), and earlier `references/SOURCE_REVIEW.md` (historical page-level observations). B01 and B02 own separate durable `blocks/B01/STATUS.md` and `blocks/B02/STATUS.md`; root `STATUS.md` is the active-Block control plane.
+
+**Legacy transition rule:** the full B01/B02 scripts and shared Stage 02 critique predate the new Blocks policy. Keep them untouched; acknowledge their real historical authorship, but neither invent a Stage 00 human approval nor advance B02 by default. `next` currently concerns B01 only, after an explicit future human authorization. After B01 Stage 04 human inspection, `next block` may activate B02 and reconcile its already-written draft/review evidence with available source; audio is a separate path.
 
 ## Module 0: Preliminaries — provisional lessons BEFORE Functions
 | Working label (not stable ID) | Printed source pages | Connected learner goal and independent check | Working-draft path |
@@ -43,7 +62,7 @@ A real-line zoom; set union/intersection overlap; bracket/circle endpoint exampl
 ## Evidence and workflow
 - Original scanned source and exact page map: `references/SOURCE_REVIEW.md`.
 - Four **complete critically revised** Preliminaries continuous spoken drafts and five likewise revised Chapter 1 drafts are in `working-drafts/`. Together they contain **29** independent attempts with **29** separate explanatory feedback sections. Detailed review: `reviews/STAGE_02_CRITIQUE.md`.
-- Stage 02 AI editorial critique and full-draft rewrites are complete, but **this is not academic sign-off or learner testing**. A subsequent explicit human `next` authorizes **Stage 03 only**: decide keep/internal parts/split/merge using the critique and rewrite each final resulting script; STOP before scenes.
+- Stage 02 AI editorial critique and full-draft rewrites historically cover B01 + B02, but **this is not academic sign-off or learner testing**. A subsequent explicit human `next` **for active B01** authorizes **Stage 03 only**: decide keep/internal parts/split/merge using the critique and rewrite each final resulting script; STOP before scenes.
 - **No stable lesson IDs/order have been issued.**
 
 ## Stage 02 boundary options for human consideration — NOT final decisions
