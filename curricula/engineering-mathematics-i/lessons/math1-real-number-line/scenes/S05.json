@@ -1,0 +1,58 @@
+{
+  "id": "S05",
+  "title": "تطبيق موجه على التصنيف والترتيب",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "author-created",
+      "locator": "references/authored-examples.md: guided −3, 0.25 and √2 classification"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "نجرب مثال مع بعض. قدامنا سالب تلاتة، وصفر فاصلة خمسة وعشرين، والجذر التربيعي لاتنين. سالب تلاتة عدد صحيح ونسبي، لأنه سالب تلاتة على واحد. وصفر فاصلة خمسة وعشرين بيساوي ربع، فهو عدد نسبي حتى لو مكتوب عشري. أما الجذر التربيعي لاتنين فغير نسبي. وعلى خط الأعداد، سالب تلاتة يسار الصفر. والربع بين الصفر والواحد، والجذر التربيعي لاتنين بين واحد واتنين. عند التصنيف اسأل: ينفع أكتب القيمة ككسر من عددين صحيحين؟ وعند الترتيب اسأل: مين على الشمال ومين على اليمين؟",
+    "units": [
+      {
+        "id": "U01",
+        "text": "سالب تلاتة عدد صحيح ونسبي",
+        "occurrence": 1,
+        "visualIntent": "Place −3 in integer/rational labels."
+      },
+      {
+        "id": "U02",
+        "text": "بيساوي ربع",
+        "occurrence": 1,
+        "visualIntent": "Reveal 0.25 = 1/4."
+      },
+      {
+        "id": "U03",
+        "text": "الجذر التربيعي لاتنين فغير نسبي",
+        "occurrence": 1,
+        "visualIntent": "Mark √2 in irrational section."
+      },
+      {
+        "id": "U04",
+        "text": "سالب تلاتة يسار الصفر",
+        "occurrence": 1,
+        "visualIntent": "Place −3 at left of 0."
+      },
+      {
+        "id": "U05",
+        "text": "الربع بين الصفر والواحد",
+        "occurrence": 1,
+        "visualIntent": "Place 1/4 between 0 and 1, then √2 between 1 and 2."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {},
+    "landscape": "16:9 three cards move into labeled groups, then appear as separate number-line points in narrated order.",
+    "portrait": "9:16 one card at a time with classification, then number-line placements below; preserve mathematical glyph size."
+  }
+}
