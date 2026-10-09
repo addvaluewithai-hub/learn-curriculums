@@ -1,7 +1,8 @@
 # Production instructions
 
 - Read `.agents/skills/produce-learn-lesson/SKILL.md` and relevant instructions.
-- MUST follow `instructions/stage-gates.md`: one human-approved stage per turn; a new curriculum request begins at Stage 01 (provisional outline + full connected draft scripts), reports and STOPS. Only a later human `next` advances one gate.
+- MUST follow `instructions/stage-gates.md`: new curriculum requests begin at **Stage 00** (source intake, whole-course provisional roadmap, choose B01, NO lesson scripts), then STOP. Later human `next` advances one gate; `next block` starts Stage 01 of the following block after Stage 04 handoff.
+- Read `instructions/source-handling.md`: this repo is public; don't automatically upload scanned originals or pretend chat attachments are durable source storage.
 - Select a curriculum/lesson; keep source, narration, direction, feedback and review evidence distinct.
 - Resolve IDs/order from the outline; do not invent source facts or assume an ordinal is an ID. Proposed boundaries are flexible; issued stable IDs, accepted takes and published editions are not.
 - Record source access honestly; old page-reviewed notes do not prove access to the original now.
@@ -15,7 +16,7 @@
 - Later keep preview SDK integration independent; never copy DB/auth/student persistence into it.
 - Keep readable modular code <=300 lines. Generated media/transcript/jobs are separate outputs.
 - Preserve unique takes. Script/audio changes invalidate old timing/review bindings.
-- Use a scoped curriculum/lesson branch and draft PR; keep one durable STATUS checkpoint with completed gate, artifacts, blockers and `awaiting human next`. Work on `main` only within explicit user scope.
+- Use a scoped curriculum/lesson branch and draft PR; maintain **course STATUS** for source/roadmap/active Block plus **block STATUS** for completed gate, artifacts, blockers and awaiting the human. Work on `main` only within explicit user scope.
 - Coordinate through existing channels; a stale claim is not a permanent lock.
 - Do not access the platform DB or publish from here. Handoff and student release differ.
 - Reuse instructions; never commit credentials or identifiable learner logs.

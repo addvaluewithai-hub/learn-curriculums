@@ -11,7 +11,7 @@ course.json: schemaVersion=1, id, title, revision, description, language, source
 OUTLINE.md: audience, prerequisites, ordered stable lesson IDs, objectives and source coverage.
 Planning note: concept clusters and boundaries can be **provisional before production**; distinguish working labels from issued stable IDs. When a boundary is revised, finalize the approved ordered ID/coverage/objective map in OUTLINE before creating or reworking lesson scenes. Never silently change/reuse an existing ID; change management and editorial review remain required for active or published lessons. No new JSON schema field is required.
 Source: id, title, access=available|reviewed-notes|unavailable, plus file/URL and limitations.
-Local notes/files go under curriculum references/; label original examples as original sources.
+Local notes/files go under curriculum references/; label original examples as original sources. The public repo is not default storage for scanned copyrighted originals: see [source handling](source-handling.md). Per-curriculum SOURCE_MANIFEST.md/SOURCE_COVERAGE.md document accessible editions/rights and coverage; curriculum STATUS owns the master plan/active Block, while editorial blocks/Bxx/STATUS.md tracks per-Block gates. Blocks are **not** runtime lessons. No new JSON schema is required.
 
 lessons/<id>/lesson.json: schemaVersion=1, kind=learn-authoring, id, curriculumId, order,
 title, englishTitle, scriptRevision, prerequisites, objectives, scenes, glossary.

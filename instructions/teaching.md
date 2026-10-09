@@ -2,7 +2,7 @@
 
 ## 1. Source, learner, and concept readiness
 
-- Follow [human stage gates](stage-gates.md) and the [curriculum planning workflow](curriculum-planning.md): source analysis → provisional lesson map → connected working drafts **(Stage 01, stop)** → critique and rewrite **(Stage 02, stop)** → boundary decision/final scripts **(Stage 03, stop)** → scenes **(Stage 04)**. An original textbook section need not become one student lesson.
+- Follow [human stage gates](stage-gates.md) and [curriculum planning](curriculum-planning.md): Stage 00 whole-course source/Block roadmap **(stop, no scripts)** → Stage 01 chosen-Block connected full drafts **(stop)** → Stage 02 critique/rewrite **(stop)** → Stage 03 final lesson boundaries/scripts **(stop)** → Stage 04 scenes **(stop)**. An original textbook section need not become one student lesson.
 
 - Resolve audience, level, stable lesson ID/order, objectives, prerequisites, actual source availability and course language policy before authoring.
 - Inspect original sources when available; cite exact locators. Old page-reviewed notes alone do not prove current access to the original. Preserve source wording/conditions, limits, units, and source inconsistencies; independently check numerical/scientific answers.
