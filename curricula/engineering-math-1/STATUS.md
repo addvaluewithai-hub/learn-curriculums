@@ -1,34 +1,34 @@
 # Curriculum STATUS — Mathematics I, first-year engineering
 
 **Updated:** 2026-10-09  
-**Scope:** **B01 Stage 03 completed**: five coherent teaching manuscripts and issued B01 lesson identities; no Stage 04 scenes, audio, expert approval or publication.
+**Current gate:** **B01 Stage 04 complete — scenes/storyboards and script-stage checks**, **STOP for human inspection**. No paid sound, human academic pass, student publication or automatic B02 activation.
 
-## Global master plan and source
-- **Curriculum:** `engineering-math-1`; language: Egyptian Arabic teaching + English mathematical terms/exam wording, with Arabic meaning/support.
-- **Draft PR:** [#8 — curriculum working drafts](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8); **not merged** to `main`. Branch: `curriculum/engineering-math-1/stage-01-functions`.
-- **Master roadmap:** `OUTLINE.md`; Block boundary map B01–B07 is **provisional** and described with actual availability evidence. A Block is not a lesson or issued ID.
-- **Original:** `abd-el-salam-math-i-scan`; 43 scanned PDF pages (cover/TOC + printed pp. 1–80). Current-session byte verification: **18,199,705 bytes**, SHA-256 `a4d6e631fd887071db151c6e494519424dc46369376c5aeff6a5b58f72c99623`. Access source: `references/SOURCE_MANIFEST.md`, `SOURCE_COVERAGE.md`, historical `SOURCE_REVIEW.md`.
-- **Original retention:** `chat-only-temporary` **not durable**; no private future-agent retrieval tested. Third-party redistribution rights **unknown**; raw scanned PDF not committed to public repo. The user explicitly deferred storage discussion; record the blocker and revalidate access before future source-dependent Blocks without stopping this editorial Stage 03.
-- **Historical production notes:** course originally followed earlier **no Stage 00 / curriculum-wide Stage 01 and 02** workflow; full authored working scripts and AI critique are preserved. New Stage 00 documentation is backfilled **without claiming an originally performed human Stage 00** or retroactive academic sign-off.
-  
-## Active Block and per-Block progress
+## Whole-course source and roadmap
+- Course: `engineering-math-1`, Egyptian Arabic explanation with English math/exam language; source ID `abd-el-salam-math-i-scan`.
+- **Global Block plan B01–B07:** `OUTLINE.md`; exact PDF/printed-page and missing-coverage map `references/SOURCE_COVERAGE.md`, manuscript/version/rights `references/SOURCE_MANIFEST.md`.
+- **Source:** 43 photographed PDF pages covering printed pp. 1–80; original's SHA-256 is recorded in source manifest. Printed pp. beyond 80 in the table of contents only. **Future retrieval not verified; source storage deferred by the user**. No raw scan uploaded to this public repo.
+- **Open, draft, unmerged GitHub PR:** [#8](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8) on `curriculum/engineering-math-1/stage-01-functions`. `main` unchanged by this PR.
+- **Legacy governance history:** Earlier Stage 01+02 scripts covered B01+B02 together under the old workflow. The new Stage 00/Blocks governance was backfilled transparently, not claimed as an originally approved Stage 00; `reviews/WORKFLOW_MIGRATION.md`.
 
-| Block | Editorial state (historical evidence where applicable) | Per-Block STATUS | Gate / dependency |
-|---|---|---|---|
-| **B01 — Preliminaries, pp. 1–20** | **Stage 03 complete: 5 full editorial manuscripts, 5 stable lesson IDs, 15 independent exam questions + 15 explanatory feedback**; historical Stage 02 input retained | `blocks/B01/STATUS.md` | **ACTIVE; awaiting future `next` for B01 Stage 04 scenes only** |
-| **B02 — Functions/limits/continuity, pp. 21–53** | 5 complete scripts + shared Stage 02 AI critique/rewrite preserved | `blocks/B02/STATUS.md` | Inactive; on later `next block`, verify source and reconcile historical gates; no automatic Stage 03 |
-| B03 — Differentiation, pp. 54–80 | Source body supplied/skimmed; no authored drafts | `SOURCE_COVERAGE.md` | Planned, after appropriate prior Block inspection |
-| B04–B07 — later subjects | Contents headings **only**; body pages absent | `SOURCE_COVERAGE.md` | Blocked until actual later source pages are supplied |
+## Active Block table
 
-## Editorial artifacts preserved, with no duplicate canonical scripts
-- **B01 Stage 03 canonical editorial manuscripts:** `blocks/B01/final-scripts/em1-prelim-real-sets.md`, `em1-prelim-intervals-linear.md`, `em1-prelim-absolute-value.md`, `em1-prelim-polynomial-sign.md`, `em1-prelim-rational-sign.md` (**five stable IDs now issued in OUTLINE; order 1–5**). **Historical B01 Stage 02 drafts:** `working-drafts/prelim-01-real-numbers-sets.md`, `prelim-02-intervals-linear-inequalities.md`, `prelim-03-absolute-value.md`, `prelim-04-polynomial-rational-inequalities.md` (archival inputs only).
-- **B02 drafts:** `working-drafts/01-functions.md`, `02-function-families.md`, `03-monotonicity-limits.md`, `04-calculating-limits.md`, `05-continuity.md`.
-- **Stage 03 B01 decision/re-review:** `blocks/B01/reviews/STAGE_03_BOUNDARY_DECISION.md`, including source/objective/question coverage and exact 4→5 boundary rationale. **B01 Stage 03 scripts: 15 independent question / 15 post-attempt-feedback pairs.** Shared *historical* Stage 02 critique: `reviews/STAGE_02_CRITIQUE.md` (P-A–P-D B01, A–E B02). **The old 29 pairs across nine Stage 02 drafts are archival counts, not added to Stage 03's 15 to claim new unique assessments.** B02 remains provisional with no issued IDs.
+| Block | What is actually done | Gate / next authorization |
+|---|---|---|
+| **B01 — Preliminaries, printed pp. 1–20, ACTIVE** | Stage 03 five issued lesson IDs, **Stage 04 canonical scenes and boards complete**: **72 scenes**, **15 independent written questions + 15 post-attempt feedback clips**, **87 speech clips**. [B01 STATUS](blocks/B01/STATUS.md), [Stage 04 report](blocks/B01/reviews/STAGE_04_SCENES.md) | **Await B01 human inspection.** `next` → B01 Stage 05 **dry-run audio-pilot prep only**; `next block` → B02 editorial resumption, after checking source/history |
+| **B02 — Functions & Limits, pp. 21–53, INACTIVE** | Historical five complete Stage 02 working drafts + shared critique preserved; no issued IDs or scenes | Requires later explicit `next block` and reinspection/source-evidence reconciliation. No automatic Stage 03 |
+| **B03 — Differentiation, pp. 54–80** | Source body available/skimmed but no authoring | Planned |
+| **B04–B07 — later chapters** | Index/contents-only; body pages missing | Blocked by missing original body |
 
-- **Migration evidence:** `reviews/WORKFLOW_MIGRATION.md` preserves the prior-to-current governance mapping, safe two-parent main sync and historical content invariants.
+## B01 canonical and archival artifacts
+- **Five unchanged issued IDs, within-Block order 1–5**: `em1-prelim-real-sets`, `em1-prelim-intervals-linear`, `em1-prelim-absolute-value`, `em1-prelim-polynomial-sign`, `em1-prelim-rational-sign`. All now have `lessons/<id>/lesson.json`, ordered `scenes/Sxx.json`, `STORYBOARDS.md`, bespoke `scenes/ConceptBoard.tsx`, review metadata and lesson STATUS.
+- **Stage 03 final manuscripts** remain at `blocks/B01/final-scripts/*.md` as source-history only. Spoken canon is now the **scene narration and separate feedback** files, not another editable master draft. Source-manuscript comparison and the Stage 03 keep/split/merge rationale: `blocks/B01/reviews/STAGE_03_BOUNDARY_DECISION.md`; Stage 04 production checks: `blocks/B01/reviews/STAGE_04_SCENES.md`.
+- **B02 historical work remains untouched:** `working-drafts/01-functions.md`–`05-continuity.md`, joint Stage 02 `reviews/STAGE_02_CRITIQUE.md` (and original B01 working-drafts).
 
-## Actual evidence, outstanding controls and next authorization
-- **Earlier Stage 02 actual checks:** Github readback of 9 scripts, 29 prompts/29 feedback pairs, 21 narrowly scoped math/numerical spot checks. **No** verified source/teaching human sign-off, spoken TTS playback, local full repository check, or published student edition.
-- **Migration check scope:** source manifests and whole-course Blocks map retained, and governance merged into **this curriculum branch**, not into `main`. **Stage 03 readback:** 5/5 complete manuscripts, 15/15 question-feedback pairs, 17/17 selected numerical/sign checks; no local CI/full `tools/quality.py`, `npm test` or runtime validation was performed. Expert approval, actual media and future-agent PDF retrieval remain unverified.
-- **Unresolved human decisions:** PDF private storage (user explicitly deferred it); textbook redistribution rights; institution syllabus, expert validation and novice tests; review of B01 issued editorial scripts before student use; subsequent B02 activation/source re-inspection.
-- **Current gate:** **B01 Stage 03 complete, STOP**. Await comments or a **new human `next` for B01 Stage 04 only** (scene JSON, storyboards and script checks). `next block` remains unavailable until B01 Stage 04 human inspection. Paid TTS, audio/preview, approval and release remain deferred.
+## Evidence and hard limits
+- **Actual script-stage validation:** generic `tests/test_script_stage_ready.py` runs the repo's `validate_lesson(..., "script")` for all five authored Stage 04 lessons. GitHub Actions [run 37952958546](https://github.com/addvaluewithai-hub/learn-curriculums/actions/runs/37952958546) **PASSED**, along with repo Python tests, `tools/quality.py`, default CLI validation and shared-preview **fixture** tests. The container's GitHub DNS remained unavailable; do not claim local execution.
+- **Verbatim dialogue parity:** 5/5 manuscript comparisons passed, checking 72 teaching/question scenes and all 15 explanatory feedback clips. Audio timings and scene-component visuals have not been tested through actual lesson playback. `review.json` for each lesson truthfully says source/teaching/audio/timing/visual/runtime **untested**.
+- **Prior Stage 03 samples:** 17/17 focused arithmetic/sign checks passed; this doesn't certify expert mathematics or actual teaching effectiveness. First-year learner trial, faculty source fidelity and Arabic-English listening still unreviewed.
+- **No** audio jobs, paid TTS, timestamped media, working playable lesson in SDK, import, student publication or `main` merge.
+
+## Human stop
+**STOP — no new stage authorized.** A user correction revises B01 Stage 04. A future bare `next` authorizes **B01 Stage 05 representative pilot preparation/dry-run** (never paid dispatch alone). The distinct command **`next block`** explicitly allows starting B02 Stage 01 after inspecting the B01 scene artifacts, while B01 voice/human reviews remain deferred and not approved. The user elected to postpone secure source storage; do not demand it during this checkpoint.
