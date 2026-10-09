@@ -1,6 +1,9 @@
 # Board, storyboard and components
 
 Reflect each meaningful spoken idea using relevant diagram, label, equation, motion or readable text.
+Sketch rough teaching visuals while designing the learner arc; a useful diagram may improve the script before scenes are fixed.
+After critiquing the whole narrative, split into scene clips and precise semantic anchors; retain all reviewed reasoning and question/feedback boundaries.
+Generate any continuous reading copy from canonical scenes rather than editing it as a second script.
 One main visual and gradual disclosure; never all conclusions at frame zero or walls of tiny text.
 Keep necessary neutral context; do not render filler literally.
 Semantic units link a spoken idea and occurrence-qualified phrase to a visible change.
@@ -10,6 +13,7 @@ Font/loading/bounds checks require later actual rendering; a written storyboard 
 
 Show English question clauses at first spoken word, then later clauses/Arabic at their onsets.
 Remove answer-revealing conclusions; preserve neutral context where useful.
+Check the question speech, option wording, labels and staged reveals together for answer leakage before attempt.
 After reading show the full question and enable attempts; feedback reveals only after valid submission.
 Flow: teaching → reading → attempt → feedback → next teaching → review.
 Submission starts feedback; completion starts next teaching without another Play click.

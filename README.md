@@ -15,8 +15,8 @@ python3 tools/cli.py lesson-new --course biology-basics --id bio-cells --order 1
 python3 tools/cli.py validate
 ```
 
-املأ course.json بالمصادر وسياسة اللغة، وOUTLINE.md بتسلسل الأهداف، ثم lesson.json والمشاهد.
-راجع [العقد](instructions/contract.md). الفحص الافتراضي يسمح بمسودة؛ script يمنع صوت المسودة الناقصة.
+املأ course.json بالمصادر وسياسة اللغة، وOUTLINE.md بتسلسل الأهداف. **قبل تأليف المشاهد بشكل نهائي** اعمل خريطة للمفاهيم والمتطلبات السابقة، واكتب شرح متصل، وانقده من منظور الطالب والدقة العلمية والإنجليزي، وصلّح فجوات الفهم. فكر في الرسوم خلال التأليف، لكن ثبّت المشاهد والـsemantic units بعد مراجعة النص.
+راجع [منهجية التدريس](instructions/teaching.md) و[العقد](instructions/contract.md). الفحص الافتراضي يسمح بمسودة؛ `script` يفحص اكتمال البنية ولا يعتمد جودة التدريس. بعد التقسيم، نصوص المشاهد هي المصدر التشغيلي؛ بلاش نسختين مستقلتين من الكلام.
 
 ```bash
 npm run validate -- --course biology-basics --lesson bio-cells --stage script
@@ -50,7 +50,7 @@ npm run audio:dispatch -- --job curricula/biology-basics/lessons/bio-cells/jobs/
 
 ## بداية العمل مع الـAI
 
-> اقرأ AGENTS.md وSkill produce-learn-lesson. أنتج الدرس الثالث من المنهج المحدد وفق خطته ومصادره. ابدأ بالاسكربت والـstoryboard، بدون صوت مدفوع في هذه الخطوة. حدّث STATUS واعمل PR بالنتيجة.
+> اقرأ AGENTS.md وSkill produce-learn-lesson. حدد الدرس من OUTLINE بمعرّفه الثابت، وابنِ Concept Map وخطة فهم؛ اكتب Master Draft متصلًا، واعمل نقدًا علميًا وتعليميًا ولغويًا وأصلح العيوب. بعد كده قسّم النص المستقر إلى scenes وstoryboards بالمقاسين، وافصل السؤال عن الإجابة والـFeedback. شغّل الفحوص المناسبة ومنها `--stage script`، وسجّل ما اتنفذ بالفعل والحدود في STATUS، وافتح PR، من غير توليد صوت مدفوع.
 
 لو أداة AI لا تكتشف Skills تلقائيًا، اقرأ `.agents/skills/produce-learn-lesson/SKILL.md` مباشرة.
 لا نفترض أن «3» يعني نفس القانون أو ID في كل منهج.
@@ -67,7 +67,7 @@ npm run export -- --course biology-basics --stage script
 النتيجة تحت dist/handoff: source كامل وhandoff.json بالملفات والـhashes والمرحلة.
 media يفحص التسجيلات، وtimed يفحص كمان anchors المرتبطة بالكلمات.
 **دي مش حزمة جاهزة للنشر على الطالب:** ينقصها بناء المحرّك والمعاينة والتحقق والاستيراد المعتمد.
-نجاح tests لا يثبت صحة المحتوى أو النطق.
+نجاح tests لا يثبت صحة المحتوى أو النطق. نجاح `validate --stage script` مش اعتماد تربوي أو علمي؛ المراجعات تحتاج أدلة منفصلة.
 الشغل الجماعي: branch/PR لكل درس، ومعرف وترتيب متفق عليهما؛ تغييرات الخطة والمصادر لمسؤول المنهج.
 CI يفحص تضارب الهويات والترتيب. STATUS القديم ليس قفلًا دائمًا.
 الكود اليدوي والتعليمات تحت 300 سطر؛ timestamps/تسجيلات المصنع مخرجات لا تختصر يدويًا لهذا الحد.
