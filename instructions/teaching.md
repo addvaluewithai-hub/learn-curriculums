@@ -2,7 +2,7 @@
 
 ## 1. Source, learner, and concept readiness
 
-- Follow the [curriculum planning workflow](curriculum-planning.md): source analysis → provisional lesson map → connected working drafts → critique and cognitive-load review → boundary decision → finalized lessons → scenes. An original textbook section need not become one student lesson.
+- Follow [human stage gates](stage-gates.md) and the [curriculum planning workflow](curriculum-planning.md): source analysis → provisional lesson map → connected working drafts **(Stage 01, stop)** → critique and rewrite **(Stage 02, stop)** → boundary decision/final scripts **(Stage 03, stop)** → scenes **(Stage 04)**. An original textbook section need not become one student lesson.
 
 - Resolve audience, level, stable lesson ID/order, objectives, prerequisites, actual source availability and course language policy before authoring.
 - Inspect original sources when available; cite exact locators. Old page-reviewed notes alone do not prove current access to the original. Preserve source wording/conditions, limits, units, and source inconsistencies; independently check numerical/scientific answers.
@@ -48,7 +48,7 @@
 
 ## 6. Critique, rewrite and show evidence
 
-Before formal scene decomposition, review the **whole connected narrative**:
+This is **Stage 02 after a separate human `next`**, not an automatic continuation of Stage 01. Before formal scene decomposition, review the **whole connected narrative**:
 1. **Novice gaps:** Which essential term or step occurs before it can be understood? Cite the specific passage and the smallest adequate bridge.
 2. **Source/science:** Which claim lacks source evidence, overgeneralizes, loses a condition/unit or gives an unverified answer? Name the locator or uncertainty.
 3. **Teaching/transfer:** Is each objective taught and checked independently in a non-identical context? Are likely misconceptions actually addressed?

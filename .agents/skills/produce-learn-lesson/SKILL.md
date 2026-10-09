@@ -5,7 +5,8 @@ description: Author or repair source-grounded Learn curricula and lessons in lea
 
 # Produce a Learn lesson
 
-Read root AGENTS.md, the selected course.json, OUTLINE.md, sources and lesson STATUS.md.
+Read root AGENTS.md and **[human stage gates](../../../instructions/stage-gates.md) first**; then the selected course.json, OUTLINE.md, sources and STATUS.md when they exist.
+Treat a new general production request as Stage 01 only; a bare human `next` means exactly one subsequent gate. At each handoff save artifacts/STATUS, report, and STOP. Comments revise the current gate instead of advancing it.
 Resolve the requested ordinal to a stable ID; ask only when the course is genuinely ambiguous.
 Use [the data contract](../../../instructions/contract.md) before creating or changing files.
 Read [curriculum planning](../../../instructions/curriculum-planning.md) before setting or revising boundaries; an outline split is provisional until teaching critique.
@@ -15,11 +16,12 @@ Read [teaching](../../../instructions/teaching.md) and map audience, source boun
 Classify key terms: already known, needs a brief bridge, taught in this lesson, or deliberately deferred.
 Propose initial lesson boundaries from source coverage and objectives; for a manageable chapter/block, write coherent continuous *working drafts* without forcing production scene cuts.
 Plan the learner journey and rough visual beats for each draft; preserve natural paragraphs, question/attempt/feedback boundaries.
-Critique novice gaps, scientific/source fidelity, Arabic-English comprehension, independent transfer questions and purposeful length **and cognitive load**.
-After critique, decide explicitly whether each draft stays one lesson, becomes short internal sections, splits, merges or moves content to a neighboring lesson. Do not split solely by word count or the source's section headings.
+**Stage 01 stops after complete connected drafts** for a bounded source block; do not run a full editorial critique, resolve final lesson boundaries or author scenes in that same turn.
+**Stage 02 only after human `next`:** critique novice gaps, scientific/source fidelity, Arabic-English comprehension, independent transfer questions, purposeful length and cognitive load; rewrite and stop again.
+**Stage 03 only after another human `next`:** decide whether each draft stays one lesson, becomes short internal sections, splits, merges or moves content to a neighboring lesson. Do not split solely by word count or source headings.
 Confirm the final lesson map, coverage, prerequisites, assessments and stable IDs/order; rewrite each resulting lesson's opening, transitions, attempts and recap, then critique the revised boundaries before scenes.
 Map every objective to teaching and independent questions. Use exact source locators; distinguish authored examples from book facts and record missing-source limits.
-Decompose the settled draft into scenes, with teaching, question/attempt and explanatory feedback separated; preserve spoken words and conceptual sequence.
+**Stage 04 only after the next human `next`:** decompose finalized drafts into scenes, with teaching, question/attempt and explanatory feedback separated; preserve spoken words and conceptual sequence.
 Once split, scene narration and feedback are the canonical script; regenerate any continuous review copy instead of maintaining another editable source.
 Follow the course language policy; build meaning before or around English technical terms, support exam English naturally in Arabic.
 Script-only requests return only the requested script (with non-spoken question/feedback boundaries when useful); do not synthesize or create extra surfaces.
@@ -31,9 +33,9 @@ Do not clone a player, create a temporary platform or install a guessed SDK.
 Read [shared preview](../../../preview-sdk/README.md) before implementing components or reviewing playback.
 Default-export components accepting the public SDK VisualProps; keep them inside the lesson.
 Add full English/Arabic question and answer units with reviewed anchors; never estimate missing timings.
-Run the shared preview after timed validation and module completion; keep authoring moving when recordings are not ready.
+At the authorized late-stage gate only, run the shared preview after timed validation and module completion; never skip a human stop gate because the SDK is installed.
 
-Read [audio](../../../instructions/audio.md) before calls or delivery imports.
+Read [audio](../../../instructions/audio.md) before calls or delivery imports. Audio pilot is Stage 05 or later and paid dispatch still requires explicit scope/cost authorization beyond `next`.
 Use the existing asynchronous gemini-tts factory; accepted/queued is not completed.
 Validate a representative bilingual/value pilot before expanding a batch; use unique job IDs per take.
 Reuse correct recordings for visual edits; verify served bytes, actual WAV duration and word timestamps.
@@ -48,4 +50,4 @@ Passed reviews need real evidence/reviewer and current sourceHash; never fill ap
 Keep runtime untested until actual playback review in both ratios; bind passed evidence to sourceHash, runtimeVersion and runtimeArtifactHash.
 Exports are authoring handoffs, not platform releases. Build/tests never grant publication approval.
 Do not access the platform DB or publish students' lessons from this repository.
-Finish with files/stage, actual checks, limitations and next executable action.
+Finish the **single authorized human gate** with files/stage, actual checks, limits and the next proposed gate. Update STATUS and stop until the user's subsequent `next` or comments.
