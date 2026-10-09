@@ -1,5 +1,5 @@
 # Provisional working draft P-B — الفترات والمتباينات الخطية
-**Stage:** 01 — complete connected spoken teaching draft; provisional working label only.
+**Stage:** 02 — critically revised complete working draft; boundaries and IDs remain provisional.
 **Source:** `abd-el-salam-math-i-scan`; printed pp. 5–8 (PDF image pages 6–7), with order rules in pp. 1–2.
 **Starting knowledge:** real number line, set membership/intersection (P-A), basic one-step equations.
 **Working objectives:** translate between interval notation and inequalities; distinguish included/excluded endpoints; solve linear and compound inequalities while preserving the order rule.
@@ -21,6 +21,8 @@
 
 ولما يبقى عندنا متباينة مزدوجة، هنشتغل على الأجزاء التلاتة بنفس العملية. مثلًا $-2\le2x+4<10$. نطرح أربعة من الأطراف كلها، فتصير $-6\le2x<6$، وبالقسمة على اتنين الموجب: $-3\le x<3$. ده بيتكتب $[-3,3)$. جرّب عند سالب تلاتة: يحقق الشرط، فهو داخل الحل. جرّب عند تلاتة: الحد الأخير مش بيسمح بالمساواة، فهو خارج الحل. التحقق من الحدود خطوة مفيدة خصوصًا لو شكيت في نوع القوس.
 
+تنبيه إضافي مهم في المتباينات: إحنا قلبنا العلامة لما قسمنا على عدد سالب **معلوم الإشارة**. لكن لو عايزين نقسم على تعبير فيه إكس وإحنا لسه مانعرفش إذا كان موجبًا أو سالبًا، ماينفعش نعمل نفس الخطوة من غير مناقشة الإشارة. هنواجه النقطة دي لما نشتغل على المتباينات الكسرية وجدول الإشارات، فلا تستعجل وتقسم على مجهول.
+
 نقدر دلوقتي نفهم ليه الجدول اللي فيه الفترات في التمهيدات مهم. نفس الإجابة ممكن تتكتب كمتباينة، أو على شكل فترة، أو برسم على خط الأعداد. في امتحان الـCalculus قد يطلب منك واحدة من الصور دي، أو يطلب منك تحويلهم لبعض. هنجرب دلوقتي سؤال فيه قلب إشارة وسؤال فيه فترة مزدوجة.
 
 ## Independent attempt Q-P-B1 — prompt only
@@ -40,6 +42,15 @@
 ### Separate post-attempt feedback P-B2
 **English model answer:** $-1\le x<11$, or $[-1,11)$.
 **Spoken feedback:** هنضرب الأطراف التلاتة في اتنين الموجب فتبقى سالب أربعة أصغر من أو يساوي إكس ناقص تلاتة وأقل من تمانية. نضيف تلاتة لكل الأطراف فنحصل على سالب واحد أصغر من أو يساوي إكس وأقل من حداشر. سالب واحد داخل الحل، وحداشر خارج الحل، وده واضح من شكل القوسين.
+
+## Independent attempt Q-P-B3 — separate transfer prompt
+**English exam question:** Express the solution set $x<-1$ or $2\le x<4$ in interval notation. Explain whether the intervals should be joined by union or intersection.
+**Spoken Arabic support:** اكتب كل إكس أصغر من سالب واحد، أو إكس من اتنين لحد أربعة مع دخول اتنين واستبعاد أربعة، على صورة فترات. هل هنستخدم اتحاد ولا تقاطع؟
+**Attempt:** written; do not show endpoint symbols or set operation before response.
+
+### Separate post-attempt feedback P-B3
+**English model answer:** $(-\infty,-1)\cup[2,4)$. This is a union because either condition is sufficient.
+**Spoken feedback:** عندنا مجموعتان بديلتان بسبب كلمة أو، فهنكتب اتحاد. المنطقة الأولى لليسار من سالب واحد مع استبعاده، والمنطقة الثانية تبدأ من اتنين المسموح وتنتهي قبل أربعة. لو استخدمت تقاطع هنا هتطلب العدد يحقق شرطين لا يجتمعان، وده مش نفس السؤال.
 
 ## Closing spoken recap
 دلوقتي تقدر تنتقل بين الشرط المكتوب، والفترة، وخط الأعداد. القوس المربع دخول، والقوس الدائري استبعاد، وما لا نهاية مش نقطة بنضمها للحل. أهم حاجة في حل المتباينات إن القسمة على السالب بتعكس علامة الترتيب. الخطوة القادمة هتستخدم نفس الأفكار، لكن بدل المسافة على الخط هنشوف قيمة مطلقة بتقيس البعد عن الصفر أو عن نقطة معينة.
