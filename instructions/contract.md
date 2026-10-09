@@ -8,6 +8,7 @@ Preserve source content and stable IDs; make contract revisions explicit.
 
 course.json: schemaVersion=1, id, title, revision, description, language, sources, teacher.
 OUTLINE.md: audience, prerequisites, ordered stable lesson IDs, objectives and source coverage.
+Planning note: concept clusters and boundaries can be **provisional before production**; distinguish working labels from issued stable IDs. When a boundary is revised, finalize the approved ordered ID/coverage/objective map in OUTLINE before creating or reworking lesson scenes. Never silently change/reuse an existing ID; change management and editorial review remain required for active or published lessons. No new JSON schema field is required.
 Source: id, title, access=available|reviewed-notes|unavailable, plus file/URL and limitations.
 Local notes/files go under curriculum references/; label original examples as original sources.
 

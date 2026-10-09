@@ -2,7 +2,7 @@
 
 Reflect each meaningful spoken idea using relevant diagram, label, equation, motion or readable text.
 Sketch rough teaching visuals while designing the learner arc; a useful diagram may improve the script before scenes are fixed.
-After critiquing the whole narrative, split into scene clips and precise semantic anchors; retain all reviewed reasoning and question/feedback boundaries.
+After critiquing the whole narrative **and confirming the lesson boundary map**, split finalized lessons into scene clips and precise semantic anchors; retain all reviewed reasoning and question/feedback boundaries.
 Generate any continuous reading copy from canonical scenes rather than editing it as a second script.
 One main visual and gradual disclosure; never all conclusions at frame zero or walls of tiny text.
 Keep necessary neutral context; do not render filler literally.

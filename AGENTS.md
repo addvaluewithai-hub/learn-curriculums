@@ -2,8 +2,9 @@
 
 - Read `.agents/skills/produce-learn-lesson/SKILL.md` and relevant instructions.
 - Select a curriculum/lesson; keep source, narration, direction, feedback and review evidence distinct.
-- Resolve IDs/order from the outline; do not invent source facts or assume an ordinal is an ID.
+- Resolve IDs/order from the outline; do not invent source facts or assume an ordinal is an ID. Proposed boundaries are flexible; issued stable IDs, accepted takes and published editions are not.
 - Record source access honestly; old page-reviewed notes do not prove access to the original now.
+- Start with a provisional lesson split, then draft and critique connected teaching before confirming lesson boundaries; see instructions/curriculum-planning.md.
 - Map learner prerequisites, author a coherent spoken draft and critique its teaching before formal scene decomposition (instructions/teaching.md).
 - After decomposition, scene narration and feedback are canonical; do not independently edit a duplicate master script.
 - Validate script stage and review a bilingual/value pilot before batch synthesis within authorized scope.
