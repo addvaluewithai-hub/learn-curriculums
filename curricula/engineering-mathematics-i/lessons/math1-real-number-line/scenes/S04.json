@@ -1,0 +1,62 @@
+{
+  "id": "S04",
+  "title": "Irrational and Real Numbers",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "mathematics-i-scan",
+      "locator": "printed pp. 3–4; scan PDF image p. 5"
+    },
+    {
+      "sourceId": "author-created",
+      "locator": "references/authored-examples.md: √2 approximation"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "هل كل عدد حقيقي نقدر نكتبه بالنسبة دي؟ لأ. عندنا الجذر التربيعي لاتنين، Square Root of Two، وعندنا باي اللي رمزه π. دول أمثلة على Irrational Numbers، أعداد غير نسبية؛ يعني ما ينفعش نكتبها كنسبة عددين صحيحين. وكتابتها العشرية مش بتنتهي ومش بتكرر نمط ثابت. الجذر التربيعي لاتنين قيمته تقريبًا واحد فاصلة أربعة واحد أربعة، وده بيحطه بين واحد واتنين على الخط. كلمة تقريبًا مهمة: العدد مش بيساوي واحد فاصلة أربعة واحد أربعة بالضبط. الأعداد النسبية وغير النسبية مع بعض بنسميها Real Numbers، الأعداد الحقيقية، وكلها ليها أماكن على خط الأعداد.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "Square Root of Two",
+        "occurrence": 1,
+        "visualIntent": "Show √2 as an irrational example, not a general square-root theorem."
+      },
+      {
+        "id": "U02",
+        "text": "π",
+        "occurrence": 1,
+        "visualIntent": "Reveal pi as second irrational example from source."
+      },
+      {
+        "id": "U03",
+        "text": "ما ينفعش نكتبها كنسبة عددين صحيحين",
+        "occurrence": 1,
+        "visualIntent": "Contrast irrational with a/b, b ≠ 0."
+      },
+      {
+        "id": "U04",
+        "text": "تقريبًا واحد فاصلة أربعة واحد أربعة",
+        "occurrence": 1,
+        "visualIntent": "Show √2 ≈ 1.414 between 1 and 2; emphasize approximation sign."
+      },
+      {
+        "id": "U05",
+        "text": "Real Numbers",
+        "occurrence": 1,
+        "visualIntent": "Join Rational and Irrational as Real in one set hierarchy."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {},
+    "landscape": "16:9 two-category hierarchy above a horizontal enlarged [1,2] interval with √2 ≈ 1.414; progressively reveal.",
+    "portrait": "9:16 large irrational example cards, then line inset; real-number union below; approximation sign large."
+  }
+}
