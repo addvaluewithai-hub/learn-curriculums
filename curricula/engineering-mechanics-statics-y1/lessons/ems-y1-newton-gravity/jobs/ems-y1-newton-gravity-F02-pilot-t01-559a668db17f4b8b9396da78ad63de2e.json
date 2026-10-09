@@ -1,0 +1,25 @@
+{
+  "event_type": "tts.generate",
+  "client_payload": {
+    "job_id": "ems-y1-newton-gravity-F02-pilot-t01-559a668db17f4b8b9396da78ad63de2e",
+    "request": {
+      "text": "a = ΣF/m = 12/3 = 4 m/s² in the direction of the net force.\nقسمنا المحصلة اتناشر نيوتن على الكتلة ثلاثة كيلوجرام. الناتج أربعة متر لكل ثانية تربيع، في اتجاه المحصلة. لو كتبت متر لكل ثانية تكون كتبت وحدة سرعة بدل تسارع؛ ولو استخدمت قوة فردية بدل المحصلة ممكن الحساب كله يتغير.",
+      "voice": "Gacrux",
+      "style": "Mature warm calm Egyptian private teacher. Natural medium pace, short pauses between ideas, clear English terms. Friendly and precise; no advertising performance.",
+      "routing": "quality",
+      "format": "wav",
+      "sample_rate": 24000,
+      "transcript": {
+        "language_codes": [],
+        "write_vtt": true
+      },
+      "metadata": {
+        "curriculumId": "engineering-mechanics-statics-y1",
+        "lessonId": "ems-y1-newton-gravity",
+        "clipId": "F02",
+        "role": "feedback",
+        "scriptHash": "93250c59c2474649f5bbc227f24276a51db1d607b0537adc7201dd5172222aee"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "event_type": "tts.generate",
+  "client_payload": {
+    "job_id": "ems-y1-newton-gravity-N13-pilot-t01-d6626610f6224727895cb2a766056a30",
+    "request": {
+      "text": "طيب فيه قوة موجودة حتى من غير ما نلمس الجسم، وهي الجاذبية. الكتاب بيقدم Newton’s Law of Gravitation، أو قانون الجذب العام. في النموذج اللي بنعامل فيه جسمين كجسيمين، مقدار قوة التجاذب بينهم بيتناسب مع حاصل ضرب الكتلتين، وبيقل مع مربع المسافة بينهما. بنكتبه F = G m₁ m₂ / r². هنا G ثابت الجذب، وm₁ وm₂ الكتلتان، وr المسافة بين الجسيمين. لو بنمثل الأرض ككرة موزعة كتلتها بانتظام خارجها، نستخدم المسافة من مركز الأرض للموضع اللي عنده الجسم.",
+      "voice": "Gacrux",
+      "style": "Mature warm calm Egyptian private teacher. Natural medium pace, short pauses between ideas, clear English terms. Friendly and precise; no advertising performance.",
+      "routing": "quality",
+      "format": "wav",
+      "sample_rate": 24000,
+      "transcript": {
+        "language_codes": [],
+        "write_vtt": true
+      },
+      "metadata": {
+        "curriculumId": "engineering-mechanics-statics-y1",
+        "lessonId": "ems-y1-newton-gravity",
+        "clipId": "N13",
+        "role": "teaching",
+        "scriptHash": "c5d60f908464d031a0ab654bfed1517e7282836bfbae0ceee77a49f053a67025"
+      }
+    }
+  }
+}

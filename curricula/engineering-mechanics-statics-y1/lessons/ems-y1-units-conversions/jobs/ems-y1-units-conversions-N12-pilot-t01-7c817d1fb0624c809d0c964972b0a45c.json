@@ -1,0 +1,25 @@
+{
+  "event_type": "tts.generate",
+  "client_payload": {
+    "job_id": "ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c",
+    "request": {
+      "text": "نبدأ بالطول. القدم الواحد يساوي 0.3048 متر بحسب تعريف الوحدة. علشان أحوّل خمسة قدم إلى متر، أضرب خمسة قدم في 0.3048 متر لكل قدم. وحدة القدم فوق وتحت بتختصر، ويتبقى متر؛ الناتج 1.524 متر. ده معناه إن نفس الطول اتكتب بنظام SI. ولو لاحظت إن عدد الأمتار أقل من عدد الأقدام، ده منطقي لأن المتر أطول من القدم.",
+      "voice": "Gacrux",
+      "style": "Mature warm calm Egyptian private teacher. Natural medium pace, short pauses between ideas, clear English terms. Friendly and precise; no advertising performance.",
+      "routing": "quality",
+      "format": "wav",
+      "sample_rate": 24000,
+      "transcript": {
+        "language_codes": [],
+        "write_vtt": true
+      },
+      "metadata": {
+        "curriculumId": "engineering-mechanics-statics-y1",
+        "lessonId": "ems-y1-units-conversions",
+        "clipId": "N12",
+        "role": "teaching",
+        "scriptHash": "5066748707999200cd498a152875b726c856fb78a40a40fbab9da0ab3b1d13c0"
+      }
+    }
+  }
+}
