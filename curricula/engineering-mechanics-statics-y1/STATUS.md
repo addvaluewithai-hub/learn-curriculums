@@ -34,6 +34,7 @@
 - Stage 03 scripts **remain identical and complete** in `drafts/01-mechanics-and-models.md`, `drafts/02-newton-and-weight.md`, `drafts/03-units-and-conversions.md`; 4+5+4 = **13** independent question / attempt / feedback sequences.
 - Critique and boundaries: `reviews/STAGE_02_CRITIQUE.md` and `reviews/STAGE_03_BOUNDARIES.md`.
 - Previous editorial arithmetic/structure preflight passed as recorded in Git history; **no formal human scientific approval or student test claimed**.
+- **2026-10-09 reconciliation verification:** GitHub readback passed for source manifest, coverage, course/Block checkpoints and roadmap; measured SHA/pages/bytes align with source metadata; all three B01 script Git blob SHAs **exactly unchanged** from prior Stage 03 head; authored Markdown/JSON files remain <=300 lines. Local full `tools/quality.py`, `unittest`, and `validate` were **not run**: cloning the repo failed due to DNS resolution of `github.com` (exit 128). No CI, teacher or runtime pass inferred.
 - Not started: `lesson.json`, scenes, 16:9/9:16 storyboards, TTS/audio/timing, SDK playback, source approval, platform release or merge to main.
 
 ## Handoff and unresolved decisions
