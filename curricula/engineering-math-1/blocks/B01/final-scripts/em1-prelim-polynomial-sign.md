@@ -1,6 +1,6 @@
 # Stage 03 final connected teaching script — Polynomial Inequalities & Sign Charts
-**Stable lesson ID:** \`em1-prelim-polynomial-sign\` | **B01 order:** 4 of 5 | **Title:** المتباينات التربيعية وجدول إشارات كثيرات الحدود
-**Source:** \`abd-el-salam-math-i-scan\`, printed pp. 13–18 across photographed PDF pp. 10–12. Source's instructions and examples intermingle polynomial and rational techniques: **this editorial split does not claim a unique book subsection break**. End-of-preliminaries Exercises (1), printed pp. 19–20, cover the Block as practice, not separate theory.
+**Stable lesson ID:** `em1-prelim-polynomial-sign` | **B01 order:** 4 of 5 | **Title:** المتباينات التربيعية وجدول إشارات كثيرات الحدود
+**Source:** `abd-el-salam-math-i-scan`, printed pp. 13–18 across photographed PDF pp. 10–12. Source's instructions and examples intermingle polynomial and rational techniques: **this editorial split does not claim a unique book subsection break**. End-of-preliminaries Exercises (1), printed pp. 19–20, cover the Block as practice, not separate theory.
 **Prerequisites:** factorization and zero-product rule (brief bridge), real-line ordering and interval notation (established B01 lessons 1–2); positive/negative multiplication (established).
 **Taught targets:** identify zeros of a polynomial; build/test sign regions rather than assume alternation; account for repeated roots and inclusive vs strict inequality; express the full solution using intervals/unions.
 **Deferred:** forbidden denominator values, rational expressions and simultaneous constraints (the following lesson).
