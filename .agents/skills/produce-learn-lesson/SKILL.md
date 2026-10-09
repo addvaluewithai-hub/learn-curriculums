@@ -6,7 +6,7 @@ description: Author or repair source-grounded Learn curricula and lessons in lea
 # Produce a Learn lesson
 
 Read root AGENTS.md and **[human stage gates](../../../instructions/stage-gates.md) first**; then the selected course.json, OUTLINE.md, sources and STATUS.md when they exist.
-Treat a new general production request as Stage 01 only; a bare human `next` means exactly one subsequent gate. At each handoff save artifacts/STATUS, report, and STOP. Comments revise the current gate instead of advancing it.
+Treat a new general production request as **Stage 00 only**, not script writing: verify source/rights/access per [source handling](../../../instructions/source-handling.md), build a high-level whole-course roadmap, choose B01, save and STOP. A bare human `next` advances one gate of the active Block; `next block` begins Stage 01 of the next Block only after Stage 04 inspection. At each handoff save STATUS, report and STOP; comments revise instead of advancing.
 Resolve the requested ordinal to a stable ID; ask only when the course is genuinely ambiguous.
 Use [the data contract](../../../instructions/contract.md) before creating or changing files.
 Read [curriculum planning](../../../instructions/curriculum-planning.md) before setting or revising boundaries; an outline split is provisional until teaching critique.
@@ -14,14 +14,14 @@ Preserve another editor's work and accepted takes; scope changes to the selected
 
 Read [teaching](../../../instructions/teaching.md) and map audience, source boundaries, objectives and prerequisite concepts.
 Classify key terms: already known, needs a brief bridge, taught in this lesson, or deliberately deferred.
-Propose initial lesson boundaries from source coverage and objectives; for a manageable chapter/block, write coherent continuous *working drafts* without forcing production scene cuts.
+In Stage 00 propose broad provisional **Blocks** for the whole course; do not author lesson scripts or infer content from index-only headings. In Stage 01 propose within-Block lesson boundaries and write coherent full continuous drafts for **that Block only**, without scene cuts.
 Plan the learner journey and rough visual beats for each draft; preserve natural paragraphs, question/attempt/feedback boundaries.
 **Stage 01 stops after complete connected drafts** for a bounded source block; do not run a full editorial critique, resolve final lesson boundaries or author scenes in that same turn.
 **Stage 02 only after human `next`:** critique novice gaps, scientific/source fidelity, Arabic-English comprehension, independent transfer questions, purposeful length and cognitive load; rewrite and stop again.
 **Stage 03 only after another human `next`:** decide whether each draft stays one lesson, becomes short internal sections, splits, merges or moves content to a neighboring lesson. Do not split solely by word count or source headings.
 Confirm the final lesson map, coverage, prerequisites, assessments and stable IDs/order; rewrite each resulting lesson's opening, transitions, attempts and recap, then critique the revised boundaries before scenes.
 Map every objective to teaching and independent questions. Use exact source locators; distinguish authored examples from book facts and record missing-source limits.
-**Stage 04 only after the next human `next`:** decompose finalized drafts into scenes, with teaching, question/attempt and explanatory feedback separated; preserve spoken words and conceptual sequence.
+**Stage 04 only after the next human `next`:** decompose finalized drafts into scenes, with teaching, question/attempt and explanatory feedback separated; preserve spoken words and conceptual sequence. After this checkpoint, human `next block` may resume authoring the next source Block while current Block audio is deferred.
 Once split, scene narration and feedback are the canonical script; regenerate any continuous review copy instead of maintaining another editable source.
 Follow the course language policy; build meaning before or around English technical terms, support exam English naturally in Arabic.
 Script-only requests return only the requested script (with non-spoken question/feedback boundaries when useful); do not synthesize or create extra surfaces.

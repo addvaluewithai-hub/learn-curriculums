@@ -2,11 +2,11 @@
 
 This is an **authoring workflow**, not an amendment to the authoring JSON schema or a new mandatory file format. Follow [human stage gates](stage-gates.md), [teaching](teaching.md), [contract](contract.md), and [handoff](handoff.md) as appropriate.
 
-**Execution boundary:** the steps below describe the end-to-end dependency order, **not permission to complete them all in one run**. Initial request executes steps 1–3 (Stage 01) for a bounded block and stops. The next human turns unlock critique (Stage 02), boundary decision/final writing (Stage 03), then scenes (Stage 04). Do not auto-run step 4 just because draft writing finished.
+**Execution boundary:** Stage 00 creates a **whole-course provisional master outline** and safe source inventory, selects B01 and STOPS. For each bounded **Block**, Stage 01 executes steps 1–3 below and writes complete drafts; later human turns unlock critique (Stage 02), final boundaries (Stage 03) and scenes (Stage 04). A human may choose `next block` after Stage 04 without waiting for paid audio. The steps below are dependencies, never same-turn blanket authorization.
 
 ## Goal
 
-The source's chapter/section structure is not automatically the student's ideal lesson structure. Write enough complete teaching to evaluate how many separate conceptual steps a learner can reasonably absorb, then confirm lesson boundaries **before** committed scene/audio production. Do not optimize to a prescribed word count or minutes-per-lesson target.
+The source's chapter/section structure is not automatically the student's ideal **block or lesson** structure. Stage 00 maps the book at a high level without drafting it all; Stage 01 builds complete teaching **for one Block**, then confirms lesson boundaries before scene/audio production. A Block is a workflow unit, not a student lesson; do not impose fixed page/word/time quotas.
 
 ## Seven-step workflow
 
@@ -18,7 +18,7 @@ The source's chapter/section structure is not automatically the student's ideal 
 6. **Finalize and re-review.** For every resulting lesson, write/revise its own opening, complete explanation, guided application, independent question/feedback and recap. A split is **not** cutting a transcript into pieces. Check coverage of **all** source-backed intended objectives across the new sequence, with no duplicate/truncated prerequisites or answer leaks. Update the approved OUTLINE boundaries/ordered IDs/objectives/source locators and dependencies before scenes.
 7. **Production freeze then decomposition.** Once the teaching map and wording are settled, create/rework scene JSON, semantic anchors, storyboard ratios and clips. Scene narration/feedback become canonical; a joined reading copy must be generated from them, not independently edited. Run stage checks and real review before paid audio.
 
-Do **not** wait for the entire curriculum to have completed drafts; review small connected blocks as sources become available. A course outline may be partly provisional while finished lessons stay stable.
+Do **not** wait for the entire curriculum to have completed drafts; review small connected blocks as sources become available. After Stage 04 and human inspection, `next block` may continue authoring while audio or independent academic review remains clearly deferred; this is NOT a release/approval. The course outline may remain partly provisional while finished lessons stay stable.
 
 ## Boundary decision: evidence and checklist
 

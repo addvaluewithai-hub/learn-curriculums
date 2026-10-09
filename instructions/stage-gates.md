@@ -1,76 +1,67 @@
-# Human-gated curriculum production: one stage per human turn
+# Human-gated curriculum production: intake once, blocks repeatedly
 
-**This document controls execution scope, not scientific sign-off or the JSON authoring contract.**
-Read with [curriculum planning](curriculum-planning.md), [teaching](teaching.md), [handoff](handoff.md), and the existing [audio](audio.md)/[preview](../preview-sdk/README.md) instructions.
-`next` authorizes **only the next editorial/production stage**, never paid synthesis, an academic `passed` review, a merge to `main`, or student publication.
+This is **one authorized stage per human turn**. It does not change runtime JSON schemas or authorize paid TTS, scientific sign-off, GitHub merge or student release. Read [source handling](source-handling.md), [curriculum planning](curriculum-planning.md), [teaching](teaching.md), [handoff](handoff.md), [audio](audio.md) and [shared preview](../preview-sdk/README.md).
 
-## Default invocation and stop rule
+## Invocation and scope
 
-- A new user request like **"عايزين نبدأ إنتاج منهج" + source PDF + repository** means **Stage 01 only**, not the entire production pipeline. Choose a manageable source-grounded chapter/neighboring block; do not ask for an arbitrary lesson count when the source permits a useful start.
-- **At the end of every stage** save deliverables to the scoped curriculum branch/draft PR when GitHub write access is authorized, update curriculum or lesson STATUS, report exactly what was completed and what remains unreviewed, and **STOP**. Do not begin the next stage in the same assistant execution, even if time, tools or budget remain.
-- On the next human turn, **"next" / "كمل" / "التالي"** with no other instruction means execute **exactly one next numbered stage** for the currently active curriculum/block, then stop again. Re-read current STATUS and files/PR head; don't depend on old chat context.
-- A human correction/comment means **revise the current or explicitly named stage**, report changes and stop; it is **not** permission to advance. A request for a particular artifact/stage can narrow scope, but must not silently mark skipped dependencies complete.
-- A user may **explicitly** authorize multiple stages in one message; otherwise never infer blanket end-to-end authorization from "ابدأ" or a link. Higher-priority or explicit user scope wins, subject to real prerequisites, review integrity, paid action permission and non-publication boundaries.
-- Stop early if the PDF is inaccessible, identity/scope is genuinely unresolved, an owner decision is necessary, or a required artifact is missing. Record the blocker and ask one focused question; do not fill missing source pages with general knowledge.
-- Multiple active curricula require identifying the current course/branch from the user turn and STATUS. Never advance a different PR because it looks newer. Treat legacy work as-is; do not retroactively claim earlier gates were approved.
+- **New curriculum + PDF + "ابدأ" means Stage 00 only**, not a whole-book draft. At completion save planning artifacts in a curriculum-scoped branch/draft PR, update STATUS and **STOP** for a human `next`.
+- **Stage 00 runs once for the curriculum**; Stages 01–04 repeat for each selected **Block**. A Block is a bounded source-grounded group of related outcomes, not automatically a textbook chapter, student lesson, or fixed page/word count. One Block may yield several lessons.
+- **`next` / `كمل`** executes exactly **one following stage** in the active scope, saves artifacts, reports, **STOP**. A comment/correction revises the current stage, then stops. Explicitly requested multi-stage work may narrow/override the default within real permissions and prerequisites.
+- After Stage 00, `next` starts **B01 Stage 01**. Within a block successive `next` commands run 02, 03, 04, then 05 (audio pilot) and 06 (timed preview/handoff) only with prerequisites satisfied.
+- **`next block` / `الجزء اللي بعده`** is a distinct human authorization: after Stage 04 has produced scenes, actual script checks are recorded and the human accepts moving on, begin **Stage 01** of the next source-grounded block. Don't redo Stage 00. Prior Block audio may remain deferred; continuing authoring is **not** human scientific approval or release.
+- A bare `next` after Stage 04 refers to the **current Block's Stage 05**; `next block` starts the following Block instead. If the active course/Block is genuinely ambiguous, ask one question before modifying another editor's work.
+- Never advance on the same turn, even with available time. Incomplete work stays at its current stage; no invented approvals, falsely completed source retention, paid requests, audio/timings or runtime reviews.
 
-## Numbered gates and deliverables
+## Stage 00 — Curriculum intake and master roadmap (one-time)
 
-### 01 — Source, provisional boundaries, **complete continuous drafts**
-- Inspect available source pages/coverage; record unavailable parts honestly, audience assumptions, concept/prerequisite map, learner objectives and a **provisional** lesson split.
-- Write the **full teachable spoken working draft for every proposed lesson in the selected chapter/neighboring block**: explanations, natural bilingual terminology, examples, independent questions, and **separate post-attempt feedback**, meaningful opening and recap. Do not deliver only outlines, skeletons or scene snippets.
-- Keep prose coherent without production scene cuts; natural paragraphs/editorial headings and non-spoken attempt markers are allowed. Do a minimal factual/format sanity check, but **reserve systematic scientific/teaching/cognitive-load critique and rewrite for Stage 02**.
-- Save draft text, source review, provisional OUTLINE and STATUS. **Do not** issue new stable lesson IDs, create `lesson.json`/scene JSON/visual modules, run TTS, or decide final lesson boundaries.
-- **Stop:** tell the human the drafts/PR are ready to read and ask for comments or `next`.
+1. Identify the source files, title/edition, audience/language assumptions and **exact available coverage**. Inspect cover, contents and accessible body sufficiently to plan; for large scans, index in bounded passes and mark unopened/unreadable or index-only pages honestly.
+2. Follow [source handling](source-handling.md). **This repository is public**: do not commit a scanned copyrighted/private original by default. Preserve the original in approved durable/private storage **only if actually possible and authorized**; verify retrieval by a future authorized agent. If not possible, record the blocker and ask for a suitable location/permission rather than pretend a chat attachment is durable.
+3. Create `course.json`, curriculum `OUTLINE.md` (provisional **whole-course** topic/dependency/Block roadmap), `references/SOURCE_MANIFEST.md` (version, locator, rights, storage, hash if measured), and `references/SOURCE_COVERAGE.md` (PDF/printed pages and inspected/index-only/missing). No detailed lessons from unseen chapters.
+4. Choose **B01**, a manageable connected set of outcomes/pages, and justify why its boundary makes teaching sense; create curriculum `STATUS.md` plus `blocks/B01/STATUS.md`. Do **not** author lesson scripts, issue stable lesson IDs, create scenes or make audio.
+5. Commit to a scoped draft PR when authorized, report coverage and storage limitations, master roadmap and B01, **STOP**.
 
-### 02 — Evidence-led **critique and rewrite** of the complete drafts
-- Review the *entire* Stage 01 drafts for novice concept gaps, source/scientific fidelity, bilingual clarity, math/narration, misconceptions, actual question independence, repetition and cognitive load.
-- Record specific findings tied to passage/source, fix the text, and check each fix. Recommend possible **keep / internal chunks / split / merge / rescope** decisions, **but do not finalize boundaries or create scenes**.
-- Save revised drafts and documented critique as editorial evidence, not false human/academic approval. **Stop** for feedback or `next`.
+## Stage 01 — Complete continuous scripts for ONE selected Block
 
-### 03 — **Boundary decision, rewrite and final scripts**
-- Based on Stage 02 evidence, explicitly decide how proposed lessons should be kept, internally chunked, split, merged or rescoped. Never cut one narration mechanically; each resulting lesson needs its own coherent opening, explanation, independent assessment/feedback and recap.
-- Map source coverage/prerequisites/objectives without gaps or accidental overlap. Coordinate changes to **already issued** stable IDs or shared OUTLINE with the owner; preserve existing IDs and reviewed work unless the human authorized a controlled change.
-- Finalize the source-grounded teaching scripts and OUTLINE/order/IDs **only within authorized scope**, then re-review the resulting lessons. Document decisions, any outstanding owner/teacher review, and what is ready for scene production.
-- **Stop** before creating scene JSON. `next` from the user moves to Stage 04, not back through stages already completed.
+- Reopen actual Bxx source pages. Previous-chat summaries/`reviewed-notes` alone do not prove access. If source bytes are unavailable, stop and request them before inventing detail.
+- Build a detailed prerequisite/concept map and provisional **within-Block** lesson grouping. Write a **complete speakable master draft** for every proposed lesson in this Block: natural explanations, examples, English terminology with Arabic contextual support, independent learner attempts and **separate post-attempt feedback**, coherent recap. No scenes and no drafts for the whole book.
+- Basic source/format sanity check, but defer structured teaching/science/cognitive-load critique to Stage 02. Save drafts and Block STATUS, **STOP**.
 
-### 04 — **Scene, question/feedback and visual authoring**
-- Convert the finalized lessons to canonical `lesson.json` and `scenes/*.json` according to [contract](contract.md); keep questions, attempts and feedback separate. Preserve spoken wording and traceable source locators; derive a continuous reading copy from scenes if needed.
-- Create semantic units, **independent 16:9 and 9:16 storyboards**, and permitted lesson-local bespoke components. Run relevant tests, quality and `validate --stage script` where possible; report actual checks, not fabricated certification.
-- No paid audio or timed cue guesses. **Stop** after scene/script handoff.
+## Stage 02 — Critique and rewrite the complete Block drafts
 
-### 05 — **Audio pilot preparation and separately authorized synthesis**
-- Review [audio](audio.md). Prepare a representative bilingual/equation/number pilot and its exact request, initially dry-run. `next` alone **does not authorize a paid send**.
-- If the user has explicitly authorized the cost/scope, dispatch the pilot using unique jobs, reconcile delivery, review actual speech and source wording. Otherwise present the pending authorization/blocker and **stop without sending**.
-- Never expand a batch solely because pilot preparation succeeded. **Stop** and report audio/listening evidence and remaining blockers.
+- Review actual novice gaps, accuracy/source boundaries, maths/units, bilingual speech, question independence, misconceptions, length, cognitive load and transfer. Cite problematic passages and make revisions.
+- Recommend keep/internal parts/split/merge/defer, **without finalizing lesson boundaries or scenes**. Record findings and fixes; **STOP**.
 
-### 06 — **Timed alignment, visuals, preview and handoff**
-- Proceed only with actually delivered, reviewed audio and the relevant authorization for any further paid batch. Follow the timed-media and visual/replay checks; render using the **pinned shared preview SDK** when the dependencies exist.
-- Keep runtime, human source/teaching/listening review and publication independently evidenced. Prepare the handoff package only at its validated stage. No automatic merge or student publication.
-- **Stop** with actual results, limits and next requested human decision. If Stage 06 is too large for a safe turn, finish a clearly named bounded subtask and **stop** rather than silently skipping a verification gate.
+## Stage 03 — Confirm lesson boundaries and final scripts for this Block
 
-## Durable STATUS checkpoint (Markdown, no schema change)
+- Based on critique, keep/chunk/split/merge or rescope. Rewrite complete openings, transitions, practice, questions, feedback and recaps for **each resulting lesson**; never mechanically cut a long transcript.
+- Reconcile course coverage and prerequisites with adjacent blocks; finalize appropriate lesson IDs/orders/locators in OUTLINE without silently changing issued IDs. Record needed independent human academic review; **STOP**.
 
-For every active curriculum/block, place a concise, findable checkpoint in curriculum `STATUS.md` (or lesson `STATUS.md` and linked course STATUS). Suggested fields:
+## Stage 04 — Scenes, storyboards, and human authoring checkpoint
 
-```md
-- Scope: <course / chapter or neighboring block / working lesson labels>
-- Current branch/PR: <branch, PR number, optional head SHA>
-- Last completed human gate: 01 — drafts (or 02/03/04/05/06)
-- Next authorized gate: NONE — awaiting human "next" or comments
-- Stage outputs: <exact links/paths to sources, full drafts, critique, scenes as applicable>
-- Open decisions/blockers: <genuine unknowns, review and cost permissions>
-- Checks actually run: <commands/results; leave academic reviews untested without evidence>
-```
+- Convert the settled scripts into canonical `lesson.json`, `scenes/*.json`, separate questions/feedback, semantic anchors, and independent 16:9/9:16 storyboards and components. Run actual Stage `script` validation and quality checks where available; report exact results.
+- Keep source/teaching reviews `untested` unless supported by genuine reviewer/evidence. Save Block + course STATUS. Offer two explicit choices: **`next`** for this Block's Stage 05 pilot preparation; **`next block`** to author the next Block after human inspection, **without requiring audio**. **STOP**.
 
-On a subsequent `next`, first verify the files and the last completed gate in STATUS. Update the checkpoint **only after** successfully completing the requested stage; on interruption record the partial work and remain at that gate. Do not mark a next gate authorized in GitHub simply because the previous gate finished: authorization comes from the next human message.
+## Stage 05 — Optional paid-audio pilot gate
 
-## Review and acceptance examples
+- Prepare a representative bilingual/value/equation TTS pilot with the real [audio](audio.md) process, initially dry-run. `next` alone never authorizes paid dispatch; a separately explicit approval is required. Review delivered audio before any separately approved batch; **STOP**.
 
-- **New PDF + "ابدأ":** create outline and **full** connected draft(s) for a manageable source block; report and stop at 01. No self-critique gate, no scenes.
-- **"جميل، next":** critique/rewrite those drafts, show documented corrections, stop at 02.
-- **"عدّل الشرح عن القوة":** revise the relevant current drafts, update STATUS and stop; do **not** treat this as `next`.
-- **"next" again:** decide/rewrite boundaries and finalize those lesson scripts; stop at 03.
-- **"next" again:** only now author scene JSON/storyboards; stop at 04.
-- **"next" at audio pilot:** dry-run preparation is permitted; **paid dispatch requires explicit authorization**.
-- **Existing scenes in a legacy PR:** don't erase them or pretend Stage 01 happened with a human gate; assess current artifacts, flag missing steps, and ask for the next intended review action.
+## Stage 06 — Optional timing, pinned preview and handoff
+
+- Only with real verified recordings and correct prerequisites: align real word timings, build visuals, test both layouts and interaction with the **pinned shared SDK** and bind review evidence to actual hashes. Export at achieved stage, without student publication. **STOP**.
+
+## Durable STATUS state: global control plane and per-Block progress
+
+- `curricula/<course>/STATUS.md` owns **whole-course plan**, source version/access, roadmap of B01/B02/…, **active Block**, completed/deferred stages, branch/PR and next human decision.
+- `curricula/<course>/blocks/B01/STATUS.md` (similarly B02…) owns **that Block's** last fully completed Stage 01–06, draft/scene paths, source page locators, provisional vs stable lesson IDs, actual test results, blockers, pending independent reviews and `awaiting human next`. Stage 00 initializes B01 as planned, not as completed Stage 01.
+- Stage gate and active Block are independently tracked. On resuming `next`, first verify the actual branch, source accessibility and two STATUS files; advance only **after** the stage really succeeds. If interrupted record partial work without advancing.
+- On `next block` after Stage 04, record the previous Block as `editorial scripts/scenes ready; audio and human checks deferred` where applicable — **not fully approved**. Activate the next bounded available-source Block at Stage 01, preserve historical files/takes/IDs and continue revising the course roadmap only with traceable changes.
+- If the original edition/hash changes, stop and reassess the manifest, dependent teaching, audio hashes and reviews; preserve immutable published editions. Never treat an AI self-critique or CI pass as a human sign-off.
+
+## Smoke-test sequence
+
+- New PDF + `ابدأ` → **Stage 00 roadmap/source manifest, no script**, STOP.
+- `next` → **B01 full spoken drafts only**, STOP.
+- `next` → **B01 critique and rewrite**, STOP.
+- `next` → **B01 boundary decision and final scripts**, STOP.
+- `next` → **B01 scenes and storyboards**, STOP.
+- `next block` → **B02 spoken drafts**, even if B01 audio is deferred; alternatively `next` → B01 pilot preparation.
