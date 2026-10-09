@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "engineering-mechanics-statics",
+  "title": "الميكانيكا الهندسية: الاستاتيكا | Engineering Mechanics — Statics",
+  "revision": "planning-v0.1",
+  "description": "منهج تأسيسي بالمصري لطلاب الميكانيكا الهندسية، بمصطلحات ومسائل امتحان بالإنجليزية. الإنتاج يبدأ بالفصل الأول من المصدر المصور ولا يفترض توفر بقية الكتاب.",
+  "language": {
+    "explanation": "ar-EG",
+    "exam": "en",
+    "arabicSupport": true
+  },
+  "sources": [
+    {
+      "id": "statics-scan-20261008",
+      "title": "Engineering Mechanics [Statics] — Prof. Rabea Abo-Elkhair",
+      "access": "reviewed-notes",
+      "originalFilename": "مسح المستندات٢٠٢٦١٠٠٨_٢٠٢٢٢٢٨.pdf",
+      "locators": "PDF scan page (1–36) / printed page where legible",
+      "limitations": "36-page scanned attachment visually inspected in the authoring conversation on 2026-10-09. Original PDF is not checked into this repository; future reviewers require the original. Chapters 3–7 are represented only in the scanned table of contents. Some pages are rotated/blurred; numerical exercises and source details need independent verification before sign-off."
+    }
+  ],
+  "teacher": {}
+}
