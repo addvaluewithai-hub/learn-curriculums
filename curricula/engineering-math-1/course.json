@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "engineering-math-1",
   "title": "Mathematics I — Calculus (Differentiation) | أولى هندسة",
-  "revision": "stage-02-critique-revised-provisional",
-  "description": "Stage 02 AI editorial critique/rewrite for 9 provisional Mathematics I working scripts covering scanned textbook preliminaries (printed pp. 1–20) and Chapter 1 (pp. 21–53); not academic approval or final lesson boundaries.",
+  "revision": "legacy-stage-02-mapped-to-block-governance-v1",
+  "description": "First-year engineering Mathematics I. Historical Stage 02 teaching drafts for Preliminaries (B01, printed pp. 1–20) and Functions/Limits (B02, pp. 21–53), now mapped to a whole-course provisional Block roadmap. Active B01 remains awaiting human Stage 03 authorization; academic review and private source persistence unresolved.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",
@@ -16,7 +16,7 @@
       "access": "available",
       "type": "uploaded-pdf-scan",
       "locator": "Conversation attachment: scanned 43 PDF pages, covering printed textbook pages 1–80; cover/contents at PDF pages 1–3",
-      "limitations": "Image-only scanned extract; original attachment is not committed to this public repository. Only printed textbook pages 1–80 can be inspected. Contents list later chapters without their full text; mathematical OCR/transcription not considered reliable."
+      "limitations": "Image-only scanned extract (43 PDF pages, printed book pp. 1–80); source bytes verified during migration, see references/SOURCE_MANIFEST.md for actual SHA-256. Original is chat-only-temporary, not committed to public GitHub and not proven retrievable by future agents; public rights unknown. Later body beyond printed page 80 is absent; faint formulas and transcriptions need human checking."
     }
   ],
   "teacher": {
