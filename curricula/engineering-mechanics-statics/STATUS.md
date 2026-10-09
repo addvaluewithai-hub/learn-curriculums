@@ -1,44 +1,45 @@
 # Engineering Mechanics — Statics | STATUS
 
-- **التاريخ:** 2026-10-09.
-- **المحرر:** ChatGPT (AI-assisted preliminary authoring)؛ لا مراجع بشري مسجل.
-- **المرحلة الحقيقية:** curriculum setup + provisional outline + connected Chapter 1 working drafts + editorial self-critique. **ليست script stage ولا audio**.
-- **الفرع:** `curriculum/statics-ch01-working-drafts-20261009`.
-- **النشر / runtime:** لم يحدث نشر، SDK المعاينة غير موجود بالمشروع، ولم يُشغّل صوت أو TTS.
+- **التاريخ:** 2026-10-09؛ **المحرر:** ChatGPT، AI-assisted authoring؛ لا توجد موافقة بشرية مُسجلة.
+- **الجمهور المؤكد:** طلاب **أولى هندسة** (تأكيد المستخدم في المحادثة).
+- **المرحلة الحالية:** ثلاث **connected lesson drafts** جاهزة للمراجعة التحريرية الأولى؛ لم تتحول إلى scenes ولا lesson.json، فلا يجوز وصفها بأنها script-stage completed.
+- **Branch:** curriculum/statics-ch01-working-drafts-20261009؛ **PR:** #4، Draft PR مفتوح للمراجعة.
+- **الصوت والنشر والمعاينة:** لا TTS أو media أو timed cues أو release؛ preview SDK لم يصل بعد.
 
-## الملفات في هذا الفرع
+## الملفات الحالية
 
-- `course.json`: تعريف المنهج وسياسة اللغة وحدود الوصول للمصدر.
-- `OUTLINE.md`: تخطيط أولي بثلاث وحدات عمل في الفصل الأول، وباقي الفصول وفق حدود ما هو متاح.
-- `references/SOURCE_REVIEW.md`: خريطة صفحات الملف المصوّر مقابل صفحات الكتاب، حدود الاستدلال ومخاطر النقل.
-- `drafts/CH01_WORKING_DRAFTS.md`: ثلاثة نصوص شرح متصلة أصلية، تطبيقات موجهة، ستة أسئلة مستقلة مع feedback مفصول، whole-draft critique وقرار حدود مبدئي.
-- `STATUS.md`: هذا السجل.
+- course.json — تعريف المنهج وsource-access وlanguage policy.
+- OUTLINE.md — خريطة مبدئية وفق مستوى أولى هندسة، ما زالت حدود الدروس غير معتمدة.
+- references/SOURCE_REVIEW.md — محتوى 36 صفحة المصورة، locators وقيود الاستدلال ومشكلة جدول SI.
+- drafts/CH01_WORKING_DRAFTS.md — **فهرس** للملفات الثلاثة؛ النسخة المجمعة القديمة في Git history فقط لتجنب مسودتين قابلتين للتحرير.
+- drafts/LESSON_01_ENGINEERING_MECHANICS_MODELS.md — درس أول كامل؛ 3 independent questions + 3 feedback.
+- drafts/LESSON_02_NEWTON_LAWS_WEIGHT.md — درس ثان كامل؛ 5 independent questions + 5 feedback.
+- drafts/LESSON_03_UNITS_CONVERSIONS.md — درس ثالث كامل؛ 4 independent questions + 4 feedback.
+- STATUS.md — هذا السجل.
 
-## حدود المصادر
+## Coverage وقرار الحدود الأولي
 
-- PDF المرفق في المحادثة (36 صفحة) راجعناه بصريًا؛ **الملف غير محفوظ في GitHub** لحين التحقق من حقوق التوزيع وطريقة توفيره للمراجع.
-- Chapter 1 متن متاح (PDF pp. 7–12)، Chapter 2 متاح جزئيًا (PDF pp. 14–36)، Chapters 3–7 فهرس فقط.
-- وصف source `reviewed-notes` متعمد، ولا يعني وصولًا دائمًا للكتاب.
-- جميع الأمثلة الحسابية وأمثلة النقل مولّدة من فريق التأليف وليست حلولًا مقتبسة من الكتاب.
+1. L01: ماذا تدرس Mechanics وStatics/Dynamics، basic quantities، particle/rigid body/concentrated force. **Keep one** مع أجزاء فهم داخلية.
+2. L02: Newton's first/second/third laws، gravitational attraction وmass/weight. **Keep with deliberate internal parts provisionally**؛ أعلى مخاطرة حمل معرفي في الجزء الخاص بالجاذبية/الوزن؛ اختبار طالب مبتدئ قد يبرر split قبل تثبيت IDs.
+3. L03: SI/FPS، N من kg·m/s²، unit factors والتحويل والجمع المتسق. **Keep one**.
+4. **12 سؤالًا مستقلًا و12 feedback بعد المحاولة**، مع English exam wording + Arabic conceptual support. أمثلة مؤلفة للتدريس وليست مسائل منقولة عن الكتاب.
 
-## فحوص ومراجعات
+## نزاهة المصدر والمراجعة
 
-- معاينة مرئية للمصدر: تمت للصفحات اللازمة لمسودات Chapter 1؛ يلزم تدقيقها مع مدرس.
-- AI editorial critique: مكتوب في نهاية مسودات CH01، **لا يُعد اعتمادًا علميًا أو بشريًا**.
-- JSON/format and file-length checks: ستُسجل نتيجتها في PR بعد القراءة من الفرع.
-- `npm test` / `npm run check` / `cli.py validate --stage script`: **لم تُشغّل** في هذه المرحلة؛ لا توجد `lesson.json` أو مشاهد كي يُطبّق عليها script validation. البيئة المحلية لا تستطيع استنساخ GitHub؛ يجري تحرير الملفات مباشرة عبر GitHub connector.
-- source review: awaiting human evidence؛ teaching review: awaiting novice/instructor feedback؛ audio/timing/visual/runtime: untested.
+- PDF المصوّر (36 صفحة) في المحادثة، **ليس داخل GitHub**؛ access=reviewed-notes وليس available للمستودع. Chapter 1 PDF pp. 7–12 وChapter 2 جزئيًا؛ Chapters 3–7 فهرس فقط.
+- صيغ Newton والجاذبية/الوزن ومعلومات الوحدات مستندة إلى النص المرئي. الأمثلة والأرقام التعليمية من إنشاء المؤلف؛ التفسيرات اللاحقة والافتراضات موضحة في المسودات.
+- **عيب مصدر معلّق:** PDF p. 12 / printed p. 6، Energy/J formula «N/m» تختلف عن Work/J «N·m» في نفس الجدول؛ لم ننقل «N/m» كصيغة علمية صحيحة. يراجعها مدرس من الأصل قبل درس الطاقة.
+- Source/science review، teaching/novice review، audio/listening/visual/runtime: **غير مختبرة بشريًا**؛ لا status = passed.
 
-## القرار المبدئي وحدوده
+## الفحوص المنفذة فعليًا بعد الكتابة
 
-- C1-A: درس واحد بأجزاء داخلية قصيرة.
-- C1-B: درس واحد بثلاث نقاط توقف، **مرشح للتقسيم بعد اختبار حمله المعرفي**.
-- C1-C: درس واحد.
-- لا stable lesson IDs، ولا approved lesson order، ولا scenes أو review.json مع passed statuses حتى يعتمد المسؤول هذا التقسيم.
+- استرجاع source files السبعة من GitHub branch وتدقيق course.json.
+- **9/9 فحوص بنيوية مخصصة نجحت**: JSON parses؛ مستوى أولى هندسة؛ كل ملف أقل من 300 سطر؛ وجود شرح متصل/خاتمة؛ توزيع 3+5+4 أسئلة؛ 3+5+4 feedback؛ الملف التجميعي أصبح فهرسًا فقط؛ source locators في كل درس؛ توثيق اختلاف جدول المصدر.
+- لم تُشغّل npm test أو tools/quality.py أو cli.py validate: لا يوجد lesson.json/scenes، ولم نهيئ clone محلي للمستودع؛ هذه فحوص بنيوية للكتابة **لا تثبت** جودة العلم أو التدريس.
 
-## الخطوة التنفيذية التالية
+## ما التالي؟
 
-1. مراجعة مدرس Statics للنصوص والمعادلات والأسئلة؛ مراجعة طالب مبتدئ للانتقالات والحمل المعرفي، خصوصًا C1-B.
-2. تسجيل قرارات keep / internal-parts / split وسببها، مع تحديث الافتتاحيات/التقييمات لو تغير التقسيم.
-3. تثبيت IDs والأهداف والترتيب في OUTLINE مع مسؤول المنهج.
-4. تحويل أول درس معتمد إلى scenes وstoryboards بالمقاسين، ثم تشغيل draft/script validations. بعد مراجعة حقيقية فقط يجوز بحث pilot صوت؛ **لا طلب مدفوع الآن**.
+1. تسليم المسودات للمراجع العلمي ومدرس أولى هندسة ومجموعة طلاب صغيرة إن أمكن؛ مراجعة مستوى المصطلحات ونطقها ومراجعة جميع الحسابات وتوثيق verdict للمصدر.
+2. مراجعة انتقالات الأسئلة بدون answer leakage وتجربة الحمل المعرفي في L02؛ قرار keep/internal parts/split/merge مع سبب مدعّم بالملاحظة.
+3. اعتماد حدود الدروس من مسؤول المنهج ثم إصدار IDs والترتيب ومراجع الأهداف في OUTLINE.
+4. تحويل أول درس ثابت إلى lesson/scenes JSON، semantic units وstoryboards للمقاسين، ثم تشغيل checks الخاصة بمراحل الإنتاج. **لا TTS مدفوع ولا نشر تلقائي.**
