@@ -1,0 +1,64 @@
+{
+  "id": "S08",
+  "title": "الخلاصة والانتقال للفترات",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "mathematics-i-scan",
+      "locator": "printed pp.1–6; scan PDF image pp.4–6; interval theory reserved for future lesson"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "teaching",
+    "script": "نلخّص: Natural Numbers هي أعداد العد من واحد حسب مرجعنا، وIntegers بتضيف الصفر والسالب الصحيح. Rational Numbers تقدر تكتبها كنسبة عددين صحيحين والمقام مش صفر. Irrational Numbers زي الجذر التربيعي لاتنين وباي ما ينفعش تتكتب بالنسبة دي. النوعين مع بعض هما Real Numbers، وليهم مكان على خط الأعداد. وفي أي مقارنة، العدد اللي ناحية اليمين قيمته أكبر. المرة الجاية هنستخدم خط الأعداد لفهم الفترات والمتباينات.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "Natural Numbers",
+        "occurrence": 1,
+        "visualIntent": "Re-show positive counting-number subset."
+      },
+      {
+        "id": "U02",
+        "text": "Integers",
+        "occurrence": 1,
+        "visualIntent": "Expand to zero and negative integers."
+      },
+      {
+        "id": "U03",
+        "text": "Rational Numbers",
+        "occurrence": 1,
+        "visualIntent": "Highlight fraction over nonzero denominator."
+      },
+      {
+        "id": "U04",
+        "text": "Irrational Numbers",
+        "occurrence": 1,
+        "visualIntent": "Add √2 and π with no unsupported proof."
+      },
+      {
+        "id": "U05",
+        "text": "Real Numbers",
+        "occurrence": 1,
+        "visualIntent": "Combine rational and irrational under R."
+      },
+      {
+        "id": "U06",
+        "text": "ناحية اليمين قيمته أكبر",
+        "occurrence": 1,
+        "visualIntent": "Return to the number line with rightward increasing arrow."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "storyboard",
+    "module": null,
+    "params": {},
+    "landscape": "16:9 recap as a gradual set hierarchy alongside a clear horizontal line; final small teaser of interval brackets without detailed teaching.",
+    "portrait": "9:16 vertical set-summary above a wide left-to-right line, keeping all glyphs visible on narrow screen."
+  }
+}
