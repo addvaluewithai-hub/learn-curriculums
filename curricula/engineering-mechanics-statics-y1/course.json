@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "engineering-mechanics-statics-y1",
+  "title": "الميكانيكا الهندسية - الاستاتيكا | أولى هندسة",
+  "revision": "provisional-outline-stage01",
+  "description": "Arabic-first, English-exam vocabulary introduction to Engineering Mechanics (Statics) for first-year engineering students. Content limited to currently visible source pages.",
+  "language": {
+    "explanation": "ar-EG",
+    "exam": "en",
+    "arabicSupport": true
+  },
+  "sources": [
+    {
+      "id": "statics-scan-2026-10-08",
+      "title": "Engineering Mechanics [Statics] — scanned course material supplied by user",
+      "access": "available",
+      "originalFilename": "مسح المستندات٢٠٢٦١٠٠٨_٢٠٢٢٢٨.pdf",
+      "format": "scanned PDF; 36 image-only pages",
+      "availability": "Available as a user upload in the initiating conversation; PDF itself is not committed to this public repository.",
+      "limits": "The PDF contains front matter, printed chapter 1 pages 1–6 and chapter 2 pages 9–30. Chapters 3–7 are only represented in contents listings. Do not infer their explanations from headings."
+    }
+  ],
+  "teacher": {
+    "status": "not assigned; subject-matter and educational review pending"
+  }
+}
