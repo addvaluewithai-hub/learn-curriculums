@@ -34,7 +34,7 @@
 
 ## سؤال مستقل S-Q1 — السؤال فقط
 
-**English exam question:** Write the general partial-fraction form, without evaluating constants, for \((3x+2)/[(x-1)(x+4)^2]\). Explain why the form has that number of terms.
+**English exam question:** Write the general partial-fraction form, without evaluating constants, for \((3x+2)/[(x-3)(x+2)^2]\). Explain why the form has that number of terms.
 
 **دعم عربي للسؤال:** من غير حساب معاملات، حلّل المقام كما هو، واكتب صورة الكسور اللي لازم تظهر في الحل وسبب عددها.
 
@@ -42,9 +42,9 @@
 
 ### Feedback S-F1 — بعد المحاولة
 
-**English model answer:** \(A/(x-1)+B/(x+4)+C/(x+4)^2\). The repeated factor \((x+4)^2\) requires first and second powers; the distinct factor \((x-1)\) requires one term.
+**English model answer:** \(A/(x-3)+B/(x+2)+C/(x+2)^2\). The repeated factor \((x+2)^2\) requires first and second powers; the distinct factor \((x-3)\) requires one term.
 
-عندنا عامل إكس ناقص واحد مرة واحدة، وعامل إكس زائد أربعة متكرر للقوة التانية. علشان كده في ثلاثة حدود، مش اتنين. لو كتبت بس الحد اللي المقام فيه مربع، إنت نسيت القوة الأولى. ولو حسبت أرقام A وB وC، إنت عملت خطوة زيادة مش مطلوبة في السؤال.
+عندنا عامل إكس ناقص تلاتة مرة واحدة، وعامل إكس زائد اتنين متكرر للقوة التانية. علشان كده في ثلاثة حدود، مش اتنين. لو كتبت بس الحد اللي المقام فيه مربع، إنت نسيت القوة الأولى. ولو حسبت أرقام A وB وC، إنت عملت خطوة زيادة مش مطلوبة في السؤال.
 
 ## سؤال مستقل S-Q2 — السؤال فقط
 
