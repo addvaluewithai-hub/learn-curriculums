@@ -1,0 +1,48 @@
+{
+  "id": "S05",
+  "title": "شرح 5: جسر الكسر الجبري والدرجة والمجال",
+  "objectiveIds": [
+    "F3",
+    "F2"
+  ],
+  "sources": [
+    {
+      "sourceId": "math1-algebra-scan-20261009",
+      "locator": "printed pages 1–2 / PDF pages 3–4"
+    },
+    {
+      "sourceId": "math1-b01-authored-examples",
+      "locator": "Stage 03 original explanatory transitions and examples; B01 final-scripts"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "خلينا نعمل اختبارين صغيرين، مش حفظ. الأول عن رجوع الكسور بعضها لبعض، والتاني عن الدرجات اللي بتحدد أول خطوة. خليك عارف إن السؤال والـFeedback مرحلتين منفصلتين، فلا تشوف الحل إلا بعد محاولتك.",
+    "units": [
+      {
+        "id": "S05-U01",
+        "text": "خلينا نعمل اختبارين صغيرين، مش حفظ. الأول عن رجوع الكسور بعضها لبعض، والتاني",
+        "occurrence": 1,
+        "visualIntent": "اعرض المفهوم أو المعادلة الداعمة تدريجيًا عند بدء هذه العبارة"
+      },
+      {
+        "id": "S05-U02",
+        "text": "الأول عن رجوع الكسور بعضها لبعض، والتاني عن الدرجات اللي بتحدد أول خطوة",
+        "occurrence": 1,
+        "visualIntent": "انتقل إلى خطوة الاشتقاق أو مقارنة جديدة مع الشرح"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "custom-math-board",
+    "module": "scenes/MathBoard.tsx",
+    "params": {
+      "scene": "S05",
+      "format": "math-concept",
+      "sourceScope": "printed pages 1–2 / PDF pages 3–4"
+    },
+    "landscape": "16:9 — جسر الكسر الجبري والدرجة والمجال. عنوان فرعي واضح أعلى اليسار، معادلة/مقارنة في وسط المشهد، كشف تدريجي مع S05-U01 ثم S05-U02؛ دون عرض حلول للأسئلة المستقبلية.",
+    "portrait": "9:16 — جسر الكسر الجبري والدرجة والمجال. على عرض 320px فما فوق رص المعادلة ثم الشرح عموديًا، مع نص عربي/إنجليزي مقروء وتدرج مطابق للـanchors S05-U01, S05-U02؛ لا تصغير ثابت للشاشة الأفقية."
+  }
+}

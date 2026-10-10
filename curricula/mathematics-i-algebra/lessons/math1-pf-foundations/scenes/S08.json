@@ -1,0 +1,49 @@
+{
+  "id": "S08",
+  "title": "ملخص وجسر 8: جسر الكسر الجبري والدرجة والمجال",
+  "objectiveIds": [
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "sources": [
+    {
+      "sourceId": "math1-algebra-scan-20261009",
+      "locator": "printed pages 1–2 / PDF pages 3–4"
+    },
+    {
+      "sourceId": "math1-b01-authored-examples",
+      "locator": "Stage 03 original explanatory transitions and examples; B01 final-scripts"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "teaching",
+    "script": "إذن فكرة Partial Fractions هي العملية العكسية لتوحيد المقامات، وإن أي مساواة بنكتبها لازم تراعي قيم إكس الممنوعة. واتعلمنا المصطلحات Polynomial وDegree وRational Fraction، والفرق بين Proper وImproper. المرة الجاية هنبدأ من كسر Proper ونبص على شكل عوامل مقامه؛ هنقرر الصورة العامة للكسور الجزئية قبل ما نحسب أي معاملات. لو فهمت ليه بنفحص الدرجة والمجال، الخطوة الجاية هتبقى منطقية بدل ما تبقى حفظ قوالب.",
+    "units": [
+      {
+        "id": "S08-U01",
+        "text": "إذن فكرة Partial Fractions هي العملية العكسية لتوحيد المقامات، وإن أي مساواة بنكتبها",
+        "occurrence": 1,
+        "visualIntent": "اعرض المفهوم أو المعادلة الداعمة تدريجيًا عند بدء هذه العبارة"
+      },
+      {
+        "id": "S08-U02",
+        "text": "واتعلمنا المصطلحات Polynomial وDegree وRational Fraction، والفرق بين Proper وImproper",
+        "occurrence": 1,
+        "visualIntent": "انتقل إلى خطوة الاشتقاق أو مقارنة جديدة مع الشرح"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "custom-math-board",
+    "module": "scenes/MathBoard.tsx",
+    "params": {
+      "scene": "S08",
+      "format": "math-concept",
+      "sourceScope": "printed pages 1–2 / PDF pages 3–4"
+    },
+    "landscape": "16:9 — جسر الكسر الجبري والدرجة والمجال. عنوان فرعي واضح أعلى اليسار، معادلة/مقارنة في وسط المشهد، كشف تدريجي مع S08-U01 ثم S08-U02؛ دون عرض حلول للأسئلة المستقبلية.",
+    "portrait": "9:16 — جسر الكسر الجبري والدرجة والمجال. على عرض 320px فما فوق رص المعادلة ثم الشرح عموديًا، مع نص عربي/إنجليزي مقروء وتدرج مطابق للـanchors S08-U01, S08-U02؛ لا تصغير ثابت للشاشة الأفقية."
+  }
+}

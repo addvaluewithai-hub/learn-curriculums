@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "math1-pf-forms",
+  "curriculumId": "mathematics-i-algebra",
+  "order": 2,
+  "title": "اختيار صورة الكسور الجزئية",
+  "englishTitle": "Choosing Partial Fraction Forms",
+  "scriptRevision": "script-v1-stage04-20261010",
+  "prerequisites": [
+    "math1-pf-foundations"
+  ],
+  "objectives": [
+    {
+      "id": "S1",
+      "description": "يكتب القوالب لعوامل خطية مختلفة ومكررة",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "S2",
+      "description": "يفسّر ضرورة بسط خطي للعامل التربيعي غير القابل للتحليل حقيقيًا",
+      "taughtIn": [
+        "S03",
+        "S04",
+        "S05",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    },
+    {
+      "id": "S3",
+      "description": "يبني قالب تفكيك صحيحًا لمقام مختلط دون حساب المعاملات",
+      "taughtIn": [
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09"
+  ],
+  "glossary": [
+    {
+      "term": "Distinct Linear Factor",
+      "meaning": "عامل خطي يظهر مرة واحدة دون تكرار"
+    },
+    {
+      "term": "Repeated Factor",
+      "meaning": "عامل مكرر بقوة أعلى من واحد"
+    },
+    {
+      "term": "Irreducible Quadratic",
+      "meaning": "عامل تربيعي لا يتحلل إلى عاملين خطيين بمعاملات حقيقية"
+    },
+    {
+      "term": "General Form",
+      "meaning": "الصيغة التي تحدد عدد الكسور وشكل بسوطها قبل إيجاد الثوابت"
+    }
+  ]
+}

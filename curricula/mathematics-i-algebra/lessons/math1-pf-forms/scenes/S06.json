@@ -1,0 +1,47 @@
+{
+  "id": "S06",
+  "title": "شرح 6: تحليل المقام ورسم صورة الكسور",
+  "objectiveIds": [
+    "S3"
+  ],
+  "sources": [
+    {
+      "sourceId": "math1-algebra-scan-20261009",
+      "locator": "printed pages 2–3 / PDF page 4"
+    },
+    {
+      "sourceId": "math1-b01-authored-examples",
+      "locator": "Stage 03 original explanatory transitions and examples; B01 final-scripts"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "teaching",
+    "script": "تعالى نطبّق توجيهيًا على مثال من إعدادنا: \\frac{2x+3}{(x-1)(x+4)^2}. أولًا Proper لأن البسط درجة واحد والمقام درجة تلاتة. المقام فيه عامل إكس ناقص واحد مرة واحدة، وإكس زائد أربعة مرتين. يبقى القالب A/(x-1)+B/(x+4)+C/(x+4)^2. لاحظ إننا ما حسبناش A أو B أو C، ومع ذلك أنجزنا خطوة مهمة جدًا من الحل.",
+    "units": [
+      {
+        "id": "S06-U01",
+        "text": "تعالى نطبّق توجيهيًا على مثال من إعدادنا: \\frac{2x+3}{(x-1)(x+4)^2}. أولًا Proper لأن البسط درجة",
+        "occurrence": 1,
+        "visualIntent": "اعرض المفهوم أو المعادلة الداعمة تدريجيًا عند بدء هذه العبارة"
+      },
+      {
+        "id": "S06-U02",
+        "text": "أولًا Proper لأن البسط درجة واحد والمقام درجة تلاتة",
+        "occurrence": 1,
+        "visualIntent": "انتقل إلى خطوة الاشتقاق أو مقارنة جديدة مع الشرح"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "custom-math-board",
+    "module": "scenes/MathBoard.tsx",
+    "params": {
+      "scene": "S06",
+      "format": "math-concept",
+      "sourceScope": "printed pages 2–3 / PDF page 4"
+    },
+    "landscape": "16:9 — تحليل المقام ورسم صورة الكسور. عنوان فرعي واضح أعلى اليسار، معادلة/مقارنة في وسط المشهد، كشف تدريجي مع S06-U01 ثم S06-U02؛ دون عرض حلول للأسئلة المستقبلية.",
+    "portrait": "9:16 — تحليل المقام ورسم صورة الكسور. على عرض 320px فما فوق رص المعادلة ثم الشرح عموديًا، مع نص عربي/إنجليزي مقروء وتدرج مطابق للـanchors S06-U01, S06-U02؛ لا تصغير ثابت للشاشة الأفقية."
+  }
+}

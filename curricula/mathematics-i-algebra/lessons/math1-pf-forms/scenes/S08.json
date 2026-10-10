@@ -1,0 +1,85 @@
+{
+  "id": "S08",
+  "title": "اختبار مستقل Q02 — Choosing Partial Fraction Forms",
+  "objectiveIds": [
+    "S2",
+    "S3"
+  ],
+  "sources": [
+    {
+      "sourceId": "math1-b01-authored-examples",
+      "locator": "Original independently authored assessment math1-pf-forms/Q02, editorial script Stage 03"
+    },
+    {
+      "sourceId": "math1-algebra-scan-20261009",
+      "locator": "printed pages 2–3 / PDF page 4"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "question",
+    "script": "Over the real numbers, write the general partial-fraction form of (x+4)/[(x-2)^2(x^2+1)], without finding the constants. Briefly justify your numerator choices.\nحلّل نوع العوامل بنفسك، وقرر شكل بسط كل كسر وعدد الحدود، من غير تعويض أو أرقام للمعاملات.",
+    "units": [
+      {
+        "id": "S08-UEN",
+        "text": "Over the real numbers, write the general partial-fraction form of (x+4)/[(x-2)^2(x^2+1)], without finding the constants. Briefly justify your numerator choices.",
+        "occurrence": 1,
+        "visualIntent": "اعرض كامل نص السؤال الإنجليزي مع بداية نطقه دون إظهار الحل"
+      },
+      {
+        "id": "S08-UAR",
+        "text": "حلّل نوع العوامل بنفسك، وقرر شكل بسط كل كسر وعدد الحدود، من غير تعويض أو أرقام للمعاملات.",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي تدريجيًا عند بدء نطقه، دون إجابة"
+      }
+    ]
+  },
+  "question": {
+    "id": "Q02",
+    "english": "Over the real numbers, write the general partial-fraction form of (x+4)/[(x-2)^2(x^2+1)], without finding the constants. Briefly justify your numerator choices.",
+    "arabic": "حلّل نوع العوامل بنفسك، وقرر شكل بسط كل كسر وعدد الحدود، من غير تعويض أو أرقام للمعاملات.",
+    "readingUnitIds": {
+      "english": "S08-UEN",
+      "arabic": "S08-UAR"
+    },
+    "attempt": "written",
+    "answer": {
+      "english": "A/(x-2)+B/(x-2)^2+(Cx+D)/(x^2+1), with x\\ne2 for real x.",
+      "arabic": "العامل الخطي إكس ناقص اتنين مكرر، فلازم حد للقوة الأولى وحد للقوة التانية، وكل واحد بسطه ثابت. أما إكس تربيع زائد واحد فمش بيتحلل لخطيات حقيقية، وبسطه لازم يكون خطيًا علشان درجته تبقى أقل من اتنين. المجال الحقيقي هنا يستبعد إكس يساوي اتنين؛ إكس تربيع زائد واحد مش بيصفر عند أي إكس حقيقي.",
+      "reasoning": "العامل الخطي إكس ناقص اتنين مكرر، فلازم حد للقوة الأولى وحد للقوة التانية، وكل واحد بسطه ثابت. أما إكس تربيع زائد واحد فمش بيتحلل لخطيات حقيقية، وبسطه لازم يكون خطيًا علشان درجته تبقى أقل من اتنين. المجال الحقيقي هنا يستبعد إكس يساوي اتنين؛ إكس تربيع زائد واحد مش بيصفر عند أي إكس حقيقي."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "A/(x-2)+B/(x-2)^2+(Cx+D)/(x^2+1), with x\\ne2 for real x.\nالعامل الخطي إكس ناقص اتنين مكرر، فلازم حد للقوة الأولى وحد للقوة التانية، وكل واحد بسطه ثابت. أما إكس تربيع زائد واحد فمش بيتحلل لخطيات حقيقية، وبسطه لازم يكون خطيًا علشان درجته تبقى أقل من اتنين. المجال الحقيقي هنا يستبعد إكس يساوي اتنين؛ إكس تربيع زائد واحد مش بيصفر عند أي إكس حقيقي.",
+      "units": [
+        {
+          "id": "F02-UEN",
+          "text": "A/(x-2)+B/(x-2)^2+(Cx+D)/(x^2+1), with x\\ne2 for real x.",
+          "occurrence": 1,
+          "visualIntent": "اكشف الإجابة النموذجية الإنجليزية بعد تقديم إجابة الطالب فقط"
+        },
+        {
+          "id": "F02-UAR",
+          "text": "العامل الخطي إكس ناقص اتنين مكرر، فلازم حد للقوة الأولى وحد للقوة التانية، وكل واحد بسطه ثابت. أما إكس تربيع زائد واحد فمش بيتحلل لخطيات حقيقية، وبسطه لازم يكون خطيًا علشان درجته تبقى أقل من اتنين. المجال الحقيقي هنا يستبعد إكس يساوي اتنين؛ إكس تربيع زائد واحد مش بيصفر عند أي إكس حقيقي.",
+          "occurrence": 1,
+          "visualIntent": "اشرح السبب بالعربي بعد الإجابة، مع خطوات الحساب والمجال"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "F02-UEN",
+        "arabic": "F02-UAR"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "sdk-question-board",
+    "module": null,
+    "params": {
+      "questionId": "Q02",
+      "hideAnswerUntilAttempt": true
+    },
+    "landscape": "16:9 — اقرأ نص السؤال الإنجليزي مع S08-UEN ثم أظهر الدعم العربي مع S08-UAR، وبعد القراءة أبقِ النص كاملًا ومحاولة كتابة للطالب؛ لا تعرض الإجابة أو الثوابت أو ألوانًا كاشفة. الـfeedback مقطع منفصل بعد Submit.",
+    "portrait": "9:16 — السؤال الإنجليزي في بطاقة قابلة للالتفاف على 320px؛ الدعم العربي في بطاقة عمودية لاحقة؛ مساحة محاولة واضحة وزر Submit، ولا أي حل قبل الإرسال. بعد الإرسال إظهار إجابة F02 بشكل مقروء وعملية التحقق."
+  }
+}

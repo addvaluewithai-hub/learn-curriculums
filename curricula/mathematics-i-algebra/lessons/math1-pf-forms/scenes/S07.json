@@ -1,0 +1,84 @@
+{
+  "id": "S07",
+  "title": "اختبار مستقل Q01 — Choosing Partial Fraction Forms",
+  "objectiveIds": [
+    "S1"
+  ],
+  "sources": [
+    {
+      "sourceId": "math1-b01-authored-examples",
+      "locator": "Original independently authored assessment math1-pf-forms/Q01, editorial script Stage 03"
+    },
+    {
+      "sourceId": "math1-algebra-scan-20261009",
+      "locator": "printed pages 2–3 / PDF page 4"
+    }
+  ],
+  "narration": {
+    "id": "N07",
+    "role": "question",
+    "script": "Write the general partial-fraction form, without evaluating constants, for (3x+2)/[(x-3)(x+2)^2]. Explain why the form has that number of terms.\nمن غير حساب معاملات، حلّل المقام كما هو، واكتب صورة الكسور اللي لازم تظهر في الحل وسبب عددها.",
+    "units": [
+      {
+        "id": "S07-UEN",
+        "text": "Write the general partial-fraction form, without evaluating constants, for (3x+2)/[(x-3)(x+2)^2]. Explain why the form has that number of terms.",
+        "occurrence": 1,
+        "visualIntent": "اعرض كامل نص السؤال الإنجليزي مع بداية نطقه دون إظهار الحل"
+      },
+      {
+        "id": "S07-UAR",
+        "text": "من غير حساب معاملات، حلّل المقام كما هو، واكتب صورة الكسور اللي لازم تظهر في الحل وسبب عددها.",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي تدريجيًا عند بدء نطقه، دون إجابة"
+      }
+    ]
+  },
+  "question": {
+    "id": "Q01",
+    "english": "Write the general partial-fraction form, without evaluating constants, for (3x+2)/[(x-3)(x+2)^2]. Explain why the form has that number of terms.",
+    "arabic": "من غير حساب معاملات، حلّل المقام كما هو، واكتب صورة الكسور اللي لازم تظهر في الحل وسبب عددها.",
+    "readingUnitIds": {
+      "english": "S07-UEN",
+      "arabic": "S07-UAR"
+    },
+    "attempt": "written",
+    "answer": {
+      "english": "A/(x-3)+B/(x+2)+C/(x+2)^2. The repeated factor (x+2)^2 requires first and second powers; the distinct factor (x-3) requires one term.",
+      "arabic": "عندنا عامل إكس ناقص تلاتة مرة واحدة، وعامل إكس زائد اتنين متكرر للقوة التانية. علشان كده في ثلاثة حدود، مش اتنين. لو كتبت بس الحد اللي المقام فيه مربع، إنت نسيت القوة الأولى. ولو حسبت أرقام A وB وC، إنت عملت خطوة زيادة مش مطلوبة في السؤال.",
+      "reasoning": "عندنا عامل إكس ناقص تلاتة مرة واحدة، وعامل إكس زائد اتنين متكرر للقوة التانية. علشان كده في ثلاثة حدود، مش اتنين. لو كتبت بس الحد اللي المقام فيه مربع، إنت نسيت القوة الأولى. ولو حسبت أرقام A وB وC، إنت عملت خطوة زيادة مش مطلوبة في السؤال."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "A/(x-3)+B/(x+2)+C/(x+2)^2. The repeated factor (x+2)^2 requires first and second powers; the distinct factor (x-3) requires one term.\nعندنا عامل إكس ناقص تلاتة مرة واحدة، وعامل إكس زائد اتنين متكرر للقوة التانية. علشان كده في ثلاثة حدود، مش اتنين. لو كتبت بس الحد اللي المقام فيه مربع، إنت نسيت القوة الأولى. ولو حسبت أرقام A وB وC، إنت عملت خطوة زيادة مش مطلوبة في السؤال.",
+      "units": [
+        {
+          "id": "F01-UEN",
+          "text": "A/(x-3)+B/(x+2)+C/(x+2)^2. The repeated factor (x+2)^2 requires first and second powers; the distinct factor (x-3) requires one term.",
+          "occurrence": 1,
+          "visualIntent": "اكشف الإجابة النموذجية الإنجليزية بعد تقديم إجابة الطالب فقط"
+        },
+        {
+          "id": "F01-UAR",
+          "text": "عندنا عامل إكس ناقص تلاتة مرة واحدة، وعامل إكس زائد اتنين متكرر للقوة التانية. علشان كده في ثلاثة حدود، مش اتنين. لو كتبت بس الحد اللي المقام فيه مربع، إنت نسيت القوة الأولى. ولو حسبت أرقام A وB وC، إنت عملت خطوة زيادة مش مطلوبة في السؤال.",
+          "occurrence": 1,
+          "visualIntent": "اشرح السبب بالعربي بعد الإجابة، مع خطوات الحساب والمجال"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "F01-UEN",
+        "arabic": "F01-UAR"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "sdk-question-board",
+    "module": null,
+    "params": {
+      "questionId": "Q01",
+      "hideAnswerUntilAttempt": true
+    },
+    "landscape": "16:9 — اقرأ نص السؤال الإنجليزي مع S07-UEN ثم أظهر الدعم العربي مع S07-UAR، وبعد القراءة أبقِ النص كاملًا ومحاولة كتابة للطالب؛ لا تعرض الإجابة أو الثوابت أو ألوانًا كاشفة. الـfeedback مقطع منفصل بعد Submit.",
+    "portrait": "9:16 — السؤال الإنجليزي في بطاقة قابلة للالتفاف على 320px؛ الدعم العربي في بطاقة عمودية لاحقة؛ مساحة محاولة واضحة وزر Submit، ولا أي حل قبل الإرسال. بعد الإرسال إظهار إجابة F01 بشكل مقروء وعملية التحقق."
+  }
+}

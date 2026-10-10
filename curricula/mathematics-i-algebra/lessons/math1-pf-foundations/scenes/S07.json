@@ -1,0 +1,85 @@
+{
+  "id": "S07",
+  "title": "اختبار مستقل Q02 — Partial Fractions Foundations",
+  "objectiveIds": [
+    "F2",
+    "F3"
+  ],
+  "sources": [
+    {
+      "sourceId": "math1-b01-authored-examples",
+      "locator": "Original independently authored assessment math1-pf-foundations/Q02, editorial script Stage 03"
+    },
+    {
+      "sourceId": "math1-algebra-scan-20261009",
+      "locator": "printed pages 1–2 / PDF pages 3–4"
+    }
+  ],
+  "narration": {
+    "id": "N07",
+    "role": "question",
+    "script": "Classify (2x+3)/(x²+4) and (x²+1)/(x+1) as proper or improper rational fractions. Give the numerator and denominator degrees and state which one needs polynomial division before decomposition.\nفي كل كسر قول درجة البسط والمقام، وبعدها Proper ولا Improper، وأيهما نبدأ بقسمته قبل ما نفك الكسور الجزئية.",
+    "units": [
+      {
+        "id": "S07-UEN",
+        "text": "Classify (2x+3)/(x²+4) and (x²+1)/(x+1) as proper or improper rational fractions. Give the numerator and denominator degrees and state which one needs polynomial division before decomposition.",
+        "occurrence": 1,
+        "visualIntent": "اعرض كامل نص السؤال الإنجليزي مع بداية نطقه دون إظهار الحل"
+      },
+      {
+        "id": "S07-UAR",
+        "text": "في كل كسر قول درجة البسط والمقام، وبعدها Proper ولا Improper، وأيهما نبدأ بقسمته قبل ما نفك الكسور الجزئية.",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي تدريجيًا عند بدء نطقه، دون إجابة"
+      }
+    ]
+  },
+  "question": {
+    "id": "Q02",
+    "english": "Classify (2x+3)/(x²+4) and (x²+1)/(x+1) as proper or improper rational fractions. Give the numerator and denominator degrees and state which one needs polynomial division before decomposition.",
+    "arabic": "في كل كسر قول درجة البسط والمقام، وبعدها Proper ولا Improper، وأيهما نبدأ بقسمته قبل ما نفك الكسور الجزئية.",
+    "readingUnitIds": {
+      "english": "S07-UEN",
+      "arabic": "S07-UAR"
+    },
+    "attempt": "written",
+    "answer": {
+      "english": "The first fraction is proper (degree 1 over degree 2). The second is improper (degree 2 over degree 1) and needs polynomial division before direct partial-fraction decomposition.",
+      "arabic": "اتنين إكس زائد تلاتة أعلى قوة فيه واحد، وإكس تربيع زائد أربعة أعلى قوة اتنين، فالأول Proper. وفي التاني البسط درجة اتنين والمقام درجة واحد، فـImproper. إحنا بنحسب أعلى أس، مش عدد الحدود، ومش بنسمي كل كسر طويل Improper. لو الدرجة مش واضحة لأن التعبير متفكك لعوامل، افتكر إن درجات العوامل بتتجمع لما نضربها.",
+      "reasoning": "اتنين إكس زائد تلاتة أعلى قوة فيه واحد، وإكس تربيع زائد أربعة أعلى قوة اتنين، فالأول Proper. وفي التاني البسط درجة اتنين والمقام درجة واحد، فـImproper. إحنا بنحسب أعلى أس، مش عدد الحدود، ومش بنسمي كل كسر طويل Improper. لو الدرجة مش واضحة لأن التعبير متفكك لعوامل، افتكر إن درجات العوامل بتتجمع لما نضربها."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "The first fraction is proper (degree 1 over degree 2). The second is improper (degree 2 over degree 1) and needs polynomial division before direct partial-fraction decomposition.\nاتنين إكس زائد تلاتة أعلى قوة فيه واحد، وإكس تربيع زائد أربعة أعلى قوة اتنين، فالأول Proper. وفي التاني البسط درجة اتنين والمقام درجة واحد، فـImproper. إحنا بنحسب أعلى أس، مش عدد الحدود، ومش بنسمي كل كسر طويل Improper. لو الدرجة مش واضحة لأن التعبير متفكك لعوامل، افتكر إن درجات العوامل بتتجمع لما نضربها.",
+      "units": [
+        {
+          "id": "F02-UEN",
+          "text": "The first fraction is proper (degree 1 over degree 2). The second is improper (degree 2 over degree 1) and needs polynomial division before direct partial-fraction decomposition.",
+          "occurrence": 1,
+          "visualIntent": "اكشف الإجابة النموذجية الإنجليزية بعد تقديم إجابة الطالب فقط"
+        },
+        {
+          "id": "F02-UAR",
+          "text": "اتنين إكس زائد تلاتة أعلى قوة فيه واحد، وإكس تربيع زائد أربعة أعلى قوة اتنين، فالأول Proper. وفي التاني البسط درجة اتنين والمقام درجة واحد، فـImproper. إحنا بنحسب أعلى أس، مش عدد الحدود، ومش بنسمي كل كسر طويل Improper. لو الدرجة مش واضحة لأن التعبير متفكك لعوامل، افتكر إن درجات العوامل بتتجمع لما نضربها.",
+          "occurrence": 1,
+          "visualIntent": "اشرح السبب بالعربي بعد الإجابة، مع خطوات الحساب والمجال"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "F02-UEN",
+        "arabic": "F02-UAR"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "sdk-question-board",
+    "module": null,
+    "params": {
+      "questionId": "Q02",
+      "hideAnswerUntilAttempt": true
+    },
+    "landscape": "16:9 — اقرأ نص السؤال الإنجليزي مع S07-UEN ثم أظهر الدعم العربي مع S07-UAR، وبعد القراءة أبقِ النص كاملًا ومحاولة كتابة للطالب؛ لا تعرض الإجابة أو الثوابت أو ألوانًا كاشفة. الـfeedback مقطع منفصل بعد Submit.",
+    "portrait": "9:16 — السؤال الإنجليزي في بطاقة قابلة للالتفاف على 320px؛ الدعم العربي في بطاقة عمودية لاحقة؛ مساحة محاولة واضحة وزر Submit، ولا أي حل قبل الإرسال. بعد الإرسال إظهار إجابة F02 بشكل مقروء وعملية التحقق."
+  }
+}

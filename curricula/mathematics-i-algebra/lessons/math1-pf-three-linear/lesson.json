@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "math1-pf-three-linear",
+  "curriculumId": "mathematics-i-algebra",
+  "order": 4,
+  "title": "ثلاثة عوامل ومقارنة المعاملات",
+  "englishTitle": "Three Linear Factors and Coefficient Matching",
+  "scriptRevision": "script-v1-stage04-20261010",
+  "prerequisites": [
+    "math1-pf-foundations",
+    "math1-pf-forms",
+    "math1-pf-two-linear"
+  ],
+  "objectives": [
+    {
+      "id": "C1",
+      "description": "يحلّل مقامًا إلى ثلاثة عوامل خطية ويختار صورة من ثلاثة كسور",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "C2",
+      "description": "يوسّع الهوية ويقارن معاملات القوى ويحل ثوابت A وB وC",
+      "taughtIn": [
+        "S03",
+        "S04",
+        "S05",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q01",
+        "Q02"
+      ]
+    },
+    {
+      "id": "C3",
+      "description": "يتحقق من الحل رياضيًا ويكتشف خطأ توسعة مع ثبات مجال التعريف",
+      "taughtIn": [
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q01",
+        "Q02"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09"
+  ],
+  "glossary": [
+    {
+      "term": "Comparing Coefficients",
+      "meaning": "مساواة معاملات نفس القوى بعد توسعة هوية كثيرات الحدود"
+    },
+    {
+      "term": "Linear Factors",
+      "meaning": "عوامل من الدرجة الأولى في المقام"
+    },
+    {
+      "term": "Polynomial Identity",
+      "meaning": "هوية كثيرات حدود بعد إزالة المقام المشترك"
+    }
+  ]
+}
