@@ -1,0 +1,83 @@
+{
+  "id": "S07",
+  "title": "Independent attempt 1",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF pp.5–8, printed pp.121–126; clearer duplicate printed pp.124–125; original exam question, not copied printed numbers"
+    }
+  ],
+  "narration": {
+    "id": "NQ01",
+    "role": "question",
+    "script": "A sample has a repeating long-range particle arrangement. Another sample has no long-range periodic structure. Identify each type. A bar returns to its initial length when a small axial force is removed. Is the behavior elastic or plastic? Does this observation by itself establish the breaking strength?\n\nعيّنة فيها نمط دوري متكرر لمسافات بعيدة، والتانية مش فيها النمط ده؛ صنّف الاتنين. وبعد إزالة قوة صغيرة، القضيب رجع لطوله الأصلي. هل ده Elastic ولا Plastic؟ وهل نقدر نستخرج قوة الكسر من المشاهدة دي؟ قف هنا واكتب أسبابك قبل ما تسمع الإجابة.",
+    "units": [
+      {
+        "id": "E01",
+        "text": "A sample has a repeating long-range particle arrangement. Another sample has no long-range periodic structure. Identify each type. A bar returns to its initial length when a small axial force is removed. Is the behavior elastic or plastic? Does this observation by itself establish the breaking strength?",
+        "occurrence": 1,
+        "visualIntent": "Reveal spoken English exam question at the first word."
+      },
+      {
+        "id": "A01",
+        "text": "عيّنة فيها نمط دوري متكرر لمسافات بعيدة، والتانية مش فيها النمط ده؛ صنّف الاتنين. وبعد إزالة قوة صغيرة، القضيب رجع لطوله الأصلي. هل ده Elastic ولا Plastic؟ وهل نقدر نستخرج قوة الكسر من المشاهدة دي؟ قف هنا واكتب أسبابك قبل ما تسمع الإجابة.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic explanation as spoken, without model answer."
+      }
+    ]
+  },
+  "question": {
+    "id": "Q01",
+    "english": "A sample has a repeating long-range particle arrangement. Another sample has no long-range periodic structure. Identify each type. A bar returns to its initial length when a small axial force is removed. Is the behavior elastic or plastic? Does this observation by itself establish the breaking strength?",
+    "arabic": "عيّنة فيها نمط دوري متكرر لمسافات بعيدة، والتانية مش فيها النمط ده؛ صنّف الاتنين. وبعد إزالة قوة صغيرة، القضيب رجع لطوله الأصلي. هل ده Elastic ولا Plastic؟ وهل نقدر نستخرج قوة الكسر من المشاهدة دي؟ قف هنا واكتب أسبابك قبل ما تسمع الإجابة.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "E01",
+      "arabic": "A01"
+    },
+    "answer": {
+      "english": "The first sample is crystalline and the second is amorphous. The bar shows elastic recovery at the tested load. The experiment does not establish its breaking strength.",
+      "arabic": "العينة الأولى Crystalline، والثانية Amorphous. والقضيب رجع لطوله، يعني ظهر سلوك مرن في حدود الحمل المجرب. لكن ما اختبرناش لحظة الكسر، فمينفعش نزعم إنه يتحمل قوة قصوى معينة. وصف التركيب والمرونة وقوة الكسر ثلاثة أسئلة مختلفة.",
+      "reasoning": "العينة الأولى Crystalline، والثانية Amorphous. والقضيب رجع لطوله، يعني ظهر سلوك مرن في حدود الحمل المجرب. لكن ما اختبرناش لحظة الكسر، فمينفعش نزعم إنه يتحمل قوة قصوى معينة. وصف التركيب والمرونة وقوة الكسر ثلاثة أسئلة مختلفة."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "The first sample is crystalline and the second is amorphous. The bar shows elastic recovery at the tested load. The experiment does not establish its breaking strength.\n\nالعينة الأولى Crystalline، والثانية Amorphous. والقضيب رجع لطوله، يعني ظهر سلوك مرن في حدود الحمل المجرب. لكن ما اختبرناش لحظة الكسر، فمينفعش نزعم إنه يتحمل قوة قصوى معينة. وصف التركيب والمرونة وقوة الكسر ثلاثة أسئلة مختلفة.",
+      "units": [
+        {
+          "id": "E01",
+          "text": "The first sample is crystalline and the second is amorphous. The bar shows elastic recovery at the tested load. The experiment does not establish its breaking strength.",
+          "occurrence": 1,
+          "visualIntent": "English model answer visible only after submission."
+        },
+        {
+          "id": "A01",
+          "text": "العينة الأولى Crystalline، والثانية Amorphous. والقضيب رجع لطوله، يعني ظهر سلوك مرن في حدود الحمل المجرب. لكن ما اختبرناش لحظة الكسر، فمينفعش نزعم إنه يتحمل قوة قصوى معينة. وصف التركيب والمرونة وقوة الكسر ثلاثة أسئلة مختلفة.",
+          "occurrence": 1,
+          "visualIntent": "Arabic reasoning after answer; not before attempt."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "E01",
+        "arabic": "A01"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "phys1-801-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "سؤال مستقل",
+      "kind": "question",
+      "formula": "",
+      "firstCue": "E01"
+    },
+    "landscape": "16:9: neutral schematic at left, progressively revealed English exam clause and Arabic support at right; writing area; NEVER show answer until submission.",
+    "portrait": "9:16: move neutral schematic above, English question wrapped in single large column then Arabic support; generous space for written response at 320px; NEVER show answers."
+  }
+}

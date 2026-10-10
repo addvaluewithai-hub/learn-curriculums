@@ -1,0 +1,83 @@
+{
+  "id": "S06",
+  "title": "Independent assessment 1",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.128; exercise types printed pp.130–133; newly authored assessment, not numerical book solution"
+    }
+  ],
+  "narration": {
+    "id": "NQ01",
+    "role": "question",
+    "script": "A block has height 0.15 m and a top-face area of 0.030 m². Its bottom face is fixed. A tangential force of 90 N shifts the top face sideways by 0.30 mm. Assuming uniform, small, linear-elastic simple shear, calculate the average shear stress, engineering shear strain and shear modulus.\n\nبلوك ارتفاعه 0.15 متر، مساحة وجهه العلوي 0.030 متر مربع، وقوة قص أفقية 90 نيوتن. السطح العلوي اتحرك 0.30 ملّيمتر. احسب إجهاد القص، انفعال القص، ومعامل القص. اكتب الرسم واتجاه القوة وبيانات الوحدات قبل ما تسمع الإجابة.",
+    "units": [
+      {
+        "id": "E01",
+        "text": "A block has height 0.15 m and a top-face area of 0.030 m². Its bottom face is fixed. A tangential force of 90 N shifts the top face sideways by 0.30 mm. Assuming uniform, small, linear-elastic simple shear, calculate the average shear stress, engineering shear strain and shear modulus.",
+        "occurrence": 1,
+        "visualIntent": "Show English exam sentence as it is spoken."
+      },
+      {
+        "id": "A01",
+        "text": "بلوك ارتفاعه 0.15 متر، مساحة وجهه العلوي 0.030 متر مربع، وقوة قص أفقية 90 نيوتن. السطح العلوي اتحرك 0.30 ملّيمتر. احسب إجهاد القص، انفعال القص، ومعامل القص. اكتب الرسم واتجاه القوة وبيانات الوحدات قبل ما تسمع الإجابة.",
+        "occurrence": 1,
+        "visualIntent": "Show Arabic support only at its speech onset."
+      }
+    ]
+  },
+  "question": {
+    "id": "Q01",
+    "english": "A block has height 0.15 m and a top-face area of 0.030 m². Its bottom face is fixed. A tangential force of 90 N shifts the top face sideways by 0.30 mm. Assuming uniform, small, linear-elastic simple shear, calculate the average shear stress, engineering shear strain and shear modulus.",
+    "arabic": "بلوك ارتفاعه 0.15 متر، مساحة وجهه العلوي 0.030 متر مربع، وقوة قص أفقية 90 نيوتن. السطح العلوي اتحرك 0.30 ملّيمتر. احسب إجهاد القص، انفعال القص، ومعامل القص. اكتب الرسم واتجاه القوة وبيانات الوحدات قبل ما تسمع الإجابة.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "E01",
+      "arabic": "A01"
+    },
+    "answer": {
+      "english": "τ = 90/0.030 = 3000 Pa. γ = 0.00030/0.15 = 0.002. S = τ/γ = 1.5 × 10⁶ Pa.",
+      "arabic": "بدأنا بتحديد إن الحمل موازي للوجه، مش شد محوري. الإجهاد 3000 باسكال، والانفعال 0.002 بدون وحدة، ومعامل القص مليون ونص باسكال. اتحقق إنك حولت 0.30 ملّيمتر إلى 0.00030 متر، واستخدمت الارتفاع 0.15 متر في المقام.",
+      "reasoning": "بدأنا بتحديد إن الحمل موازي للوجه، مش شد محوري. الإجهاد 3000 باسكال، والانفعال 0.002 بدون وحدة، ومعامل القص مليون ونص باسكال. اتحقق إنك حولت 0.30 ملّيمتر إلى 0.00030 متر، واستخدمت الارتفاع 0.15 متر في المقام."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "τ = 90/0.030 = 3000 Pa. γ = 0.00030/0.15 = 0.002. S = τ/γ = 1.5 × 10⁶ Pa.\n\nبدأنا بتحديد إن الحمل موازي للوجه، مش شد محوري. الإجهاد 3000 باسكال، والانفعال 0.002 بدون وحدة، ومعامل القص مليون ونص باسكال. اتحقق إنك حولت 0.30 ملّيمتر إلى 0.00030 متر، واستخدمت الارتفاع 0.15 متر في المقام.",
+      "units": [
+        {
+          "id": "E01",
+          "text": "τ = 90/0.030 = 3000 Pa. γ = 0.00030/0.15 = 0.002. S = τ/γ = 1.5 × 10⁶ Pa.",
+          "occurrence": 1,
+          "visualIntent": "Only after submission reveal English answer."
+        },
+        {
+          "id": "A01",
+          "text": "بدأنا بتحديد إن الحمل موازي للوجه، مش شد محوري. الإجهاد 3000 باسكال، والانفعال 0.002 بدون وحدة، ومعامل القص مليون ونص باسكال. اتحقق إنك حولت 0.30 ملّيمتر إلى 0.00030 متر، واستخدمت الارتفاع 0.15 متر في المقام.",
+          "occurrence": 1,
+          "visualIntent": "Only after submission reveal Arabic reasoning."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "E01",
+        "arabic": "A01"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "phys1-803-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "heading": "تحديد النموذج",
+      "formula": "",
+      "firstCue": "E01"
+    },
+    "landscape": "16:9: neutral shear or pressure schematic at left, question reading clauses progressively revealed at right in English then Arabic; no model-answer formula or solutions before attempt.",
+    "portrait": "9:16: simplified small top diagram, English question and Arabic support in separate large wrapped blocks, ample response space; never disclose feedback."
+  }
+}

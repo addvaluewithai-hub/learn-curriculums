@@ -1,0 +1,39 @@
+{
+  "id": "S05",
+  "title": "Shear Deformation and Shear Modulus — concept 5",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.128; exercise types printed pp.130–133; authored engineering examples not book exercises"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "قبل السؤال النهائي، نحدد شروطنا علشان أي حد يسمع يقدر يعرف متى يصح القانون: بنفترض بلوك تقريبي الأوجه مستوية، قاعدة مثبتة، قوة موازية للوجه، التشوه صغير، وتوزيع القص منتظم على نحو يسمح بوصف متوسط، وسلوك مرن خطي. مسائل تانية فيها التواء أو انحناء محتاجة علاقات إضافية؛ مش هنرمي عليها S = Fh/(AΔx) لمجرد وجود قوة.",
+    "units": [
+      {
+        "id": "U051",
+        "text": "قبل السؤال النهائي، نحدد شروطنا علشان أي حد يسمع يقدر يعرف متى يصح القانون: بنفترض بلوك تقريبي الأوجه مست",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-803-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "shear",
+      "heading": "القص وإزاحة الوجه",
+      "formula": "τ = F/A   γ = Δx/h   S = τ/γ",
+      "firstCue": "U051"
+    },
+    "landscape": "16:9: bespoke labeled shear diagram occupying 60%; only current formula/caption at narrated cue to right, large legible math.",
+    "portrait": "9:16: reorganize shear visual above, captions/formula full width below, at least 320px-safe labels and reduced-motion static equivalence."
+  }
+}

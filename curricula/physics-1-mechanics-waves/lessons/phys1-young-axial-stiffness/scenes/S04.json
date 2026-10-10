@@ -1,0 +1,45 @@
+{
+  "id": "S04",
+  "title": "Young's Modulus and Axial Stiffness — step 4",
+  "objectiveIds": [
+    "O1",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.8, printed pp.126–127; clearer duplicate printed p.125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "تعال نحل مثال إرشادي من تأليفنا. قضيب طوله 2 متر، مساحة مقطعه الأصلي 2 × 10⁻⁴ متر مربع، عليه قوة شد محورية 1000 نيوتن، ومعامل Young في فرض المسألة 10¹¹ باسكال. عايزين الاستطالة. نكتب ΔL = F L0/(Y A)، يعني 1000 × 2 على 10¹¹ × 2 × 10⁻⁴. الناتج 10⁻⁴ متر، أو 0.1 ملّيمتر. نقدر نتحقق بطريقة تانية: Stress = 1000/0.0002 = 5 × 10⁶ Pa. Strain = Stress/Y = 5 × 10⁻⁵. اضرب الانفعال في الطول 2 متر، هترجع لنفس الاستطالة.\n\nطيب، لو فكرنا في القضيب كعنصر بيقاوم الشد، هل يشبه نابضًا؟ في النطاق ده نعم، من ناحية العلاقة بين **مقدار القوة** و**مقدار الاستطالة**. نكتب F = k ΔL. الكتاب بيذكر Hooke's Law عند النقطة دي. ومن معادلة Young، هنلاقي k = Y A/L0. لاحظ إن k بتاع العنصر المحوري بيتأثر بنوع المادة وبأبعاده كمان، ووحدته Newton per metre أو N/m، بخلاف Y اللي وحدته Pascal.",
+    "units": [
+      {
+        "id": "U041",
+        "text": "تعال نحل مثال إرشادي من تأليفنا. قضيب طوله 2 متر، مساحة مقطعه الأصلي 2 × 10⁻⁴ متر مربع، عليه قوة شد محوري",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      },
+      {
+        "id": "U042",
+        "text": "طيب، لو فكرنا في القضيب كعنصر بيقاوم الشد، هل يشبه نابضًا؟ في النطاق ده نعم، من ناحية العلاقة بين **مقدار",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-802-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "Hooke & k",
+      "kind": "spring",
+      "formula": "k = YA/L₀",
+      "firstCue": "U041"
+    },
+    "landscape": "16:9: large spring explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: spring diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

@@ -1,27 +1,25 @@
 # STATUS — Physics I
 
-- **Date:** 2026-10-10 | **Audience:** first-year engineering students, Egyptian Arabic + English technical terms and exam questions.
-- **Stage 00:** complete (source coverage/rights + whole-course roadmap).
-- **B01 Stage 01:** complete (3 continuous working drafts from printed pp.121–133).
-- **B01 Stage 02:** complete *as AI editorial critique* (F01–F14); independent scientific review not performed.
-- **B01 Stage 03:** **COMPLETE** — final learner boundaries set and 4 independent complete editorial scripts written, objectives/assessment/source coverage mapped, exact stable IDs and order issued. Stage 03 boundary/quality record: blocks/B01/review/STAGE03_BOUNDARY_DECISION.md.
-- **B01 Stage 04:** **not started**. Need separate human “next/كمل”.
-- **Active:** B01 Solids and Elasticity. **B02:** Sound Waves source available (printed pp.134–149) but has NOT started authoring; B03–B06 source bodies missing.
-- **GitHub:** Draft PR #10, branch curriculum/physics-1-stage00-20261010; no merge/student release.
+- **Date:** 2026-10-10; audience: first-year engineering students, ar-EG explanation and English exam questions.
+- Stage 00–03 B01: complete within their respective editorial scopes.
+- **Stage 04 B01:** authoring files CREATED for four issued lessons; **actual script/quality CI check pending** on this Draft PR. Do not claim a passing stage until verified.
+- Active Block: B01 Solids and Elasticity. Next Block B02 Sound Waves remains at Stage 00 roadmap only.
+- Branch: curriculum/physics-1-stage00-20261010, Draft PR #10, not merged or released.
 
-## Issued B01 editorial lesson identities and current files
-- **801** phys1-solid-structure-stress-strain → blocks/B01/final-scripts/01-phys1-solid-structure-stress-strain.md.
-- **802** phys1-young-axial-stiffness → blocks/B01/final-scripts/02-phys1-young-axial-stiffness.md.
-- **803** phys1-shear-deformation → blocks/B01/final-scripts/03-phys1-shear-deformation.md.
-- **804** phys1-bulk-compression → blocks/B01/final-scripts/04-phys1-bulk-compression.md.
-- Ordered IDs, English titles, explicit prerequisites/objectives, sources and independent assessment mapping in OUTLINE.md.
-- Working drafts under blocks/B01/drafts are **historical**, not final independent runtime script versions.
+## Authored canonical scene deliverables
+- `lessons/phys1-solid-structure-stress-strain/` (801): teaching + 2 independent bilingual question scenes and separate feedback clips.
+- `lessons/phys1-young-axial-stiffness/` (802): same structure; Young and k.
+- `lessons/phys1-shear-deformation/` (803): simple shear under small deformation.
+- `lessons/phys1-bulk-compression/` (804): signed small compression/volume strain.
+- **35 total scene JSONs; 8 question scenes**, each with separate feedback (inside question objects); **70 separate portrait/landscape storyboards**; four local responsive React ConceptBoard.tsx modules; review.json statuses remain `untested`.
+- After Stage 04, `scenes/*.json` + `question.feedback.script` are canonical spoken text; `blocks/B01/final-scripts/` is the frozen Stage 03 editorial artifact, **not** a parallel live script.
 
-## Real check/status
-- Source reopened visually: S01 PDF pp.5–11 = book printed pp.121–133, S02 PDF p.1 = printed pp.124–125.
-- Freshly authored numerical questions and example calculations checked mathematically in STAGE03_BOUNDARY_DECISION.md. Book pp.129–133 partly blurry; no misattributed textbook answers.
-- **Independent human source/teaching review: untested.** Audio/timing/visual/runtime: untested. Rights to distribute scans unverified; source-sharing permissions previously unsafe.
-- No lessons/lesson.json, Scenes, storyboard, audio/media, word timings or SDK preview yet (Stage 04 not authorized until next).
-- Structural script/media/timed validations not applicable yet because no Scenes; preliminary editorial completeness check does not equal tool validation.
+## Source/security/review limits
+- Book printed pp.121–133 with clearer 124–125 duplicate. Blurry equations/values at pp.129–133 not used as numerical textbook solutions; authored numerical practice explicitly labeled.
+- Google Drive source accessibility and rights/unrestricted link editing still need safer controls. No scans or public edit URLs committed.
+- Human scientific/teaching reviews **untested**; audio/timing/visual/runtime **untested**. No audio, word timings or actual preview; TSX source is provisional until CI and later visual playback.
+- CI's `python3 tools/cli.py validate --stage script` commands will be checked for actual success on the PR. No invented validation result.
+- Stage 05 pilot can start only after script verification and another human `next`, and **paid TTS dispatch requires additional explicit approval**.
+- Alternatively, after passing Stage 04, human `next block` may begin B02 Stage 01 without prior B01 audio.
 
-**Awaiting human next:** “Next/كمل” = **B01 Stage 04 only**, prepare Scenes, storyboard 16:9 and 9:16, validate scripts and STOP. Corrections to boundaries/scripts should be handled in Stage 03 before advancement.
+**Human checkpoint:** Do not advance automatically. Await test evidence, then present next / next block choice after successful Stage 04 verification.

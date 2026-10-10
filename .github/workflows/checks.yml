@@ -16,6 +16,11 @@ jobs:
       - run: python3 -m unittest discover -s tests -v
       - run: python3 tools/quality.py
       - run: python3 tools/cli.py validate
+      # Human-gated Stage 04: real script-contract validation for the four issued B01 lessons.
+      - run: python3 tools/cli.py validate --course physics-1-mechanics-waves --lesson phys1-solid-structure-stress-strain --stage script
+      - run: python3 tools/cli.py validate --course physics-1-mechanics-waves --lesson phys1-young-axial-stiffness --stage script
+      - run: python3 tools/cli.py validate --course physics-1-mechanics-waves --lesson phys1-shear-deformation --stage script
+      - run: python3 tools/cli.py validate --course physics-1-mechanics-waves --lesson phys1-bulk-compression --stage script
       - uses: actions/setup-node@v4
         with:
           node-version: "24"

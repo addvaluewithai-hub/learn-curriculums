@@ -1,0 +1,44 @@
+{
+  "id": "S02",
+  "title": "Bulk Modulus and Volumetric Strain — concept 2",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.129; exercise types printed pp.130–133; authored engineering examples not book exercises"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "خليني أوضح مقصودنا بكلمة Pressure. الضغط قوة عمودية على وحدة المساحة، ووحدته Pascal، أو نيوتن لكل متر مربع. وفي مسئلتنا هنركز على **التغير في الضغط** ΔP، مش بس قيمته عند لحظة واحدة. لو الضغط الخارجي كان P0 وبقى Pfinal، نكتب ΔP = Pfinal − P0. لو الضغط زاد، ΔP موجبة. ودي الكمية اللي هتدخل في العلاقة التقريبية مع تغير الحجم.\n\nالحجم نفسه كمان لازم نعرّفه بدقة. لو حجم الجسم قبل زيادة الضغط كان V0، والحجم بعدها Vfinal، هنكتب ΔV = Vfinal − V0. في مثال الانضغاط المعتاد، الحجم النهائي أصغر، فـΔV سالبة. نسبة تغير الحجم للأصل اسمها Volumetric strain، وهي ΔV/V0، ودي نسبة من غير وحدة لأن الحجم على الحجم بيلغي الوحدات.",
+    "units": [
+      {
+        "id": "U021",
+        "text": "خليني أوضح مقصودنا بكلمة Pressure. الضغط قوة عمودية على وحدة المساحة، ووحدته Pascal، أو نيوتن لكل متر مرب",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      },
+      {
+        "id": "U022",
+        "text": "الحجم نفسه كمان لازم نعرّفه بدقة. لو حجم الجسم قبل زيادة الضغط كان V0، والحجم بعدها Vfinal، هنكتب ΔV = Vf",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-804-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "bulk",
+      "heading": "الحجم تحت ضغط منتظم",
+      "formula": "B ≈ −ΔP/(ΔV/V₀)",
+      "firstCue": "U021"
+    },
+    "landscape": "16:9: bespoke labeled bulk diagram occupying 60%; only current formula/caption at narrated cue to right, large legible math.",
+    "portrait": "9:16: reorganize bulk visual above, captions/formula full width below, at least 320px-safe labels and reduced-motion static equivalence."
+  }
+}

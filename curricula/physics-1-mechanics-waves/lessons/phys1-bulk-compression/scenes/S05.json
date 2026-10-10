@@ -1,0 +1,45 @@
+{
+  "id": "S05",
+  "title": "Bulk Modulus and Volumetric Strain — concept 5",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.129; exercise types printed pp.130–133; authored engineering examples not book exercises"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "نراجع منطق النتيجة: نسبة النقص 0.002، أي 0.2%، وده صغير ويتوافق مع الفرض اللي استخدمناه. إنما لو في مسألة شبيهة وصلت لتغير في الحجم أكبر من حجم الجسم نفسه، لازم ترجع تتحقق من تحويل الوحدات وأسّ العشرة والمعادلة، لأنك غالبًا خرجت عن الفرض أو عملت غلطة حسابية.\n\nوهنا سؤال مهم: هل Bulk Modulus هو نفس Pressure علشان الاتنين بالباسكال؟ لأ. ΔP بيحكي مقدار الزيادة في الضغط الخارجي، بينما B بيحكي مقاومة المادة للتغير الحجمي. زي ما في Young كنا بنفرق بين Stress اللي مطبق فعلًا وY اللي بيعبر عن استجابة المادة في مجال معين. التشابه في الوحدة مش تشابه في المعنى.",
+    "units": [
+      {
+        "id": "U051",
+        "text": "نراجع منطق النتيجة: نسبة النقص 0.002، أي 0.2%، وده صغير ويتوافق مع الفرض اللي استخدمناه. إنما لو في مسألة",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      },
+      {
+        "id": "U052",
+        "text": "وهنا سؤال مهم: هل Bulk Modulus هو نفس Pressure علشان الاتنين بالباسكال؟ لأ. ΔP بيحكي مقدار الزيادة في الض",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-804-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "bulk",
+      "heading": "الحجم تحت ضغط منتظم",
+      "formula": "B ≈ −ΔP/(ΔV/V₀)",
+      "firstCue": "U051"
+    },
+    "landscape": "16:9: bespoke labeled bulk diagram occupying 60%; only current formula/caption at narrated cue to right, large legible math.",
+    "portrait": "9:16: reorganize bulk visual above, captions/formula full width below, at least 320px-safe labels and reduced-motion static equivalence."
+  }
+}

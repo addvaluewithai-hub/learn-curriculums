@@ -1,0 +1,44 @@
+{
+  "id": "S01",
+  "title": "Bulk Modulus and Volumetric Strain — concept 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.129; exercise types printed pp.130–133; authored engineering examples not book exercises"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "تخيل جسم مرن صغير نزل في سائل، والضغط اللي حواليه زاد. الجسم هنا مش بنتعامل معاه زي قضيب اتشد في اتجاه واحد، ولا بلوك اتحرك سطحه العلوي ناحية اليمين. في الحالة دي تأثير الضغط موجود من اتجاهات مختلفة حوالين الجسم، وإحنا مهتمين نعرف: هل حجمه هيقل؟ وبكام؟ وإيه خاصية المادة اللي بتقاوم النوع ده من التشوه؟ السؤال ده هو بداية موضوع Bulk Modulus.\n\nاحنا في الجزء اللي فات عرفنا Shear: قوة مماسية موازية للسطح، فبتخلي وجه يتحرك بالنسبة لوجه تاني. وفي Young عرفنا الشد المحوري، اللي بنقيس فيه الزيادة في طول القضيب. دلوقتي الضغط على جسم من اتجاهات متعددة هو صورة مختلفة من التحميل. لو الزيادة في الضغط متقاربة من كل الاتجاهات في النموذج البسيط، بنراقب حجم الجسم كله؛ مش مجرد ميل زاوية أو زيادة طول ضلع واحد. النوع ده اسمه Volumetric compression، أو الانضغاط الحجمي.",
+    "units": [
+      {
+        "id": "U011",
+        "text": "تخيل جسم مرن صغير نزل في سائل، والضغط اللي حواليه زاد. الجسم هنا مش بنتعامل معاه زي قضيب اتشد في اتجاه وا",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      },
+      {
+        "id": "U012",
+        "text": "احنا في الجزء اللي فات عرفنا Shear: قوة مماسية موازية للسطح، فبتخلي وجه يتحرك بالنسبة لوجه تاني. وفي Youn",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-804-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "bulk",
+      "heading": "الحجم تحت ضغط منتظم",
+      "formula": "B ≈ −ΔP/(ΔV/V₀)",
+      "firstCue": "U011"
+    },
+    "landscape": "16:9: bespoke labeled bulk diagram occupying 60%; only current formula/caption at narrated cue to right, large legible math.",
+    "portrait": "9:16: reorganize bulk visual above, captions/formula full width below, at least 320px-safe labels and reduced-motion static equivalence."
+  }
+}

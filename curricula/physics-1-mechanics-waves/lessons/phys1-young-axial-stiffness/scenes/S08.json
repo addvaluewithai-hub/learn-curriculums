@@ -1,0 +1,83 @@
+{
+  "id": "S08",
+  "title": "Independent attempt 2",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.8, printed pp.126–127; clearer duplicate printed p.125; original exam question, not copied printed numbers"
+    }
+  ],
+  "narration": {
+    "id": "NQ02",
+    "role": "question",
+    "script": "Rod A and rod B have identical materials and cross-sectional areas. B is twice as long as A. The same small axial tensile force acts on both. Which rod extends more? Do they have different Young's moduli? Which rod has larger effective axial stiffness?\n\nنفس المادة ونفس المقطع ونفس القوة، لكن القضيب B ضعف طول A. رتبهم في الاستطالة، وقول إذا Y يختلف، وقارن k. بدون تعويض أرقام.",
+    "units": [
+      {
+        "id": "E01",
+        "text": "Rod A and rod B have identical materials and cross-sectional areas. B is twice as long as A. The same small axial tensile force acts on both. Which rod extends more? Do they have different Young's moduli? Which rod has larger effective axial stiffness?",
+        "occurrence": 1,
+        "visualIntent": "Reveal spoken English exam question at the first word."
+      },
+      {
+        "id": "A01",
+        "text": "نفس المادة ونفس المقطع ونفس القوة، لكن القضيب B ضعف طول A. رتبهم في الاستطالة، وقول إذا Y يختلف، وقارن k. بدون تعويض أرقام.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic explanation as spoken, without model answer."
+      }
+    ]
+  },
+  "question": {
+    "id": "Q02",
+    "english": "Rod A and rod B have identical materials and cross-sectional areas. B is twice as long as A. The same small axial tensile force acts on both. Which rod extends more? Do they have different Young's moduli? Which rod has larger effective axial stiffness?",
+    "arabic": "نفس المادة ونفس المقطع ونفس القوة، لكن القضيب B ضعف طول A. رتبهم في الاستطالة، وقول إذا Y يختلف، وقارن k. بدون تعويض أرقام.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "E01",
+      "arabic": "A01"
+    },
+    "answer": {
+      "english": "B extends twice as much as A; their Young's moduli are equal; A has twice B's effective axial stiffness.",
+      "arabic": "لأن ΔL بيتناسب مع L0، الأطول يتمدد ضعف الأقصر. Y مش بيتغير مع طول الجسم في نفس المادة وظروف الاختبار. لكن k يتناسب عكسيًا مع L0، فالقضيب الأقصر له ضعف الصلابة المحورية. الفرق بين خاصية المادة وخاصية العنصر هو الإجابة الأساسية.",
+      "reasoning": "لأن ΔL بيتناسب مع L0، الأطول يتمدد ضعف الأقصر. Y مش بيتغير مع طول الجسم في نفس المادة وظروف الاختبار. لكن k يتناسب عكسيًا مع L0، فالقضيب الأقصر له ضعف الصلابة المحورية. الفرق بين خاصية المادة وخاصية العنصر هو الإجابة الأساسية."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "B extends twice as much as A; their Young's moduli are equal; A has twice B's effective axial stiffness.\n\nلأن ΔL بيتناسب مع L0، الأطول يتمدد ضعف الأقصر. Y مش بيتغير مع طول الجسم في نفس المادة وظروف الاختبار. لكن k يتناسب عكسيًا مع L0، فالقضيب الأقصر له ضعف الصلابة المحورية. الفرق بين خاصية المادة وخاصية العنصر هو الإجابة الأساسية.",
+      "units": [
+        {
+          "id": "E01",
+          "text": "B extends twice as much as A; their Young's moduli are equal; A has twice B's effective axial stiffness.",
+          "occurrence": 1,
+          "visualIntent": "English model answer visible only after submission."
+        },
+        {
+          "id": "A01",
+          "text": "لأن ΔL بيتناسب مع L0، الأطول يتمدد ضعف الأقصر. Y مش بيتغير مع طول الجسم في نفس المادة وظروف الاختبار. لكن k يتناسب عكسيًا مع L0، فالقضيب الأقصر له ضعف الصلابة المحورية. الفرق بين خاصية المادة وخاصية العنصر هو الإجابة الأساسية.",
+          "occurrence": 1,
+          "visualIntent": "Arabic reasoning after answer; not before attempt."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "E01",
+        "arabic": "A01"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "phys1-802-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "سؤال مستقل",
+      "kind": "question",
+      "formula": "",
+      "firstCue": "E01"
+    },
+    "landscape": "16:9: neutral schematic at left, progressively revealed English exam clause and Arabic support at right; writing area; NEVER show answer until submission.",
+    "portrait": "9:16: move neutral schematic above, English question wrapped in single large column then Arabic support; generous space for written response at 320px; NEVER show answers."
+  }
+}

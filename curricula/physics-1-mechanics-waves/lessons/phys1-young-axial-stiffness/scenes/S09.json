@@ -1,0 +1,40 @@
+{
+  "id": "S09",
+  "title": "خاتمة وربط",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.8, printed pp.126–127; clearer duplicate printed p.125; original lesson recap"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "teaching",
+    "script": "دلوقتي نقدر نبدأ من Stress وStrain ونوصل لـYoung's modulus، ونستخدمه في حساب استطالة قضيب، ونستخرج منه k. اتعلمنا كمان نفحص الوحدات ونميّز بين المادة والعنصر. بس مش كل قوة بتشتغل على محور القضيب. لو أثرت قوة موازية لوجه بلوك، ممكن تغير شكل الجسم من غير استطالة محورية أساسية، وده موضوع الدرس التالي: Shear.",
+    "units": [
+      {
+        "id": "U091",
+        "text": "دلوقتي نقدر نبدأ من Stress وStrain ونوصل لـYoung's modulus، ونستخدمه في حساب استطالة قضيب، ونستخرج منه k.",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-802-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "المفهوم الأساسي",
+      "kind": "recap",
+      "formula": "",
+      "firstCue": "U091"
+    },
+    "landscape": "16:9: large recap explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: recap diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

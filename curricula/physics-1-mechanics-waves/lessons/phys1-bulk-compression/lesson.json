@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "phys1-bulk-compression",
+  "curriculumId": "physics-1-mechanics-waves",
+  "order": 804,
+  "title": "الانضغاط الحجمي ومعامل الحجم",
+  "englishTitle": "Bulk Modulus and Volumetric Strain",
+  "scriptRevision": "B01-stage04-scenes-v1",
+  "prerequisites": [
+    "phys1-solid-structure-stress-strain",
+    "phys1-shear-deformation"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "تمييز تغير الحجم تحت ضغط شبه منتظم عن الشد أو القص",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "شرح إشارة تغير الضغط والحجم ومعامل B الموجب للتغيرات الصغيرة",
+      "taughtIn": [
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "حساب تغير الحجم الموقّع ومقدار النقص والتحويلات",
+      "taughtIn": [
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09"
+  ],
+  "glossary": [
+    {
+      "term": "Pressure",
+      "definition": "Explained in the spoken teaching, see applicable source scene."
+    },
+    {
+      "term": "Bulk modulus",
+      "definition": "Explained in the spoken teaching, see applicable source scene."
+    },
+    {
+      "term": "Volumetric strain",
+      "definition": "Explained in the spoken teaching, see applicable source scene."
+    },
+    {
+      "term": "Volume compression",
+      "definition": "Explained in the spoken teaching, see applicable source scene."
+    }
+  ]
+}

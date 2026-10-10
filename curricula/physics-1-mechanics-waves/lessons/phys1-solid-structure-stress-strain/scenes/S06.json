@@ -1,0 +1,39 @@
+{
+  "id": "S06",
+  "title": "Solids, Deformation, Stress and Strain — step 6",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF pp.5–8, printed pp.121–126; clearer duplicate printed pp.124–125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "teaching",
+    "script": "قبل ما نختبر نفسك، افتكر التحذير اللي في رسم الكتاب: لو Stress كبير وStrain صغير في المجال المرن الخطي، دي إشارة لمادة **صلبة نسبيًا في مقاومة التشوه** أو عندها Stiffness أعلى. لكن مش كفاية نقول «أقوى في الكسر» أو «أكثر أمانًا» من غير اختبارات وفروض تصميم. الفرق ده هيحميك من إجابات غلط حتى لو الآلة الحاسبة طلّعت رقم مظبوط.",
+    "units": [
+      {
+        "id": "U061",
+        "text": "قبل ما نختبر نفسك، افتكر التحذير اللي في رسم الكتاب: لو Stress كبير وStrain صغير في المجال المرن الخطي، د",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-801-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "Hooke & k",
+      "kind": "spring",
+      "formula": "k = YA/L₀",
+      "firstCue": "U061"
+    },
+    "landscape": "16:9: large spring explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: spring diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

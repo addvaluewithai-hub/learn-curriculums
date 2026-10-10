@@ -1,0 +1,45 @@
+{
+  "id": "S03",
+  "title": "Shear Deformation and Shear Modulus — concept 3",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.128; exercise types printed pp.130–133; authored engineering examples not book exercises"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "ودلوقتي عايزين نوصل Stress إلى Strain. زي ما في الشد كان عندنا Young's Modulus، في القص عندنا Shear Modulus، والكتاب بيستعمل الرمز S، بينما بعض المراجع الهندسية بتستعمل G. في المجال المرن الخطي نكتب τ = S γ. وبالتالي S = τ/γ، وفي بلوك القص البسيط S = (F/A)/(Δx/h). ولاحظ وحدة S: Stress بالباسكال وStrain من غير وحدة، فالمعامل بالباسكال. لو S أكبر وتحت نفس إجهاد القص وفي نفس ظروف الاختبار، انفعال القص أصغر؛ دي مقاومة القص المرنة وليست تلقائيًا إجهاد الكسر.\n\nتعال نمسك مثال من تأليفنا خطوة خطوة. بلوك ارتفاعه 0.10 متر ومساحة الوجه العلوي 0.020 متر مربع. قوة أفقية مقدارها 60 نيوتن تسببت في إزاحة جانبية صغيرة للوجه العلوي مقدارها 0.20 ملّيمتر، وافترض قصًا بسيطًا شبه منتظم في المجال المرن. أول خطوة: تحويل 0.20 ملّيمتر إلى 0.00020 متر. تاني خطوة: Shear stress = 60 ÷ 0.020 = 3000 Pascal. تالت خطوة: Shear strain = 0.00020 ÷ 0.10 = 0.002 بلا وحدة. وأخيرًا S = 3000 ÷ 0.002 = 1.5 × 10⁶ باسكال.",
+    "units": [
+      {
+        "id": "U031",
+        "text": "ودلوقتي عايزين نوصل Stress إلى Strain. زي ما في الشد كان عندنا Young's Modulus، في القص عندنا Shear Modul",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      },
+      {
+        "id": "U032",
+        "text": "تعال نمسك مثال من تأليفنا خطوة خطوة. بلوك ارتفاعه 0.10 متر ومساحة الوجه العلوي 0.020 متر مربع. قوة أفقية",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-803-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "shear",
+      "heading": "القص وإزاحة الوجه",
+      "formula": "τ = F/A   γ = Δx/h   S = τ/γ",
+      "firstCue": "U031"
+    },
+    "landscape": "16:9: bespoke labeled shear diagram occupying 60%; only current formula/caption at narrated cue to right, large legible math.",
+    "portrait": "9:16: reorganize shear visual above, captions/formula full width below, at least 320px-safe labels and reduced-motion static equivalence."
+  }
+}

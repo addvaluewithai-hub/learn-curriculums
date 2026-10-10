@@ -1,0 +1,44 @@
+{
+  "id": "S05",
+  "title": "Solids, Deformation, Stress and Strain — step 5",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF pp.5–8, printed pp.121–126; clearer duplicate printed pp.124–125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "لو قضيب طوله الأصلي اتنين متر، وزاد في الطول واحد ملّيمتر، لازم نحول الأول: واحد ملّيمتر = صفر فاصلة صفر صفر واحد متر. إذن Strain = 0.001 على 2، يساوي 0.0005. لو نفس المليمتر اتضاف لقضيب طوله الأصلي ربع متر، الانفعال هيكبر؛ فقولنا «زاد مليمتر» لوحده مش كفاية. وده زي الإجهاد: قولنا «القوة ميتين نيوتن» لوحده مش كفاية بدون المساحة.\n\nتعال نحسب مثالًا إرشاديًا كاملًا من تأليفنا. قضيب مساحة مقطعه الأصلية 0.0003 متر مربع، عليه شد محوري مقداره 300 نيوتن. متوسط Stress = 300 ÷ 0.0003 = مليون باسكال، يعني 1 MPa. ولو طوله الأصلي نصف متر وزاد 0.5 ملّيمتر، يبقى ΔL = 0.0005 متر، وStrain = 0.0005 ÷ 0.5 = 0.001، بدون وحدة. هنا بنوصف الحمل والاستجابة في نفس الحالة الافتراضية، لكن لسه ما عرفناش ثابت المادة اللي بيربطهم؛ ده موضوع الدرس التالي.",
+    "units": [
+      {
+        "id": "U051",
+        "text": "لو قضيب طوله الأصلي اتنين متر، وزاد في الطول واحد ملّيمتر، لازم نحول الأول: واحد ملّيمتر = صفر فاصلة صفر",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      },
+      {
+        "id": "U052",
+        "text": "تعال نحسب مثالًا إرشاديًا كاملًا من تأليفنا. قضيب مساحة مقطعه الأصلية 0.0003 متر مربع، عليه شد محوري مقدا",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-801-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "Stress & Strain",
+      "kind": "stress",
+      "formula": "σ = F/A  ·  ε = ΔL/L₀",
+      "firstCue": "U051"
+    },
+    "landscape": "16:9: large stress explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: stress diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

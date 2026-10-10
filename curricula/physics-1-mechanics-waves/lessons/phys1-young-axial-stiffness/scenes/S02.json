@@ -1,0 +1,44 @@
+{
+  "id": "S02",
+  "title": "Young's Modulus and Axial Stiffness — step 2",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.8, printed pp.126–127; clearer duplicate printed p.125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "إحنا بنتكلم عن **قضيب مستقيم منتظم مساحة المقطع، قوة الشد على محوره، وتغير صغير في الطول**. تحت الشروط دي، Young's modulus = Stress/Strain. بمعنى Y = (F/A)/(ΔL/L0). لو ضربنا في المقلوب هنكتب Y = F L0/(A ΔL). ولو عايزين نستخرج الاستطالة هنرتبها: ΔL = F L0/(Y A). رياضيا نفس العلاقة مكتوبة تلات صور. اختار الصورة حسب المطلوب، لكن متنساش الفروض قبل الحساب.\n\nالوحدات هنا اختبار للفهم. F بالنيوتن وA بالمتر المربع، فـStress بوحدة Pa. وStrain بلا وحدة، يبقى Y بوحدة Pa برضه. لكن كون Y وStress ليهم نفس الوحدة مش معناه إنهم نفس الكمية. Stress بيحكي التحميل الفعلي، أما Y بيحكي استجابة **المادة** في النطاق المرن الخطي. Y أعلى يعني عند نفس Stress هنلاقي Strain أصغر، لكن ده وصف للصلابة المرنة مش مقياس مباشر لإجهاد الكسر أو الأمان الإنشائي.",
+    "units": [
+      {
+        "id": "U021",
+        "text": "إحنا بنتكلم عن **قضيب مستقيم منتظم مساحة المقطع، قوة الشد على محوره، وتغير صغير في الطول**. تحت الشروط دي",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      },
+      {
+        "id": "U022",
+        "text": "الوحدات هنا اختبار للفهم. F بالنيوتن وA بالمتر المربع، فـStress بوحدة Pa. وStrain بلا وحدة، يبقى Y بوحدة",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-802-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "التحويلات",
+      "kind": "units",
+      "formula": "1 mm² = 10⁻⁶ m²",
+      "firstCue": "U021"
+    },
+    "landscape": "16:9: large units explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: units diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

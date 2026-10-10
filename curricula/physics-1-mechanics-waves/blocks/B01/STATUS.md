@@ -1,14 +1,13 @@
 # STATUS — B01 Solids and Elasticity
 
-- **Date:** 2026-10-10 | **Last fully completed gate:** Stage 03 — confirmed lesson boundaries and final connected editorial scripts. Stage 04–06 not started.
-- **Audience:** first-year engineering. **Source:** printed textbook 121–133 (S01 PDF pp.5–11), plus clearer printed 124–125 (S02 PDF p.1).
-- **Output:** 4 issued lessons, order 801–804: phys1-solid-structure-stress-strain, phys1-young-axial-stiffness, phys1-shear-deformation, phys1-bulk-compression.
-- **Boundary result:** W01 KEEP with internal parts, W02 KEEP, W03 SPLIT and **REWRITE** into separate coherent Shear and Bulk scripts; not mechanical transcript division. Exact mapping and rationale: review/STAGE03_BOUNDARY_DECISION.md.
-- **Canonical editorial scripts:** final-scripts/01-phys1-solid-structure-stress-strain.md; 02-phys1-young-axial-stiffness.md; 03-phys1-shear-deformation.md; 04-phys1-bulk-compression.md. Each has opening, connected explanation, SI example, two independent bilingual attempts, separate feedback and ending.
-- **Stable ID/coverage plan:** ../../OUTLINE.md includes orders, prerequisite dependency, specific source locators and O1–O3 teaching → Attempt mappings per lesson. WORKING drafts are history only.
-- **Reviews:** Stage 02 AI critique and Stage 03 editorial rereview done; **independent qualified physics and student teaching tests UNTESTED**. No approval declarations.
-- **Limits:** book p.129 and some printed exercises 130–133 blurry; signed Bulk formula a labeled supplementary explanation; no scan/public URL published; original permissions/rights unresolved.
-- **Tests:** numerical and objective/attempt/feedback sanity planned/rechecked; structural \`validate --stage script\` not applicable because Scenes not authored until next gate.
-- **Deferred production:** lesson.json and scene files, storyboards, word anchors, audio, timing, preview and student publishing have not started.
+- **Date:** 2026-10-10 | **Gate:** Stage 04 files authored; script contract CI pending.
+- Four stable lessons issued in Stage 03: 801 phys1-solid-structure-stress-strain, 802 phys1-young-axial-stiffness, 803 phys1-shear-deformation, 804 phys1-bulk-compression.
+- **35 scene files**: 9 (801) + 9 (802) + 8 (803) + 9 (804); two independent exam-style bilingual written questions per lesson; feedback in independent clip objects, not question narration or premade answer visuals.
+- **Semantic anchors** inside each teaching, reading and feedback narration; no invented word timestamp.
+- **16:9 and 9:16** separate storyboards on every scene, four custom `scenes/ConceptBoard.tsx` components with cue-driven, question/feedback phase-dependent visuals. No actual rendering/tested mobile legibility yet.
+- Canonical words: lesson scenes and feedback JSON, with all Stage 03 paragraph content preserved and explicit authored/source distinctions. Freeze Stage 03 markdown as editorial history.
+- Actual tests: GitHub PR CI now includes four explicit script-stage validations; result **pending**, quality/preview build must be checked. Stage `media/timed` impossible without real audio.
+- All review.json source/teaching/audio/timing/visual/runtime statuses **untested**; no independent academic, novice, listening, playback, media verification or permission sign-off.
+- Original PDF printed pp.121–133 and clearer duplicate pp.124–125, with p.129–133 legibility limits; no PDF scans or public Google Drive edit links in repo.
 
-**Human decision awaited:** “Next/كمل” → B01 Stage 04, create scenes, storyboards and run script validation, then STOP; or comments to edit current editorial gate before advancement.
+**Awaiting tests and human:** after verification, `next` = B01 Stage 05 dry-run audio pilot (no paid dispatch without explicit additional consent); `next block` = B02 Stage 01 after inspection. STOP.

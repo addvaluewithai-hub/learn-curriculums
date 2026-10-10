@@ -1,0 +1,83 @@
+{
+  "id": "S07",
+  "title": "Independent attempt 1",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.8, printed pp.126–127; clearer duplicate printed p.125; original exam question, not copied printed numbers"
+    }
+  ],
+  "narration": {
+    "id": "NQ01",
+    "role": "question",
+    "script": "A uniform rod has original length 0.80 m and cross-sectional area 4 × 10⁻⁴ m². Under a tensile load of 400 N it extends by 0.40 mm in the linear elastic range. Calculate the average tensile stress, axial engineering strain, Young's modulus and effective axial stiffness k.\n\nالطول 0.80 متر، المساحة أربعة في عشرة أس سالب أربعة متر مربع، القوة أربعمائة نيوتن، والاستطالة 0.40 ملّيمتر. احسب Stress وStrain وY وk، مع وحدة كل كمية. سيب لنفسك وقت كفاية للخطوات قبل سماع الإجابة.",
+    "units": [
+      {
+        "id": "E01",
+        "text": "A uniform rod has original length 0.80 m and cross-sectional area 4 × 10⁻⁴ m². Under a tensile load of 400 N it extends by 0.40 mm in the linear elastic range. Calculate the average tensile stress, axial engineering strain, Young's modulus and effective axial stiffness k.",
+        "occurrence": 1,
+        "visualIntent": "Reveal spoken English exam question at the first word."
+      },
+      {
+        "id": "A01",
+        "text": "الطول 0.80 متر، المساحة أربعة في عشرة أس سالب أربعة متر مربع، القوة أربعمائة نيوتن، والاستطالة 0.40 ملّيمتر. احسب Stress وStrain وY وk، مع وحدة كل كمية. سيب لنفسك وقت كفاية للخطوات قبل سماع الإجابة.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic explanation as spoken, without model answer."
+      }
+    ]
+  },
+  "question": {
+    "id": "Q01",
+    "english": "A uniform rod has original length 0.80 m and cross-sectional area 4 × 10⁻⁴ m². Under a tensile load of 400 N it extends by 0.40 mm in the linear elastic range. Calculate the average tensile stress, axial engineering strain, Young's modulus and effective axial stiffness k.",
+    "arabic": "الطول 0.80 متر، المساحة أربعة في عشرة أس سالب أربعة متر مربع، القوة أربعمائة نيوتن، والاستطالة 0.40 ملّيمتر. احسب Stress وStrain وY وk، مع وحدة كل كمية. سيب لنفسك وقت كفاية للخطوات قبل سماع الإجابة.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "E01",
+      "arabic": "A01"
+    },
+    "answer": {
+      "english": "Stress = 400/(4 × 10⁻⁴) = 1 × 10⁶ Pa. Strain = 0.00040/0.80 = 5 × 10⁻⁴. Young's modulus Y = (10⁶)/(5 × 10⁻⁴) = 2 × 10⁹ Pa. Axial stiffness k = 400/0.00040 = 1 × 10⁶ N/m.",
+      "arabic": "أولًا حولنا 0.40 ملّيمتر إلى 0.00040 متر. من القوة والمساحة طلع الإجهاد مليون باسكال. ومن تغير الطول والطول الأصلي طلع انفعال بلا وحدة. لما قسمنا الإجهاد على الانفعال طلع معامل يونج اتنين مليار باسكال. وأخيرًا k = قوة على استطالة، فوحدته نيوتن لكل متر. جرّب تراجع k باستخدام Y A/L0، هتلاقيه نفس الناتج.",
+      "reasoning": "أولًا حولنا 0.40 ملّيمتر إلى 0.00040 متر. من القوة والمساحة طلع الإجهاد مليون باسكال. ومن تغير الطول والطول الأصلي طلع انفعال بلا وحدة. لما قسمنا الإجهاد على الانفعال طلع معامل يونج اتنين مليار باسكال. وأخيرًا k = قوة على استطالة، فوحدته نيوتن لكل متر. جرّب تراجع k باستخدام Y A/L0، هتلاقيه نفس الناتج."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "Stress = 400/(4 × 10⁻⁴) = 1 × 10⁶ Pa. Strain = 0.00040/0.80 = 5 × 10⁻⁴. Young's modulus Y = (10⁶)/(5 × 10⁻⁴) = 2 × 10⁹ Pa. Axial stiffness k = 400/0.00040 = 1 × 10⁶ N/m.\n\nأولًا حولنا 0.40 ملّيمتر إلى 0.00040 متر. من القوة والمساحة طلع الإجهاد مليون باسكال. ومن تغير الطول والطول الأصلي طلع انفعال بلا وحدة. لما قسمنا الإجهاد على الانفعال طلع معامل يونج اتنين مليار باسكال. وأخيرًا k = قوة على استطالة، فوحدته نيوتن لكل متر. جرّب تراجع k باستخدام Y A/L0، هتلاقيه نفس الناتج.",
+      "units": [
+        {
+          "id": "E01",
+          "text": "Stress = 400/(4 × 10⁻⁴) = 1 × 10⁶ Pa. Strain = 0.00040/0.80 = 5 × 10⁻⁴. Young's modulus Y = (10⁶)/(5 × 10⁻⁴) = 2 × 10⁹ Pa. Axial stiffness k = 400/0.00040 = 1 × 10⁶ N/m.",
+          "occurrence": 1,
+          "visualIntent": "English model answer visible only after submission."
+        },
+        {
+          "id": "A01",
+          "text": "أولًا حولنا 0.40 ملّيمتر إلى 0.00040 متر. من القوة والمساحة طلع الإجهاد مليون باسكال. ومن تغير الطول والطول الأصلي طلع انفعال بلا وحدة. لما قسمنا الإجهاد على الانفعال طلع معامل يونج اتنين مليار باسكال. وأخيرًا k = قوة على استطالة، فوحدته نيوتن لكل متر. جرّب تراجع k باستخدام Y A/L0، هتلاقيه نفس الناتج.",
+          "occurrence": 1,
+          "visualIntent": "Arabic reasoning after answer; not before attempt."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "E01",
+        "arabic": "A01"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "phys1-802-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "سؤال مستقل",
+      "kind": "question",
+      "formula": "",
+      "firstCue": "E01"
+    },
+    "landscape": "16:9: neutral schematic at left, progressively revealed English exam clause and Arabic support at right; writing area; NEVER show answer until submission.",
+    "portrait": "9:16: move neutral schematic above, English question wrapped in single large column then Arabic support; generous space for written response at 320px; NEVER show answers."
+  }
+}

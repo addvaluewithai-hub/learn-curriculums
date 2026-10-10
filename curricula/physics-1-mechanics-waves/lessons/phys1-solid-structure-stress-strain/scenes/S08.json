@@ -1,0 +1,82 @@
+{
+  "id": "S08",
+  "title": "Independent attempt 2",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF pp.5–8, printed pp.121–126; clearer duplicate printed pp.124–125; original exam question, not copied printed numbers"
+    }
+  ],
+  "narration": {
+    "id": "NQ02",
+    "role": "question",
+    "script": "A uniform rod with initial length 1.2 m extends by 0.60 mm under a tensile load of 180 N. The original cross-sectional area is 2 × 10⁻⁴ m². Calculate its average engineering tensile stress and axial engineering strain, with SI units.\n\nقضيب طوله الأصلي 1.2 متر زاد 0.60 ملّيمتر، قوة الشد 180 نيوتن ومساحة المقطع الأصلية 2 في عشرة أس سالب أربعة متر مربع. احسب الإجهاد والانفعال ووحدة كل نتيجة. افصل حلّك إلى تحويل وحدات، ثم قانون، ثم تعويض.",
+    "units": [
+      {
+        "id": "E01",
+        "text": "A uniform rod with initial length 1.2 m extends by 0.60 mm under a tensile load of 180 N. The original cross-sectional area is 2 × 10⁻⁴ m². Calculate its average engineering tensile stress and axial engineering strain, with SI units.",
+        "occurrence": 1,
+        "visualIntent": "Reveal spoken English exam question at the first word."
+      },
+      {
+        "id": "A01",
+        "text": "قضيب طوله الأصلي 1.2 متر زاد 0.60 ملّيمتر، قوة الشد 180 نيوتن ومساحة المقطع الأصلية 2 في عشرة أس سالب أربعة متر مربع. احسب الإجهاد والانفعال ووحدة كل نتيجة. افصل حلّك إلى تحويل وحدات، ثم قانون، ثم تعويض.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic explanation as spoken, without model answer."
+      }
+    ]
+  },
+  "question": {
+    "id": "Q02",
+    "english": "A uniform rod with initial length 1.2 m extends by 0.60 mm under a tensile load of 180 N. The original cross-sectional area is 2 × 10⁻⁴ m². Calculate its average engineering tensile stress and axial engineering strain, with SI units.",
+    "arabic": "قضيب طوله الأصلي 1.2 متر زاد 0.60 ملّيمتر، قوة الشد 180 نيوتن ومساحة المقطع الأصلية 2 في عشرة أس سالب أربعة متر مربع. احسب الإجهاد والانفعال ووحدة كل نتيجة. افصل حلّك إلى تحويل وحدات، ثم قانون، ثم تعويض.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "E01",
+      "arabic": "A01"
+    },
+    "answer": {
+      "english": "Stress = 180/(2 × 10⁻⁴) = 9 × 10⁵ Pa. Strain = 0.00060/1.2 = 5 × 10⁻⁴, dimensionless.",
+      "arabic": "الإجهاد تسعمائة ألف باسكال لأننا قسمنا القوة على مساحة المقطع. أما الستة من عشرة ملّيمتر حولناها إلى 0.00060 متر قبل قسمة الطول. الانفعال خمسة في عشرة أس سالب أربعة، من غير وحدة. لو استخدمت وحدة باسكال للانفعال أو قسمت على مساحة سطح مختلفة، ارجع لتعريف كل كمية.",
+      "reasoning": "الإجهاد تسعمائة ألف باسكال لأننا قسمنا القوة على مساحة المقطع. أما الستة من عشرة ملّيمتر حولناها إلى 0.00060 متر قبل قسمة الطول. الانفعال خمسة في عشرة أس سالب أربعة، من غير وحدة. لو استخدمت وحدة باسكال للانفعال أو قسمت على مساحة سطح مختلفة، ارجع لتعريف كل كمية."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "Stress = 180/(2 × 10⁻⁴) = 9 × 10⁵ Pa. Strain = 0.00060/1.2 = 5 × 10⁻⁴, dimensionless.\n\nالإجهاد تسعمائة ألف باسكال لأننا قسمنا القوة على مساحة المقطع. أما الستة من عشرة ملّيمتر حولناها إلى 0.00060 متر قبل قسمة الطول. الانفعال خمسة في عشرة أس سالب أربعة، من غير وحدة. لو استخدمت وحدة باسكال للانفعال أو قسمت على مساحة سطح مختلفة، ارجع لتعريف كل كمية.",
+      "units": [
+        {
+          "id": "E01",
+          "text": "Stress = 180/(2 × 10⁻⁴) = 9 × 10⁵ Pa. Strain = 0.00060/1.2 = 5 × 10⁻⁴, dimensionless.",
+          "occurrence": 1,
+          "visualIntent": "English model answer visible only after submission."
+        },
+        {
+          "id": "A01",
+          "text": "الإجهاد تسعمائة ألف باسكال لأننا قسمنا القوة على مساحة المقطع. أما الستة من عشرة ملّيمتر حولناها إلى 0.00060 متر قبل قسمة الطول. الانفعال خمسة في عشرة أس سالب أربعة، من غير وحدة. لو استخدمت وحدة باسكال للانفعال أو قسمت على مساحة سطح مختلفة، ارجع لتعريف كل كمية.",
+          "occurrence": 1,
+          "visualIntent": "Arabic reasoning after answer; not before attempt."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "E01",
+        "arabic": "A01"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "phys1-801-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "سؤال مستقل",
+      "kind": "question",
+      "formula": "",
+      "firstCue": "E01"
+    },
+    "landscape": "16:9: neutral schematic at left, progressively revealed English exam clause and Arabic support at right; writing area; NEVER show answer until submission.",
+    "portrait": "9:16: move neutral schematic above, English question wrapped in single large column then Arabic support; generous space for written response at 320px; NEVER show answers."
+  }
+}

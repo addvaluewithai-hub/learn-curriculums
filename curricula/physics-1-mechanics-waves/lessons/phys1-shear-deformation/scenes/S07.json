@@ -1,0 +1,83 @@
+{
+  "id": "S07",
+  "title": "Independent assessment 2",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.128; exercise types printed pp.130–133; newly authored assessment, not numerical book solution"
+    }
+  ],
+  "narration": {
+    "id": "NQ02",
+    "role": "question",
+    "script": "Two blocks of the same material and height are subjected to equal tangential forces. Block B has twice the loaded-face area of block A. Compare their average shear stresses and their sideways displacements in the same linear simple-shear approximation.\n\nبلوكين نفس المادة ونفس الارتفاع ونفس القوة المماسية، لكن مساحة الوجه في B ضعف A. قارن إجهاد القص والإزاحة الجانبية للسطحين. جاوب بالتفسير قبل ما تطلع نسب.",
+    "units": [
+      {
+        "id": "E01",
+        "text": "Two blocks of the same material and height are subjected to equal tangential forces. Block B has twice the loaded-face area of block A. Compare their average shear stresses and their sideways displacements in the same linear simple-shear approximation.",
+        "occurrence": 1,
+        "visualIntent": "Show English exam sentence as it is spoken."
+      },
+      {
+        "id": "A01",
+        "text": "بلوكين نفس المادة ونفس الارتفاع ونفس القوة المماسية، لكن مساحة الوجه في B ضعف A. قارن إجهاد القص والإزاحة الجانبية للسطحين. جاوب بالتفسير قبل ما تطلع نسب.",
+        "occurrence": 1,
+        "visualIntent": "Show Arabic support only at its speech onset."
+      }
+    ]
+  },
+  "question": {
+    "id": "Q02",
+    "english": "Two blocks of the same material and height are subjected to equal tangential forces. Block B has twice the loaded-face area of block A. Compare their average shear stresses and their sideways displacements in the same linear simple-shear approximation.",
+    "arabic": "بلوكين نفس المادة ونفس الارتفاع ونفس القوة المماسية، لكن مساحة الوجه في B ضعف A. قارن إجهاد القص والإزاحة الجانبية للسطحين. جاوب بالتفسير قبل ما تطلع نسب.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "E01",
+      "arabic": "A01"
+    },
+    "answer": {
+      "english": "Block B has half the average shear stress of A, half the shear strain and half the sideways displacement.",
+      "arabic": "بما إن τ = F/A، المساحة الأكبر بنص الإجهاد عند نفس القوة. ولأن المادة نفسها وS ثابت في الفرض، γ = τ/S تنخفض للنصف. الارتفاع نفسه h، فـΔx = γ h ينخفض للنصف برضه. ده اختبار فهم لمساحة الوجه وتأثيرها بدل حفظ رقم واحد.",
+      "reasoning": "بما إن τ = F/A، المساحة الأكبر بنص الإجهاد عند نفس القوة. ولأن المادة نفسها وS ثابت في الفرض، γ = τ/S تنخفض للنصف. الارتفاع نفسه h، فـΔx = γ h ينخفض للنصف برضه. ده اختبار فهم لمساحة الوجه وتأثيرها بدل حفظ رقم واحد."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "Block B has half the average shear stress of A, half the shear strain and half the sideways displacement.\n\nبما إن τ = F/A، المساحة الأكبر بنص الإجهاد عند نفس القوة. ولأن المادة نفسها وS ثابت في الفرض، γ = τ/S تنخفض للنصف. الارتفاع نفسه h، فـΔx = γ h ينخفض للنصف برضه. ده اختبار فهم لمساحة الوجه وتأثيرها بدل حفظ رقم واحد.",
+      "units": [
+        {
+          "id": "E01",
+          "text": "Block B has half the average shear stress of A, half the shear strain and half the sideways displacement.",
+          "occurrence": 1,
+          "visualIntent": "Only after submission reveal English answer."
+        },
+        {
+          "id": "A01",
+          "text": "بما إن τ = F/A، المساحة الأكبر بنص الإجهاد عند نفس القوة. ولأن المادة نفسها وS ثابت في الفرض، γ = τ/S تنخفض للنصف. الارتفاع نفسه h، فـΔx = γ h ينخفض للنصف برضه. ده اختبار فهم لمساحة الوجه وتأثيرها بدل حفظ رقم واحد.",
+          "occurrence": 1,
+          "visualIntent": "Only after submission reveal Arabic reasoning."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "E01",
+        "arabic": "A01"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "phys1-803-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "heading": "تحديد النموذج",
+      "formula": "",
+      "firstCue": "E01"
+    },
+    "landscape": "16:9: neutral shear or pressure schematic at left, question reading clauses progressively revealed at right in English then Arabic; no model-answer formula or solutions before attempt.",
+    "portrait": "9:16: simplified small top diagram, English question and Arabic support in separate large wrapped blocks, ample response space; never disclose feedback."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "S02",
+  "title": "Shear Deformation and Shear Modulus — concept 2",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.128; exercise types printed pp.130–133; authored engineering examples not book exercises"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "خلي الرسم في بالك: بلوك ارتفاعه h، وجهه السفلي مثبت بفعل رد مناسب، ووجهه العلوي مساحته A. أثرنا عليه بقوة موازية F. علشان نقيس متوسط Shear stress بنستخدم مقدار القوة الموازية مقسومًا على مساحة الوجه: τ = F/A. الوحدة زي أي إجهاد هي Newton per square metre، أو Pascal. ده إجهاد قص **متوسط في الحالة المبسطة**، ومش هنعتبر إن توزيعه متساوٍ محليًا في أي جسم حقيقي مهما كان شكله.\n\nالجزء الجديد بقى هو Shear strain. احنا مش بنقيس تغير طول قضيب؛ بنقيس مقدار إزاحة الوجه العلوي بالنسبة للسفلي. لو الوجه اللي فوق اتحرك مسافة Δx والارتفاع الأصلي للبلوك h، في **نموذج قص بسيط منتظم تقريبًا** نكتب انفعال القص الهندسي γ = Δx/h. النسبة من غير وحدة. لو تخيلنا زاوية الميل θ، هندسيًا في النموذج ده tanθ = Δx/h، ولما زاوية الميل صغيرة ومقاسة بالراديان، θ تقارب γ. عشان كده تلاقي أحيانًا علاقة بالزاوية بدل الأطوال. بس متخلطش التقريب الصغير مع تشوهات كبيرة أو قص غير منتظم.",
+    "units": [
+      {
+        "id": "U021",
+        "text": "خلي الرسم في بالك: بلوك ارتفاعه h، وجهه السفلي مثبت بفعل رد مناسب، ووجهه العلوي مساحته A. أثرنا عليه بقوة",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      },
+      {
+        "id": "U022",
+        "text": "الجزء الجديد بقى هو Shear strain. احنا مش بنقيس تغير طول قضيب؛ بنقيس مقدار إزاحة الوجه العلوي بالنسبة للس",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-803-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "shear",
+      "heading": "القص وإزاحة الوجه",
+      "formula": "τ = F/A   γ = Δx/h   S = τ/γ",
+      "firstCue": "U021"
+    },
+    "landscape": "16:9: bespoke labeled shear diagram occupying 60%; only current formula/caption at narrated cue to right, large legible math.",
+    "portrait": "9:16: reorganize shear visual above, captions/formula full width below, at least 320px-safe labels and reduced-motion static equivalence."
+  }
+}
