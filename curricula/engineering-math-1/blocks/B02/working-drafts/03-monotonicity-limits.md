@@ -1,14 +1,15 @@
 # B02 Stage 01 provisional working draft C — الرسم وهو بيتحرك: زيادة ونقصان وبداية فكرة النهاية
-**Stage:** B02 **Stage 01** — complete connected provisional draft; **not** Stage 02 sign-off, final boundary, stable ID or production scenes.
+**Stage:** B02 **Stage 02** — critically revised complete connected provisional draft; **no final ID, boundary, scene/audio or human academic approval**.
 **Source:** `abd-el-salam-math-i-scan`, printed pp. 35–40 (PDF pp. 21–23).
 **Prerequisites:** coordinates/function graph (A–B); simple substitution, interval notation (brief bridge).
-**Working objectives:** describe increasing/decreasing intervals; distinguish a nearby limit from point value; read two-sided and one-sided limits.
+**Working objectives:** characterize increasing/decreasing across an interval; distinguish limit from function value; read left/right and two-sided limits; reason about a removable point mismatch.
 **Authored examples:** original explanations, example expressions and assessments.
 **Legacy provenance:** Derived **verbatim in teaching/assessment body** from historical `curricula/engineering-math-1/working-drafts/03-monotonicity-limits.md` (previous curriculum-wide AI Stage 02 revision). Historical original is **frozen for audit**, while THIS B02-scoped copy is the sole active Stage 01 draft; no retroactive B02 gate approval is claimed. The current turn did not conduct a new Stage 02 critique.
 **Verified source scope:** printed 35–40 / PDF 21–23. On 2026-10-10 the conversation-mounted original PDF was reopened; SHA-256 matches the source manifest. Its future private retrieval is still unresolved at the user's request.
 **B01 prerequisite bridge:** B02 A–B graph interpretation and B01 interval ordering.
 **Deliberately deferred:** formal epsilon–delta proof, algebraic limit methods.
 **Teaching boundary:** Label C and order A→E are **provisional**; no stable B02 lesson ID or scene may be created until Stage 03 after a separate human gate.
+**Active critique/rewrite evidence:** `../reviews/STAGE_02_CRITIQUE.md`; the monotonicity-vs-limits split remains a recommendation, not a final Stage 03 decision.
 
 ## Complete connected spoken draft
 لما تبص على طريق فيه طلعة وبعدها نزلة، بتقدر تقول فين الطريق بيعلى وفين بينخفض. الرسم البياني للدالة نقدر نقراه بنفس الطريقة، بس بشرط إننا نمشي من الشمال لليمين، يعني إكس بتزيد. لو قيم واي بتزيد معانا، بنقول الدالة **Increasing** على الجزء ده. ولو قيم واي بتنقص، بنقول **Decreasing**. ماتحكمش من غير ما تحدد اتجاه الحركة، وماتقولش على دالة كاملة إنها بتزيد لو جزء منها بيقل.
@@ -16,6 +17,8 @@
 خد مثلًا الرسم اللي على شكل يو للدالة $f(x)=x^2$. لو بدأنا من إكس سالب ثلاثة ومشينا ناحية سالب واحد، قيم الدالة بتقل: من تسعة إلى واحد. إذن هي Decreasing على ناحية إكس السالبة. وبعد ما نعدي الصفر ونكمل ناحية اليمين، قيمها بتزيد، فتكون Increasing على ناحية إكس الموجبة. عند الصفر في أقل نقطة في الرسم. ممكن نكتب إن الدالة تتناقص على الفترة المفتوحة من سالب ما لا نهاية إلى صفر، وتتزايد على الفترة المفتوحة من صفر إلى ما لا نهاية. وصفنا هنا سلوك الرسم على فترات، مش مجرد مقارنة قيمتين بعيدين.
 
 خلينا نجرب طريقة من غير ما نشتق؛ لأننا لسه ماخدناش تفاضل. لو الدالة $g(x)=x+2$، أي زيادة في إكس هتزود الناتج بنفس المقدار، فهي Increasing على الأعداد الحقيقية. ولو الدالة $h(x)=-x$، لما إكس تزيد، الناتج ينقص، فهي Decreasing. هنحتاج اللغة دي بعدين لما نقرأ الميل والمشتقة، لكن دلوقتي كل اللي مطلوب تتبع المدخلات ومخرجاتها.
+
+خلينا ندقّق كلمة Increasing على **فترة**: مش كفاية نقارن قيمتين اخترناهم بالمصادفة. لو الدالة متزايدة *بصرامة*، فأي مدخلين $x_1<x_2$ جوه الفترة لازم يحققوا $f(x_1)<f(x_2)$. وفي التناقص الصارم بنقلب المقارنة بين النواتج. كده وصفنا سلوك كل الجزء بدل ما نعمم من نقطتين بس.
 
 نيجي لفكرة جديدة: ساعات مانكونش مهتمين بقيمة الدالة عند نقطة بالضبط؛ نكون مهتمين هي بتقرب من كام **لما إكس تقرب من النقطة**. ده اسمه **Limit** أو نهاية. تخيل إنك ماشي ناحية باب من مسافات أصغر وأصغر. ممكن تسأل أنت بتقرب منين من غير ما تكون وصلت للباب فعلًا. التشبيه يساعد في الفكرة، لكنه مش بدل التعريف الرياضي؛ في الحد إحنا بنراقب قيم الدالة قرب مدخل معين.
 
@@ -27,6 +30,8 @@
 
 في نقطة مهمة كمان: نقدر نقرب من الشمال، بقيم إكس أقل من الرقم المستهدف، ودي **Left-hand limit**. أو نقرب من اليمين بقيم أكبر، ودي **Right-hand limit**. عشان النهاية العادية من الناحيتين تكون موجودة وقيمتها عدد حقيقي، لازم الناحيتين يقربوا من نفس القيمة. لو الرسم من الشمال بيقرب من اتنين، ومن اليمين بيقرب من خمسة، مفيش نهاية واحدة من الناحيتين، حتى لو الدالة نفسها مكتوب لها قيمة عند النقطة.
 
+وهنا شرط صغير له معنى: إحنا بنراقب مدخلات **من مجال الدالة، قريبة من النقطة لكن مش بالضرورة مساوية لها**. علشان نتكلم عن اقتراب من الشمال، لازم المجال يحتوي قيم نقدر نقرب منها من الشمال؛ ونفس الكلام لليمين. عشان كده نقطة محذوفة ما تمنعش وجود نهاية لو القيم حواليها موجودة.
+
 قبل السؤال المستقل، جرّب تتصور دالة بتزيد طول الوقت زي ثلاثة إكس. لما إكس تقرب من اتنين، واي تقرب من ستة. مش محتاج تحسب مئات الأرقام القريبة؛ محتاج تعرف سلوك القاعدة، وهل فيه استثناء حوالين النقطة. اللي تعلمناه هنا هو قراءة الرسم أو التعبير بوعي بدل ما نعوض آليًا.
 
 ## Independent attempt Q-C1 — not spoken as heading
@@ -35,7 +40,7 @@
 **Attempt:** written; don't expose vertex or interval answers before submission.
 
 ### Post-attempt feedback C1 — separate spoken text
-**Model answer (English):** Decreasing on $( -\infty,-1 )$ and increasing on $(-1,\infty)$.
+**Model answer (English):** Decreasing on $(-\infty,-1)$ and increasing on $(-1,\infty)$.
 **Feedback spoken:** دي نفس فكرة منحنى التربيع لكن القاع اتحرك لليسار عند إكس تساوي سالب واحد. قبل القاع، لما إكس تزيد قيمة الدالة بتقل؛ وبعد القاع بتزيد. عشان كده حد الفصل هو سالب واحد مش صفر.
 
 ## Independent attempt Q-C2 — not spoken as heading
@@ -55,6 +60,15 @@
 ### Post-attempt feedback C3 — separate spoken text
 **Model answer (English):** Left-hand limit $=2$, right-hand limit $=3$; the two-sided limit does not exist, even though $p(1)=10$.
 **Feedback spoken:** لما نقرب من الواحد بقيم أصغر، نستخدم إكس زائد واحد فالقيم تقرب من اتنين. ولما نقرب من قيم أكبر، نستخدم أربعة ناقص إكس فالقيم تقرب من تلاتة. بما إن اتنين مش هي تلاتة، النهاية من الناحيتين مش موجودة كقيمة واحدة. الرقم عشرة هو قيمة الدالة عند النقطة، ومش بيغير سلوك الاقتراب.
+
+## Independent attempt Q-C4 — value assigned at a removable hole
+**Question spoken (English):** For $x\ne3$ let $r(x)=\frac{x^2-9}{x-3}$, but define $r(3)=-7$. Find $\lim_{x\to3}r(x)$ and $r(3)$. Are they equal?
+**Question spoken (Arabic support):** بعيدًا عن تلاتة الدالة إكس تربيع ناقص تسعة على إكس ناقص تلاتة، وعند تلاتة اتعرّفت قيمتها بسالب سبعة. احسب النهاية والقيمة عند تلاتة وقارن بينهم.
+**Attempt:** written; do not show factorization or limit value before attempt.
+
+### Post-attempt feedback C4 — separate spoken text
+**Model answer (English):** The limit is $6$, while $r(3)=-7$; the two values are different.
+**Feedback spoken:** لما إكس تبعد عن تلاتة نقدر نحلل فرق المربعين ونختصر العامل المشترك بشرط إكس ما تكونش تلاتة. ساعتها القيم القريبة ماشية زي إكس زائد تلاتة، فتقرب من ستة. لكن نقطة تلاتة نفسها قيمتها المحددة سالب سبعة. دي طريقة نشوف بيها إن النهاية عن الجوار مش عن قيمة النقطة وحدها.
 
 ## Closing spoken recap
 إحنا عرفنا نوصف منحنى وهو بيطلع أو ينزل، وبعدين نقلنا عيننا من النقطة نفسها للمنطقة اللي حواليها. الدرس الجاي هنستخدم قواعد عملية لحساب النهايات، وهنعرف امتى التعويض يكفي، وامتى لازم نبسط التعبير، وامتى نحتاج نفكر من كل اتجاه لوحده.
