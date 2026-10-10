@@ -8,8 +8,8 @@
 
 | Block | Working scope, not a lesson | Source status | Prerequisite/dependency | Gate / next step |
 |---|---|---|---|---|
-| **B01** | Intro: mechanics, quantity/models, Newton laws, gravitation/weight, units | **Body inspected:** Ch.1 printed pp.1–6, scan pp.7–12 | school algebra, units, basic motion | **Active: Stage 03 complete**; three stable lesson IDs listed below; Stage 04 awaits new human `next` |
-| **B02** | Vector foundations and planar force resolution — Ch.2 sections 2.1–2.5 | **Body supplied, partial skim only:** printed pp.9–18, scan pp.14–23 | B01: Force as vector, units | Candidate after B01 Stage 04 and human `next block`; must re-open actual pages at Stage 01 |
+| **B01** | Intro: mechanics, quantity/models, Newton laws, gravitation/weight, units | **Body inspected:** Ch.1 pp.1–6, scan pp.7–12 | school algebra, units, basic motion | **PR #7 merged**; 69 selected audio takes; Stage 06 timed preview and independent reviews still partial |
+| **B02** | Vector foundations, plane resultant and initial resolution — Ch.2 §§2.1–2.4 and **§2.5 opening only** | **Body inspected afresh:** printed pp.9–18, scan pp.14–23 on 2026-10-10 | B01 force, units; school right-triangle trig | **Active: Stage 01 drafted, Stage 02 pending**; 3 provisional continuous scripts, no issued IDs |
 | **B03** | Unit vectors, coplanar resultants and position vectors — Ch.2 2.6–2.8 plus available exercises | **Body supplied, partial skim only:** printed pp.19–30, scan pp.24–36 | B02: planar vectors/components | Candidate future source Block; review boundary against actual material before authoring |
 | **B04** | Three-dimensional forces and later Ch.2 topics (e.g., dot product) | **INDEX ONLY / BODY MISSING:** begins printed p.32 | B02/B03 planar & vector basics | **Blocked** until original chapter pages supplied and inspected |
 | **B05** | Equilibrium of Particles (Ch.3) | **INDEX ONLY / BODY MISSING** | vector/resultant reasoning | **Blocked** — title-level plan only |
@@ -23,8 +23,8 @@ A Block is an **editorial production unit**, not automatically one textbook chap
 ## Curriculum-wide dependency and operational rules
 - Core trajectory: recognize bodies and forces → understand laws/units → resolve force vectors → analyze equilibrium/force systems → later statics applications *only after actual material is supplied*.
 - One curriculum STATUS tracks source/roadmap and the **active Block**; `blocks/B01/STATUS.md` tracks the active Block's actual human gate and outputs. For B02 onward, create block STATUS only on activation (do not preclaim Stage 01).
-- B01 remains the selected bounded block for existing content. Stage 01–03 took place historically under the old rules; their genuine recorded editorial results are carried forward, **not replayed** or marked human-academic approved.
-- On the **next separate** `next`, only B01 Stage 04 scenes/storyboards are in scope **if source accessibility/rights blockers and required dependencies are appropriately handled**. After Stage 04, `next block` starts B02 Stage 01 without audio; plain `next` means B01 Stage 05 pilot preparation, not paid dispatch.
+- B02 is the selected current editorial Block after owner requested moving on from merged B01. Stage 01 exists as provisional spoken drafts, **not** accepted Stage 02/03 lessons. B01 Stage 06 timed preview is still partial, and earlier human/editorial records are not retroactively changed.
+- On a **new separate** `next`, perform **B02 Stage 02 critique and rewrite only**. Stage 03 lesson IDs and Stage 04 scenes must follow separate reviews; no paid audio/student experiment implicitly authorized.
 - No new original PDF committed to public Git, no guessed edition, no invented future source pages and no automatic merge/teacher sign-off/publication.
 
 ---
@@ -85,3 +85,17 @@ Source locators above refer to **printed** pages first, then 1-based PDF scan pa
 - Source/science and teaching still **untested by independent human reviewer**. No student work, durations or production audio assessed. No review.json checks marked passed.
 
 **B01 Stage 04 checkpoint:** canonical teaching/question/feedback narration now lives in `lessons/<stable-id>/scenes/*.json`, not editable `drafts/*.md`; both storyboard ratios are defined per scene. See `blocks/B01/STAGE_04_AUDIT.md` for verified checks and pending human review. Stage 05 **dry-run** audio pilot requests are now prepared and verified (five unsent jobs; see `blocks/B01/STAGE_05_PILOT_DRY_RUN.md`). Any **paid dispatch** requires explicit authorization of scope and cost; `next block` may start B02 Stage 01 only with actual source access. Stage 06 still lacks real audio/timing prerequisites.
+
+---
+
+## B02 — Stage 01 provisional script map (current, 2026-10-10)
+
+**Scope:** printed Ch.2 pp.9–18, PDF scan 14–23, original `statics-scan-2026-10-08` hash unchanged. Reopened actual image pages, not an index-only outline. Details: `blocks/B02/STAGE_01_SOURCE_MAP.md`.
+
+| Provisional internal draft | Teaching sequence | Source | Independent practice |
+|---|---|---|---|
+| A — `blocks/B02/drafts/01-scalars-vectors-operations.md` | scalar/vector; magnitude/direction/sense; parallelogram/triangle; subtract; scale | §§2.1–2.2 pp.9–12 | two opposite collinear forces, then subtraction comparison |
+| B — `blocks/B02/drafts/02-planar-resultants-trigonometry.md` | resultant geometry; triangle angles; laws of cosine/sine and sanity checks | §2.3 and relevant examples pp.12,14–16 | two equal forces at 60°; magnitude and bisector direction |
+| C — `blocks/B02/drafts/03-force-resolution-rectangular-intro.md` | oblique resolution vs projection; opening rectangular components x/y, sign convention | §2.4 and §2.5 opening pp.13,16–18 | 80 N at ±30°, split x/y and signs |
+
+**Important boundary:** §2.5 details continuing after printed p.18 and §§2.6–2.8 in B03 are not claimed taught here. All lesson IDs **unissued**; Stage 02 must critique accuracy and cognitive load, Stage 03 decides final grouping. No student pilot, generated voice, original PDF public upload or automatic progression.
