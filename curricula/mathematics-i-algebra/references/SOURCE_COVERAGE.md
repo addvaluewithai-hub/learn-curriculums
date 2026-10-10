@@ -6,7 +6,7 @@
 |---|---|---|---|
 | 1 | غلاف بلا رقم مطبوع | عنوان Mathematics I — Algebra وأسماء إعداد المقرر | `body-inspected` للغلاف |
 | 2 | الفهرس، ترقيم تمهيدي | Partial Fractions؛ مصفوفات؛ محددات؛ Inverse/Systems؛ Eigenvalues؛ Sheets | `body-inspected` للفهرس، وليس لجسم ما بعد ص45 |
-| **3–5** | **1–5** | تعريف rational/proper/improper؛ قواعد partial fractions؛ العوامل الخطية؛ بداية أمثلة التحليل والتفكيك | `body-inspected` على مستوى بنية التعريفات والأمثلة فقط؛ **B01** |
+| **3–5** | **1–5** | تعريف rational/proper/improper؛ قواعد partial fractions؛ العوامل الخطية؛ بداية أمثلة التحليل والتفكيك | `body-inspected` بدقة أثناء Stage 01: التعريفات والقواعد وExamples 1–5؛ **B01** (لاحظ اختلافات طباعية في Examples 3 و5؛ مسجلة في blocks/B01/SOURCE_OBSERVATIONS.md) |
 | 6–10 | 6–15 | أمثلة عوامل خطية ومكررة وتربيعية وimproper؛ Exercise (1) ص15 | `skimmed-available` |
 | 11–17 | 16–29 | Matrix algebra: notation، dimensions، transpose، basic operations، multiplication، special matrices | `skimmed-available` |
 | 18–19 (الأولى تشمل 30–31، الثانية 32–33) | 30–32 | Exercises (2) الخاصة بالمصفوفات | `skimmed-available` |
@@ -18,7 +18,7 @@
 
 ## مرجع مواضع الـBlocks
 
-- B01 → PDF 3–5 ↔ مطبوع 1–5، **متاح**.
+- B01 → PDF 3–5 ↔ مطبوع 1–5، **أعيد فتحه وتدقيق المعادلات الأساسية في Stage 01 بتاريخ 2026-10-10**؛ لا يعد اعتمادًا أكاديميًا.
 - B02 → PDF 5–7 ↔ مطبوع 5–9، **متاح؛ يحتاج فتحًا تفصيليًا لاحقًا**.
 - B03 → PDF 8–9 ↔ مطبوع 10–12، **متاح؛ يحتاج فتحًا تفصيليًا لاحقًا**.
 - B04 → PDF 9–10 ↔ مطبوع 12–15، **متاح؛ يحتاج فتحًا تفصيليًا لاحقًا**.
