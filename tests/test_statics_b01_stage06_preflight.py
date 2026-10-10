@@ -41,6 +41,13 @@ class B01Stage06PreflightTest(unittest.TestCase):
         vtt=b"WEBVTT\n\n00:00:00.000 --> 00:00:01.000\nword\n"
         report=audit_clip(row,source,audio,json.dumps(tr).encode(),vtt)
         self.assertTrue(report["technicalDeliveryVerified"])
+        tr["source_text"]="Start\nالميكانيكا."
+        normalized=audit_clip(row,source,audio,json.dumps(tr).encode(),vtt)
+        self.assertTrue(normalized["sourceWhitespaceNormalized"])
+        tr["source_text"]="Changed الميكانيكا."
+        with self.assertRaises(ValueError):
+            audit_clip(row,source,audio,json.dumps(tr).encode(),vtt)
+        tr["source_text"]=source["script"]
         self.assertEqual(report["wavDurationMs"],1000)
         self.assertEqual(report["humanListening"],"untested")
         self.assertFalse(report["wordCuesReviewed"])
