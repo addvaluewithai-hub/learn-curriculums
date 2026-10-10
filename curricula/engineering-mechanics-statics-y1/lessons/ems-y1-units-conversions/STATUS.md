@@ -19,3 +19,7 @@
 - Produced clips: `N12` — 32.92s, factory run 37955409962. WAV, word-level transcript and VTT delivered; **none** imported as selected lesson media receipts yet.
 - Listening, pronunciation, educational accuracy, word-timing acceptance and SDK visual preview remain `untested`. 
 - Do not send other jobs or start Stage 06 without a separate human instruction. See `../../blocks/B01/STAGE_05_PILOT_DELIVERY.md`.
+
+## B01 Stage 05 — full audio catalog (2026-10-10)
+- **All 22/22 canonical clips generated** (narration + separate feedback), with real WAV, transcript JSON and VTT externally verified. Voice Gacrux, routing quality. Each actual job and provider URL is indexed at `../../blocks/B01/AUDIO_ASSETS.json`; human listening catalog `../../blocks/B01/AUDIO_LISTENING_INDEX.md`.
+- Previous pilot section above is historical; **no other clips are pending synthesis** for this lesson at this source version. `review.json` categories remain `untested`; local media receipts/timed anchors/visual playback not yet completed. Do not treat production as approval or authorized Stage 06.
