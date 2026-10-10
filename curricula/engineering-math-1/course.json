@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "engineering-math-1",
   "title": "Mathematics I — Calculus (Differentiation) | أولى هندسة",
-  "revision": "b02-stage-03-8-issued-lessons-26-independent-assessments-v1",
-  "description": "First-year engineering Mathematics I. Active B02 printed pp. 21–53, Stage 03 completed: 8 issued stable ordered student lesson IDs, 8 complete connected canonical editorial scripts, 26 independent English exam attempts and separate English/Egyptian-Arabic explanatory feedback; 21 prior source-grounded assessment IDs retained plus 5 new transfers. Split B/C/D, kept A/E, source discrepancies documented; not scenes, TTS, media, academic approval or student publication. B01 remains unchanged at Stage 04 with 5 issued IDs, 72 scenes and deferred audio. PDF private future retention unresolved by user choice.",
+  "revision": "b02-stage04-106-canonical-scenes-132-clips-v1",
+  "description": "Engineering Mathematics I, first year. B02 active Stage 04 source authoring complete: eight issued stable lesson IDs, 106 canonical scenes (80 teaching/26 independent English/Arabic written questions) and 26 separate delayed bilingual feedback clips = 132 spoken clips, with bespoke 16:9/9:16 source-controlled board/storyboards and script-stage checks. Curriculum-global runtime order 6–13 keeps B01 orders 1–5 untouched (B01 previously had 72 scenes, audio deferred). No B02 recordings, timestamps, real playback, mathematics instructor approval or student publication; scanned source storage postponed; printed p.34 apparent exponential domain/range erratum documented.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",
