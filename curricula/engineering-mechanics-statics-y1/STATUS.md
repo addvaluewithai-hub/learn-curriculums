@@ -4,23 +4,29 @@
 - Workflow alignment date: **2026-10-09**, against `main` revision `ba4706956c2c8ee3bf4103c08124b28b74c3390e`.
 - This is a **structural reconciliation of existing Stage 01–03 work**, not a retroactively executed or human-approved separate Stage 00. Original human decisions and the source/editorial history stay intact.
 - Course ID: `engineering-mechanics-statics-y1`.
-- Active Block: **B01 — Introduction / printed Chapter 1 pp.1–6**.
-- Course branch/PR: `curriculum/engineering-statics-y1-stage01` / Draft PR #7 — https://github.com/addvaluewithai-hub/learn-curriculums/pull/7.
+- Active Block: **B02 — Force Vectors / Chapter 2 printed pp.9–18 (PDF scan pp.14–23)**. B02 Stage 01 internally authored 2026-10-10. B01 remains merged to main with later timed-preview work outstanding.
+- Course branch/PR: B01 PR #7 **merged** (merge SHA `1243f773c0bebb9fe8a9a3f229ad8fbb49be548e`); B02 Stage 01 work is on `curriculum/statics-b02-stage01-vector-foundations-20261010` in a **separate Draft PR**. No student release.
 - Last executed B01 gate: **Stage 06 ASR timing TRIAGE completed (Stage 06 overall PARTIAL)**. 69/69 selected factory takes persisted and media-verified; **114 semantic units: 21 exact + 18 orthographic whole-phrase ASR matches, 38 partial search hints, 37 without ASR search evidence**. All cue positions still require audio-grounded verification; 75 lack whole-phrase evidence. SDK preview still blocked on reviewed `timing.json`. See `blocks/B01/STAGE_06_ALIGNMENT_TRIAGE.md`.
-- **Next authorized action:** align/review the remaining **93 ASR-unmatched semantic units** and verify all cue proposals against real playback, then separately complete timed preview. User reported the audio sounded good, and all media takes have now been selected. Stage 06 overall remains **PARTIAL**, no fake timed approvals, automatic merge or release.
+- **Current next gate:** B02 **Stage 02 critique and rewrite**, only on a new human `next`. B01 Stage 06 timing/runtime follow-up is a separate workstream: 75 units lack whole-phrase ASR support (38 fragment hints + 37 no ASR evidence); no B01 timing or SDK sign-off invented. Owner explicitly deferred student trials.
+
+
+## B02 Stage 01 — current editorial checkpoint (2026-10-10)
+- User explicitly instructed continuing **ordinary curriculum authoring**, **no student trials or feedback setup**. Source scan pages 14–23 were re-opened; original PDF hash `d05d173a02514f6093662c072fa0d8d08deba18d5e552b9586ecdcee1d6591d9` checked.
+- `blocks/B02/STAGE_01_SOURCE_MAP.md` records inspected printed pages 9–18 and source limits. Three 1000+-word-ish provisional Egyptian Arabic spoken drafts with independent question and separate post-attempt feedback are in `blocks/B02/drafts/`.
+- **Actual B02 stage:** Stage 01 authored and awaiting Stage 02 AI/editorial critique on next turn. Neither stable B02 lesson IDs nor scenes, student products, paid TTS, academic signoff or merge claimed. B01 historical statements below are retained as dated audit notes and may describe earlier stages; current state above supersedes them.
 
 ## Global source and roadmap
 - Master plan: `OUTLINE.md` — provisional whole-course B01–B09, including unavailable source blocks. The **B01 subsection only** contains finalized Stage 03 lesson mapping.
 - Source version ID: `statics-scan-2026-10-08`; 36-page original, actual 7,938,527 bytes and SHA-256 `d05d173a02514f6093662c072fa0d8d08deba18d5e552b9586ecdcee1d6591d9`, measured from accessible original on 2026-10-09.
 - Source manifest and access/rights: `references/SOURCE_MANIFEST.md`; coverage by actual scan/printed page: `references/SOURCE_COVERAGE.md`; prior inspect notes: `references/SOURCE_REVIEW.md`.
-- **Storage = chat-only-temporary, no verified private durable retrieval; redistribution rights unknown.** Original scanned book never committed to public repo. Future agent must retrieve and verify this exact SHA from authorized private storage before authoring another source-grounded Block.
-- B01 actual inspected source body: Ch.1 printed pp.1–6; PDF scan pp.7–12. B02/B03 Ch.2 body is supplied but needs full new source review; B04 onward unavailable/contents-only.
+- **Storage = chat-only-temporary, no verified private durable retrieval; redistribution rights unknown.** Original scanned book not committed to public Git. Actual exact PDF bytes were reopened and SHA-verified for B02 this session; future retrieval/storage still unresolved.
+- B01 source body Ch.1 pp.1–6 was inspected previously. **B02 printed pp.9–18 / scan pp.14–23 re-opened and visually inspected on 2026-10-10 for Stage 01.** B03 pp.19–30 still only skimmed; B04 onward unavailable/contents-only.
 
 ## Blocks overview (not lesson IDs)
 | Block | Roadmap coverage | Current editorial gate/status |
 |---|---|---|
-| **B01 (active)** | Ch.1 printed pp.1–6 | **Stage 05 real pilot: 5/5 factory jobs successful; 5 WAV+transcript+VTT delivered**. Human listening, playback/timing acceptance and science checks untested; see `blocks/B01/STATUS.md` |
-| B02 | Ch.2 printed pp.9–18; scalar/vector and planar force foundations | Planned only; no active Block STATUS or lesson IDs |
+| B01 | Ch.1 printed pp.1–6 | **PR #7 merged**; 69/69 WAV and selected receipts; Stage 06 alignment/runtime still **partial**, no final release |
+| **B02 (active)** | Ch.2 printed pp.9–18; §§2.1–2.4 + opening of §2.5 | **Stage 01 authored**: 3 provisional continuous spoken drafts; source inspected; Stage 02 pending; no stable IDs/scenes/audio |
 | B03 | Ch.2 printed pp.19–30; unit vectors/resultants/position vectors | Planned only; no active Block STATUS or lesson IDs |
 | B04 | Ch.2 printed pp.32 onward, missing body | Blocked: index only |
 | B05 | Ch.3 Equilibrium of Particles, missing body | Blocked: index only |
