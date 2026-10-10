@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "chem1-boyle-law",
+  "curriculumId": "chemistry-preparatory-engineering",
+  "order": 2,
+  "title": "قانون بويل: الضغط والحجم",
+  "englishTitle": "Boyle's Law: Pressure and Volume",
+  "scriptRevision": "script-b01-stage04-v1",
+  "prerequisites": [
+    "chem1-states-phase-changes",
+    "Ratios and fractions introduced in context"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Explain and calculate the inverse pressure-volume relation for a fixed gas sample at constant temperature, including units and reasonableness checks.",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S06"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Reject direct use of Boyle's law when temperature changes.",
+      "taughtIn": [
+        "S01"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06"
+  ],
+  "glossary": [
+    {
+      "term": "Pressure",
+      "meaning": "الضغط"
+    },
+    {
+      "term": "Volume",
+      "meaning": "الحجم"
+    },
+    {
+      "term": "Inverse proportionality",
+      "meaning": "التناسب العكسي"
+    },
+    {
+      "term": "Constant temperature",
+      "meaning": "درجة حرارة ثابتة"
+    }
+  ]
+}

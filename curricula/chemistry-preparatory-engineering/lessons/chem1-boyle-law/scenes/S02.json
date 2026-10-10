@@ -1,0 +1,54 @@
+{
+  "id": "S02",
+  "title": "Continue teaching — inverse relation and equation",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p7; printed pp10-11; Boyle formula and two graph shapes"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "دلوقتي تخيل إن ضغط الغاز كان واحد atmosphere، وحجمه واحد لتر. زودنا الضغط إلى اتنين atmosphere مع ثبات درجة الحرارة وكمية الغاز. حجم الغاز في رسم الكتاب بقى نص لتر. يعني لما الضغط اتضاعف، الحجم اتنصّف. دي Inverse Proportionality، تناسب عكسي: مش بس واحد يزيد والتاني يقل، لكن حاصل ضربهم يفضل ثابت في شروط المسألة.\n\nهنا هنكتب P × V = constant. ولما نقارن حالة رقم واحد بحالة رقم اتنين لنفس العينة، تبقى P₁V₁ = P₂V₂. واحد واتنين معناهم «قبل» و«بعد»، مش غازين مختلفين. لو محتاج الحجم الجديد، قسم الطرفين على الضغط الجديد: V₂ = P₁V₁ / P₂. ولو محتاج الضغط الجديد، تبقى P₂ = P₁V₁ / V₂. دي إعادة ترتيب جبرية بسيطة، لكن ترتيب الرموز أهم من الحفظ.\n\nافتكر كمان الرسمين في الكتاب عند صفحة 11: لو رسمت V أمام P، هتلاقي منحنى نازل. ولو رسمت V أمام 1/P، هتشوف خط مستقيم. ليه؟ لأن V بيتناسب مع مقلوب P، مش مع P نفسه. يعني لو الضغط زاد من واحد لاتنين ثم لتلاتة، الحجم مش لازم ينقص بمقدار ثابت كل مرة؛ النسبة هي اللي تحكمها المعادلة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "دلوقتي تخيل إن ضغط الغاز كان واحد atmosphere، وحجمه واحد لتر. زودنا",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 1 in inverse-graph only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U02",
+        "text": "هنا هنكتب P × V = constant. ولما نقارن حالة رقم واحد",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 2 in inverse-graph only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U03",
+        "text": "افتكر كمان الرسمين في الكتاب عند صفحة 11: لو رسمت V أمام",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 3 in inverse-graph only when the anchored spoken phrase begins. Keep later details hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-boyle-law-board",
+    "module": "scenes/BoyleBoard.tsx",
+    "params": {
+      "title": "P × V constant, reciprocal graph, V vs P curve",
+      "mode": "inverse-graph",
+      "anchor": "U01",
+      "anchors": [
+        "U01",
+        "U02",
+        "U03"
+      ]
+    },
+    "landscape": "16:9: Reveal P₁V₁=P₂V₂; left large descending curve for V versus P; right straight line for V versus 1/P. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
+    "portrait": "9:16: Reveal P₁V₁=P₂V₂; left large descending curve for V versus P; right straight line for V versus 1/P. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."
+  }
+}

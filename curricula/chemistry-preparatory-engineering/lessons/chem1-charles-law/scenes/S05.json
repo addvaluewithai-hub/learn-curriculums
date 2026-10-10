@@ -1,0 +1,100 @@
+{
+  "id": "S05",
+  "title": "Question Q02 — independent rearrangement",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p10; printed p17; adapted Sheet 1 #8 with author-added fixed pressure and amount"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "question",
+    "script": "At constant pressure, a fixed sample of argon occupies 0.43 mL at 24°C. At what temperature in °C will it occupy 0.57 mL?\n\nده سؤال تمانية من Sheet 1، ومعاه توضيحنا لثبات الضغط والكمية. المرة دي مطلوب T₂ مش V₂. اكتبه الأول بالكلفن، وبعدين حوّله لدرجة مئوية. راجع إن الحرارة المتوقعة هتزيد لأن الحجم زاد.",
+    "units": [
+      {
+        "id": "UEN",
+        "text": "At constant pressure, a fixed sample of argon occupies 0.43 mL at 24°C. At what temperature in °C will it occupy 0.57 mL?",
+        "occurrence": 1,
+        "visualIntent": "Reveal full English exam question at its actual spoken-word onset."
+      },
+      {
+        "id": "UAR",
+        "text": "ده سؤال تمانية من Sheet 1، ومعاه توضيحنا لثبات الضغط والكمية. المرة دي مطلوب T₂ مش V₂. اكتبه الأول بالكلفن، وبعدين حوّله لدرجة مئوية. راجع إن الحرارة المتوقعة هتزيد لأن الحجم زاد.",
+        "occurrence": 1,
+        "visualIntent": "Reveal full Arabic support only at its spoken onset; keep model answer hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-charles-law-board",
+    "module": "scenes/CharlesBoard.tsx",
+    "params": {
+      "title": "Question 2",
+      "mode": "question",
+      "anchor": "UEN",
+      "anchors": [
+        "UEN",
+        "UAR"
+      ]
+    },
+    "landscape": "16:9: Display English full question at its reviewed onset then show the Arabic supporting clause at its own onset; allow full-size written attempt field below the prompt. Keep numeric answer, rationale and feedback offscreen before submission; reveal feedback only in feedback phase.",
+    "portrait": "9:16: Stack English question in a large readable paragraph then Arabic support in a separate RTL panel; reserve vertical space and allow scrolling for written response on 320px phone screens. No answer at question/attempt phase; feedback only after valid attempt."
+  },
+  "question": {
+    "id": "Q02",
+    "english": "At constant pressure, a fixed sample of argon occupies 0.43 mL at 24°C. At what temperature in °C will it occupy 0.57 mL?",
+    "arabic": "ده سؤال تمانية من Sheet 1، ومعاه توضيحنا لثبات الضغط والكمية. المرة دي مطلوب T₂ مش V₂. اكتبه الأول بالكلفن، وبعدين حوّله لدرجة مئوية. راجع إن الحرارة المتوقعة هتزيد لأن الحجم زاد.",
+    "readingUnitIds": {
+      "english": "UEN",
+      "arabic": "UAR"
+    },
+    "attempt": "written",
+    "answer": {
+      "english": "T₂ = (24 + 273.15) × (0.57/0.43) ≈ 393.90 K; t₂ = 393.90 − 273.15 ≈ 120.75°C ≈ 121°C.",
+      "arabic": "الحجم زاد من 0.43 إلى 0.57 mL، فدرجة الحرارة المطلقة لازم تزيد. حسبنا أولًا حوالي 393.90 كلفن، وبعدها طرحنا 273.15 فطلع حوالى 121 درجة مئوية، نفس إجابة الكتاب بالتقريب. لو كتبت 394°C بدل Kelvin، يبقى حولت المتغير الغلط أو ما رجعتش للسيلزيوس.",
+      "reasoning": "الحجم زاد من 0.43 إلى 0.57 mL، فدرجة الحرارة المطلقة لازم تزيد. حسبنا أولًا حوالي 393.90 كلفن، وبعدها طرحنا 273.15 فطلع حوالى 121 درجة مئوية، نفس إجابة الكتاب بالتقريب. لو كتبت 394°C بدل Kelvin، يبقى حولت المتغير الغلط أو ما رجعتش للسيلزيوس."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "T₂ = (24 + 273.15) × (0.57/0.43) ≈ 393.90 K; t₂ = 393.90 − 273.15 ≈ 120.75°C ≈ 121°C.\n\nالحجم زاد من 0.43 إلى 0.57 mL، فدرجة الحرارة المطلقة لازم تزيد. حسبنا أولًا حوالي 393.90 كلفن، وبعدها طرحنا 273.15 فطلع حوالى 121 درجة مئوية، نفس إجابة الكتاب بالتقريب. لو كتبت 394°C بدل Kelvin، يبقى حولت المتغير الغلط أو ما رجعتش للسيلزيوس.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "T₂ = (24 + 273.15) × (0.57/0.43) ≈ 393.90 K; t₂ = 393.90 − 273.15 ≈ 120.75°C ≈ 121°C.",
+          "occurrence": 1,
+          "visualIntent": "Only after valid student attempt, reveal full English model answer at its actual spoken onset."
+        },
+        {
+          "id": "AAR",
+          "text": "الحجم زاد من 0.43 إلى 0.57 mL، فدرجة الحرارة المطلقة لازم تزيد. حسبنا أولًا حوالي 393.90 كلفن، وبعدها طرحنا 273.15 فطلع حوالى 121 درجة مئوية، نفس إجابة الكتاب بالتقريب. لو كتبت 394°C بدل Kelvin، يبقى حولت المتغير الغلط أو ما رجعتش للسيلزيوس.",
+          "occurrence": 1,
+          "visualIntent": "After answer onset, reveal explanatory Arabic reasoning at its actual spoken onset."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "chem1-charles-law-board",
+        "module": "scenes/CharlesBoard.tsx",
+        "params": {
+          "title": "Answer and reasoning",
+          "mode": "feedback",
+          "anchor": "AEN",
+          "anchors": [
+            "AEN",
+            "AAR"
+          ]
+        },
+        "landscape": "16:9: Real word-anchor triggered English calculated answer and later Arabic explanation only in feedback phase after user attempt.",
+        "portrait": "9:16: Display English model answer then Arabic explanatory calculation in vertically stacked RTL/LTR cards after submission, not during reading."
+      }
+    }
+  }
+}

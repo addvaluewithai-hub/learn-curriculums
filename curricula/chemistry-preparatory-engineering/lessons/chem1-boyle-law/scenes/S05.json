@@ -1,0 +1,100 @@
+{
+  "id": "S05",
+  "title": "Question Q02 — independent transfer, no solution preview",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p7; printed p10; authored law-validity case"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "question",
+    "script": "During compression of a sealed sample, the gas temperature changes. Can P₁V₁ = P₂V₂ automatically be used to connect the initial and final pressure and volume? Explain.\n\nلو ضغطت عينة غاز محكمة، لكن درجة حرارتها اتغيرت بين البداية والنهاية، ينفع تستخدم معادلة Boyle مباشرة من غير معلومات تانية؟ اذكر السبب من شروط القانون، مش من إن المعطيات فيها P وV.",
+    "units": [
+      {
+        "id": "UEN",
+        "text": "During compression of a sealed sample, the gas temperature changes. Can P₁V₁ = P₂V₂ automatically be used to connect the initial and final pressure and volume? Explain.",
+        "occurrence": 1,
+        "visualIntent": "Reveal full English exam question at its actual spoken-word onset."
+      },
+      {
+        "id": "UAR",
+        "text": "لو ضغطت عينة غاز محكمة، لكن درجة حرارتها اتغيرت بين البداية والنهاية، ينفع تستخدم معادلة Boyle مباشرة من غير معلومات تانية؟ اذكر السبب من شروط القانون، مش من إن المعطيات فيها P وV.",
+        "occurrence": 1,
+        "visualIntent": "Reveal full Arabic support only at its spoken onset; keep model answer hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-boyle-law-board",
+    "module": "scenes/BoyleBoard.tsx",
+    "params": {
+      "title": "Question 2",
+      "mode": "question",
+      "anchor": "UEN",
+      "anchors": [
+        "UEN",
+        "UAR"
+      ]
+    },
+    "landscape": "16:9: Display English full question at its reviewed onset then show the Arabic supporting clause at its own onset; allow full-size written attempt field below the prompt. Keep numeric answer, rationale and feedback offscreen before submission; reveal feedback only in feedback phase.",
+    "portrait": "9:16: Stack English question in a large readable paragraph then Arabic support in a separate RTL panel; reserve vertical space and allow scrolling for written response on 320px phone screens. No answer at question/attempt phase; feedback only after valid attempt."
+  },
+  "question": {
+    "id": "Q02",
+    "english": "During compression of a sealed sample, the gas temperature changes. Can P₁V₁ = P₂V₂ automatically be used to connect the initial and final pressure and volume? Explain.",
+    "arabic": "لو ضغطت عينة غاز محكمة، لكن درجة حرارتها اتغيرت بين البداية والنهاية، ينفع تستخدم معادلة Boyle مباشرة من غير معلومات تانية؟ اذكر السبب من شروط القانون، مش من إن المعطيات فيها P وV.",
+    "readingUnitIds": {
+      "english": "UEN",
+      "arabic": "UAR"
+    },
+    "attempt": "written",
+    "answer": {
+      "english": "No. Boyle's law requires a fixed amount of gas at constant temperature. If temperature changes, that two-state relation cannot be assumed without further conditions or a suitable different model.",
+      "arabic": "أهم كلمة هنا هي constant temperature. إحنا حافظنا على كمية الغاز، لكن الحرارة اتغيرت، فشرط بويل مش متحقق. ما نستخدمش القانون لمجرد إن الرموز الموجودة P وV. في الأجزاء اللاحقة هنتعلم معادلات تشمل تغير الحرارة.",
+      "reasoning": "أهم كلمة هنا هي constant temperature. إحنا حافظنا على كمية الغاز، لكن الحرارة اتغيرت، فشرط بويل مش متحقق. ما نستخدمش القانون لمجرد إن الرموز الموجودة P وV. في الأجزاء اللاحقة هنتعلم معادلات تشمل تغير الحرارة."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "No. Boyle's law requires a fixed amount of gas at constant temperature. If temperature changes, that two-state relation cannot be assumed without further conditions or a suitable different model.\n\nأهم كلمة هنا هي constant temperature. إحنا حافظنا على كمية الغاز، لكن الحرارة اتغيرت، فشرط بويل مش متحقق. ما نستخدمش القانون لمجرد إن الرموز الموجودة P وV. في الأجزاء اللاحقة هنتعلم معادلات تشمل تغير الحرارة.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "No. Boyle's law requires a fixed amount of gas at constant temperature. If temperature changes, that two-state relation cannot be assumed without further conditions or a suitable different model.",
+          "occurrence": 1,
+          "visualIntent": "Only after valid student attempt, reveal full English model answer at its actual spoken onset."
+        },
+        {
+          "id": "AAR",
+          "text": "أهم كلمة هنا هي constant temperature. إحنا حافظنا على كمية الغاز، لكن الحرارة اتغيرت، فشرط بويل مش متحقق. ما نستخدمش القانون لمجرد إن الرموز الموجودة P وV. في الأجزاء اللاحقة هنتعلم معادلات تشمل تغير الحرارة.",
+          "occurrence": 1,
+          "visualIntent": "After answer onset, reveal explanatory Arabic reasoning at its actual spoken onset."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "chem1-boyle-law-board",
+        "module": "scenes/BoyleBoard.tsx",
+        "params": {
+          "title": "Answer and reasoning",
+          "mode": "feedback",
+          "anchor": "AEN",
+          "anchors": [
+            "AEN",
+            "AAR"
+          ]
+        },
+        "landscape": "16:9: Post-submission English answer revealed at its actual speech onset, Arabic reasoning separately at its own cue; no answer on the question visual.",
+        "portrait": "9:16: Stack English answer and RTL Arabic explanation in comfortable reading cards after valid attempt; question phase never renders answer."
+      }
+    }
+  }
+}

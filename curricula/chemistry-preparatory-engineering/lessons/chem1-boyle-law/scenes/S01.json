@@ -1,0 +1,48 @@
+{
+  "id": "S01",
+  "title": "Opening and concept bridge — spoken",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p7; printed p10; simple pressure concept is authored bridge"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "في الدرس اللي فات، عرفنا إن الغاز مختلف عن السائل والصلب لأنه سهل نسبيًا ننقص حجمه بالضغط. تعالى دلوقتي ناخد نفس كمية الغاز في سرنجة محكمة بمكبس يتحرك. هنراقب حاجتين: Pressure، الضغط، وVolume، الحجم. لما نزق المكبس لجوه، الحجم يقل. بس هل نقدر نحسب العلاقة من غير أي شروط؟ لأ، لازم الأول نعرف إيه اللي فضل ثابت.\n\nالرمز P يعني ضغط، وV يعني حجم، وT يعني درجة الحرارة. لو عايز صورة مبسطة للضغط، فكر في تأثير القوة على مساحة المكبس. دي خطوة توضيحية تساعدك تفهم المصطلح. قانون Boyle's Law بيطبق على كمية ثابتة من الغاز وعند درجة حرارة ثابتة، ودي الشروط اللي هنفترضها في مسائل الدرس. لو الغاز اتسرب أو الحرارة اتغيرت بين الحالتين، الحساب المباشر اللي جاي مش مضمون.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "في الدرس اللي فات، عرفنا إن الغاز مختلف عن السائل والصلب لأنه",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 1 in piston only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U02",
+        "text": "الرمز P يعني ضغط، وV يعني حجم، وT يعني درجة الحرارة. لو",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 2 in piston only when the anchored spoken phrase begins. Keep later details hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-boyle-law-board",
+    "module": "scenes/BoyleBoard.tsx",
+    "params": {
+      "title": "P/V/T and a closed movable piston with fixed T and gas amount",
+      "mode": "piston",
+      "anchor": "U01",
+      "anchors": [
+        "U01",
+        "U02"
+      ]
+    },
+    "landscape": "16:9: Two large piston silhouettes: a fixed gas sample, movable plunger, pressure and volume labels; call out T constant. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
+    "portrait": "9:16: Two large piston silhouettes: a fixed gas sample, movable plunger, pressure and volume labels; call out T constant. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."
+  }
+}

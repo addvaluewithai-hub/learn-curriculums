@@ -1,0 +1,100 @@
+{
+  "id": "S04",
+  "title": "Question Q02 — independent attempt (spoken question, no answer)",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p6; printed p9; authored vapor-to-frost deposition case"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "question",
+    "script": "Water vapor forms frost directly on a very cold surface without first becoming liquid water. Name the phase change and state its direction.\n\nيعني بخار المية اتحول مباشرة لطبقة ثلج صلبة على سطح شديد البرودة، من غير ما يبقى سائل الأول. ما اسم التحول بالإنجليزي، وما حالة البداية والنهاية؟ حاول تحدد السهم قبل الاسم.",
+    "units": [
+      {
+        "id": "UEN",
+        "text": "Water vapor forms frost directly on a very cold surface without first becoming liquid water. Name the phase change and state its direction.",
+        "occurrence": 1,
+        "visualIntent": "Reveal full English exam question at its actual spoken-word onset."
+      },
+      {
+        "id": "UAR",
+        "text": "يعني بخار المية اتحول مباشرة لطبقة ثلج صلبة على سطح شديد البرودة، من غير ما يبقى سائل الأول. ما اسم التحول بالإنجليزي، وما حالة البداية والنهاية؟ حاول تحدد السهم قبل الاسم.",
+        "occurrence": 1,
+        "visualIntent": "Reveal full Arabic support only at its spoken onset; keep model answer hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-states-phase-changes-board",
+    "module": "scenes/MatterBoard.tsx",
+    "params": {
+      "title": "Question 2",
+      "mode": "question",
+      "anchor": "UEN",
+      "anchors": [
+        "UEN",
+        "UAR"
+      ]
+    },
+    "landscape": "16:9: Display English full question at its reviewed onset then show the Arabic supporting clause at its own onset; allow full-size written attempt field below the prompt. Keep numeric answer, rationale and feedback offscreen before submission; reveal feedback only in feedback phase.",
+    "portrait": "9:16: Stack English question in a large readable paragraph then Arabic support in a separate RTL panel; reserve vertical space and allow scrolling for written response on 320px phone screens. No answer at question/attempt phase; feedback only after valid attempt."
+  },
+  "question": {
+    "id": "Q02",
+    "english": "Water vapor forms frost directly on a very cold surface without first becoming liquid water. Name the phase change and state its direction.",
+    "arabic": "يعني بخار المية اتحول مباشرة لطبقة ثلج صلبة على سطح شديد البرودة، من غير ما يبقى سائل الأول. ما اسم التحول بالإنجليزي، وما حالة البداية والنهاية؟ حاول تحدد السهم قبل الاسم.",
+    "readingUnitIds": {
+      "english": "UEN",
+      "arabic": "UAR"
+    },
+    "attempt": "written",
+    "answer": {
+      "english": "Deposition, from gas directly to solid.",
+      "arabic": "الإجابة Deposition؛ لأننا بدأنا من Gas وانتهينا عند Solid مباشرة. لو قلنا Condensation، كنا هننتهي بسائل. ولو قلنا Freezing، لازم نبدأ بسائل. الفارق هنا مش مجرد انخفاض الحرارة، بل حالة البداية وحالة النهاية.",
+      "reasoning": "الإجابة Deposition؛ لأننا بدأنا من Gas وانتهينا عند Solid مباشرة. لو قلنا Condensation، كنا هننتهي بسائل. ولو قلنا Freezing، لازم نبدأ بسائل. الفارق هنا مش مجرد انخفاض الحرارة، بل حالة البداية وحالة النهاية."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "Deposition, from gas directly to solid.\n\nالإجابة Deposition؛ لأننا بدأنا من Gas وانتهينا عند Solid مباشرة. لو قلنا Condensation، كنا هننتهي بسائل. ولو قلنا Freezing، لازم نبدأ بسائل. الفارق هنا مش مجرد انخفاض الحرارة، بل حالة البداية وحالة النهاية.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Deposition, from gas directly to solid.",
+          "occurrence": 1,
+          "visualIntent": "Only after valid student attempt, reveal full English model answer at its actual spoken onset."
+        },
+        {
+          "id": "AAR",
+          "text": "الإجابة Deposition؛ لأننا بدأنا من Gas وانتهينا عند Solid مباشرة. لو قلنا Condensation، كنا هننتهي بسائل. ولو قلنا Freezing، لازم نبدأ بسائل. الفارق هنا مش مجرد انخفاض الحرارة، بل حالة البداية وحالة النهاية.",
+          "occurrence": 1,
+          "visualIntent": "After answer onset, reveal explanatory Arabic reasoning at its actual spoken onset."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "chem1-states-phase-changes-board",
+        "module": "scenes/MatterBoard.tsx",
+        "params": {
+          "title": "Answer and reasoning",
+          "mode": "feedback",
+          "anchor": "AEN",
+          "anchors": [
+            "AEN",
+            "AAR"
+          ]
+        },
+        "landscape": "16:9: Reveal the English model answer at the recorded answer onset, then Arabic explanatory feedback at its later onset. Feedback stays hidden until a valid learner submission.",
+        "portrait": "9:16: Stacked English and RTL Arabic explanation cards, visually distinct from the question; large readable text and answer only after submission."
+      }
+    }
+  }
+}

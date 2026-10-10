@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "chemistry-preparatory-engineering",
+  "title": "كيمياء سنة أولى هندسة | First-Year Engineering Chemistry",
+  "revision": "b01-stage04-scene-authoring-v1",
+  "description": "منهج كيمياء سنة أولى هندسة. B01 يضم 3 دروس ذات 18 Scene و7 أسئلة وStoryboards ومكوّنات React؛ النصوص التشغيلية داخل المشاهد، بدون صوت أو مراجعة بشرية/نشر.",
+  "language": {
+    "explanation": "ar-EG",
+    "exam": "en",
+    "arabicSupport": true
+  },
+  "sources": [
+    {
+      "id": "chemistry-prep-sadik-scan-20261009",
+      "title": "Chemistry for Preparatory-Engineering Students — Mervat Sadik (20-page scanned excerpt)",
+      "access": "available",
+      "limitations": "Original book title uses Preparatory-Engineering Students; our target audience, explicitly clarified by the user, is First-Year Engineering. The 20-page scan was reopened and hash-verified on 2026-10-10; the complete book, copyright rights and durable private storage are unverified. See SOURCE_MANIFEST and SOURCE_COVERAGE."
+    }
+  ],
+  "teacher": {}
+}

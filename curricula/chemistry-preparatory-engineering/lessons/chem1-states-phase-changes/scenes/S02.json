@@ -1,0 +1,100 @@
+{
+  "id": "S02",
+  "title": "Question Q01 — independent attempt (spoken question, no answer)",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p6; printed p8; authored transfer question"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "question",
+    "script": "A fixed amount of liquid is poured from a narrow beaker into a wider beaker without losing any liquid. Does its volume increase merely because the container is wider? Explain.\n\nيعني عندنا نفس كمية سائل، نقلناها من كأس ضيق إلى كأس أعرض من غير ما نكب أي جزء. هل الحجم نفسه زاد لمجرد إن الوعاء أعرض؟ اكتب الفرق بين الشكل والحجم في إجابتك. جرّب بنفسك قبل ما نكشف الحل.",
+    "units": [
+      {
+        "id": "UEN",
+        "text": "A fixed amount of liquid is poured from a narrow beaker into a wider beaker without losing any liquid. Does its volume increase merely because the container is wider? Explain.",
+        "occurrence": 1,
+        "visualIntent": "Reveal full English exam question at its actual spoken-word onset."
+      },
+      {
+        "id": "UAR",
+        "text": "يعني عندنا نفس كمية سائل، نقلناها من كأس ضيق إلى كأس أعرض من غير ما نكب أي جزء. هل الحجم نفسه زاد لمجرد إن الوعاء أعرض؟ اكتب الفرق بين الشكل والحجم في إجابتك. جرّب بنفسك قبل ما نكشف الحل.",
+        "occurrence": 1,
+        "visualIntent": "Reveal full Arabic support only at its spoken onset; keep model answer hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-states-phase-changes-board",
+    "module": "scenes/MatterBoard.tsx",
+    "params": {
+      "title": "Question 1",
+      "mode": "question",
+      "anchor": "UEN",
+      "anchors": [
+        "UEN",
+        "UAR"
+      ]
+    },
+    "landscape": "16:9: Display English full question at its reviewed onset then show the Arabic supporting clause at its own onset; allow full-size written attempt field below the prompt. Keep numeric answer, rationale and feedback offscreen before submission; reveal feedback only in feedback phase.",
+    "portrait": "9:16: Stack English question in a large readable paragraph then Arabic support in a separate RTL panel; reserve vertical space and allow scrolling for written response on 320px phone screens. No answer at question/attempt phase; feedback only after valid attempt."
+  },
+  "question": {
+    "id": "Q01",
+    "english": "A fixed amount of liquid is poured from a narrow beaker into a wider beaker without losing any liquid. Does its volume increase merely because the container is wider? Explain.",
+    "arabic": "يعني عندنا نفس كمية سائل، نقلناها من كأس ضيق إلى كأس أعرض من غير ما نكب أي جزء. هل الحجم نفسه زاد لمجرد إن الوعاء أعرض؟ اكتب الفرق بين الشكل والحجم في إجابتك. جرّب بنفسك قبل ما نكشف الحل.",
+    "readingUnitIds": {
+      "english": "UEN",
+      "arabic": "UAR"
+    },
+    "attempt": "written",
+    "answer": {
+      "english": "No. The liquid changes its shape to fit the new container, but the volume of the same amount stays approximately constant when conditions do not change significantly.",
+      "arabic": "اللي اتغير هو شكل السائل، مش حجمه لمجرد اختلاف عرض الوعاء. وعشان كده لما نفسّر سلوك المواد لازم نفصل بين شكل الوعاء وحجم العينة. لو خلطنا بينهم، هنغلط بعد شوية في فهم معنى حجم الغاز.",
+      "reasoning": "اللي اتغير هو شكل السائل، مش حجمه لمجرد اختلاف عرض الوعاء. وعشان كده لما نفسّر سلوك المواد لازم نفصل بين شكل الوعاء وحجم العينة. لو خلطنا بينهم، هنغلط بعد شوية في فهم معنى حجم الغاز."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "No. The liquid changes its shape to fit the new container, but the volume of the same amount stays approximately constant when conditions do not change significantly.\n\nاللي اتغير هو شكل السائل، مش حجمه لمجرد اختلاف عرض الوعاء. وعشان كده لما نفسّر سلوك المواد لازم نفصل بين شكل الوعاء وحجم العينة. لو خلطنا بينهم، هنغلط بعد شوية في فهم معنى حجم الغاز.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "No. The liquid changes its shape to fit the new container, but the volume of the same amount stays approximately constant when conditions do not change significantly.",
+          "occurrence": 1,
+          "visualIntent": "Only after valid student attempt, reveal full English model answer at its actual spoken onset."
+        },
+        {
+          "id": "AAR",
+          "text": "اللي اتغير هو شكل السائل، مش حجمه لمجرد اختلاف عرض الوعاء. وعشان كده لما نفسّر سلوك المواد لازم نفصل بين شكل الوعاء وحجم العينة. لو خلطنا بينهم، هنغلط بعد شوية في فهم معنى حجم الغاز.",
+          "occurrence": 1,
+          "visualIntent": "After answer onset, reveal explanatory Arabic reasoning at its actual spoken onset."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "chem1-states-phase-changes-board",
+        "module": "scenes/MatterBoard.tsx",
+        "params": {
+          "title": "Answer and reasoning",
+          "mode": "feedback",
+          "anchor": "AEN",
+          "anchors": [
+            "AEN",
+            "AAR"
+          ]
+        },
+        "landscape": "16:9: Reveal the English model answer at the recorded answer onset, then Arabic explanatory feedback at its later onset. Feedback stays hidden until a valid learner submission.",
+        "portrait": "9:16: Stacked English and RTL Arabic explanation cards, visually distinct from the question; large readable text and answer only after submission."
+      }
+    }
+  }
+}

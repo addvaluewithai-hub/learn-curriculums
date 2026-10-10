@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "chem1-states-phase-changes",
+  "curriculumId": "chemistry-preparatory-engineering",
+  "order": 1,
+  "title": "حالات المادة وتحولات الحالة",
+  "englishTitle": "States of Matter and Phase Changes",
+  "scriptRevision": "script-b01-stage04-v1",
+  "prerequisites": [
+    "Basic everyday observations of water, air, and containers; concepts introduced in this lesson"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Distinguish solid, liquid, and gas by shape, volume, and relative compressibility.",
+      "taughtIn": [
+        "S01"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Identify the direction and name of common phase changes.",
+      "taughtIn": [
+        "S03",
+        "S05"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05"
+  ],
+  "glossary": [
+    {
+      "term": "Matter",
+      "meaning": "مادة"
+    },
+    {
+      "term": "Solid",
+      "meaning": "حالة صلبة"
+    },
+    {
+      "term": "Liquid",
+      "meaning": "حالة سائلة"
+    },
+    {
+      "term": "Gas",
+      "meaning": "حالة غازية"
+    },
+    {
+      "term": "Compressibility",
+      "meaning": "قابلية الانضغاط"
+    },
+    {
+      "term": "Vaporization",
+      "meaning": "سائل إلى غاز"
+    },
+    {
+      "term": "Condensation",
+      "meaning": "غاز إلى سائل"
+    },
+    {
+      "term": "Sublimation",
+      "meaning": "صلب إلى غاز مباشرة"
+    },
+    {
+      "term": "Deposition",
+      "meaning": "غاز إلى صلب مباشرة"
+    }
+  ]
+}

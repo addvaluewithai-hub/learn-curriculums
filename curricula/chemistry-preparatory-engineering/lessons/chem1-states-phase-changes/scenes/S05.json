@@ -1,0 +1,40 @@
+{
+  "id": "S05",
+  "title": "Closing and bridge — spoken",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p6; printed pp8-9; editorial transition toward Boyle"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "لخص معايا: الصلب والسائل والغاز مختلفين في الشكل والحجم وقابلية الانضغاط، وكل تحول في الحالة له اتجاه واسم. المرة الجاية هنركّز على نفس كمية الغاز داخل وعاء، ونخلي درجة الحرارة ثابتة. لما الضغط يتغير، الحجم بيتغير إزاي؟ ده السؤال اللي بيجاوب عنه Boyle's Law.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "لخص معايا: الصلب والسائل والغاز مختلفين في الشكل والحجم وقابلية الانضغاط، وكل",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 1 in recap only when the anchored spoken phrase begins. Keep later details hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-states-phase-changes-board",
+    "module": "scenes/MatterBoard.tsx",
+    "params": {
+      "title": "One-line shape-versus-volume recap and next Boyle transition",
+      "mode": "recap",
+      "anchor": "U01",
+      "anchors": [
+        "U01"
+      ]
+    },
+    "landscape": "16:9: Use a two-row comparison of shape/volume/compressibility; end with a sealed gas cylinder and a question mark over pressure. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
+    "portrait": "9:16: Use a two-row comparison of shape/volume/compressibility; end with a sealed gas cylinder and a question mark over pressure. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."
+  }
+}

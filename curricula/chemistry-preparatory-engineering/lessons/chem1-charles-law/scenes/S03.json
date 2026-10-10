@@ -1,0 +1,100 @@
+{
+  "id": "S03",
+  "title": "Question Q01 — independent application (no answer revealed)",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p10; printed p17; adapted Sheet 1 #7 with author-added fixed pressure and amount"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "question",
+    "script": "A balloon contains 2.75 L of air at 18°C. Assume the gas amount and pressure both remain constant. What will its volume be at 45°C?\n\nالأرقام دي من سؤال سبعة في صفحة 17. ضفنا شرطَي الكمية والضغط الثابتين عشان تطبيق قانون شارل يبقى صريح، مش لأنهما مذكوران حرفيًا في السؤال المطبوع. جرّب: حوّل الحرارتين لكلفن، واستخدم العلاقة V₁/T₁ = V₂/T₂. قبل الحسبة، توقّع هل الحجم هيزيد ولا يقل؟",
+    "units": [
+      {
+        "id": "UEN",
+        "text": "A balloon contains 2.75 L of air at 18°C. Assume the gas amount and pressure both remain constant. What will its volume be at 45°C?",
+        "occurrence": 1,
+        "visualIntent": "Reveal full English exam question at its actual spoken-word onset."
+      },
+      {
+        "id": "UAR",
+        "text": "الأرقام دي من سؤال سبعة في صفحة 17. ضفنا شرطَي الكمية والضغط الثابتين عشان تطبيق قانون شارل يبقى صريح، مش لأنهما مذكوران حرفيًا في السؤال المطبوع. جرّب: حوّل الحرارتين لكلفن، واستخدم العلاقة V₁/T₁ = V₂/T₂. قبل الحسبة، توقّع هل الحجم هيزيد ولا يقل؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal full Arabic support only at its spoken onset; keep model answer hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-charles-law-board",
+    "module": "scenes/CharlesBoard.tsx",
+    "params": {
+      "title": "Question 1",
+      "mode": "question",
+      "anchor": "UEN",
+      "anchors": [
+        "UEN",
+        "UAR"
+      ]
+    },
+    "landscape": "16:9: Display English full question at its reviewed onset then show the Arabic supporting clause at its own onset; allow full-size written attempt field below the prompt. Keep numeric answer, rationale and feedback offscreen before submission; reveal feedback only in feedback phase.",
+    "portrait": "9:16: Stack English question in a large readable paragraph then Arabic support in a separate RTL panel; reserve vertical space and allow scrolling for written response on 320px phone screens. No answer at question/attempt phase; feedback only after valid attempt."
+  },
+  "question": {
+    "id": "Q01",
+    "english": "A balloon contains 2.75 L of air at 18°C. Assume the gas amount and pressure both remain constant. What will its volume be at 45°C?",
+    "arabic": "الأرقام دي من سؤال سبعة في صفحة 17. ضفنا شرطَي الكمية والضغط الثابتين عشان تطبيق قانون شارل يبقى صريح، مش لأنهما مذكوران حرفيًا في السؤال المطبوع. جرّب: حوّل الحرارتين لكلفن، واستخدم العلاقة V₁/T₁ = V₂/T₂. قبل الحسبة، توقّع هل الحجم هيزيد ولا يقل؟",
+    "readingUnitIds": {
+      "english": "UEN",
+      "arabic": "UAR"
+    },
+    "attempt": "written",
+    "answer": {
+      "english": "T₁ = 291.15 K; T₂ = 318.15 K; V₂ = 2.75 × 318.15/291.15 = 3.005... L ≈ 3.01 L.",
+      "arabic": "الحرارة المطلقة زادت، فالحجم زاد فعلًا من 2.75 لتر لحوالي 3.01 لتر. لو استخدمت 45 على 18، هتكون قارنت درجتين بالسيلزيوس بدل بالكلفن. افتكر دايمًا: الأول تحويل، بعده نسبة، وبعده وحدة الحجم.",
+      "reasoning": "الحرارة المطلقة زادت، فالحجم زاد فعلًا من 2.75 لتر لحوالي 3.01 لتر. لو استخدمت 45 على 18، هتكون قارنت درجتين بالسيلزيوس بدل بالكلفن. افتكر دايمًا: الأول تحويل، بعده نسبة، وبعده وحدة الحجم."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "T₁ = 291.15 K; T₂ = 318.15 K; V₂ = 2.75 × 318.15/291.15 = 3.005... L ≈ 3.01 L.\n\nالحرارة المطلقة زادت، فالحجم زاد فعلًا من 2.75 لتر لحوالي 3.01 لتر. لو استخدمت 45 على 18، هتكون قارنت درجتين بالسيلزيوس بدل بالكلفن. افتكر دايمًا: الأول تحويل، بعده نسبة، وبعده وحدة الحجم.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "T₁ = 291.15 K; T₂ = 318.15 K; V₂ = 2.75 × 318.15/291.15 = 3.005... L ≈ 3.01 L.",
+          "occurrence": 1,
+          "visualIntent": "Only after valid student attempt, reveal full English model answer at its actual spoken onset."
+        },
+        {
+          "id": "AAR",
+          "text": "الحرارة المطلقة زادت، فالحجم زاد فعلًا من 2.75 لتر لحوالي 3.01 لتر. لو استخدمت 45 على 18، هتكون قارنت درجتين بالسيلزيوس بدل بالكلفن. افتكر دايمًا: الأول تحويل، بعده نسبة، وبعده وحدة الحجم.",
+          "occurrence": 1,
+          "visualIntent": "After answer onset, reveal explanatory Arabic reasoning at its actual spoken onset."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "chem1-charles-law-board",
+        "module": "scenes/CharlesBoard.tsx",
+        "params": {
+          "title": "Answer and reasoning",
+          "mode": "feedback",
+          "anchor": "AEN",
+          "anchors": [
+            "AEN",
+            "AAR"
+          ]
+        },
+        "landscape": "16:9: Real word-anchor triggered English calculated answer and later Arabic explanation only in feedback phase after user attempt.",
+        "portrait": "9:16: Display English model answer then Arabic explanatory calculation in vertically stacked RTL/LTR cards after submission, not during reading."
+      }
+    }
+  }
+}

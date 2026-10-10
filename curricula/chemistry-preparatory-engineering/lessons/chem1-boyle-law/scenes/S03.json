@@ -1,0 +1,54 @@
+{
+  "id": "S03",
+  "title": "Worked application — spoken (not independent test)",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p8; printed p12; corrected arithmetic in example 2"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "هناخد المثال الأول من صفحة 12: عينة غاز حجمها 18.10 mL عند 3.500 atm، وبعد كده الضغط قل إلى 2.500 atm عند نفس درجة الحرارة وكمية الغاز. توقّع الأول: الضغط قل، فالمفروض الحجم الجديد يزيد. نعوض: V₂ = (3.500 × 18.10) / 2.500 = 25.34 mL. الناتج أكبر من الحجم الأول، فده متسق مع العلاقة العكسية. ضغطنا مستخدم بنفس الوحدة atm في الطرفين، والحجم فضل mL.\n\nوفي مثال تاني من الصفحة نفسها: 12 L عند 1.2 atm، وبعدها 2.4 atm. الضغط بقى الضعف، إذن الحجم لازم يبقى النصف: 6 L. الحساب هو اتناشر في واحد فاصل اتنين على اتنين فاصل أربعة. مهم لما تحل إنك تسأل: هل اتجاه النتيجة منطقي؟ لأن ترتيب أرقام صح مع ناتج غير منطقي ممكن يكشف غلطة حساب.\n\nقبل التدريب، خلي بالك من الوحدات: ما ينفعش طرف فيه atm والطرف التاني kPa ونلغيهم كأنهم نفس الوحدة من غير تحويل. خلي الضغطين في نفس الوحدة، والحجمين في نفس الوحدة، أو حوّلهم الأول. وإحنا بنتعامل مع pressure الفيزيائي في القانون، مش رقم من غير معنى؛ لازم اختيار المقياس المتسق.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "هناخد المثال الأول من صفحة 12: عينة غاز حجمها 18.10 mL عند",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 1 in worked-boyle only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U02",
+        "text": "وفي مثال تاني من الصفحة نفسها: 12 L عند 1.2 atm، وبعدها",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 2 in worked-boyle only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U03",
+        "text": "قبل التدريب، خلي بالك من الوحدات: ما ينفعش طرف فيه atm والطرف",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 3 in worked-boyle only when the anchored spoken phrase begins. Keep later details hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-boyle-law-board",
+    "module": "scenes/BoyleBoard.tsx",
+    "params": {
+      "title": "Worked source examples: 25.34 mL and corrected 6 L; units",
+      "mode": "worked-boyle",
+      "anchor": "U01",
+      "anchors": [
+        "U01",
+        "U02",
+        "U03"
+      ]
+    },
+    "landscape": "16:9: Show four-column Given/Unknown/Formula/Result table for first book example, then a separate visually flagged arithmetic check for the 12 L example, never present printed 0.6 L as correct. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
+    "portrait": "9:16: Show four-column Given/Unknown/Formula/Result table for first book example, then a separate visually flagged arithmetic check for the 12 L example, never present printed 0.6 L as correct. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."
+  }
+}

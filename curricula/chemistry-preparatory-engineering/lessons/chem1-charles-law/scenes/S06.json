@@ -1,0 +1,100 @@
+{
+  "id": "S06",
+  "title": "Question Q03 — independent condition transfer",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p8; printed p13; authored rigid-container condition check"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "question",
+    "script": "A fixed sample of gas is heated in a rigid, sealed container whose volume cannot increase. Can Charles's law be used to claim the gas volume must increase? Explain.\n\nتخيّل وعاء صلب مقفول حجمه ما بيتغيرش وسخّنا الغاز اللي جواه. هل مجرد وجود تسخين يسمح لك تستخدم Charles عشان تقول إن الحجم لازم يزيد؟ فكّر في شرط constant pressure.",
+    "units": [
+      {
+        "id": "UEN",
+        "text": "A fixed sample of gas is heated in a rigid, sealed container whose volume cannot increase. Can Charles's law be used to claim the gas volume must increase? Explain.",
+        "occurrence": 1,
+        "visualIntent": "Reveal full English exam question at its actual spoken-word onset."
+      },
+      {
+        "id": "UAR",
+        "text": "تخيّل وعاء صلب مقفول حجمه ما بيتغيرش وسخّنا الغاز اللي جواه. هل مجرد وجود تسخين يسمح لك تستخدم Charles عشان تقول إن الحجم لازم يزيد؟ فكّر في شرط constant pressure.",
+        "occurrence": 1,
+        "visualIntent": "Reveal full Arabic support only at its spoken onset; keep model answer hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-charles-law-board",
+    "module": "scenes/CharlesBoard.tsx",
+    "params": {
+      "title": "Question 3",
+      "mode": "question",
+      "anchor": "UEN",
+      "anchors": [
+        "UEN",
+        "UAR"
+      ]
+    },
+    "landscape": "16:9: Display English full question at its reviewed onset then show the Arabic supporting clause at its own onset; allow full-size written attempt field below the prompt. Keep numeric answer, rationale and feedback offscreen before submission; reveal feedback only in feedback phase.",
+    "portrait": "9:16: Stack English question in a large readable paragraph then Arabic support in a separate RTL panel; reserve vertical space and allow scrolling for written response on 320px phone screens. No answer at question/attempt phase; feedback only after valid attempt."
+  },
+  "question": {
+    "id": "Q03",
+    "english": "A fixed sample of gas is heated in a rigid, sealed container whose volume cannot increase. Can Charles's law be used to claim the gas volume must increase? Explain.",
+    "arabic": "تخيّل وعاء صلب مقفول حجمه ما بيتغيرش وسخّنا الغاز اللي جواه. هل مجرد وجود تسخين يسمح لك تستخدم Charles عشان تقول إن الحجم لازم يزيد؟ فكّر في شرط constant pressure.",
+    "readingUnitIds": {
+      "english": "UEN",
+      "arabic": "UAR"
+    },
+    "attempt": "written",
+    "answer": {
+      "english": "No. Charles's law requires constant pressure; a rigid container fixes the volume, and constant pressure is not ensured during heating.",
+      "arabic": "الوعاء الصلب أصلاً حجمه ثابت، ومش عندنا سبب نفترض إن الضغط هيبقى ثابت أثناء التسخين. يبقى ما ينفعش نفرض زيادة في الحجم باستخدام قانون شارل. في B02 هنبدأ نفهم علاقة الضغط بالحرارة لما الحجم هو اللي بيبقى ثابت. دي مسألة قانون مناسب، مش مجرد تعويض.",
+      "reasoning": "الوعاء الصلب أصلاً حجمه ثابت، ومش عندنا سبب نفترض إن الضغط هيبقى ثابت أثناء التسخين. يبقى ما ينفعش نفرض زيادة في الحجم باستخدام قانون شارل. في B02 هنبدأ نفهم علاقة الضغط بالحرارة لما الحجم هو اللي بيبقى ثابت. دي مسألة قانون مناسب، مش مجرد تعويض."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "No. Charles's law requires constant pressure; a rigid container fixes the volume, and constant pressure is not ensured during heating.\n\nالوعاء الصلب أصلاً حجمه ثابت، ومش عندنا سبب نفترض إن الضغط هيبقى ثابت أثناء التسخين. يبقى ما ينفعش نفرض زيادة في الحجم باستخدام قانون شارل. في B02 هنبدأ نفهم علاقة الضغط بالحرارة لما الحجم هو اللي بيبقى ثابت. دي مسألة قانون مناسب، مش مجرد تعويض.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "No. Charles's law requires constant pressure; a rigid container fixes the volume, and constant pressure is not ensured during heating.",
+          "occurrence": 1,
+          "visualIntent": "Only after valid student attempt, reveal full English model answer at its actual spoken onset."
+        },
+        {
+          "id": "AAR",
+          "text": "الوعاء الصلب أصلاً حجمه ثابت، ومش عندنا سبب نفترض إن الضغط هيبقى ثابت أثناء التسخين. يبقى ما ينفعش نفرض زيادة في الحجم باستخدام قانون شارل. في B02 هنبدأ نفهم علاقة الضغط بالحرارة لما الحجم هو اللي بيبقى ثابت. دي مسألة قانون مناسب، مش مجرد تعويض.",
+          "occurrence": 1,
+          "visualIntent": "After answer onset, reveal explanatory Arabic reasoning at its actual spoken onset."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "chem1-charles-law-board",
+        "module": "scenes/CharlesBoard.tsx",
+        "params": {
+          "title": "Answer and reasoning",
+          "mode": "feedback",
+          "anchor": "AEN",
+          "anchors": [
+            "AEN",
+            "AAR"
+          ]
+        },
+        "landscape": "16:9: Real word-anchor triggered English calculated answer and later Arabic explanation only in feedback phase after user attempt.",
+        "portrait": "9:16: Display English model answer then Arabic explanatory calculation in vertically stacked RTL/LTR cards after submission, not during reading."
+      }
+    }
+  }
+}
