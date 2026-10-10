@@ -36,7 +36,11 @@
     "params": {
       "title": "P/V/T and a closed movable piston with fixed T and gas amount",
       "mode": "piston",
-      "anchor": "U01"
+      "anchor": "U01",
+      "anchors": [
+        "U01",
+        "U02"
+      ]
     },
     "landscape": "16:9: Two large piston silhouettes: a fixed gas sample, movable plunger, pressure and volume labels; call out T constant. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
     "portrait": "9:16: Two large piston silhouettes: a fixed gas sample, movable plunger, pressure and volume labels; call out T constant. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."

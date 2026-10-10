@@ -29,7 +29,10 @@
     "params": {
       "title": "Bridge to Charles: change which variable is held fixed",
       "mode": "recap",
-      "anchor": "U01"
+      "anchor": "U01",
+      "anchors": [
+        "U01"
+      ]
     },
     "landscape": "16:9: Side-by-side 'T fixed → Boyle' and 'P fixed → next: Charles'; show no numerical answer. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
     "portrait": "9:16: Side-by-side 'T fixed → Boyle' and 'P fixed → next: Charles'; show no numerical answer. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."

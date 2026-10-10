@@ -41,7 +41,12 @@
     "params": {
       "title": "P × V constant, reciprocal graph, V vs P curve",
       "mode": "inverse-graph",
-      "anchor": "U01"
+      "anchor": "U01",
+      "anchors": [
+        "U01",
+        "U02",
+        "U03"
+      ]
     },
     "landscape": "16:9: Reveal P₁V₁=P₂V₂; left large descending curve for V versus P; right straight line for V versus 1/P. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
     "portrait": "9:16: Reveal P₁V₁=P₂V₂; left large descending curve for V versus P; right straight line for V versus 1/P. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."
