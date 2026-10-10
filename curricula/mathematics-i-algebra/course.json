@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "mathematics-i-algebra",
   "title": "Mathematics I — Algebra | رياضيات 1: الجبر",
-  "revision": "outline-v1-stage00-2026-10-10",
-  "description": "خريطة إنتاج مبدئية لكتاب Mathematics I — Algebra (A Practical Workbook for Engineering). التغطية المتاحة حاليًا: الصفحات المطبوعة 1–45 فقط من مصدر مصور؛ بقية الموضوعات من الفهرس وتنتظر أصل الصفحات.",
+  "revision": "outline-v1-b01-stage01-2026-10-10",
+  "description": "منهج Mathematics I — Algebra لطلبة سنة أولى هندسة (تأكيد المستخدم 2026-10-10). Stage 01: مسودتان متصلتان لأول Block B01 من الصفحات المطبوعة 1–5. التغطية المتاحة من المصدر المصور: الصفحات المطبوعة 1–45 فقط؛ باقي المحتوى لم يُرفق.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",
