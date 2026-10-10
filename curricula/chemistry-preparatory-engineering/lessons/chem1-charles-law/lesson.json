@@ -57,5 +57,22 @@
     "S06",
     "S07"
   ],
-  "glossary": []
+  "glossary": [
+    {
+      "term": "Kelvin",
+      "meaning": "مقياس الحرارة المطلقة"
+    },
+    {
+      "term": "Direct proportionality",
+      "meaning": "التناسب الطردي"
+    },
+    {
+      "term": "Constant pressure",
+      "meaning": "ضغط ثابت"
+    },
+    {
+      "term": "Absolute temperature",
+      "meaning": "درجة الحرارة المطلقة"
+    }
+  ]
 }

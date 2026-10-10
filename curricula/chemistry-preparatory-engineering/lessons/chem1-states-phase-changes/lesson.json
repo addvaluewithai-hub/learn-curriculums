@@ -40,5 +40,42 @@
     "S04",
     "S05"
   ],
-  "glossary": []
+  "glossary": [
+    {
+      "term": "Matter",
+      "meaning": "مادة"
+    },
+    {
+      "term": "Solid",
+      "meaning": "حالة صلبة"
+    },
+    {
+      "term": "Liquid",
+      "meaning": "حالة سائلة"
+    },
+    {
+      "term": "Gas",
+      "meaning": "حالة غازية"
+    },
+    {
+      "term": "Compressibility",
+      "meaning": "قابلية الانضغاط"
+    },
+    {
+      "term": "Vaporization",
+      "meaning": "سائل إلى غاز"
+    },
+    {
+      "term": "Condensation",
+      "meaning": "غاز إلى سائل"
+    },
+    {
+      "term": "Sublimation",
+      "meaning": "صلب إلى غاز مباشرة"
+    },
+    {
+      "term": "Deposition",
+      "meaning": "غاز إلى صلب مباشرة"
+    }
+  ]
 }

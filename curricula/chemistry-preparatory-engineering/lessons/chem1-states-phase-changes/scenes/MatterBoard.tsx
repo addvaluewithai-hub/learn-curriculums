@@ -42,9 +42,9 @@ export default function MatterBoard(props:VisualProps) {
           Shape and Volume are different · Compressibility is greatest for a gas (in this comparison)
         </div>:null}
         {mode==="phase-arrows"&&shown(0)?<div style={{...box,display:"grid",gap:portrait?12:18,fontSize:font}}>
-          {shown(0)?<div>Solid ⇄ Liquid <span style={{color:"#7be2ce"}}>Melting / Freezing</span></div>:null}
-          {shown(1)?<div>Liquid ⇄ Gas <span style={{color:"#7be2ce"}}>Vaporization / Condensation</span></div>:null}
-          {shown(2)?<div>Solid ⇄ Gas <span style={{color:"#7be2ce"}}>Sublimation / Deposition</span></div>:null}
+          {shown(0)?<div>Solid → Liquid: <span style={{color:"#7be2ce"}}>Melting</span> · Liquid → Solid: Freezing</div>:null}
+          {shown(1)?<div>Liquid → Gas: <span style={{color:"#7be2ce"}}>Vaporization</span> · Gas → Liquid: Condensation</div>:null}
+          {shown(2)?<div>Solid → Gas: <span style={{color:"#7be2ce"}}>Sublimation</span> · Gas → Solid: Deposition</div>:null}
         </div>:null}
         {mode==="recap"&&shown(0)?<div style={{...box,fontSize:font,display:"grid",gap:15}}>
           <div>Shape · Volume · Compressibility</div><div>Direction decides phase-change name</div>

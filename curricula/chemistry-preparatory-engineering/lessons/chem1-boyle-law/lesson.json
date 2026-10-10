@@ -44,5 +44,22 @@
     "S05",
     "S06"
   ],
-  "glossary": []
+  "glossary": [
+    {
+      "term": "Pressure",
+      "meaning": "الضغط"
+    },
+    {
+      "term": "Volume",
+      "meaning": "الحجم"
+    },
+    {
+      "term": "Inverse proportionality",
+      "meaning": "التناسب العكسي"
+    },
+    {
+      "term": "Constant temperature",
+      "meaning": "درجة حرارة ثابتة"
+    }
+  ]
 }
