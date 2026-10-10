@@ -1,3 +1,5 @@
+> **ARCHIVED Stage 03 editorial snapshot (read-only reference).** From B01 Stage 04 onward, only `curricula/chemistry-preparatory-engineering/lessons/chem1-boyle-law/scenes/*.json` narration and question feedback are canonical speech. Do not independently edit this historical reading copy; generate any joined reading transcript from scene files.
+
 # chem1-boyle-law — Boyle's Law: Pressure and Volume
 **Stage 03 — editorial spoken script until Stage 04 scene conversion.** Headings, source notes and non-spoken directions are not narration. Learner answer is concealed until the corresponding feedback.
 

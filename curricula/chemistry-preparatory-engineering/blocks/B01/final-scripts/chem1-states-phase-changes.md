@@ -1,3 +1,5 @@
+> **ARCHIVED Stage 03 editorial snapshot (read-only reference).** From B01 Stage 04 onward, only `curricula/chemistry-preparatory-engineering/lessons/chem1-states-phase-changes/scenes/*.json` narration and question feedback are canonical speech. Do not independently edit this historical reading copy; generate any joined reading transcript from scene files.
+
 # chem1-states-phase-changes — States of Matter and Phase Changes
 **Stage 03 — canonical editorial spoken script until Stage 04 conversion; first-year engineering.** This file is not yet scene narration. The headings/production directions, citations, and labels are **not** spoken. Do not play feedback before the learner attempts the corresponding question.
 

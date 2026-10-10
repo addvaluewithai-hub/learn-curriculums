@@ -15,3 +15,11 @@
 - **chem1-states-phase-changes** — 5 scenes (3 teaching, 2 question), 7 clips; parity exact; objectives O1 -> S01 / Q01; O2 -> S03,S05 / Q02.
 - **chem1-boyle-law** — 6 scenes (4 teaching, 2 question), 8 clips; parity exact; objectives O1 -> S01,S02,S03,S06 / Q01; O2 -> S01 / Q02.
 - **chem1-charles-law** — 7 scenes (4 teaching, 3 question), 10 clips; parity exact; objectives O1 -> S01,S02,S07 / Q01; O2 -> S04,S07 / Q02; O3 -> S01,S04,S07 / Q03.
+
+## Stage 04 scoped QA / pinned SDK scope
+
+- `tests/test_chemistry_b01_script.py` calls **the real** `validate_lesson(ROOT, course, id, "script")` for all three IDs in GitHub Actions, rather than relying on default `draft` validation. Prior targeted test commit `a026040c06ae01ee97cb578e8afdce568b522db2` completed the repository workflow with success; the latest final authoring commit's CI must still be checked before claiming that revision passed.
+- All 18 scenes now include explicit `visual.params.anchors` matching the actual narration `units[].id`, with one anchor per spoken paragraph. Question reading uses full `UEN/UAR`; post-attempt feedback uses full `AEN/AAR`, and an explicit **feedback-phase** local renderer. No timestamps were estimated.
+- The visual components have scene-specific modes: states versus transitions; Boyle pistons, reciprocal graphs and examples; Charles piston, Kelvin and rearrangement. Per-scene 16:9 and 9:16 storyboards are independently stated. Actual SDK playback, visual clipping, layout correctness on devices, reduced motion, audio and user flow must be reviewed **only after real media**.
+- Source preservation: `blocks/B01/final-scripts/*.md` are **historical editorial snapshots only**. `lessons/*/scenes/*.json` teaching/questions/feedback are canonical from this stage forward. Do not hand-edit both.
+- Human academic reviews still **untested**; schema/CI validation cannot approve accuracy, copyright permission or student release.

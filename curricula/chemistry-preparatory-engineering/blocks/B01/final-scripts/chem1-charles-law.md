@@ -1,3 +1,5 @@
+> **ARCHIVED Stage 03 editorial snapshot (read-only reference).** From B01 Stage 04 onward, only `curricula/chemistry-preparatory-engineering/lessons/chem1-charles-law/scenes/*.json` narration and question feedback are canonical speech. Do not independently edit this historical reading copy; generate any joined reading transcript from scene files.
+
 # chem1-charles-law — Charles's Law: Volume and Temperature
 **Stage 03 editorial spoken script; three short internal learning parts, not three separate lessons.** Editor labels/citations are not spoken. Every Feedback is presented only **after** its own learner attempt.
 
