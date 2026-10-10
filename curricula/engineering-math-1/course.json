@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "engineering-math-1",
   "title": "Mathematics I — Calculus (Differentiation) | أولى هندسة",
-  "revision": "b02-stage-02-critique-rewrites-v1",
-  "description": "Engineering Mathematics I, first-year. B02 active Stage 02: five complete critiqued/revised working spoken drafts (21 independent exams with distinct Arabic-reasoned feedback), printed textbook pp. 21–53, 30 selected calculation checks; B02 stable IDs/boundaries, scenes, human academic approval and audio not yet performed. Source p. 34 exponential domain/range mismatch recorded for human review. B01 remains five stable IDs with 72 canonical Stage 04 scenes; audio deferred. PDF future private storage remains deferred.",
+  "revision": "b02-stage-03-8-issued-lessons-26-independent-assessments-v1",
+  "description": "First-year engineering Mathematics I. Active B02 printed pp. 21–53, Stage 03 completed: 8 issued stable ordered student lesson IDs, 8 complete connected canonical editorial scripts, 26 independent English exam attempts and separate English/Egyptian-Arabic explanatory feedback; 21 prior source-grounded assessment IDs retained plus 5 new transfers. Split B/C/D, kept A/E, source discrepancies documented; not scenes, TTS, media, academic approval or student publication. B01 remains unchanged at Stage 04 with 5 issued IDs, 72 scenes and deferred audio. PDF private future retention unresolved by user choice.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",
