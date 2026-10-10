@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "engineering-math-1",
   "title": "Mathematics I — Calculus (Differentiation) | أولى هندسة",
-  "revision": "b02-stage-01-full-provisional-drafts-v1",
-  "description": "Engineering Mathematics I (first-year). Active B02: Functions and Their Graphs, textbook printed pp. 21–53; Stage 01 five complete provisional spoken drafts with 17 independent questions and delayed feedback; textbook original re-accessed, matching recorded SHA-256, future retention deferred; B02 Stage 02 critique/IDs/scenes not yet authorized. B01 remains five stable lesson IDs, 72 script-stage validated canonical scenes, with audio and academic review deferred.",
+  "revision": "b02-stage-02-critique-rewrites-v1",
+  "description": "Engineering Mathematics I, first-year. B02 active Stage 02: five complete critiqued/revised working spoken drafts (21 independent exams with distinct Arabic-reasoned feedback), printed textbook pp. 21–53, 30 selected calculation checks; B02 stable IDs/boundaries, scenes, human academic approval and audio not yet performed. Source p. 34 exponential domain/range mismatch recorded for human review. B01 remains five stable IDs with 72 canonical Stage 04 scenes; audio deferred. PDF future private storage remains deferred.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",
