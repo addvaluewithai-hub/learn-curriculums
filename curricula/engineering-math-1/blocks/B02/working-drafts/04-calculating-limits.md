@@ -1,19 +1,22 @@
 # B02 Stage 01 provisional working draft D — إزاي نحسب النهاية من غير ما نقع في فخ صفر على صفر؟
-**Stage:** B02 **Stage 01** — complete connected provisional draft; **not** Stage 02 sign-off, final boundary, stable ID or production scenes.
+**Stage:** B02 **Stage 02** — critically revised complete connected provisional draft; **no final ID, boundary, scenes/audio or academic approval**.
 **Source:** `abd-el-salam-math-i-scan`, printed pp. 39–46 (PDF pp. 23–27).
 **Prerequisites:** limit/nearby behavior (C); factors/fractions, basic trig and radians (brief bridges).
-**Working objectives:** use valid limit laws and algebraic simplification; recognize different one-sided behavior; calculate fundamental trigonometric limits.
+**Working objectives:** justify conditional limit laws and 0/0 forms, calculate limits by factoring or conjugates, distinguish two-sided finite vs divergent one-sided behavior, and apply radians-based trigonometric limits.
 **Authored examples:** original explanations, worked examples and questions, not transcriptions.
 **Legacy provenance:** Derived **verbatim in teaching/assessment body** from historical `curricula/engineering-math-1/working-drafts/04-calculating-limits.md` (previous curriculum-wide AI Stage 02 revision). Historical original is **frozen for audit**, while THIS B02-scoped copy is the sole active Stage 01 draft; no retroactive B02 gate approval is claimed. The current turn did not conduct a new Stage 02 critique.
 **Verified source scope:** printed 39–46 / PDF 23–27. On 2026-10-10 the conversation-mounted original PDF was reopened; SHA-256 matches the source manifest. Its future private retrieval is still unresolved at the user's request.
 **B01 prerequisite bridge:** B02 C limit meaning; B01 factorization and rational domain; radians bridge.
 **Deliberately deferred:** continuity and differentiation.
 **Teaching boundary:** Label D and order A→E are **provisional**; no stable B02 lesson ID or scene may be created until Stage 03 after a separate human gate.
+**Active critique/rewrite evidence:** `../reviews/STAGE_02_CRITIQUE.md`; algebraic vs trigonometric limit boundaries remain undecided until Stage 03. Source pp. 41–46 were visually checked again; some textbook explanatory remarks are not rigorous substitutes for one-sided sign analysis.
 
 ## Complete connected spoken draft
 دلوقتي عندنا سؤال واضح: لما إكس تقرب من رقم، إزاي أطلع قيمة الدالة اللي بتقرب لها؟ في مسائل كتير أول خطوة منطقية هي **Direct substitution**، يعني أجرب أحط الرقم في التعبير. لو $f(x)=x^2+2x$ وإكس بتقرب من ثلاثة، التعويض يديني تسعة زائد ستة، يعني خمسة عشر. في كثيرات الحدود، العمليات دي بتشتغل من غير مشاكل عند أي عدد حقيقي. لكن خلي في بالك إن ده وضع مناسب للتعويض، مش إذن إنك تتجاهل مقامات الأصفار أو دوال غير معرفة.
 
 قوانين **Limit laws** بتقول، لما النهايات المعنية موجودة ومحددة، إن نهاية مجموع دالتين هي مجموع نهايتيهما، ونهاية حاصل الضرب هي حاصل ضرب النهايتين، والثابت نقدر نطلعه بره. وبالنسبة للكسر، نقدر نقسم نهايتي البسط والمقام **بشرط إن نهاية المقام مش صفر**. الشرط ده أساسي. لو نهايتا البسط والمقام صفر، ماينفعش أقول إن النهاية صفر أو إنها غير موجودة بمجرد ما شفت صفر على صفر؛ دي إشارة إن طريقة التعويض لوحدها مش كفاية.
+
+صورة صفر على صفر مش رقم بنقدر نطلعه من الآلة. مثالين بسيطين هيورّونا ليه: نهاية $x/x$ عند اقتراب إكس من صفر تساوي واحد؛ لأن الكسر يساوي واحد عند كل إكس غير صفر. أما نهاية $x^2/x$ عند نفس النقطة فتساوي صفر؛ لأن الكسر بيساوي إكس بعيدًا عن الصفر. الاتنين بيدونا شكل صفر على صفر بالتعويض غير المسموح، لكن نهايتهم مختلفة. عشان كده السؤال الأول هو: هل نقدر نبسط التعبير على مدخلات قريبة **مسموح بها**؟
 
 خلينا نشتغل على $g(x)=(x^2-9)/(x-3)$ لما إكس تقرب من ثلاثة. التعويض الأول يطلع صفر على صفر. نحلل البسط: إكس تربيع ناقص تسعة تساوي إكس ناقص ثلاثة في إكس زائد ثلاثة. طول ما إكس مش مساوية ثلاثة، العامل المشترك ممكن يتبسط، فيبقى التعبير إكس زائد ثلاثة. الآن لما إكس تقرب من ثلاثة، القيم تقرب من ستة. إحنا ماقلناش إن الدالة الأصلية معرفة عند ثلاثة؛ قلنا إن اللي بيحصل حول النقطة يسمح لنا نحسب النهاية.
 
@@ -24,6 +27,8 @@
 خلينا نثبت حاجة مهمة قبل تطبيق القانون المثلثي: الراديان هو وحدة قياس الزاوية اللي بنستخدمها في نهايات الـCalculus دي. الزاوية $\pi$ راديان تساوي مية وتمانين درجة؛ وبالتالي لو الآلة الحاسبة على درجات من غير تحويل، مش ينفع ناخد منها نفس الحد الأساسي كما هو. وجود شرط الراديان مش تنبيه شكلي، ده جزء من صحة القانون.
 
 في الجزء الخاص بالدوال المثلثية، هنستخدم حقيقة أساسية: نهاية ساين إكس على إكس لما إكس تقرب من صفر تساوي واحد، **بشرط قياس الزاوية بالراديان**. خلي كلمة **radians** واضحة في ذهنك؛ لو بدلنا وحدة الزاوية من غير تحويل، النتيجة مش بنفس الصورة. ومن العلاقة بين الظل والساين والكوساين، بنستنتج إن نهاية تان إكس على إكس عند الصفر تساوي واحد برضه بالراديان.
+
+ليه قانون تان إكس على إكس طلع بنفس النهاية؟ حوالين الصفر، كوساين إكس بيقرب من واحد ومش صفر، فنقدر نكتب تان إكس على إكس كأنها ساين إكس على إكس مضروبًا في واحد على كوساين إكس. أول عامل بيقرب من واحد، والتاني كمان، فيبقى حاصل الضرب واحد. مش معناها إننا عوضنا بصفر داخل الكسر؛ الحساب كله على قيم قريبة وغير مساوية للصفر.
 
 خلينا نطبقها على $\sin(3x)/x$ لما إكس تقرب من صفر. نقسم ونضرب في ثلاثة: الناتج ثلاثة في ساين ثلاثة إكس على ثلاثة إكس. لما إكس تقرب من صفر، ثلاثة إكس كمان تقرب من صفر، والكسر المثلثي يقرب من واحد، فالنهاية ثلاثة. الحيلة هنا مش حفظ رقم ثلاثة؛ هي إننا نبني **نفس صورة القانون** ونراعي إن المعامل ظهر خارج الكسر.
 
