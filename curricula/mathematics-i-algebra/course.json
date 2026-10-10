@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "mathematics-i-algebra",
   "title": "Mathematics I — Algebra | رياضيات 1: الجبر",
-  "revision": "outline-v1-b01-stage01-2026-10-10",
-  "description": "منهج Mathematics I — Algebra لطلبة سنة أولى هندسة (تأكيد المستخدم 2026-10-10). Stage 01: مسودتان متصلتان لأول Block B01 من الصفحات المطبوعة 1–5. التغطية المتاحة من المصدر المصور: الصفحات المطبوعة 1–45 فقط؛ باقي المحتوى لم يُرفق.",
+  "revision": "outline-v1-b01-stage02-2026-10-10",
+  "description": "Mathematics I — Algebra لطلبة سنة أولى هندسة. Stage 00 خارطة كاملة مبدئية، B01 Stage 01 مسودتان متصلتان، B01 Stage 02 نقد علمي/تعليمي داخلي وتصحيح موثق؛ Stage 03 لم يبدأ. مصدر الكتاب الممسوح يتيح الصفحات المطبوعة 1–45 فقط، ولا يسند المحتوى من 46 فصاعدًا.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",
