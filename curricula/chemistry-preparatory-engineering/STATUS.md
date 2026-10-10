@@ -1,13 +1,13 @@
-# Curriculum STATUS — Chemistry Preparatory Engineering
+# Curriculum STATUS — Chemistry for First-Year Engineering
 
-- **Date:** 2026-10-10
-- **ID:** `chemistry-preparatory-engineering`
-- **Stage:** **Stage 00 completed (intake / provisional roadmap only)**; STOP / awaiting human `next` or `كمل`.
-- **Active Block:** **B01** (PDF pp5–10 / printed pp6–17).
-- **Whole-course plan:** 9 *provisional* Blocks B01–B09 in OUTLINE.md; no stable lesson IDs assigned.
-- **Source:** `chemistry-prep-sadik-scan-20261009`; the supplied upload has 20 scan pages, SHA-256 `c16cf18739edc03529c002bd921e9772917c42049932fa34cb6501fd10b9367c`, printed body available to p36 only.
-- **Storage:** linked Google Drive original was reachable during intake; no PDF committed to public repo. Reverify access later. Sharing metadata reports `anyone:writer`; private storage and rights unresolved.
-- **Coverage blocker:** printed p37 onward is missing. B03's end and B04–B09 cannot be scripted from the contents page alone.
-- **Authorship/reviews:** NO Stage 01 scripts, scenes, audio, timings, runtime approval, student publication, scientific or teaching sign-off.
-- **Scope branch:** `curriculum/chemistry-prep-stage00`; draft PR proposed for review (do not merge without the human).
-- **Next gate:** user `next` starts **B01 Stage 01 only** — reopen source, map prerequisites and write connected spoken drafts inside B01; then STOP.
+- **Date:** 2026-10-10.
+- **ID (unchanged):** `chemistry-preparatory-engineering`; user clarified audience as **طلبة سنة أولى هندسة**. The source book title *Chemistry for Preparatory-Engineering Students* remains original.
+- **Active Block:** **B01**, PDF pp5–10 / printed pp6–17. Whole-course provisional plan remains B01–B09.
+- **Stage completed:** **B01 Stage 01 (complete connected provisional speech drafts)**; STOP / awaiting human `next` for Stage 02 editorial critique.
+- **Drafts:** `blocks/B01/drafts/01-states-and-physical-changes.md`, `02-boyles-law.md`, `03-charles-law.md`; prerequisite/visual/source log at `blocks/B01/STAGE01_PLAN.md`.
+- **Stage 01 source:** uploaded 20-page scan reopened and SHA-256/size checked in session; B01 original pages and diagrams re-inspected. Future Drive reaccess and private retention not proven; rights and original scan sharing remain unresolved. No scan was committed.
+- **Source issue flags:** printed p9 condensation direction; printed p12 Boyle example 0.6 L vs mathematically correct 6 L; printed p16 Sheet1 pressure-temperature exercises; numbering mismatch.
+- **Missing book:** printed p37 onward unavailable. B03 partially and B04–B09 only contents-index source.
+- **Governance:** drafts are neither final student lesson boundaries nor scientifically reviewed. No `lesson.json`, `scenes/`, audio, paid TTS, timings, accepted reviews or publication. **Stage 02 not begun**.
+- **Source branch / review:** `curriculum/chemistry-prep-stage00`, Draft PR #11, remains unmerged and under human review.
+- **Next authorized action:** next bare `next`/`كمل` runs **B01 Stage 02 only** (critique plus rewrite); STOP.
