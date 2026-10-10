@@ -32,6 +32,13 @@
 
 **Total:** **21 independent exam questions** and **21 distinct post-attempt explanatory feedback sections**, up from 17/17 after four additional transfer checks. English wording, Egyptian-Arabic support, English model answer and Egyptian-Arabic explanatory feedback remain separately marked for every attempt, with answer disclosure after response. The old joint Stage 02 critique and frozen legacy manuscripts remain unchanged as historical evidence.
 
+## Checks actually executed on revised active B02 scripts
+
+- **5/5** GitHub file readbacks after revision passed a structural authoring audit: correct active B02 Stage 02 designation, complete connected spoken body and recap, each under the repository 300-line file limit, balanced inline math markers, and separate written-attempt sections.
+- **21/21** unique numbered question headings match **21/21** subsequent feedback headings in strict prompt-before-feedback order. Each has separately authored English exam wording, Egyptian Arabic comprehension support, English model answer and Egyptian Arabic explanation, with no feedback text in the pre-attempt question block.
+- **30/30** selected JS numerical/symbolic-neighborhood/boundary spot checks passed: finite mapping domain/co-domain outputs, tangent excluded angles, graph shifts, new C4 point-vs-limit contrast, algebraic and sine limits, radian scaling, one-sided signs, and E4 corner continuity. A numerical approximation near a limit is a **spot check**, not proof of the theorem.
+- No formal local original-PDF equation transcription certification, university mathematics lecturer sign-off, measured cognitive-load session, audio listening, student playback or Stage 04 scene validator was conducted for B02. This Stage 02 doesn't issue final lesson IDs.
+
 ## Unresolved reviews and gate
 
 Academic mathematics and book fidelity **UNTESTED** (including the p. 34 suspected typo); novice trials and cognitive-load outcomes **UNTESTED**. Actual audio pronunciation/voice, timing and runtime visuals **UNTESTED**. The repeated clusters B, C, D might warrant standalone rewritten student lessons but **no boundary decision or stable B02 IDs** may be issued in Stage 02. No lesson JSON, scene JSON, 16:9/9:16 storyboards, TTS, preview, source upload or publication produced here. B01 stays at Stage 04 with audio deferred.
