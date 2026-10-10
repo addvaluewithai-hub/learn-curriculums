@@ -35,7 +35,11 @@
     "params": {
       "title": "Question 1",
       "mode": "question",
-      "anchor": "UEN"
+      "anchor": "UEN",
+      "anchors": [
+        "UEN",
+        "UAR"
+      ]
     },
     "landscape": "16:9: Display English full question at its reviewed onset then show the Arabic supporting clause at its own onset; allow full-size written attempt field below the prompt. Keep numeric answer, rationale and feedback offscreen before submission; reveal feedback only in feedback phase.",
     "portrait": "9:16: Stack English question in a large readable paragraph then Arabic support in a separate RTL panel; reserve vertical space and allow scrolling for written response on 320px phone screens. No answer at question/attempt phase; feedback only after valid attempt."
@@ -75,6 +79,21 @@
       "answerUnitIds": {
         "english": "AEN",
         "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "chem1-states-phase-changes-board",
+        "module": "scenes/MatterBoard.tsx",
+        "params": {
+          "title": "Answer and reasoning",
+          "mode": "feedback",
+          "anchor": "AEN",
+          "anchors": [
+            "AEN",
+            "AAR"
+          ]
+        },
+        "landscape": "16:9: Reveal the English model answer at the recorded answer onset, then Arabic explanatory feedback at its later onset. Feedback stays hidden until a valid learner submission.",
+        "portrait": "9:16: Stacked English and RTL Arabic explanation cards, visually distinct from the question; large readable text and answer only after submission."
       }
     }
   }

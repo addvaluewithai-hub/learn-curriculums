@@ -1,8 +1,9 @@
+import type {CSSProperties} from "react";
 import {AbsoluteFill} from "remotion";
 import {cueIsVisible, visibleQuestionParts, type VisualProps} from "@learn/lesson-runtime";
 
 type BoardParams = {title?:string;mode?:string;anchors?:string[]};
-const textStyle: React.CSSProperties = {lineHeight:1.45,overflowWrap:"anywhere"};
+const textStyle: CSSProperties = {lineHeight:1.45,overflowWrap:"anywhere"};
 function Container({kind}:{kind:"solid"|"liquid"|"gas"}) {
   const color = kind==="solid"?"#98bdfa":kind==="liquid"?"#69d8d3":"#f3ce7c";
   return <div style={{border:"3px solid #8fbceb",borderTop:0,borderRadius:"0 0 14px 14px",
@@ -21,7 +22,7 @@ export default function MatterBoard(props:VisualProps) {
   const shown=(n:number)=>!!anchors[n]&&cueIsVisible(recording,anchors[n],frame,fps);
   const parts=question?visibleQuestionParts(question,recording,frame,fps):[];
   const answers=answer?.parts?.filter(p=>frame*1000/fps>=p.atMs)??[];
-  const box:React.CSSProperties={padding:portrait?16:22,background:"#1f354d",borderRadius:14};
+  const box:CSSProperties={padding:portrait?16:22,background:"#1f354d",borderRadius:14};
   const font=portrait?20:24;
   const mode=params.mode??"states";
   return <AbsoluteFill style={{background:"#0f2135",color:"#f3f8ff",fontFamily:"Tahoma, Arial, sans-serif",
