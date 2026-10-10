@@ -99,8 +99,10 @@ def collect(root, job_path, result_path, audio_path=None, transcript_path=None, 
         transcript = read_json(incoming / "transcript.json")
         report = verify(result, transcript, incoming / "audio.wav", expected_job=job_id)
         require(report["valid"], "Delivery invalid: " + "; ".join(report["errors"]))
-        require(transcript["source_text"].strip() == clip["script"].strip(),
-                "Delivered source_text differs; inspect normalization or the actual requested script")
+        # The TTS factory flattens bilingual newline breaks in source_text.
+        # Permit whitespace normalization only; altered words/equations still fail.
+        require(" ".join(transcript["source_text"].split()) == " ".join(clip["script"].split()),
+                "Delivered source words differ from canonical script")
         write_json(incoming / "verification.json", report)
         receipt = {"schemaVersion": 1, "clipId": clip["id"], "jobId": job_id,
                    "scriptHash": script_hash, "audioHash": report["audio_sha256"],

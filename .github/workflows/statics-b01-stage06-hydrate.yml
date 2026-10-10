@@ -1,0 +1,42 @@
+name: B01 Stage 06 original-artifact media linking
+
+on:
+  pull_request:
+    paths:
+      - 'tools/statics_b01_stage06_hydrate.py'
+      - 'tools/audio.py'
+      - 'tests/test_statics_b01_stage06_hydrate.py'
+      - '.github/workflows/statics-b01-stage06-hydrate.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  original-factory-takes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Confirm source/job verification test cases
+        run: python3 -m unittest discover -s tests -p 'test_statics_b01_stage06_hydrate.py' -v
+      - name: Collect two pilot real takes from their original factory result.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 tools/statics_b01_stage06_hydrate.py --limit 2 \
+            --output "$RUNNER_TEMP/b01-hydrate-report.json"
+      - name: Preserve local verified receipts + media in a short-lived CI artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: b01-stage06-original-factory-smoke
+          path: |
+            curricula/engineering-mechanics-statics-y1/lessons/*/media/
+            ${{ runner.temp }}/b01-hydrate-report.json
+          retention-days: 14
+          if-no-files-found: warn
