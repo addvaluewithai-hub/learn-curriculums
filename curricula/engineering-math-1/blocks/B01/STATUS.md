@@ -1,7 +1,7 @@
 # Block B01 STATUS — Preliminaries, Engineering Mathematics I
 
-**Date:** 2026-10-09  
-**Block/source:** B01 (ACTIVE), `abd-el-salam-math-i-scan`, printed pp. **1–20**, PDF image pp. **4–13**; printed pp. 19–20 are the source exercise bank, not copied problems.  
+**Updated:** 2026-10-10  
+**Block/source:** B01 (INACTIVE after human-authorized editorial handoff to B02), `abd-el-salam-math-i-scan`, printed pp. **1–20**, PDF image pp. **4–13**; printed pp. 19–20 are the source exercise bank, not copied problems.  
 **Branch and draft review:** `curriculum/engineering-math-1/stage-01-functions`, [PR #8](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8), **open, draft, not merged**. B02 is inactive.
 
 ## Human stage and real current checkpoint
@@ -24,8 +24,8 @@
 - **Storyboards, component source and answer gates checked structurally**, but real lesson components have **not been built/played with their own recorded word timings**. The passing SDK/preview CI fixture is **not** a student lesson visual/runtime approval.
 - **Untested independent reviews:** source/math professor sign-off; novice teaching trial; English/Arabic listening and formula pronunciation; delivered audio, measured word timestamps, 320px overflow/reduced motion, pause/replay/seek and actual SDK runtime playback. No paid TTS, accepted takes, platform DB or publication.
 
-## STOP — two separately authorized next choices
+## Editorial handoff on 2026-10-10 — voice deferred, no approval invented
 
-- **`next`** (bare) = **B01 Stage 05 representative bilingual/formula audio pilot preparation (dry-run only)**, following audio guidance. **Paid TTS requires separate explicit approval**. Stop again after this gate.
-- **`next block`** = **start/resume B02 Stage 01** following human inspection of B01 Stage 04 files, source re-access check and reconciliation of B02's preexisting historical Stage 01/02 scripts/critique; **do not invent B02 stable IDs or skip its newly required gates**. Deferred B01 audio/scientific approvals do not become `passed` by proceeding.
-- Until the user chooses, **no future gate is authorized**. Corrections only revise Stage 04 and stop.
+- The user expressly selected **`next block`** after Stage 04. **B02** was activated for **its own Stage 01** only. B01 remains at **Stage 04 authored and script-validated**; its five scene-based scripts, 72 scenes, 15 written questions/feedback and issued stable IDs are **unchanged**.
+- **B01 audio Stage 05 deferred** — no TTS pilot, paid voice dispatch, audio receipt, word alignments, runtime playback or human academic/teaching/visual `passed` review. A curriculum moving to B02 does **not** signify acceptance/release of B01.
+- B02 scope and current human stop: `../B02/STATUS.md`. The next bare `next` refers to **active B02 Stage 02**, not B01 audio. To resume B01 audio later, user must explicitly reselect B01 and authorize the appropriate stage/cost separately.
