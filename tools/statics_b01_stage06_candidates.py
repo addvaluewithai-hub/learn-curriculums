@@ -61,8 +61,22 @@ def stage_artifact(root,artifact_dir):
     require(len(roots)==3,"Missing one or more original lesson-media directories")
     for lesson,source in roots.items():
         target=Path(root)/"curricula"/COURSE/"lessons"/lesson/"media"
-        require(not target.exists(),"Refusing to replace existing selected lesson media")
-        shutil.copytree(source,target)
+        if target.exists():
+            # Durable receipt/result metadata may have been committed after review.
+            # Hydrate missing binaries but never overwrite an existing selected take.
+            for incoming in source.rglob("*"):
+                require(not incoming.is_symlink(),"Artifact symlink rejected")
+                if incoming.is_dir():continue
+                output=target/incoming.relative_to(source)
+                if output.is_file():
+                    require(output.read_bytes()==incoming.read_bytes(),
+                            "Stored media/receipt differs from original factory selection")
+                else:
+                    require(not output.exists(),"Existing non-file media target")
+                    output.parent.mkdir(parents=True,exist_ok=True)
+                    shutil.copyfile(incoming,output)
+        else:
+            shutil.copytree(source,target)
     return roots
 
 def report(root=ROOT,artifact_dir=None,log_original_results=False):
@@ -86,9 +100,12 @@ def report(root=ROOT,artifact_dir=None,log_original_results=False):
                 require(original["id"]==receipt["jobId"] and
                         original.get("metadata",{}).get("scriptHash")==receipt["scriptHash"],
                         "Factory original result does not match selected receipt")
-                # The exact semantic original result, not a reconstructed proxy.
+                # The exact semantic original result and SHA-verified selected
+                # receipt, both from the factory-linked take, never fabricated.
                 print("B01_ORIGINAL_RESULT|"+lesson_id+"|"+clip["id"]+"|"+
                       json.dumps(original,ensure_ascii=False,separators=(",",":")))
+                print("B01_ORIGINAL_RECEIPT|"+lesson_id+"|"+clip["id"]+"|"+
+                      json.dumps(receipt,ensure_ascii=False,separators=(",",":")))
     require(len(output)==69,"Expected 69 selected clips")
     return {"schemaVersion":1,"kind":"unreviewed-word-cue-candidates",
             "allMediaValid":True,"clipCount":len(output),"unitCount":total_units,
