@@ -1,0 +1,64 @@
+{
+  "id": "ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c",
+  "status": "completed",
+  "created_at": "2026-10-09T15:56:53.603Z",
+  "model": "gemini-3.8-flash-tts",
+  "routing": "quality",
+  "key_slot": 4,
+  "format": "wav",
+  "mime_type": "audio/wav",
+  "sample_rate": 24000,
+  "bytes": 1586274,
+  "audio_url": "https://res.cloudinary.com/as9o12al/video/upload/v1791561411/gemini-tts/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.wav",
+  "transcript_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791561412/gemini-tts/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.transcript.json",
+  "vtt_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791561413/gemini-tts/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.transcript.vtt",
+  "transcript": {
+    "status": "completed",
+    "provider": "gemini",
+    "model": "gemini-3.5-transcribe",
+    "key_slot": 2,
+    "word_count": 59,
+    "duration_ms": 32500,
+    "diarization": false,
+    "failed_attempts": [],
+    "local_json": "out/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.transcript.json",
+    "local_vtt": "out/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.transcript.vtt"
+  },
+  "cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/video/upload/v1791561411/gemini-tts/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.wav",
+    "public_id": "gemini-tts/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c",
+    "asset_id": "95cfddd860546b1566b96900335651ed",
+    "resource_type": "video",
+    "bytes": 1580238,
+    "format": "wav",
+    "duration": 32.92
+  },
+  "transcript_cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791561412/gemini-tts/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.transcript.json",
+    "public_id": "gemini-tts/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.transcript.json",
+    "asset_id": "908834c791deba0027c056709734aaef",
+    "resource_type": "raw",
+    "bytes": 7043,
+    "format": null,
+    "duration": null
+  },
+  "vtt_cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791561413/gemini-tts/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.transcript.vtt",
+    "public_id": "gemini-tts/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.transcript.vtt",
+    "asset_id": "63ef668c3a947e841f774252616c049d",
+    "resource_type": "raw",
+    "bytes": 785,
+    "format": null,
+    "duration": null
+  },
+  "local_file": "out/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.wav",
+  "attempts_before_success": 0,
+  "failed_attempts": [],
+  "metadata": {
+    "clipId": "N12",
+    "curriculumId": "engineering-mechanics-statics-y1",
+    "lessonId": "ems-y1-units-conversions",
+    "role": "teaching",
+    "scriptHash": "5066748707999200cd498a152875b726c856fb78a40a40fbab9da0ab3b1d13c0"
+  }
+}

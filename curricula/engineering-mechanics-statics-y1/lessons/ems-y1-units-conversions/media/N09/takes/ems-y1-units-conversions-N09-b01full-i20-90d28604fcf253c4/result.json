@@ -1,0 +1,64 @@
+{
+  "id": "ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4",
+  "status": "completed",
+  "created_at": "2026-10-10T08:05:30.378Z",
+  "model": "gemini-3.8-flash-tts",
+  "routing": "quality",
+  "key_slot": 2,
+  "format": "wav",
+  "mime_type": "audio/wav",
+  "sample_rate": 24000,
+  "bytes": 1442274,
+  "audio_url": "https://res.cloudinary.com/as9o12al/video/upload/v1791619528/gemini-tts/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4.wav",
+  "transcript_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619529/gemini-tts/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4.transcript.json",
+  "vtt_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619530/gemini-tts/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4.transcript.vtt",
+  "transcript": {
+    "status": "completed",
+    "provider": "gemini",
+    "model": "gemini-3.5-transcribe",
+    "key_slot": 3,
+    "word_count": 62,
+    "duration_ms": 29600,
+    "diarization": false,
+    "failed_attempts": [],
+    "local_json": "out/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4.transcript.json",
+    "local_vtt": "out/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4.transcript.vtt"
+  },
+  "cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/video/upload/v1791619528/gemini-tts/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4.wav",
+    "public_id": "gemini-tts/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4",
+    "asset_id": "6001a9809531a4f60f0cefb13c89919f",
+    "resource_type": "video",
+    "bytes": 1436238,
+    "format": "wav",
+    "duration": 29.92
+  },
+  "transcript_cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619529/gemini-tts/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4.transcript.json",
+    "public_id": "gemini-tts/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4.transcript.json",
+    "asset_id": "0e104bf3b5f2cbedc59f6d9aae27a5dc",
+    "resource_type": "raw",
+    "bytes": 7490,
+    "format": null,
+    "duration": null
+  },
+  "vtt_cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619530/gemini-tts/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4.transcript.vtt",
+    "public_id": "gemini-tts/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4.transcript.vtt",
+    "asset_id": "9ed951949c0e27953cb77704ee104b57",
+    "resource_type": "raw",
+    "bytes": 828,
+    "format": null,
+    "duration": null
+  },
+  "local_file": "out/ems-y1-units-conversions-N09-b01full-i20-90d28604fcf253c4.wav",
+  "attempts_before_success": 0,
+  "failed_attempts": [],
+  "metadata": {
+    "clipId": "N09",
+    "curriculumId": "engineering-mechanics-statics-y1",
+    "lessonId": "ems-y1-units-conversions",
+    "role": "teaching",
+    "scriptHash": "90d28604fcf253c48eefc983b7b7601053d612d99b85e0727591ab7cf3d7b940"
+  }
+}

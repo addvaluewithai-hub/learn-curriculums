@@ -1,0 +1,95 @@
+{
+  "id": "ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0",
+  "status": "completed",
+  "created_at": "2026-10-10T08:06:01.643Z",
+  "model": "gemini-3.8-flash-lite-tts",
+  "routing": "quality",
+  "key_slot": 3,
+  "format": "wav",
+  "mime_type": "audio/wav",
+  "sample_rate": 24000,
+  "bytes": 584034,
+  "audio_url": "https://res.cloudinary.com/as9o12al/video/upload/v1791619560/gemini-tts/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0.wav",
+  "transcript_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619560/gemini-tts/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0.transcript.json",
+  "vtt_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619561/gemini-tts/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0.transcript.vtt",
+  "transcript": {
+    "status": "completed",
+    "provider": "gemini",
+    "model": "gemini-3.5-transcribe",
+    "key_slot": 1,
+    "word_count": 17,
+    "duration_ms": 11500,
+    "diarization": false,
+    "failed_attempts": [],
+    "local_json": "out/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0.transcript.json",
+    "local_vtt": "out/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0.transcript.vtt"
+  },
+  "cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/video/upload/v1791619560/gemini-tts/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0.wav",
+    "public_id": "gemini-tts/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0",
+    "asset_id": "01f46963cf82686dc0fe1a3a72926723",
+    "resource_type": "video",
+    "bytes": 577998,
+    "format": "wav",
+    "duration": 12.04
+  },
+  "transcript_cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619560/gemini-tts/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0.transcript.json",
+    "public_id": "gemini-tts/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0.transcript.json",
+    "asset_id": "dbdad5d26d1c7583f3ab93aa322eee57",
+    "resource_type": "raw",
+    "bytes": 2355,
+    "format": null,
+    "duration": null
+  },
+  "vtt_cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619561/gemini-tts/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0.transcript.vtt",
+    "public_id": "gemini-tts/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0.transcript.vtt",
+    "asset_id": "cf7310e542fa5ffbabfea8b364e60508",
+    "resource_type": "raw",
+    "bytes": 197,
+    "format": null,
+    "duration": null
+  },
+  "local_file": "out/ems-y1-units-conversions-N14-b01full-i21-5523f1bbbea4a4b0.wav",
+  "attempts_before_success": 5,
+  "failed_attempts": [
+    {
+      "model": "gemini-3.8-flash-tts",
+      "key_slot": 1,
+      "status": 429,
+      "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 3, model: gemini-3.8-flash-tts\nPlease retry in 9.186433384s."
+    },
+    {
+      "model": "gemini-3.8-flash-tts",
+      "key_slot": 2,
+      "status": 429,
+      "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.8-flash-tts\nPlease retry in 15h54m8.976546942s."
+    },
+    {
+      "model": "gemini-3.8-flash-tts",
+      "key_slot": 3,
+      "status": 429,
+      "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.8-flash-tts\nPlease retry in 15h54m8.843723194s."
+    },
+    {
+      "model": "gemini-3.8-flash-tts",
+      "key_slot": 4,
+      "status": 429,
+      "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.8-flash-tts\nPlease retry in 15h54m8.687625334s."
+    },
+    {
+      "model": "gemini-3.8-flash-tts",
+      "key_slot": 5,
+      "status": 429,
+      "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 3, model: gemini-3.8-flash-tts\nPlease retry in 8.508799806s."
+    }
+  ],
+  "metadata": {
+    "clipId": "N14",
+    "curriculumId": "engineering-mechanics-statics-y1",
+    "lessonId": "ems-y1-units-conversions",
+    "role": "question",
+    "scriptHash": "5523f1bbbea4a4b03ceda15ede5210022636d4055d6bfaa1e053acff3cac549a"
+  }
+}

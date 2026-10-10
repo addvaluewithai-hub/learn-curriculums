@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "clipId": "F04",
+  "jobId": "ems-y1-units-conversions-F04-b01full-i22-391f7f550cc3eb96",
+  "scriptHash": "391f7f550cc3eb9696e7e9138fb8a62829d02f70c25ec57343da1598555f33cf",
+  "audioHash": "dbe535b1e39a4764c84333e020077d0c7c59fd5d91c4554e9a1a9a82dc95d377",
+  "transcriptHash": "f3aa0301fde1eb2fa841d2f93c0fd0b83746a1caf12e45e396fd623b98e12340",
+  "durationMs": 32560,
+  "files": {
+    "audio": "takes/ems-y1-units-conversions-F04-b01full-i22-391f7f550cc3eb96/audio.wav",
+    "transcript": "takes/ems-y1-units-conversions-F04-b01full-i22-391f7f550cc3eb96/transcript.json",
+    "result": "takes/ems-y1-units-conversions-F04-b01full-i22-391f7f550cc3eb96/result.json"
+  }
+}

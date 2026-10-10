@@ -1,0 +1,64 @@
+{
+  "id": "ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113",
+  "status": "completed",
+  "created_at": "2026-10-10T08:04:16.435Z",
+  "model": "gemini-3.8-flash-tts",
+  "routing": "quality",
+  "key_slot": 1,
+  "format": "wav",
+  "mime_type": "audio/wav",
+  "sample_rate": 24000,
+  "bytes": 1037154,
+  "audio_url": "https://res.cloudinary.com/as9o12al/video/upload/v1791619455/gemini-tts/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113.wav",
+  "transcript_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619455/gemini-tts/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113.transcript.json",
+  "vtt_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619456/gemini-tts/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113.transcript.vtt",
+  "transcript": {
+    "status": "completed",
+    "provider": "gemini",
+    "model": "gemini-3.5-transcribe",
+    "key_slot": 2,
+    "word_count": 29,
+    "duration_ms": 21200,
+    "diarization": false,
+    "failed_attempts": [],
+    "local_json": "out/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113.transcript.json",
+    "local_vtt": "out/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113.transcript.vtt"
+  },
+  "cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/video/upload/v1791619455/gemini-tts/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113.wav",
+    "public_id": "gemini-tts/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113",
+    "asset_id": "e35e1cb4c8423ad936f04e406a9ff270",
+    "resource_type": "video",
+    "bytes": 1031118,
+    "format": "wav",
+    "duration": 21.48
+  },
+  "transcript_cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619455/gemini-tts/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113.transcript.json",
+    "public_id": "gemini-tts/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113.transcript.json",
+    "asset_id": "bae4b35c678609533886e36bccaf71b6",
+    "resource_type": "raw",
+    "bytes": 3992,
+    "format": null,
+    "duration": null
+  },
+  "vtt_cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619456/gemini-tts/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113.transcript.vtt",
+    "public_id": "gemini-tts/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113.transcript.vtt",
+    "asset_id": "8d3b97b1b1194cececbe6537215df250",
+    "resource_type": "raw",
+    "bytes": 414,
+    "format": null,
+    "duration": null
+  },
+  "local_file": "out/ems-y1-newton-gravity-F01-b01full-i15-8241627a8e7a3113.wav",
+  "attempts_before_success": 0,
+  "failed_attempts": [],
+  "metadata": {
+    "clipId": "F01",
+    "curriculumId": "engineering-mechanics-statics-y1",
+    "lessonId": "ems-y1-newton-gravity",
+    "role": "feedback",
+    "scriptHash": "8241627a8e7a31133a47faa481730d3c02e48286c97e82ff1fe7665fb21be011"
+  }
+}
