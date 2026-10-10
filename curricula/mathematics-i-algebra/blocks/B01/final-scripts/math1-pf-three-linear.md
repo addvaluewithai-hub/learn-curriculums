@@ -1,8 +1,8 @@
 # L04 — ثلاثة عوامل خطية ومقارنة المعاملات
 
-- **Stable lesson ID (Stage 03):** \`math1-pf-three-linear\`.
+- **Stable lesson ID (Stage 03):** `math1-pf-three-linear`.
 - **Order:** 4.
-- **Original source:** \`math1-algebra-scan-20261009\`؛ printed **4–5** / PDF **5**؛ Example 5 وتكملة قواعد العامل الخطي.
+- **Original source:** `math1-algebra-scan-20261009`؛ printed **4–5** / PDF **5**؛ Example 5 وتكملة قواعد العامل الخطي.
 - **Prerequisites:** L01–L03: Proper، تحليل عوامل، هوية البسط واستخراج الثوابت لعاملين.
 - **Objectives:** C1 تحليل المقام لثلاثة عوامل خطية وكتابة ثلاثة كسور؛ C2 فك الهوية ومقارنة معاملات \(x^2,x,\) والثابت وحل نظام الثوابت؛ C3 التحقق بطريقة مستقلة من حلول الهوية مع المحافظة على المجال.
 - **Assessment:** C-Q1/C-F1 (full new expression and matching); C-Q2/C-F2 (explain discrepancy/correct coefficient without recycling source print).
