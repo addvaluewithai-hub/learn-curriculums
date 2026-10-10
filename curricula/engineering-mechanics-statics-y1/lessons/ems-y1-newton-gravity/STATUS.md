@@ -23,3 +23,8 @@
 ## B01 Stage 05 — full audio catalog (2026-10-10)
 - **All 25/25 canonical clips generated** (narration + separate feedback), with real WAV, transcript JSON and VTT externally verified. Voice Gacrux, routing quality. Each actual job and provider URL is indexed at `../../blocks/B01/AUDIO_ASSETS.json`; human listening catalog `../../blocks/B01/AUDIO_LISTENING_INDEX.md`.
 - Previous pilot section above is historical; **no other clips are pending synthesis** for this lesson at this source version. `review.json` categories remain `untested`; local media receipts/timed anchors/visual playback not yet completed. Do not treat production as approval or authorized Stage 06.
+
+## B01 Stage 06 — evidence-only technical preflight (partial, 2026-10-10)
+- **25/25 real WAVs plus factory transcript and VTT** checked against current canonical scene clip scripts in GitHub Actions run `38038542682`; no structural violations. The original audio clip identity and text are preserved (factory only flattened bilingual paragraph breaks).
+- **Actual B01 preview still blocked:** `media/N01/receipt.json` not present. Lesson files have NOT been selected via `audio-collect` or imported as reviewed local immutable takes; cue `timing.json` and real mobile/landscape playback were not invented.
+- Human listening, science, audio, timing, visual and runtime checks remain `untested`. See `../../blocks/B01/STAGE_06_TECHNICAL_PREFLIGHT.md` for audit/artifact and decisions needed.
