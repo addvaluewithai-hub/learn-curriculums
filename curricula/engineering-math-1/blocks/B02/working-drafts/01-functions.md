@@ -1,14 +1,15 @@
 # B02 Stage 01 provisional working draft A — الدالة: مدخلات، مخرجات، مجال ومدى
-**Stage:** B02 **Stage 01** — complete connected provisional draft; **not** Stage 02 sign-off, final boundary, stable ID or production scenes.
+**Stage:** B02 **Stage 02** — critically revised complete connected provisional draft; **no final ID, final boundary, scene, audio or human academic approval**.
 **Source:** `abd-el-salam-math-i-scan`, textbook printed pp. 21–25 (PDF pp. 14–16).
 **Prerequisites:** Cartesian axes (assumed), square roots and inequalities (brief bridge).
-**Working objectives:** explain function/domain/range; detect domain restrictions; use the vertical-line test.
+**Working objectives:** explain function/domain/range, including co-domain; detect domain restrictions; use the vertical-line test; distinguish actual finite-input range from a stated co-domain.
 **Authored examples:** all examples and exam questions here are original and not transcribed from the book.
 **Legacy provenance:** Derived **verbatim in teaching/assessment body** from historical `curricula/engineering-math-1/working-drafts/01-functions.md` (previous curriculum-wide AI Stage 02 revision). Historical original is **frozen for audit**, while THIS B02-scoped copy is the sole active Stage 01 draft; no retroactive B02 gate approval is claimed. The current turn did not conduct a new Stage 02 critique.
 **Verified source scope:** printed 21–25 / PDF 14–16. On 2026-10-10 the conversation-mounted original PDF was reopened; SHA-256 matches the source manifest. Its future private retrieval is still unresolved at the user's request.
 **B01 prerequisite bridge:** B01 number-line/interval language; Cartesian coordinates briefly reintroduced.
 **Deliberately deferred:** function families and limits.
 **Teaching boundary:** Label A and order A→E are **provisional**; no stable B02 lesson ID or scene may be created until Stage 03 after a separate human gate.
+**New active Block Stage 02 evidence:** `../reviews/STAGE_02_CRITIQUE.md`; legacy joint-workflow Stage 02 is not a current B02 sign-off. Human science and pedagogy reviews remain pending.
 
 ## Complete connected spoken draft
 تخيل إن عندنا ماكينة صغيرة: بتحط فيها رقم، فتعمل عليه قاعدة محددة، وتطلع لك رقم. لو دخلت اتنين، واتفقت الماكينة إنها تضرب الرقم في نفسه، هتطلع أربعة. ولو دخلت ثلاثة هتطلع تسعة. الفكرة دي بداية معنى كلمة **Function** أو دالة. بس في شرط مهم جدًا: كل مدخل مسموح لازم يكون له **ناتج واحد بالضبط**. عادي إن مدخلين مختلفين يطلعوا نفس الناتج؛ اللي مش عادي هو إن المدخل الواحد يطلع ناتجين مختلفين في نفس الدالة.
@@ -22,6 +23,8 @@
 وعكس المجال، **Range** أو المدى هو كل القيم اللي ممكن الدالة تطلعها فعلًا. في ماكينة التربيع $f(x)=x^2$، لما نسمح بكل الأعداد الحقيقية كمدخلات، الناتج مستحيل يكون سالب، ويقدر يكون أي قيمة صفر أو أكبر. إذن المدى من صفر إلى ما لا نهاية، مع دخول الصفر. أما دالة الجذر $h(x)=\sqrt{4-x}$ فمدخلاتها لحد أربعة، ونواتجها برضه من صفر لفوق. مهم ما تخلطش بين مجموعة المدخلات ومجموعة النواتج؛ الاتنين ممكن يختلفوا حتى لو الشكل متشابه.
 
 فيه كلمة كمان موجودة في تعريف الكتاب: **Co-domain**، أو مجموعة النواتج اللي أعلنّا من البداية إن الدالة هتختار منها. **Range** أو المدى هو الجزء اللي الدالة وصلت له فعلًا. لو كتبنا إن دالة التربيع من الأعداد الحقيقية إلى الأعداد الحقيقية، فالمجموعة المقصودة للنواتج ممكن تبقى الأعداد الحقيقية كلها، لكن المدى الفعلي يفضل الأعداد من صفر لفوق. الفرق ده ما يلغيهوش إن بعض التمارين بتسأل عن المجال والمدى بس.
+
+خلينا نثبت الفرق بالمجموعات الصغيرة. لو المجال هو $\{-2,0,2\}$ والدالة $f(x)=x^2$، فالنواتج الفعلية بس صفر وأربعة، يعني المدى $\{0,4\}$؛ مش كل الأعداد الموجبة. ولو اختار صاحب المسألة مجموعة النواتج المقصودة إنها $\mathbb R$، ده اسمه الـCo-domain، وما يجبرش الدالة تنتج كل عدد فيها. قبل ما تحسب المدى اسأل: المجال المسموح كامل ولا محدد في السؤال؟
 
 ولو الدالة مترسومة، نقدر نسأل: هل الرسم بيمثل دالة في إكس؟ تصور خط رأسي عند قيمة معينة من إكس. لو الخط قطع الرسم في نقطتين مختلفتين، يبقى نفس الإكس ليه قيمتين من واي، وده مش Function of x. دي فكرة **Vertical Line Test**. مثلًا الدائرة الكاملة مش دالة واحدة في إكس، لأنها في أغلب مواضعها بتدي واي فوق وواي تحت لنفس الإكس. لكن الجزء العلوي لوحده ممكن يمثل دالة على المجال المناسب. الرسم إذن مش مجرد شكل؛ هو طريقة تتأكد بيها إن قاعدة المدخل الواحد والناتج الواحد متحققة.
 
@@ -56,8 +59,17 @@
 **Model answer (English):** No. At $x=0$, the relation has two outputs, $y=3$ and $y=-3$, so it fails the vertical-line test.
 **Feedback spoken:** عند إكس تساوي صفر، المعادلة بتقول واي تربيع تساوي تسعة، فواي ممكن تكون تلاتة أو سالب تلاتة. يعني نفس المدخل له نتيجتين مختلفتين، والخط الرأسي عند إكس صفر هيقابل الرسم في نقطتين. بالتالي العلاقة دي مش واي كدالة واحدة في إكس.
 
+## Independent attempt Q-A4 — fresh finite-domain and co-domain transfer
+**Question spoken (English):** Let $f:A\to\mathbb R$, where $A=\{-1,0,2\}$ and $f(x)=x^2+1$. State the domain, the co-domain and the actual range.
+**Question spoken (Arabic support):** مجال الدالة هو المجموعة اللي فيها سالب واحد وصفر واتنين، والقاعدة إكس تربيع زائد واحد، والـCo-domain الأعداد الحقيقية. اكتب المجال والمدى الحقيقي ومجموعة النواتج المقصودة.
+**Attempt:** written; do not reveal the three outputs or actual range until attempt.
+
+### Post-attempt feedback A4 — separate spoken text
+**Model answer (English):** Domain $A=\{-1,0,2\}$; co-domain $\mathbb R$; range $\{1,2,5\}$.
+**Feedback spoken:** عند سالب واحد الناتج اتنين، وعند صفر الناتج واحد، وعند اتنين الناتج خمسة؛ يبقى المدى الفعلي الأعداد واحد واتنين وخمسة، مهما كان ترتيبها. لكن الـCo-domain اللي اتفقنا عليها في تعريف الدالة هي الأعداد الحقيقية كلها. عدد القيم المسموح لنا ندخلها مش بيكبر لمجرد إننا كتبنا مجموعة نواتج مستهدفة أكبر.
+
 ## Closing spoken recap
-قبل ما نكمل للرسومات المختلفة، خليك فاكر الأسئلة الثلاثة: هل لكل مدخل ناتج واحد؟ إيه المدخلات اللي التعبير يسمح بيها؟ وإيه النواتج اللي تقدر تظهر فعلًا؟ لو جاوبت عليهم، أنت بنيت الأساس اللي هنستخدمه مع أنواع الدوال والنهايات بعد كده.
+قبل ما نكمل للرسومات المختلفة، خليك فاكر الأسئلة الأساسية: هل لكل مدخل ناتج واحد؟ إيه المدخلات اللي التعبير يسمح بيها؟ وإيه النواتج اللي تقدر تظهر فعلًا؟ لو جاوبت عليهم، أنت بنيت الأساس اللي هنستخدمه مع أنواع الدوال والنهايات بعد كده.
 
 ## Rough visual ideas (editorial, NOT final storyboard)
 Animate input→rule→output, restrict $x=2$ on a number line, contrast a full circle with one semicircle, and reveal feedback only after an attempt.
