@@ -130,8 +130,16 @@ def stage_artifact(root,artifact_dir):
                 if incoming.is_dir():continue
                 output=target/incoming.relative_to(source)
                 if output.is_file():
-                    require(output.read_bytes()==incoming.read_bytes(),
-                            "Stored media/receipt differs from original factory selection")
+                    # Git stores canonical JSON serialized with indentation; GitHub
+                    # factory artifact may serialize the SAME values differently.
+                    # Compare immutable JSON values for receipts/original results,
+                    # but require byte-for-byte matches for WAV and ASR assets.
+                    if incoming.name in {"receipt.json","result.json"}:
+                        require(read_json(output)==read_json(incoming),
+                                "Stored receipt/result values differ from original factory")
+                    else:
+                        require(output.read_bytes()==incoming.read_bytes(),
+                                "Stored media bytes differ from original factory selection")
                 else:
                     require(not output.exists(),"Existing non-file media target")
                     output.parent.mkdir(parents=True,exist_ok=True)
