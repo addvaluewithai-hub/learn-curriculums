@@ -1,14 +1,14 @@
 # STATUS — B01 Solids and Elasticity
 
-- **Date:** 2026-10-10 | **Last completed gate:** **Stage 02 — critique and rewrite**. Stage 03–06 not started.
-- **Audience:** first-year engineering students. Source opened: S01 PDF pp.5–11 / printed 121–133, S02 PDF p.1 / printed 124–125.
-- **Critique:** review/STAGE02_CRITIQUE.md documents F01–F14 with original weak passages, scientific/source clarity fixes, bilingual teaching and independent assessments.
-- **Revised connected working drafts (not IDs):** drafts/WORKING-01*, WORKING-02*, WORKING-03*. Their Stage 01 versions survive in Git history.
-- **Main corrections:** average engineering axial stress; elastic ≠ necessarily linear; strength ≠ stiffness; signed ΔL; Young axial/linear assumptions; effective axial k; shear small-angle approximation; signed pressure/volume for Bulk with source caveat.
-- **Assessment coverage:** 01 has independent crystalline/elastic conceptual reasoning plus new rod calculation; 02 has independent Y/k calculation plus geometry transfer; 03 has separate independent Shear and Bulk applications. Solutions only after attempt.
-- **Provisional boundary recommendation:** 01 keep/chunk; 02 keep; 03 **internal Shear/Bulk pause or possible split**, decision only at Stage 03. No stable IDs or final scripts.
-- **Actual checks:** source page reinspection, content critique, arithmetic/units self-check. Structural script/media/timed validations not applicable (no scenes). Human source/teaching review still **untested**.
-- **Blockers:** blurry textbook pp.129–133 numerals and diagrams; original source rights/access; instructor and learner reviews pending.
-- **Not produced:** lesson.json, scenes/storyboards, audio/timing, SDK preview or student release.
+- **Date:** 2026-10-10 | **Last fully completed gate:** Stage 03 — confirmed lesson boundaries and final connected editorial scripts. Stage 04–06 not started.
+- **Audience:** first-year engineering. **Source:** printed textbook 121–133 (S01 PDF pp.5–11), plus clearer printed 124–125 (S02 PDF p.1).
+- **Output:** 4 issued lessons, order 801–804: phys1-solid-structure-stress-strain, phys1-young-axial-stiffness, phys1-shear-deformation, phys1-bulk-compression.
+- **Boundary result:** W01 KEEP with internal parts, W02 KEEP, W03 SPLIT and **REWRITE** into separate coherent Shear and Bulk scripts; not mechanical transcript division. Exact mapping and rationale: review/STAGE03_BOUNDARY_DECISION.md.
+- **Canonical editorial scripts:** final-scripts/01-phys1-solid-structure-stress-strain.md; 02-phys1-young-axial-stiffness.md; 03-phys1-shear-deformation.md; 04-phys1-bulk-compression.md. Each has opening, connected explanation, SI example, two independent bilingual attempts, separate feedback and ending.
+- **Stable ID/coverage plan:** ../../OUTLINE.md includes orders, prerequisite dependency, specific source locators and O1–O3 teaching → Attempt mappings per lesson. WORKING drafts are history only.
+- **Reviews:** Stage 02 AI critique and Stage 03 editorial rereview done; **independent qualified physics and student teaching tests UNTESTED**. No approval declarations.
+- **Limits:** book p.129 and some printed exercises 130–133 blurry; signed Bulk formula a labeled supplementary explanation; no scan/public URL published; original permissions/rights unresolved.
+- **Tests:** numerical and objective/attempt/feedback sanity planned/rechecked; structural \`validate --stage script\` not applicable because Scenes not authored until next gate.
+- **Deferred production:** lesson.json and scene files, storyboards, word anchors, audio, timing, preview and student publishing have not started.
 
-**Awaiting human next:** “كمل” → Stage 03, finalize lesson boundaries and write distinct complete scripts, STOP. User comments → amend Stage 02.
+**Human decision awaited:** “Next/كمل” → B01 Stage 04, create scenes, storyboards and run script validation, then STOP; or comments to edit current editorial gate before advancement.

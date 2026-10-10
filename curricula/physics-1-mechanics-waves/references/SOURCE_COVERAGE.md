@@ -34,3 +34,9 @@
 - الصفحات المطبوع 130–133 عُوينت كتمارين: عمود رأسي، حمولة الذراع، قص لوح/مكدس، كرة مضغوطة في سائل. **أرقام/أسس بعض المعطيات غير مقروءة بدقة** ولا تُعد مصدرًا لقيم مسائلنا المؤلفة أو إجابات كتابية مزعومة.
 - **اختلاف صياغة الصيغ:** رسم Bulk في المطبوع 129 باهت؛ استخدام \(B=-\Delta P/(\Delta V/V_0)\) في مسودة 03 هو توضيح بإشارة الضغط/الحجم يحتاج مراجعة بشرية، وليس نقلًا حرفيًا مؤكَّدًا من الصورة.
 - **الناتج:** خريطة متطلبات ومسودات B01 الثلاث فقط؛ لا مراجعة علمية مستقلة ولا إثبات وصول مستقبلي إلى نسخة Drive ثابتة.
+
+## B01 Stage 03 — finalized topical coverage (2026-10-10)
+- Source S01 printed pp.121–126 and S02 clearer pp.124–125 → L801 particle structure, deformation, stress-strain. S01 pp.126–127 → L802 Young/Hooke and axial stiffness.
+- Source S01 printed p.128 → L803 shear; printed p.129 → L804 bulk. S01 printed pp.130–133 are exercise examples/themes referenced without attributing illegible numeric constants or answers to the scan.
+- Re-checked provided images at Stage 03; no source additions and no resolution of faint text in p.129 and numerical exercises. Bulk sign and shear angular caveats are *authored scientific clarifications*, pending qualified review.
+- This Stage 03 map makes **no new claims about chapters 1–7, Fluid Mechanics or other unseen pages**, and does not turn source ownership or access into publication permission.

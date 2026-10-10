@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "physics-1-mechanics-waves",
   "title": "فيزياء 1 — الميكانيكا والموجات (Physics I: Mechanics and Waves)",
-  "revision": "B01-stage02-editorially-revised-v1",
-  "description": "Physics I for first-year engineering: B01 Solids and Elasticity editorially critiqued and rewritten in Stage 02; no independent academic approval, final lesson boundaries or scenes.",
+  "revision": "B01-stage03-boundaries-finalized-v1",
+  "description": "Physics I for first-year engineering: B01 Solid and Elasticity boundaries finalized into four stable lesson IDs with connected editorial scripts in Stage 03. Independent academic reviews, scenes, media and student publication pending.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",

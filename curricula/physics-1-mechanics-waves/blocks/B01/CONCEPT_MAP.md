@@ -1,8 +1,8 @@
-# B01 — Stage 01 prerequisite and concept map (provisional)
+# B01 — concept dependency map (B01 Stage 03 lesson boundaries confirmed)
 
 **Audience confirmed by user:** First-year engineering students. Introductory Physics I; exact department/exam syllabus not known.
 **Source reopened visually:** S01 PDF pp.5–11, printed 121–133; S02 PDF p.1, printed 124–125. Not the full textbook.
-**Scope:** B01 only. Candidate units are editorial labels, **not issued stable lesson IDs**.
+**Scope:** B01 only. Working 01/02/03 labels are prior editorial drafts; **issued stable lesson IDs** and assessment coverage now live in ../../OUTLINE.md and final-scripts/.
 
 ## Concept readiness and dependency chain
 
@@ -49,3 +49,10 @@
 - WORKING-02: axial small-strain uniform rod assumptions and SI area conversion; Y (material modulus, Pa) vs k (element axial stiffness, N/m) emphasized; two-rod independent transfer added.
 - WORKING-03: simple small shear and γ≈Δx/h, explicit signed ΔP and ΔV for Bulk; check Shear/Bulk internal sections or split after evaluating cognitive load at Stage 03.
 - Full F01–F14 editorial evidence and arithmetic self-check: review/STAGE02_CRITIQUE.md. Still requires independent academic, student and listening review. No final IDs.
+
+## Stage 03 final lesson dependencies (issued)
+- phys1-solid-structure-stress-strain (order 801) provides particle/solid/deformation and Stress/Strain foundations, with internal conceptual checkpoints.
+- phys1-young-axial-stiffness (order 802) uses 801 to derive axial Young/Y and effective k; SI and geometry transfer reinforced.
+- phys1-shear-deformation (order 803) transfers the Stress/Strain pattern to tangential force and simple shear; self-contained review of basic definitions.
+- phys1-bulk-compression (order 804) contrasts axial/shear against pressure acting from all directions, signed volumetric change and B.
+- Stage 03 rewrote full independent introductions, guided and independent tests and recaps for L803 and L804 rather than slicing the Stage 02 Shear/Bulk transcript. Lesson IDs and orders must not be silently changed in subsequent gates.
