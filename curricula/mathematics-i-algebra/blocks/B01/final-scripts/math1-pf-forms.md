@@ -1,8 +1,8 @@
 # L02 — اختيار صورة الكسور الجزئية من عوامل المقام
 
-- **Stable lesson ID (Stage 03):** \`math1-pf-forms\`
+- **Stable lesson ID (Stage 03):** `math1-pf-forms`
 - **Order:** 2.
-- **Original source:** \`math1-algebra-scan-20261009\`، المطبوع **2–3** / PDF **4**؛ Rules 1–7 وExamples 2/3.
+- **Original source:** `math1-algebra-scan-20261009`، المطبوع **2–3** / PDF **4**؛ Rules 1–7 وExamples 2/3.
 - **Prerequisites:** L01: polynomial degree، Proper fraction، factorization، مجال المقام.
 - **Objectives:** S1 اختيار القالب من العوامل الخطية المختلفة والمكررة؛ S2 اختيار البسط الخطي للعوامل التربيعية غير القابلة للتحليل على الأعداد الحقيقية؛ S3 جمع القواعد في مقام مختلط دون حل المعاملات.
 - **Questions/feedback:** S-Q1/S-F1 وS-Q2/S-F2 **من إعدادنا**، الإجابات بعد المحاولة فقط.
