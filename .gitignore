@@ -15,3 +15,7 @@ curricula/**/lessons/*/media/*/takes/*/audio.wav
 curricula/**/lessons/*/media/*/takes/*/transcript.json
 curricula/**/lessons/*/media/*/takes/*/verification.json
 curricula/**/lessons/*/media/*/takes/*/transcript.vtt
+
+# Also inherit private original-source exclusions from main.
+curricula/*/references/private/
+curricula/*/references/originals/

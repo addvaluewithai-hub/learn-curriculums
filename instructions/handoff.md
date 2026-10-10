@@ -1,7 +1,7 @@
 # Review, collaboration and handoff
 
 Read [human stage gates](stage-gates.md); separate source/scientific, teaching, listening, timing, visual and runtime review.
-At **every** stage completion, commit the work on the current scoped branch/PR, update durable curriculum/lesson STATUS with last completed gate, exact artifacts and pending human `next`/comments, then stop. A PR update or CI success does **not** grant permission for the next stage.
+At **every** stage completion, commit scoped artifacts to a branch/PR and update course STATUS (master plan, source version, active Block) **and** block STATUS (gate, exact paths, checks, blockers, pending human instruction), then stop. A PR update or CI success never authorizes the next stage. Follow [source handling](source-handling.md) before any public original upload.
 Use the [teaching quality gate](teaching.md) before batch audio: document essential concept bridges, bilingual clarity, source limits, independent assessments and unresolved issues.
 Use the [lesson-boundary decision workflow](curriculum-planning.md) **before** scene/audio production; record whether the provisional lesson was kept, internally chunked, split, merged or rescoped and why.
 Record material self-critique findings and dispositions in STATUS or PR comments. AI self-review and structural validation are not human academic sign-off.
@@ -13,7 +13,7 @@ Never fill faithful/approved/passed to satisfy a checker. Runtime stays untested
 Bind runtime evidence to the exact SDK version/artifact hash as described in preview-sdk/README.md.
 Reconsider the relevant reviews after source, language-policy or script edits; audio changes also invalidate bound timing/listening evidence.
 
-Use curriculum-level branches for initial multi-lesson draft blocks, then lesson-scoped branches/PRs when stabilizing individual lessons; use stable IDs/order from the outline and existing channels for coordination.
+Use curriculum-level branches for Stage 00/master planning and multi-lesson draft blocks, then lesson-scoped PRs where useful; preserve stable IDs/order. A human-approved `next block` after Stage 04 may proceed without audio, but unpaid/unreviewed media and human science approvals remain explicitly outstanding.
 If boundaries change, coordinate with the curriculum/outline owner and update OUTLINE objectives, coverage, prerequisites, orders and ID mappings before changing lesson files. Never silently renumber, reuse an issued ID or overwrite another editor's reviewed lesson.
 No shared hardcoded registry edits per lesson. STATUS records date/editor/scope/files/checks/limits/next action.
 GitHub PR review holds comments; no new admin app/database.
