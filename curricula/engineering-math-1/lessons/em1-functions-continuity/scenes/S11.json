@@ -1,0 +1,52 @@
+{
+  "id": "S11",
+  "title": "Teaching concept 11",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3",
+    "O4"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N11",
+    "role": "teaching",
+    "script": "في مسائل الاتصال، أنصحك تحط ترتيب صغير على الورقة: القيمة عند النقطة، نهاية من الشمال، نهاية من اليمين، ثم المقارنة. ما تبدأش بحل المجهول قبل ما تتأكد إن الناحيتين متفقتان أصلًا. وفي الدرس القادم عن المشتقة هنحتاج نفهم اتصال الدالة وسلوكها القريب جدًا، فالاتصال هنا مش نهاية منفصلة، ده أساس للحساب التفاضلي.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "في مسائل الاتصال،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "ثم المقارنة.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ده أساس للحساب التفاضلي.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Test continuity using limits, defined point and piecewise matching",
+      "beat": "T11"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

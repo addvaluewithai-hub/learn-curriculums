@@ -1,0 +1,49 @@
+{
+  "id": "S04",
+  "title": "Teaching concept 4",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 39–45; PDF 23–26, overlaps trigonometric examples; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "ليه لازم ما نحكمش من شكل $0/0$؟ لأن $\\lim_{x\\to0} x/x$ تساوي واحد بعيدًا عن الصفر، بينما $\\lim_{x\\to0} x^2/x$ تساوي صفر؛ نفس شكل التعويض المتعطل لكن سلوك الدالتين مختلف. المطلوب تفحص التعبير المسموح حوالين النقطة. خلينا نجرب مسألة تحليل جديدة من غير ما أوريك عواملها.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "ليه لازم ما نحكمش من شكل $0/0$؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "نفس شكل التعويض المتعطل لكن سلوك الدالتين مختلف.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "خلينا نجرب مسألة تحليل جديدة من غير ما أوريك عواملها.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-algebraic-methods-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Factor and cancel only on admissible neighboring inputs",
+      "beat": "T4"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "S05",
+  "title": "Independent question C1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 35–37; PDF 21–22; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "question",
+    "script": "For $f(x)=(x+1)^2$, state the intervals where the function is decreasing and increasing.\nلدالة إكس زائد واحد الكل تربيع، اكتب الفترات اللي فيها الدالة بتتناقص وبتتزايد وإنت ماشي من الشمال لليمين.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "For $f(x)=(x+1)^2$, state the intervals where the function is decreasing and increasing.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "لدالة إكس زائد واحد الكل تربيع، اكتب الفترات اللي فيها الدالة بتتناقص وبتتزايد وإنت ماشي من الشمال لليمين.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-monotonicity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Classify strict increasing/decreasing on quadratic intervals",
+      "beat": "C1"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "C1",
+    "english": "For $f(x)=(x+1)^2$, state the intervals where the function is decreasing and increasing.",
+    "arabic": "لدالة إكس زائد واحد الكل تربيع، اكتب الفترات اللي فيها الدالة بتتناقص وبتتزايد وإنت ماشي من الشمال لليمين.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "Decreasing on $(-\\infty,-1)$ and increasing on $(-1,\\infty)$.",
+      "arabic": "دي نفس فكرة منحنى التربيع لكن القاع اتحرك لليسار عند إكس تساوي سالب واحد. قبل القاع، لما إكس تزيد قيمة الدالة بتقل؛ وبعد القاع بتزيد. عشان كده حد الفصل هو سالب واحد مش صفر.",
+      "reasoning": "دي نفس فكرة منحنى التربيع لكن القاع اتحرك لليسار عند إكس تساوي سالب واحد. قبل القاع، لما إكس تزيد قيمة الدالة بتقل؛ وبعد القاع بتزيد. عشان كده حد الفصل هو سالب واحد مش صفر."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "Decreasing on $(-\\infty,-1)$ and increasing on $(-1,\\infty)$.\nدي نفس فكرة منحنى التربيع لكن القاع اتحرك لليسار عند إكس تساوي سالب واحد. قبل القاع، لما إكس تزيد قيمة الدالة بتقل؛ وبعد القاع بتزيد. عشان كده حد الفصل هو سالب واحد مش صفر.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Decreasing on $(-\\infty,-1)$ and increasing on $(-1,\\infty)$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "دي نفس فكرة منحنى التربيع لكن القاع اتحرك لليسار عند إكس تساوي سالب واحد. قبل القاع، لما إكس تزيد قيمة الدالة بتقل؛ وبعد القاع بتزيد. عشان كده حد الفصل هو سالب واحد مش صفر.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-monotonicity-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Classify strict increasing/decreasing on quadratic intervals",
+          "beat": "C1"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

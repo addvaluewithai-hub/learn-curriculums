@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-limits-concept-one-sided",
+  "curriculumId": "engineering-math-1",
+  "order": 10,
+  "title": "معنى النهاية والاقتراب من الجهتين",
+  "englishTitle": "Limits and One-Sided Approaches",
+  "scriptRevision": "b02-stage04-canonical-scenes-v1",
+  "prerequisites": [
+    "B02 function values and graph reading",
+    "B01 factorization and domain"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Explain limits of nearby outputs independent of point value",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S12"
+      ],
+      "assessedIn": [
+        "C2"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Compare left- and right-hand limits",
+      "taughtIn": [
+        "S06",
+        "S07",
+        "S08",
+        "S12"
+      ],
+      "assessedIn": [
+        "C3"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Find removable-point limit distinct from prescribed function value",
+      "taughtIn": [
+        "S10",
+        "S12"
+      ],
+      "assessedIn": [
+        "C4"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12"
+  ],
+  "glossary": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "S04",
+  "title": "Teaching concept 4",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "خلينا نشوف الطرف ده مرة واحدة من غير ما نحوله لفصل مستقل. $q(x)=\\sqrt{x}$ على المجال $[0,\\infty)$ عند الصفر، ماعندناش مدخلات حقيقية من شمال الصفر جوه المجال. لكن نقدر نقرب من اليمين، والجذر بيقرب من صفر، و$q(0)=0$؛ فالدالة متصلة عند بداية مجالها من ناحية المجال. أما لو النقطة في نص المجال وفيه اقتراب من الناحيتين، هنرجع لشروطنا التلاتة كاملة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا نشوف الطرف ده مرة واحدة من غير ما نحوله لفصل مستقل.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "والجذر بيقرب من صفر،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "هنرجع لشروطنا التلاتة كاملة.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Test continuity using limits, defined point and piecewise matching",
+      "beat": "T4"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

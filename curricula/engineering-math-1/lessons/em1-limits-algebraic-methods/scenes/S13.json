@@ -1,0 +1,51 @@
+{
+  "id": "S13",
+  "title": "Teaching concept 10",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 39–45; PDF 23–26, overlaps trigonometric examples; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N13",
+    "role": "teaching",
+    "script": "بقى عندنا مسار قرار: هل التعبير منتظم عند النقطة؟ التعويض غالبًا ينفع. لو ظهر $0/0$، ده إنذار نفحص تحليلًا أو مرافقًا، مع الاختصار على المدخلات القريبة المسموح بها فقط. لو المقام بيقرب من صفر ومفيش إلغاء يزيل المشكلة، نشوف الإشارة من الجهتين ونرفض فكرة إن ما لا نهاية قيمة تعويض. الدرس الجاي هنستعمل نفس معنى النهاية، لكن مع قانون خاص بالدوال المثلثية بوحدة الراديان.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "بقى عندنا مسار قرار: هل التعبير منتظم عند النقطة؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "مع الاختصار على المدخلات القريبة المسموح بها فقط.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "لكن مع قانون خاص بالدوال المثلثية بوحدة الراديان.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-algebraic-methods-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Factor and cancel only on admissible neighboring inputs",
+      "beat": "T10"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "S01",
+  "title": "Teaching concept 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 25–30; PDF 16–19, overlapping adjacent concepts; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "تخيل قدامك كذا آلة اسمهم دوال. كل آلة بتقبل مدخل واحد وتطلع ناتج واحد، زي ما اتفقنا، لكن لو رسمنا اللي بيحصل هنلاقي أشكال مختلفة. فيه آلة بتطلع خط مستقيم، وآلة بتطلع حرف يو، وآلة رسمها فرعين منفصلين. النهارده هنشوف إزاي قاعدة الدالة بتساعدنا نتوقع شكلها ومجالها، من غير ما نحفظ صور منفصلة من غير معنى.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "تخيل قدامك كذا آلة اسمهم دوال.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "فيه آلة بتطلع خط مستقيم،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "من غير ما نحفظ صور منفصلة من غير معنى.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-algebraic-graphs-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Classify algebraic forms and their domain restrictions",
+      "beat": "T1"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

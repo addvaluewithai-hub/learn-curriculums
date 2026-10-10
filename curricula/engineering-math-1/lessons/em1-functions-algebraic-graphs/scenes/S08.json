@@ -1,0 +1,49 @@
+{
+  "id": "S08",
+  "title": "Teaching concept 7",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 25–30; PDF 16–19, overlapping adjacent concepts; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "teaching",
+    "script": "ليه الإزاحة جوه القوس عكس ما البعض يتوقع؟ عشان القوس يتصفّر عند إكس اتنين في $(x-2)^2$، وعند إكس سالب أربعة في $(x+4)^2$. فاللي بيدور على أقل قيمة يسأل إمتى مربع القوس يساوي صفر، مش يقرأ الإشارة وكأنها اتجاه الحركة مباشرة. لو عندك $-(x-1)^2+2$، الإشارة السالبة تخلي المنحنى مفتوح لتحت، وأعلى نقطة عند واحد واتنين. ده توضيح هندسي مؤلف هنا، مش مسألة بننسبها للمصدر حرفيًا.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "ليه الإزاحة جوه القوس عكس ما البعض يتوقع؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "لو عندك $-(x-1)^2+2$،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "مش مسألة بننسبها للمصدر حرفيًا.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-algebraic-graphs-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Read translated quadratic graph vertices",
+      "beat": "T7"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

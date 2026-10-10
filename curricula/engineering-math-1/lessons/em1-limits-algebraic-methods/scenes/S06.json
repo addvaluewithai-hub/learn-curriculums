@@ -1,0 +1,49 @@
+{
+  "id": "S06",
+  "title": "Teaching concept 5",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 39–45; PDF 23–26, overlaps trigonometric examples; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "teaching",
+    "script": "مش كل بسط بيتحلل كفرق مربعين واضح. لو عندنا $\\lim_{x\\to0}(\\sqrt{x+4}-2)/x$، التعويض برضه يطلع صفر على صفر. نضرب البسط والمقام في المرافق $\\sqrt{x+4}+2$. فوق نحصل على $(x+4)-4=x$، وبعيدًا عن إكس صفر نختصرها، فالتعبير يبقى $1/(\\sqrt{x+4}+2)$. لما إكس تقرب من صفر، المقام يقرب من أربعة، والنهاية ربع. لاحظ إننا ضربنا في مقدار مناسب عشان نبسط الفرق بين جذر وعدد؛ ما قالش إن التعبير القديم معرف عند الصفر.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "مش كل بسط بيتحلل كفرق مربعين واضح.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "فالتعبير يبقى $1/(\\sqrt{x+4}+2)$.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ما قالش إن التعبير القديم معرف عند الصفر.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-algebraic-methods-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Rationalize a numerator with conjugate",
+      "beat": "T5"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

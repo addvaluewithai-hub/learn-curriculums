@@ -1,0 +1,49 @@
+{
+  "id": "S01",
+  "title": "Teaching concept 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 39–45; PDF 23–26, overlaps trigonometric examples; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "إحنا فهمنا إن النهاية مش لازم تساوي قيمة الدالة عند نقطة. لكن في الامتحان هنسأل السؤال الأصعب: أحسبها إزاي؟ هنستخدم تلات حاجات نعرفها من قبل: التعويض لما ينفع، والتحليل أو المرافق لما يظهر صفر على صفر، والتفكير في الإشارة من اليمين والشمال لما المقام يقرب من صفر.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "إحنا فهمنا إن النهاية مش لازم تساوي قيمة الدالة عند نقطة.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "هنستخدم تلات حاجات نعرفها من قبل: التعويض لما ينفع،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "والتفكير في الإشارة من اليمين والشمال لما المقام يقرب من صفر.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-algebraic-methods-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Factor and cancel only on admissible neighboring inputs",
+      "beat": "T1"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

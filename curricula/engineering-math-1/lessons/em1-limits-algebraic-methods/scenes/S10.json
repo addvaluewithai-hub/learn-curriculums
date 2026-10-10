@@ -1,0 +1,49 @@
+{
+  "id": "S10",
+  "title": "Teaching concept 8",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 39–45; PDF 23–26, overlaps trigonometric examples; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N10",
+    "role": "teaching",
+    "script": "لو البسط والمقام قربوا من غير ما المقام يثبت بعيدًا عن صفر، لازم نحلل سلوك الإشارة والقيمة بدل استخدام قانون القسمة آليًا. مثلًا عند $1/(x+1)$، يمين سالب واحد المقام موجب وشمال سالب واحد المقام سالب، فالاتجاهين مختلفين. ده بيفسّر ليه بعض مسائل النهايات محتاجة Left-hand وRight-hand limit مش مجرد عملية تعويض.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "لو البسط والمقام قربوا من غير ما المقام يثبت بعيدًا عن صفر،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "يمين سالب واحد المقام موجب وشمال سالب واحد المقام سالب،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ده بيفسّر ليه بعض مسائل النهايات محتاجة Left-hand وRight-hand limit مش مجرد عملية تعويض.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-algebraic-methods-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Explain divergent signed one-sided behavior without division by zero",
+      "beat": "T8"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

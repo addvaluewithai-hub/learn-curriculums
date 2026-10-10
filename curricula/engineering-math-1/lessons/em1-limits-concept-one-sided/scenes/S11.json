@@ -1,0 +1,92 @@
+{
+  "id": "S11",
+  "title": "Independent question C4",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 37–40; PDF 22–23; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N11",
+    "role": "question",
+    "script": "For $x\\ne3$ let $r(x)=\\frac{x^2-9}{x-3}$, but define $r(3)=-7$. Find $\\lim_{x\\to3}r(x)$ and $r(3)$. Are they equal?\nبعيدًا عن تلاتة الدالة إكس تربيع ناقص تسعة على إكس ناقص تلاتة، وعند تلاتة اتعرّفت قيمتها بسالب سبعة. احسب النهاية والقيمة عند تلاتة وقارن بينهم.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "For $x\\ne3$ let $r(x)=\\frac{x^2-9}{x-3}$, but define $r(3)=-7$. Find $\\lim_{x\\to3}r(x)$ and $r(3)$. Are they equal?",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "بعيدًا عن تلاتة الدالة إكس تربيع ناقص تسعة على إكس ناقص تلاتة، وعند تلاتة اتعرّفت قيمتها بسالب سبعة. احسب النهاية والقيمة عند تلاتة وقارن بينهم.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-concept-one-sided-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Find removable-point limit distinct from prescribed function value",
+      "beat": "C4"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "C4",
+    "english": "For $x\\ne3$ let $r(x)=\\frac{x^2-9}{x-3}$, but define $r(3)=-7$. Find $\\lim_{x\\to3}r(x)$ and $r(3)$. Are they equal?",
+    "arabic": "بعيدًا عن تلاتة الدالة إكس تربيع ناقص تسعة على إكس ناقص تلاتة، وعند تلاتة اتعرّفت قيمتها بسالب سبعة. احسب النهاية والقيمة عند تلاتة وقارن بينهم.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "The limit is $6$, while $r(3)=-7$; the two values are different.",
+      "arabic": "لما إكس تبعد عن تلاتة نقدر نحلل فرق المربعين ونختصر العامل المشترك بشرط إكس ما تكونش تلاتة. ساعتها القيم القريبة ماشية زي إكس زائد تلاتة، فتقرب من ستة. لكن نقطة تلاتة نفسها قيمتها المحددة سالب سبعة. دي طريقة نشوف بيها إن النهاية عن الجوار مش عن قيمة النقطة وحدها.",
+      "reasoning": "لما إكس تبعد عن تلاتة نقدر نحلل فرق المربعين ونختصر العامل المشترك بشرط إكس ما تكونش تلاتة. ساعتها القيم القريبة ماشية زي إكس زائد تلاتة، فتقرب من ستة. لكن نقطة تلاتة نفسها قيمتها المحددة سالب سبعة. دي طريقة نشوف بيها إن النهاية عن الجوار مش عن قيمة النقطة وحدها."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "The limit is $6$, while $r(3)=-7$; the two values are different.\nلما إكس تبعد عن تلاتة نقدر نحلل فرق المربعين ونختصر العامل المشترك بشرط إكس ما تكونش تلاتة. ساعتها القيم القريبة ماشية زي إكس زائد تلاتة، فتقرب من ستة. لكن نقطة تلاتة نفسها قيمتها المحددة سالب سبعة. دي طريقة نشوف بيها إن النهاية عن الجوار مش عن قيمة النقطة وحدها.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "The limit is $6$, while $r(3)=-7$; the two values are different.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "لما إكس تبعد عن تلاتة نقدر نحلل فرق المربعين ونختصر العامل المشترك بشرط إكس ما تكونش تلاتة. ساعتها القيم القريبة ماشية زي إكس زائد تلاتة، فتقرب من ستة. لكن نقطة تلاتة نفسها قيمتها المحددة سالب سبعة. دي طريقة نشوف بيها إن النهاية عن الجوار مش عن قيمة النقطة وحدها.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-limits-concept-one-sided-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Find removable-point limit distinct from prescribed function value",
+          "beat": "C4"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "S16",
+  "title": "Teaching concept 12",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3",
+    "O4"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N16",
+    "role": "teaching",
+    "script": "الاتصال مش مجرد رسمة ينفع نمشي عليها بقلم. عند نقطة داخل المجال لازم القيمة تكون معرفة، والنهاية من الناحيتين تكون موجودة، والاتنين يكونوا متساويين. الثقب ممكن يتصلح بتحديد قيمة مناسبة، لكن اختلاف اتجاهي الاقتراب مش هيتصلح بمجرد تغيير النقطة؛ وعند طرف المجال نفحص الاقتراب المسموح. والزاوية الحادة مش دليل انقطاع. كده عندنا الأساس اللي هنحتاجه لما يبدأ Block التفاضل بعدين.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "الاتصال مش مجرد رسمة ينفع نمشي عليها بقلم.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "الثقب ممكن يتصلح بتحديد قيمة مناسبة،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "كده عندنا الأساس اللي هنحتاجه لما يبدأ Block التفاضل بعدين.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Test continuity using limits, defined point and piecewise matching",
+      "beat": "T12"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

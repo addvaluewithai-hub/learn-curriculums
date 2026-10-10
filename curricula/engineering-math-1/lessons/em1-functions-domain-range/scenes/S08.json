@@ -1,0 +1,49 @@
+{
+  "id": "S08",
+  "title": "Teaching concept 8",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 21–25; PDF 14–16; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "teaching",
+    "script": "ولو الدالة مترسومة، نقدر نسأل: هل الرسم بيمثل دالة في إكس؟ تصور خط رأسي عند قيمة معينة من إكس. لو الخط قطع الرسم في نقطتين مختلفتين، يبقى نفس الإكس ليه قيمتين من واي، وده مش Function of x. دي فكرة Vertical Line Test. مثلًا الدائرة الكاملة مش دالة واحدة في إكس، لأنها في أغلب مواضعها بتدي واي فوق وواي تحت لنفس الإكس. لكن الجزء العلوي لوحده ممكن يمثل دالة على المجال المناسب. الرسم إذن مش مجرد شكل؛ هو طريقة تتأكد بيها إن قاعدة المدخل الواحد والناتج الواحد متحققة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "ولو الدالة مترسومة،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "دي فكرة Vertical Line Test.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "هو طريقة تتأكد بيها إن قاعدة المدخل الواحد والناتج الواحد متحققة.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-domain-range-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Apply the vertical-line test to a graph",
+      "beat": "T8"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

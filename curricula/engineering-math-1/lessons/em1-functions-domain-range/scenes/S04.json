@@ -1,0 +1,49 @@
+{
+  "id": "S04",
+  "title": "Teaching concept 4",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 21–25; PDF 14–16; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "خلينا ناخد حالة تانية: $h(x)=\\sqrt{4-x}$. طالما بنتكلم عن قيم حقيقية، اللي تحت الجذر التربيعي لازم يكون صفر أو موجب. يعني أربعة ناقص إكس أكبر من أو يساوي صفر؛ إذن إكس أصغر من أو يساوي أربعة. نقدر نقول إن المجال كل الأعداد حتى أربعة بما فيها أربعة. الأقواس في الفترة مهمة: عند أربعة ينفع نحسب الجذر، فالنقطة دي داخلة. لو كان عندنا مقام صفر، هنستخدم استبعاد للنقطة. دي صلة صغيرة بمراجعة المتباينات والفترات في صفحات التمهيد.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا ناخد حالة تانية: $h(x)=\\sqrt{4-x}$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "نقدر نقول إن المجال كل الأعداد حتى أربعة بما فيها أربعة.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "دي صلة صغيرة بمراجعة المتباينات والفترات في صفحات التمهيد.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-domain-range-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Distinguish actual range from stated co-domain",
+      "beat": "T4"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

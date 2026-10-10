@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-functions-monotonicity",
+  "curriculumId": "engineering-math-1",
+  "order": 9,
+  "title": "التزايد والتناقص على الفترات",
+  "englishTitle": "Increasing and Decreasing on Intervals",
+  "scriptRevision": "b02-stage04-canonical-scenes-v1",
+  "prerequisites": [
+    "B02 graph families and valid domain",
+    "B01 number-line intervals"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Classify strict increasing/decreasing on quadratic intervals",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S12"
+      ],
+      "assessedIn": [
+        "C1"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Explain strict monotonicity of lines using ordered inputs",
+      "taughtIn": [
+        "S06",
+        "S07",
+        "S12"
+      ],
+      "assessedIn": [
+        "C5"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Reason about reciprocal monotonicity on allowed intervals",
+      "taughtIn": [
+        "S09",
+        "S10",
+        "S12"
+      ],
+      "assessedIn": [
+        "C6"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12"
+  ],
+  "glossary": []
+}

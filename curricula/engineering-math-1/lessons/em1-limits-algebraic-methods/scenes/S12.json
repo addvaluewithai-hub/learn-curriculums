@@ -1,0 +1,92 @@
+{
+  "id": "S12",
+  "title": "Independent question D4",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 39–45; PDF 23–26, overlaps trigonometric examples; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N12",
+    "role": "question",
+    "script": "Describe the left-hand and right-hand behavior of $f(x)=\\frac{1}{x-2}$ as $x$ approaches $2$. Does a finite two-sided limit exist?\nاوصف سلوك واحد على إكس ناقص اتنين لما إكس تقرب من اتنين من الشمال واليمين. هل فيه نهاية حقيقية محددة من الناحيتين؟",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Describe the left-hand and right-hand behavior of $f(x)=\\frac{1}{x-2}$ as $x$ approaches $2$. Does a finite two-sided limit exist?",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "اوصف سلوك واحد على إكس ناقص اتنين لما إكس تقرب من اتنين من الشمال واليمين. هل فيه نهاية حقيقية محددة من الناحيتين؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-algebraic-methods-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Explain divergent signed one-sided behavior without division by zero",
+      "beat": "D4"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "D4",
+    "english": "Describe the left-hand and right-hand behavior of $f(x)=\\frac{1}{x-2}$ as $x$ approaches $2$. Does a finite two-sided limit exist?",
+    "arabic": "اوصف سلوك واحد على إكس ناقص اتنين لما إكس تقرب من اتنين من الشمال واليمين. هل فيه نهاية حقيقية محددة من الناحيتين؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "From the left, $f(x)\\to-\\infty$; from the right, $f(x)\\to+\\infty$. No finite two-sided limit exists.",
+      "arabic": "قبل اتنين مباشرة، المقام سالب وصغير جدًا، فالكسر قيمته سالبة ومقدارها بيكبر بلا حد. بعد اتنين المقام موجب وصغير جدًا، فتكون القيم موجبة وبتكبر بلا حد. الجهتين مش بيقربوا من نفس عدد حقيقي، وبالتالي مفيش نهاية حقيقية محددة من الناحيتين. علامة ما لا نهاية هنا بتوصف السلوك، مش قيمة نعوض بيها في الدالة.",
+      "reasoning": "قبل اتنين مباشرة، المقام سالب وصغير جدًا، فالكسر قيمته سالبة ومقدارها بيكبر بلا حد. بعد اتنين المقام موجب وصغير جدًا، فتكون القيم موجبة وبتكبر بلا حد. الجهتين مش بيقربوا من نفس عدد حقيقي، وبالتالي مفيش نهاية حقيقية محددة من الناحيتين. علامة ما لا نهاية هنا بتوصف السلوك، مش قيمة نعوض بيها في الدالة."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "From the left, $f(x)\\to-\\infty$; from the right, $f(x)\\to+\\infty$. No finite two-sided limit exists.\nقبل اتنين مباشرة، المقام سالب وصغير جدًا، فالكسر قيمته سالبة ومقدارها بيكبر بلا حد. بعد اتنين المقام موجب وصغير جدًا، فتكون القيم موجبة وبتكبر بلا حد. الجهتين مش بيقربوا من نفس عدد حقيقي، وبالتالي مفيش نهاية حقيقية محددة من الناحيتين. علامة ما لا نهاية هنا بتوصف السلوك، مش قيمة نعوض بيها في الدالة.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "From the left, $f(x)\\to-\\infty$; from the right, $f(x)\\to+\\infty$. No finite two-sided limit exists.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "قبل اتنين مباشرة، المقام سالب وصغير جدًا، فالكسر قيمته سالبة ومقدارها بيكبر بلا حد. بعد اتنين المقام موجب وصغير جدًا، فتكون القيم موجبة وبتكبر بلا حد. الجهتين مش بيقربوا من نفس عدد حقيقي، وبالتالي مفيش نهاية حقيقية محددة من الناحيتين. علامة ما لا نهاية هنا بتوصف السلوك، مش قيمة نعوض بيها في الدالة.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-limits-algebraic-methods-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Explain divergent signed one-sided behavior without division by zero",
+          "beat": "D4"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-limits-algebraic-methods",
+  "curriculumId": "engineering-math-1",
+  "order": 11,
+  "title": "حساب النهايات الجبرية والمرافق",
+  "englishTitle": "Algebraic Limit Methods",
+  "scriptRevision": "b02-stage04-canonical-scenes-v1",
+  "prerequisites": [
+    "em1-limits-concept-one-sided",
+    "B01 factoring, rational sign and radicals"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Factor and cancel only on admissible neighboring inputs",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S13"
+      ],
+      "assessedIn": [
+        "D1"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Rationalize a numerator with conjugate",
+      "taughtIn": [
+        "S06",
+        "S07",
+        "S13"
+      ],
+      "assessedIn": [
+        "D3"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Explain divergent signed one-sided behavior without division by zero",
+      "taughtIn": [
+        "S09",
+        "S10",
+        "S11",
+        "S13"
+      ],
+      "assessedIn": [
+        "D4"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "glossary": []
+}

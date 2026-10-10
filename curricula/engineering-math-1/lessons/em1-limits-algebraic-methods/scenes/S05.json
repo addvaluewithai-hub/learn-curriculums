@@ -1,0 +1,92 @@
+{
+  "id": "S05",
+  "title": "Independent question D1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 39–45; PDF 23–26, overlaps trigonometric examples; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "question",
+    "script": "Evaluate $\\lim_{x\\to4}(x^2-16)/(x-4)$. Explain why direct substitution is insufficient.\nاحسب نهاية إكس تربيع ناقص ستة عشر على إكس ناقص أربعة لما إكس تقترب من أربعة، واشرح ليه التعويض المباشر مش كفاية.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Evaluate $\\lim_{x\\to4}(x^2-16)/(x-4)$. Explain why direct substitution is insufficient.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "احسب نهاية إكس تربيع ناقص ستة عشر على إكس ناقص أربعة لما إكس تقترب من أربعة، واشرح ليه التعويض المباشر مش كفاية.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-algebraic-methods-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Factor and cancel only on admissible neighboring inputs",
+      "beat": "D1"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "D1",
+    "english": "Evaluate $\\lim_{x\\to4}(x^2-16)/(x-4)$. Explain why direct substitution is insufficient.",
+    "arabic": "احسب نهاية إكس تربيع ناقص ستة عشر على إكس ناقص أربعة لما إكس تقترب من أربعة، واشرح ليه التعويض المباشر مش كفاية.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "The limit is $8$. Factor $x^2-16=(x-4)(x+4)$ for $x\\ne4$.",
+      "arabic": "التعويض الأول يطلع صفر على صفر. نحلل فرق المربعين، ونبسط العامل إكس ناقص أربعة بعيد عن النقطة نفسها، فيبقى إكس زائد أربعة. ولما إكس تقرب من أربعة، التعبير يقرب من تمانية. الدالة الأصلية لسه مش معرفة عند أربعة.",
+      "reasoning": "التعويض الأول يطلع صفر على صفر. نحلل فرق المربعين، ونبسط العامل إكس ناقص أربعة بعيد عن النقطة نفسها، فيبقى إكس زائد أربعة. ولما إكس تقرب من أربعة، التعبير يقرب من تمانية. الدالة الأصلية لسه مش معرفة عند أربعة."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "The limit is $8$. Factor $x^2-16=(x-4)(x+4)$ for $x\\ne4$.\nالتعويض الأول يطلع صفر على صفر. نحلل فرق المربعين، ونبسط العامل إكس ناقص أربعة بعيد عن النقطة نفسها، فيبقى إكس زائد أربعة. ولما إكس تقرب من أربعة، التعبير يقرب من تمانية. الدالة الأصلية لسه مش معرفة عند أربعة.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "The limit is $8$. Factor $x^2-16=(x-4)(x+4)$ for $x\\ne4$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "التعويض الأول يطلع صفر على صفر. نحلل فرق المربعين، ونبسط العامل إكس ناقص أربعة بعيد عن النقطة نفسها، فيبقى إكس زائد أربعة. ولما إكس تقرب من أربعة، التعبير يقرب من تمانية. الدالة الأصلية لسه مش معرفة عند أربعة.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-limits-algebraic-methods-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Factor and cancel only on admissible neighboring inputs",
+          "beat": "D1"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "S14",
+  "title": "Independent question E3",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N14",
+    "role": "question",
+    "script": "Suppose $g(x)=2x$ for $x<1$, $g(1)=k$, and $g(x)=x+4$ for $x>1$. Is there any real value of $k$ that makes $g$ continuous at $x=1$? Explain.\nالدالة قبل الواحد اتنين إكس، وعند الواحد قيمتها كي المجهولة، وبعد الواحد إكس زائد أربعة. هل فيه قيمة حقيقية لكي تخلي الدالة متصلة عند واحد؟ اشرح.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Suppose $g(x)=2x$ for $x<1$, $g(1)=k$, and $g(x)=x+4$ for $x>1$. Is there any real value of $k$ that makes $g$ continuous at $x=1$? Explain.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "الدالة قبل الواحد اتنين إكس، وعند الواحد قيمتها كي المجهولة، وبعد الواحد إكس زائد أربعة. هل فيه قيمة حقيقية لكي تخلي الدالة متصلة عند واحد؟ اشرح.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Diagnose irreparable jump discontinuities",
+      "beat": "E3"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "E3",
+    "english": "Suppose $g(x)=2x$ for $x<1$, $g(1)=k$, and $g(x)=x+4$ for $x>1$. Is there any real value of $k$ that makes $g$ continuous at $x=1$? Explain.",
+    "arabic": "الدالة قبل الواحد اتنين إكس، وعند الواحد قيمتها كي المجهولة، وبعد الواحد إكس زائد أربعة. هل فيه قيمة حقيقية لكي تخلي الدالة متصلة عند واحد؟ اشرح.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "No such $k$ exists. The left-hand limit is $2$ and the right-hand limit is $5$, so the two-sided limit does not exist.",
+      "arabic": "من الشمال النهاية اتنين، ومن اليمين النهاية خمسة. لأن الناحيتين مش متساويين، النهاية الكلية مش موجودة. مهما اخترنا كي، هنغيّر قيمة النقطة نفسها بس، ومش هنقدر نخلي النهايتين تتفقوا. دي قفزة، مش مجرد ثقب نصلحه بتغيير قيمة واحدة.",
+      "reasoning": "من الشمال النهاية اتنين، ومن اليمين النهاية خمسة. لأن الناحيتين مش متساويين، النهاية الكلية مش موجودة. مهما اخترنا كي، هنغيّر قيمة النقطة نفسها بس، ومش هنقدر نخلي النهايتين تتفقوا. دي قفزة، مش مجرد ثقب نصلحه بتغيير قيمة واحدة."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "No such $k$ exists. The left-hand limit is $2$ and the right-hand limit is $5$, so the two-sided limit does not exist.\nمن الشمال النهاية اتنين، ومن اليمين النهاية خمسة. لأن الناحيتين مش متساويين، النهاية الكلية مش موجودة. مهما اخترنا كي، هنغيّر قيمة النقطة نفسها بس، ومش هنقدر نخلي النهايتين تتفقوا. دي قفزة، مش مجرد ثقب نصلحه بتغيير قيمة واحدة.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "No such $k$ exists. The left-hand limit is $2$ and the right-hand limit is $5$, so the two-sided limit does not exist.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "من الشمال النهاية اتنين، ومن اليمين النهاية خمسة. لأن الناحيتين مش متساويين، النهاية الكلية مش موجودة. مهما اخترنا كي، هنغيّر قيمة النقطة نفسها بس، ومش هنقدر نخلي النهايتين تتفقوا. دي قفزة، مش مجرد ثقب نصلحه بتغيير قيمة واحدة.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-continuity-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Diagnose irreparable jump discontinuities",
+          "beat": "E3"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

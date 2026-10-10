@@ -1,0 +1,92 @@
+{
+  "id": "S08",
+  "title": "Independent question C5",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 35–37; PDF 21–22; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "question",
+    "script": "For $g(x)=-2x+7$, determine whether it is strictly increasing or decreasing on $\\mathbb R$. Calculate $g(-1)$ and $g(3)$ to support your claim.\nلدالة سالب اتنين إكس زائد سبعة، هل هي متزايدة ولا متناقصة على كل الأعداد الحقيقية؟ احسب عند سالب واحد وتلاتة عشان تفسر الاتجاه.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "For $g(x)=-2x+7$, determine whether it is strictly increasing or decreasing on $\\mathbb R$. Calculate $g(-1)$ and $g(3)$ to support your claim.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "لدالة سالب اتنين إكس زائد سبعة، هل هي متزايدة ولا متناقصة على كل الأعداد الحقيقية؟ احسب عند سالب واحد وتلاتة عشان تفسر الاتجاه.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-monotonicity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Explain strict monotonicity of lines using ordered inputs",
+      "beat": "C5"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "C5",
+    "english": "For $g(x)=-2x+7$, determine whether it is strictly increasing or decreasing on $\\mathbb R$. Calculate $g(-1)$ and $g(3)$ to support your claim.",
+    "arabic": "لدالة سالب اتنين إكس زائد سبعة، هل هي متزايدة ولا متناقصة على كل الأعداد الحقيقية؟ احسب عند سالب واحد وتلاتة عشان تفسر الاتجاه.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "Strictly decreasing on $\\mathbb R$; $g(-1)=9$ and $g(3)=1$.",
+      "arabic": "عند سالب واحد، سالب اتنين في سالب واحد زائد سبعة يساوي تسعة. وعند تلاتة، سالب ستة زائد سبعة يساوي واحد. المدخل زاد لكن الناتج قل. وبشكل عام فرق الناتجين سالب اتنين في فرق المدخلين، فكل ما إكس تزيد، الناتج يقل على الفترة كلها؛ مش بس عند النقطتين دول.",
+      "reasoning": "عند سالب واحد، سالب اتنين في سالب واحد زائد سبعة يساوي تسعة. وعند تلاتة، سالب ستة زائد سبعة يساوي واحد. المدخل زاد لكن الناتج قل. وبشكل عام فرق الناتجين سالب اتنين في فرق المدخلين، فكل ما إكس تزيد، الناتج يقل على الفترة كلها؛ مش بس عند النقطتين دول."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "Strictly decreasing on $\\mathbb R$; $g(-1)=9$ and $g(3)=1$.\nعند سالب واحد، سالب اتنين في سالب واحد زائد سبعة يساوي تسعة. وعند تلاتة، سالب ستة زائد سبعة يساوي واحد. المدخل زاد لكن الناتج قل. وبشكل عام فرق الناتجين سالب اتنين في فرق المدخلين، فكل ما إكس تزيد، الناتج يقل على الفترة كلها؛ مش بس عند النقطتين دول.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Strictly decreasing on $\\mathbb R$; $g(-1)=9$ and $g(3)=1$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "عند سالب واحد، سالب اتنين في سالب واحد زائد سبعة يساوي تسعة. وعند تلاتة، سالب ستة زائد سبعة يساوي واحد. المدخل زاد لكن الناتج قل. وبشكل عام فرق الناتجين سالب اتنين في فرق المدخلين، فكل ما إكس تزيد، الناتج يقل على الفترة كلها؛ مش بس عند النقطتين دول.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-monotonicity-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Explain strict monotonicity of lines using ordered inputs",
+          "beat": "C5"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

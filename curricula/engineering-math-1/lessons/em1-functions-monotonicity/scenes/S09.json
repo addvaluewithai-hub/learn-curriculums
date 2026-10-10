@@ -1,0 +1,49 @@
+{
+  "id": "S09",
+  "title": "Teaching concept 7",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 35–37; PDF 21–22; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "teaching",
+    "script": "آخر شكل هنراجعه هو الكسر $h(x)=2/x$. المجال هنا مش كل الأعداد: إكس تساوي صفر ممنوعة. على الجزء الموجب فقط، لو زودت إكس من واحد لاتنين، الناتج يقل من اتنين لواحد. ولو زودت المدخل من نص لواحد، الناتج يقل من أربعة لاتنين. الفكرة العامة إن مقلوب العدد الموجب بيقل لما العدد نفسه يزيد، وضربه في اتنين موجب ما يغيّرش الاتجاه، عشان كده الدالة متناقصة على $(0,\\infty)$. وعلى الجزء السالب كمان هي متناقصة، لكن ماينفعش نقول متناقصة على المجال كله كقطعة واحدة باختيار نقطتين عبر الصفر: المجال فيه فجوة وحكم المقارنة ممكن يتغير عبر الفجوة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "آخر شكل هنراجعه هو الكسر $h(x)=2/x$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "الناتج يقل من أربعة لاتنين.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "لكن ماينفعش نقول متناقصة على المجال كله كقطعة واحدة باختيار نقطتين عبر الصفر: المجال فيه فجوة وحكم المقارنة ممكن يتغير عبر الفجوة.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-monotonicity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Reason about reciprocal monotonicity on allowed intervals",
+      "beat": "T7"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

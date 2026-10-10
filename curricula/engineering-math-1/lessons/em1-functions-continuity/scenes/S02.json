@@ -1,0 +1,49 @@
+{
+  "id": "S02",
+  "title": "Teaching concept 2",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "تخيل إنك بترسم خط بقلم، وإنت ماشي قريب من إكس تساوي اتنين. لو الخط اللي جاي من الشمال والخط اللي جاي من اليمين بيوصلوا لنفس الارتفاع، والنقطة المرسومة فعلًا عند إكس تساوي اتنين موجودة على نفس الارتفاع، مفيش انقطاع عند النقطة دي. لكن لو النقطة ناقصة أو في ارتفاع مختلف، فالرسم عندها مش متصل. التشبيه البصري مفيد، لكن خلينا نحوله لثلاثة شروط واضحة؛ عشان الرسم ساعات مايبقاش كفاية في مسألة جبرية.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "تخيل إنك بترسم خط بقلم،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "لكن لو النقطة ناقصة أو في ارتفاع مختلف،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "عشان الرسم ساعات مايبقاش كفاية في مسألة جبرية.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Test continuity using limits, defined point and piecewise matching",
+      "beat": "T2"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "S10",
+  "title": "Teaching concept 8",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 37–40; PDF 22–23; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N10",
+    "role": "teaching",
+    "script": "قبل ما نخلص، خد قاعدة جديدة في ذهنك: لو قربنا من نقطة والدالة على كل المدخلات القريبة بتدي نفس السلوك، تغيير قيمة النقطة نفسها ما بيغيرش النهاية. مثال جديد: لو بعيدًا عن أربعة كان التعبير $(x^2-16)/(x-4)$، فبيساوي $x+4$ عند كل إكس غير أربعة؛ وبالتالي النهاية تمانية. لو صاحب المسألة كتب إن القيمة عند أربعة اتنين، هنقول ده تعريف جديد للنقطة فقط؛ النهاية لسه تمانية. السؤال التالي مش نفس المثال: لازم تفصل بين القيمة اللي حُددت للنقطة واللي الدالة بتميل له حواليها.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "قبل ما نخلص،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "وبالتالي النهاية تمانية.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "السؤال التالي مش نفس المثال: لازم تفصل بين القيمة اللي حُددت للنقطة واللي الدالة بتميل له حواليها.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-concept-one-sided-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Find removable-point limit distinct from prescribed function value",
+      "beat": "T8"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

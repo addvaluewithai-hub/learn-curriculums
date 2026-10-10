@@ -1,0 +1,92 @@
+{
+  "id": "S11",
+  "title": "Independent question A1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 21–25; PDF 14–16; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N11",
+    "role": "question",
+    "script": "Find the domain of the real-valued function $q(x)=1/\\sqrt{x-3}$, and explain why the endpoint is excluded.\nأوجد مجال الدالة واحد على الجذر التربيعي لإكس ناقص ثلاثة، واشرح ليه الحد الفاصل مش داخل المجال.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Find the domain of the real-valued function $q(x)=1/\\sqrt{x-3}$, and explain why the endpoint is excluded.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "أوجد مجال الدالة واحد على الجذر التربيعي لإكس ناقص ثلاثة، واشرح ليه الحد الفاصل مش داخل المجال.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-domain-range-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Determine functional uniqueness and valid real input domain",
+      "beat": "A1"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "A1",
+    "english": "Find the domain of the real-valued function $q(x)=1/\\sqrt{x-3}$, and explain why the endpoint is excluded.",
+    "arabic": "أوجد مجال الدالة واحد على الجذر التربيعي لإكس ناقص ثلاثة، واشرح ليه الحد الفاصل مش داخل المجال.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "The domain is $x>3$, or $(3,\\infty)$.",
+      "arabic": "المجال هو كل إكس أكبر من ثلاثة. عايزين اللي تحت الجذر يكون غير سالب، وفي نفس الوقت الجذر موجود في المقام ومينفعش يساوي صفر؛ فشرطنا الأقوى هو إكس ناقص ثلاثة أكبر من صفر، مش أكبر من أو يساوي. عند ثلاثة المقام صفر، ولذلك النقطة مستبعدة.",
+      "reasoning": "المجال هو كل إكس أكبر من ثلاثة. عايزين اللي تحت الجذر يكون غير سالب، وفي نفس الوقت الجذر موجود في المقام ومينفعش يساوي صفر؛ فشرطنا الأقوى هو إكس ناقص ثلاثة أكبر من صفر، مش أكبر من أو يساوي. عند ثلاثة المقام صفر، ولذلك النقطة مستبعدة."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "The domain is $x>3$, or $(3,\\infty)$.\nالمجال هو كل إكس أكبر من ثلاثة. عايزين اللي تحت الجذر يكون غير سالب، وفي نفس الوقت الجذر موجود في المقام ومينفعش يساوي صفر؛ فشرطنا الأقوى هو إكس ناقص ثلاثة أكبر من صفر، مش أكبر من أو يساوي. عند ثلاثة المقام صفر، ولذلك النقطة مستبعدة.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "The domain is $x>3$, or $(3,\\infty)$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "المجال هو كل إكس أكبر من ثلاثة. عايزين اللي تحت الجذر يكون غير سالب، وفي نفس الوقت الجذر موجود في المقام ومينفعش يساوي صفر؛ فشرطنا الأقوى هو إكس ناقص ثلاثة أكبر من صفر، مش أكبر من أو يساوي. عند ثلاثة المقام صفر، ولذلك النقطة مستبعدة.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-domain-range-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Determine functional uniqueness and valid real input domain",
+          "beat": "A1"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

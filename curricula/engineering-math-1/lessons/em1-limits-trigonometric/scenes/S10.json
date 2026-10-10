@@ -1,0 +1,49 @@
+{
+  "id": "S10",
+  "title": "Teaching concept 8",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 44–46; PDF 25–27; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N10",
+    "role": "teaching",
+    "script": "آخر خطوة هتجمع بين ساين وتان. مثلًا $\\sin(2x)/\\tan(3x)$ لما إكس تقرب من صفر، ماينفعش نعوض مباشرة لأن البسط والمقام بيقربوا من صفر. نكتبها في صورة $[\\sin(2x)/(2x)]\\,[(3x)/\\tan(3x)]\\,(2/3)$. النسبة الأولى تقرب من واحد، والنسبة التانية مقلوب نسبة التان الأساسية اللي بتقرب من واحد، فالنهاية اتنين على تلاتة. مش محتاج تحفظ قانونًا جديدًا لكل معامل؛ نفس النهايتين الأساسيتين هم اللي بيشتغلوا.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "آخر خطوة هتجمع بين ساين وتان.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "النسبة الأولى تقرب من واحد،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "نفس النهايتين الأساسيتين هم اللي بيشتغلوا.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-trigonometric-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Combine sine and tangent ratios with valid coefficients",
+      "beat": "T8"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

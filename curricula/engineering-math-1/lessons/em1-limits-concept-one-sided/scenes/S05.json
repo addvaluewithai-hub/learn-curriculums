@@ -1,0 +1,92 @@
+{
+  "id": "S05",
+  "title": "Independent question C2",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 37–40; PDF 22–23; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "question",
+    "script": "Evaluate $\\lim_{x\\to 2}(3x-2)$. Is the limit about inputs near two or only the value exactly at two?\nاحسب نهاية ثلاثة إكس ناقص اتنين لما إكس تقترب من اتنين، واشرح هل السؤال عن القيم القريبة ولا نقطة اتنين وحدها.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Evaluate $\\lim_{x\\to 2}(3x-2)$. Is the limit about inputs near two or only the value exactly at two?",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "احسب نهاية ثلاثة إكس ناقص اتنين لما إكس تقترب من اتنين، واشرح هل السؤال عن القيم القريبة ولا نقطة اتنين وحدها.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-concept-one-sided-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Explain limits of nearby outputs independent of point value",
+      "beat": "C2"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "C2",
+    "english": "Evaluate $\\lim_{x\\to 2}(3x-2)$. Is the limit about inputs near two or only the value exactly at two?",
+    "arabic": "احسب نهاية ثلاثة إكس ناقص اتنين لما إكس تقترب من اتنين، واشرح هل السؤال عن القيم القريبة ولا نقطة اتنين وحدها.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "The limit is $4$; it describes nearby values as $x\\to2$.",
+      "arabic": "ناتج التعويض هنا أربعة، والدالة الخطية مفيهاش مشكلة حوالين اتنين، فالقيم القريبة فعلًا بتقرب من أربعة. معنى النهاية هو سلوك القيم القريبة، وإنها ساوت قيمة الدالة عند اتنين في المثال ده حاجة إضافية مش تعريف النهاية.",
+      "reasoning": "ناتج التعويض هنا أربعة، والدالة الخطية مفيهاش مشكلة حوالين اتنين، فالقيم القريبة فعلًا بتقرب من أربعة. معنى النهاية هو سلوك القيم القريبة، وإنها ساوت قيمة الدالة عند اتنين في المثال ده حاجة إضافية مش تعريف النهاية."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "The limit is $4$; it describes nearby values as $x\\to2$.\nناتج التعويض هنا أربعة، والدالة الخطية مفيهاش مشكلة حوالين اتنين، فالقيم القريبة فعلًا بتقرب من أربعة. معنى النهاية هو سلوك القيم القريبة، وإنها ساوت قيمة الدالة عند اتنين في المثال ده حاجة إضافية مش تعريف النهاية.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "The limit is $4$; it describes nearby values as $x\\to2$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "ناتج التعويض هنا أربعة، والدالة الخطية مفيهاش مشكلة حوالين اتنين، فالقيم القريبة فعلًا بتقرب من أربعة. معنى النهاية هو سلوك القيم القريبة، وإنها ساوت قيمة الدالة عند اتنين في المثال ده حاجة إضافية مش تعريف النهاية.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-limits-concept-one-sided-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Explain limits of nearby outputs independent of point value",
+          "beat": "C2"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

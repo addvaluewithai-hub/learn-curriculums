@@ -1,0 +1,92 @@
+{
+  "id": "S10",
+  "title": "Independent question B3",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 25–30; PDF 16–19, overlapping adjacent concepts; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N10",
+    "role": "question",
+    "script": "Relative to the graph of $y=x^2$, where is the vertex of $y=(x+3)^2-2$? State whether the parabola opens upward or downward.\nبالنسبة لمنحنى واي تساوي إكس تربيع، فين رأس منحنى واي تساوي إكس زائد تلاتة الكل تربيع ناقص اتنين، وهل فتحة المنحنى لفوق ولا لتحت؟",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Relative to the graph of $y=x^2$, where is the vertex of $y=(x+3)^2-2$? State whether the parabola opens upward or downward.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "بالنسبة لمنحنى واي تساوي إكس تربيع، فين رأس منحنى واي تساوي إكس زائد تلاتة الكل تربيع ناقص اتنين، وهل فتحة المنحنى لفوق ولا لتحت؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-algebraic-graphs-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Read translated quadratic graph vertices",
+      "beat": "B3"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "B3",
+    "english": "Relative to the graph of $y=x^2$, where is the vertex of $y=(x+3)^2-2$? State whether the parabola opens upward or downward.",
+    "arabic": "بالنسبة لمنحنى واي تساوي إكس تربيع، فين رأس منحنى واي تساوي إكس زائد تلاتة الكل تربيع ناقص اتنين، وهل فتحة المنحنى لفوق ولا لتحت؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "Vertex $(-3,-2)$; the parabola opens upward.",
+      "arabic": "اللي جوه التربيع إكس زائد تلاتة معناه إن القاع اتحرك تلات وحدات شمال، والناقص اتنين خارج التربيع نزّله وحدتين. عشان كده الرأس عند سالب تلاتة وسالب اتنين، وبما إن معامل التربيع موجب، المنحنى مفتوح لفوق. ده تطبيق على قراءة الرسم مش مجرد تصنيف اسم الدالة.",
+      "reasoning": "اللي جوه التربيع إكس زائد تلاتة معناه إن القاع اتحرك تلات وحدات شمال، والناقص اتنين خارج التربيع نزّله وحدتين. عشان كده الرأس عند سالب تلاتة وسالب اتنين، وبما إن معامل التربيع موجب، المنحنى مفتوح لفوق. ده تطبيق على قراءة الرسم مش مجرد تصنيف اسم الدالة."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "Vertex $(-3,-2)$; the parabola opens upward.\nاللي جوه التربيع إكس زائد تلاتة معناه إن القاع اتحرك تلات وحدات شمال، والناقص اتنين خارج التربيع نزّله وحدتين. عشان كده الرأس عند سالب تلاتة وسالب اتنين، وبما إن معامل التربيع موجب، المنحنى مفتوح لفوق. ده تطبيق على قراءة الرسم مش مجرد تصنيف اسم الدالة.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Vertex $(-3,-2)$; the parabola opens upward.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "اللي جوه التربيع إكس زائد تلاتة معناه إن القاع اتحرك تلات وحدات شمال، والناقص اتنين خارج التربيع نزّله وحدتين. عشان كده الرأس عند سالب تلاتة وسالب اتنين، وبما إن معامل التربيع موجب، المنحنى مفتوح لفوق. ده تطبيق على قراءة الرسم مش مجرد تصنيف اسم الدالة.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-algebraic-graphs-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Read translated quadratic graph vertices",
+          "beat": "B3"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

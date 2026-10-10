@@ -1,0 +1,92 @@
+{
+  "id": "S15",
+  "title": "Independent question E4",
+  "objectiveIds": [
+    "O4"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N15",
+    "role": "question",
+    "script": "Is $f(x)=|x-2|$ continuous at $x=2$ on $\\mathbb R$? Check the value at the point and both one-sided limits.\nهل القيمة المطلقة لإكس ناقص اتنين متصلة عند اتنين؟ افحص قيمة الدالة عند النقطة والنهاية من كل ناحية.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Is $f(x)=|x-2|$ continuous at $x=2$ on $\\mathbb R$? Check the value at the point and both one-sided limits.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "هل القيمة المطلقة لإكس ناقص اتنين متصلة عند اتنين؟ افحص قيمة الدالة عند النقطة والنهاية من كل ناحية.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Recognize domain-endpoint and sharp-corner continuity",
+      "beat": "E4"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "E4",
+    "english": "Is $f(x)=|x-2|$ continuous at $x=2$ on $\\mathbb R$? Check the value at the point and both one-sided limits.",
+    "arabic": "هل القيمة المطلقة لإكس ناقص اتنين متصلة عند اتنين؟ افحص قيمة الدالة عند النقطة والنهاية من كل ناحية.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "Yes. $f(2)=0$, $\\lim_{x\\to2^-}f(x)=0$ and $\\lim_{x\\to2^+}f(x)=0$; therefore $f$ is continuous at $2$.",
+      "arabic": "عند اتنين القيمة المطلقة لصفر هي صفر. ولو قربنا من اتنين من أي ناحية، المسافة بتقرب من صفر. كده النهاية من الشمال والنهاية من اليمين واحد، وبتساوي قيمة الدالة عند اتنين. الزاوية الحادة في الرسم ما تمنعش الاتصال، لكن ممكن تأثر لاحقًا على المشتقة.",
+      "reasoning": "عند اتنين القيمة المطلقة لصفر هي صفر. ولو قربنا من اتنين من أي ناحية، المسافة بتقرب من صفر. كده النهاية من الشمال والنهاية من اليمين واحد، وبتساوي قيمة الدالة عند اتنين. الزاوية الحادة في الرسم ما تمنعش الاتصال، لكن ممكن تأثر لاحقًا على المشتقة."
+    },
+    "feedback": {
+      "id": "F04",
+      "role": "feedback",
+      "script": "Yes. $f(2)=0$, $\\lim_{x\\to2^-}f(x)=0$ and $\\lim_{x\\to2^+}f(x)=0$; therefore $f$ is continuous at $2$.\nعند اتنين القيمة المطلقة لصفر هي صفر. ولو قربنا من اتنين من أي ناحية، المسافة بتقرب من صفر. كده النهاية من الشمال والنهاية من اليمين واحد، وبتساوي قيمة الدالة عند اتنين. الزاوية الحادة في الرسم ما تمنعش الاتصال، لكن ممكن تأثر لاحقًا على المشتقة.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Yes. $f(2)=0$, $\\lim_{x\\to2^-}f(x)=0$ and $\\lim_{x\\to2^+}f(x)=0$; therefore $f$ is continuous at $2$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "عند اتنين القيمة المطلقة لصفر هي صفر. ولو قربنا من اتنين من أي ناحية، المسافة بتقرب من صفر. كده النهاية من الشمال والنهاية من اليمين واحد، وبتساوي قيمة الدالة عند اتنين. الزاوية الحادة في الرسم ما تمنعش الاتصال، لكن ممكن تأثر لاحقًا على المشتقة.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-continuity-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Recognize domain-endpoint and sharp-corner continuity",
+          "beat": "E4"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

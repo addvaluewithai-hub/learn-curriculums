@@ -1,0 +1,51 @@
+{
+  "id": "S09",
+  "title": "Teaching concept 9",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 21–25; PDF 14–16; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "teaching",
+    "script": "هنجرب سوا قبل سؤال الامتحان. لو $p(x)=x+5$، ينفع أحط أي عدد حقيقي، ومفيش جذر أو مقام يقيدني. ومهما كانت قيمة الناتج اللي بدور عليها، أقدر ألاقي مدخل مناسب: لو عايز سبعة، أدخل اتنين. كده المجال والمدى هما كل الأعداد الحقيقية. ده مثال سهل لكن بيورينا إن لازم تسأل السؤالين بشكل منفصل.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "هنجرب سوا قبل سؤال الامتحان.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "ومهما كانت قيمة الناتج اللي بدور عليها،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ده مثال سهل لكن بيورينا إن لازم تسأل السؤالين بشكل منفصل.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-domain-range-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Determine functional uniqueness and valid real input domain",
+      "beat": "T9"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "S07",
+  "title": "Teaching concept 6",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 44–46; PDF 25–27; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N07",
+    "role": "teaching",
+    "script": "لو الزاوية جوه التان بقت $4x$، نعمل زي الساين بالضبط: $\\tan(4x)/(3x)=(4/3)\\,[\\tan(4x)/(4x)]$. النسبة جوه تقرب من واحد، فيبقى الناتج أربعة على تلاتة. خد بالك إن المقام لازم يطابق كل الزاوية، مش مجرد حرف إكس.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "لو الزاوية جوه التان بقت $4x$،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "فيبقى الناتج أربعة على تلاتة.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "مش مجرد حرف إكس.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-trigonometric-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Derive and apply tangent fundamental limit",
+      "beat": "T6"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

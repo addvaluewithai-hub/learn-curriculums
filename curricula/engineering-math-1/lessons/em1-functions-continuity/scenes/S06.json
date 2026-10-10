@@ -1,0 +1,49 @@
+{
+  "id": "S06",
+  "title": "Teaching concept 6",
+  "objectiveIds": [
+    "O4"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "teaching",
+    "script": "خد الدالة $f(x)=x^2+1$. عند إكس تساوي واحد، قيمة الدالة اتنين، ولما إكس تقرب من واحد من الناحيتين، القيم بتقرب من اتنين برضه. عندنا الثلاثة شروط، فالدالة متصلة عند واحد. كتير من الدوال المألوفة، زي كثيرات الحدود، متصلة عند كل عدد حقيقي. والدالة الكسرية بتكون متصلة عند النقط اللي مقامها مش صفر؛ هنا دور المجال بيرجع يظهر.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خد الدالة $f(x)=x^2+1$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "فالدالة متصلة عند واحد.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "هنا دور المجال بيرجع يظهر.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Recognize domain-endpoint and sharp-corner continuity",
+      "beat": "T6"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}
