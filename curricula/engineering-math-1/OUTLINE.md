@@ -1,5 +1,5 @@
 # Mathematics I — أولى هندسة
-**Editorial status:** **B01 Stage 04 canonical scene authoring and actual script-stage CI checks complete**. Five previously issued B01 IDs/orders remain stable; independent academic/human reviews, audio, real lesson SDK playback and release are **not complete**. **B02–B07 remain provisional**: B02 preserves historical Stage 02 drafts without issued IDs. No B02 gate advanced or source storage action performed.
+**Editorial status:** **B02 ACTIVE at Stage 01** after human `next block` following B01 Stage 04. B02 has five **complete connected provisional** active drafts and 17 independent question/feedback pairs, **no issued B02 lesson IDs/scenes or Stage 02 re-critique**. B01's five IDs and 72 canonical scenes remain unchanged; its audio and academic/visual approvals are deferred. B03–B07 remain a provisional plan.
 
 ## Intended audience and bilingual approach
 First-year engineering students learning calculus. Egyptian Arabic natural spoken instruction introduces concepts alongside familiar standard English mathematical terms; exam-style questions/model answers in English with Arabic support. We assume basic arithmetic, factorization and Cartesian coordinates; actual placement/syllabus is **awaiting human input**, not verified.
@@ -12,12 +12,12 @@ First-year engineering students learning calculus. Egyptian Arabic natural spoke
 
 ## Master roadmap — provisional production Blocks (whole available book)
 
-A **Block** is a bounded source/workflow unit, not a student lesson, ID, or guarantee that all pages are available. **B01 is currently active.** The suggested ranges beyond printed p. 80 are inferred from the table of contents and must not be taught as inspected content.
+A **Block** is a bounded source/workflow unit, not a student lesson, ID, or guarantee that all pages are available. **B02 is currently active; B01 remains Stage 04 authored/inactive with audio deferred.** The suggested ranges beyond printed p. 80 are inferred from the table of contents and must not be taught as inspected content.
 
 | Block | Proposed printed pages | Source availability | Prerequisite purpose / status |
 |---|---|---|---|
-| **B01 — Preliminaries** | **1–20** | Body supplied, editorially reviewed; exercises pp. 19–20 | Real-number and inequality foundations; **ACTIVE, Stage 03 five final editorial scripts/issued IDs** |
-| **B02 — Functions, limits, continuity** | **21–53** | Body supplied, editorially reviewed | Depends on B01; five prior Stage 02 drafts retained, **inactive until authorized Block activation** |
+| **B01 — Preliminaries** | **1–20** | Body supplied, editorially reviewed; exercises pp. 19–20 | Real-number and inequality foundations; **INACTIVE handoff: Stage 04 five issued lesson IDs, 72 canonical scenes, voice deferred** |
+| **B02 — Functions, limits, continuity** | **21–53** | Body supplied, editorially reviewed | **ACTIVE Stage 01** after human `next block`: five complete current provisional manuscripts with 17 question/feedback pairs; prior critique preserved as historic evidence |
 | **B03 — Differentiation** | **54–80** | Body supplied but not scripted; coverage skimmed | Depends on B02 limits/function fluency; **future Stage 01** |
 | **B04 — Inverse-related and exp/log functions** | **81–143 (inferred)** | **Contents only; pages not supplied** | Chapter 3 headings in contents; **blocked on actual body source** |
 | **B05 — Hyperbolic functions** | **144–150 (inferred)** | **Contents only; pages not supplied** | Chapter 4 headings; **blocked** |
@@ -45,7 +45,7 @@ A **Block** is a bounded source/workflow unit, not a student lesson, ID, or guar
 
 **Editorial authority transition completed:** `working-drafts/prelim-*.md` are archival Stage 02 inputs, and `blocks/B01/final-scripts/*.md` are historical Stage 03 manuscripts. **The canonical B01 words now live in `lessons/<id>/scenes/Sxx.json` narration and question feedback**. Lesson identity/objective/ordering lives in `lessons/<id>/lesson.json`. Any joined reading copy must be generated from the scene canon, not independently edited.
 
-## Chapter 1 — existing provisional lessons, after the Preliminaries
+## Block B02 — active Stage 01, five provisional connected manuscripts (no issued student IDs)
 | Working label (not stable ID) | Printed source pages | Learner objectives; independent check |
 |---|---|---|
 | **A. What makes a function?** | 21–25 | Interpret input/output, domain/range, domain restrictions and the vertical-line test. |
@@ -54,7 +54,7 @@ A **Block** is a bounded source/workflow unit, not a student lesson, ID, or guar
 | **D. Computing limits safely** | 40–46 | Apply valid limit laws, factoring/rationalization, one-sided reasoning and radians-based trigonometric limits. |
 | **E. Continuity and piecewise functions** | 47–53 | Test the three continuity conditions and solve a parameter matching problem. |
 
-Chapter 1 working drafts: `working-drafts/01-functions.md` to `working-drafts/05-continuity.md`.
+**Current editable B02 Stage 01 manuscripts:** `blocks/B02/working-drafts/01-functions.md` to `blocks/B02/working-drafts/05-continuity.md` (**five full texts, 17 question/feedback pairs**). Original `working-drafts/01-functions.md` through `05-continuity.md` are **frozen legacy AI Stage 02 history**; no silent rewriting or skipping the active Block's required gates. Prerequisite/objective map: `blocks/B02/CONCEPT_AND_LESSON_MAP.md`; actual reopened source: `blocks/B02/reviews/STAGE_01_SOURCE_REOPEN.md`. A–E are **provisional teaching clusters**, not stable IDs or final student lesson boundaries.
 
 ## Concept/prerequisite map
 - **Assumed/possibly diagnosed:** basic arithmetic with positive/negative values, fraction operations, solving equations, polynomial factorization, plotting axes, introductory trigonometry.
@@ -69,6 +69,6 @@ Each of the five B01 lesson folders now owns `scenes/ConceptBoard.tsx` with a su
 - Original scanned source and checked access limits: `references/SOURCE_MANIFEST.md`, `references/SOURCE_COVERAGE.md`, `references/SOURCE_REVIEW.md`. The user chose to postpone private long-term PDF retention; no original bytes uploaded.
 - **B01 Stage 03 (historic):** five reviewed complete connected manuscripts, IDs, source/objective map, 4→5 split rationale: `blocks/B01/reviews/STAGE_03_BOUNDARY_DECISION.md`.
 - **B01 Stage 04 (current canonical):** **72 scene JSON files, 15 independent question scenes, 15 separate feedback clips, 87 clips**, five lesson-owned TSX boards and independent 16:9/9:16 storyboards. `blocks/B01/reviews/STAGE_04_SCENES.md` and `blocks/B01/STATUS.md`. A generic `tests/test_script_stage_ready.py` executes real `validate_lesson(...,"script")` in successful [GitHub Actions](https://github.com/addvaluewithai-hub/learn-curriculums/actions/runs/37952958546).
-- **B02 historical Stage 02:** five complete provisional working drafts and the joint critique preserved in `working-drafts/01-functions.md`–`05-continuity.md` and `reviews/STAGE_02_CRITIQUE.md`. They were drafted under the former curriculum-wide workflow; **no new B02 gate, ID or lesson-boundary decision**.
+- **B02 Stage 01 active now:** five complete connected copies of the previously written teaching/assessment bodies, owned only by `blocks/B02/working-drafts/` with 17 independent exam questions + 17 separate post-attempt feedback sections. The former joint Stage 02 critique in `reviews/STAGE_02_CRITIQUE.md` is historical evidence and **not** the newly authorized B02 Stage 02. Actual original PDF re-opened with matching hash; apparent source p. 34 exponential domain/range discrepancy flagged, not silently resolved.
 - Academic/scientific, audio/listening, timing, lesson-specific preview/runtime and student publication reviews remain **untested**; `review.json` does not claim any passed reviews. No paid TTS.
-- **STOP for B01 Stage 04 human inspection.** A later bare `next` authorizes **B01 Stage 05 audio pilot preparation/dry-run only** (paid dispatch requires separate approval); distinct `next block` may explicitly activate B02 editorial resumption after B01 inspection, reconciling historical B02 scripts/source access. No automatic move into B02.
+- **STOP — B02 Stage 01 complete, awaiting NEW human `next` for B02 Stage 02 source/scientific/novice critique and rewrite only**; no B02 stable IDs/scenes. B01 remains at Stage 04 with audio deferred. To resume B01 Stage 05, explicitly reselect B01; a bare `next` now refers to B02. No public book upload, paid TTS, merge or publication.
