@@ -1,9 +1,9 @@
 # B02 Stage 03 — Increasing, Decreasing and Intervals of Monotonicity
-**Stable lesson ID:** \`em1-functions-monotonicity\` | **B02 issued order:** 4 of 8 | **Arabic title:** التزايد والتناقص على فترات
-**Source:** \`abd-el-salam-math-i-scan\`, printed pp. **35–37** within chapter graph-behavior/limit transition; PDF image pp. **21–22**. This is a learner-centered division, not a claim of a clean printed subsection boundary.
+**Stable lesson ID:** `em1-functions-monotonicity` | **B02 issued order:** 4 of 8 | **Arabic title:** التزايد والتناقص على فترات
+**Source:** `abd-el-salam-math-i-scan`, printed pp. **35–37** within chapter graph-behavior/limit transition; PDF image pp. **21–22**. This is a learner-centered division, not a claim of a clean printed subsection boundary.
 **Prerequisites:** Cartesian graphs and B02 function families; B01 number-line order, intervals and positive/negative comparisons. No derivative is assumed.
 **Objectives:** define strict increasing/decreasing relative to two ordered inputs in an interval; read sign of change left-to-right on common graphs; identify restricted intervals instead of making false whole-domain claims.
-**Stage 02 source:** provisional C \`../working-drafts/03-monotonicity-limits.md\`, independent Q-C1, plus new original Q-C5 and Q-C6 assessing linear/rational behavior.
+**Stage 02 source:** provisional C `../working-drafts/03-monotonicity-limits.md`, independent Q-C1, plus new original Q-C5 and Q-C6 assessing linear/rational behavior.
 **Boundary:** SPLIT C into graph monotonicity here vs value-approach/one-sided limits next. This lesson is coherent without needing the formal limit concept; separate checks target comparison across entire intervals.
 **Attribution:** examples and assessments are authored learning checks, not copied textbook exercises. This Markdown is Stage 03 editorial narration only.
 
@@ -15,7 +15,7 @@
 
 بص على $f(x)=x^2$. لما نتحرك من إكس سالب تلاتة لسالب واحد، الناتج يقل من تسعة لواحد. وقبل الصفر كل ما إكس تقرب من الصفر من ناحية السالب، قيمة التربيع تقل. وبعد الصفر بيحصل العكس: تربيع الأعداد الموجبة بيكبر مع زيادة إكس. إذن الدالة متناقصة على $(-\infty,0)$ ومتزايدة على $(0,\infty)$. عند الصفر نفسها أقل قيمة؛ اخترنا الفترتين المفتوحتين لوصف فرعين صارمين ومش لازم نزعم إنها متزايدة على كل الأعداد الحقيقية.
 
-لو حرّكنا نفس المنحنى للشمال في $(x+1)^2$، النقطة اللي بتقسم السلوك هتبقى سالب واحد. خلينا نختبر الجزء ده بسؤال جديد قبل ما نشوف الخطوط والكسور.
+لو حرّكنا نفس المنحنى للشمال في $(x+2)^2$، النقطة اللي بتقسم السلوك هتبقى سالب اتنين. خلينا نختبر الجزء ده بسؤال جديد قبل ما نشوف الخطوط والكسور.
 
 ## Independent attempt Q-C1 — not spoken as heading
 **Question spoken (English):** For $f(x)=(x+1)^2$, state the intervals where the function is decreasing and increasing.
@@ -28,7 +28,7 @@
 
 ## Connected spoken continuation — the sign of slope without calculus
 
-هل لازم يكون فيه منحنى عشان نقول متزايد ومتناقص؟ لأ. لو $g(x)=3x+2$، خد أي مدخلين $x_1<x_2$. الفرق في النتيجتين $g(x_2)-g(x_1)=3(x_2-x_1)$؛ لأن الفرق بين المدخلين موجب، والضرب في تلاتة موجب يفضل موجب. إذن $g$ متزايدة على كل الأعداد الحقيقية. لو الميل سالب، زي $-2x+7$، نفس الفرق يطلع سالب، فالدالة متناقصة. ما احتجناش مشتقة عشان نفهم ده.
+هل لازم يكون فيه منحنى عشان نقول متزايد ومتناقص؟ لأ. لو $g(x)=3x+2$، خد أي مدخلين $x_1<x_2$. الفرق في النتيجتين $g(x_2)-g(x_1)=3(x_2-x_1)$؛ لأن الفرق بين المدخلين موجب، والضرب في تلاتة موجب يفضل موجب. إذن $g$ متزايدة على كل الأعداد الحقيقية. لو الميل سالب، زي $-3x+4$، نفس الفرق يطلع سالب، فالدالة متناقصة. ما احتجناش مشتقة عشان نفهم ده.
 
 دلوقتي هتجرّب مستقيمًا مختلفًا عن اللي حسبناه، وهتربط الحكم بمقارنة نواتج فعلية.
 
@@ -43,7 +43,7 @@
 
 ## Connected spoken continuation — domain matters
 
-آخر شكل هنراجعه هو الكسر $h(x)=1/x$. المجال هنا مش كل الأعداد: إكس تساوي صفر ممنوعة. على الجزء **الموجب فقط**، لو زودت إكس من واحد لاتنين، الناتج يقل من واحد لنص. ولو زودت المدخل أكثر من نص لواحد، الناتج يقل من اتنين لواحد. الفكرة العامة إن مقلوب العدد الموجب بيقل لما العدد نفسه يزيد، عشان كده الدالة متناقصة على $(0,\infty)$. وعلى الجزء السالب كمان هي متناقصة، لكن ماينفعش نقول متناقصة على **المجال كله كقطعة واحدة** باختيار نقطتين عبر الصفر: المجال فيه فجوة وحكم المقارنة ممكن يتغير عبر الفجوة.
+آخر شكل هنراجعه هو الكسر $h(x)=2/x$. المجال هنا مش كل الأعداد: إكس تساوي صفر ممنوعة. على الجزء **الموجب فقط**، لو زودت إكس من واحد لاتنين، الناتج يقل من اتنين لواحد. ولو زودت المدخل من نص لواحد، الناتج يقل من أربعة لاتنين. الفكرة العامة إن مقلوب العدد الموجب بيقل لما العدد نفسه يزيد، وضربه في اتنين موجب ما يغيّرش الاتجاه، عشان كده الدالة متناقصة على $(0,\infty)$. وعلى الجزء السالب كمان هي متناقصة، لكن ماينفعش نقول متناقصة على **المجال كله كقطعة واحدة** باختيار نقطتين عبر الصفر: المجال فيه فجوة وحكم المقارنة ممكن يتغير عبر الفجوة.
 
 جرّب بنفسك مسألة بتطلب منك توضح ليه الفترة المحددة مهمة، مش بس تقرأ الشكل من بعيد.
 

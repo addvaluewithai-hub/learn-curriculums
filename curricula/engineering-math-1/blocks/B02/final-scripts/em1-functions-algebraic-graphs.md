@@ -1,9 +1,9 @@
 # B02 Stage 03 — Algebraic Function Families and Graph Transformations
-**Stable lesson ID:** \`em1-functions-algebraic-graphs\` | **B02 issued order:** 2 of 8 | **Arabic title:** عائلات الدوال الجبرية وتحويل الرسوم
-**Source:** \`abd-el-salam-math-i-scan\`, printed pp. **25–30** within larger function-family cluster pp. 25–35; PDF image pp. **16–19** (overlapping spreads). Precise pedagogical split is not a separate book section.
-**Prerequisites:** \`em1-functions-domain-range\` (input-output, domain/range); B01 polynomial factoring, denominator restriction and graph axes.
+**Stable lesson ID:** `em1-functions-algebraic-graphs` | **B02 issued order:** 2 of 8 | **Arabic title:** عائلات الدوال الجبرية وتحويل الرسوم
+**Source:** `abd-el-salam-math-i-scan`, printed pp. **25–30** within larger function-family cluster pp. 25–35; PDF image pp. **16–19** (overlapping spreads). Precise pedagogical split is not a separate book section.
+**Prerequisites:** `em1-functions-domain-range` (input-output, domain/range); B01 polynomial factoring, denominator restriction and graph axes.
 **Objectives:** recognize linear/power/polynomial and rational functions; connect algebraic form to basic graph and restricted domain; interpret simple horizontal/vertical translation of a parabola.
-**Stage 02 source:** provisional B, \`../working-drafts/02-function-families.md\`, questions B1 and B3; new Q-B6 is an independent authored transfer check.
+**Stage 02 source:** provisional B, `../working-drafts/02-function-families.md`, questions B1 and B3; new Q-B6 is an independent authored transfer check.
 **Boundary decision:** SPLIT B: polynomial/rational families and graph transformations use Cartesian shape and factoring, while trig/exp/log families introduce a different conceptual/radian/logarithm prerequisite. This is a full standalone narrative, not a chopped source transcript.
 **Attribution:** explanatory examples and exam problems authored for teaching; source pages ground the topic, not verbatim problem text. This Stage 03 Markdown is an editorial manuscript only, with no scenes/media/approval.
 
@@ -32,7 +32,7 @@
 
 لما عرفت شكل $y=x^2$، ممكن تجيب عائلة رسومات من نفس الشكل من غير ما تحسب جدول طويل. تخيل إننا رسمنا $y=(x-2)^2$. القيمة الصغرى بقت عند إكس تساوي اتنين بدل صفر؛ القاع اتحرك **يمين اتنين**. ولو أضفنا تلاتة بره التربيع، $y=(x-2)^2+3$، القاع يطلع **فوق تلاتة**. ده اسمه **Graph transformation**؛ بمعنى إننا نقلنا الرسم بدل ما نعيد تصميمه.
 
-ليه الإزاحة جوه القوس عكس ما البعض يتوقع؟ عشان القوس يتصفّر عند إكس اتنين في $(x-2)^2$، وعند إكس سالب تلاتة في $(x+3)^2$. فاللي بيدور على أقل قيمة يسأل إمتى مربع القوس يساوي صفر، مش يقرأ الإشارة وكأنها اتجاه الحركة مباشرة. لو عندك $-(x-1)^2+2$، الإشارة السالبة تخلي المنحنى مفتوح لتحت، وأعلى نقطة عند واحد واتنين. ده توضيح هندسي مؤلف هنا، مش مسألة بننسبها للمصدر حرفيًا.
+ليه الإزاحة جوه القوس عكس ما البعض يتوقع؟ عشان القوس يتصفّر عند إكس اتنين في $(x-2)^2$، وعند إكس سالب أربعة في $(x+4)^2$. فاللي بيدور على أقل قيمة يسأل إمتى مربع القوس يساوي صفر، مش يقرأ الإشارة وكأنها اتجاه الحركة مباشرة. لو عندك $-(x-1)^2+2$، الإشارة السالبة تخلي المنحنى مفتوح لتحت، وأعلى نقطة عند واحد واتنين. ده توضيح هندسي مؤلف هنا، مش مسألة بننسبها للمصدر حرفيًا.
 
 دلوقتي نختبر إزاحة جديدة مستقلة عن المثال.
 

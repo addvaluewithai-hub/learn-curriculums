@@ -1,9 +1,9 @@
 # B02 Stage 03 — Limits as Nearby Behavior and One-Sided Approach
-**Stable lesson ID:** \`em1-limits-concept-one-sided\` | **B02 issued order:** 5 of 8 | **Arabic title:** معنى النهاية والنهايات من اليمين والشمال
-**Source:** \`abd-el-salam-math-i-scan\`, printed pp. **37–40** (shared with monotonicity and next calculation pages); PDF images **22–23**. Page overlap is genuine; the new boundary is pedagogical, not a distinct source heading.
+**Stable lesson ID:** `em1-limits-concept-one-sided` | **B02 issued order:** 5 of 8 | **Arabic title:** معنى النهاية والنهايات من اليمين والشمال
+**Source:** `abd-el-salam-math-i-scan`, printed pp. **37–40** (shared with monotonicity and next calculation pages); PDF images **22–23**. Page overlap is genuine; the new boundary is pedagogical, not a distinct source heading.
 **Prerequisites:** B02 domain and graph-reading, intervals/ordered inputs and basic factoring; previous monotonicity lesson is context, not proof of any limit.
 **Objectives:** distinguish limit of nearby values from value at the point; read separate left-/right-hand approaches, including missing or reassigned points; determine when a finite two-sided limit exists.
-**Stage 02 source:** C, \`../working-drafts/03-monotonicity-limits.md\`, Q-C2/C3/C4 all retained as separate independent checks; lesson rewritten with its own starting motivation and recap.
+**Stage 02 source:** C, `../working-drafts/03-monotonicity-limits.md`, Q-C2/C3/C4 all retained as separate independent checks; lesson rewritten with its own starting motivation and recap.
 **Boundary:** other half of SPLIT C; one unified question—what does the rule approach near a target input?—supports all examples and exams.
 **Attribution:** examples/questions original pedagogy; no copyrighted book exercise is transcribed. No issued scenes, audio or media.
 
@@ -45,7 +45,7 @@
 
 ## Connected spoken continuation — repairing a point does not change nearby behavior
 
-قبل ما نخلص، خد قاعدة جديدة في ذهنك: لو قربنا من نقطة والدالة على كل المدخلات القريبة بتدي نفس السلوك، تغيير **قيمة النقطة نفسها** ما بيغيرش النهاية. مثال: لو بعيدًا عن تلاتة كان التعبير $(x^2-9)/(x-3)$، فبيساوي $x+3$ عند كل إكس غير تلاتة؛ وبالتالي النهاية ستة. لو صاحب المسألة كتب إن القيمة عند تلاتة سالب سبعة، هنقول ده تعريف جديد للنقطة فقط؛ النهاية لسه ستة. السؤال التالي مش نفس المثال: لازم تفصل بين القيمة اللي حُددت للنقطة واللي الدالة بتميل له حواليها.
+قبل ما نخلص، خد قاعدة جديدة في ذهنك: لو قربنا من نقطة والدالة على كل المدخلات القريبة بتدي نفس السلوك، تغيير **قيمة النقطة نفسها** ما بيغيرش النهاية. مثال جديد: لو بعيدًا عن أربعة كان التعبير $(x^2-16)/(x-4)$، فبيساوي $x+4$ عند كل إكس غير أربعة؛ وبالتالي النهاية تمانية. لو صاحب المسألة كتب إن القيمة عند أربعة اتنين، هنقول ده تعريف جديد للنقطة فقط؛ النهاية لسه تمانية. السؤال التالي مش نفس المثال: لازم تفصل بين القيمة اللي حُددت للنقطة واللي الدالة بتميل له حواليها.
 
 ## Independent attempt Q-C4 — value assigned at a removable hole
 **Question spoken (English):** For $x\ne3$ let $r(x)=\frac{x^2-9}{x-3}$, but define $r(3)=-7$. Find $\lim_{x\to3}r(x)$ and $r(3)$. Are they equal?

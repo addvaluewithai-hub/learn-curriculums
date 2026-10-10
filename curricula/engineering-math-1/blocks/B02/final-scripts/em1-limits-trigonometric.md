@@ -1,9 +1,9 @@
 # B02 Stage 03 — Trigonometric Limits in Radians
-**Stable lesson ID:** \`em1-limits-trigonometric\` | **B02 issued order:** 7 of 8 | **Arabic title:** النهايات المثلثية وقانون الساين بالراديان
-**Source:** \`abd-el-salam-math-i-scan\`, printed pp. **44–46** (end of B02 limit methods; overlap pp. 44–45 with algebraic methods), PDF images **25–27**. Exact photographed source division is not one-to-one with student lessons.
-**Prerequisites:** limit meaning and valid product law; radian angle measure (\`pi radians=180 degrees\` bridge); $\sin,\cos,\tan$ definitions and tangent denominator from preceding B02 trig-family lesson.
+**Stable lesson ID:** `em1-limits-trigonometric` | **B02 issued order:** 7 of 8 | **Arabic title:** النهايات المثلثية وقانون الساين بالراديان
+**Source:** `abd-el-salam-math-i-scan`, printed pp. **44–46** (end of B02 limit methods; overlap pp. 44–45 with algebraic methods), PDF images **25–27**. Exact photographed source division is not one-to-one with student lessons.
+**Prerequisites:** limit meaning and valid product law; radian angle measure (`pi radians=180 degrees` bridge); $\sin,\cos,\tan$ definitions and tangent denominator from preceding B02 trig-family lesson.
 **Objectives:** correctly use $\lim_{u\to0}\sin(u)/u=1$ in radians; convert scaled sine limits by factor matching; derive tangent limit from sine and cosine; solve comparative trig-limit examples with conditions.
-**Stage 02 source:** D \`../working-drafts/04-calculating-limits.md\`, independent Q-D2 plus new Q-D5 and Q-D6 for tangent and mixed sine/tangent transfer.
+**Stage 02 source:** D `../working-drafts/04-calculating-limits.md`, independent Q-D2 plus new Q-D5 and Q-D6 for tangent and mixed sine/tangent transfer.
 **Boundary:** other half of SPLIT D. Angle units and trig identities are a distinct new conceptual precondition, so this is a fully connected lesson, not a cut paragraph.
 **Attribution:** worked examples/assessments independently authored; no verbatim textbook exercise reproduction. This is Stage 03 script only; no timed visuals/TTS.
  

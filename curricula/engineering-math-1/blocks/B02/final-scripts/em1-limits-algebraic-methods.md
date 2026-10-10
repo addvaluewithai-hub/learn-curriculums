@@ -1,9 +1,9 @@
 # B02 Stage 03 — Algebraic Limits, Cancellation, Rationalization and Directional Behavior
-**Stable lesson ID:** \`em1-limits-algebraic-methods\` | **B02 issued order:** 6 of 8 | **Arabic title:** حساب النهايات الجبرية والمرافق والاتجاهات
-**Source:** \`abd-el-salam-math-i-scan\`, printed pp. **39–45** (limit laws, algebraic worked approaches) / PDF images **23–26**. Trigonometric limit identities on the overlapping later spread are treated in the next student lesson, not falsely claimed as a clean printed section break.
+**Stable lesson ID:** `em1-limits-algebraic-methods` | **B02 issued order:** 6 of 8 | **Arabic title:** حساب النهايات الجبرية والمرافق والاتجاهات
+**Source:** `abd-el-salam-math-i-scan`, printed pp. **39–45** (limit laws, algebraic worked approaches) / PDF images **23–26**. Trigonometric limit identities on the overlapping later spread are treated in the next student lesson, not falsely claimed as a clean printed section break.
 **Prerequisites:** nearby/one-sided limits from preceding B02 lesson; B01 factorization, nonzero denominator, sign analysis, principal square root and interval notation.
-**Objectives:** use valid limit laws with denominator conditions; distinguish \`0/0\` from a result; compute finite limits by factoring or conjugates on neighboring admissible inputs; interpret opposing unbounded one-sided signs without assigning infinity as a real value.
-**Stage 02 source:** D \`../working-drafts/04-calculating-limits.md\`, independent D1 (factor), D3 (conjugate), D4 (one-sided divergence). All kept as written-attempt questions with separate feedback.
+**Objectives:** use valid limit laws with denominator conditions; distinguish `0/0` from a result; compute finite limits by factoring or conjugates on neighboring admissible inputs; interpret opposing unbounded one-sided signs without assigning infinity as a real value.
+**Stage 02 source:** D `../working-drafts/04-calculating-limits.md`, independent D1 (factor), D3 (conjugate), D4 (one-sided divergence). All kept as written-attempt questions with separate feedback.
 **Boundary:** SPLIT D: algebraic neighborhood transformation and denominator sign reasoning form a coherent prerequisite for the distinct radians and trig identities taught next. No mechanical transcript slicing.
 **Attribution:** numbers/problems and spoken demonstrations are authored pedagogy, not reproduced book exercises; source p. 42 shorthand about denominator zero does not override actual mathematical conditions. No Stage 04 scenes/audio/teacher approval.
 
@@ -45,7 +45,7 @@
 
 في حالة تالتة، التبسيط مش هيديك نهاية حقيقية محددة. مثلًا $1/x$ لما إكس تقرب من صفر: من اليمين إكس موجبة وصغيرة جدًا، فالناتج موجب وكبير بلا حد. من الشمال إكس سالبة وصغيرة جدًا في المقدار، فالناتج سالب ومقداره يكبر بلا حد. بنرمز للسلوك ده بموجب أو سالب ما لا نهاية، لكن **ما لا نهاية مش عدد حقيقي بنعوّض بيه**. عشان كده ماينفعش نقول إن فيه نهاية حقيقية واحدة من الجهتين.
 
-لو البسط والمقام قربوا من غير ما المقام يثبت بعيدًا عن صفر، لازم نحلل سلوك الإشارة والقيمة بدل استخدام قانون القسمة آليًا. مثلًا عند $1/(x-2)$، يمين اتنين المقام موجب وشمال اتنين سالب، فالاتجاهين مختلفين. ده بيفسّر ليه بعض مسائل النهايات محتاجة Left-hand وRight-hand limit مش مجرد عملية تعويض.
+لو البسط والمقام قربوا من غير ما المقام يثبت بعيدًا عن صفر، لازم نحلل سلوك الإشارة والقيمة بدل استخدام قانون القسمة آليًا. مثلًا عند $1/(x+1)$، يمين سالب واحد المقام موجب وشمال سالب واحد المقام سالب، فالاتجاهين مختلفين. ده بيفسّر ليه بعض مسائل النهايات محتاجة Left-hand وRight-hand limit مش مجرد عملية تعويض.
 
 اختبر نفسك في موقف فيه النقطة الممنوعة متحركة بعيدًا عن الصفر، واكتب تفسير كل اتجاه.
 
@@ -64,4 +64,4 @@
 
 ## Rough visual proposals — not scene assets
 
-Substitution cards show \`0/0\` as unresolved; algebraic factor cancellation with a persistent missing point; conjugate paired rectangles; separate left/right signed number lines. Questions reveal solution only post-attempt.
+Substitution cards show `0/0` as unresolved; algebraic factor cancellation with a persistent missing point; conjugate paired rectangles; separate left/right signed number lines. Questions reveal solution only post-attempt.

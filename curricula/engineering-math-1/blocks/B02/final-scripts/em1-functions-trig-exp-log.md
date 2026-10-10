@@ -1,9 +1,9 @@
 # B02 Stage 03 — Trigonometric, Exponential and Logarithmic Functions
-**Stable lesson ID:** \`em1-functions-trig-exp-log\` | **B02 issued order:** 3 of 8 | **Arabic title:** الدوال المثلثية والأسية واللوغاريتمية
-**Source:** \`abd-el-salam-math-i-scan\`, printed pp. **30–35** / PDF image pp. **18–21**, overlapping the algebraic family pages. Source printed **p. 34** appears to reverse domain/range for real $a^x$; this teaching script follows independently verified mathematics, explicitly **NOT** that printed erroneous pair.
+**Stable lesson ID:** `em1-functions-trig-exp-log` | **B02 issued order:** 3 of 8 | **Arabic title:** الدوال المثلثية والأسية واللوغاريتمية
+**Source:** `abd-el-salam-math-i-scan`, printed pp. **30–35** / PDF image pp. **18–21**, overlapping the algebraic family pages. Source printed **p. 34** appears to reverse domain/range for real $a^x$; this teaching script follows independently verified mathematics, explicitly **NOT** that printed erroneous pair.
 **Prerequisites:** input-output, domain/range and denominator restrictions; brief radian/angle-circle bridge; B02 preceding algebraic graphs.
 **Objectives:** classify and read sine/cosine/tangent including forbidden tangent angles; classify real exponentials $a^x$ with $a>0$ (and the special $a=1$ case); interpret $\log_a x$ with $a>0,a\ne1$ and positive arguments.
-**Stage 02 source:** provisional B, \`../working-drafts/02-function-families.md\`; independently assessed questions B2, B4 and B5. 
+**Stage 02 source:** provisional B, `../working-drafts/02-function-families.md`; independently assessed questions B2, B4 and B5. 
 **Boundary decision:** separate from algebraic families because periodicity, radians, exponent in place of x, and positive log input each need their own explanatory bridges and assessments; one connected family-and-domain goal unifies this lesson.
 **Attribution:** demonstration graphs/numbers and questions are original teaching, not copied book exercises. This Stage 03 editorial script is not audio, scene JSON or human math approval.
 
@@ -32,7 +32,7 @@
 
 ## Connected spoken continuation — transfer across the three families
 
-قبل السؤال التاني، خلينا نقارن بطريقة عملية: ساين إكس ياخد أي عدد حقيقي ويطلع قيمة محصورة بين سالب واحد وواحد. ثلاثة أس إكس يقبل أي عدد حقيقي برضه، لكن الناتج دايمًا موجب وممكن يكبر بلا حد مع زيادة إكس. أما لوغاريتم إكس فمدخله لازم يكون موجب، رغم إن الناتج ممكن يكون سالب أو صفر أو موجب. التمييز ده هيساعدك لما تقرأ سؤال إنجليزي بيطلب **Domain** أو **Range**؛ ما تجاوبش بالاسم بدل المجموعة الفعلية.
+قبل السؤال التاني، خلينا نقارن بطريقة عملية: كوساين إكس ياخد أي عدد حقيقي ويطلع قيمة محصورة بين سالب واحد وواحد. خمسة أس إكس يقبل أي عدد حقيقي برضه، لكن الناتج دايمًا موجب وممكن يكبر بلا حد مع زيادة إكس. أما لوغاريتم إكس فمدخله لازم يكون موجب، رغم إن الناتج ممكن يكون سالب أو صفر أو موجب. التمييز ده هيساعدك لما تقرأ سؤال إنجليزي بيطلب **Domain** أو **Range**؛ ما تجاوبش بالاسم بدل المجموعة الفعلية.
 
 ## Independent attempt Q-B4 — separate family/domain-range transfer
 **Question spoken (English):** Classify $f(x)=\sin x$ and $g(x)=3^x$. For real $x$, state the domain of $f$ and the range of $g$.
