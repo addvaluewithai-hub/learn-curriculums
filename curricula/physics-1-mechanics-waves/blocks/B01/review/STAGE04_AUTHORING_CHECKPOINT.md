@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-10 | **Goal:** convert four Stage 03 connected manuscripts into canonical scene data, question/feedback units, semantic cues, two responsive storyboard descriptions, and local visual components.
 **Audience:** first-year engineering students. **Source:** S01 scanned pp.5–11 (printed 121–133), S02 printed pp.124–125 duplicate; no new source. Workbook values are authored and **not** claimed as copied exercises.
-**Status at this git commit:** authoring done, actual GitHub Actions script-contract test pending; update check results only after inspecting a real CI run.
+**Status:** **Stage 04 complete after real CI verification**. GitHub Actions run **38054578086** on commit **e4b21474b8d09c2b249db48343b5a6ef7b60f35d** concluded **success**. This is a technical contract milestone, **not** scientific, student, audio or actual lesson-runtime approval.
 
 ## Production files and counts
 
@@ -22,9 +22,9 @@
 
 ## Real checks and expected gates
 
-1. GitHub Actions `Production contracts` default checks: unit tests, `tools/quality.py`, draft authoring validation, preview build checks and browser fixtures. Read actual status before marking passed.
-2. GitHub Actions now adds **four exact `tools/cli.py validate --course ... --lesson ... --stage script` commands**. This is the **real existing repository validator**, not an invented JSON check.
-3. After CI finishes: record run ID/result, rerun failed check if needed; don't advance stage if script validation fails. `review.json` stays `untested` independently of CI.
+1. **PASS (actual run 38054578086):** unit tests, `tools/quality.py`, draft authoring validation, preview build checks and browser fixtures.
+2. **PASS:** four exact `tools/cli.py validate --course physics-1-mechanics-waves --lesson <each id> --stage script` commands executed and passed in Actions job **114220302852**, with real validation contract.
+3. **PASS:** separate authoring TypeScript test (`tsconfig.authoring.json`) compiled four custom scene boards; SDK preview build/browser **fixtures** also passed. This does not certify actual lesson rendering without recordings/timings. All `review.json` checks correctly remain `untested`.
 4. Media/timed and actual playback require real accepted recordings and measured alignments, outside Stage 04. No paid TTS and no student publication.
 
 ## Next human choice after verified Stage 04

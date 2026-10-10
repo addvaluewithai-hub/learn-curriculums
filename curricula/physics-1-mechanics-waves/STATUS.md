@@ -2,7 +2,7 @@
 
 - **Date:** 2026-10-10; audience: first-year engineering students, ar-EG explanation and English exam questions.
 - Stage 00–03 B01: complete within their respective editorial scopes.
-- **Stage 04 B01:** authoring files CREATED for four issued lessons; **actual script/quality CI check pending** on this Draft PR. Do not claim a passing stage until verified.
+- **Stage 04 B01:** **COMPLETE** — four canonical lesson scene packages and separate 16:9/9:16 storyboard specs. **Actual script/quality checks passed** on GitHub Actions run 38054578086 (commit e4b21474b8d09c2b249db48343b5a6ef7b60f35d). Not academic or playback approval.
 - Active Block: B01 Solids and Elasticity. Next Block B02 Sound Waves remains at Stage 00 roadmap only.
 - Branch: curriculum/physics-1-stage00-20261010, Draft PR #10, not merged or released.
 
@@ -18,8 +18,8 @@
 - Book printed pp.121–133 with clearer 124–125 duplicate. Blurry equations/values at pp.129–133 not used as numerical textbook solutions; authored numerical practice explicitly labeled.
 - Google Drive source accessibility and rights/unrestricted link editing still need safer controls. No scans or public edit URLs committed.
 - Human scientific/teaching reviews **untested**; audio/timing/visual/runtime **untested**. No audio, word timings or actual preview; TSX source is provisional until CI and later visual playback.
-- CI's `python3 tools/cli.py validate --stage script` commands will be checked for actual success on the PR. No invented validation result.
+- **Verified CI:** all 4 explicit `validate --stage script` commands passed; `tools/quality.py`, unit tests, direct TypeScript typecheck of 4 lesson React boards, preview build and browser fixture tests passed. See Stage 04 report for exact run IDs. This is **not** actual recorded lesson playback.
 - Stage 05 pilot can start only after script verification and another human `next`, and **paid TTS dispatch requires additional explicit approval**.
 - Alternatively, after passing Stage 04, human `next block` may begin B02 Stage 01 without prior B01 audio.
 
-**Human checkpoint:** Do not advance automatically. Await test evidence, then present next / next block choice after successful Stage 04 verification.
+**Human checkpoint:** Stage 04 completed and saved; **STOP**. Human `next` → B01 Stage 05 audio pilot preparation only (separate explicit approval for paid dispatch). Human `next block` → B02 Stage 01 source-grounded scripts while B01 audio can remain deferred.
