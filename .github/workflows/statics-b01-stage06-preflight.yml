@@ -25,11 +25,17 @@ jobs:
       - run: python3 -m unittest discover -s tests -p 'test_statics_b01_stage06_preflight.py' -v
       - name: Inspect 69 factory WAV, word transcripts and WebVTT against canonical scenes
         run: python3 tools/statics_b01_stage06_preflight.py --workers 6 --output "$RUNNER_TEMP/b01-stage06-media-audit.json"
-      - name: Save audit as a review artifact (no media copied into public git)
+      - name: Discover actual lesson preview blockers using pinned shared SDK adapter
+        run: |
+          python3 tools/preview.py
+          cp preview-sdk/.generated/catalog.json "$RUNNER_TEMP/b01-stage06-preview-readiness.json"
+      - name: Save audit and preview readiness as evidence (no WAVs in public git)
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: b01-stage06-external-media-audit
-          path: ${{ runner.temp }}/b01-stage06-media-audit.json
+          path: |
+            ${{ runner.temp }}/b01-stage06-media-audit.json
+            ${{ runner.temp }}/b01-stage06-preview-readiness.json
           retention-days: 30
           if-no-files-found: warn
