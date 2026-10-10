@@ -1,29 +1,19 @@
-# B01 — STATUS (2026-10-10)
+# B01 — Stage 04 checkpoint
 
-- Audience: First-year engineering students.
-- Source: math1-algebra-scan-20261009; PDF pages 3–5 = printed pages 1–5.
-- **Last completed gate: Stage 03 — final editorial boundaries and four complete connected teaching scripts.**
-- **Next: Stage 04 only after human `كمل`**; no scenes, audio, timing, or student publication yet.
-- Branch: curriculum/mathematics-i-algebra-stage00-20261010; Draft PR #12, not merged.
+- **Date:** 2026-10-10. **Audience:** First-year engineering.
+- **Original:** `math1-algebra-scan-20261009`, PDF 3–5 ↔ printed 1–5.
+- **Gate:** Stage 04 **authoring completed**, awaiting human action; no Stage 05 begun.
+- **Stable IDs:** math1-pf-foundations, math1-pf-forms, math1-pf-two-linear, math1-pf-three-linear.
+- **Totals:** 34 scenes = 27 teaching + 7 question, 7 separately narrated feedback clips, 4 `MathBoard.tsx` prototypes, every scene with independent landscape/portrait specification.
+- **Canonical text:** `lessons/<id>/scenes/*.json` narration and feedback, never separately edit `blocks/B01/final-scripts/*.md`.
+- **Validation:** Actual `script`-stage checks invoked by regression test `tests/test_stage04_curriculum_authoring.py` in GitHub CI; see [STAGE04_REPORT.md](STAGE04_REPORT.md). CI does not test real video/audio/playback, and script pass is not teaching approval.
 
-## Issued stable lesson IDs
+## Scope and boundaries
 
-| Order | Stable lesson ID | Stage 03 complete script | Printed pages |
-|---|---|---|---|
-| 1 | `math1-pf-foundations` | [L01](final-scripts/math1-pf-foundations.md) | 1–2 |
-| 2 | `math1-pf-forms` | [L02](final-scripts/math1-pf-forms.md) | 2–3 |
-| 3 | `math1-pf-two-linear` | [L03](final-scripts/math1-pf-two-linear.md) | 3–4 |
-| 4 | `math1-pf-three-linear` | [L04](final-scripts/math1-pf-three-linear.md) | 4–5 |
+- B01 fully storyboarded, but no WAV, transcript, measured word anchors/timing, or SDK playback evidence exists.
+- Sources and teaching review status remain `untested` pending a qualified human reviewer; audio/timing/visual/runtime also `untested`.
+- Scanned Example 3/5 discrepancies remain in `SOURCE_OBSERVATIONS.md` and must be confirmed by independent specialist.
+- Missing printed pages after 45, source sharing security and redistribution rights remain unresolved.
+- No PDF uploaded into public repo.
 
-Detailed boundary decision and before/after mapping: [BOUNDARY_DECISION_STAGE03.md](BOUNDARY_DECISION_STAGE03.md). These IDs are fixed in OUTLINE, but runtime lesson.json files have NOT been created.
-
-## Checks and limits
-
-- Each independent script has its own opening, prerequisite bridge, guided worked example, hidden-until-attempt question, separate explanatory English/Arabic feedback, and recap.
-- Examples 1/4/5 and selected authored identities checked algebraically; print discrepancies in Examples 3/5 still recorded in SOURCE_OBSERVATIONS.md.
-- No independent human academic approval; teaching/learner review and runtime/audio/visual review remain untested.
-- No stage script validation yet: Stage 04 scenes and lesson.json do not exist.
-- Original scan not published to GitHub; redistribution rights are unknown; secure private future access remains unresolved.
-- Printed pages 46 onward are not included in the scan and cannot ground later chapters.
-
-**STOP — awaiting human next to create Stage 04 scenes, storyboards and run script checks.**
+**STOP:** `next / كمل` for **B01 Stage 05 audio-pilot dry run**; or `next block / الجزء اللي بعده` for **B02 Stage 01** after human inspection, with B01 audio deferred. No paid TTS, merge or publish.
