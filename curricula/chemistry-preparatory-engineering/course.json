@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "chemistry-preparatory-engineering",
   "title": "كيمياء سنة أولى هندسة | First-Year Engineering Chemistry",
-  "revision": "b01-stage02-editorial-revision-v1",
-  "description": "منهج لطلبة سنة أولى هندسة بناءً على مقتطف مصوّر من كتاب Mervat Sadik. B01 انتهى نقده التحريري Stage 02 مع مسودات شرح مُنقحة، بلا تثبيت حدود أو اعتماد علمي بشري أو نشر.",
+  "revision": "b01-stage03-final-editorial-scripts-v1",
+  "description": "كيمياء لطلبة سنة أولى هندسة من مصدر مصور جزئي من كتاب Mervat Sadik. Stage 03 ثبّت B01 في ثلاثة دروس ذات IDs ثابتة ونصوص شرح متصلة نهائية تحريرياً؛ دون مشاهد أو صوت أو مراجعة علمية بشرية.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",
