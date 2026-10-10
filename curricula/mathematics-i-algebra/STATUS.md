@@ -3,6 +3,7 @@
 - **التحديث:** 2026-10-10
 - **منهج:** `mathematics-i-algebra`
 - **الفرع:** `curriculum/mathematics-i-algebra-stage00-20261010`
+- **Draft PR:** https://github.com/addvaluewithai-hub/learn-curriculums/pull/12 (**قيد المراجعة، لم يدمج**)
 - **سير العمل:** **Stage 00 مكتمل تخطيطيًا**، بانتظار مراجعة الإنسان.
 - **النشط:** **B01** — Partial Fractions، الصفحات المطبوعة 1–5، PDF 3–5.
 - **الدروس التشغيلية:** لم تُنشأ. **Stable lesson IDs: none**.
