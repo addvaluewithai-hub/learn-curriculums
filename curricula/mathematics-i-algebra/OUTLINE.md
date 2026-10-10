@@ -42,30 +42,30 @@
 
 ## B01 — حدود الدروس المعتمدة تحريرياً في Stage 03
 
-**المصدر:** \`math1-algebra-scan-20261009\`، PDF **3–5** ↔ مطبوع **1–5**. **الجمهور:** أولى هندسة. **لغة:** شرح مصري ومصطلحات/أسئلة إنجليزية. IDs أدناه **مصدرة وثابتة** داخل OUTLINE وليست أسماء Blocks أو Scene IDs.
+**المصدر:** `math1-algebra-scan-20261009`، PDF **3–5** ↔ مطبوع **1–5**. **الجمهور:** أولى هندسة. **لغة:** شرح مصري ومصطلحات/أسئلة إنجليزية. IDs أدناه **مصدرة وثابتة** داخل OUTLINE وليست أسماء Blocks أو Scene IDs.
 
 | Order | Stable Lesson ID | عنوان الدرس | مصدر PDF/مطبوع | هدف/تقويم مستقل | متطلبات |
 |---|---|---|---|---|---|
-| **1** | \`math1-pf-foundations\` | مفهوم Partial Fractions وPolynomial وProper/Improper | PDF 3–4 / ص1–2 | عكس جمع الكسور ومجالها F-Q1؛ تصنيف بالدرجات F-Q2 | جبر أساسي |
-| **2** | \`math1-pf-forms\` | قواعد كتابة الصورة العامة للعوامل المختلفة والمكررة والتربيعية | PDF 4 / ص2–3 | اختيار قالب بعامل مكرر S-Q1؛ قالب مختلط S-Q2 | L01 |
-| **3** | \`math1-pf-two-linear\` | استخراج A وB لعاملين خطيين مختلفين | PDF 4–5 / ص3–4 | مثال جديد T-Q1 وهوية/تحقق/مجال | L01–L02 |
-| **4** | \`math1-pf-three-linear\` | ثلاثة عوامل وComparing Coefficients | PDF 5 / ص4–5 | C-Q1 تفكيك بالمقارنة؛ C-Q2 كشف خطأ معامل | L01–L03 |
+| **1** | `math1-pf-foundations` | مفهوم Partial Fractions وPolynomial وProper/Improper | PDF 3–4 / ص1–2 | عكس جمع الكسور ومجالها F-Q1؛ تصنيف بالدرجات F-Q2 | جبر أساسي |
+| **2** | `math1-pf-forms` | قواعد كتابة الصورة العامة للعوامل المختلفة والمكررة والتربيعية | PDF 4 / ص2–3 | اختيار قالب بعامل مكرر S-Q1؛ قالب مختلط S-Q2 | L01 |
+| **3** | `math1-pf-two-linear` | استخراج A وB لعاملين خطيين مختلفين | PDF 4–5 / ص3–4 | مثال جديد T-Q1 وهوية/تحقق/مجال | L01–L02 |
+| **4** | `math1-pf-three-linear` | ثلاثة عوامل وComparing Coefficients | PDF 5 / ص4–5 | C-Q1 تفكيك بالمقارنة؛ C-Q2 كشف خطأ معامل | L01–L03 |
 
 **الملفات التحريرية النهائية قبل المشاهد:**
-- \`blocks/B01/final-scripts/math1-pf-foundations.md\`
-- \`blocks/B01/final-scripts/math1-pf-forms.md\`
-- \`blocks/B01/final-scripts/math1-pf-two-linear.md\`
-- \`blocks/B01/final-scripts/math1-pf-three-linear.md\`
+- `blocks/B01/final-scripts/math1-pf-foundations.md`
+- `blocks/B01/final-scripts/math1-pf-forms.md`
+- `blocks/B01/final-scripts/math1-pf-two-linear.md`
+- `blocks/B01/final-scripts/math1-pf-three-linear.md`
 
 **تتبع المصدر:** Example 1 وتعريفات proper/improper ← L01؛ Rules 1–7 وExamples 2/3 ← L02؛ Example 4 ← L03؛ Example 5 ← L04. اختلافات Examples 3/5 مُسجلة ولا تُعامل السطور غير المتفقة على أنها حلول مؤكدة. أسئلة الدروس جديدة من إعدادنا، مع Feedback منفصل لاحق للمحاولة.
 
-**سبب تقسيم Draft A/B إلى أربعة:** في A مهارتان منفصلتان (فهم/تصنيف، ثم قالب حسب نوع العامل)؛ في B حالة عاملين كجسر ثم حالة ثلاثة معاملات مع مهارة جديدة \`Comparing Coefficients\`. كل نتيجة مستقلة قابلة للاختبار ولها افتتاحية وخاتمة؛ لا قص ميكانيكي. تفاصيل before/after في \`blocks/B01/BOUNDARY_DECISION_STAGE03.md\`. الأجزاء الأخرى B02–B11 تبقى خريطتها مبدئية كما هي.
+**سبب تقسيم Draft A/B إلى أربعة:** في A مهارتان منفصلتان (فهم/تصنيف، ثم قالب حسب نوع العامل)؛ في B حالة عاملين كجسر ثم حالة ثلاثة معاملات مع مهارة جديدة `Comparing Coefficients`. كل نتيجة مستقلة قابلة للاختبار ولها افتتاحية وخاتمة؛ لا قص ميكانيكي. تفاصيل before/after في `blocks/B01/BOUNDARY_DECISION_STAGE03.md`. الأجزاء الأخرى B02–B11 تبقى خريطتها مبدئية كما هي.
 
 **الحدود والتبعيات:** قواعد شكل عوامل مكررة/تربيعية فقط في L02؛ إيجاد معاملاتها B02/B03 لاحقًا. تعليم القسمة المطولة في B04. لا محتوى تفصيلي من صفحات غير متاحة.
 
 ## قاعدة التنفيذ وحالة التوقف
 
 - **Stage 00:** جرد وMaster Roadmap. **B01 Stage 01:** شرح متصل لمسودتي A/B. **B01 Stage 02:** نقد وإصلاح داخلي. **B01 Stage 03:** تقسيم مدروس إلى 4 دروس ونصوص كاملة مستقلة ومراجع وأسئلة وملاحظات، وأُصدرت Stable IDs أعلاه.
-- **التالي فقط بعد \`كمل\`: Stage 04 لـB01** لتحويل النصوص المراجعة إلى \`lesson.json\` و\`scenes\` وquestions/feedback وsemantic anchors وstoryboards 16:9/9:16، مع \`validate --stage script\` الحقيقي حيث تتاح الأدوات. **لا TTS أو نشر دون أبوابهما**.
+- **التالي فقط بعد `كمل`: Stage 04 لـB01** لتحويل النصوص المراجعة إلى `lesson.json` و`scenes` وquestions/feedback وsemantic anchors وstoryboards 16:9/9:16، مع `validate --stage script` الحقيقي حيث تتاح الأدوات. **لا TTS أو نشر دون أبوابهما**.
 - فحص علمي تربوي بشري غير منفذ. مصدر PDF ممسوح وصلاحيته الخاصة المستقبلية غير مؤمّنة، وحقوق إعادة التوزيع غير مؤكدة، والصفحات المطبوعة 46+ غائبة.
 
