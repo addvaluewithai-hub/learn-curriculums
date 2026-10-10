@@ -1,8 +1,8 @@
 # L01 — الكسور الجبرية: الفكرة والتصنيف (Partial Fractions Foundations)
 
-- **Stable lesson ID (issued at Stage 03):** \`math1-pf-foundations\`
+- **Stable lesson ID (issued at Stage 03):** `math1-pf-foundations`
 - **Order:** 1 (within Mathematics I — Algebra)
-- **Original source:** \`math1-algebra-scan-20261009\`; printed pp. **1–2** / PDF **3–4**؛ Example 1 والتعريفات والأمثلة الأولى لـProper/Improper.
+- **Original source:** `math1-algebra-scan-20261009`; printed pp. **1–2** / PDF **3–4**؛ Example 1 والتعريفات والأمثلة الأولى لـProper/Improper.
 - **Prerequisites:** تبسيط حدود جبرية وفك أقواس وتوحيد مقام بسيط؛ لا يُفترض معرفة Partial Fractions.
 - **Objectives:** F1 فهم التفكيك كعكس جمع الكسور مع الحفاظ على المجال؛ F2 تمييز Polynomial/Rational Fraction ودرجة البسط والمقام؛ F3 تصنيف Proper/Improper وشرح لماذا نبدأ بالتفكيك المباشر في الأولى.
 - **Assessment:** F-Q1 ↔ F1؛ F-Q2 ↔ F2/F3. Answers/feedback are separate **after attempt**.
