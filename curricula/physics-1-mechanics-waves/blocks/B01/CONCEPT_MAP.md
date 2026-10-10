@@ -43,3 +43,9 @@
 3. Book pp.129, 130–133 have blurry exponents/notation. Numerical examples here are explicitly invented; no fabricated textbook exercise solutions.
 4. The graph on pp.124–125 is schematic and does not identify a material/specimen test standard; do not assign quantitative yield/fracture thresholds.
 5. Independent source/science review, natural spoken pronunciation and assessment testing remain **untested**; authoring sanity alone is not sign-off.
+
+## Stage 02 critique outcome (provisional, NOT final lesson map)
+- WORKING-01: average axial engineering stress and signed strain now explicitly bounded; figure p.125 read qualitatively, elastic recovery separated from linearity and failure strength; concept classification gets independent assessment.
+- WORKING-02: axial small-strain uniform rod assumptions and SI area conversion; Y (material modulus, Pa) vs k (element axial stiffness, N/m) emphasized; two-rod independent transfer added.
+- WORKING-03: simple small shear and γ≈Δx/h, explicit signed ΔP and ΔV for Bulk; check Shear/Bulk internal sections or split after evaluating cognitive load at Stage 03.
+- Full F01–F14 editorial evidence and arithmetic self-check: review/STAGE02_CRITIQUE.md. Still requires independent academic, student and listening review. No final IDs.

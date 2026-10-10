@@ -48,7 +48,7 @@
 
 هذه **عناقيد أفكار قابلة لإعادة التنظيم**، لا وعد بخمسة دروس. ستُراجع الحدود بعد مسودات B01 ونقدها في Stages 01–03. يجب فحص أي تعميمات مبسطة في صفحات الكتاب علميًا قبل اعتماد الشرح.
 
-### B01 — Stage 01 completed: working drafts (not final student lessons)
+### B01 — Stage 01 and editorial Stage 02 complete: drafts remain provisional
 - [CONCEPT_MAP.md](blocks/B01/CONCEPT_MAP.md) — تفصيل المتطلبات والمعاني والمصادر والجسور اللازمة لطالب سنة أولى هندسة.
 - [WORKING-01](blocks/B01/drafts/WORKING-01-solid-structure-and-deformation.md) — تركيب الصلب، البلوري/غير المتبلور، المرن/اللدن، Stress/Strain.
 - [WORKING-02](blocks/B01/drafts/WORKING-02-tensile-young-hooke.md) — Young's modulus، الاستطالة، Hooke's law والعلاقة k = YA/L0.
@@ -57,6 +57,11 @@
 الملفات الثلاثة مسودات سردية متصلة، وليست 3 دروس مؤكدة ولا canonical scenes. تم فتح صفحات الكتاب المطبوعة 121–133 مباشرة. حدّت ضبابية الأرقام المطبوعة في بعض التمارين من استخدامها؛ الأمثلة الرقمية المؤلفة داخل المسودات محددة باعتبارها أمثلة أصلية. 
 
 ## شروط بدء التأليف لاحقًا
-- **الخطوة التالية فقط عند موافقة الإنسان «كمل/next»:** Stage 02 لـ B01، نقد مترابط للمسودات الثلاث: مفاهيم المبتدئ، المعادلات والوحدات، تسلسل الحكي، أسئلة مستقلة، وملاءمة حجم كل وحدة؛ تعديل النصوص ثم توقف من دون تثبيت حدود الدروس أو Scenes.
+- **الخطوة التالية فقط عند موافقة الإنسان «كمل/next»:** B01 Stage 03 لاتخاذ قرار حدود الدروس وكتابة نصوص متصلة نهائية لكل درس ناتج مع مقدمة/أسئلة/Feedback/خاتمة مناسبة، ثم توقف. ممنوع Scenes قبل Stage 04.
 - تدقيق مدى توافر المصادر مستقبلًا، وثبات النسخة والحقوق والصلاحيات؛ لا نعتمد الفهرس وحده لبناء الفصول المفقودة.
 - تأكيد المستوى الدراسي ونطاق المطلوب: الكتاب كاملًا أم المقتطفات فقط، قبل تثبيت المنهج النهائي.
+
+### Editorial critique checkpoint (Stage 02, not final lesson map)
+- [STAGE02_CRITIQUE.md](blocks/B01/review/STAGE02_CRITIQUE.md): 14 concrete issues with source locators, scientific/teaching corrections and calculation self-check.
+- WORKING-01/02/03 are now revised connected narratives; original Stage 01 wording is preserved by Git history. Two additional independent transfer checks address concept classification and Y vs k.
+- Boundary suggestion only: WORKING-01 keep/chunk, WORKING-02 keep, WORKING-03 internal Shear/Bulk parts **or** split; Stage 03 decides. No issued lesson IDs, Scenes or audio.

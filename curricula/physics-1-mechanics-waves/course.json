@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "physics-1-mechanics-waves",
   "title": "فيزياء 1 — الميكانيكا والموجات (Physics I: Mechanics and Waves)",
-  "revision": "B01-stage01-working-v1",
-  "description": "فيزياء 1 لطلاب سنة أولى هندسة: منهج Mechanics and Waves بخطة كليّة مبدئية. مسودات الشرح المتصلة لـ B01 (Solids and Elasticity) في Stage 01 قيد النقد اللاحق، والفصول الأخرى غير متاحة بالكامل.",
+  "revision": "B01-stage02-editorially-revised-v1",
+  "description": "Physics I for first-year engineering: B01 Solids and Elasticity editorially critiqued and rewritten in Stage 02; no independent academic approval, final lesson boundaries or scenes.",
   "language": {
     "explanation": "ar-EG",
     "exam": "en",
