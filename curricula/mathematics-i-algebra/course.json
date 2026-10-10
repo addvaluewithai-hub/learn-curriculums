@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mathematics-i-algebra",
   "title": "Mathematics I — Algebra | رياضيات 1: الجبر",
-  "revision": "outline-v1-b01-stage03-2026-10-10",
+  "revision": "outline-v1-b01-stage04-2026-10-10",
   "description": "Mathematics I — Algebra لطلبة سنة أولى هندسة. Stage 00 خريطة كلية مبدئية؛ B01 Stages 01–03 مكتملة حتى تثبيت أربعة دروس/نصوص تحريرية نهائية ومعرفاتها؛ Stage 04 لم يبدأ. الملف المصور المتاح يضم الصفحات المطبوعة 1–45 فقط.",
   "language": {
     "explanation": "ar-EG",
@@ -14,8 +14,13 @@
       "id": "math1-algebra-scan-20261009",
       "title": "Mathematics I — Algebra",
       "access": "available",
-      "file": "Existing linked Google Drive original; locator withheld from this public repository pending restricted sharing.",
-      "limitations": "Scanned source: 25 PDF pages representing cover, contents and printed pages 1–45. Printed pages 46 onward not supplied. Edition/redistribution rights unverified. Currently linked Drive file permits anyone-with-link write; current authorized retrieval checked but safe future access not established."
+      "limitations": "Scanned source: 25 PDF pages representing cover, contents and printed pages 1–45. Printed pages 46 onward not supplied. Edition/redistribution rights unverified. Currently linked Drive file permits anyone-with-link write; current authorized retrieval checked but safe future access not established. Original lives outside this public repository; do not invent a local source file path. Source page references are in SOURCE_MANIFEST/coverage."
+    },
+    {
+      "id": "math1-b01-authored-examples",
+      "title": "B01 independently authored explanations, questions, answer-checks and storyboards",
+      "access": "reviewed-notes",
+      "limitations": "Original pedagogical examples, not part of the scanned book; stage03 final-scripts and Stage02 critique provide editorial provenance. No claimed academic sign-off."
     }
   ],
   "teacher": {}
