@@ -1,0 +1,85 @@
+{
+  "id": "S08",
+  "title": "اختبار مستقل Q02 — Three Linear Factors and Coefficient Matching",
+  "objectiveIds": [
+    "C2",
+    "C3"
+  ],
+  "sources": [
+    {
+      "sourceId": "math1-b01-authored-examples",
+      "locator": "Original independently authored assessment math1-pf-three-linear/Q02, editorial script Stage 03"
+    },
+    {
+      "sourceId": "math1-algebra-scan-20261009",
+      "locator": "printed pages 4–5 / PDF page 5"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "question",
+    "script": "A student claims that expanding A(x-2)(x+3)+Bx(x+3)+Cx(x-2) gives an x-coefficient of A+3B-C. Is that correct? If not, find the correct x-coefficient and explain the source of the error.\nاختبر معامل إكس اللي الطالب كتبه بفك الأقواس. المطلوب تصحيح معامل واحد وشرح السبب، من غير استخدام نتيجة مثال الكتاب كإجابة محفوظة.",
+    "units": [
+      {
+        "id": "S08-UEN",
+        "text": "A student claims that expanding A(x-2)(x+3)+Bx(x+3)+Cx(x-2) gives an x-coefficient of A+3B-C. Is that correct? If not, find the correct x-coefficient and explain the source of the error.",
+        "occurrence": 1,
+        "visualIntent": "اعرض كامل نص السؤال الإنجليزي مع بداية نطقه دون إظهار الحل"
+      },
+      {
+        "id": "S08-UAR",
+        "text": "اختبر معامل إكس اللي الطالب كتبه بفك الأقواس. المطلوب تصحيح معامل واحد وشرح السبب، من غير استخدام نتيجة مثال الكتاب كإجابة محفوظة.",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي تدريجيًا عند بدء نطقه، دون إجابة"
+      }
+    ]
+  },
+  "question": {
+    "id": "Q02",
+    "english": "A student claims that expanding A(x-2)(x+3)+Bx(x+3)+Cx(x-2) gives an x-coefficient of A+3B-C. Is that correct? If not, find the correct x-coefficient and explain the source of the error.",
+    "arabic": "اختبر معامل إكس اللي الطالب كتبه بفك الأقواس. المطلوب تصحيح معامل واحد وشرح السبب، من غير استخدام نتيجة مثال الكتاب كإجابة محفوظة.",
+    "readingUnitIds": {
+      "english": "S08-UEN",
+      "arabic": "S08-UAR"
+    },
+    "attempt": "written",
+    "answer": {
+      "english": "Incorrect. The x-coefficient is A+3B-2C, since Cx(x-2)=Cx^2-2Cx, not Cx^2-Cx.",
+      "arabic": "ببساطة في الحد الأخير C مضروبة في إكس في إكس ناقص اتنين، يعني C إكس تربيع ناقص اتنين C إكس. لو كتبنا ناقص C بس، إحنا ضيعنا الاتنين الموجودة في العامل إكس ناقص اتنين. التصحيح مهم لأن خطأ معامل واحد هيغيّر النظام كله، وممكن يدي معاملات لا تحقق الكسر الأصلي.",
+      "reasoning": "ببساطة في الحد الأخير C مضروبة في إكس في إكس ناقص اتنين، يعني C إكس تربيع ناقص اتنين C إكس. لو كتبنا ناقص C بس، إحنا ضيعنا الاتنين الموجودة في العامل إكس ناقص اتنين. التصحيح مهم لأن خطأ معامل واحد هيغيّر النظام كله، وممكن يدي معاملات لا تحقق الكسر الأصلي."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "Incorrect. The x-coefficient is A+3B-2C, since Cx(x-2)=Cx^2-2Cx, not Cx^2-Cx.\nببساطة في الحد الأخير C مضروبة في إكس في إكس ناقص اتنين، يعني C إكس تربيع ناقص اتنين C إكس. لو كتبنا ناقص C بس، إحنا ضيعنا الاتنين الموجودة في العامل إكس ناقص اتنين. التصحيح مهم لأن خطأ معامل واحد هيغيّر النظام كله، وممكن يدي معاملات لا تحقق الكسر الأصلي.",
+      "units": [
+        {
+          "id": "F02-UEN",
+          "text": "Incorrect. The x-coefficient is A+3B-2C, since Cx(x-2)=Cx^2-2Cx, not Cx^2-Cx.",
+          "occurrence": 1,
+          "visualIntent": "اكشف الإجابة النموذجية الإنجليزية بعد تقديم إجابة الطالب فقط"
+        },
+        {
+          "id": "F02-UAR",
+          "text": "ببساطة في الحد الأخير C مضروبة في إكس في إكس ناقص اتنين، يعني C إكس تربيع ناقص اتنين C إكس. لو كتبنا ناقص C بس، إحنا ضيعنا الاتنين الموجودة في العامل إكس ناقص اتنين. التصحيح مهم لأن خطأ معامل واحد هيغيّر النظام كله، وممكن يدي معاملات لا تحقق الكسر الأصلي.",
+          "occurrence": 1,
+          "visualIntent": "اشرح السبب بالعربي بعد الإجابة، مع خطوات الحساب والمجال"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "F02-UEN",
+        "arabic": "F02-UAR"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "sdk-question-board",
+    "module": null,
+    "params": {
+      "questionId": "Q02",
+      "hideAnswerUntilAttempt": true
+    },
+    "landscape": "16:9 — اقرأ نص السؤال الإنجليزي مع S08-UEN ثم أظهر الدعم العربي مع S08-UAR، وبعد القراءة أبقِ النص كاملًا ومحاولة كتابة للطالب؛ لا تعرض الإجابة أو الثوابت أو ألوانًا كاشفة. الـfeedback مقطع منفصل بعد Submit.",
+    "portrait": "9:16 — السؤال الإنجليزي في بطاقة قابلة للالتفاف على 320px؛ الدعم العربي في بطاقة عمودية لاحقة؛ مساحة محاولة واضحة وزر Submit، ولا أي حل قبل الإرسال. بعد الإرسال إظهار إجابة F02 بشكل مقروء وعملية التحقق."
+  }
+}

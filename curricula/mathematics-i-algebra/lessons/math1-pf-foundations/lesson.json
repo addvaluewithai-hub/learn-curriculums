@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "math1-pf-foundations",
+  "curriculumId": "mathematics-i-algebra",
+  "order": 1,
+  "title": "الكسور الجبرية: الفكرة والتصنيف",
+  "englishTitle": "Partial Fractions Foundations",
+  "scriptRevision": "script-v1-stage04-20261010",
+  "prerequisites": [],
+  "objectives": [
+    {
+      "id": "F1",
+      "description": "يوضح Partial Fractions كعكس جمع الكسور مع حفظ مجال التعريف",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S08"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "F2",
+      "description": "يحدد Polynomial وDegree ويطبق المقارنة",
+      "taughtIn": [
+        "S03",
+        "S04",
+        "S05",
+        "S08"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    },
+    {
+      "id": "F3",
+      "description": "يميّز Proper وImproper ويبرّر لزوم القسمة قبل التفكيك المباشر",
+      "taughtIn": [
+        "S05",
+        "S08"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08"
+  ],
+  "glossary": [
+    {
+      "term": "Partial Fractions",
+      "meaning": "معنى المصطلح يُشرح في مشاهد الدرس المرتبطة، ضمن سياق الرياضيات."
+    },
+    {
+      "term": "Polynomial",
+      "meaning": "معنى المصطلح يُشرح في مشاهد الدرس المرتبطة، ضمن سياق الرياضيات."
+    },
+    {
+      "term": "Degree",
+      "meaning": "معنى المصطلح يُشرح في مشاهد الدرس المرتبطة، ضمن سياق الرياضيات."
+    },
+    {
+      "term": "Proper Fraction",
+      "meaning": "معنى المصطلح يُشرح في مشاهد الدرس المرتبطة، ضمن سياق الرياضيات."
+    },
+    {
+      "term": "Improper Fraction",
+      "meaning": "معنى المصطلح يُشرح في مشاهد الدرس المرتبطة، ضمن سياق الرياضيات."
+    }
+  ]
+}

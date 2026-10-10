@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "math1-pf-two-linear",
+  "curriculumId": "mathematics-i-algebra",
+  "order": 3,
+  "title": "حساب معاملين لعاملين خطيين",
+  "englishTitle": "Two Distinct Linear Factors",
+  "scriptRevision": "script-v1-stage04-20261010",
+  "prerequisites": [
+    "math1-pf-foundations",
+    "math1-pf-forms"
+  ],
+  "objectives": [
+    {
+      "id": "T1",
+      "description": "يختار التفكيك بعد تحليل مقام ذي عاملين خطيين مختلفين",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S08"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "T2",
+      "description": "ينشئ Polynomial Identity من مساواة الكسور",
+      "taughtIn": [
+        "S03",
+        "S04",
+        "S05",
+        "S08"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "T3",
+      "description": "يستنتج A وB ويحفظ المجال ويتحقق بإعادة الجمع",
+      "taughtIn": [
+        "S05",
+        "S06",
+        "S08"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08"
+  ],
+  "glossary": [
+    {
+      "term": "Polynomial Identity",
+      "meaning": "معنى المصطلح يُشرح في مشاهد الدرس المرتبطة، ضمن سياق الرياضيات."
+    },
+    {
+      "term": "Common Denominator",
+      "meaning": "معنى المصطلح يُشرح في مشاهد الدرس المرتبطة، ضمن سياق الرياضيات."
+    },
+    {
+      "term": "Excluded Values",
+      "meaning": "معنى المصطلح يُشرح في مشاهد الدرس المرتبطة، ضمن سياق الرياضيات."
+    }
+  ]
+}
