@@ -5,18 +5,18 @@ import { cueIsVisible, type VisualProps } from '@learn/lesson-runtime';
 // Stage 04 editable visual component; unrendered until media/timing review.
 // Storyboards in scenes/*.json define the independent responsive intention.
 const panels = [
-  { cue: "S01-U01", label: "جسر الكسر الجبري والدرجة والمجال", note: "ابدأ من: فاكر لما كنت بتجمع كسرين بمقامين مختلفين؟ أول حاجة بتجيب المقام المشترك، وبعدين" },
-  { cue: "S01-U02", label: "جسر الكسر الجبري والدرجة والمجال", note: "ثم راجع: أول حاجة بتجيب المقام المشترك، وبعدين تجمع البسطين وتطلع بكسر واحد" },
-  { cue: "S02-U01", label: "جسر الكسر الجبري والدرجة والمجال", note: "ابدأ من: إزاي نعرف إن دي نفس القيمة؟ نرجع للعملية اللي بتعرفها: وحّد المقامين. البسط" },
-  { cue: "S02-U02", label: "جسر الكسر الجبري والدرجة والمجال", note: "ثم راجع: نرجع للعملية اللي بتعرفها: وحّد المقامين" },
-  { cue: "S03-U01", label: "جسر الكسر الجبري والدرجة والمجال", note: "ابدأ من: لما يبقى عندك بسط ومقام كل واحد فيهم Polynomial، والمقام مش كثيرة الحدود" },
-  { cue: "S03-U02", label: "جسر الكسر الجبري والدرجة والمجال", note: "ثم راجع: لاحظ كلمة «نسبة»: طول ما المقام عند قيمة معينة بيساوي صفر، الكسر غير" },
-  { cue: "S04-U01", label: "جسر الكسر الجبري والدرجة والمجال", note: "ابدأ من: بص على مثال الكتاب: إكس تربيع على إكس تربيع زائد اتنين. ده Improper" },
-  { cue: "S04-U02", label: "جسر الكسر الجبري والدرجة والمجال", note: "ثم راجع: ده Improper لأن درجة البسط ودرجة المقام اتنين" },
-  { cue: "S05-U01", label: "جسر الكسر الجبري والدرجة والمجال", note: "ابدأ من: خلينا نعمل اختبارين صغيرين، مش حفظ. الأول عن رجوع الكسور بعضها لبعض، والتاني" },
-  { cue: "S05-U02", label: "جسر الكسر الجبري والدرجة والمجال", note: "ثم راجع: الأول عن رجوع الكسور بعضها لبعض، والتاني عن الدرجات اللي بتحدد أول خطوة" },
-  { cue: "S08-U01", label: "جسر الكسر الجبري والدرجة والمجال", note: "ابدأ من: إذن فكرة Partial Fractions هي العملية العكسية لتوحيد المقامات، وإن أي مساواة بنكتبها" },
-  { cue: "S08-U02", label: "جسر الكسر الجبري والدرجة والمجال", note: "ثم راجع: واتعلمنا المصطلحات Polynomial وDegree وRational Fraction، والفرق بين Proper وImproper" },
+  { cue: "S01-U01", label: "فكرة التفكيك", formula: "Fraction → sum of simpler fractions", note: "ابدأ من: فاكر لما كنت بتجمع كسرين بمقامين مختلفين؟ أول حاجة بتجيب المقام المشترك، وبعدين" },
+  { cue: "S01-U02", label: "فكرة التفكيك", formula: "(x+1)/(x²−3x+2)", note: "ثم راجع: أول حاجة بتجيب المقام المشترك، وبعدين تجمع البسطين وتطلع بكسر واحد" },
+  { cue: "S02-U01", label: "العكس: توحيد المقامات", formula: "3/(x−2) − 2/(x−1)", note: "ابدأ من: إزاي نعرف إن دي نفس القيمة؟ نرجع للعملية اللي بتعرفها: وحّد المقامين. البسط" },
+  { cue: "S02-U02", label: "العكس: توحيد المقامات", formula: "[3(x−1)−2(x−2)] / [(x−1)(x−2)]", note: "ثم راجع: نرجع للعملية اللي بتعرفها: وحّد المقامين" },
+  { cue: "S03-U01", label: "المجال والدرجات", formula: "Rational Fraction = P(x)/Q(x), Q(x)≠0", note: "ابدأ من: لما يبقى عندك بسط ومقام كل واحد فيهم Polynomial، والمقام مش كثيرة الحدود" },
+  { cue: "S03-U02", label: "المجال والدرجات", formula: "Degree(P) = highest non-zero exponent", note: "ثم راجع: لاحظ كلمة «نسبة»: طول ما المقام عند قيمة معينة بيساوي صفر، الكسر غير" },
+  { cue: "S04-U01", label: "Proper أم Improper؟", formula: "deg(P) < deg(Q) → Proper", note: "ابدأ من: بص على مثال الكتاب: إكس تربيع على إكس تربيع زائد اتنين. ده Improper" },
+  { cue: "S04-U02", label: "Proper أم Improper؟", formula: "x²/(x²+2) = 1 − 2/(x²+2)", note: "ثم راجع: ده Improper لأن درجة البسط ودرجة المقام اتنين" },
+  { cue: "S05-U01", label: "اختبر فهمك", formula: "تحقق من قيمة المجال أولًا", note: "ابدأ من: خلينا نعمل اختبارين صغيرين، مش حفظ. الأول عن رجوع الكسور بعضها لبعض، والتاني" },
+  { cue: "S05-U02", label: "اختبر فهمك", formula: "قارن درجات البسط والمقام", note: "ثم راجع: الأول عن رجوع الكسور بعضها لبعض، والتاني عن الدرجات اللي بتحدد أول خطوة" },
+  { cue: "S08-U01", label: "خريطة القرار", formula: "Collect fractions ↔ Decompose fractions", note: "ابدأ من: إذن فكرة Partial Fractions هي العملية العكسية لتوحيد المقامات، وإن أي مساواة بنكتبها" },
+  { cue: "S08-U02", label: "خريطة القرار", formula: "Proper? Then factor the denominator", note: "ثم راجع: واتعلمنا المصطلحات Polynomial وDegree وRational Fraction، والفرق بين Proper وImproper" },
 ];
 
 export default function MathBoard(props: VisualProps) {
@@ -39,7 +39,8 @@ export default function MathBoard(props: VisualProps) {
           {active?.note || 'العناصر تظهر مع الشرح المسموع'}
         </div>
       </div>
-      <div style={{fontSize: portrait ? 14 : 17, opacity: .66}} dir="rtl">المعادلات التفصيلية تُعرض في البورد وفق storyboard؛ لا توقيت مفترض قبل التسجيل.</div>
+      <div style={{ direction: 'ltr', textAlign: 'center', padding: portrait ? 14 : 24, borderRadius: 14, background: '#102f3e', border: '1px solid #1d7f96', fontFamily: 'monospace', fontSize: portrait ? 17 : 29, lineHeight: 1.45, overflowWrap: 'anywhere' }}>{active?.formula || 'P(x) / Q(x)'}</div>
+      <div style={{fontSize: portrait ? 14 : 17, opacity: .66}} dir="rtl">كشف تدريجي مرتبط بوحدات المعنى؛ العرض الفعلي والتوقيتات ينتظران مراجعة التسجيل.</div>
     </AbsoluteFill>
   );
 }
