@@ -3,7 +3,7 @@
 **Block:** B02 `Functions and Their Graphs`, printed pp. **21–53** (theory pp. 21–50, Exercise (2) pp. 51–53). PDF image pages **14–30, left side only at PDF 30**.  
 **Audience and language:** first-year engineering; natural Egyptian Arabic explanatory narrative, math technical terms / independent exam questions in English and spoken Arabic meaning.  
 **Prerequisite Block:** B01's issued concepts — number line, set operations, intervals, domain exclusions, factoring, rational sign charts. B01 is Stage 04 scene-authored but **not human/math/audio approved**.  
-**Editor status:** Provisional **B02 Stage 01** only. A–E below are **NOT** stable student lesson IDs, final boundaries, or scene names.
+**Provenance:** This map was authored for B02 Stage 01 with **17 original independent assessments**. **CURRENT B02 GATE = Stage 02**, five complete revised manuscripts with **21 assessment-feedback pairs**, recorded in `reviews/STAGE_02_CRITIQUE.md`. A–E still are **NOT** stable student lesson IDs, final boundaries, or scenes.
 
 ## Why B02 is its own Block
 Chapter 1 moves from a unique input→output function rule, via its different graph families, through increasing/decreasing and approaching a point, to limit calculations and continuity. This trajectory is coherent and prerequisites flow A→B→C→D→E, but the material is too broad to assume each cluster ultimately stays one final student lesson. That decision belongs to **Stage 03 after the separately authorized Stage 02 critique**. Do not turn printed source section headings automatically into scenes.
@@ -28,5 +28,11 @@ Chapter 1 moves from a unique input→output function rule, via its different gr
 ## Rough visual ideas — not formal storyboards
 Input→output mapping and circle vertical-line slices; parallel family graph panels; parabola tracking a moving x point; left/right arrows toward a hole; conditional factoring/rationalization before showing a finite limit; unit circle radian guide; open vs filled points and matching/jump piecewise traces. **No scenes, timing, TTS, custom React or stable B02 IDs** in Stage 01.
 
+## Stage 02 addendum — revised question coverage (supersedes Stage 01 question counts in the table above)
+
+The five source/page/prerequisite clusters in the Stage 01 table remain **provisional** and still supply prerequisite structure. The current B02 Stage 02 review added one independent assessment in **A, B, C and E**, with separate English model answer and Egyptian Arabic explanatory feedback. The **active** B02 scripts now carry A1–A4 (**4**), B1–B5 (**5**), C1–C4 (**4**), D1–D4 (**4**) and E1–E4 (**4**): **21/21**. New outcomes: finite-domain co-domain vs actual range; tangent exclusion at transformed angle; rational hole limit distinct from assigned point; and continuity at a sharp corner. Prior draft bodies were revised continuously; no scenes or IDs issued.
+
+Boundary options **for Stage 03 only:** keep A (parts); consider splitting B, C and D (each has independent reasoning clusters); keep E with parts. Actual recorded rationale and mathematics/source discrepancies: `reviews/STAGE_02_CRITIQUE.md`. No human cognitive-load trial or mathematics lecturer sign-off has been performed.
+
 ## Prior critique and next authorization
-Historical `../../reviews/STAGE_02_CRITIQUE.md` (sections A–E) exists from the former joint-curriculum process. It remains useful evidence, but **was not re-run in this B02 Stage 01** and must not be counted as independently authorized new B02 Stage 02. A later separate human `next` may perform Stage 02 source/scientific/novice/cognitive-load critique and reasoned rewrites, then STOP. B01 audio remains deferred.
+Historical `../../reviews/STAGE_02_CRITIQUE.md` (sections A–E) exists from the former joint-curriculum process. It remains useful evidence, but **was not re-run in this B02 Stage 01** and must not be counted as independently authorized new B02 Stage 02. That independently authorized B02 Stage 02 critique and full-draft rewrite **has now been completed**. A NEW future human `next` may authorize B02 Stage 03 lesson-boundary decision/full standalone final scripts/issued stable IDs, then STOP. B01 audio remains deferred.
