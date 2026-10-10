@@ -85,9 +85,13 @@ def audit_clip(row,clip,wav_bytes,transcript_bytes,vtt_bytes):
                 "Unexpected WAV format or empty audio")
         duration=wav.getnframes()*1000/wav.getframerate()
     tr=json.loads(transcript_bytes)
+    # Factory flattens bilingual sentence breaks to spaces for transcription.
+    # Only whitespace normalization is permitted; all words/math must remain exact.
+    source_text=tr.get("source_text","")
     require(tr.get("schema_version")==1 and tr.get("type")=="word_timestamps" and
-            tr.get("source_text","").strip()==clip["script"].strip(),
-            "Missing/mismatched original spoken script in delivered transcript")
+            isinstance(source_text,str) and
+            " ".join(source_text.split())==" ".join(clip["script"].split()),
+            "Transcript source words differ from canonical spoken script")
     require(isinstance(tr.get("alignment_mode"),str) and tr["alignment_mode"] and
             isinstance(tr.get("recognized_text"),str) and tr["recognized_text"].strip(),
             "Missing ASR evidence/provenance")
@@ -119,7 +123,8 @@ def audit_clip(row,clip,wav_bytes,transcript_bytes,vtt_bytes):
             "audioHash":hashlib.sha256(wav_bytes).hexdigest(),
             "transcriptHash":hashlib.sha256(transcript_bytes).hexdigest(),
             "vttHash":hashlib.sha256(vtt_bytes).hexdigest(),
-            "wordCount":len(words),"missingEnglishTokensInASR":missing,
+            "wordCount":len(words),"sourceWhitespaceNormalized":source_text!=clip["script"],
+            "missingEnglishTokensInASR":missing,
             "warnings":warnings,"technicalDeliveryVerified":True,
             "humanListening":"untested","wordCuesReviewed":False}
 
