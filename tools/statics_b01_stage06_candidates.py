@@ -26,23 +26,84 @@ def find_spans(words,phrase):
             if len(actual)>=len(wanted):break
     return matches
 
+import difflib
+import re
+import unicodedata
+
+def speech_tokens(value):
+    value=unicodedata.normalize("NFKC",value.casefold())
+    value="".join(c for c in value if c!="ـ" and not
+        (unicodedata.combining(c) and "ARABIC" in unicodedata.name(c,"")))
+    value=value.translate(str.maketrans({"أ":"ا","إ":"ا","آ":"ا","ٱ":"ا",
+        "ى":"ي","ة":"ه","ؤ":"و","ئ":"ي"}))
+    return re.findall(r"[^\W_]+",value,flags=re.UNICODE)
+
+def normalized_spans(words,phrase):
+    target=speech_tokens(phrase)
+    if not target:return []
+    out=[]
+    for start in range(len(words)):
+        observed=[]
+        for end in range(start,min(len(words),start+len(target)+5)):
+            observed.extend(speech_tokens(words[end]["text"]))
+            if observed==target:
+                out.append((start,end));break
+            if len(observed)>=len(target):break
+    return out
+
+def partial_search_evidence(words,phrase):
+    """Only an observed ASR fragment's time; never claim a full spoken cue."""
+    target=speech_tokens(phrase)
+    if len(target)<3:return None
+    indexed=[(token,index) for index,word in enumerate(words)
+             for token in speech_tokens(word["text"])]
+    observed=[token for token,_ in indexed]
+    options=[]
+    for start in range(len(observed)-1):
+        for position in range(len(target)-1):
+            if observed[start:start+2]!=target[position:position+2]:continue
+            left=max(0,start-position)
+            context=observed[left:min(len(observed),left+len(target)+3)]
+            align=difflib.SequenceMatcher(None,target,context,autojunk=False)
+            cover=sum(b.size for b in align.get_matching_blocks())/len(target)
+            score=align.ratio()
+            if cover>=0.55 and score>=0.47:
+                options.append((cover,score,words[indexed[start][1]]["start_ms"],start,position))
+    if not options:return None
+    coverage,score,at,start,pos=max(options)
+    return {"reviewSeekMs":at,"matchedASRToken":observed[start],
+            "sourceTokenIndex":pos,"sourceCoverage":round(coverage,3),
+            "searchScore":round(score,3),
+            "warning":"Observed fragment time only; NOT an approved cue start"}
+
 def propose(clip,receipt,transcript):
     proposals=[]
     for unit in clip["units"]:
         wanted=tokens(unit["text"])
-        found=find_spans(transcript["words"],unit["text"])
+        words=transcript["words"]
+        found=find_spans(words,unit["text"])
         occurrence=unit.get("occurrence",1)
-        good=bool(wanted) and len(found)>=occurrence
+        strict=bool(wanted) and len(found)>=occurrence
+        normal=normalized_spans(words,unit["text"]) if not strict else []
+        whole=strict or len(normal)>=occurrence
         proposal={
             "unitId":unit["id"],"scriptAnchor":unit["text"],
-            "occurrence":occurrence,"matches":len(found),
-            "candidateStatus":"asr-exact-candidate-unreviewed" if good else "needs-human-alignment",
+            "occurrence":occurrence,"matches":len(found) if strict else len(normal),
+            "candidateStatus":("asr-exact-candidate-unreviewed" if strict else
+                "asr-orthographic-candidate-unreviewed" if whole else
+                "needs-human-alignment"),
             "requiresHumanReview":True
         }
-        if good:
-            first,last=found[occurrence-1]
+        if whole:
+            first,last=(found if strict else normal)[occurrence-1]
             proposal.update(wordStart=first,wordEnd=last,
-                            atMs=transcript["words"][first]["start_ms"])
+                            atMs=words[first]["start_ms"],
+                            observedText=" ".join(w["text"] for w in words[first:last+1]))
+        else:
+            hint=partial_search_evidence(words,unit["text"])
+            if hint:
+                proposal["candidateStatus"]="asr-partial-search-hint-unreviewed"
+                proposal["searchHint"]=hint
         proposals.append(proposal)
     return {"clipId":clip["id"],"jobId":receipt["jobId"],
             "audioHash":receipt["audioHash"],"transcriptHash":receipt["transcriptHash"],
@@ -81,7 +142,7 @@ def stage_artifact(root,artifact_dir):
 
 def report(root=ROOT,artifact_dir=None,log_original_results=False):
     if artifact_dir:stage_artifact(root,artifact_dir)
-    output=[];total_units=0;matched=0
+    output=[];total_units=0;matched=0;orthographic=0;hints=0
     for lesson_id in LESSONS:
         media=validate_lesson(root,COURSE,lesson_id,"media")
         require(media["valid"],"Actual selected-media stage validation failed")
@@ -94,6 +155,10 @@ def report(root=ROOT,artifact_dir=None,log_original_results=False):
             total_units+=len(record["units"])
             matched+=sum(u["candidateStatus"]=="asr-exact-candidate-unreviewed"
                          for u in record["units"])
+            orthographic+=sum(u["candidateStatus"]=="asr-orthographic-candidate-unreviewed"
+                              for u in record["units"])
+            hints+=sum(u["candidateStatus"]=="asr-partial-search-hint-unreviewed"
+                       for u in record["units"])
             if log_original_results:
                 result_path=folder/"media"/clip["id"]/receipt["files"]["result"]
                 original=read_json(result_path)
@@ -109,8 +174,11 @@ def report(root=ROOT,artifact_dir=None,log_original_results=False):
     require(len(output)==69,"Expected 69 selected clips")
     return {"schemaVersion":1,"kind":"unreviewed-word-cue-candidates",
             "allMediaValid":True,"clipCount":len(output),"unitCount":total_units,
-            "asrExactCandidateCount":matched,"humanAlignmentNeeded":total_units-matched,
-            "method":"exact-normalized-ASR-word-span-match-NOT-REVIEWED",
+            "asrExactCandidateCount":matched,"orthographicWholePhraseCount":orthographic,
+            "partialFragmentSearchCount":hints,
+            "noASRSearchEvidenceCount":total_units-matched-orthographic-hints,
+            "humanAlignmentNeeded":total_units-matched-orthographic,
+            "method":"ASR-word-span-and-search-evidence-NOT-REVIEWED",
             "timingJsonProduced":False,"humanTimingApproved":False,
             "publicationApproved":False,"clips":output}
 
@@ -123,5 +191,7 @@ if __name__=="__main__":
     result=report(ROOT,args.artifact_dir,args.print_results_for_durable_import)
     write_json(args.output,result)
     print(json.dumps({k:result[k] for k in ("clipCount","unitCount",
-        "asrExactCandidateCount","humanAlignmentNeeded","timingJsonProduced",
+        "asrExactCandidateCount","orthographicWholePhraseCount",
+        "partialFragmentSearchCount","noASRSearchEvidenceCount",
+        "humanAlignmentNeeded","timingJsonProduced",
         "humanTimingApproved")},ensure_ascii=False))
