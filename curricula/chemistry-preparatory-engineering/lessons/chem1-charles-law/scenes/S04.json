@@ -30,7 +30,10 @@
     "params": {
       "title": "Solve T₂ from V₂/V₁ and state units; introduce rigid vessel as contrast",
       "mode": "rearrange-temperature",
-      "anchor": "U01"
+      "anchor": "U01",
+      "anchors": [
+        "U01"
+      ]
     },
     "landscape": "16:9: Write V₁/T₁=V₂/T₂ and isolate T₂ step-by-step; next show Kelvin→Celsius unit path, with rigid box silhouette for validity. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
     "portrait": "9:16: Write V₁/T₁=V₂/T₂ and isolate T₂ step-by-step; next show Kelvin→Celsius unit path, with rigid box silhouette for validity. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."

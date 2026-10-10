@@ -41,7 +41,12 @@
     "params": {
       "title": "Celsius-to-Kelvin conversion, V₁/T₁ = V₂/T₂, 21.5 mL CO₂ source example",
       "mode": "kelvin-table",
-      "anchor": "U01"
+      "anchor": "U01",
+      "anchors": [
+        "U01",
+        "U02",
+        "U03"
+      ]
     },
     "landscape": "16:9: Show Celsius and Kelvin cards: 50°C→323.15K, 75°C→348.15K; staged CO₂ formula and volume outcome; never imply real gas remains gaseous to absolute zero. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
     "portrait": "9:16: Show Celsius and Kelvin cards: 50°C→323.15K, 75°C→348.15K; staged CO₂ formula and volume outcome; never imply real gas remains gaseous to absolute zero. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."

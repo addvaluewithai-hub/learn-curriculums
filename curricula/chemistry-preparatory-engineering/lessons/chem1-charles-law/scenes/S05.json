@@ -35,7 +35,11 @@
     "params": {
       "title": "Question 2",
       "mode": "question",
-      "anchor": "UEN"
+      "anchor": "UEN",
+      "anchors": [
+        "UEN",
+        "UAR"
+      ]
     },
     "landscape": "16:9: Display English full question at its reviewed onset then show the Arabic supporting clause at its own onset; allow full-size written attempt field below the prompt. Keep numeric answer, rationale and feedback offscreen before submission; reveal feedback only in feedback phase.",
     "portrait": "9:16: Stack English question in a large readable paragraph then Arabic support in a separate RTL panel; reserve vertical space and allow scrolling for written response on 320px phone screens. No answer at question/attempt phase; feedback only after valid attempt."
@@ -75,6 +79,21 @@
       "answerUnitIds": {
         "english": "AEN",
         "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "chem1-charles-law-board",
+        "module": "scenes/CharlesBoard.tsx",
+        "params": {
+          "title": "Answer and reasoning",
+          "mode": "feedback",
+          "anchor": "AEN",
+          "anchors": [
+            "AEN",
+            "AAR"
+          ]
+        },
+        "landscape": "16:9: Real word-anchor triggered English calculated answer and later Arabic explanation only in feedback phase after user attempt.",
+        "portrait": "9:16: Display English model answer then Arabic explanatory calculation in vertically stacked RTL/LTR cards after submission, not during reading."
       }
     }
   }
