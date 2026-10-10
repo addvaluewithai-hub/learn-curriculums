@@ -47,7 +47,7 @@ This is **one authorized stage per human turn**. It does not change runtime JSON
 
 ## Stage 06 — Optional timing, pinned preview and handoff
 
-- Only with real verified recordings and correct prerequisites: align real word timings, build visuals, test both layouts and interaction with the **pinned shared SDK** and bind review evidence to actual hashes. Export at achieved stage, without student publication. **STOP**.
+- Only with real verified recordings and correct prerequisites: follow [AI-authored timing](timing.md), author semantic cue files from the delivered timestamps, build visuals, test both layouts and interaction with the **pinned shared SDK** and bind review evidence to actual hashes. Cue authoring is part of this stage, with no extra per-cue human stop/approval gate. Export at achieved stage, without student publication. **STOP**.
 
 ## Durable STATUS state: global control plane and per-Block progress
 

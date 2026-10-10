@@ -70,3 +70,18 @@ class PreviewTests(PreviewCase):
         self.teaching["visual"]["module"] = "../Outside.tsx"
         self.save_scenes()
         self.assertEqual(prepare_preview(self.root, self.preview)["ready"], 0)
+
+    def test_ai_authored_cues_prepare_question_and_feedback_without_human_review_fields(self):
+        for path in (self.folder / "media").glob("*/timing.json"):
+            timing = read_json(path)
+            timing.update(method="semantic-word-anchors", author="ai:synthetic-preview-test")
+            timing.pop("reviewer")
+            timing.pop("evidence")
+            for cue in timing["cues"]:
+                cue["reason"] = "Observed words introduce this synthetic visual or bilingual clause."
+            write_json(path, timing)
+        self.assertEqual(prepare_preview(self.root, self.preview)["ready"], 1)
+        payload = read_json(self.preview / ".generated/public/packages/counting/counting-add.json")
+        self.assertEqual(payload["lesson"]["scenes"][1]["question"]["readingParts"][1]["atMs"], 600)
+        self.assertFalse(payload["provenance"]["publicationApproved"])
+        self.assertFalse(payload["provenance"]["runtimeVerified"])

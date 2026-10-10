@@ -33,7 +33,7 @@ Discovery uses folders, not tools with hardcoded lesson names.
 - For preview, module default-exports a component accepting SDK VisualProps; renderer IDs are lesson-local.
 - Question narration uses the scene visual with phase=question-reading; question contains prompts/options only.
 - Optional question.feedback.visual supplies a bespoke feedback module; otherwise the SDK answer board is used.
-- Full English/Arabic question and answer clauses each need one occurrence-qualified unit and reviewed timing cue.
+- Full English/Arabic question and answer clauses each need one occurrence-qualified unit and an evidence-bound timing cue.
 - Optional question.readingUnitIds={english,arabic} and feedback.answerUnitIds resolve repeated full-clause units explicitly.
 - Optional englishOptions translates options; omitted means options already use exam English.
 - Components use question.readingParts or answer.parts for gradual disclosure; answer arrives only in feedback.
@@ -65,10 +65,13 @@ media/<clip-id>/takes/<unique-job-id>/: result.json, transcript.json, audio.wav,
 media/<clip-id>/receipt.json: selected job, script/audio/transcript hashes, measured duration and relative files.
 --select-new-take deliberately changes selection; previous takes remain intact.
 Do not edit delivered words/bytes to manufacture coverage.
-timing.json: audioHash, scriptHash, transcriptHash, method, reviewer, evidence, cues.
-method=word-anchors-reviewed|multi-pass-reviewed. Cue={unitId, wordStart, wordEnd, atMs}.
-Indices are zero-based inclusive; atMs is first anchor word start. Phrase and occurrence must match evidence.
-Missing English anchors require real audio/alignment review, never guessed timings.
+timing.json: audioHash, scriptHash, transcriptHash, method, cues, and method-specific provenance.
+Default method=semantic-word-anchors: require author and a short reason for each cue, not a human reviewer.
+Legacy method=word-anchors-reviewed|multi-pass-reviewed retains reviewer/evidence metadata.
+Cue={unitId, wordStart, wordEnd, atMs, reason?}. Indices are zero-based inclusive;
+atMs equals the first selected transcript word's start_ms and is within measured audio duration.
+The AI chooses meaning and occurrence using context; ASR wording need not equal the source phrase.
+Read [timing authoring](timing.md); missing evidence requires targeted audio/alignment work, never guessed timings.
 alignment.json optionally selects a separately reviewed corrected transcript under alignments/<hash>.json.
 It binds the original transcript hash, selected audio/script hashes, method, reviewer and evidence.
 timing.json uses that selected transcript hash; the factory original remains unchanged.
@@ -76,7 +79,8 @@ timing.json uses that selected transcript hash; the factory original remains unc
 ## Checks
 
 draft checks shapes/identity/references; script adds source locators, teaching/assessment mappings, scripts and storyboards.
-media adds verified delivered recordings; timed adds semantic anchor bindings.
+media adds verified delivered recordings; timed checks cue identity, coverage, provenance and numeric word/time bindings.
+It does not select cues or judge semantic fit; preparation does not require every cue to be human-approved.
 None automatically proves scientific, listening, visual or playback quality.
 review.json: sourceHash + checks sources/teaching/audio/timing/visual/runtime, each passed|failed|untested with reviewer/evidence.
 Use current sourceHash from validate only after actual review. Source policy/input changes invalidate it.

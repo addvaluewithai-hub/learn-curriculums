@@ -5,9 +5,9 @@
 - This is a **structural reconciliation of existing Stage 01–03 work**, not a retroactively executed or human-approved separate Stage 00. Original human decisions and the source/editorial history stay intact.
 - Course ID: `engineering-mechanics-statics-y1`.
 - Active Block: **B01 — Introduction / printed Chapter 1 pp.1–6**.
-- Course branch/PR: `curriculum/engineering-statics-y1-stage01` / Draft PR #7 — https://github.com/addvaluewithai-hub/learn-curriculums/pull/7.
-- Last executed B01 gate: **Stage 06 ASR timing TRIAGE completed (Stage 06 overall PARTIAL)**. 69/69 selected factory takes persisted and media-verified; **114 semantic units: 21 exact + 18 orthographic whole-phrase ASR matches, 38 partial search hints, 37 without ASR search evidence**. All cue positions still require audio-grounded verification; 75 lack whole-phrase evidence. SDK preview still blocked on reviewed `timing.json`. See `blocks/B01/STAGE_06_ALIGNMENT_TRIAGE.md`.
-- **Next authorized action:** align/review the remaining **93 ASR-unmatched semantic units** and verify all cue proposals against real playback, then separately complete timed preview. User reported the audio sounded good, and all media takes have now been selected. Stage 06 overall remains **PARTIAL**, no fake timed approvals, automatic merge or release.
+- Course PR: [#7](https://github.com/addvaluewithai-hub/learn-curriculums/pull/7) is merged; production assets and selected receipts are on main.
+- Last executed B01 gate: **Stage 06 ASR timing TRIAGE completed (Stage 06 overall PARTIAL)**. 69/69 selected factory takes persisted and media-verified; **114 semantic units: 21 exact + 18 orthographic whole-phrase ASR matches, 38 partial search hints, 37 without ASR search evidence**. All cue positions still require audio-grounded verification; 75 lack whole-phrase evidence. SDK preview still needs AI-authored `timing.json`. Exact phrase-search counts are search coverage, not a cue acceptance gate. See `blocks/B01/STAGE_06_ALIGNMENT_TRIAGE.md`.
+- **Next authorized action:** the production AI reads the selected word timestamps with full scene context and directly writes all 114 semantic cues, following [AI-authored timing](../../instructions/timing.md). Do not wait for human approval of each cue or exact ASR text matches. Inspect ambiguous onsets using the same recording/alignment evidence, then prepare the real 16:9 / 9:16 preview. Stage 06 remains **PARTIAL** until actual timing and preview exist; independent review.json statuses stay untouched.
 
 ## Global source and roadmap
 - Master plan: `OUTLINE.md` — provisional whole-course B01–B09, including unavailable source blocks. The **B01 subsection only** contains finalized Stage 03 lesson mapping.
@@ -19,7 +19,7 @@
 ## Blocks overview (not lesson IDs)
 | Block | Roadmap coverage | Current editorial gate/status |
 |---|---|---|
-| **B01 (active)** | Ch.1 printed pp.1–6 | **Stage 05 real pilot: 5/5 factory jobs successful; 5 WAV+transcript+VTT delivered**. Human listening, playback/timing acceptance and science checks untested; see `blocks/B01/STATUS.md` |
+| **B01 (active)** | Ch.1 printed pp.1–6 | **Stage 06 partial: 69 selected media takes verified; AI cue authoring and timed preview pending**. Independent science/runtime review untested; see `blocks/B01/STATUS.md` |
 | B02 | Ch.2 printed pp.9–18; scalar/vector and planar force foundations | Planned only; no active Block STATUS or lesson IDs |
 | B03 | Ch.2 printed pp.19–30; unit vectors/resultants/position vectors | Planned only; no active Block STATUS or lesson IDs |
 | B04 | Ch.2 printed pp.32 onward, missing body | Blocked: index only |
@@ -29,7 +29,9 @@
 | B08 | Ch.6 Structure Analysis, missing body | Blocked: index only |
 | B09 | Ch.7 Friction, missing body | Blocked: index only |
 
-## B01 editorial and production status
+## Historical B01 editorial and production log
+
+Dated entries below describe their original checkpoints. The current control plane above supersedes older references to unmerged PRs, missing receipts and mandatory human cue placement.
 - Stable issued lesson IDs (unchanged): `ems-y1-foundations-models`, `ems-y1-newton-gravity`, `ems-y1-units-conversions`; order 1/2/3.
 - Historical Stage 03 scripts remain untouched as **read-only comparison snapshots** in `drafts/*.md`; the new canonical spoken text lives in `lessons/<stable-id>/scenes/*.json` narration + separate feedback. Total: **43 teaching scenes + 13 question scenes = 56 scenes**; 13 independent written attempts.
 - Critique and boundaries: `reviews/STAGE_02_CRITIQUE.md` and `reviews/STAGE_03_BOUNDARIES.md`.

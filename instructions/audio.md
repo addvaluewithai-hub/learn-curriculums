@@ -55,5 +55,7 @@ This command verifies bounds/hash/provenance; it does not listen or create corre
 timed checking uses the selected corrected transcript hash when available; stale corrections fail after a new take.
 Build adapters must follow alignment.json when present; never falsify the original factory result.
 Wrong speech: retake only affected clips. New selected audio invalidates old cues/review.
-Write timing.json with word ranges; validate --stage timed catches wrong/missing anchors.
+Follow [AI-authored timing](timing.md): choose observed word ranges by meaning and context,
+write timing.json directly, and do not require exact ASR wording or per-cue human approval.
+validate --stage timed checks technical bindings/ranges/coverage, not semantic quality.
 Trailing silence is valid; use waveform duration. Structural success never grants listening approval.

@@ -16,13 +16,14 @@ class B01CueCandidateTests(unittest.TestCase):
         r=propose(clip,receipt,{"words":words})
         self.assertEqual(r["units"][0]["wordStart"],2)
         self.assertEqual(r["units"][0]["atMs"],2000)
-        self.assertTrue(r["units"][0]["requiresHumanReview"])
+        self.assertTrue(r["units"][0]["requiresAuthorDecision"])
+        self.assertFalse(r["units"][0]["requiresHumanReview"])
         self.assertEqual(r["units"][0]["candidateStatus"],"asr-exact-candidate-unreviewed")
     def test_missing_terms_never_produce_guessed_word_offset(self):
         clip={"id":"N02","script":"Newton's Law","units":[{"id":"U1","text":"Newton's Law"}]}
         receipt={"jobId":"j","audioHash":"h","transcriptHash":"t"}
         r=propose(clip,receipt,{"words":[{"text":"قانون","start_ms":0}]})
-        self.assertEqual(r["units"][0]["candidateStatus"],"needs-human-alignment")
+        self.assertEqual(r["units"][0]["candidateStatus"],"needs-author-alignment")
         self.assertNotIn("atMs",r["units"][0])
 
 
@@ -36,7 +37,8 @@ class B01CueCandidateTests(unittest.TestCase):
                     {"words":words})["units"][0]
         self.assertEqual(item["candidateStatus"],"asr-orthographic-candidate-unreviewed")
         self.assertEqual(item["atMs"],100)
-        self.assertTrue(item["requiresHumanReview"])
+        self.assertTrue(item["requiresAuthorDecision"])
+        self.assertFalse(item["requiresHumanReview"])
 
     def test_partial_search_is_evidence_not_cue(self):
         words=[{"text":"تخيل","start_ms":100},{"text":"انه","start_ms":300},
@@ -55,7 +57,7 @@ class B01CueCandidateTests(unittest.TestCase):
         clip={"id":"N02","script":"Statics","units":[{"id":"U2","text":"Statics"}]}
         item=propose(clip,{"jobId":"j","audioHash":"a","transcriptHash":"b"},
                     {"words":words})["units"][0]
-        self.assertEqual(item["candidateStatus"],"needs-human-alignment")
+        self.assertEqual(item["candidateStatus"],"needs-author-alignment")
         self.assertNotIn("atMs",item)
 
 if __name__=="__main__":unittest.main()
