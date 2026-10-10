@@ -1,74 +1,62 @@
-# Mathematics I — أولى هندسة
-**Editorial status:** **B02 ACTIVE at Stage 01** after human `next block` following B01 Stage 04. B02 has five **complete connected provisional** active drafts and 17 independent question/feedback pairs, **no issued B02 lesson IDs/scenes or Stage 02 re-critique**. B01's five IDs and 72 canonical scenes remain unchanged; its audio and academic/visual approvals are deferred. B03–B07 remain a provisional plan.
+# Mathematics I — Engineering Year One | خريطة المنهج
 
-## Intended audience and bilingual approach
-First-year engineering students learning calculus. Egyptian Arabic natural spoken instruction introduces concepts alongside familiar standard English mathematical terms; exam-style questions/model answers in English with Arabic support. We assume basic arithmetic, factorization and Cartesian coordinates; actual placement/syllabus is **awaiting human input**, not verified.
+**Editorial checkpoint:** 2026-10-10. **Active Block B02 — Stage 02 completed.** Last completed human-authorized gate: **B02 critique and connected full-draft rewrite**, with **21 independent attempts and 21 feedback explanations**, no B02 final lesson IDs/scenes. B01 remains Stage 04 authored with audio and all human academic/student approval deferred. **STOP; new human `next` → B02 Stage 03 only.**
 
-## Course map from what is actually visible
-1. **Preliminaries — printed pp. 1–20 (PDF images 4–13):** real number system, real line, order properties, sets, intervals, linear inequalities, absolute value and multi-factor/rational inequalities. Printed pp. **19–20 are Exercises (1)**, treated as practice coverage rather than an invented fifth lecture. **Stage 04 canonical lesson scene files (B01), before Chapter 1; publication still blocked.**
-2. **Chapter 1 — printed pp. 21–53:** *Functions and Their Graphs*, including families, increasing/decreasing, limits and continuity. Stage 02 rewritten; structural lesson boundaries still await the next human gate.
-3. **Chapter 2 — printed pp. 54–80:** visible start of differentiation and exercises; not scripted in this PR.
-4. **Chapters 3–6 — table-of-contents only:** inverse functions and related differentiation, hyperbolic functions, Maclaurin and related topics, partial differentiation. Detailed pages are not provided, so no lesson drafting based on their unseen text.
+## Audience, source and limits
 
-## Master roadmap — provisional production Blocks (whole available book)
+Egyptian Arabic spoken explanations introduce and reuse English engineering mathematics terms; exam questions/model answers in English, with Arabic comprehension support and explanation. First-year engineering students, institutional syllabus not independently verified. Basic arithmetic, real intervals, polynomial factoring, Cartesian coordinates and some trig familiarity are assumed or bridged.
 
-A **Block** is a bounded source/workflow unit, not a student lesson, ID, or guarantee that all pages are available. **B02 is currently active; B01 remains Stage 04 authored/inactive with audio deferred.** The suggested ranges beyond printed p. 80 are inferred from the table of contents and must not be taught as inspected content.
+Original `abd-el-salam-math-i-scan`: *Mathematics I (Calculus-Differentiation) For Engineering*, Associate Professor Dr. Mohamed A. Abd El Salam. **43 scanned PDF pages**: cover/contents on PDF pp. 1–3; printed book pp. **1–80** on PDF pp. 4–43. Only table of contents is visible for later chapters. Exact SHA-256 is stored in `references/SOURCE_MANIFEST.md`, confirmed again 2026-10-10. User deferred durable private storage; book scans are **not** public GitHub assets and future-agent retrieval unverified. Index-only topics are plans, not teaching evidence. `references/SOURCE_COVERAGE.md` gives actual inspected/available details.
 
-| Block | Proposed printed pages | Source availability | Prerequisite purpose / status |
+## Whole-course provisional production-Block roadmap
+
+A Block is a bounded workflow unit, **not** a student lesson or stable lesson ID.
+
+| Block | Printed book pages | Body availability and learning dependency | Production checkpoint |
 |---|---|---|---|
-| **B01 — Preliminaries** | **1–20** | Body supplied, editorially reviewed; exercises pp. 19–20 | Real-number and inequality foundations; **INACTIVE handoff: Stage 04 five issued lesson IDs, 72 canonical scenes, voice deferred** |
-| **B02 — Functions, limits, continuity** | **21–53** | Body supplied, editorially reviewed | **ACTIVE Stage 01** after human `next block`: five complete current provisional manuscripts with 17 question/feedback pairs; prior critique preserved as historic evidence |
-| **B03 — Differentiation** | **54–80** | Body supplied but not scripted; coverage skimmed | Depends on B02 limits/function fluency; **future Stage 01** |
-| **B04 — Inverse-related and exp/log functions** | **81–143 (inferred)** | **Contents only; pages not supplied** | Chapter 3 headings in contents; **blocked on actual body source** |
-| **B05 — Hyperbolic functions** | **144–150 (inferred)** | **Contents only; pages not supplied** | Chapter 4 headings; **blocked** |
-| **B06 — Maclaurin and applications** | **151–174 (inferred)** | **Contents only; pages not supplied** | Chapter 5 headings; **blocked** |
-| **B07 — Partial derivatives** | **175–181 (inferred)** | **Contents only; pages not supplied** | Chapter 6 heading; **blocked** |
-| Closing matter | Summary 182; references 186 (TOC) | Contents only | Not yet an instructional Block |
+| **B01 — Preliminaries** | **1–20** | Actual source body; real numbers, sets, intervals, inequalities, absolute value, polynomial/rational sign analysis; source **Exercises (1)** on pp. 19–20 | **INACTIVE; Stage 04 canonical authoring**: 5 issued stable student lesson IDs, 72 scenes, 15 assessment/feedback pairs, prior script validation. Audio/academic release **not approved** |
+| **B02 — Functions, limits, continuity** | **21–53** | Actual source body; functions/graphs, families, increasing/decreasing, approaching a limit, limit evaluation and continuity; **Exercises (2)** on pp. 51–53 | **ACTIVE; Stage 02 critique/rewrite COMPLETE**, five provisional working scripts, **21 Q/21 separate feedback**; boundaries/IDs/scenes not issued |
+| **B03 — Differentiation** | **54–80** | Actual body supplied; introductory derivatives/rules, chain rule, trig/implicit/parametric differentiation and exercises; requires B02 concepts | Not drafted in active Block workflow |
+| **B04 — Inverse, exp/log related topics** | **81–143** (inferred) | **Contents headings only; actual body missing** | Blocked on source |
+| **B05 — Hyperbolic functions** | **144–150** (inferred) | **Contents headings only** | Blocked |
+| **B06 — Maclaurin and applications** | **151–174** (inferred) | **Contents headings only** | Blocked |
+| **B07 — Partial derivatives** | **175–181** (inferred) | **Contents headings only** | Blocked |
+| Closing matter | Summary from **182**, references from **186** | Contents only, no inspectable body | Not a teaching Block yet |
 
-**Source-of-truth docs:** `references/SOURCE_MANIFEST.md` (exact file hash, provisional storage and rights), `references/SOURCE_COVERAGE.md` (PDF/printed-page map), and earlier `references/SOURCE_REVIEW.md` (historical page-level observations). B01 and B02 own separate durable `blocks/B01/STATUS.md` and `blocks/B02/STATUS.md`; root `STATUS.md` is the active-Block control plane.
+## B01 — fixed student lesson boundaries and Stage 04 spoken canon
 
-**Legacy transition rule:** the full B01/B02 scripts and shared Stage 02 critique predate the new Blocks policy. Keep them untouched; acknowledge their real historical authorship, but neither invent a Stage 00 human approval nor advance B02 by default. `next` currently concerns B01 only, after an explicit future human authorization. After B01 Stage 04 human inspection, `next block` may activate B02 and reconcile its already-written draft/review evidence with available source; audio is a separate path.
+These five IDs/orders are **issued** and must not be silently changed. Canonical B01 speech and assessment feedback now live in `lessons/<id>/scenes/Sxx.json`, with ordered identity/objective maps in `lessons/<id>/lesson.json`. The Stage 03 connected manuscripts in `blocks/B01/final-scripts/` are historical comparison, not independently edited running scripts.
 
-## Block B01 — Preliminaries: Stage 03 issued identities, Stage 04 canonical scenes
+| B01 order | Stable student lesson ID | Book printed locators | Core learning |
+|---|---|---|---|
+| 1 | `em1-prelim-real-sets` | **1–5** | Real-number classifications, order and set operations |
+| 2 | `em1-prelim-intervals-linear` | **5–8** | Intervals, endpoint/union notation, linear inequalities |
+| 3 | `em1-prelim-absolute-value` | **9–12** | Distance interpretation, absolute-value equations and inequalities |
+| 4 | `em1-prelim-polynomial-sign` | **13–18** | Quadratic/polynomial sign chart, repeated roots |
+| 5 | `em1-prelim-rational-sign` | **13–18**, practice bank **19–20** | Rational denominator exclusion, cancellation and intersections |
 
-**Workflow Block:** B01, printed source pp. **1–20**, PDF image pp. **4–13**. These **five stable lesson IDs and their explicit within-Block order (1–5)** are now **issued in the Stage 03 editorial outline**. Names are stable; a later editorial amendment must use explicit change control. There are **no B02 stable lesson IDs** yet. A Block is a workflow unit, **not** a student lesson.
+Why the last two overlap printed pp. 13–18: the photographic source interweaves polynomial and rational reasoning. **The B01 4→5 split is a teaching decision, not a fabricated exact textbook page break.** Decisions and objective assessment maps: `blocks/B01/reviews/STAGE_03_BOUNDARY_DECISION.md`; scene evidence: `blocks/B01/reviews/STAGE_04_SCENES.md`; state: `blocks/B01/STATUS.md`. B01 visual source supports draft 16:9 and 9:16 layouts but no real timed lesson or human acceptance has occurred.
 
-| B01 order | Issued stable lesson ID / working title | Source (printed; PDF images) | Standalone objectives and independent assessment | Historical Stage 03 connected manuscript (no longer canonical speech) |
-|---|---|---|---|---|
-| **1** | `em1-prelim-real-sets` — Real Numbers, Order & Sets | **1–5; 4–6** | Rational/irrational classification, number-line order, membership/union/intersection; **RS-Q1–3** | `blocks/B01/final-scripts/em1-prelim-real-sets.md` |
-| **2** | `em1-prelim-intervals-linear` — Intervals and Linear Inequalities | **5–8; 6–7** (order rules earlier) | Correct endpoint notation and OR/AND sets, sign flip under known negative division, compound bounds; **IL-Q1–3** | `blocks/B01/final-scripts/em1-prelim-intervals-linear.md` |
-| **3** | `em1-prelim-absolute-value` — Absolute Value as Distance | **9–12; 8–9** | Distance, two-branch equation, bounded inequality, triangle inequality; **AV-Q1–3** | `blocks/B01/final-scripts/em1-prelim-absolute-value.md` |
-| **4** | `em1-prelim-polynomial-sign` — Polynomial Inequalities and Sign Charts | **13–18; 10–12** | Zero factors, regions, repeated-root signs, strict/inclusive endpoints; **PS-Q1–3** | `blocks/B01/final-scripts/em1-prelim-polynomial-sign.md` |
-| **5** | `em1-prelim-rational-sign` — Rational Inequalities and Combined Conditions | **13–18; 10–12**; exercise coverage **19–20; 13** | Numerator zero vs forbidden denominator, cancellation hole, rational+linear condition intersection; **RA-Q1–3** | `blocks/B01/final-scripts/em1-prelim-rational-sign.md` |
+## B02 — revised Stage 02 working drafts, PROVISIONAL A–E only
 
-**Coverage & boundary decisions:** Stage 02 critique P-A–P-D led to **keep with internal parts** (P-A), **keep** (P-B), **keep with parts** (P-C), and **split** (P-D) into **two complete self-contained scripts**, giving **five B01 lessons**. Source pp. **13–18 overlap across the last two** because the photographed teaching is interwoven; **no unsupported exact split page** is claimed. Printed pp. 19–20 are the book's exercise bank; the authored independent questions are original, not transcriptions. Detailed learner-centered decisions, prerequisite checks and 15 matched question/feedback pairs: `blocks/B01/reviews/STAGE_03_BOUNDARY_DECISION.md`.
+**Active editorial masters** live in `blocks/B02/working-drafts/`; they are still **complete continuous teaching texts**, not runtime scenes. Prior joint-curriculum five `working-drafts/*.md` and `reviews/STAGE_02_CRITIQUE.md` remain **historical and unmodified**. The current independent B02 Stage 02 critique, true passage-level fixes and new assessment map are in **`blocks/B02/reviews/STAGE_02_CRITIQUE.md`**.
 
-**Editorial authority transition completed:** `working-drafts/prelim-*.md` are archival Stage 02 inputs, and `blocks/B01/final-scripts/*.md` are historical Stage 03 manuscripts. **The canonical B01 words now live in `lessons/<id>/scenes/Sxx.json` narration and question feedback**. Lesson identity/objective/ordering lives in `lessons/<id>/lesson.json`. Any joined reading copy must be generated from the scene canon, not independently edited.
+| Editorial cluster, NOT a stable ID | Source printed pp. | Teaching objective and independent checks (21 total) | Stage 03 boundary *candidate only* |
+|---|---|---|---|
+| **A: Functions/domain/range** (`01-functions.md`) | **21–25** | Function uniqueness, domain/range/co-domain, graph vertical-line test, finite domain → achieved range; **A1–A4 (4)** | **Keep**, short connected internal parts |
+| **B: Function families** (`02-function-families.md`) | **25–35** | Algebraic/trig/exp/log family graphs, exclusions, transformations, exponential range and tangent input domain; **B1–B5 (5)** | **Consider split** algebraic vs trig/exp/log; no final decision |
+| **C: Monotonicity and meaning of limits** (`03-monotonicity-limits.md`) | **35–40** | Increasing/decreasing over intervals, one-/two-sided nearby limits vs assigned value; **C1–C4 (4)** | **Consider split** graph monotonicity vs limit concept |
+| **D: Calculating limits** (`04-calculating-limits.md`) | **39–46** | Conditional limit laws, factoring, conjugates, directional divergence, radian-based sine/tangent limits; **D1–D4 (4)** | **Consider split** algebraic and trigonometric methods |
+| **E: Continuity** (`05-continuity.md`) | **47–50**, exercise bank **51–53** | Three pointwise conditions, holes vs jumps, piecewise matching, endpoint/corner continuity; **E1–E4 (4)** | **Keep**, connected parts |
 
-## Block B02 — active Stage 01, five provisional connected manuscripts (no issued student IDs)
-| Working label (not stable ID) | Printed source pages | Learner objectives; independent check |
-|---|---|---|
-| **A. What makes a function?** | 21–25 | Interpret input/output, domain/range, domain restrictions and the vertical-line test. |
-| **B. Reading the function family** | 25–35 | Recognize power/polynomial/rational versus trig/exp/log families and related graphs. |
-| **C. Increasing/decreasing and the limit idea** | 35–40 | Interpret monotonic intervals and values approached around a point. |
-| **D. Computing limits safely** | 40–46 | Apply valid limit laws, factoring/rationalization, one-sided reasoning and radians-based trigonometric limits. |
-| **E. Continuity and piecewise functions** | 47–53 | Test the three continuity conditions and solve a parameter matching problem. |
+These are **suggestions**, not stable student lessons. In Stage 03, any split must produce independently coherent **new full scripts** (opening, source/prereq bridge, new worked examples, independent questions, feedback and recap). Splitting the original Markdown at headings is not enough. Boundaries should follow novice comprehension and workload rather than printed section labels.
 
-**Current editable B02 Stage 01 manuscripts:** `blocks/B02/working-drafts/01-functions.md` to `blocks/B02/working-drafts/05-continuity.md` (**five full texts, 17 question/feedback pairs**). Original `working-drafts/01-functions.md` through `05-continuity.md` are **frozen legacy AI Stage 02 history**; no silent rewriting or skipping the active Block's required gates. Prerequisite/objective map: `blocks/B02/CONCEPT_AND_LESSON_MAP.md`; actual reopened source: `blocks/B02/reviews/STAGE_01_SOURCE_REOPEN.md`. A–E are **provisional teaching clusters**, not stable IDs or final student lesson boundaries.
+**Source discrepancy:** book printed **p. 34 / PDF p. 20 right** visibly prints exponential domain/range opposite the accompanying graph and independently checked real exponential facts. The B02 B manuscript documents and corrects the mathematics *as independently authored reasoning*, not as a silent verbatim transcription of the book. Faculty review remains required. PDF p. 24 (printed p. 42) quotient-limit shorthand also needs careful one-sided/domain interpretation; infinity is not a real value assigned to a zero denominator. B02 `reviews/STAGE_01_SOURCE_REOPEN.md` maps photographed evidence.
 
-## Concept/prerequisite map
-- **Assumed/possibly diagnosed:** basic arithmetic with positive/negative values, fraction operations, solving equations, polynomial factorization, plotting axes, introductory trigonometry.
-- **Taught in Module 0:** real numbers and sets → line/order and set operations → intervals and inequality solutions → absolute value as distance → factored polynomials, rational sign analysis and boundary exclusion.
-- **Taught in Chapter 1 drafts:** domain/range using interval fluency → function families → increasing/decreasing → limits and their laws → continuity.
-- **Deferred:** derivatives, formal epsilon–delta rigor, L'Hôpital, derivative rules and later-book chapters.
+## Cross-Block prerequisites, evidence and human stop
 
-## B01 Stage 04 visual source (not yet runtime-approved)
-Each of the five B01 lesson folders now owns `scenes/ConceptBoard.tsx` with a subject-specific neutral diagram and speech-gated content disclosure, plus `STORYBOARDS.md` and distinct scene-level 16:9/9:16 plans. **Actual recordings, 320px render review, word timings, bilingual listening and student-ready SDK playback remain UNTESTED**; no visual/runtime approval follows from source code alone. B02 illustrations are still only editorial suggestions until its own later stages.
+**Dependency flow:** B01 number/set/interval/denominator fluency → B02 A function mapping/domain/range → B family graphs → C monotonicity/limits → D limit methods → E continuity → future B03 derivative notion. Brief bridges required for Cartesian graphs, trigonometry and radians; do not assume novice mastery. Formal epsilon–delta proofs, L'Hôpital and advanced differentiation remain later topics.
 
-## Evidence, freeze scope and next gate
-- Original scanned source and checked access limits: `references/SOURCE_MANIFEST.md`, `references/SOURCE_COVERAGE.md`, `references/SOURCE_REVIEW.md`. The user chose to postpone private long-term PDF retention; no original bytes uploaded.
-- **B01 Stage 03 (historic):** five reviewed complete connected manuscripts, IDs, source/objective map, 4→5 split rationale: `blocks/B01/reviews/STAGE_03_BOUNDARY_DECISION.md`.
-- **B01 Stage 04 (current canonical):** **72 scene JSON files, 15 independent question scenes, 15 separate feedback clips, 87 clips**, five lesson-owned TSX boards and independent 16:9/9:16 storyboards. `blocks/B01/reviews/STAGE_04_SCENES.md` and `blocks/B01/STATUS.md`. A generic `tests/test_script_stage_ready.py` executes real `validate_lesson(...,"script")` in successful [GitHub Actions](https://github.com/addvaluewithai-hub/learn-curriculums/actions/runs/37952958546).
-- **B02 Stage 01 active now:** five complete connected copies of the previously written teaching/assessment bodies, owned only by `blocks/B02/working-drafts/` with 17 independent exam questions + 17 separate post-attempt feedback sections. The former joint Stage 02 critique in `reviews/STAGE_02_CRITIQUE.md` is historical evidence and **not** the newly authorized B02 Stage 02. Actual original PDF re-opened with matching hash; apparent source p. 34 exponential domain/range discrepancy flagged, not silently resolved.
-- Academic/scientific, audio/listening, timing, lesson-specific preview/runtime and student publication reviews remain **untested**; `review.json` does not claim any passed reviews. No paid TTS.
-- **STOP — B02 Stage 01 complete, awaiting NEW human `next` for B02 Stage 02 source/scientific/novice critique and rewrite only**; no B02 stable IDs/scenes. B01 remains at Stage 04 with audio deferred. To resume B01 Stage 05, explicitly reselect B01; a bare `next` now refers to B02. No public book upload, paid TTS, merge or publication.
+**Actual B02 Stage 02 checks:** **5/5** complete revised scripts structurally reviewed; **21/21** question/feedback pairs and English/Arabic support checked; **30/30** selected algebraic, limit and boundary numerical checks passed. These checks **are not** lecturer approval or a learner trial. No B02 stable IDs, lesson JSON, scene JSON, word timing, TTS or runtime approval. B01 audio remains deferred; nothing merged to `main`.
+
+**STOP — human gate:** later **`next` authorizes B02 Stage 03 ONLY**, to decide and fully rewrite final standalone lessons and issue IDs/orders. No B03 move, scenes, paid audio or publication without separate instruction. Per-Block authoritative state: `blocks/B02/STATUS.md`; whole-course active gate: `STATUS.md`.
