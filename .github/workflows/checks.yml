@@ -27,6 +27,7 @@ jobs:
           cache: npm
           cache-dependency-path: preview-sdk/package-lock.json
       - run: npm ci --prefix preview-sdk
+      - run: ./preview-sdk/node_modules/.bin/tsc --project preview-sdk/tsconfig.authoring.json --noEmit
       - run: npm run preview:build
       - run: python3 preview-sdk/tests/prepare_probe.py
       - run: npm run check --prefix preview-sdk
