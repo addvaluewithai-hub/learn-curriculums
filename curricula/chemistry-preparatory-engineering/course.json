@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "chemistry-preparatory-engineering",
+  "title": "كيمياء إعدادي هندسة | Chemistry for Preparatory-Engineering Students",
+  "revision": "stage00-outline-v1",
+  "description": "خريطة مبدئية مستندة إلى نسخة مصورة جزئية من كتاب Mervat Sadik. ليست دروسًا مكتملة أو منهجًا معتمدًا.",
+  "language": {
+    "explanation": "ar-EG",
+    "exam": "en",
+    "arabicSupport": true
+  },
+  "sources": [
+    {
+      "id": "chemistry-prep-sadik-scan-20261009",
+      "title": "Chemistry for Preparatory-Engineering Students — Mervat Sadik (20-page scanned excerpt)",
+      "access": "available",
+      "limitations": "Available via supplied attachment and authorized linked Google Drive at 2026-10-10 intake; not stored in public repo. The complete textbook, durable future access, redistribution rights and edition are unverified. See references/SOURCE_MANIFEST.md."
+    }
+  ],
+  "teacher": {}
+}
