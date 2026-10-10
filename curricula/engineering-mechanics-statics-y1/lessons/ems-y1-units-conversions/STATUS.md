@@ -28,3 +28,7 @@
 - **22/22 real WAVs plus factory transcript and VTT** checked against current canonical scene clip scripts in GitHub Actions run `38038542682`; no structural violations. The original audio clip identity and text are preserved (factory only flattened bilingual paragraph breaks).
 - **Actual B01 preview still blocked:** `media/N01/receipt.json` not present. Lesson files have NOT been selected via `audio-collect` or imported as reviewed local immutable takes; cue `timing.json` and real mobile/landscape playback were not invented.
 - Human listening, science, audio, timing, visual and runtime checks remain `untested`. See `../../blocks/B01/STAGE_06_TECHNICAL_PREFLIGHT.md` for audit/artifact and decisions needed.
+
+## B01 Stage 06 — selected original-factory takes linked (2026-10-10)
+- **22/22 source-bound `media/<clipId>/receipt.json` selections persisted**, plus matching original factory `takes/<jobId>/result.json` metadata. No WAV/ASR binaries are committed; [full hydrated media CI](https://github.com/addvaluewithai-hub/learn-curriculums/actions/runs/38040173233) verified the real sound and passed this lesson's `validate --stage media` check.
+- ASR-anchored timing proposals are **draft only**; full human-reviewed `timing.json`, SDK preview and publication are NOT passed. User gave general listening approval; formal scientific/timed/runtime `review.json` checks remain untested. See `../../blocks/B01/STAGE_06_MEDIA_LINKING.md`.
