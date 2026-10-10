@@ -1,6 +1,6 @@
 # B02 Stage 01 — Provisional Draft 03: Resolving a Force and Intro to Rectangular Components
 
-> **Internal continuous spoken draft.** Chapter 2 §2.4 and only the introductory paragraph of §2.5, printed pp.13–18 / PDF scan pp.18–23. §2.5 detailed rectangular-component procedure continues after printed p.18 (B03 boundary); any elementary trig bridge below is explicitly an authored extension for prior school knowledge, not attributed to unseen source pages.
+> **Internal continuous spoken draft. No stable lesson ID, no scenes or audio.** Chapter 2 §2.4 and only the introductory paragraph of §2.5, printed pp.13–18 / PDF scan pp.18–23. §2.5 detailed rectangular-component procedure continues after printed p.18 (B03 boundary); any elementary trig bridge below is explicitly an authored extension for prior school knowledge, not attributed to unseen source pages.
 
 ## Teaching script — spoken master
 
