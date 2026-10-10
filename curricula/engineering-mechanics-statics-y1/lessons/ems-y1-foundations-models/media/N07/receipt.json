@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "clipId": "N07",
+  "jobId": "ems-y1-foundations-models-N07-b01full-i12-26e3ae14c7f9338d",
+  "scriptHash": "26e3ae14c7f9338dfd97fb6dc03fce8c09d59171d8f81a2517373a932d949f43",
+  "audioHash": "7522b9c546cd5473c1a0c856c886859539fe31b8ecbc7b92e39a94a93b1206cd",
+  "transcriptHash": "8fb2c34365776c4a989016dbb5caf635ae9497e7c0899cf02bbf3d9e34825001",
+  "durationMs": 37280,
+  "files": {
+    "audio": "takes/ems-y1-foundations-models-N07-b01full-i12-26e3ae14c7f9338d/audio.wav",
+    "transcript": "takes/ems-y1-foundations-models-N07-b01full-i12-26e3ae14c7f9338d/transcript.json",
+    "result": "takes/ems-y1-foundations-models-N07-b01full-i12-26e3ae14c7f9338d/result.json"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "event_type": "tts.generate",
+  "client_payload": {
+    "job_id": "ems-y1-foundations-models-N02-pilot-t01-0a3e351a0fd049c18efaaec0adb1b3ca",
+    "request": {
+      "text": "في Mechanics بندرس أثر القوى على الأجسام. فيه فرع اسمه Statics، الاستاتيكا، بنركز فيه على مسائل اتزان الأجسام، وهنبدأ خصوصًا بالأجسام الساكنة. وفيه Dynamics، الديناميكا، بتتعامل مع وصف الحركة والعلاقة بين القوى وتغيّر الحركة. مش مطلوب دلوقتي إنك تحسب كل حاجة؛ المطلوب تعرف السؤال أصلاً من أي نوع.",
+      "voice": "Gacrux",
+      "style": "Mature warm calm Egyptian private teacher. Natural medium pace, short pauses between ideas, clear English terms. Friendly and precise; no advertising performance.",
+      "routing": "quality",
+      "format": "wav",
+      "sample_rate": 24000,
+      "transcript": {
+        "language_codes": [],
+        "write_vtt": true
+      },
+      "metadata": {
+        "curriculumId": "engineering-mechanics-statics-y1",
+        "lessonId": "ems-y1-foundations-models",
+        "clipId": "N02",
+        "role": "teaching",
+        "scriptHash": "2e7ee7c2e1071817cb8a328867d9655541f34339044c217558da78a7bfc8d6d8"
+      }
+    }
+  }
+}

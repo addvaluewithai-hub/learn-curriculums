@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "engineering-mechanics-statics-y1",
+  "title": "الميكانيكا الهندسية - الاستاتيكا | أولى هندسة",
+  "revision": "b01-stage04-canonical-scenes-v1",
+  "description": "Year-one Engineering Mechanics (Statics): provisional Blocks B01–B09; B01 Stage 04 canonical scripts/scenes authored and structurally checked; source/scientific/audio approval pending.",
+  "language": {
+    "explanation": "ar-EG",
+    "exam": "en",
+    "arabicSupport": true
+  },
+  "sources": [
+    {
+      "id": "statics-scan-2026-10-08",
+      "title": "Engineering Mechanics [Statics] — scanned course material supplied by user",
+      "access": "available",
+      "originalFilename": "مسح المستندات٢٠٢٦١٠٠٨_٢٠٢٢٢٨.pdf",
+      "format": "scanned PDF; 36 image-only pages",
+      "availability": "Original 36-page PDF was verified and SHA-256 hashed in the initiating conversation runtime on 2026-10-09; no durable private retrieval or future-agent access verified.",
+      "limits": "Full body inspected for Ch.1 printed pp.1–6; Ch.2 printed pp.9–30 supplied but source detail must be reopened for new Blocks. Ch.2 pp.31+ and Ch.3–7 body missing, contents headings only. See SOURCE_COVERAGE.md.",
+      "storageClass": "chat-only-temporary",
+      "rights": "unknown; no permission to redistribute source in public repository",
+      "sha256": "d05d173a02514f6093662c072fa0d8d08deba18d5e552b9586ecdcee1d6591d9",
+      "byteLength": 7938527,
+      "pageCount": 36
+    }
+  ],
+  "teacher": {
+    "status": "not assigned; subject-matter and educational review pending"
+  }
+}

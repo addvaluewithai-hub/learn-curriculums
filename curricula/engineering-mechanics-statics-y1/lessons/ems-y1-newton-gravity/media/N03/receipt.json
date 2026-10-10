@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "clipId": "N03",
+  "jobId": "ems-y1-newton-gravity-N03-b01full-i15-508bc748b7335451",
+  "scriptHash": "508bc748b733545194cfa1f31dbac93617e4404ad18c997ea0318b081cee13cd",
+  "audioHash": "bcb0b55a492fdda90d55d1f699ce7e9edfea645cece143ca277d67e8875ef706",
+  "transcriptHash": "5ce6fd4d9bacd13c19e1942e16ad7569d94cfcd6638676c005e4bf4f0065f664",
+  "durationMs": 27840,
+  "files": {
+    "audio": "takes/ems-y1-newton-gravity-N03-b01full-i15-508bc748b7335451/audio.wav",
+    "transcript": "takes/ems-y1-newton-gravity-N03-b01full-i15-508bc748b7335451/transcript.json",
+    "result": "takes/ems-y1-newton-gravity-N03-b01full-i15-508bc748b7335451/result.json"
+  }
+}

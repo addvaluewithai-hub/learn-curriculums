@@ -1,0 +1,99 @@
+{
+  "id": "S11",
+  "title": "تقييم 2: تصنيف الوحدات",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed p.5; PDF scan p.11 — original authored learner checkpoint, not a printed exercise"
+    }
+  ],
+  "narration": {
+    "id": "N11",
+    "role": "question",
+    "script": "Classify these units as mass or force: kg, N, slug, lbf. State whether each is used in the SI or FPS system discussed.\nصنّف الوحدات دي إلى وحدات كتلة أو وحدات قوة: كيلوجرام، نيوتن، سلَج، وpound-force. وكل واحدة تابعة لأي نظام من النظامين اللي اتعلمناهم؟",
+    "units": [
+      {
+        "id": "EN",
+        "text": "Classify these units as mass or force: kg, N, slug, lbf. State whether each is used in the SI or FPS system discussed.",
+        "occurrence": 1,
+        "visualIntent": "أظهر السؤال بالإنجليزية من أول كلمة منطوقة؛ لا تسرّب أي إجابة."
+      },
+      {
+        "id": "AR",
+        "text": "صنّف الوحدات دي إلى وحدات كتلة أو وحدات قوة: كيلوجرام، نيوتن، سلَج، وpound-force. وكل واحدة تابعة لأي نظام من النظامين اللي اتعلمناهم؟",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي فقط عند بداية نطقه مع بقاء السؤال الإنجليزي."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "question",
+      "topic": "سؤال مستقل 2 — تصنيف الوحدات",
+      "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+      "primaryUnitId": "EN",
+      "questionMode": true
+    },
+    "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+    "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+  },
+  "question": {
+    "id": "Q02",
+    "english": "Classify these units as mass or force: kg, N, slug, lbf. State whether each is used in the SI or FPS system discussed.",
+    "arabic": "صنّف الوحدات دي إلى وحدات كتلة أو وحدات قوة: كيلوجرام، نيوتن، سلَج، وpound-force. وكل واحدة تابعة لأي نظام من النظامين اللي اتعلمناهم؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "EN",
+      "arabic": "AR"
+    },
+    "writtenLabel": "اكتب إجابتك بالإنجليزي ثم أرسلها",
+    "writtenPlaceholder": "Your answer…",
+    "answer": {
+      "english": "Mass: kilogram (kg) in SI and slug in FPS. Force: newton (N) in SI and pound-force (lbf) in FPS.",
+      "arabic": "kg وslug بيقيسوا الكتلة، لكن N وlbf بيقيسوا قوة. عشان كده ما نبدّلش وحدة كتلة بوحدة قوة وكأنها نفس الكمية. والتصنيف مهم قبل أي عملية تحويل.",
+      "reasoning": "kg وslug بيقيسوا الكتلة، لكن N وlbf بيقيسوا قوة. عشان كده ما نبدّلش وحدة كتلة بوحدة قوة وكأنها نفس الكمية. والتصنيف مهم قبل أي عملية تحويل."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "Mass: kilogram (kg) in SI and slug in FPS. Force: newton (N) in SI and pound-force (lbf) in FPS.\nkg وslug بيقيسوا الكتلة، لكن N وlbf بيقيسوا قوة. عشان كده ما نبدّلش وحدة كتلة بوحدة قوة وكأنها نفس الكمية. والتصنيف مهم قبل أي عملية تحويل.",
+      "units": [
+        {
+          "id": "EN",
+          "text": "Mass: kilogram (kg) in SI and slug in FPS. Force: newton (N) in SI and pound-force (lbf) in FPS.",
+          "occurrence": 1,
+          "visualIntent": "بعد submit فقط، ابدأ إظهار model answer الإنجليزي."
+        },
+        {
+          "id": "AR",
+          "text": "kg وslug بيقيسوا الكتلة، لكن N وlbf بيقيسوا قوة. عشان كده ما نبدّلش وحدة كتلة بوحدة قوة وكأنها نفس الكمية. والتصنيف مهم قبل أي عملية تحويل.",
+          "occurrence": 1,
+          "visualIntent": "بعد بداية النطق العربي، أظهر التعليل تدريجيًا؛ لا يظهر أثناء المحاولة."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "EN",
+        "arabic": "AR"
+      },
+      "visual": {
+        "renderer": "statics-concept-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "mode": "question",
+          "topic": "Feedback — سؤال مستقل 2 — تصنيف الوحدات",
+          "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+          "primaryUnitId": "EN",
+          "questionMode": true,
+          "feedbackOnly": true
+        },
+        "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+        "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+      }
+    }
+  }
+}

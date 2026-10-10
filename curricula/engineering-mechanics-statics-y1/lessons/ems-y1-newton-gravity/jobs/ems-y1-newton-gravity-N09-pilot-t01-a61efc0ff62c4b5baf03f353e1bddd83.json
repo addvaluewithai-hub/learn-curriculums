@@ -1,0 +1,25 @@
+{
+  "event_type": "tts.generate",
+  "client_payload": {
+    "job_id": "ems-y1-newton-gravity-N09-pilot-t01-a61efc0ff62c4b5baf03f353e1bddd83",
+    "request": {
+      "text": "A cart of constant mass 3 kg has a net horizontal force of 12 N. Calculate its horizontal acceleration and give the unit.\nعربية كتلتها الثابتة ثلاثة كيلوجرام، ومحصلة القوة الأفقية عليها اتناشر نيوتن. احسب التسارع الأفقي ووحدته.",
+      "voice": "Gacrux",
+      "style": "Mature warm calm Egyptian private teacher. Natural medium pace, short pauses between ideas, clear English terms. Friendly and precise; no advertising performance.",
+      "routing": "quality",
+      "format": "wav",
+      "sample_rate": 24000,
+      "transcript": {
+        "language_codes": [],
+        "write_vtt": true
+      },
+      "metadata": {
+        "curriculumId": "engineering-mechanics-statics-y1",
+        "lessonId": "ems-y1-newton-gravity",
+        "clipId": "N09",
+        "role": "question",
+        "scriptHash": "53170501da4dfb994321d17d5c2ee0892e042a26a404fcd21b334e3b18c4b6bd"
+      }
+    }
+  }
+}

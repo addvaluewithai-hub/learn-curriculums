@@ -9,6 +9,13 @@ node_modules/
 *.tmp
 preview-sdk/.generated/
 preview-sdk/test-results/
-# Keep locally retained private curriculum originals out of public Git.
+
+# Source-verified speech metadata may be committed; WAV/ASR bytes remain externally cached.
+curricula/**/lessons/*/media/*/takes/*/audio.wav
+curricula/**/lessons/*/media/*/takes/*/transcript.json
+curricula/**/lessons/*/media/*/takes/*/verification.json
+curricula/**/lessons/*/media/*/takes/*/transcript.vtt
+
+# Also inherit private original-source exclusions from main.
 curricula/*/references/private/
 curricula/*/references/originals/

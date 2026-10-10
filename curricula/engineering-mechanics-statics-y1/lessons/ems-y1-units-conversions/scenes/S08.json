@@ -1,0 +1,45 @@
+{
+  "id": "S08",
+  "title": "الجزء الثاني — FPS وفرق القوة عن الكتلة — 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed p.5; PDF scan p.11 — source-grounded explanation with authored analogies"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "teaching",
+    "script": "غير SI، الكتاب بيعرض نظام U.S. Customary أو FPS، اللي اسمه جاي من Foot وPound وSecond. في جدول المادة، الطول بالقدم Foot ورمزه ft، والزمن بالثانية s، والقوة بالرطل كقوة، Pound-force، والكتلة بوحدة اسمها Slug.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "غير SI، الكتاب بيعرض نظام U.S.",
+        "occurrence": 1,
+        "visualIntent": "عند بدء الفكرة، كشف العنصر الأول في الرسم وتثبيت المصطلح."
+      },
+      {
+        "id": "U02",
+        "text": "FPS",
+        "occurrence": 1,
+        "visualIntent": "اربط المصطلح/القانون المرئي باللفظ المنطوق؛ لا تظهر الخلاصة قبل هذه اللحظة."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "fps",
+      "topic": "الجزء الثاني — FPS وفرق القوة عن الكتلة",
+      "focus": "جدول SI مقابل FPS: كتلة ≠ قوة",
+      "primaryUnitId": "U01",
+      "questionMode": false
+    },
+    "landscape": "16:9: رسم/علاقة هندسية كبيرة تخص «جدول SI مقابل FPS: كتلة ≠ قوة» في الجانب الأيسر، ولوحة فكرة مختصرة على اليمين. إبقاء الخلفية محايدة ثم كشف التوضيح على cue U01، بدون لصق نص السرد كله.",
+    "portrait": "9:16 مستقل: «جدول SI مقابل FPS: كتلة ≠ قوة» كمخطط رأسي في النصف العلوي، المصطلح الرئيسي تحت الرسم بخط مناسب للموبايل، وهوامش كبيرة ومساحة آمنة على 320px. كشف تدريجي عند cue U01، لا تصغير نسخة الديسكتوب."
+  }
+}

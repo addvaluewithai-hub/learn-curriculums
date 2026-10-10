@@ -1,0 +1,41 @@
+name: B01 Stage 06 external media preflight
+
+on:
+  pull_request:
+    paths:
+      - 'tools/statics_b01_stage06_preflight.py'
+      - 'tests/test_statics_b01_stage06_preflight.py'
+      - '.github/workflows/statics-b01-stage06-preflight.yml'
+      - 'curricula/engineering-mechanics-statics-y1/blocks/B01/AUDIO_ASSETS.json'
+
+permissions:
+  contents: read
+
+jobs:
+  verify-b01-media:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tests -p 'test_statics_b01_stage06_preflight.py' -v
+      - name: Inspect 69 factory WAV, word transcripts and WebVTT against canonical scenes
+        run: python3 tools/statics_b01_stage06_preflight.py --workers 6 --output "$RUNNER_TEMP/b01-stage06-media-audit.json"
+      - name: Discover actual lesson preview blockers using pinned shared SDK adapter
+        run: |
+          python3 tools/preview.py
+          cp preview-sdk/.generated/catalog.json "$RUNNER_TEMP/b01-stage06-preview-readiness.json"
+      - name: Save audit and preview readiness as evidence (no WAVs in public git)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: b01-stage06-external-media-audit
+          path: |
+            ${{ runner.temp }}/b01-stage06-media-audit.json
+            ${{ runner.temp }}/b01-stage06-preview-readiness.json
+          retention-days: 30
+          if-no-files-found: warn

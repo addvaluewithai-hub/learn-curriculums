@@ -1,0 +1,99 @@
+{
+  "id": "S07",
+  "title": "تقييم 1: الأبعاد ووحدة القوة",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed pp.5–6; PDF scan pp.11–12 — original authored learner checkpoint, not a printed exercise"
+    }
+  ],
+  "narration": {
+    "id": "N07",
+    "role": "question",
+    "script": "A trolley has mass 4 kg and acceleration 3 m/s². A student gives the net force as \"12 kg·m/s\". Is the unit correct? Write the correct SI unit and explain.\nعربية كتلتها أربعة كيلوجرام وتسارعها تلاتة متر لكل ثانية تربيع. طالب كتب محصلة القوة اتناشر كيلوجرام متر لكل ثانية. هل الوحدة صح؟ صحّح واشرح.",
+    "units": [
+      {
+        "id": "EN",
+        "text": "A trolley has mass 4 kg and acceleration 3 m/s². A student gives the net force as \"12 kg·m/s\". Is the unit correct? Write the correct SI unit and explain.",
+        "occurrence": 1,
+        "visualIntent": "أظهر السؤال بالإنجليزية من أول كلمة منطوقة؛ لا تسرّب أي إجابة."
+      },
+      {
+        "id": "AR",
+        "text": "عربية كتلتها أربعة كيلوجرام وتسارعها تلاتة متر لكل ثانية تربيع. طالب كتب محصلة القوة اتناشر كيلوجرام متر لكل ثانية. هل الوحدة صح؟ صحّح واشرح.",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي فقط عند بداية نطقه مع بقاء السؤال الإنجليزي."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "question",
+      "topic": "سؤال مستقل 1 — الأبعاد ووحدة القوة",
+      "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+      "primaryUnitId": "EN",
+      "questionMode": true
+    },
+    "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+    "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+  },
+  "question": {
+    "id": "Q01",
+    "english": "A trolley has mass 4 kg and acceleration 3 m/s². A student gives the net force as \"12 kg·m/s\". Is the unit correct? Write the correct SI unit and explain.",
+    "arabic": "عربية كتلتها أربعة كيلوجرام وتسارعها تلاتة متر لكل ثانية تربيع. طالب كتب محصلة القوة اتناشر كيلوجرام متر لكل ثانية. هل الوحدة صح؟ صحّح واشرح.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "EN",
+      "arabic": "AR"
+    },
+    "writtenLabel": "اكتب إجابتك بالإنجليزي ثم أرسلها",
+    "writtenPlaceholder": "Your answer…",
+    "answer": {
+      "english": "No. The net force is 12 kg·m/s² = 12 N; the second must be squared.",
+      "arabic": "الأربعة في التلاتة يدونا اتناشر، لكن لازم ننقل وحدة التسارع كاملة: متر لكل ثانية تربيع. الكيلوجرام في متر لكل ثانية تربيع يساوي نيوتن. كتابة kg·m/s ناقص فيها التربيع، فالوحدة غلط رغم إن الرقم صح.",
+      "reasoning": "الأربعة في التلاتة يدونا اتناشر، لكن لازم ننقل وحدة التسارع كاملة: متر لكل ثانية تربيع. الكيلوجرام في متر لكل ثانية تربيع يساوي نيوتن. كتابة kg·m/s ناقص فيها التربيع، فالوحدة غلط رغم إن الرقم صح."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "No. The net force is 12 kg·m/s² = 12 N; the second must be squared.\nالأربعة في التلاتة يدونا اتناشر، لكن لازم ننقل وحدة التسارع كاملة: متر لكل ثانية تربيع. الكيلوجرام في متر لكل ثانية تربيع يساوي نيوتن. كتابة kg·m/s ناقص فيها التربيع، فالوحدة غلط رغم إن الرقم صح.",
+      "units": [
+        {
+          "id": "EN",
+          "text": "No. The net force is 12 kg·m/s² = 12 N; the second must be squared.",
+          "occurrence": 1,
+          "visualIntent": "بعد submit فقط، ابدأ إظهار model answer الإنجليزي."
+        },
+        {
+          "id": "AR",
+          "text": "الأربعة في التلاتة يدونا اتناشر، لكن لازم ننقل وحدة التسارع كاملة: متر لكل ثانية تربيع. الكيلوجرام في متر لكل ثانية تربيع يساوي نيوتن. كتابة kg·m/s ناقص فيها التربيع، فالوحدة غلط رغم إن الرقم صح.",
+          "occurrence": 1,
+          "visualIntent": "بعد بداية النطق العربي، أظهر التعليل تدريجيًا؛ لا يظهر أثناء المحاولة."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "EN",
+        "arabic": "AR"
+      },
+      "visual": {
+        "renderer": "statics-concept-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "mode": "question",
+          "topic": "Feedback — سؤال مستقل 1 — الأبعاد ووحدة القوة",
+          "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+          "primaryUnitId": "EN",
+          "questionMode": true,
+          "feedbackOnly": true
+        },
+        "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+        "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+      }
+    }
+  }
+}

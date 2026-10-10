@@ -1,0 +1,99 @@
+{
+  "id": "S12",
+  "title": "تقييم 3: Newton III",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed p.4; PDF scan p.10 — original authored learner checkpoint, not a printed exercise"
+    }
+  ],
+  "narration": {
+    "id": "N12",
+    "role": "question",
+    "script": "A runner pushes backward on the ground, and the ground pushes forward on the runner. Are these an action–reaction pair? Do they cancel when analyzing only the runner?\nعدّاء بيدفع الأرض لورا، والأرض بتدفعه لقدام. هل ده فعل ورد فعل؟ وهل القوتين بيلغوا بعض لما نحل قوى العداء لوحده؟",
+    "units": [
+      {
+        "id": "EN",
+        "text": "A runner pushes backward on the ground, and the ground pushes forward on the runner. Are these an action–reaction pair? Do they cancel when analyzing only the runner?",
+        "occurrence": 1,
+        "visualIntent": "أظهر السؤال بالإنجليزية من أول كلمة منطوقة؛ لا تسرّب أي إجابة."
+      },
+      {
+        "id": "AR",
+        "text": "عدّاء بيدفع الأرض لورا، والأرض بتدفعه لقدام. هل ده فعل ورد فعل؟ وهل القوتين بيلغوا بعض لما نحل قوى العداء لوحده؟",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي فقط عند بداية نطقه مع بقاء السؤال الإنجليزي."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "question",
+      "topic": "سؤال مستقل 3 — Newton III",
+      "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+      "primaryUnitId": "EN",
+      "questionMode": true
+    },
+    "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+    "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+  },
+  "question": {
+    "id": "Q03",
+    "english": "A runner pushes backward on the ground, and the ground pushes forward on the runner. Are these an action–reaction pair? Do they cancel when analyzing only the runner?",
+    "arabic": "عدّاء بيدفع الأرض لورا، والأرض بتدفعه لقدام. هل ده فعل ورد فعل؟ وهل القوتين بيلغوا بعض لما نحل قوى العداء لوحده؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "EN",
+      "arabic": "AR"
+    },
+    "writtenLabel": "اكتب إجابتك بالإنجليزي ثم أرسلها",
+    "writtenPlaceholder": "Your answer…",
+    "answer": {
+      "english": "Yes, they are an action–reaction pair, but they act on different bodies and do not cancel in the force balance of the runner alone.",
+      "arabic": "قوة العداء على الأرض، وقوة الأرض على العداء. الجسمين مختلفين، فمش هتلغي قوة على الأرض مع قوة على العداء لما بتحسب محصلة القوى المؤثرة على العداء وحده.",
+      "reasoning": "قوة العداء على الأرض، وقوة الأرض على العداء. الجسمين مختلفين، فمش هتلغي قوة على الأرض مع قوة على العداء لما بتحسب محصلة القوى المؤثرة على العداء وحده."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "Yes, they are an action–reaction pair, but they act on different bodies and do not cancel in the force balance of the runner alone.\nقوة العداء على الأرض، وقوة الأرض على العداء. الجسمين مختلفين، فمش هتلغي قوة على الأرض مع قوة على العداء لما بتحسب محصلة القوى المؤثرة على العداء وحده.",
+      "units": [
+        {
+          "id": "EN",
+          "text": "Yes, they are an action–reaction pair, but they act on different bodies and do not cancel in the force balance of the runner alone.",
+          "occurrence": 1,
+          "visualIntent": "بعد submit فقط، ابدأ إظهار model answer الإنجليزي."
+        },
+        {
+          "id": "AR",
+          "text": "قوة العداء على الأرض، وقوة الأرض على العداء. الجسمين مختلفين، فمش هتلغي قوة على الأرض مع قوة على العداء لما بتحسب محصلة القوى المؤثرة على العداء وحده.",
+          "occurrence": 1,
+          "visualIntent": "بعد بداية النطق العربي، أظهر التعليل تدريجيًا؛ لا يظهر أثناء المحاولة."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "EN",
+        "arabic": "AR"
+      },
+      "visual": {
+        "renderer": "statics-concept-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "mode": "question",
+          "topic": "Feedback — سؤال مستقل 3 — Newton III",
+          "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+          "primaryUnitId": "EN",
+          "questionMode": true,
+          "feedbackOnly": true
+        },
+        "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+        "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+      }
+    }
+  }
+}

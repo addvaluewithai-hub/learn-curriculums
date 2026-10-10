@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "curriculumId": "engineering-mechanics-statics-y1",
+  "blockId": "B01",
+  "stage": "05",
+  "take": "pilot-t01",
+  "dispatchPolicy": "NEVER_SEND_WITHOUT_FRESH_EXPLICIT_PAID_APPROVAL",
+  "repository": "addvaluewithai-hub/gemini-tts",
+  "sourceOfTruth": "lesson scene narration/feedback",
+  "preparation": "payloads match tools/audio.py prepare contract; real job_for/dispatch dry-run to be checked in CI",
+  "jobs": [
+    {
+      "lessonId": "ems-y1-foundations-models",
+      "sceneId": "S02",
+      "clipId": "N02",
+      "role": "teaching",
+      "jobId": "ems-y1-foundations-models-N02-pilot-t01-0a3e351a0fd049c18efaaec0adb1b3ca",
+      "path": "curricula/engineering-mechanics-statics-y1/lessons/ems-y1-foundations-models/jobs/ems-y1-foundations-models-N02-pilot-t01-0a3e351a0fd049c18efaaec0adb1b3ca.json",
+      "scriptHash": "2e7ee7c2e1071817cb8a328867d9655541f34339044c217558da78a7bfc8d6d8",
+      "purpose": "Natural Egyptian delivery with Statics/Dynamics English terms",
+      "status": "prepared-dry-run-not-sent",
+      "paidCall": false
+    },
+    {
+      "lessonId": "ems-y1-newton-gravity",
+      "sceneId": "S13",
+      "clipId": "N13",
+      "role": "teaching",
+      "jobId": "ems-y1-newton-gravity-N13-pilot-t01-d6626610f6224727895cb2a766056a30",
+      "path": "curricula/engineering-mechanics-statics-y1/lessons/ems-y1-newton-gravity/jobs/ems-y1-newton-gravity-N13-pilot-t01-d6626610f6224727895cb2a766056a30.json",
+      "scriptHash": "c5d60f908464d031a0ab654bfed1517e7282836bfbae0ceee77a49f053a67025",
+      "purpose": "General gravitation: English law name, indices, r-squared spoken meaning",
+      "status": "prepared-dry-run-not-sent",
+      "paidCall": false
+    },
+    {
+      "lessonId": "ems-y1-newton-gravity",
+      "sceneId": "S09",
+      "clipId": "N09",
+      "role": "question",
+      "jobId": "ems-y1-newton-gravity-N09-pilot-t01-a61efc0ff62c4b5baf03f353e1bddd83",
+      "path": "curricula/engineering-mechanics-statics-y1/lessons/ems-y1-newton-gravity/jobs/ems-y1-newton-gravity-N09-pilot-t01-a61efc0ff62c4b5baf03f353e1bddd83.json",
+      "scriptHash": "53170501da4dfb994321d17d5c2ee0892e042a26a404fcd21b334e3b18c4b6bd",
+      "purpose": "Written independent question: full English + Arabic and numeric 3 kg, 12 N",
+      "status": "prepared-dry-run-not-sent",
+      "paidCall": false
+    },
+    {
+      "lessonId": "ems-y1-newton-gravity",
+      "sceneId": "S09",
+      "clipId": "F02",
+      "role": "feedback",
+      "jobId": "ems-y1-newton-gravity-F02-pilot-t01-559a668db17f4b8b9396da78ad63de2e",
+      "path": "curricula/engineering-mechanics-statics-y1/lessons/ems-y1-newton-gravity/jobs/ems-y1-newton-gravity-F02-pilot-t01-559a668db17f4b8b9396da78ad63de2e.json",
+      "scriptHash": "93250c59c2474649f5bbc227f24276a51db1d607b0537adc7201dd5172222aee",
+      "purpose": "Separate post-submit English answer + Egyptian-Arabic reasoning, units m/s²",
+      "status": "prepared-dry-run-not-sent",
+      "paidCall": false
+    },
+    {
+      "lessonId": "ems-y1-units-conversions",
+      "sceneId": "S12",
+      "clipId": "N12",
+      "role": "teaching",
+      "jobId": "ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c",
+      "path": "curricula/engineering-mechanics-statics-y1/lessons/ems-y1-units-conversions/jobs/ems-y1-units-conversions-N12-pilot-t01-7c817d1fb0624c809d0c964972b0a45c.json",
+      "scriptHash": "5066748707999200cd498a152875b726c856fb78a40a40fbab9da0ab3b1d13c0",
+      "purpose": "Spoken decimal 0.3048 and 1.524, foot-meter cancellation, SI",
+      "status": "prepared-dry-run-not-sent",
+      "paidCall": false
+    }
+  ]
+}

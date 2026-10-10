@@ -1,0 +1,99 @@
+{
+  "id": "S09",
+  "title": "تقييم 2: Newton II",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed p.3; PDF scan p.9 — original authored learner checkpoint, not a printed exercise"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "question",
+    "script": "A cart of constant mass 3 kg has a net horizontal force of 12 N. Calculate its horizontal acceleration and give the unit.\nعربية كتلتها الثابتة ثلاثة كيلوجرام، ومحصلة القوة الأفقية عليها اتناشر نيوتن. احسب التسارع الأفقي ووحدته.",
+    "units": [
+      {
+        "id": "EN",
+        "text": "A cart of constant mass 3 kg has a net horizontal force of 12 N. Calculate its horizontal acceleration and give the unit.",
+        "occurrence": 1,
+        "visualIntent": "أظهر السؤال بالإنجليزية من أول كلمة منطوقة؛ لا تسرّب أي إجابة."
+      },
+      {
+        "id": "AR",
+        "text": "عربية كتلتها الثابتة ثلاثة كيلوجرام، ومحصلة القوة الأفقية عليها اتناشر نيوتن. احسب التسارع الأفقي ووحدته.",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي فقط عند بداية نطقه مع بقاء السؤال الإنجليزي."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "question",
+      "topic": "سؤال مستقل 2 — Newton II",
+      "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+      "primaryUnitId": "EN",
+      "questionMode": true
+    },
+    "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+    "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+  },
+  "question": {
+    "id": "Q02",
+    "english": "A cart of constant mass 3 kg has a net horizontal force of 12 N. Calculate its horizontal acceleration and give the unit.",
+    "arabic": "عربية كتلتها الثابتة ثلاثة كيلوجرام، ومحصلة القوة الأفقية عليها اتناشر نيوتن. احسب التسارع الأفقي ووحدته.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "EN",
+      "arabic": "AR"
+    },
+    "writtenLabel": "اكتب إجابتك بالإنجليزي ثم أرسلها",
+    "writtenPlaceholder": "Your answer…",
+    "answer": {
+      "english": "a = ΣF/m = 12/3 = 4 m/s² in the direction of the net force.",
+      "arabic": "قسمنا المحصلة اتناشر نيوتن على الكتلة ثلاثة كيلوجرام. الناتج أربعة متر لكل ثانية تربيع، في اتجاه المحصلة. لو كتبت متر لكل ثانية تكون كتبت وحدة سرعة بدل تسارع؛ ولو استخدمت قوة فردية بدل المحصلة ممكن الحساب كله يتغير.",
+      "reasoning": "قسمنا المحصلة اتناشر نيوتن على الكتلة ثلاثة كيلوجرام. الناتج أربعة متر لكل ثانية تربيع، في اتجاه المحصلة. لو كتبت متر لكل ثانية تكون كتبت وحدة سرعة بدل تسارع؛ ولو استخدمت قوة فردية بدل المحصلة ممكن الحساب كله يتغير."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "a = ΣF/m = 12/3 = 4 m/s² in the direction of the net force.\nقسمنا المحصلة اتناشر نيوتن على الكتلة ثلاثة كيلوجرام. الناتج أربعة متر لكل ثانية تربيع، في اتجاه المحصلة. لو كتبت متر لكل ثانية تكون كتبت وحدة سرعة بدل تسارع؛ ولو استخدمت قوة فردية بدل المحصلة ممكن الحساب كله يتغير.",
+      "units": [
+        {
+          "id": "EN",
+          "text": "a = ΣF/m = 12/3 = 4 m/s² in the direction of the net force.",
+          "occurrence": 1,
+          "visualIntent": "بعد submit فقط، ابدأ إظهار model answer الإنجليزي."
+        },
+        {
+          "id": "AR",
+          "text": "قسمنا المحصلة اتناشر نيوتن على الكتلة ثلاثة كيلوجرام. الناتج أربعة متر لكل ثانية تربيع، في اتجاه المحصلة. لو كتبت متر لكل ثانية تكون كتبت وحدة سرعة بدل تسارع؛ ولو استخدمت قوة فردية بدل المحصلة ممكن الحساب كله يتغير.",
+          "occurrence": 1,
+          "visualIntent": "بعد بداية النطق العربي، أظهر التعليل تدريجيًا؛ لا يظهر أثناء المحاولة."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "EN",
+        "arabic": "AR"
+      },
+      "visual": {
+        "renderer": "statics-concept-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "mode": "question",
+          "topic": "Feedback — سؤال مستقل 2 — Newton II",
+          "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+          "primaryUnitId": "EN",
+          "questionMode": true,
+          "feedbackOnly": true
+        },
+        "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+        "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+      }
+    }
+  }
+}

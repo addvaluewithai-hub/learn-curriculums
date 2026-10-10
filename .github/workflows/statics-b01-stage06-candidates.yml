@@ -1,0 +1,52 @@
+name: B01 Stage 06 proposed word cues from verified selected audio
+
+on:
+  pull_request:
+    paths:
+      - 'tools/statics_b01_stage06_candidates.py'
+      - 'tests/test_statics_b01_stage06_candidates.py'
+      - '.github/workflows/statics-b01-stage06-candidates.yml'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  source-bound-candidates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tests -p 'test_statics_b01_stage06_candidates.py' -v
+      - name: Download original factory-selected takes from exact successful Stage 06 hydration run
+        uses: actions/download-artifact@v4
+        with:
+          name: b01-stage06-original-factory-all-69
+          run-id: 38040173233
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: .stage06-selected-takes
+      - name: Validate real Stage media, propose exact ASR word anchors and preserve factory result provenance
+        run: |
+          python3 tools/statics_b01_stage06_candidates.py \
+            --artifact-dir .stage06-selected-takes \
+            --output "$RUNNER_TEMP/b01-stage06-candidate-cues.json" \
+            --print-results-for-durable-import
+      - name: Check truthful pinned SDK lesson readiness (untimed)
+        run: |
+          python3 tools/preview.py
+          cp preview-sdk/.generated/catalog.json "$RUNNER_TEMP/b01-stage06-preview-catalog.json"
+      - name: Retain cue proposals and preview blockers (NOT approved timing)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: b01-stage06-cue-proposals-unreviewed
+          path: |
+            ${{ runner.temp }}/b01-stage06-candidate-cues.json
+            ${{ runner.temp }}/b01-stage06-preview-catalog.json
+          retention-days: 30
+          if-no-files-found: warn

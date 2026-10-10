@@ -1,0 +1,99 @@
+{
+  "id": "S17",
+  "title": "تقييم 4: Rigid Body and Concentrated Force",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed pp.2–3; PDF scan pp.8–9 — original authored learner checkpoint, not a printed exercise"
+    }
+  ],
+  "narration": {
+    "id": "N17",
+    "role": "question",
+    "script": "A long steel bracket is analyzed while neglecting its deformation. A bolt presses on a tiny region compared with the bracket size. Choose a suitable body model and a possible idealization of the bolt load for overall analysis. State the condition.\nحامل معدني طويل وهنهمل تشوهه، ومسمار بيضغط عليه في مساحة صغيرة مقارنة بالحامل. نختار نموذج إيه للجسم؟ وممكن نمثل حمل المسمار إزاي في التحليل الكلي؟ وايه الشرط؟",
+    "units": [
+      {
+        "id": "EN",
+        "text": "A long steel bracket is analyzed while neglecting its deformation. A bolt presses on a tiny region compared with the bracket size. Choose a suitable body model and a possible idealization of the bolt load for overall analysis. State the condition.",
+        "occurrence": 1,
+        "visualIntent": "أظهر السؤال بالإنجليزية من أول كلمة منطوقة؛ لا تسرّب أي إجابة."
+      },
+      {
+        "id": "AR",
+        "text": "حامل معدني طويل وهنهمل تشوهه، ومسمار بيضغط عليه في مساحة صغيرة مقارنة بالحامل. نختار نموذج إيه للجسم؟ وممكن نمثل حمل المسمار إزاي في التحليل الكلي؟ وايه الشرط؟",
+        "occurrence": 1,
+        "visualIntent": "أظهر الدعم العربي فقط عند بداية نطقه مع بقاء السؤال الإنجليزي."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "question",
+      "topic": "سؤال مستقل 4 — Rigid Body and Concentrated Force",
+      "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+      "primaryUnitId": "EN",
+      "questionMode": true
+    },
+    "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+    "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+  },
+  "question": {
+    "id": "Q04",
+    "english": "A long steel bracket is analyzed while neglecting its deformation. A bolt presses on a tiny region compared with the bracket size. Choose a suitable body model and a possible idealization of the bolt load for overall analysis. State the condition.",
+    "arabic": "حامل معدني طويل وهنهمل تشوهه، ومسمار بيضغط عليه في مساحة صغيرة مقارنة بالحامل. نختار نموذج إيه للجسم؟ وممكن نمثل حمل المسمار إزاي في التحليل الكلي؟ وايه الشرط؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "EN",
+      "arabic": "AR"
+    },
+    "writtenLabel": "اكتب إجابتك بالإنجليزي ثم أرسلها",
+    "writtenPlaceholder": "Your answer…",
+    "answer": {
+      "english": "Use a rigid-body model for the bracket. Represent the bolt load as a concentrated force if the contact distribution is unimportant for the required overall result.",
+      "arabic": "الحامل جسم جاسئ لأن أبعاده موجودة وإحنا بس بنهمل تشوهه. حمل المسمار ممكن يبقى قوة مركزة، بشرط إن توزيع الضغط على مساحة التلامس مش مؤثر في النتيجة اللي بندور عليها. لو السؤال عن الضغط عند المسمار، يبقى لازم نموذج أدق للحمل.",
+      "reasoning": "الحامل جسم جاسئ لأن أبعاده موجودة وإحنا بس بنهمل تشوهه. حمل المسمار ممكن يبقى قوة مركزة، بشرط إن توزيع الضغط على مساحة التلامس مش مؤثر في النتيجة اللي بندور عليها. لو السؤال عن الضغط عند المسمار، يبقى لازم نموذج أدق للحمل."
+    },
+    "feedback": {
+      "id": "F04",
+      "role": "feedback",
+      "script": "Use a rigid-body model for the bracket. Represent the bolt load as a concentrated force if the contact distribution is unimportant for the required overall result.\nالحامل جسم جاسئ لأن أبعاده موجودة وإحنا بس بنهمل تشوهه. حمل المسمار ممكن يبقى قوة مركزة، بشرط إن توزيع الضغط على مساحة التلامس مش مؤثر في النتيجة اللي بندور عليها. لو السؤال عن الضغط عند المسمار، يبقى لازم نموذج أدق للحمل.",
+      "units": [
+        {
+          "id": "EN",
+          "text": "Use a rigid-body model for the bracket. Represent the bolt load as a concentrated force if the contact distribution is unimportant for the required overall result.",
+          "occurrence": 1,
+          "visualIntent": "بعد submit فقط، ابدأ إظهار model answer الإنجليزي."
+        },
+        {
+          "id": "AR",
+          "text": "الحامل جسم جاسئ لأن أبعاده موجودة وإحنا بس بنهمل تشوهه. حمل المسمار ممكن يبقى قوة مركزة، بشرط إن توزيع الضغط على مساحة التلامس مش مؤثر في النتيجة اللي بندور عليها. لو السؤال عن الضغط عند المسمار، يبقى لازم نموذج أدق للحمل.",
+          "occurrence": 1,
+          "visualIntent": "بعد بداية النطق العربي، أظهر التعليل تدريجيًا؛ لا يظهر أثناء المحاولة."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "EN",
+        "arabic": "AR"
+      },
+      "visual": {
+        "renderer": "statics-concept-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "mode": "question",
+          "topic": "Feedback — سؤال مستقل 4 — Rigid Body and Concentrated Force",
+          "focus": "فكر واكتب إجابتك قبل رؤية التصحيح",
+          "primaryUnitId": "EN",
+          "questionMode": true,
+          "feedbackOnly": true
+        },
+        "landscape": "16:9: احتفظ برسم المسألة المحايد على اليسار، وأظهر صياغة الإنجليزي بسطرين أو أكثر على اليمين عند نطقها، ثم الدعم العربي عند بدايته؛ بعد اكتمال القراءة يظهر حقل إجابة written فقط. لا تُعرض قيمة أو نتيجة الإجابة.",
+        "portrait": "9:16 على 320px+: رسم محايد بسيط أعلى اللوحة، الإنجليزي كسطور قابلة للالتفاف بخط واضح ثم شرح عربي تحته، مساحة كتابة مرئية أسفل السؤال. لا إجابة ولا تلميح حاسم قبل submit."
+      }
+    }
+  }
+}

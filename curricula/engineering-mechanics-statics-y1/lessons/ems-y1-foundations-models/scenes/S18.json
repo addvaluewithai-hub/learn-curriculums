@@ -1,0 +1,47 @@
+{
+  "id": "S18",
+  "title": "الخاتمة — 1",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed pp.2–3; PDF scan pp.8–9 — authored recap of referenced chapter concepts"
+    }
+  ],
+  "narration": {
+    "id": "N18",
+    "role": "teaching",
+    "script": "خلّينا نربط كل اللي اتعلمناه. في Engineering Mechanics ما بنبدأش بالحساب؛ بنبدأ بتحديد الجسم ونوع السؤال. فرّقنا بين Statics وDynamics، واتعرفنا على Length وTime وMass وForce، وفهمنا إن القوة مش مقدار بس. وبعدها جرّبنا نختار Particle وRigid Body وConcentrated Force على حسب المطلوب من التحليل. الدرس الجاي هنفهم قوانين نيوتن اللي بتربط محصلة القوى بتغيّر الحركة، وبعدها هنوصل للفرق بين كتلة الجسم ووزنه.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلّينا نربط كل اللي اتعلمناه.",
+        "occurrence": 1,
+        "visualIntent": "عند بدء الفكرة، كشف العنصر الأول في الرسم وتثبيت المصطلح."
+      },
+      {
+        "id": "U02",
+        "text": "Concentrated Force",
+        "occurrence": 1,
+        "visualIntent": "اربط المصطلح/القانون المرئي باللفظ المنطوق؛ لا تظهر الخلاصة قبل هذه اللحظة."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "particle",
+      "topic": "الخاتمة",
+      "focus": "جسم حقيقي → Particle (عند إهمال الحجم والدوران)",
+      "primaryUnitId": "U01",
+      "questionMode": false
+    },
+    "landscape": "16:9: رسم/علاقة هندسية كبيرة تخص «جسم حقيقي → Particle (عند إهمال الحجم والدوران)» في الجانب الأيسر، ولوحة فكرة مختصرة على اليمين. إبقاء الخلفية محايدة ثم كشف التوضيح على cue U01، بدون لصق نص السرد كله.",
+    "portrait": "9:16 مستقل: «جسم حقيقي → Particle (عند إهمال الحجم والدوران)» كمخطط رأسي في النصف العلوي، المصطلح الرئيسي تحت الرسم بخط مناسب للموبايل، وهوامش كبيرة ومساحة آمنة على 320px. كشف تدريجي عند cue U01، لا تصغير نسخة الديسكتوب."
+  }
+}

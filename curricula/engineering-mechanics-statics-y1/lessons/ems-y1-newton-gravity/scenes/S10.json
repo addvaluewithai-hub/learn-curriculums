@@ -1,0 +1,45 @@
+{
+  "id": "S10",
+  "title": "الجزء الثالث — الفعل ورد الفعل على جسمين — 1",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "statics-scan-2026-10-08",
+      "locator": "Chapter 1, printed p.4; PDF scan p.10 — source-grounded explanation with authored analogies"
+    }
+  ],
+  "narration": {
+    "id": "N10",
+    "role": "teaching",
+    "script": "القانون الثالث، Newton’s Third Law، فكرته Action and Reaction. لو جسم A أثر بقوة على جسم B، الجسم B بيؤثر في نفس الوقت بقوة مساوية في المقدار ومضادة في الاتجاه على الجسم A. اللي لازم تركز فيه هنا إن كل قوة واقعة على جسم مختلف.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "القانون الثالث، Newton’s Third Law،",
+        "occurrence": 1,
+        "visualIntent": "عند بدء الفكرة، كشف العنصر الأول في الرسم وتثبيت المصطلح."
+      },
+      {
+        "id": "U02",
+        "text": "Action and Reaction",
+        "occurrence": 1,
+        "visualIntent": "اربط المصطلح/القانون المرئي باللفظ المنطوق؛ لا تظهر الخلاصة قبل هذه اللحظة."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "statics-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "mode": "interaction",
+      "topic": "الجزء الثالث — الفعل ورد الفعل على جسمين",
+      "focus": "A ↔ B: سهم على كل جسم، لا تلغيهما على جسم واحد",
+      "primaryUnitId": "U01",
+      "questionMode": false
+    },
+    "landscape": "16:9: رسم/علاقة هندسية كبيرة تخص «A ↔ B: سهم على كل جسم، لا تلغيهما على جسم واحد» في الجانب الأيسر، ولوحة فكرة مختصرة على اليمين. إبقاء الخلفية محايدة ثم كشف التوضيح على cue U01، بدون لصق نص السرد كله.",
+    "portrait": "9:16 مستقل: «A ↔ B: سهم على كل جسم، لا تلغيهما على جسم واحد» كمخطط رأسي في النصف العلوي، المصطلح الرئيسي تحت الرسم بخط مناسب للموبايل، وهوامش كبيرة ومساحة آمنة على 320px. كشف تدريجي عند cue U01، لا تصغير نسخة الديسكتوب."
+  }
+}

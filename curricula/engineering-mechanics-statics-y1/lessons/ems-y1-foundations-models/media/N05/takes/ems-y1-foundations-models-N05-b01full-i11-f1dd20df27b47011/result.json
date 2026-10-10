@@ -1,0 +1,64 @@
+{
+  "id": "ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011",
+  "status": "completed",
+  "created_at": "2026-10-10T08:02:05.514Z",
+  "model": "gemini-3.8-flash-tts",
+  "routing": "quality",
+  "key_slot": 5,
+  "format": "wav",
+  "mime_type": "audio/wav",
+  "sample_rate": 24000,
+  "bytes": 468834,
+  "audio_url": "https://res.cloudinary.com/as9o12al/video/upload/v1791619323/gemini-tts/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011.wav",
+  "transcript_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619324/gemini-tts/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011.transcript.json",
+  "vtt_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619325/gemini-tts/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011.transcript.vtt",
+  "transcript": {
+    "status": "completed",
+    "provider": "gemini",
+    "model": "gemini-3.5-transcribe",
+    "key_slot": 1,
+    "word_count": 19,
+    "duration_ms": 9200,
+    "diarization": false,
+    "failed_attempts": [],
+    "local_json": "out/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011.transcript.json",
+    "local_vtt": "out/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011.transcript.vtt"
+  },
+  "cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/video/upload/v1791619323/gemini-tts/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011.wav",
+    "public_id": "gemini-tts/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011",
+    "asset_id": "135014173d6160268d7d2b1929f84c81",
+    "resource_type": "video",
+    "bytes": 462798,
+    "format": "wav",
+    "duration": 9.64
+  },
+  "transcript_cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619324/gemini-tts/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011.transcript.json",
+    "public_id": "gemini-tts/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011.transcript.json",
+    "asset_id": "2af9e4677cab23673b2c2b388273be2e",
+    "resource_type": "raw",
+    "bytes": 2673,
+    "format": null,
+    "duration": null
+  },
+  "vtt_cloudinary": {
+    "secure_url": "https://res.cloudinary.com/as9o12al/raw/upload/v1791619325/gemini-tts/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011.transcript.vtt",
+    "public_id": "gemini-tts/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011.transcript.vtt",
+    "asset_id": "610631faac4fcecfe29a23ea2306944c",
+    "resource_type": "raw",
+    "bytes": 238,
+    "format": null,
+    "duration": null
+  },
+  "local_file": "out/ems-y1-foundations-models-N05-b01full-i11-f1dd20df27b47011.wav",
+  "attempts_before_success": 0,
+  "failed_attempts": [],
+  "metadata": {
+    "clipId": "N05",
+    "curriculumId": "engineering-mechanics-statics-y1",
+    "lessonId": "ems-y1-foundations-models",
+    "role": "question",
+    "scriptHash": "f1dd20df27b47011696fa21a9e8c6882b67a7c810036a0fc59ae711e4184acc8"
+  }
+}
