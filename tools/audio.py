@@ -116,8 +116,23 @@ def collect(root, job_path, result_path, audio_path=None, transcript_path=None, 
             require(previous == receipt or select_new, "Different take already selected; use --select-new-take deliberately")
         target = safe_path(base, f"takes/{job_id}")
         if target.exists():
+            # A fresh public checkout intentionally contains original result.json
+            # and the selected receipt, but no large WAV or ASR bytes.
+            # Complete missing cache files without changing an existing take.
             for file in incoming.iterdir():
-                require((target / file.name).read_bytes() == file.read_bytes(), "Same job ID has different bytes; immutable take collision")
+                stored = target / file.name
+                if stored.is_file():
+                    if file.name == "result.json":
+                        require(read_json(stored) == read_json(file),
+                                "Same job ID has different result values; immutable take collision")
+                    else:
+                        require(stored.read_bytes() == file.read_bytes(),
+                                "Same job ID has different media bytes; immutable take collision")
+                else:
+                    require(not stored.exists() and file.name in
+                            {"audio.wav", "transcript.json", "verification.json"},
+                            "Unexpected missing factory take file")
+                    shutil.copyfile(file, stored)
         else:
             target.parent.mkdir(parents=True, exist_ok=True)
             os.rename(incoming, target)
