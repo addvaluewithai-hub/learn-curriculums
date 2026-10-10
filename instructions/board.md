@@ -7,6 +7,8 @@ Generate any continuous reading copy from canonical scenes rather than editing i
 One main visual and gradual disclosure; never all conclusions at frame zero or walls of tiny text.
 Keep necessary neutral context; do not render filler literally.
 Semantic units link a spoken idea and occurrence-qualified phrase to a visible change.
+After audio delivery, use [AI-authored timing](timing.md): read actual timestamped words
+and write the semantic cue decisions directly. Text matching is only an optional search aid.
 Storyboard 16:9 and 9:16 independently; rearrange portrait rather than shrinking everything.
 Account for 320px screens, long English questions, Arabic support and reduced motion.
 Font/loading/bounds checks require later actual rendering; a written storyboard is not proof.

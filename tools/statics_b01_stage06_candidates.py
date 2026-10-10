@@ -91,8 +91,9 @@ def propose(clip,receipt,transcript):
             "occurrence":occurrence,"matches":len(found) if strict else len(normal),
             "candidateStatus":("asr-exact-candidate-unreviewed" if strict else
                 "asr-orthographic-candidate-unreviewed" if whole else
-                "needs-human-alignment"),
-            "requiresHumanReview":True
+                "needs-author-alignment"),
+            "requiresAuthorDecision":True,
+            "requiresHumanReview":False
         }
         if whole:
             first,last=(found if strict else normal)[occurrence-1]
@@ -185,7 +186,7 @@ def report(root=ROOT,artifact_dir=None,log_original_results=False):
             "asrExactCandidateCount":matched,"orthographicWholePhraseCount":orthographic,
             "partialFragmentSearchCount":hints,
             "noASRSearchEvidenceCount":total_units-matched-orthographic-hints,
-            "humanAlignmentNeeded":total_units-matched-orthographic,
+            "authorAlignmentNeeded":total_units-matched-orthographic,
             "method":"ASR-word-span-and-search-evidence-NOT-REVIEWED",
             "timingJsonProduced":False,"humanTimingApproved":False,
             "publicationApproved":False,"clips":output}
@@ -201,5 +202,5 @@ if __name__=="__main__":
     print(json.dumps({k:result[k] for k in ("clipCount","unitCount",
         "asrExactCandidateCount","orthographicWholePhraseCount",
         "partialFragmentSearchCount","noASRSearchEvidenceCount",
-        "humanAlignmentNeeded","timingJsonProduced",
+        "authorAlignmentNeeded","timingJsonProduced",
         "humanTimingApproved")},ensure_ascii=False))

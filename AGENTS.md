@@ -11,6 +11,7 @@
 - After decomposition, scene narration and feedback are canonical; do not independently edit a duplicate master script.
 - Validate script stage and review a bilingual/value pilot before batch synthesis within authorized scope.
 - Accepted is not delivery; structural success is not listening review.
+- Follow `instructions/timing.md`: the AI authors semantic cues from delivered word timestamps and visual meaning. No exact ASR phrase-match gate or mandatory per-cue human approval; keep ordinary technical checks and actual preview review.
 - Use the pinned shared SDK in preview-sdk; read its README. Do not scaffold another player or infer runtime acceptance from a build.
 - Put bespoke React/Remotion components under the lesson scenes folder; no fixed component menu restriction.
 - Later keep preview SDK integration independent; never copy DB/auth/student persistence into it.

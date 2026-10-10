@@ -98,7 +98,7 @@ class AudioTests(ProductionCase):
         with self.assertRaisesRegex(ValueError, "Transcript changed"):
             check_receipt(self.folder, self.teaching["narration"])
 
-    def test_timed_anchors_fail_on_wrong_phrase_or_timestamp(self):
+    def test_timed_anchors_fail_on_invalid_word_range_or_timestamp(self):
         job = self.job()
         self.collect_job(job)
         receipt = read_json(self.folder / "media/N01/receipt.json")
@@ -113,9 +113,9 @@ class AudioTests(ProductionCase):
         write_json(path, timing)
         with self.assertRaisesRegex(ValueError, "first spoken word"):
             check_timing(self.folder, self.teaching["narration"])
-        timing["cues"][0].update(atMs=0, wordEnd=3)
+        timing["cues"][0].update(atMs=0, wordEnd=999)
         write_json(path, timing)
-        with self.assertRaisesRegex(ValueError, "do not match"):
+        with self.assertRaisesRegex(ValueError, "word range"):
             check_timing(self.folder, self.teaching["narration"])
 
     def test_same_job_cannot_replace_served_bytes(self):

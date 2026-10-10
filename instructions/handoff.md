@@ -10,6 +10,9 @@ Defaults are untested. Passed means real reviewer/evidence tied to current sourc
 Hash binds course policy/source files and lesson inputs; input edits invalidate review conservatively.
 Changes to existing scripts after accepted audio require an explicit rework plan: preserve previous takes/IDs and revalidate affected reviews, clip hashes, timing and export; don't silently move recorded speech between lessons.
 Never fill faithful/approved/passed to satisfy a checker. Runtime stays untested until actual playback review.
+Semantic cue authoring follows [timing.md](timing.md): author/reason metadata records AI decisions,
+not independent human review. It can prepare a preview without marking review.json passed.
+Do not require a person to approve every timestamp before the AI finishes this task.
 Bind runtime evidence to the exact SDK version/artifact hash as described in preview-sdk/README.md.
 Reconsider the relevant reviews after source, language-policy or script edits; audio changes also invalidate bound timing/listening evidence.
 

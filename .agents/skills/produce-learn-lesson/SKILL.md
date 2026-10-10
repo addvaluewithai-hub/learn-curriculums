@@ -32,7 +32,11 @@ Keep data and custom React/Remotion code inside the lesson folder.
 Do not clone a player, create a temporary platform or install a guessed SDK.
 Read [shared preview](../../../preview-sdk/README.md) before implementing components or reviewing playback.
 Default-export components accepting the public SDK VisualProps; keep them inside the lesson.
-Add full English/Arabic question and answer units with reviewed anchors; never estimate missing timings.
+Read [AI-authored timing](../../../instructions/timing.md) when recordings are delivered.
+Read the real timestamped words and scene intentions; author `semantic-word-anchors` timing.json directly.
+Choose meaning and occurrence using context, including English/Arabic transliteration differences.
+Do not use a text-search generator as the director or wait for human approval of each cue.
+Add full English/Arabic question and answer units with evidence-bound onsets; never estimate missing timings.
 At the authorized late-stage gate only, run the shared preview after timed validation and module completion; never skip a human stop gate because the SDK is installed.
 
 Read [audio](../../../instructions/audio.md) before calls or delivery imports. Audio pilot is Stage 05 or later and paid dispatch still requires explicit scope/cost authorization beyond `next`.
@@ -40,7 +44,7 @@ Use the existing asynchronous gemini-tts factory; accepted/queued is not complet
 Validate a representative bilingual/value pilot before expanding a batch; use unique job IDs per take.
 Reuse correct recordings for visual edits; verify served bytes, actual WAV duration and word timestamps.
 Review actual speech/critical English/values separately; missing ASR does not prove silence.
-Bind cues to audio/script/transcript hashes and occurrence-qualified timed evidence.
+Bind cues to audio/script/transcript hashes and the actual chosen word-start evidence; explain each semantic decision.
 Never estimate timestamps from word counts or spread the script evenly.
 
 Run draft/script/media/timed checks appropriate to the actual stage.

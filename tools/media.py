@@ -1,4 +1,5 @@
 """Verify accepted WAV receipts and evidence-bound visual cue anchors."""
+import math
 import re
 from common import read_json, require, safe_path, sha256
 from verify_delivery import verify
@@ -34,10 +35,16 @@ def check_timing(folder, clip):
     require(timing.get("audioHash") == receipt["audioHash"] and timing.get("scriptHash") == receipt["scriptHash"],
             "Stale cue bindings")
     require(timing.get("transcriptHash") == transcript_hash, "Cues reference a different transcript")
-    require(timing.get("method") in {"word-anchors-reviewed", "multi-pass-reviewed"}, "Unsupported cue method")
-    require(timing.get("reviewer") and timing.get("evidence"), "Cue review evidence missing")
+    semantic = timing.get("method") == "semantic-word-anchors"
+    require(semantic or timing.get("method") in {"word-anchors-reviewed", "multi-pass-reviewed"},
+            "Unsupported cue method")
+    if semantic:
+        require(isinstance(timing.get("author"), str) and timing["author"].strip(), "Cue author missing")
+    else:
+        require(timing.get("reviewer") and timing.get("evidence"), "Cue review evidence missing")
     cues = timing.get("cues")
-    require(isinstance(cues, list), "Cue list missing")
+    require(isinstance(cues, list) and all(isinstance(c, dict) and isinstance(c.get("unitId"), str)
+                                         for c in cues), "Cue list missing or malformed")
     require(len(cues) == len({c["unitId"] for c in cues}), "Duplicate cue unit")
     require({c["unitId"] for c in cues} == {u["id"] for u in clip["units"]}, "Cue coverage incomplete")
     words = transcript["words"]
@@ -45,20 +52,12 @@ def check_timing(folder, clip):
         cue = next(c for c in cues if c["unitId"] == unit["id"])
         first, last = cue.get("wordStart"), cue.get("wordEnd")
         require(type(first) is int and type(last) is int and 0 <= first <= last < len(words), "Cue word range invalid")
+        at = cue.get("atMs")
+        require(type(at) in {int, float} and math.isfinite(at) and 0 <= at < receipt["durationMs"],
+                "Cue time outside recording")
         require(cue.get("atMs") == words[first]["start_ms"], "Cue time is not its first spoken word")
-        phrase = tokens(unit["text"])
-        require(phrase, "Semantic anchor has no word tokens")
-        require(tokens(" ".join(w["text"] for w in words[first:last + 1])) == phrase,
-                "Cue words do not match the semantic anchor; review ASR instead of guessing")
-        matches = []
-        for start in range(len(words)):
-            for end in range(start, min(start + len(phrase) + 3, len(words))):
-                candidate = tokens(" ".join(w["text"] for w in words[start:end + 1]))
-                if candidate == phrase:
-                    matches.append((start, end))
-                    break
-                if len(candidate) > len(phrase):
-                    break
-        occurrence = unit.get("occurrence", 1)
-        require(len(matches) >= occurrence and matches[occurrence - 1] == (first, last), "Wrong anchor occurrence")
+        if semantic:
+            require(isinstance(cue.get("reason"), str) and cue["reason"].strip(), "Semantic cue reason missing")
+        # The author selects meaning/occurrence using context. ASR spelling equality
+        # is neither a timing decision nor a proof of visual/educational quality.
     return timing
