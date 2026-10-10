@@ -22,7 +22,7 @@ class B02Stage01DraftGate(unittest.TestCase):
             self.assertIn("No stable lesson ID",text)
     def test_source_boundary_and_no_premature_scenes(self):
         src=(BASE/"STAGE_01_SOURCE_MAP.md").read_text(encoding="utf-8")
-        self.assertIn("pp.9–18",src)
+        self.assertIn("printed pages **9–18**",src)
         self.assertIn("§2.5",src)
         self.assertFalse((BASE/"scenes").exists())
         self.assertFalse((BASE/"lessons").exists())
