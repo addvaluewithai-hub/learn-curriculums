@@ -2,7 +2,7 @@
 
 **Updated:** 2026-10-10  
 **Block/source:** B01 (INACTIVE after human-authorized editorial handoff to B02), `abd-el-salam-math-i-scan`, printed pp. **1–20**, PDF image pp. **4–13**; printed pp. 19–20 are the source exercise bank, not copied problems.  
-**Branch and draft review:** `curriculum/engineering-math-1/stage-01-functions`, [PR #8](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8), **open, draft, not merged**. B02 is inactive.
+**Branch and draft review:** `curriculum/engineering-math-1/stage-01-functions`, [PR #8](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8), **open, draft, not merged**. **B02 is now the ACTIVE Block and has completed Stage 04**; B01 remains inactive, its issued IDs/scenes untouched.
 
 ## Human stage and real current checkpoint
 
@@ -28,4 +28,4 @@
 
 - The user expressly selected **`next block`** after Stage 04. **B02** was activated for **its own Stage 01** only. B01 remains at **Stage 04 authored and script-validated**; its five scene-based scripts, 72 scenes, 15 written questions/feedback and issued stable IDs are **unchanged**.
 - **B01 audio Stage 05 deferred** — no TTS pilot, paid voice dispatch, audio receipt, word alignments, runtime playback or human academic/teaching/visual `passed` review. A curriculum moving to B02 does **not** signify acceptance/release of B01.
-- B02 scope and current human stop: `../B02/STATUS.md`. The next bare `next` refers to **active B02 Stage 02**, not B01 audio. To resume B01 audio later, user must explicitly reselect B01 and authorize the appropriate stage/cost separately.
+- B02 scope and current human stop: `../B02/STATUS.md`. The next bare `next` refers to **active B02 Stage 05 dry-run audio pilot preparation ONLY**, not B01 audio. Distinct `next block` may activate B03 Stage 01 after a B02 Stage 04 human inspection and actual source reopen. To resume B01 audio later, user must explicitly reselect B01 and authorize the appropriate stage/cost separately.
