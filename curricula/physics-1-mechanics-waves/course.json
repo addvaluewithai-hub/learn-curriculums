@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "physics-1-mechanics-waves",
+  "title": "فيزياء 1 — الميكانيكا والموجات (Physics I: Mechanics and Waves)",
+  "revision": "stage00-provisional-v1",
+  "description": "خطة تأليف مبدئية معتمدة على فهرس كتاب Physics I ومقتطفات ممسوحة من فصل المواد الصلبة والمرونة وفصل الموجات الصوتية. ليست منهجًا منشورًا أو دروسًا مكتملة.",
+  "language": {
+    "explanation": "ar-EG",
+    "exam": "en",
+    "arabicSupport": true
+  },
+  "sources": [
+    {
+      "id": "phys1-main-scan",
+      "title": "PHYSICS I — Mechanics and Waves, Dr. Ahmed Taha / Dr. Taha M. Tiama: scanned cover, contents and excerpts",
+      "access": "available",
+      "limitations": "19 scanned PDF pages only; index plus printed pages 121–149; source is not the entire textbook; future Drive permission/access must be rechecked; no file or public URL committed."
+    },
+    {
+      "id": "phys1-elasticity-closeup",
+      "title": "PHYSICS I — Elasticity close-up, printed pp. 124–125",
+      "access": "available",
+      "limitations": "One photographed spread, duplicate of pp.124–125 in the main scan; no additional chapter coverage; no file or public URL committed."
+    }
+  ],
+  "teacher": {}
+}
