@@ -1,0 +1,44 @@
+{
+  "id": "S05",
+  "title": "Teaching 5",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 1–5; PDF pp. 4–6; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "دلوقتي خلينا نجرب سؤال عن تصنيف الأعداد بعيدًا عن أمثلة الشرح. اكتب إجابتك وسبب مختصر قبل ما نفتح التفسير.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "دلوقتي خلينا نجرب سؤال عن تصنيف الأعداد بعيدًا عن أمثلة الشرح.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "اكتب إجابتك وسبب مختصر قبل ما نفتح التفسير.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-real-sets-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Classify rational and irrational real numbers",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

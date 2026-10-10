@@ -1,0 +1,92 @@
+{
+  "id": "S13",
+  "title": "Independent question A3",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 21–25; PDF 14–16; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N13",
+    "role": "question",
+    "script": "Does the relation $x^2+y^2=9$ define $y$ as a function of $x$ over the real numbers? Justify using the vertical-line test.\nهل العلاقة إكس تربيع زائد واي تربيع تساوي تسعة بتحدد واي كدالة في إكس؟ اشرح باستخدام اختبار الخط الرأسي.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Does the relation $x^2+y^2=9$ define $y$ as a function of $x$ over the real numbers? Justify using the vertical-line test.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "هل العلاقة إكس تربيع زائد واي تربيع تساوي تسعة بتحدد واي كدالة في إكس؟ اشرح باستخدام اختبار الخط الرأسي.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-domain-range-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Apply the vertical-line test to a graph",
+      "beat": "A3"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "A3",
+    "english": "Does the relation $x^2+y^2=9$ define $y$ as a function of $x$ over the real numbers? Justify using the vertical-line test.",
+    "arabic": "هل العلاقة إكس تربيع زائد واي تربيع تساوي تسعة بتحدد واي كدالة في إكس؟ اشرح باستخدام اختبار الخط الرأسي.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "No. At $x=0$, the relation has two outputs, $y=3$ and $y=-3$, so it fails the vertical-line test.",
+      "arabic": "عند إكس تساوي صفر، المعادلة بتقول واي تربيع تساوي تسعة، فواي ممكن تكون تلاتة أو سالب تلاتة. يعني نفس المدخل له نتيجتين مختلفتين، والخط الرأسي عند إكس صفر هيقابل الرسم في نقطتين. بالتالي العلاقة دي مش واي كدالة واحدة في إكس.",
+      "reasoning": "عند إكس تساوي صفر، المعادلة بتقول واي تربيع تساوي تسعة، فواي ممكن تكون تلاتة أو سالب تلاتة. يعني نفس المدخل له نتيجتين مختلفتين، والخط الرأسي عند إكس صفر هيقابل الرسم في نقطتين. بالتالي العلاقة دي مش واي كدالة واحدة في إكس."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "No. At $x=0$, the relation has two outputs, $y=3$ and $y=-3$, so it fails the vertical-line test.\nعند إكس تساوي صفر، المعادلة بتقول واي تربيع تساوي تسعة، فواي ممكن تكون تلاتة أو سالب تلاتة. يعني نفس المدخل له نتيجتين مختلفتين، والخط الرأسي عند إكس صفر هيقابل الرسم في نقطتين. بالتالي العلاقة دي مش واي كدالة واحدة في إكس.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "No. At $x=0$, the relation has two outputs, $y=3$ and $y=-3$, so it fails the vertical-line test.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "عند إكس تساوي صفر، المعادلة بتقول واي تربيع تساوي تسعة، فواي ممكن تكون تلاتة أو سالب تلاتة. يعني نفس المدخل له نتيجتين مختلفتين، والخط الرأسي عند إكس صفر هيقابل الرسم في نقطتين. بالتالي العلاقة دي مش واي كدالة واحدة في إكس.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-domain-range-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Apply the vertical-line test to a graph",
+          "beat": "A3"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

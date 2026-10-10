@@ -1,0 +1,91 @@
+{
+  "id": "S11",
+  "title": "Independent exam question 2",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 5–8, order rules pp. 1–2; PDF pp. 6–7; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N11",
+    "role": "question",
+    "script": "Solve $7-4x\\le-5$ over $\\mathbb R$ and write the result as an interval.\nحل سبعة ناقص أربعة إكس أصغر من أو يساوي سالب خمسة، واكتب الحل كفترة.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Solve $7-4x\\le-5$ over $\\mathbb R$ and write the result as an interval.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "حل سبعة ناقص أربعة إكس أصغر من أو يساوي سالب خمسة، واكتب الحل كفترة.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-intervals-linear-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Solve inequalities with negative division sign reversal",
+      "stage": 1
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-IL-Q2",
+    "english": "Solve $7-4x\\le-5$ over $\\mathbb R$ and write the result as an interval.",
+    "arabic": "حل سبعة ناقص أربعة إكس أصغر من أو يساوي سالب خمسة، واكتب الحل كفترة.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$-4x\\le-12$; $x\\ge3$; solution $[3,\\infty)$.",
+      "arabic": "نطرح سبعة من الطرفين فتكون سالب أربعة إكس أصغر من أو يساوي سالب اتناشر. القسمة على سالب أربعة تقلب الإشارة؛ فإكس أكبر من أو تساوي تلاتة. التلاتة داخل الحل، وما لا نهاية مش عدد نضمّه، لذلك القوسين مختلفين.",
+      "reasoning": "نطرح سبعة من الطرفين فتكون سالب أربعة إكس أصغر من أو يساوي سالب اتناشر. القسمة على سالب أربعة تقلب الإشارة؛ فإكس أكبر من أو تساوي تلاتة. التلاتة داخل الحل، وما لا نهاية مش عدد نضمّه، لذلك القوسين مختلفين."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "$-4x\\le-12$; $x\\ge3$; solution $[3,\\infty)$.\nنطرح سبعة من الطرفين فتكون سالب أربعة إكس أصغر من أو يساوي سالب اتناشر. القسمة على سالب أربعة تقلب الإشارة؛ فإكس أكبر من أو تساوي تلاتة. التلاتة داخل الحل، وما لا نهاية مش عدد نضمّه، لذلك القوسين مختلفين.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$-4x\\le-12$; $x\\ge3$; solution $[3,\\infty)$.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "نطرح سبعة من الطرفين فتكون سالب أربعة إكس أصغر من أو يساوي سالب اتناشر. القسمة على سالب أربعة تقلب الإشارة؛ فإكس أكبر من أو تساوي تلاتة. التلاتة داخل الحل، وما لا نهاية مش عدد نضمّه، لذلك القوسين مختلفين.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-intervals-linear-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 1
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

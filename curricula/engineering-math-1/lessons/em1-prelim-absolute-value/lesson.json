@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-prelim-absolute-value",
+  "curriculumId": "engineering-math-1",
+  "order": 3,
+  "title": "القيمة المطلقة ومعادلاتها ومتبايناتها",
+  "englishTitle": "Absolute Value Equations and Inequalities",
+  "scriptRevision": "b01-stage04-canonical-v1",
+  "prerequisites": [
+    "em1-prelim-intervals-linear",
+    "Distance on a number line"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Interpret absolute value as distance and solve two-root equations",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S14"
+      ],
+      "assessedIn": [
+        "EM1-AV-Q1"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Solve absolute-value inequalities with proper endpoints",
+      "taughtIn": [
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S14"
+      ],
+      "assessedIn": [
+        "EM1-AV-Q2"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Verify and interpret the triangle inequality",
+      "taughtIn": [
+        "S11",
+        "S12",
+        "S14"
+      ],
+      "assessedIn": [
+        "EM1-AV-Q3"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14"
+  ],
+  "glossary": []
+}

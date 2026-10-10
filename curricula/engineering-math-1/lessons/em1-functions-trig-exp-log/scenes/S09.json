@@ -1,0 +1,93 @@
+{
+  "id": "S09",
+  "title": "Independent question B4",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 30–35; PDF 18–21; printed p.34 apparent exponential source erratum; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "question",
+    "script": "Classify $f(x)=\\sin x$ and $g(x)=3^x$. For real $x$, state the domain of $f$ and the range of $g$.\nصنّف ساين إكس وتلاتة أس إكس، وبعدها اكتب مجال ساين إكس ومدى تلاتة أس إكس لما إكس عدد حقيقي.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Classify $f(x)=\\sin x$ and $g(x)=3^x$. For real $x$, state the domain of $f$ and the range of $g$.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "صنّف ساين إكس وتلاتة أس إكس، وبعدها اكتب مجال ساين إكس ومدى تلاتة أس إكس لما إكس عدد حقيقي.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-trig-exp-log-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Compare sine/cosine/tangent and domain restrictions",
+      "beat": "B4"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "B4",
+    "english": "Classify $f(x)=\\sin x$ and $g(x)=3^x$. For real $x$, state the domain of $f$ and the range of $g$.",
+    "arabic": "صنّف ساين إكس وتلاتة أس إكس، وبعدها اكتب مجال ساين إكس ومدى تلاتة أس إكس لما إكس عدد حقيقي.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$f$ is trigonometric with domain $\\mathbb R$; $g$ is exponential with range $(0,\\infty)$.",
+      "arabic": "ساين إكس دالة مثلثية وتقبل أي زاوية حقيقية بوحدة متفقة. تلاتة أس إكس دالة أسية، ومهما كانت إكس موجبة أو سالبة الناتج يفضل موجب، ومش بيساوي صفر. لذلك مدى الدالة الأسية هنا كل الأعداد الموجبة فقط. السؤال بيختبر إنك تربط العائلة بالمجال والمدى، مش الاسم وحده.",
+      "reasoning": "ساين إكس دالة مثلثية وتقبل أي زاوية حقيقية بوحدة متفقة. تلاتة أس إكس دالة أسية، ومهما كانت إكس موجبة أو سالبة الناتج يفضل موجب، ومش بيساوي صفر. لذلك مدى الدالة الأسية هنا كل الأعداد الموجبة فقط. السؤال بيختبر إنك تربط العائلة بالمجال والمدى، مش الاسم وحده."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "$f$ is trigonometric with domain $\\mathbb R$; $g$ is exponential with range $(0,\\infty)$.\nساين إكس دالة مثلثية وتقبل أي زاوية حقيقية بوحدة متفقة. تلاتة أس إكس دالة أسية، ومهما كانت إكس موجبة أو سالبة الناتج يفضل موجب، ومش بيساوي صفر. لذلك مدى الدالة الأسية هنا كل الأعداد الموجبة فقط. السؤال بيختبر إنك تربط العائلة بالمجال والمدى، مش الاسم وحده.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$f$ is trigonometric with domain $\\mathbb R$; $g$ is exponential with range $(0,\\infty)$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "ساين إكس دالة مثلثية وتقبل أي زاوية حقيقية بوحدة متفقة. تلاتة أس إكس دالة أسية، ومهما كانت إكس موجبة أو سالبة الناتج يفضل موجب، ومش بيساوي صفر. لذلك مدى الدالة الأسية هنا كل الأعداد الموجبة فقط. السؤال بيختبر إنك تربط العائلة بالمجال والمدى، مش الاسم وحده.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-trig-exp-log-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Compare sine/cosine/tangent and domain restrictions",
+          "beat": "B4"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

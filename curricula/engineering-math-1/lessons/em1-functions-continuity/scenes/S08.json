@@ -1,0 +1,49 @@
+{
+  "id": "S08",
+  "title": "Teaching concept 8",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "teaching",
+    "script": "خلينا نشوف ثقب في الرسم. افترض إن $g(x)=(x^2-1)/(x-1)$ لكل إكس ما عدا واحد. قريب من الواحد نقدر نبسطها إلى إكس زائد واحد، فالنهاية عند واحد تساوي اتنين. لكن (g(1)) نفسها مش معرفة؛ إذن الدالة غير متصلة عند واحد بسبب قيمة ناقصة. لو عرّفنا قيمة جديدة عند واحد تساوي اتنين، يبقى ممكن نصلح الثقب في الدالة المعاد تعريفها. ده نموذج اسمه removable discontinuity أو انقطاع يمكن إصلاحه بإضافة قيمة مناسبة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا نشوف ثقب في الرسم.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "لكن (g(1)) نفسها مش معرفة؛",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ده نموذج اسمه removable discontinuity أو انقطاع يمكن إصلاحه بإضافة قيمة مناسبة.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Diagnose irreparable jump discontinuities",
+      "beat": "T8"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

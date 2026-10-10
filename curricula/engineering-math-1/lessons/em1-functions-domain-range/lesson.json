@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-functions-domain-range",
+  "curriculumId": "engineering-math-1",
+  "order": 6,
+  "title": "الدالة والمجال والمدى والاختبار الرأسي",
+  "englishTitle": "Functions, Domain and Range",
+  "scriptRevision": "b02-stage04-canonical-scenes-v1",
+  "prerequisites": [
+    "B01 intervals and denominator/root restrictions",
+    "Cartesian axes brief bridge"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Determine functional uniqueness and valid real input domain",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S09",
+        "S10",
+        "S15"
+      ],
+      "assessedIn": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Distinguish actual range from stated co-domain",
+      "taughtIn": [
+        "S04",
+        "S05",
+        "S06",
+        "S09",
+        "S10",
+        "S15"
+      ],
+      "assessedIn": [
+        "A2",
+        "A4"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Apply the vertical-line test to a graph",
+      "taughtIn": [
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S15"
+      ],
+      "assessedIn": [
+        "A2",
+        "A3"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15"
+  ],
+  "glossary": []
+}

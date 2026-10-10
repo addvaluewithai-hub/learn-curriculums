@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-functions-trig-exp-log",
+  "curriculumId": "engineering-math-1",
+  "order": 8,
+  "title": "الدوال المثلثية والأسية واللوغاريتمية",
+  "englishTitle": "Trigonometric, Exponential and Logarithmic Functions",
+  "scriptRevision": "b02-stage04-canonical-scenes-v1",
+  "prerequisites": [
+    "em1-functions-algebraic-graphs",
+    "Radians/unit-circle spoken bridge"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Compare sine/cosine/tangent and domain restrictions",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S08",
+        "S10",
+        "S12"
+      ],
+      "assessedIn": [
+        "B4",
+        "B5"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Determine exponential and logarithmic domain/range conditions",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S08",
+        "S12"
+      ],
+      "assessedIn": [
+        "B2",
+        "B4"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12"
+  ],
+  "glossary": []
+}

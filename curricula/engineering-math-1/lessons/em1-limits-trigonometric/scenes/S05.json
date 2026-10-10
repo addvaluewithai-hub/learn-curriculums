@@ -1,0 +1,92 @@
+{
+  "id": "S05",
+  "title": "Independent question D2",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 44–46; PDF 25–27; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "question",
+    "script": "In radians, find $\\lim_{x\\to0}\\sin(5x)/(2x)$.\nبالراديان، احسب نهاية ساين خمسة إكس على اتنين إكس لما إكس تقرب من صفر.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "In radians, find $\\lim_{x\\to0}\\sin(5x)/(2x)$.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "بالراديان، احسب نهاية ساين خمسة إكس على اتنين إكس لما إكس تقرب من صفر.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-trigonometric-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Scale sine fundamental limits correctly in radians",
+      "beat": "D2"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "D2",
+    "english": "In radians, find $\\lim_{x\\to0}\\sin(5x)/(2x)$.",
+    "arabic": "بالراديان، احسب نهاية ساين خمسة إكس على اتنين إكس لما إكس تقرب من صفر.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "The limit is $\\frac52$.",
+      "arabic": "نخلي الكسر فيه ساين خمسة إكس على خمسة إكس، ونطلع معامل خمسة على اتنين بره. النهاية الأساسية جوه بتساوي واحد لما إكس تقرب من صفر بالراديان، فيبقى الجواب خمسة على اتنين. كتابة الوحدة مش تفصيلة زائدة هنا.",
+      "reasoning": "نخلي الكسر فيه ساين خمسة إكس على خمسة إكس، ونطلع معامل خمسة على اتنين بره. النهاية الأساسية جوه بتساوي واحد لما إكس تقرب من صفر بالراديان، فيبقى الجواب خمسة على اتنين. كتابة الوحدة مش تفصيلة زائدة هنا."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "The limit is $\\frac52$.\nنخلي الكسر فيه ساين خمسة إكس على خمسة إكس، ونطلع معامل خمسة على اتنين بره. النهاية الأساسية جوه بتساوي واحد لما إكس تقرب من صفر بالراديان، فيبقى الجواب خمسة على اتنين. كتابة الوحدة مش تفصيلة زائدة هنا.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "The limit is $\\frac52$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "نخلي الكسر فيه ساين خمسة إكس على خمسة إكس، ونطلع معامل خمسة على اتنين بره. النهاية الأساسية جوه بتساوي واحد لما إكس تقرب من صفر بالراديان، فيبقى الجواب خمسة على اتنين. كتابة الوحدة مش تفصيلة زائدة هنا.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-limits-trigonometric-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Scale sine fundamental limits correctly in radians",
+          "beat": "D2"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

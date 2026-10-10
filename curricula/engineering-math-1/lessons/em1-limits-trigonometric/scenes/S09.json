@@ -1,0 +1,92 @@
+{
+  "id": "S09",
+  "title": "Independent question D5",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 44–46; PDF 25–27; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "question",
+    "script": "In radians, evaluate $\\lim_{x\\to0}\\frac{\\tan(6x)}{5x}$. State which basic limit law you use.\nبالراديان، احسب نهاية تان ستة إكس على خمسة إكس عند الصفر، واذكر قانون النهاية الأساسي اللي استخدمته.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "In radians, evaluate $\\lim_{x\\to0}\\frac{\\tan(6x)}{5x}$. State which basic limit law you use.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "بالراديان، احسب نهاية تان ستة إكس على خمسة إكس عند الصفر، واذكر قانون النهاية الأساسي اللي استخدمته.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-trigonometric-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Derive and apply tangent fundamental limit",
+      "beat": "D5"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "D5",
+    "english": "In radians, evaluate $\\lim_{x\\to0}\\frac{\\tan(6x)}{5x}$. State which basic limit law you use.",
+    "arabic": "بالراديان، احسب نهاية تان ستة إكس على خمسة إكس عند الصفر، واذكر قانون النهاية الأساسي اللي استخدمته.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$\\frac65$, since $\\frac{\\tan(6x)}{5x}=\\frac65\\,\\frac{\\tan(6x)}{6x}\\to\\frac65$ in radians.",
+      "arabic": "عشان المقام يبقى نفس الزاوية اللي جوه التان، نضرب في ستة على ستة بشكل صحيح ونطلع ستة على خمسة بره. الجزء تان ستة إكس على ستة إكس نهايته واحد بالراديان. إذن النتيجة ستة على خمسة، بشرط إننا بنقرب بصفر من قيم غير صفر وداخل مجال التان.",
+      "reasoning": "عشان المقام يبقى نفس الزاوية اللي جوه التان، نضرب في ستة على ستة بشكل صحيح ونطلع ستة على خمسة بره. الجزء تان ستة إكس على ستة إكس نهايته واحد بالراديان. إذن النتيجة ستة على خمسة، بشرط إننا بنقرب بصفر من قيم غير صفر وداخل مجال التان."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "$\\frac65$, since $\\frac{\\tan(6x)}{5x}=\\frac65\\,\\frac{\\tan(6x)}{6x}\\to\\frac65$ in radians.\nعشان المقام يبقى نفس الزاوية اللي جوه التان، نضرب في ستة على ستة بشكل صحيح ونطلع ستة على خمسة بره. الجزء تان ستة إكس على ستة إكس نهايته واحد بالراديان. إذن النتيجة ستة على خمسة، بشرط إننا بنقرب بصفر من قيم غير صفر وداخل مجال التان.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$\\frac65$, since $\\frac{\\tan(6x)}{5x}=\\frac65\\,\\frac{\\tan(6x)}{6x}\\to\\frac65$ in radians.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "عشان المقام يبقى نفس الزاوية اللي جوه التان، نضرب في ستة على ستة بشكل صحيح ونطلع ستة على خمسة بره. الجزء تان ستة إكس على ستة إكس نهايته واحد بالراديان. إذن النتيجة ستة على خمسة، بشرط إننا بنقرب بصفر من قيم غير صفر وداخل مجال التان.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-limits-trigonometric-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Derive and apply tangent fundamental limit",
+          "beat": "D5"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

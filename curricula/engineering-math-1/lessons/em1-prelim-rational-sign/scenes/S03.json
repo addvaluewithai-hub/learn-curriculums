@@ -1,0 +1,49 @@
+{
+  "id": "S03",
+  "title": "Teaching 3",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "نجرب سالب اتنين في المنطقة الأولى: البسط سالب والمقام سالب، فالكسر موجب، وبالتالي مش مناسب للشرط أصغر من أو يساوي صفر. نجرب صفر في المنطقة الوسطى: البسط موجب والمقام سالب، فالكسر سالب، وده مناسب. ونجرب تلاتة بعد اتنين: البسط والمقام موجبان، فالناتج موجب، ومش مناسب. عند سالب واحد البسط صفر والمقام مش صفر، فالكسر صفر؛ السؤال يسمح بالمساواة، فنضم سالب واحد. أما اتنين فالمقام صفر، فنستبعدها. إذن الحل $[-1,2)$.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "نجرب سالب اتنين في المنطقة الأولى: البسط سالب والمقام سالب،",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "ومش مناسب.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "إذن الحل $[-1,2)$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the final relation when this clause is heard"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve rational inequalities and exclude zero denominators",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

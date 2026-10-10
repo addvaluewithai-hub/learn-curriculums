@@ -1,0 +1,43 @@
+{
+  "id": "S09",
+  "title": "Teaching 9",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "teaching",
+    "script": "السؤال اللي جاي هيقيس النقطة دي بأرقام مختلفة. ما تخليش بساطة التعبير بعد الاختصار تنسيك قيمة ممنوعة في الأصل.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "السؤال اللي جاي هيقيس النقطة دي بأرقام مختلفة.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "ما تخليش بساطة التعبير بعد الاختصار تنسيك قيمة ممنوعة في الأصل.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Keep cancelled-factor holes excluded",
+      "stage": 1
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

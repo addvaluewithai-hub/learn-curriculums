@@ -1,0 +1,49 @@
+{
+  "id": "S11",
+  "title": "Teaching concept 9",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 25–30; PDF 16–19, overlapping adjacent concepts; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N11",
+    "role": "teaching",
+    "script": "تقدر دلوقتي تتعرف على الشكل العام وتعرف المجال، لكن لسه فيه سؤال أساسي: هل كل رسمة ممكن تتنقل من غير ما المجال يتأثر؟ لو عندك $1/(x+4)$ فالممنوع إكس سالب أربعة، مش الصفر. ولو ضربت الكسر كله في اتنين، المنطقة المحذوفة هتفضل هي هي لأن المقام ما اتغيّرش. الإزاحة بتغيّر مكان الفروع، والقسمة على صفر بتظل غير مسموحة. هنجرب كسرًا جديدًا بعيدًا عن المثال اللي حليناه.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "تقدر دلوقتي تتعرف على الشكل العام وتعرف المجال،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "ولو ضربت الكسر كله في اتنين،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "هنجرب كسرًا جديدًا بعيدًا عن المثال اللي حليناه.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-algebraic-graphs-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Interpret rational graph holes and asymptotes",
+      "beat": "T9"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

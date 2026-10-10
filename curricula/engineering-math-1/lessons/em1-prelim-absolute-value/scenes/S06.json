@@ -1,0 +1,49 @@
+{
+  "id": "S06",
+  "title": "Teaching 6",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 9–12; PDF pp. 8–9; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "teaching",
+    "script": "خلينا نبدل علامة المساواة بعلامة مقارنة. لو طلبنا $|x-4|<3$، إحنا عايزين الأعداد اللي تبعد عن أربعة بأقل من تلاتة. يعني المنطقة اللي بين واحد وسبعة، ومن غير الطرفين: $1<x<7$. ونقدر نطلعها جبريًا: $-3<x-4<3$، وبعد إضافة أربعة للأجزاء كلها نوصل لنفس الحل. أما لو المسافة أكبر من تلاتة، يعني $|x-4|>3$، هنختار بره المنطقة: $x<1$ أو $x>7$. وده معناه اتحاد فترتين بعيدتين.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا نبدل علامة المساواة بعلامة مقارنة.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "ونقدر نطلعها جبريًا: $-3<x-4<3$،",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "وده معناه اتحاد فترتين بعيدتين.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the final relation when this clause is heard"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-absolute-value-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve absolute-value inequalities with proper endpoints",
+      "stage": 1
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

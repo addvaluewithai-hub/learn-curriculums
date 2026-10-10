@@ -1,0 +1,49 @@
+{
+  "id": "S04",
+  "title": "Teaching concept 4",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 25–30; PDF 16–19, overlapping adjacent concepts; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "والعائلة التالتة هنا هي Rational functions، وهي نسبة بين كثيرتي حدود، زي $r(x)=1/(x-2)$. قبل الرسم اسأل فورًا: فين المقام هيبقى صفر؟ إكس تساوي اتنين ممنوعة، حتى لو شكل المنحنى قريب من الخط الرأسي ده. في المثال $1/(x-2)$، الرسم بيقرب من الخط $x=2$ من غير ما يلمسه، وبيقترب من المحور الأفقي بعيدًا. بنسمي خط الاقتراب Asymptote، لكن مش كل دالة كسرية هتكون نفس شكل واحد على إكس. ورابط التمهيدات واضح: الصفر في المقام ممنوع دايمًا.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "والعائلة التالتة هنا هي Rational functions،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "في المثال $1/(x-2)$،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ورابط التمهيدات واضح: الصفر في المقام ممنوع دايمًا.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-algebraic-graphs-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Classify algebraic forms and their domain restrictions",
+      "beat": "T4"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

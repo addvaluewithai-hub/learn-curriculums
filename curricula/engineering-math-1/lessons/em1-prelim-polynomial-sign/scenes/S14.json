@@ -1,0 +1,51 @@
+{
+  "id": "S14",
+  "title": "Teaching 14",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18; PDF pp. 10–12 (interwoven source); explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N14",
+    "role": "teaching",
+    "script": "النهارده قدرنا نحل متباينة تربيعية من غير تفاضل: نحلل التعبير، ونحدد الجذور، ونقسم خط الأعداد، ونفحص الإشارة في كل منطقة، وبعدين نقرر دخول كل جذر حسب علامة المتباينة. والأهم إن الجذر المتكرر مش شرط يقلب الإشارة. الدرس اللي بعده هيستخدم نفس جدول الإشارة لكن مع كسر؛ وهنا هنحتاج قاعدة إضافية حاسمة: المقام ماينفعش يكون صفر، حتى لو كنا هنقبل الصفر في البسط.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "النهارده قدرنا نحل متباينة تربيعية من غير تفاضل: نحلل التعبير،",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "وبعدين نقرر دخول كل جذر حسب علامة المتباينة.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "حتى لو كنا هنقبل الصفر في البسط.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the final relation when this clause is heard"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-polynomial-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve factored quadratic signs on line regions",
+      "stage": 3
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

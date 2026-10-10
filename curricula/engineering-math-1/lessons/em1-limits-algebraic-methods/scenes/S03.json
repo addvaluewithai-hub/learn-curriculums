@@ -1,0 +1,49 @@
+{
+  "id": "S03",
+  "title": "Teaching concept 3",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 39–45; PDF 23–26, overlaps trigonometric examples; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "لو جربت $\\lim_{x\\to3}(x^2-9)/(x-3)$، التعويض يدينا صورة $0/0$. دي اسمها Indeterminate form، يعني التعويض فشل يحدد لنا النهاية، مش إن النهاية صفر أو غير موجودة. نحلل فرق المربعين، $(x-3)(x+3)$، ونختصر العامل المشترك فقط عند إكس مش تلاتة. القيم المسموح بيها جنب تلاتة ماشية زي $x+3$، فبتقرب من ستة. إحنا ما عرّفناش الكسر الأصلي عند تلاتة، إنما حسبنا سلوكه حواليها.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "لو جربت $\\lim_{x\\to3}(x^2-9)/(x-3)$،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "$(x-3)(x+3)$،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "إنما حسبنا سلوكه حواليها.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-algebraic-methods-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Factor and cancel only on admissible neighboring inputs",
+      "beat": "T3"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

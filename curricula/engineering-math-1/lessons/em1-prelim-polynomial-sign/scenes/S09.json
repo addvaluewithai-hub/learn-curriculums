@@ -1,0 +1,43 @@
+{
+  "id": "S09",
+  "title": "Teaching 9",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18; PDF pp. 10–12 (interwoven source); explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "teaching",
+    "script": "خلينا نسألك عن جذر مكرر في مثال جديد، عشان نشوف هل فاهم العلاقة بين القوى والإشارة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا نسألك عن جذر مكرر في مثال جديد،",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "عشان نشوف هل فاهم العلاقة بين القوى والإشارة.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-polynomial-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Reason about repeated roots without forced sign flips",
+      "stage": 1
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

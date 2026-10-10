@@ -1,0 +1,91 @@
+{
+  "id": "S06",
+  "title": "Independent exam question 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18; PDF pp. 10–12 (interwoven source); explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "question",
+    "script": "Solve $x^2+3x-10\\le0$ over the real numbers. Write the answer in interval notation.\nحل إكس تربيع زائد تلاتة إكس ناقص عشرة أصغر من أو يساوي صفر، واكتب مجموعة الحل بالفترات.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Solve $x^2+3x-10\\le0$ over the real numbers. Write the answer in interval notation.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "حل إكس تربيع زائد تلاتة إكس ناقص عشرة أصغر من أو يساوي صفر، واكتب مجموعة الحل بالفترات.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-polynomial-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Solve factored quadratic signs on line regions",
+      "stage": 0
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-PS-Q1",
+    "english": "Solve $x^2+3x-10\\le0$ over the real numbers. Write the answer in interval notation.",
+    "arabic": "حل إكس تربيع زائد تلاتة إكس ناقص عشرة أصغر من أو يساوي صفر، واكتب مجموعة الحل بالفترات.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$(x+5)(x-2)\\le0$; the solution is $[-5,2]$.",
+      "arabic": "نحلل إلى إكس زائد خمسة مضروبًا في إكس ناقص اتنين، والجذران سالب خمسة واتنين. قبل سالب خمسة العاملان سالبان وحاصل الضرب موجب، وفي النص الإشارتان مختلفتان فالناتج سالب، وبعد اتنين العاملان موجبان والناتج موجب. المطلوب أصغر من أو يساوي، فنختار المنطقة الوسطى ونضم الجذرين لأن الناتج عندهما صفر.",
+      "reasoning": "نحلل إلى إكس زائد خمسة مضروبًا في إكس ناقص اتنين، والجذران سالب خمسة واتنين. قبل سالب خمسة العاملان سالبان وحاصل الضرب موجب، وفي النص الإشارتان مختلفتان فالناتج سالب، وبعد اتنين العاملان موجبان والناتج موجب. المطلوب أصغر من أو يساوي، فنختار المنطقة الوسطى ونضم الجذرين لأن الناتج عندهما صفر."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "$(x+5)(x-2)\\le0$; the solution is $[-5,2]$.\nنحلل إلى إكس زائد خمسة مضروبًا في إكس ناقص اتنين، والجذران سالب خمسة واتنين. قبل سالب خمسة العاملان سالبان وحاصل الضرب موجب، وفي النص الإشارتان مختلفتان فالناتج سالب، وبعد اتنين العاملان موجبان والناتج موجب. المطلوب أصغر من أو يساوي، فنختار المنطقة الوسطى ونضم الجذرين لأن الناتج عندهما صفر.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$(x+5)(x-2)\\le0$; the solution is $[-5,2]$.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "نحلل إلى إكس زائد خمسة مضروبًا في إكس ناقص اتنين، والجذران سالب خمسة واتنين. قبل سالب خمسة العاملان سالبان وحاصل الضرب موجب، وفي النص الإشارتان مختلفتان فالناتج سالب، وبعد اتنين العاملان موجبان والناتج موجب. المطلوب أصغر من أو يساوي، فنختار المنطقة الوسطى ونضم الجذرين لأن الناتج عندهما صفر.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-polynomial-sign-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 0
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

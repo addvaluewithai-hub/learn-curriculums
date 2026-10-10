@@ -1,0 +1,49 @@
+{
+  "id": "S01",
+  "title": "Teaching concept 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "فاكر لما حسبنا نهاية دالة عند نقطة لقينا إنها بتقرب من رقم، مع إن الدالة ممكن ما تكونش معرفة عند نفس النقطة؟ هنا يظهر السؤال اللي بيجمع كل اللي فات: هل المنحنى مكمل بعضه عند النقطة، ولا فيه فجوة أو قفزة؟ في الحساب بنسمي الفكرة دي Continuity، يعني اتصال الدالة عند نقطة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "فاكر لما حسبنا نهاية دالة عند نقطة لقينا إنها بتقرب من رقم،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "ولا فيه فجوة أو قفزة؟",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "يعني اتصال الدالة عند نقطة.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Test continuity using limits, defined point and piecewise matching",
+      "beat": "T1"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

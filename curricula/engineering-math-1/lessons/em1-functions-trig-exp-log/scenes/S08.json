@@ -1,0 +1,50 @@
+{
+  "id": "S08",
+  "title": "Teaching concept 7",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 30–35; PDF 18–21; printed p.34 apparent exponential source erratum; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "teaching",
+    "script": "قبل السؤال التاني، خلينا نقارن بطريقة عملية: كوساين إكس ياخد أي عدد حقيقي ويطلع قيمة محصورة بين سالب واحد وواحد. خمسة أس إكس يقبل أي عدد حقيقي برضه، لكن الناتج دايمًا موجب وممكن يكبر بلا حد مع زيادة إكس. أما لوغاريتم إكس فمدخله لازم يكون موجب، رغم إن الناتج ممكن يكون سالب أو صفر أو موجب. التمييز ده هيساعدك لما تقرأ سؤال إنجليزي بيطلب Domain أو Range؛ ما تجاوبش بالاسم بدل المجموعة الفعلية.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "قبل السؤال التاني،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "أما لوغاريتم إكس فمدخله لازم يكون موجب،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ما تجاوبش بالاسم بدل المجموعة الفعلية.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-trig-exp-log-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Compare sine/cosine/tangent and domain restrictions",
+      "beat": "T7"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

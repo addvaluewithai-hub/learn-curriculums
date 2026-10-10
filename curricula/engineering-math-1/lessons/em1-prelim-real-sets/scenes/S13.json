@@ -1,0 +1,92 @@
+{
+  "id": "S13",
+  "title": "Independent exam question 3",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 1–5; PDF pp. 4–6; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N13",
+    "role": "question",
+    "script": "Arrange $-\\sqrt{3}$, $-2$ and $0$ in increasing order. If $C=\\{-1,2\\}$ and $D=\\{0,3\\}$, find $C\\cap D$.\nرتب سالب جذر تلاتة وسالب اتنين والصفر من الأصغر للأكبر، وأوجد تقاطع سي ودي.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Arrange $-\\sqrt{3}$, $-2$ and $0$ in increasing order. If $C=\\{-1,2\\}$ and $D=\\{0,3\\}$, find $C\\cap D$.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "رتب سالب جذر تلاتة وسالب اتنين والصفر من الأصغر للأكبر، وأوجد تقاطع سي ودي.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-real-sets-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Compare/order real numbers on the number line",
+      "stage": 2
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-RS-Q3",
+    "english": "Arrange $-\\sqrt{3}$, $-2$ and $0$ in increasing order. If $C=\\{-1,2\\}$ and $D=\\{0,3\\}$, find $C\\cap D$.",
+    "arabic": "رتب سالب جذر تلاتة وسالب اتنين والصفر من الأصغر للأكبر، وأوجد تقاطع سي ودي.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$-2<-\\sqrt3<0$; $C\\cap D=\\varnothing$.",
+      "arabic": "جذر تلاتة حوالي واحد فاصلة سبعة تلاتة، فسالبه أكبر من سالب اتنين وأصغر من الصفر. والمجموعتين مش مشتركتين في أي عنصر، فالتقاطع هو المجموعة الخالية. الجمع بين الترتيب والتقاطع هنا بيفكرنا إن كل رمز لازم نربطه بمعناه.",
+      "reasoning": "جذر تلاتة حوالي واحد فاصلة سبعة تلاتة، فسالبه أكبر من سالب اتنين وأصغر من الصفر. والمجموعتين مش مشتركتين في أي عنصر، فالتقاطع هو المجموعة الخالية. الجمع بين الترتيب والتقاطع هنا بيفكرنا إن كل رمز لازم نربطه بمعناه."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "$-2<-\\sqrt3<0$; $C\\cap D=\\varnothing$.\nجذر تلاتة حوالي واحد فاصلة سبعة تلاتة، فسالبه أكبر من سالب اتنين وأصغر من الصفر. والمجموعتين مش مشتركتين في أي عنصر، فالتقاطع هو المجموعة الخالية. الجمع بين الترتيب والتقاطع هنا بيفكرنا إن كل رمز لازم نربطه بمعناه.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$-2<-\\sqrt3<0$; $C\\cap D=\\varnothing$.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "جذر تلاتة حوالي واحد فاصلة سبعة تلاتة، فسالبه أكبر من سالب اتنين وأصغر من الصفر. والمجموعتين مش مشتركتين في أي عنصر، فالتقاطع هو المجموعة الخالية. الجمع بين الترتيب والتقاطع هنا بيفكرنا إن كل رمز لازم نربطه بمعناه.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-real-sets-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 2
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

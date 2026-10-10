@@ -1,0 +1,49 @@
+{
+  "id": "S01",
+  "title": "Teaching concept 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 35–37; PDF 21–22; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "تخيل طريق فيه طلعة وبعدها نزلة. لو بتتحرك من الشمال لليمين، هتقدر تقول إمتى ارتفاعك بيزيد وإمتى بينقص. الرسم البياني للدالة نفس الفكرة، لكن لازم نتفق إن الاتجاه اللي بنتبعه هو زيادة إكس. لو واي بتزيد مع كل زيادة لإكس، بنقول الدالة Increasing على الجزء ده؛ ولو واي بتقل بنقول Decreasing. وصفنا سلوك الدالة على فترة، مش شكل المنحنى كله بكلمة واحدة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "تخيل طريق فيه طلعة وبعدها نزلة.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "لو واي بتزيد مع كل زيادة لإكس،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "مش شكل المنحنى كله بكلمة واحدة.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-monotonicity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Classify strict increasing/decreasing on quadratic intervals",
+      "beat": "T1"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

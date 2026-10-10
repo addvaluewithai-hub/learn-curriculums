@@ -1,0 +1,92 @@
+{
+  "id": "S06",
+  "title": "Independent question B1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 25–30; PDF 16–19, overlapping adjacent concepts; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "question",
+    "script": "Classify $f(x)=x^4-3x+2$ and $g(x)=1/(x^2-9)$. State every excluded real input for $g$.\nصنّف الدالتين، وحدد قيم إكس الحقيقية المستبعدة من مجال الدالة اللي فيها كسر.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Classify $f(x)=x^4-3x+2$ and $g(x)=1/(x^2-9)$. State every excluded real input for $g$.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "صنّف الدالتين، وحدد قيم إكس الحقيقية المستبعدة من مجال الدالة اللي فيها كسر.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-algebraic-graphs-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Classify algebraic forms and their domain restrictions",
+      "beat": "B1"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "B1",
+    "english": "Classify $f(x)=x^4-3x+2$ and $g(x)=1/(x^2-9)$. State every excluded real input for $g$.",
+    "arabic": "صنّف الدالتين، وحدد قيم إكس الحقيقية المستبعدة من مجال الدالة اللي فيها كسر.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$f$ is polynomial; $g$ is rational, and $x=3$ and $x=-3$ are excluded.",
+      "arabic": "الأولى كثيرة حدود لأن كل قوى إكس فيها أعداد صحيحة غير سالبة. الثانية نسبة كثيرتي حدود. المقام إكس تربيع ناقص تسعة يساوي صفر عند ثلاثة وسالب ثلاثة، فالاتنين خارج المجال، حتى لو الرسم محتاج حسابات أكتر.",
+      "reasoning": "الأولى كثيرة حدود لأن كل قوى إكس فيها أعداد صحيحة غير سالبة. الثانية نسبة كثيرتي حدود. المقام إكس تربيع ناقص تسعة يساوي صفر عند ثلاثة وسالب ثلاثة، فالاتنين خارج المجال، حتى لو الرسم محتاج حسابات أكتر."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "$f$ is polynomial; $g$ is rational, and $x=3$ and $x=-3$ are excluded.\nالأولى كثيرة حدود لأن كل قوى إكس فيها أعداد صحيحة غير سالبة. الثانية نسبة كثيرتي حدود. المقام إكس تربيع ناقص تسعة يساوي صفر عند ثلاثة وسالب ثلاثة، فالاتنين خارج المجال، حتى لو الرسم محتاج حسابات أكتر.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$f$ is polynomial; $g$ is rational, and $x=3$ and $x=-3$ are excluded.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "الأولى كثيرة حدود لأن كل قوى إكس فيها أعداد صحيحة غير سالبة. الثانية نسبة كثيرتي حدود. المقام إكس تربيع ناقص تسعة يساوي صفر عند ثلاثة وسالب ثلاثة، فالاتنين خارج المجال، حتى لو الرسم محتاج حسابات أكتر.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-algebraic-graphs-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Classify algebraic forms and their domain restrictions",
+          "beat": "B1"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

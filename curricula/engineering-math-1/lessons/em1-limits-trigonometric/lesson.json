@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-limits-trigonometric",
+  "curriculumId": "engineering-math-1",
+  "order": 12,
+  "title": "النهايات المثلثية بالراديان",
+  "englishTitle": "Trigonometric Limits in Radians",
+  "scriptRevision": "b02-stage04-canonical-scenes-v1",
+  "prerequisites": [
+    "em1-limits-algebraic-methods",
+    "B02 trigonometric families and radians"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Scale sine fundamental limits correctly in radians",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S13"
+      ],
+      "assessedIn": [
+        "D2"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Derive and apply tangent fundamental limit",
+      "taughtIn": [
+        "S06",
+        "S07",
+        "S08",
+        "S13"
+      ],
+      "assessedIn": [
+        "D5"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Combine sine and tangent ratios with valid coefficients",
+      "taughtIn": [
+        "S10",
+        "S11",
+        "S13"
+      ],
+      "assessedIn": [
+        "D6"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "glossary": []
+}

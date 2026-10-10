@@ -1,0 +1,92 @@
+{
+  "id": "S12",
+  "title": "Independent question D6",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 44–46; PDF 25–27; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N12",
+    "role": "question",
+    "script": "In radians, evaluate $\\lim_{x\\to0}\\frac{\\sin(4x)}{\\tan(7x)}$, and identify both standard trigonometric limit ratios.\nبالراديان، احسب نهاية ساين أربعة إكس على تان سبعة إكس عند الصفر، واذكر نسبتي النهاية الأساسيتين.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "In radians, evaluate $\\lim_{x\\to0}\\frac{\\sin(4x)}{\\tan(7x)}$, and identify both standard trigonometric limit ratios.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "بالراديان، احسب نهاية ساين أربعة إكس على تان سبعة إكس عند الصفر، واذكر نسبتي النهاية الأساسيتين.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-trigonometric-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Combine sine and tangent ratios with valid coefficients",
+      "beat": "D6"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "D6",
+    "english": "In radians, evaluate $\\lim_{x\\to0}\\frac{\\sin(4x)}{\\tan(7x)}$, and identify both standard trigonometric limit ratios.",
+    "arabic": "بالراديان، احسب نهاية ساين أربعة إكس على تان سبعة إكس عند الصفر، واذكر نسبتي النهاية الأساسيتين.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$\\frac47$; use $\\sin(4x)/(4x)\\to1$ and $\\tan(7x)/(7x)\\to1$ in radians.",
+      "arabic": "بنخلّي ساين أربعة إكس على أربعة إكس، وسبعة إكس على تان سبعة إكس، ونطلع أربعة على سبعة بره. كل جزء قياسي بيقرب لواحد بالراديان، فالناتج أربعة على سبعة. المشكلة ما كانتش إن صفر على صفر له قيمة، لكن إننا نقدر نعيد كتابة السلوك عند المدخلات القريبة المسموح بها.",
+      "reasoning": "بنخلّي ساين أربعة إكس على أربعة إكس، وسبعة إكس على تان سبعة إكس، ونطلع أربعة على سبعة بره. كل جزء قياسي بيقرب لواحد بالراديان، فالناتج أربعة على سبعة. المشكلة ما كانتش إن صفر على صفر له قيمة، لكن إننا نقدر نعيد كتابة السلوك عند المدخلات القريبة المسموح بها."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "$\\frac47$; use $\\sin(4x)/(4x)\\to1$ and $\\tan(7x)/(7x)\\to1$ in radians.\nبنخلّي ساين أربعة إكس على أربعة إكس، وسبعة إكس على تان سبعة إكس، ونطلع أربعة على سبعة بره. كل جزء قياسي بيقرب لواحد بالراديان، فالناتج أربعة على سبعة. المشكلة ما كانتش إن صفر على صفر له قيمة، لكن إننا نقدر نعيد كتابة السلوك عند المدخلات القريبة المسموح بها.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$\\frac47$; use $\\sin(4x)/(4x)\\to1$ and $\\tan(7x)/(7x)\\to1$ in radians.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "بنخلّي ساين أربعة إكس على أربعة إكس، وسبعة إكس على تان سبعة إكس، ونطلع أربعة على سبعة بره. كل جزء قياسي بيقرب لواحد بالراديان، فالناتج أربعة على سبعة. المشكلة ما كانتش إن صفر على صفر له قيمة، لكن إننا نقدر نعيد كتابة السلوك عند المدخلات القريبة المسموح بها.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-limits-trigonometric-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Combine sine and tangent ratios with valid coefficients",
+          "beat": "D6"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

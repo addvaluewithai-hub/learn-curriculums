@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-functions-algebraic-graphs",
+  "curriculumId": "engineering-math-1",
+  "order": 7,
+  "title": "الدوال الجبرية وتحويل الرسوم",
+  "englishTitle": "Algebraic Families and Graph Transformations",
+  "scriptRevision": "b02-stage04-canonical-scenes-v1",
+  "prerequisites": [
+    "em1-functions-domain-range",
+    "B01 factoring and rational denominator exclusion"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Classify algebraic forms and their domain restrictions",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S13"
+      ],
+      "assessedIn": [
+        "B1"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Read translated quadratic graph vertices",
+      "taughtIn": [
+        "S07",
+        "S08",
+        "S09",
+        "S13"
+      ],
+      "assessedIn": [
+        "B3"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Interpret rational graph holes and asymptotes",
+      "taughtIn": [
+        "S11",
+        "S13"
+      ],
+      "assessedIn": [
+        "B6"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "glossary": []
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-functions-continuity",
+  "curriculumId": "engineering-math-1",
+  "order": 13,
+  "title": "الاتصال عند نقطة والثقوب والقفزات",
+  "englishTitle": "Continuity, Holes and Jumps",
+  "scriptRevision": "b02-stage04-canonical-scenes-v1",
+  "prerequisites": [
+    "B02 limits, function value, algebraic simplification",
+    "B01 absolute value"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Test continuity using limits, defined point and piecewise matching",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S04",
+        "S05",
+        "S09",
+        "S10",
+        "S11",
+        "S16"
+      ],
+      "assessedIn": [
+        "E1"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Diagnose removable point mismatch",
+      "taughtIn": [
+        "S07",
+        "S10",
+        "S11",
+        "S16"
+      ],
+      "assessedIn": [
+        "E2"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Diagnose irreparable jump discontinuities",
+      "taughtIn": [
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S16"
+      ],
+      "assessedIn": [
+        "E3"
+      ]
+    },
+    {
+      "id": "O4",
+      "description": "Recognize domain-endpoint and sharp-corner continuity",
+      "taughtIn": [
+        "S03",
+        "S06",
+        "S10",
+        "S11",
+        "S16"
+      ],
+      "assessedIn": [
+        "E4"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16"
+  ],
+  "glossary": []
+}

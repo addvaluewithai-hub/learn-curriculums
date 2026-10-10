@@ -1,0 +1,50 @@
+{
+  "id": "S12",
+  "title": "Teaching concept 9",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 30–35; PDF 18–21; printed p.34 apparent exponential source erratum; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N12",
+    "role": "teaching",
+    "script": "خد معاك أربع علامات تميّز: الدالة المثلثية تربط مدخل الزاوية بدورة أو بفروع للظل؛ الأسية فيها إكس في الأس ونواتجها موجبة مع أساس موجب مناسب؛ اللوغاريتم بيطلب مدخلًا موجبًا؛ وتغيير الزاوية جوه التان بيغير قيم المقام الممنوعة. مصدرنا المطبوع عند صفحة 34 فيه سطر غير متسق مع رسم الأسية، فهنا استخدمنا القاعدة الرياضية الصحيحة بوضوح. دلوقتي نقدر نرجع للرسوم ونسأل: بتزيد فين وبتقل فين؟",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خد معاك أربع علامات تميّز: الدالة المثلثية تربط مدخل الزاوية بدورة أو بفروع للظل؛",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "وتغيير الزاوية جوه التان بيغير قيم المقام الممنوعة.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "دلوقتي نقدر نرجع للرسوم ونسأل: بتزيد فين وبتقل فين؟",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-trig-exp-log-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Compare sine/cosine/tangent and domain restrictions",
+      "beat": "T9"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

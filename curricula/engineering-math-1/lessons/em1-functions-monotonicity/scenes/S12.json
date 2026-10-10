@@ -1,0 +1,51 @@
+{
+  "id": "S12",
+  "title": "Teaching concept 9",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 35–37; PDF 21–22; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N12",
+    "role": "teaching",
+    "script": "تعلمنا وصف الرسم من الشمال لليمين بدل الكلام عن شكله كله: Increasing أو Decreasing لازم تتحدد على فترة وبمقارنة أي مدخلين من جواها. القطع المكافئ ممكن يتناقص ثم يتزايد، والخط المستقيم اتجاهه مرتبط بميله، والكسر يحتاج الانتباه لفترات مجاله. الدرس اللي جاي هنغير السؤال: بدل ما نسأل إكس بتزيد وواي بتعمل إيه، هنسأل واي بتقرب من كام لما إكس تقرب من نقطة؛ ودي فكرة النهاية.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "تعلمنا وصف الرسم من الشمال لليمين بدل الكلام عن شكله كله: Increasing أو Decreasing لازم تتحدد على فترة وبمقارنة أي مدخلين من جواها.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "والكسر يحتاج الانتباه لفترات مجاله.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ودي فكرة النهاية.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-monotonicity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Classify strict increasing/decreasing on quadratic intervals",
+      "beat": "T9"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

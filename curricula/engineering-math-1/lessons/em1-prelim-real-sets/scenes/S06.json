@@ -1,0 +1,91 @@
+{
+  "id": "S06",
+  "title": "Independent exam question 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 1–5; PDF pp. 4–6; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "question",
+    "script": "Classify each as rational or irrational: $-\\frac{9}{5}$, $\\sqrt{7}$ and $0.375$. Explain briefly.\nصنف سالب تسعة على خمسة، وجذر سبعة، وصفر فاصلة تلاتة سبعة خمسة، واذكر السبب.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Classify each as rational or irrational: $-\\frac{9}{5}$, $\\sqrt{7}$ and $0.375$. Explain briefly.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "صنف سالب تسعة على خمسة، وجذر سبعة، وصفر فاصلة تلاتة سبعة خمسة، واذكر السبب.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-real-sets-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Classify rational and irrational real numbers",
+      "stage": 0
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-RS-Q1",
+    "english": "Classify each as rational or irrational: $-\\frac{9}{5}$, $\\sqrt{7}$ and $0.375$. Explain briefly.",
+    "arabic": "صنف سالب تسعة على خمسة، وجذر سبعة، وصفر فاصلة تلاتة سبعة خمسة، واذكر السبب.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$-\\frac95$ is rational; $\\sqrt7$ is irrational; $0.375=\\frac38$ is rational.",
+      "arabic": "سالب تسعة على خمسة مكتوب ككسر صحيحين، والجذر التربيعي لسبعة غير نسبي لأن سبعة مش مربعًا كاملًا لعدد صحيح، والصفر فاصلة تلاتة سبعة خمسة عشري منتهٍ ونقدر نكتبه تلاتة على تمانية. يبقى إحنا صنفنا بالخاصية الرياضية، مش بطول الرقم أو إشارته.",
+      "reasoning": "سالب تسعة على خمسة مكتوب ككسر صحيحين، والجذر التربيعي لسبعة غير نسبي لأن سبعة مش مربعًا كاملًا لعدد صحيح، والصفر فاصلة تلاتة سبعة خمسة عشري منتهٍ ونقدر نكتبه تلاتة على تمانية. يبقى إحنا صنفنا بالخاصية الرياضية، مش بطول الرقم أو إشارته."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "$-\\frac95$ is rational; $\\sqrt7$ is irrational; $0.375=\\frac38$ is rational.\nسالب تسعة على خمسة مكتوب ككسر صحيحين، والجذر التربيعي لسبعة غير نسبي لأن سبعة مش مربعًا كاملًا لعدد صحيح، والصفر فاصلة تلاتة سبعة خمسة عشري منتهٍ ونقدر نكتبه تلاتة على تمانية. يبقى إحنا صنفنا بالخاصية الرياضية، مش بطول الرقم أو إشارته.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$-\\frac95$ is rational; $\\sqrt7$ is irrational; $0.375=\\frac38$ is rational.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "سالب تسعة على خمسة مكتوب ككسر صحيحين، والجذر التربيعي لسبعة غير نسبي لأن سبعة مش مربعًا كاملًا لعدد صحيح، والصفر فاصلة تلاتة سبعة خمسة عشري منتهٍ ونقدر نكتبه تلاتة على تمانية. يبقى إحنا صنفنا بالخاصية الرياضية، مش بطول الرقم أو إشارته.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-real-sets-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 0
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "S13",
+  "title": "Teaching 13",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 5–8, order rules pp. 1–2; PDF pp. 6–7; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N13",
+    "role": "teaching",
+    "script": "عايزك دلوقتي تحل متباينة مزدوجة تانية من غير ما أعرض خطوة من حلها، وبعدين نربط الدرس بما بعده.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "عايزك دلوقتي تحل متباينة مزدوجة تانية من غير ما أعرض خطوة من حلها،",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "وبعدين نربط الدرس بما بعده.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-intervals-linear-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve compound linear bounds and express intervals",
+      "stage": 2
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

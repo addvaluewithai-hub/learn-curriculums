@@ -1,0 +1,50 @@
+{
+  "id": "S05",
+  "title": "Teaching concept 5",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 30–35; PDF 18–21; printed p.34 apparent exponential source erratum; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "اللي بيسأل سؤالًا عكسيًا هو Logarithm. لو قلنا $\\log_2 8=3$، معناها «اتنين أس كام عشان تطلع تمانية؟» وبما إن أي أس حقيقي لأساس موجب يطلع قيمة موجبة، مدخل اللوغاريتم لازم يكون أكبر من صفر. للدالة $\\log_a x$، نطلب $a>0$ والأساس مختلف عن واحد، و$x>0$، والمدى كل الأعداد الحقيقية. الفرق بين مجال الأسية ومجال اللوغاريتم أساسي، ومش هنخلطه بمجرد إن رسم الاتنين بيطلع بشكل منحني.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "اللي بيسأل سؤالًا عكسيًا هو Logarithm.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "نطلب $a>0$ والأساس مختلف عن واحد،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ومش هنخلطه بمجرد إن رسم الاتنين بيطلع بشكل منحني.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-trig-exp-log-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Compare sine/cosine/tangent and domain restrictions",
+      "beat": "T5"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "S13",
+  "title": "Independent exam question 3",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18; PDF pp. 10–12 (interwoven source); explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N13",
+    "role": "question",
+    "script": "Solve $(x-1)(x+4)\\ge0$ in interval notation. State whether both zeros belong to the solution.\nحل حاصل ضرب إكس ناقص واحد وإكس زائد أربعة أكبر من أو يساوي صفر، وحدد هل الجذران داخل الحل.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Solve $(x-1)(x+4)\\ge0$ in interval notation. State whether both zeros belong to the solution.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "حل حاصل ضرب إكس ناقص واحد وإكس زائد أربعة أكبر من أو يساوي صفر، وحدد هل الجذران داخل الحل.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-polynomial-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Respect strict versus inclusive roots",
+      "stage": 2
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-PS-Q3",
+    "english": "Solve $(x-1)(x+4)\\ge0$ in interval notation. State whether both zeros belong to the solution.",
+    "arabic": "حل حاصل ضرب إكس ناقص واحد وإكس زائد أربعة أكبر من أو يساوي صفر، وحدد هل الجذران داخل الحل.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$(-\\infty,-4]\\cup[1,\\infty)$; both zeros are included.",
+      "arabic": "الجذران سالب أربعة وواحد، وقبل سالب أربعة العاملان سالبان فحاصل الضرب موجب. بينهما الإشارتان مختلفتان فالناتج سالب. بعد واحد الاتنين موجبان فالناتج موجب. وعند الجذرين الناتج صفر، لكن علامة أكبر من أو يساوي تسمح بالصفر، فنضم الطرفين بأقواس مربعة.",
+      "reasoning": "الجذران سالب أربعة وواحد، وقبل سالب أربعة العاملان سالبان فحاصل الضرب موجب. بينهما الإشارتان مختلفتان فالناتج سالب. بعد واحد الاتنين موجبان فالناتج موجب. وعند الجذرين الناتج صفر، لكن علامة أكبر من أو يساوي تسمح بالصفر، فنضم الطرفين بأقواس مربعة."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "$(-\\infty,-4]\\cup[1,\\infty)$; both zeros are included.\nالجذران سالب أربعة وواحد، وقبل سالب أربعة العاملان سالبان فحاصل الضرب موجب. بينهما الإشارتان مختلفتان فالناتج سالب. بعد واحد الاتنين موجبان فالناتج موجب. وعند الجذرين الناتج صفر، لكن علامة أكبر من أو يساوي تسمح بالصفر، فنضم الطرفين بأقواس مربعة.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$(-\\infty,-4]\\cup[1,\\infty)$; both zeros are included.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "الجذران سالب أربعة وواحد، وقبل سالب أربعة العاملان سالبان فحاصل الضرب موجب. بينهما الإشارتان مختلفتان فالناتج سالب. بعد واحد الاتنين موجبان فالناتج موجب. وعند الجذرين الناتج صفر، لكن علامة أكبر من أو يساوي تسمح بالصفر، فنضم الطرفين بأقواس مربعة.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-polynomial-sign-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 2
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

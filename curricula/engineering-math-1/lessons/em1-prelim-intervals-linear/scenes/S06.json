@@ -1,0 +1,91 @@
+{
+  "id": "S06",
+  "title": "Independent exam question 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 5–8, order rules pp. 1–2; PDF pp. 6–7; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "question",
+    "script": "Write the set of all real $x$ satisfying $x<-2$ or $1\\le x<5$ in interval notation. State why the symbol is union rather than intersection.\nاكتب شرط إكس أقل من سالب اتنين أو من واحد شاملًا لحد أقل من خمسة على صورة فترات، واشرح ليه بنستخدم الاتحاد مش التقاطع.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Write the set of all real $x$ satisfying $x<-2$ or $1\\le x<5$ in interval notation. State why the symbol is union rather than intersection.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "اكتب شرط إكس أقل من سالب اتنين أو من واحد شاملًا لحد أقل من خمسة على صورة فترات، واشرح ليه بنستخدم الاتحاد مش التقاطع.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-intervals-linear-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Write and interpret intervals, AND/OR conditions",
+      "stage": 0
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-IL-Q1",
+    "english": "Write the set of all real $x$ satisfying $x<-2$ or $1\\le x<5$ in interval notation. State why the symbol is union rather than intersection.",
+    "arabic": "اكتب شرط إكس أقل من سالب اتنين أو من واحد شاملًا لحد أقل من خمسة على صورة فترات، واشرح ليه بنستخدم الاتحاد مش التقاطع.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$(-\\infty,-2)\\cup[1,5)$. We use union because either condition can hold.",
+      "arabic": "أول جزء ناحية الشمال من سالب اتنين من غير سالب اتنين نفسها. الجزء التاني يبدأ من واحد شاملًا وينتهي قبل خمسة. كلمة «أو» معناها الاتحاد؛ لو طلبنا التقاطع هنبحث عن رقم أقل من سالب اتنين وفي نفس الوقت أكبر من أو يساوي واحد، وده مفيش.",
+      "reasoning": "أول جزء ناحية الشمال من سالب اتنين من غير سالب اتنين نفسها. الجزء التاني يبدأ من واحد شاملًا وينتهي قبل خمسة. كلمة «أو» معناها الاتحاد؛ لو طلبنا التقاطع هنبحث عن رقم أقل من سالب اتنين وفي نفس الوقت أكبر من أو يساوي واحد، وده مفيش."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "$(-\\infty,-2)\\cup[1,5)$. We use union because either condition can hold.\nأول جزء ناحية الشمال من سالب اتنين من غير سالب اتنين نفسها. الجزء التاني يبدأ من واحد شاملًا وينتهي قبل خمسة. كلمة «أو» معناها الاتحاد؛ لو طلبنا التقاطع هنبحث عن رقم أقل من سالب اتنين وفي نفس الوقت أكبر من أو يساوي واحد، وده مفيش.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$(-\\infty,-2)\\cup[1,5)$. We use union because either condition can hold.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "أول جزء ناحية الشمال من سالب اتنين من غير سالب اتنين نفسها. الجزء التاني يبدأ من واحد شاملًا وينتهي قبل خمسة. كلمة «أو» معناها الاتحاد؛ لو طلبنا التقاطع هنبحث عن رقم أقل من سالب اتنين وفي نفس الوقت أكبر من أو يساوي واحد، وده مفيش.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-intervals-linear-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 0
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

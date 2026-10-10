@@ -1,0 +1,49 @@
+{
+  "id": "S03",
+  "title": "Teaching concept 3",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 21–25; PDF 14–16; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "طيب هل كل رقم ينفع يدخل أي ماكينة؟ لأ. في ماكينة فيها قسمة على إكس ناقص اتنين، يعني $g(x)=1/(x-2)$. لو إكس بيساوي اتنين، المقام هيبقى صفر، والقسمة على صفر مش معرفة في الأعداد الحقيقية. إذن اتنين مستبعد من Domain، المجال، وهو مجموعة كل المدخلات المسموح بها. مش بنحدد المجال من الأرقام اللي اخترنا نجربها؛ بنحدده من كل المدخلات اللي القاعدة تسمح بها.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "طيب هل كل رقم ينفع يدخل أي ماكينة؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "والقسمة على صفر مش معرفة في الأعداد الحقيقية.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "بنحدده من كل المدخلات اللي القاعدة تسمح بها.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-domain-range-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Determine functional uniqueness and valid real input domain",
+      "beat": "T3"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

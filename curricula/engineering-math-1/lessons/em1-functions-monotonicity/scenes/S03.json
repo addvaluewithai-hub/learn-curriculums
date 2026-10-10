@@ -1,0 +1,49 @@
+{
+  "id": "S03",
+  "title": "Teaching concept 3",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 35–37; PDF 21–22; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "بص على $f(x)=x^2$. لما نتحرك من إكس سالب تلاتة لسالب واحد، الناتج يقل من تسعة لواحد. وقبل الصفر كل ما إكس تقرب من الصفر من ناحية السالب، قيمة التربيع تقل. وبعد الصفر بيحصل العكس: تربيع الأعداد الموجبة بيكبر مع زيادة إكس. إذن الدالة متناقصة على $(-\\infty,0)$ ومتزايدة على $(0,\\infty)$. عند الصفر نفسها أقل قيمة؛ اخترنا الفترتين المفتوحتين لوصف فرعين صارمين ومش لازم نزعم إنها متزايدة على كل الأعداد الحقيقية.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "بص على $f(x)=x^2$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "قيمة التربيع تقل.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "اخترنا الفترتين المفتوحتين لوصف فرعين صارمين ومش لازم نزعم إنها متزايدة على كل الأعداد الحقيقية.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-monotonicity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Classify strict increasing/decreasing on quadratic intervals",
+      "beat": "T3"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

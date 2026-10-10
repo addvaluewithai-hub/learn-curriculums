@@ -1,0 +1,92 @@
+{
+  "id": "S12",
+  "title": "Independent question E1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N12",
+    "role": "question",
+    "script": "A piecewise function is defined by $f(x)=x^2-2$ for $x<1$, $f(1)=a$, and $f(x)=3x-4$ for $x>1$. Find $a$ so the function is continuous at $x=1$.\nالدالة إكس تربيع ناقص اتنين قبل الواحد، وقيمتها عند واحد هي إيه المجهولة، وبعد الواحد ثلاثة إكس ناقص أربعة. أوجد إيه عشان تكون متصلة عند واحد.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "A piecewise function is defined by $f(x)=x^2-2$ for $x<1$, $f(1)=a$, and $f(x)=3x-4$ for $x>1$. Find $a$ so the function is continuous at $x=1$.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "الدالة إكس تربيع ناقص اتنين قبل الواحد، وقيمتها عند واحد هي إيه المجهولة، وبعد الواحد ثلاثة إكس ناقص أربعة. أوجد إيه عشان تكون متصلة عند واحد.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Test continuity using limits, defined point and piecewise matching",
+      "beat": "E1"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "E1",
+    "english": "A piecewise function is defined by $f(x)=x^2-2$ for $x<1$, $f(1)=a$, and $f(x)=3x-4$ for $x>1$. Find $a$ so the function is continuous at $x=1$.",
+    "arabic": "الدالة إكس تربيع ناقص اتنين قبل الواحد، وقيمتها عند واحد هي إيه المجهولة، وبعد الواحد ثلاثة إكس ناقص أربعة. أوجد إيه عشان تكون متصلة عند واحد.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$a=-1$; both one-sided limits equal $-1$.",
+      "arabic": "من الشمال نعوض في إكس تربيع ناقص اتنين لما إكس تقرب من واحد، فالنهاية سالب واحد. ومن اليمين ثلاثة في واحد ناقص أربعة برضه سالب واحد. إذن النهاية الكلية سالب واحد. عشان الاتصال لازم قيمة الدالة عند واحد، اللي رمزنا لها بإيه، تساوي سالب واحد.",
+      "reasoning": "من الشمال نعوض في إكس تربيع ناقص اتنين لما إكس تقرب من واحد، فالنهاية سالب واحد. ومن اليمين ثلاثة في واحد ناقص أربعة برضه سالب واحد. إذن النهاية الكلية سالب واحد. عشان الاتصال لازم قيمة الدالة عند واحد، اللي رمزنا لها بإيه، تساوي سالب واحد."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "$a=-1$; both one-sided limits equal $-1$.\nمن الشمال نعوض في إكس تربيع ناقص اتنين لما إكس تقرب من واحد، فالنهاية سالب واحد. ومن اليمين ثلاثة في واحد ناقص أربعة برضه سالب واحد. إذن النهاية الكلية سالب واحد. عشان الاتصال لازم قيمة الدالة عند واحد، اللي رمزنا لها بإيه، تساوي سالب واحد.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$a=-1$; both one-sided limits equal $-1$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "من الشمال نعوض في إكس تربيع ناقص اتنين لما إكس تقرب من واحد، فالنهاية سالب واحد. ومن اليمين ثلاثة في واحد ناقص أربعة برضه سالب واحد. إذن النهاية الكلية سالب واحد. عشان الاتصال لازم قيمة الدالة عند واحد، اللي رمزنا لها بإيه، تساوي سالب واحد.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-continuity-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Test continuity using limits, defined point and piecewise matching",
+          "beat": "E1"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "S05",
+  "title": "Teaching concept 5",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 21–25; PDF 14–16; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "وعكس المجال، Range أو المدى هو كل القيم اللي ممكن الدالة تطلعها فعلًا. في ماكينة التربيع $f(x)=x^2$، لما نسمح بكل الأعداد الحقيقية كمدخلات، الناتج مستحيل يكون سالب، ويقدر يكون أي قيمة صفر أو أكبر. إذن المدى من صفر إلى ما لا نهاية، مع دخول الصفر. أما دالة الجذر $h(x)=\\sqrt{4-x}$ فمدخلاتها لحد أربعة، ونواتجها برضه من صفر لفوق. مهم ما تخلطش بين مجموعة المدخلات ومجموعة النواتج؛ الاتنين ممكن يختلفوا حتى لو الشكل متشابه.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "وعكس المجال،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "إذن المدى من صفر إلى ما لا نهاية،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "الاتنين ممكن يختلفوا حتى لو الشكل متشابه.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-domain-range-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Distinguish actual range from stated co-domain",
+      "beat": "T5"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

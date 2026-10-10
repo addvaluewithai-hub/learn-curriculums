@@ -1,0 +1,49 @@
+{
+  "id": "S03",
+  "title": "Teaching concept 3",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 44–46; PDF 25–27; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "خلينا نحسب $\\lim_{x\\to0}\\sin(3x)/x$. جوه ساين عندنا تلاتة إكس، لكن المقام إكس فقط. عشان نستخدم القانون، نعمل الصورة اللي احنا حافظين معناها: $3\\,\\sin(3x)/(3x)$. لما إكس تقرب من صفر، تلاتة إكس برضه تقرب من صفر، والنسبة الأساسية تقرب من واحد، فالنهاية تلاتة. الرقم بره مش بياتي من الحفظ؛ بيطلع من موازنة المعامل جوه الزاوية.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا نحسب $\\lim_{x\\to0}\\sin(3x)/x$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "لما إكس تقرب من صفر،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "بيطلع من موازنة المعامل جوه الزاوية.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-trigonometric-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Scale sine fundamental limits correctly in radians",
+      "beat": "T3"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

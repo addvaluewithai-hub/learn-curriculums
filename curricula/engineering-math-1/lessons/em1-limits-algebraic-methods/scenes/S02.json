@@ -1,0 +1,49 @@
+{
+  "id": "S02",
+  "title": "Teaching concept 2",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 39–45; PDF 23–26, overlaps trigonometric examples; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "ابدأ بـ$\\lim_{x\\to2}(x^2+3)$. الدالة كثيرة حدود ومفيش فيها مقام أو جذر يعطل التعويض، فتقرب من سبعة. القوانين اللي بنسميها Limit laws بتقول لما نهايات الطرفين موجودة ومحددة، نقدر نجمع النهايات ونضربها في ثابت، ونضرب نهايتين مع بعض. وفي القسمة فيه شرط إضافي: نهاية المقام لازم ما تكونش صفر قبل ما نقسم نهاية البسط على نهاية المقام. ماينفعش نخترع قسمة على صفر باسم قانون نهايات.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "ابدأ بـ$\\lim_{x\\to2}(x^2+3)$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "نقدر نجمع النهايات ونضربها في ثابت،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ماينفعش نخترع قسمة على صفر باسم قانون نهايات.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-algebraic-methods-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Factor and cancel only on admissible neighboring inputs",
+      "beat": "T2"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

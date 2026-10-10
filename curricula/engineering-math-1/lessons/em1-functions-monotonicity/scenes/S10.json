@@ -1,0 +1,43 @@
+{
+  "id": "S10",
+  "title": "Teaching concept 8",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 35–37; PDF 21–22; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N10",
+    "role": "teaching",
+    "script": "جرّب بنفسك مسألة بتطلب منك توضح ليه الفترة المحددة مهمة، مش بس تقرأ الشكل من بعيد.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "جرّب بنفسك مسألة بتطلب منك توضح ليه الفترة المحددة مهمة،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "مش بس تقرأ الشكل من بعيد.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-monotonicity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Reason about reciprocal monotonicity on allowed intervals",
+      "beat": "T8"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

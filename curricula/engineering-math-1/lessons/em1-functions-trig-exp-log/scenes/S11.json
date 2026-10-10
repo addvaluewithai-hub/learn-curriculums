@@ -1,0 +1,92 @@
+{
+  "id": "S11",
+  "title": "Independent question B5",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 30–35; PDF 18–21; printed p.34 apparent exponential source erratum; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N11",
+    "role": "question",
+    "script": "In radians, find all excluded real values of $x$ in $h(x)=\\tan(2x)$, and explain why they are excluded.\nبالراديان، حدد كل قيم إكس الممنوعة من مجال تان اتنين إكس، واشرح ليه القيم دي ممنوعة.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "In radians, find all excluded real values of $x$ in $h(x)=\\tan(2x)$, and explain why they are excluded.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "بالراديان، حدد كل قيم إكس الممنوعة من مجال تان اتنين إكس، واشرح ليه القيم دي ممنوعة.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-trig-exp-log-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Compare sine/cosine/tangent and domain restrictions",
+      "beat": "B5"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "B5",
+    "english": "In radians, find all excluded real values of $x$ in $h(x)=\\tan(2x)$, and explain why they are excluded.",
+    "arabic": "بالراديان، حدد كل قيم إكس الممنوعة من مجال تان اتنين إكس، واشرح ليه القيم دي ممنوعة.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "Exclude $x=\\frac\\pi4+\\frac{k\\pi}{2}$, $k\\in\\mathbb Z$, because $\\cos(2x)=0$.",
+      "arabic": "تان اتنين إكس هو ساين اتنين إكس على كوساين اتنين إكس. عشان المقام مايبقاش صفر، لازم نستبعد لما اتنين إكس تساوي باي على اتنين زائد كي باي. نقسم على اتنين فنطلع إكس تساوي باي على أربعة زائد كي باي على اتنين، لكل كي عدد صحيح. تفسير المجال أهم من حفظ نقاط فاضية في رسم التان.",
+      "reasoning": "تان اتنين إكس هو ساين اتنين إكس على كوساين اتنين إكس. عشان المقام مايبقاش صفر، لازم نستبعد لما اتنين إكس تساوي باي على اتنين زائد كي باي. نقسم على اتنين فنطلع إكس تساوي باي على أربعة زائد كي باي على اتنين، لكل كي عدد صحيح. تفسير المجال أهم من حفظ نقاط فاضية في رسم التان."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "Exclude $x=\\frac\\pi4+\\frac{k\\pi}{2}$, $k\\in\\mathbb Z$, because $\\cos(2x)=0$.\nتان اتنين إكس هو ساين اتنين إكس على كوساين اتنين إكس. عشان المقام مايبقاش صفر، لازم نستبعد لما اتنين إكس تساوي باي على اتنين زائد كي باي. نقسم على اتنين فنطلع إكس تساوي باي على أربعة زائد كي باي على اتنين، لكل كي عدد صحيح. تفسير المجال أهم من حفظ نقاط فاضية في رسم التان.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Exclude $x=\\frac\\pi4+\\frac{k\\pi}{2}$, $k\\in\\mathbb Z$, because $\\cos(2x)=0$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "تان اتنين إكس هو ساين اتنين إكس على كوساين اتنين إكس. عشان المقام مايبقاش صفر، لازم نستبعد لما اتنين إكس تساوي باي على اتنين زائد كي باي. نقسم على اتنين فنطلع إكس تساوي باي على أربعة زائد كي باي على اتنين، لكل كي عدد صحيح. تفسير المجال أهم من حفظ نقاط فاضية في رسم التان.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-trig-exp-log-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Compare sine/cosine/tangent and domain restrictions",
+          "beat": "B5"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

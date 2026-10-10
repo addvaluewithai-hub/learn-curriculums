@@ -1,0 +1,49 @@
+{
+  "id": "S03",
+  "title": "Teaching concept 3",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 37–40; PDF 22–23; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "خلينا ناخد المثال الأوضح: $r(x)=(x^2-4)/(x-2)$ لما إكس ما تساويش اتنين. عند اتنين الكسر الأصلي صفر على صفر، وده مش قيمة عددية نقدر نقول إنها النهاية. بس بعيدًا عن اتنين نحلل البسط $(x-2)(x+2)$ ونختصر العامل المشترك حيث المقام مش صفر. قرب اتنين، التعبير ماشي زي $x+2$، يعني القيم تقرب من أربعة. بالرغم إن $r(2)$ أصلًا مش معرفة، النهاية تساوي أربعة. ده خط فاصل بين Function value وLimit.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا ناخد المثال الأوضح: $r(x)=(x^2-4)/(x-2)$ لما إكس ما تساويش اتنين.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "التعبير ماشي زي $x+2$،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ده خط فاصل بين Function value وLimit.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-concept-one-sided-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Explain limits of nearby outputs independent of point value",
+      "beat": "T3"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "S13",
+  "title": "Independent question E2",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N13",
+    "role": "question",
+    "script": "Let $h(x)=(x^2-4)/(x-2)$ for $x\\ne2$, and let $h(2)=5$. Is $h$ continuous at $x=2$? Explain using the limit and the function value.\nلو الدالة بتساوي إكس تربيع ناقص أربعة على إكس ناقص اتنين بعيدًا عن اتنين، لكن قيمتها عند اتنين تساوي خمسة؛ هل هي متصلة عند اتنين؟ وضح السبب.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Let $h(x)=(x^2-4)/(x-2)$ for $x\\ne2$, and let $h(2)=5$. Is $h$ continuous at $x=2$? Explain using the limit and the function value.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "لو الدالة بتساوي إكس تربيع ناقص أربعة على إكس ناقص اتنين بعيدًا عن اتنين، لكن قيمتها عند اتنين تساوي خمسة؛ هل هي متصلة عند اتنين؟ وضح السبب.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Diagnose removable point mismatch",
+      "beat": "E2"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "E2",
+    "english": "Let $h(x)=(x^2-4)/(x-2)$ for $x\\ne2$, and let $h(2)=5$. Is $h$ continuous at $x=2$? Explain using the limit and the function value.",
+    "arabic": "لو الدالة بتساوي إكس تربيع ناقص أربعة على إكس ناقص اتنين بعيدًا عن اتنين، لكن قيمتها عند اتنين تساوي خمسة؛ هل هي متصلة عند اتنين؟ وضح السبب.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "No. The limit is $4$, while $h(2)=5$.",
+      "arabic": "حوالين اتنين نحلل ونبسط، فالتعبير يمشي زي إكس زائد اتنين، وده بيقرب من أربعة. لكن القيمة اللي حددناها عند اتنين هي خمسة. النهاية موجودة، والقيمة موجودة، بس مش متساويين؛ الشرط الثالث فشل، فالدالة مش متصلة عند اتنين. لو غيرنا قيمة النقطة لأربعة هنصلح الانقطاع.",
+      "reasoning": "حوالين اتنين نحلل ونبسط، فالتعبير يمشي زي إكس زائد اتنين، وده بيقرب من أربعة. لكن القيمة اللي حددناها عند اتنين هي خمسة. النهاية موجودة، والقيمة موجودة، بس مش متساويين؛ الشرط الثالث فشل، فالدالة مش متصلة عند اتنين. لو غيرنا قيمة النقطة لأربعة هنصلح الانقطاع."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "No. The limit is $4$, while $h(2)=5$.\nحوالين اتنين نحلل ونبسط، فالتعبير يمشي زي إكس زائد اتنين، وده بيقرب من أربعة. لكن القيمة اللي حددناها عند اتنين هي خمسة. النهاية موجودة، والقيمة موجودة، بس مش متساويين؛ الشرط الثالث فشل، فالدالة مش متصلة عند اتنين. لو غيرنا قيمة النقطة لأربعة هنصلح الانقطاع.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "No. The limit is $4$, while $h(2)=5$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "حوالين اتنين نحلل ونبسط، فالتعبير يمشي زي إكس زائد اتنين، وده بيقرب من أربعة. لكن القيمة اللي حددناها عند اتنين هي خمسة. النهاية موجودة، والقيمة موجودة، بس مش متساويين؛ الشرط الثالث فشل، فالدالة مش متصلة عند اتنين. لو غيرنا قيمة النقطة لأربعة هنصلح الانقطاع.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-continuity-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Diagnose removable point mismatch",
+          "beat": "E2"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

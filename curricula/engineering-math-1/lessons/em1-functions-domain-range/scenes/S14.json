@@ -1,0 +1,92 @@
+{
+  "id": "S14",
+  "title": "Independent question A4",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 21–25; PDF 14–16; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N14",
+    "role": "question",
+    "script": "Let $f:A\\to\\mathbb R$, where $A=\\{-1,0,2\\}$ and $f(x)=x^2+1$. State the domain, the co-domain and the actual range.\nمجال الدالة هو المجموعة اللي فيها سالب واحد وصفر واتنين، والقاعدة إكس تربيع زائد واحد، والـCo-domain الأعداد الحقيقية. اكتب المجال والمدى الحقيقي ومجموعة النواتج المقصودة.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Let $f:A\\to\\mathbb R$, where $A=\\{-1,0,2\\}$ and $f(x)=x^2+1$. State the domain, the co-domain and the actual range.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "مجال الدالة هو المجموعة اللي فيها سالب واحد وصفر واتنين، والقاعدة إكس تربيع زائد واحد، والـCo-domain الأعداد الحقيقية. اكتب المجال والمدى الحقيقي ومجموعة النواتج المقصودة.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-domain-range-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Distinguish actual range from stated co-domain",
+      "beat": "A4"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "A4",
+    "english": "Let $f:A\\to\\mathbb R$, where $A=\\{-1,0,2\\}$ and $f(x)=x^2+1$. State the domain, the co-domain and the actual range.",
+    "arabic": "مجال الدالة هو المجموعة اللي فيها سالب واحد وصفر واتنين، والقاعدة إكس تربيع زائد واحد، والـCo-domain الأعداد الحقيقية. اكتب المجال والمدى الحقيقي ومجموعة النواتج المقصودة.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "Domain $A=\\{-1,0,2\\}$; co-domain $\\mathbb R$; range $\\{1,2,5\\}$.",
+      "arabic": "عند سالب واحد الناتج اتنين، وعند صفر الناتج واحد، وعند اتنين الناتج خمسة؛ يبقى المدى الفعلي الأعداد واحد واتنين وخمسة، مهما كان ترتيبها. لكن الـCo-domain اللي اتفقنا عليها في تعريف الدالة هي الأعداد الحقيقية كلها. عدد القيم المسموح لنا ندخلها مش بيكبر لمجرد إننا كتبنا مجموعة نواتج مستهدفة أكبر.",
+      "reasoning": "عند سالب واحد الناتج اتنين، وعند صفر الناتج واحد، وعند اتنين الناتج خمسة؛ يبقى المدى الفعلي الأعداد واحد واتنين وخمسة، مهما كان ترتيبها. لكن الـCo-domain اللي اتفقنا عليها في تعريف الدالة هي الأعداد الحقيقية كلها. عدد القيم المسموح لنا ندخلها مش بيكبر لمجرد إننا كتبنا مجموعة نواتج مستهدفة أكبر."
+    },
+    "feedback": {
+      "id": "F04",
+      "role": "feedback",
+      "script": "Domain $A=\\{-1,0,2\\}$; co-domain $\\mathbb R$; range $\\{1,2,5\\}$.\nعند سالب واحد الناتج اتنين، وعند صفر الناتج واحد، وعند اتنين الناتج خمسة؛ يبقى المدى الفعلي الأعداد واحد واتنين وخمسة، مهما كان ترتيبها. لكن الـCo-domain اللي اتفقنا عليها في تعريف الدالة هي الأعداد الحقيقية كلها. عدد القيم المسموح لنا ندخلها مش بيكبر لمجرد إننا كتبنا مجموعة نواتج مستهدفة أكبر.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Domain $A=\\{-1,0,2\\}$; co-domain $\\mathbb R$; range $\\{1,2,5\\}$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "عند سالب واحد الناتج اتنين، وعند صفر الناتج واحد، وعند اتنين الناتج خمسة؛ يبقى المدى الفعلي الأعداد واحد واتنين وخمسة، مهما كان ترتيبها. لكن الـCo-domain اللي اتفقنا عليها في تعريف الدالة هي الأعداد الحقيقية كلها. عدد القيم المسموح لنا ندخلها مش بيكبر لمجرد إننا كتبنا مجموعة نواتج مستهدفة أكبر.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-domain-range-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Distinguish actual range from stated co-domain",
+          "beat": "A4"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

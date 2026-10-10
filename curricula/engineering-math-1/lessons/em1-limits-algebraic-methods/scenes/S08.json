@@ -1,0 +1,92 @@
+{
+  "id": "S08",
+  "title": "Independent question D3",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 39–45; PDF 23–26, overlaps trigonometric examples; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "question",
+    "script": "Evaluate $\\displaystyle\\lim_{x\\to0}\\frac{\\sqrt{2x+9}-3}{x}$ by algebraic manipulation, and explain the restriction used when cancelling $x$.\nاحسب نهاية الجذر التربيعي لاتنين إكس زائد تسعة ناقص تلاتة، الكل على إكس، لما إكس تقرب من صفر. استخدم تبسيط جبري واشرح امتى ينفع نختصر إكس.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Evaluate $\\displaystyle\\lim_{x\\to0}\\frac{\\sqrt{2x+9}-3}{x}$ by algebraic manipulation, and explain the restriction used when cancelling $x$.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "احسب نهاية الجذر التربيعي لاتنين إكس زائد تسعة ناقص تلاتة، الكل على إكس، لما إكس تقرب من صفر. استخدم تبسيط جبري واشرح امتى ينفع نختصر إكس.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-algebraic-methods-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Rationalize a numerator with conjugate",
+      "beat": "D3"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "D3",
+    "english": "Evaluate $\\displaystyle\\lim_{x\\to0}\\frac{\\sqrt{2x+9}-3}{x}$ by algebraic manipulation, and explain the restriction used when cancelling $x$.",
+    "arabic": "احسب نهاية الجذر التربيعي لاتنين إكس زائد تسعة ناقص تلاتة، الكل على إكس، لما إكس تقرب من صفر. استخدم تبسيط جبري واشرح امتى ينفع نختصر إكس.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "Multiply by the conjugate; for $x\\ne0$, the expression becomes $\\frac{2}{\\sqrt{2x+9}+3}$, so the limit is $\\frac13$.",
+      "arabic": "الضرب في المرافق يخلي البسط اتنين إكس، فنقدر نختصر إكس مع المقام **لما إكس مش صفر**؛ والنهاية بتدرس القيم القريبة غير المساوية للصفر. اللي يتبقى اتنين على الجذر زائد تلاتة. عند الاقتراب من الصفر المقام يقرب من ستة، فالناتج تلت. ما قلناش إن الكسر الأصلي معرف عند إكس صفر.",
+      "reasoning": "الضرب في المرافق يخلي البسط اتنين إكس، فنقدر نختصر إكس مع المقام **لما إكس مش صفر**؛ والنهاية بتدرس القيم القريبة غير المساوية للصفر. اللي يتبقى اتنين على الجذر زائد تلاتة. عند الاقتراب من الصفر المقام يقرب من ستة، فالناتج تلت. ما قلناش إن الكسر الأصلي معرف عند إكس صفر."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "Multiply by the conjugate; for $x\\ne0$, the expression becomes $\\frac{2}{\\sqrt{2x+9}+3}$, so the limit is $\\frac13$.\nالضرب في المرافق يخلي البسط اتنين إكس، فنقدر نختصر إكس مع المقام **لما إكس مش صفر**؛ والنهاية بتدرس القيم القريبة غير المساوية للصفر. اللي يتبقى اتنين على الجذر زائد تلاتة. عند الاقتراب من الصفر المقام يقرب من ستة، فالناتج تلت. ما قلناش إن الكسر الأصلي معرف عند إكس صفر.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Multiply by the conjugate; for $x\\ne0$, the expression becomes $\\frac{2}{\\sqrt{2x+9}+3}$, so the limit is $\\frac13$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "الضرب في المرافق يخلي البسط اتنين إكس، فنقدر نختصر إكس مع المقام **لما إكس مش صفر**؛ والنهاية بتدرس القيم القريبة غير المساوية للصفر. اللي يتبقى اتنين على الجذر زائد تلاتة. عند الاقتراب من الصفر المقام يقرب من ستة، فالناتج تلت. ما قلناش إن الكسر الأصلي معرف عند إكس صفر.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-limits-algebraic-methods-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Rationalize a numerator with conjugate",
+          "beat": "D3"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

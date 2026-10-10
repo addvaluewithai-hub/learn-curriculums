@@ -1,0 +1,49 @@
+{
+  "id": "S11",
+  "title": "Teaching 11",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18; PDF pp. 10–12 (interwoven source); explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N11",
+    "role": "teaching",
+    "script": "قبل ما نخلص، نثبت الفرق بين علامة فيها مساواة وعلامة من غير مساواة باستخدام مربع بسيط. لو $(x+2)^2\\ge0$، فهو صحيح لكل الأعداد الحقيقية، لأن المربع لا يقل عن صفر أبدًا. لكن لو نفس التعبير $>0$، هنستبعد إكس تساوي سالب اتنين لأن المربع عندها صفر. نوع العلامة بيقرر إذا كان الجذر داخل الحل، وإشارة العوامل بتقرر إذا كانت الفترات حوالينه داخلة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "قبل ما نخلص،",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "لأن المربع لا يقل عن صفر أبدًا.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "وإشارة العوامل بتقرر إذا كانت الفترات حوالينه داخلة.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the final relation when this clause is heard"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-polynomial-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Respect strict versus inclusive roots",
+      "stage": 2
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

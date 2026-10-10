@@ -1,0 +1,49 @@
+{
+  "id": "S09",
+  "title": "Teaching 9",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 5–8, order rules pp. 1–2; PDF pp. 6–7; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "teaching",
+    "script": "لكن ماينفعش تعمم الخطوة دي على القسمة على تعبير فيه إكس وإحنا مش عارفين إشارته؛ لأن ساعتها ممكن نبقى بنقسم على موجب أو سالب أو صفر. الموقف ده له طريقة تانية هنتعلمها في جدول الإشارات. دلوقتي القاسم عدد ثابت نعرف علامته.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "لكن ماينفعش تعمم الخطوة دي على القسمة على تعبير فيه إكس وإحنا مش عارفين إشارته؛",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "الموقف ده له طريقة تانية هنتعلمها في جدول الإشارات.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "دلوقتي القاسم عدد ثابت نعرف علامته.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the final relation when this clause is heard"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-intervals-linear-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve inequalities with negative division sign reversal",
+      "stage": 1
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "S04",
+  "title": "Teaching 4",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "لو تعاملت مع اتنين زي سالب واحد من غير ما تبص مين في البسط ومين في المقام، ممكن تدخل نقطة ممنوعة في الحل. ودي غلطة بنحاول نمنعها من البداية: Zero of the numerator مش زي Zero of the denominator. ورغم إن القيمتين بيقسموا الخط لمناطق نختبرها، سبب ضم كل حد أو استبعاده مختلف تمامًا.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "لو تعاملت مع اتنين زي سالب واحد من غير ما تبص مين في البسط ومين في المقام،",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "ودي غلطة بنحاول نمنعها من البداية: Zero of the numerator مش زي Zero of the denominator.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "سبب ضم كل حد أو استبعاده مختلف تمامًا.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the final relation when this clause is heard"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve rational inequalities and exclude zero denominators",
+      "stage": 0
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

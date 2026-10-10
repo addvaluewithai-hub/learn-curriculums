@@ -1,0 +1,49 @@
+{
+  "id": "S07",
+  "title": "Teaching concept 6",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 25–30; PDF 16–19, overlapping adjacent concepts; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N07",
+    "role": "teaching",
+    "script": "لما عرفت شكل $y=x^2$، ممكن تجيب عائلة رسومات من نفس الشكل من غير ما تحسب جدول طويل. تخيل إننا رسمنا $y=(x-2)^2$. القيمة الصغرى بقت عند إكس تساوي اتنين بدل صفر؛ القاع اتحرك يمين اتنين. ولو أضفنا تلاتة بره التربيع، $y=(x-2)^2+3$، القاع يطلع فوق تلاتة. ده اسمه Graph transformation؛ بمعنى إننا نقلنا الرسم بدل ما نعيد تصميمه.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "لما عرفت شكل $y=x^2$،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "ولو أضفنا تلاتة بره التربيع،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "بمعنى إننا نقلنا الرسم بدل ما نعيد تصميمه.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-algebraic-graphs-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Read translated quadratic graph vertices",
+      "beat": "T6"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

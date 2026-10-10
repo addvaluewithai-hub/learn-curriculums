@@ -1,0 +1,94 @@
+{
+  "id": "S12",
+  "title": "Independent question A2",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 21–25; PDF 14–16; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N12",
+    "role": "question",
+    "script": "For $f(x)=(x-1)^2$ with all real inputs, state its range. Would the points $(2,1)$ and $(2,4)$ belong to one function graph at the same time?\nدالة إكس ناقص واحد الكل تربيع على الأعداد الحقيقية: اكتب المدى، وهل النقطتين اتنين وواحد، واتنين وأربعة ينفع يكونوا على رسم نفس الدالة معًا؟",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "For $f(x)=(x-1)^2$ with all real inputs, state its range. Would the points $(2,1)$ and $(2,4)$ belong to one function graph at the same time?",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "دالة إكس ناقص واحد الكل تربيع على الأعداد الحقيقية: اكتب المدى، وهل النقطتين اتنين وواحد، واتنين وأربعة ينفع يكونوا على رسم نفس الدالة معًا؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-domain-range-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Determine functional uniqueness and valid real input domain",
+      "beat": "A2"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "A2",
+    "english": "For $f(x)=(x-1)^2$ with all real inputs, state its range. Would the points $(2,1)$ and $(2,4)$ belong to one function graph at the same time?",
+    "arabic": "دالة إكس ناقص واحد الكل تربيع على الأعداد الحقيقية: اكتب المدى، وهل النقطتين اتنين وواحد، واتنين وأربعة ينفع يكونوا على رسم نفس الدالة معًا؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "The range is $[0,\\infty)$. No; one input cannot have two distinct outputs.",
+      "arabic": "التربيع عمره ما يطلع سالب، والصفر موجود عند إكس تساوي واحد. إذن المدى يبدأ من صفر ويشمل الصفر. والنقطتان لهم نفس قيمة إكس وهي اتنين، لكن قيمتين مختلفتين لواي، فلا يمكن يكونوا معًا على رسم دالة واحدة في إكس. وبالتحديد في المثال المعطى $f(2)=1$، فالنقطة $(2,1)$ على رسم الدالة أما $(2,4)$ فمش عليه أصلًا.",
+      "reasoning": "التربيع عمره ما يطلع سالب، والصفر موجود عند إكس تساوي واحد. إذن المدى يبدأ من صفر ويشمل الصفر. والنقطتان لهم نفس قيمة إكس وهي اتنين، لكن قيمتين مختلفتين لواي، فلا يمكن يكونوا معًا على رسم دالة واحدة في إكس. وبالتحديد في المثال المعطى $f(2)=1$، فالنقطة $(2,1)$ على رسم الدالة أما $(2,4)$ فمش عليه أصلًا."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "The range is $[0,\\infty)$. No; one input cannot have two distinct outputs.\nالتربيع عمره ما يطلع سالب، والصفر موجود عند إكس تساوي واحد. إذن المدى يبدأ من صفر ويشمل الصفر. والنقطتان لهم نفس قيمة إكس وهي اتنين، لكن قيمتين مختلفتين لواي، فلا يمكن يكونوا معًا على رسم دالة واحدة في إكس. وبالتحديد في المثال المعطى $f(2)=1$، فالنقطة $(2,1)$ على رسم الدالة أما $(2,4)$ فمش عليه أصلًا.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "The range is $[0,\\infty)$. No; one input cannot have two distinct outputs.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "التربيع عمره ما يطلع سالب، والصفر موجود عند إكس تساوي واحد. إذن المدى يبدأ من صفر ويشمل الصفر. والنقطتان لهم نفس قيمة إكس وهي اتنين، لكن قيمتين مختلفتين لواي، فلا يمكن يكونوا معًا على رسم دالة واحدة في إكس. وبالتحديد في المثال المعطى $f(2)=1$، فالنقطة $(2,1)$ على رسم الدالة أما $(2,4)$ فمش عليه أصلًا.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-domain-range-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Determine functional uniqueness and valid real input domain",
+          "beat": "A2"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

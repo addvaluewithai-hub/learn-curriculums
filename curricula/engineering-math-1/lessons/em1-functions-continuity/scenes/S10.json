@@ -1,0 +1,52 @@
+{
+  "id": "S10",
+  "title": "Teaching concept 10",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3",
+    "O4"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N10",
+    "role": "teaching",
+    "script": "النوع اللي بيجمع الأفكار دي في الامتحان هو Piecewise function، يعني دالة بقواعد مختلفة حسب قيمة إكس. خلينا نكوّن دالة: لما إكس أقل من اتنين، $f(x)=x+1$. ولما إكس أكبر من اتنين، $f(x)=x^2-1$. وعند إكس تساوي اتنين بالضبط، $f(2)=k$؛ كي عدد مجهول. من الشمال، إكس زائد واحد تقرب من ثلاثة. ومن اليمين، إكس تربيع ناقص واحد تقرب من ثلاثة. كويس، النهاية من الناحيتين موجودة وتساوي ثلاثة. فلو عايزين الاتصال، لازم القيمة عند النقطة نفسها، يعني كي، تساوي ثلاثة. كده وصلنا من شكل الرسم لقيمة عددية مفهومة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "النوع اللي بيجمع الأفكار دي في الامتحان هو Piecewise function،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "إكس زائد واحد تقرب من ثلاثة.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "كده وصلنا من شكل الرسم لقيمة عددية مفهومة.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Test continuity using limits, defined point and piecewise matching",
+      "beat": "T10"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

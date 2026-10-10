@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "em1-prelim-real-sets",
+  "curriculumId": "engineering-math-1",
+  "order": 1,
+  "title": "الأعداد الحقيقية وخط الأعداد والمجموعات",
+  "englishTitle": "Real Numbers, Order and Sets",
+  "scriptRevision": "b01-stage04-canonical-v1",
+  "prerequisites": [
+    "Arithmetic and fractions",
+    "Number-line orientation"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Classify rational and irrational real numbers",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S14"
+      ],
+      "assessedIn": [
+        "EM1-RS-Q1"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Compare/order real numbers on the number line",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S12",
+        "S14"
+      ],
+      "assessedIn": [
+        "EM1-RS-Q3"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Interpret set union, intersection, membership and the empty set",
+      "taughtIn": [
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S12",
+        "S14"
+      ],
+      "assessedIn": [
+        "EM1-RS-Q2",
+        "EM1-RS-Q3"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14"
+  ],
+  "glossary": []
+}

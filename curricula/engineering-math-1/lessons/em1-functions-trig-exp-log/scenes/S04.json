@@ -1,0 +1,50 @@
+{
+  "id": "S04",
+  "title": "Teaching concept 4",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 30–35; PDF 18–21; printed p.34 apparent exponential source erratum; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "خلينا ناخد نوع تاني: $y=2^x$. ده اسمه Exponential function، أو دالة أسية، لأن إكس في الأس. جرب إكس صفر يطلع واحد، وواحد يطلع اتنين، وسالب واحد يطلع نص. يعني كل مدخل حقيقي ممكن، والناتج موجب دائمًا، من غير ما يساوي صفر. ولما الأساس أكبر من واحد زي اتنين، الدالة بتزيد؛ ولو الأساس بين صفر وواحد، زي $(1/2)^x$، بتقل. في الحالة العامة لما $a>0$ و$a\\ne1$، المجال $\\mathbb R$ والمدى $(0,\\infty)$. استثناء صغير: $1^x=1$ ثابتة ومداها $\\{1\\}$، فمش بنفس مدى الحالة غير الثابتة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا ناخد نوع تاني: $y=2^x$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "من غير ما يساوي صفر.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "فمش بنفس مدى الحالة غير الثابتة.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-trig-exp-log-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Compare sine/cosine/tangent and domain restrictions",
+      "beat": "T4"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "S15",
+  "title": "Teaching concept 11",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 21–25; PDF 14–16; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N15",
+    "role": "teaching",
+    "script": "قبل ما نروح لعائلات الدوال، ارجع للسؤال الأساسي: هل المدخل ليه ناتج واحد؟ وإيه المدخلات المسموحة؟ والنتائج اللي بتحصل فعلًا هل هي نفس مجموعة النواتج المعلنة؟ لو حلّيت الأسئلة دي، اختبار الخط الرأسي هيبقى مفهوم مش قاعدة محفوظة. بعد كده هنستخدمها في التعرف على الرسوم الجبرية زي المستقيم والتربيع والكسر.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "قبل ما نروح لعائلات الدوال،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "والنتائج اللي بتحصل فعلًا هل هي نفس مجموعة النواتج المعلنة؟",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "بعد كده هنستخدمها في التعرف على الرسوم الجبرية زي المستقيم والتربيع والكسر.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-domain-range-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Determine functional uniqueness and valid real input domain",
+      "beat": "T11"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

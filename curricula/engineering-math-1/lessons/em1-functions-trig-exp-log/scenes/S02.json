@@ -1,0 +1,50 @@
+{
+  "id": "S02",
+  "title": "Teaching concept 2",
+  "objectiveIds": [
+    "O1",
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 30–35; PDF 18–21; printed p.34 apparent exponential source erratum; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "ابدأ بتخيل نقطة بتلف على دائرة نصف قطرها واحد. لو قسنا ارتفاعها عن المركز، الارتفاع يطلع وينزل ويتكرر بعد دورة. ده شكل دالة Sine، أو $y=\\sin x$. ولو قسنا الإسقاط الأفقي هنوصل لفكرة Cosine، أو $y=\\cos x$. الاتنين يقبلوا كل زاوية حقيقية؛ والمدى من سالب واحد لواحد شاملًا. في حساب التفاضل بنستخدم عادة Radian: دورة كاملة $2\\pi$ راديان، ونص دورة $\\pi$ راديان يساوي مية وتمانين درجة. فالدوال دي Periodic يعني شكل النواتج بيتكرر بعد طول معين من الزاوية.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "ابدأ بتخيل نقطة بتلف على دائرة نصف قطرها واحد.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "أو $y=\\cos x$.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "فالدوال دي Periodic يعني شكل النواتج بيتكرر بعد طول معين من الزاوية.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-trig-exp-log-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Compare sine/cosine/tangent and domain restrictions",
+      "beat": "T2"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

@@ -1,0 +1,31 @@
+# Block B01 STATUS — Preliminaries, Engineering Mathematics I
+
+**Updated:** 2026-10-10  
+**Block/source:** B01 (INACTIVE after human-authorized editorial handoff to B02), `abd-el-salam-math-i-scan`, printed pp. **1–20**, PDF image pp. **4–13**; printed pp. 19–20 are the source exercise bank, not copied problems.  
+**Branch and draft review:** `curriculum/engineering-math-1/stage-01-functions`, [PR #8](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8), **open, draft, not merged**. **B02 is now the ACTIVE Block and has completed Stage 04**; B01 remains inactive, its issued IDs/scenes untouched.
+
+## Human stage and real current checkpoint
+
+- **Last completed authorized gate: Stage 04 — five lessons decomposed into 72 canonical scene JSON files, with 15 written-question scenes and 15 separate feedback clips (87 clips total).** No progression to any next gate.
+- **Issued B01 student lesson IDs and orders 1–5** were finalized in Stage 03 and retained unchanged:
+  1. `em1-prelim-real-sets` — number system, line and sets; printed pp. 1–5; **14 scenes**.
+  2. `em1-prelim-intervals-linear` — intervals and linear/compound inequalities; pp. 5–8; **15 scenes**.
+  3. `em1-prelim-absolute-value` — distance, equations, inequalities, triangle inequality; pp. 9–12; **14 scenes**.
+  4. `em1-prelim-polynomial-sign` — polynomial sign charts and repeated roots; pp. 13–18; **14 scenes**.
+  5. `em1-prelim-rational-sign` — rational sign charts, forbidden denominator and combined constraints; pp. 13–18, exercise-bank coverage 19–20; **15 scenes**.
+- **Canonical spoken/script source NOW:** `../../lessons/<stable-id>/lesson.json`, plus `scenes/Sxx.json` narration and question feedback in each of the five lesson folders. `blocks/B01/final-scripts/*.md` from Stage 03 are retained **for historical comparison only**, not as a separately editable final runtime script. Original Stage 02 working-drafts and joint critique also retained unmodified.
+- **Stage 04 evidence and human review checkpoint:** `reviews/STAGE_04_SCENES.md`; Stage 03 rationale `reviews/STAGE_03_BOUNDARY_DECISION.md`; global `../../OUTLINE.md` shows fixed B01 identities/coverage. Each lesson owns a responsive `scenes/ConceptBoard.tsx`, independent `STORYBOARDS.md` directions for **16:9 and 9:16**, `review.json` with all six checks **untested**, and a separate lesson STATUS. No invented sourceHash or reviewer.
+- **Source access and rights:** `../../references/SOURCE_MANIFEST.md`, `SOURCE_COVERAGE.md`; original PDF is **not publicly uploaded or proven retrievable by future agents**, rights unknown. The user expressly deferred durable PDF storage; no action requested here.
+
+## Checks ACTUALLY done — evidence limited to what happened
+
+- **GitHub readback:** all 72 scene texts and 15 post-attempt feedbacks mapped to the five Stage 03 manuscripts; **5/5 exact source-spoken-words parity**, removing Markdown emphasis formatting only. Three independent written questions per lesson, kept completely separate from feedback; 87 distinct clip IDs within their lessons.
+- **Actual `--stage script` repository validation in GitHub CI:** new general `tests/test_script_stage_ready.py` invokes `validate_lesson(..., "script")` for each non-scaffold lesson (all five B01 lessons). [Production contracts workflow run 37952958546](https://github.com/addvaluewithai-hub/learn-curriculums/actions/runs/37952958546) completed **successfully**, including Python unit tests, authoring quality limits, default validation and existing fixture preview checks. **No local checkout**; this success is from GitHub Actions, not container commands.
+- **Storyboards, component source and answer gates checked structurally**, but real lesson components have **not been built/played with their own recorded word timings**. The passing SDK/preview CI fixture is **not** a student lesson visual/runtime approval.
+- **Untested independent reviews:** source/math professor sign-off; novice teaching trial; English/Arabic listening and formula pronunciation; delivered audio, measured word timestamps, 320px overflow/reduced motion, pause/replay/seek and actual SDK runtime playback. No paid TTS, accepted takes, platform DB or publication.
+
+## Editorial handoff on 2026-10-10 — voice deferred, no approval invented
+
+- The user expressly selected **`next block`** after Stage 04. **B02** was activated for **its own Stage 01** only. B01 remains at **Stage 04 authored and script-validated**; its five scene-based scripts, 72 scenes, 15 written questions/feedback and issued stable IDs are **unchanged**.
+- **B01 audio Stage 05 deferred** — no TTS pilot, paid voice dispatch, audio receipt, word alignments, runtime playback or human academic/teaching/visual `passed` review. A curriculum moving to B02 does **not** signify acceptance/release of B01.
+- B02 scope and current human stop: `../B02/STATUS.md`. The next bare `next` refers to **active B02 Stage 05 dry-run audio pilot preparation ONLY**, not B01 audio. Distinct `next block` may activate B03 Stage 01 after a B02 Stage 04 human inspection and actual source reopen. To resume B01 audio later, user must explicitly reselect B01 and authorize the appropriate stage/cost separately.

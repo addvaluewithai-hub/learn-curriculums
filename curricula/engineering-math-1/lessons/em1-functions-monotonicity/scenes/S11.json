@@ -1,0 +1,92 @@
+{
+  "id": "S11",
+  "title": "Independent question C6",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 35–37; PDF 21–22; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N11",
+    "role": "question",
+    "script": "On the interval $(0,\\infty)$, is $h(x)=1/x$ strictly increasing or strictly decreasing? Compare $h(1/2)$ and $h(2)$, and explain why $x=0$ is excluded.\nعلى الفترة الموجبة فقط، واحد على إكس متزايدة ولا متناقصة؟ قارن الناتج عند نص وعند اتنين، واشرح ليه الصفر مش في المجال.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "On the interval $(0,\\infty)$, is $h(x)=1/x$ strictly increasing or strictly decreasing? Compare $h(1/2)$ and $h(2)$, and explain why $x=0$ is excluded.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "على الفترة الموجبة فقط، واحد على إكس متزايدة ولا متناقصة؟ قارن الناتج عند نص وعند اتنين، واشرح ليه الصفر مش في المجال.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-monotonicity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Reason about reciprocal monotonicity on allowed intervals",
+      "beat": "C6"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "C6",
+    "english": "On the interval $(0,\\infty)$, is $h(x)=1/x$ strictly increasing or strictly decreasing? Compare $h(1/2)$ and $h(2)$, and explain why $x=0$ is excluded.",
+    "arabic": "على الفترة الموجبة فقط، واحد على إكس متزايدة ولا متناقصة؟ قارن الناتج عند نص وعند اتنين، واشرح ليه الصفر مش في المجال.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "Strictly decreasing on $(0,\\infty)$; $h(1/2)=2$, $h(2)=1/2$, and $x=0$ is excluded since the denominator would vanish.",
+      "arabic": "عند نص الناتج اتنين، وعند اتنين الناتج نص؛ المدخل زاد والناتج قل. والأهم إن لكل مدخلين موجبين مرتبّين، مقلوب الأصغر أكبر من مقلوب الأكبر، فالتناقص على الفترة كلها. الصفر ممنوع لأنه مقام، وعشان كده ماينفعش نرسم سلوك الدالة كأن الخط بيعدّي عليه.",
+      "reasoning": "عند نص الناتج اتنين، وعند اتنين الناتج نص؛ المدخل زاد والناتج قل. والأهم إن لكل مدخلين موجبين مرتبّين، مقلوب الأصغر أكبر من مقلوب الأكبر، فالتناقص على الفترة كلها. الصفر ممنوع لأنه مقام، وعشان كده ماينفعش نرسم سلوك الدالة كأن الخط بيعدّي عليه."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "Strictly decreasing on $(0,\\infty)$; $h(1/2)=2$, $h(2)=1/2$, and $x=0$ is excluded since the denominator would vanish.\nعند نص الناتج اتنين، وعند اتنين الناتج نص؛ المدخل زاد والناتج قل. والأهم إن لكل مدخلين موجبين مرتبّين، مقلوب الأصغر أكبر من مقلوب الأكبر، فالتناقص على الفترة كلها. الصفر ممنوع لأنه مقام، وعشان كده ماينفعش نرسم سلوك الدالة كأن الخط بيعدّي عليه.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Strictly decreasing on $(0,\\infty)$; $h(1/2)=2$, $h(2)=1/2$, and $x=0$ is excluded since the denominator would vanish.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "عند نص الناتج اتنين، وعند اتنين الناتج نص؛ المدخل زاد والناتج قل. والأهم إن لكل مدخلين موجبين مرتبّين، مقلوب الأصغر أكبر من مقلوب الأكبر، فالتناقص على الفترة كلها. الصفر ممنوع لأنه مقام، وعشان كده ماينفعش نرسم سلوك الدالة كأن الخط بيعدّي عليه.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-monotonicity-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Reason about reciprocal monotonicity on allowed intervals",
+          "beat": "C6"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

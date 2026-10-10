@@ -1,0 +1,91 @@
+{
+  "id": "S14",
+  "title": "Independent exam question 3",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N14",
+    "role": "question",
+    "script": "Solve both conditions: $\\frac{x+2}{x-1}\\le0$ and $x<0$. Give the final real solution set as intervals and state the excluded denominator point.\nحل الشرطين مع بعض: إكس زائد اتنين على إكس ناقص واحد أصغر من أو يساوي صفر، وإكس أقل من صفر. اكتب مجموعة الحل وحدد القيمة الممنوعة للمقام.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Solve both conditions: $\\frac{x+2}{x-1}\\le0$ and $x<0$. Give the final real solution set as intervals and state the excluded denominator point.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "حل الشرطين مع بعض: إكس زائد اتنين على إكس ناقص واحد أصغر من أو يساوي صفر، وإكس أقل من صفر. اكتب مجموعة الحل وحدد القيمة الممنوعة للمقام.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Intersect separate rational/linear constraints",
+      "stage": 2
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-RA-Q3",
+    "english": "Solve both conditions: $\\frac{x+2}{x-1}\\le0$ and $x<0$. Give the final real solution set as intervals and state the excluded denominator point.",
+    "arabic": "حل الشرطين مع بعض: إكس زائد اتنين على إكس ناقص واحد أصغر من أو يساوي صفر، وإكس أقل من صفر. اكتب مجموعة الحل وحدد القيمة الممنوعة للمقام.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$\\frac{x+2}{x-1}\\le0$ yields $[-2,1)$; intersecting with $(-\\infty,0)$ gives $[-2,0)$. The excluded denominator point is $x=1$.",
+      "arabic": "البسط صفر عند سالب اتنين، والمقام صفر عند واحد. الكسر موجب قبل سالب اتنين، وسالب بين سالب اتنين وواحد، وموجب بعد واحد. نضم سالب اتنين لأن الكسر صفر والشرط يسمح، ونستبعد واحد لأن المقام عنده صفر. فالشرط الأول حلّه من سالب اتنين شاملًا لحد أقل من واحد. الشرط التاني إكس أقل من صفر، وده يقطع جزءًا من الفترة الأولى. فالتقاطع هو من سالب اتنين شاملًا لحد أقل من صفر، يعني $[-2,0)$. واحد يفضل قيمة ممنوعة للمقام حتى لو أصلًا خارج التقاطع النهائي.",
+      "reasoning": "البسط صفر عند سالب اتنين، والمقام صفر عند واحد. الكسر موجب قبل سالب اتنين، وسالب بين سالب اتنين وواحد، وموجب بعد واحد. نضم سالب اتنين لأن الكسر صفر والشرط يسمح، ونستبعد واحد لأن المقام عنده صفر. فالشرط الأول حلّه من سالب اتنين شاملًا لحد أقل من واحد. الشرط التاني إكس أقل من صفر، وده يقطع جزءًا من الفترة الأولى. فالتقاطع هو من سالب اتنين شاملًا لحد أقل من صفر، يعني $[-2,0)$. واحد يفضل قيمة ممنوعة للمقام حتى لو أصلًا خارج التقاطع النهائي."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "$\\frac{x+2}{x-1}\\le0$ yields $[-2,1)$; intersecting with $(-\\infty,0)$ gives $[-2,0)$. The excluded denominator point is $x=1$.\nالبسط صفر عند سالب اتنين، والمقام صفر عند واحد. الكسر موجب قبل سالب اتنين، وسالب بين سالب اتنين وواحد، وموجب بعد واحد. نضم سالب اتنين لأن الكسر صفر والشرط يسمح، ونستبعد واحد لأن المقام عنده صفر. فالشرط الأول حلّه من سالب اتنين شاملًا لحد أقل من واحد. الشرط التاني إكس أقل من صفر، وده يقطع جزءًا من الفترة الأولى. فالتقاطع هو من سالب اتنين شاملًا لحد أقل من صفر، يعني $[-2,0)$. واحد يفضل قيمة ممنوعة للمقام حتى لو أصلًا خارج التقاطع النهائي.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$\\frac{x+2}{x-1}\\le0$ yields $[-2,1)$; intersecting with $(-\\infty,0)$ gives $[-2,0)$. The excluded denominator point is $x=1$.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "البسط صفر عند سالب اتنين، والمقام صفر عند واحد. الكسر موجب قبل سالب اتنين، وسالب بين سالب اتنين وواحد، وموجب بعد واحد. نضم سالب اتنين لأن الكسر صفر والشرط يسمح، ونستبعد واحد لأن المقام عنده صفر. فالشرط الأول حلّه من سالب اتنين شاملًا لحد أقل من واحد. الشرط التاني إكس أقل من صفر، وده يقطع جزءًا من الفترة الأولى. فالتقاطع هو من سالب اتنين شاملًا لحد أقل من صفر، يعني $[-2,0)$. واحد يفضل قيمة ممنوعة للمقام حتى لو أصلًا خارج التقاطع النهائي.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-rational-sign-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 2
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "engineering-math-1",
+  "title": "Mathematics I — Calculus (Differentiation) | أولى هندسة",
+  "revision": "b02-stage04-106-canonical-scenes-132-clips-v1",
+  "description": "Engineering Mathematics I, first year. B02 active Stage 04 source authoring complete: eight issued stable lesson IDs, 106 canonical scenes (80 teaching/26 independent English/Arabic written questions) and 26 separate delayed bilingual feedback clips = 132 spoken clips, with bespoke 16:9/9:16 source-controlled board/storyboards and script-stage checks. Curriculum-global runtime order 6–13 keeps B01 orders 1–5 untouched (B01 previously had 72 scenes, audio deferred). No B02 recordings, timestamps, real playback, mathematics instructor approval or student publication; scanned source storage postponed; printed p.34 apparent exponential domain/range erratum documented.",
+  "language": {
+    "explanation": "ar-EG",
+    "exam": "en",
+    "arabicSupport": true
+  },
+  "sources": [
+    {
+      "id": "abd-el-salam-math-i-scan",
+      "title": "Mathematics I (Calculus-Differentiation) For Engineering — Dr. Mohamed A. Abd El Salam",
+      "access": "available",
+      "type": "uploaded-pdf-scan",
+      "locator": "Conversation attachment: scanned 43 PDF pages, covering printed textbook pages 1–80; cover/contents at PDF pages 1–3",
+      "limitations": "Image-only scanned extract (43 PDF pages, printed book pp. 1–80); source bytes verified during migration, see references/SOURCE_MANIFEST.md for actual SHA-256. Original is chat-only-temporary, not committed to public GitHub and not proven retrievable by future agents; public rights unknown. Later body beyond printed page 80 is absent; faint formulas and transcriptions need human checking."
+    }
+  ],
+  "teacher": {
+    "name": "unassigned",
+    "reviewStatus": "not-reviewed"
+  }
+}

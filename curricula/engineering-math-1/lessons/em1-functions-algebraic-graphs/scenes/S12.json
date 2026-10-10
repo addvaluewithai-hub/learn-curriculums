@@ -1,0 +1,92 @@
+{
+  "id": "S12",
+  "title": "Independent question B6",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 25–30; PDF 16–19, overlapping adjacent concepts; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N12",
+    "role": "question",
+    "script": "Classify $h(x)=\\frac{2}{x+5}-1$. State its excluded input and the vertical and horizontal asymptotes.\nصنّف دالة اتنين على إكس زائد خمسة ناقص واحد، وحدد إكس الممنوعة، وخط الاقتراب الرأسي والأفقي.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Classify $h(x)=\\frac{2}{x+5}-1$. State its excluded input and the vertical and horizontal asymptotes.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "صنّف دالة اتنين على إكس زائد خمسة ناقص واحد، وحدد إكس الممنوعة، وخط الاقتراب الرأسي والأفقي.",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-algebraic-graphs-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Interpret rational graph holes and asymptotes",
+      "beat": "B6"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "B6",
+    "english": "Classify $h(x)=\\frac{2}{x+5}-1$. State its excluded input and the vertical and horizontal asymptotes.",
+    "arabic": "صنّف دالة اتنين على إكس زائد خمسة ناقص واحد، وحدد إكس الممنوعة، وخط الاقتراب الرأسي والأفقي.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "Rational; excluded input $x=-5$; vertical asymptote $x=-5$ and horizontal asymptote $y=-1$.",
+      "arabic": "الدالة كسرية بسبب إكس في المقام. المقام يساوي صفر لما إكس تبقى سالب خمسة، فده المكان الممنوع وهو خط الاقتراب الرأسي في المثال. ولما إكس تبعد جدًا موجب أو سالب، الكسر اتنين على إكس زائد خمسة بيقرب من صفر، فتقرب الدالة من سالب واحد. ده خط الاقتراب الأفقي؛ مش معناه إننا عوّضنا إكس بما لا نهاية كأنها عدد.",
+      "reasoning": "الدالة كسرية بسبب إكس في المقام. المقام يساوي صفر لما إكس تبقى سالب خمسة، فده المكان الممنوع وهو خط الاقتراب الرأسي في المثال. ولما إكس تبعد جدًا موجب أو سالب، الكسر اتنين على إكس زائد خمسة بيقرب من صفر، فتقرب الدالة من سالب واحد. ده خط الاقتراب الأفقي؛ مش معناه إننا عوّضنا إكس بما لا نهاية كأنها عدد."
+    },
+    "feedback": {
+      "id": "F03",
+      "role": "feedback",
+      "script": "Rational; excluded input $x=-5$; vertical asymptote $x=-5$ and horizontal asymptote $y=-1$.\nالدالة كسرية بسبب إكس في المقام. المقام يساوي صفر لما إكس تبقى سالب خمسة، فده المكان الممنوع وهو خط الاقتراب الرأسي في المثال. ولما إكس تبعد جدًا موجب أو سالب، الكسر اتنين على إكس زائد خمسة بيقرب من صفر، فتقرب الدالة من سالب واحد. ده خط الاقتراب الأفقي؛ مش معناه إننا عوّضنا إكس بما لا نهاية كأنها عدد.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Rational; excluded input $x=-5$; vertical asymptote $x=-5$ and horizontal asymptote $y=-1$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "الدالة كسرية بسبب إكس في المقام. المقام يساوي صفر لما إكس تبقى سالب خمسة، فده المكان الممنوع وهو خط الاقتراب الرأسي في المثال. ولما إكس تبعد جدًا موجب أو سالب، الكسر اتنين على إكس زائد خمسة بيقرب من صفر، فتقرب الدالة من سالب واحد. ده خط الاقتراب الأفقي؛ مش معناه إننا عوّضنا إكس بما لا نهاية كأنها عدد.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-algebraic-graphs-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Interpret rational graph holes and asymptotes",
+          "beat": "B6"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

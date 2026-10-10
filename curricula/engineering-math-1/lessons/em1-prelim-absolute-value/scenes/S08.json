@@ -1,0 +1,49 @@
+{
+  "id": "S08",
+  "title": "Teaching 8",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 9–12; PDF pp. 8–9; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "teaching",
+    "script": "خلينا نحل متباينة فيها معامل لإكس: $|2x-6|\\le4$. معناها إن المقدار جوه القيمة المطلقة محصور بين سالب أربعة وموجب أربعة، فبنكتب $-4\\le2x-6\\le4$. نضيف ستة للأطراف التلاتة: $2\\le2x\\le10$. وبالقسمة على اتنين: $1\\le x\\le5$. هنضم الواحد والخمسة لأن العلامة بتسمح بالمساواة. لو جربت إكس تساوي خمسة، المقدار جوه القيمة المطلقة أربعة بالضبط، يعني الحد فعلاً داخل الحل.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا نحل متباينة فيها معامل لإكس: $|2x-6|\\le4$.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "وبالقسمة على اتنين: $1\\le x\\le5$.",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "يعني الحد فعلاً داخل الحل.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the final relation when this clause is heard"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-absolute-value-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Solve absolute-value inequalities with proper endpoints",
+      "stage": 1
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

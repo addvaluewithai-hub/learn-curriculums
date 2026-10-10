@@ -1,0 +1,49 @@
+{
+  "id": "S02",
+  "title": "Teaching concept 2",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 35–37; PDF 21–22; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "خلينا نفهم كلمة «على فترة» بشكل أدق. لو اخترت أي مدخلين $x_1<x_2$ من نفس الفترة، وكانت دائمًا $f(x_1)<f(x_2)$، يبقى الدالة متزايدة بصرامة أو Strictly Increasing فيها. لو بدل كده $f(x_1)>f(x_2)$ بنسميها Strictly Decreasing. مش كفاية تلاقي نقطتين وترسم سهم؛ لازم الحكم يفضل صحيح لاختيار أي نقطتين في الفترة. وده غير الحالة اللي تسمح بتساوي النواتج، اللي بنسميها Non-decreasing أو Non-increasing؛ دلوقتي تركيزنا على التزايد والتناقص الصارم.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا نفهم كلمة «على فترة» بشكل أدق.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "مش كفاية تلاقي نقطتين وترسم سهم؛",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "دلوقتي تركيزنا على التزايد والتناقص الصارم.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-monotonicity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Classify strict increasing/decreasing on quadratic intervals",
+      "beat": "T2"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

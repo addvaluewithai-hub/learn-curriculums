@@ -1,0 +1,49 @@
+{
+  "id": "S06",
+  "title": "Teaching concept 6",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 21–25; PDF 14–16; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "teaching",
+    "script": "فيه كلمة كمان موجودة في تعريف الكتاب: Co-domain، أو مجموعة النواتج اللي أعلنّا من البداية إن الدالة هتختار منها. Range أو المدى هو الجزء اللي الدالة وصلت له فعلًا. لو كتبنا إن دالة التربيع من الأعداد الحقيقية إلى الأعداد الحقيقية، فالمجموعة المقصودة للنواتج ممكن تبقى الأعداد الحقيقية كلها، لكن المدى الفعلي يفضل الأعداد من صفر لفوق. الفرق ده ما يلغيهوش إن بعض التمارين بتسأل عن المجال والمدى بس.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "فيه كلمة كمان موجودة في تعريف الكتاب: Co-domain،",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "لو كتبنا إن دالة التربيع من الأعداد الحقيقية إلى الأعداد الحقيقية،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "الفرق ده ما يلغيهوش إن بعض التمارين بتسأل عن المجال والمدى بس.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-domain-range-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Distinguish actual range from stated co-domain",
+      "beat": "T6"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

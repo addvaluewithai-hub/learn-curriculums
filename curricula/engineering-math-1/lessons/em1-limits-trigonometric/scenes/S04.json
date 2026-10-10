@@ -1,0 +1,37 @@
+{
+  "id": "S04",
+  "title": "Teaching concept 4",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 44–46; PDF 25–27; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "نجرب قانون ساين في مسألة مختلفة زي امتحان الهندسة: فيه معامل فوق وتحت ولازم تراعي الراديان.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "نجرب قانون ساين في مسألة مختلفة زي امتحان الهندسة: فيه معامل فوق وتحت ولازم تراعي الراديان.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-trigonometric-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Scale sine fundamental limits correctly in radians",
+      "beat": "T4"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "sourceHash": null,
+  "checks": {
+    "sources": {
+      "status": "untested",
+      "reviewer": "",
+      "evidence": ""
+    },
+    "teaching": {
+      "status": "untested",
+      "reviewer": "",
+      "evidence": ""
+    },
+    "audio": {
+      "status": "untested",
+      "reviewer": "",
+      "evidence": ""
+    },
+    "timing": {
+      "status": "untested",
+      "reviewer": "",
+      "evidence": ""
+    },
+    "visual": {
+      "status": "untested",
+      "reviewer": "",
+      "evidence": ""
+    },
+    "runtime": {
+      "status": "untested",
+      "reviewer": "",
+      "evidence": ""
+    }
+  }
+}

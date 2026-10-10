@@ -1,0 +1,91 @@
+{
+  "id": "S11",
+  "title": "Independent exam question 2",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 1–5; PDF pp. 4–6; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N11",
+    "role": "question",
+    "script": "Let $A=\\{0,2,5,7\\}$ and $B=\\{1,2,6,7\\}$. Find $A\\cup B$, $A\\cap B$, and decide whether $5\\in B$.\nعندك مجموعتين إيه وبي؛ أوجد الاتحاد والتقاطع، وبعدين حدد هل خمسة عنصر في بي.",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Let $A=\\{0,2,5,7\\}$ and $B=\\{1,2,6,7\\}$. Find $A\\cup B$, $A\\cap B$, and decide whether $5\\in B$.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire English exam wording at its genuine onset"
+      },
+      {
+        "id": "QAR",
+        "text": "عندك مجموعتين إيه وبي؛ أوجد الاتحاد والتقاطع، وبعدين حدد هل خمسة عنصر في بي.",
+        "occurrence": 1,
+        "visualIntent": "Disclose entire Arabic supporting explanation when spoken"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-real-sets-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "concept": "Interpret set union, intersection, membership and the empty set",
+      "stage": 1
+    },
+    "landscape": "16:9: distinct readable English question and Arabic support panels; disclose only at spoken onset, hold full prompt for written attempt; never show solution before submit.",
+    "portrait": "9:16 on 320px+: stack English and Arabic cards with line wraps, avoid font shrink; answer hidden until submitted feedback."
+  },
+  "question": {
+    "id": "EM1-RS-Q2",
+    "english": "Let $A=\\{0,2,5,7\\}$ and $B=\\{1,2,6,7\\}$. Find $A\\cup B$, $A\\cap B$, and decide whether $5\\in B$.",
+    "arabic": "عندك مجموعتين إيه وبي؛ أوجد الاتحاد والتقاطع، وبعدين حدد هل خمسة عنصر في بي.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "$A\\cup B=\\{0,1,2,5,6,7\\}$; $A\\cap B=\\{2,7\\}$; $5\\notin B$.",
+      "arabic": "الاتحاد بيجمع كل العناصر من المجموعتين من غير تكرار، والتقاطع بيحتفظ باتنين وسبعة لأنهم مشتركان. خمسة موجودة في إيه بس مش في بي. كلمة عنصر معناها موجود جوه المجموعة المطلوبة نفسها، مش أي مجموعة في السؤال.",
+      "reasoning": "الاتحاد بيجمع كل العناصر من المجموعتين من غير تكرار، والتقاطع بيحتفظ باتنين وسبعة لأنهم مشتركان. خمسة موجودة في إيه بس مش في بي. كلمة عنصر معناها موجود جوه المجموعة المطلوبة نفسها، مش أي مجموعة في السؤال."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "$A\\cup B=\\{0,1,2,5,6,7\\}$; $A\\cap B=\\{2,7\\}$; $5\\notin B$.\nالاتحاد بيجمع كل العناصر من المجموعتين من غير تكرار، والتقاطع بيحتفظ باتنين وسبعة لأنهم مشتركان. خمسة موجودة في إيه بس مش في بي. كلمة عنصر معناها موجود جوه المجموعة المطلوبة نفسها، مش أي مجموعة في السؤال.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "$A\\cup B=\\{0,1,2,5,6,7\\}$; $A\\cap B=\\{2,7\\}$; $5\\notin B$.",
+          "occurrence": 1,
+          "visualIntent": "English answer shown only after submission"
+        },
+        {
+          "id": "AAR",
+          "text": "الاتحاد بيجمع كل العناصر من المجموعتين من غير تكرار، والتقاطع بيحتفظ باتنين وسبعة لأنهم مشتركان. خمسة موجودة في إيه بس مش في بي. كلمة عنصر معناها موجود جوه المجموعة المطلوبة نفسها، مش أي مجموعة في السؤال.",
+          "occurrence": 1,
+          "visualIntent": "Show Egyptian Arabic reasoning after submission"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-prelim-real-sets-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "stage": 1
+        },
+        "landscape": "16:9: delayed English model result and reasoned Arabic explanation, no preattempt answer.",
+        "portrait": "9:16: separate result and reasoned Arabic panels after valid attempt, wrapped at mobile width."
+      }
+    }
+  }
+}

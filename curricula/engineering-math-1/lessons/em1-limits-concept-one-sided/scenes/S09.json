@@ -1,0 +1,92 @@
+{
+  "id": "S09",
+  "title": "Independent question C3",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 37–40; PDF 22–23; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "question",
+    "script": "For $p(x)=x+1$ when $x<1$, $p(1)=10$, and $p(x)=4-x$ when $x>1$, find the left-hand and right-hand limits at $x=1$. Does the two-sided limit exist?\nالدالة بتساوي إكس زائد واحد قبل الواحد، وقيمتها عند الواحد عشرة، وبعد الواحد بتساوي أربعة ناقص إكس. احسب النهاية من الشمال ومن اليمين، وهل النهاية من الجهتين موجودة؟",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "For $p(x)=x+1$ when $x<1$, $p(1)=10$, and $p(x)=4-x$ when $x>1$, find the left-hand and right-hand limits at $x=1$. Does the two-sided limit exist?",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "الدالة بتساوي إكس زائد واحد قبل الواحد، وقيمتها عند الواحد عشرة، وبعد الواحد بتساوي أربعة ناقص إكس. احسب النهاية من الشمال ومن اليمين، وهل النهاية من الجهتين موجودة؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-limits-concept-one-sided-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Compare left- and right-hand limits",
+      "beat": "C3"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "C3",
+    "english": "For $p(x)=x+1$ when $x<1$, $p(1)=10$, and $p(x)=4-x$ when $x>1$, find the left-hand and right-hand limits at $x=1$. Does the two-sided limit exist?",
+    "arabic": "الدالة بتساوي إكس زائد واحد قبل الواحد، وقيمتها عند الواحد عشرة، وبعد الواحد بتساوي أربعة ناقص إكس. احسب النهاية من الشمال ومن اليمين، وهل النهاية من الجهتين موجودة؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "Left-hand limit $=2$, right-hand limit $=3$; the two-sided limit does not exist, even though $p(1)=10$.",
+      "arabic": "لما نقرب من الواحد بقيم أصغر، نستخدم إكس زائد واحد فالقيم تقرب من اتنين. ولما نقرب من قيم أكبر، نستخدم أربعة ناقص إكس فالقيم تقرب من تلاتة. بما إن اتنين مش هي تلاتة، النهاية من الناحيتين مش موجودة كقيمة واحدة. الرقم عشرة هو قيمة الدالة عند النقطة، ومش بيغير سلوك الاقتراب.",
+      "reasoning": "لما نقرب من الواحد بقيم أصغر، نستخدم إكس زائد واحد فالقيم تقرب من اتنين. ولما نقرب من قيم أكبر، نستخدم أربعة ناقص إكس فالقيم تقرب من تلاتة. بما إن اتنين مش هي تلاتة، النهاية من الناحيتين مش موجودة كقيمة واحدة. الرقم عشرة هو قيمة الدالة عند النقطة، ومش بيغير سلوك الاقتراب."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "Left-hand limit $=2$, right-hand limit $=3$; the two-sided limit does not exist, even though $p(1)=10$.\nلما نقرب من الواحد بقيم أصغر، نستخدم إكس زائد واحد فالقيم تقرب من اتنين. ولما نقرب من قيم أكبر، نستخدم أربعة ناقص إكس فالقيم تقرب من تلاتة. بما إن اتنين مش هي تلاتة، النهاية من الناحيتين مش موجودة كقيمة واحدة. الرقم عشرة هو قيمة الدالة عند النقطة، ومش بيغير سلوك الاقتراب.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Left-hand limit $=2$, right-hand limit $=3$; the two-sided limit does not exist, even though $p(1)=10$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "لما نقرب من الواحد بقيم أصغر، نستخدم إكس زائد واحد فالقيم تقرب من اتنين. ولما نقرب من قيم أكبر، نستخدم أربعة ناقص إكس فالقيم تقرب من تلاتة. بما إن اتنين مش هي تلاتة، النهاية من الناحيتين مش موجودة كقيمة واحدة. الرقم عشرة هو قيمة الدالة عند النقطة، ومش بيغير سلوك الاقتراب.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-limits-concept-one-sided-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Compare left- and right-hand limits",
+          "beat": "C3"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "S13",
+  "title": "Teaching concept 10",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 25–30; PDF 16–19, overlapping adjacent concepts; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N13",
+    "role": "teaching",
+    "script": "اتفقنا إن معرفة شكل التعبير بتدينا أسئلة ذكية: هل هو خط مستقيم؟ كثيرة حدود؟ ولا كسر فيه مدخل ممنوع؟ عرفنا نقرأ ميل الخط، وقاع القطع المكافئ، وتحريك الرسم يمين وشمال وفوق وتحت، واستبعدنا أصفار المقام قبل التفكير في الرسم. الدرس الجاي هنشوف عائلات جديدة فيها زوايا، أو إكس موجودة في الأس، أو إكس جوه اللوغاريتم؛ وساعتها المجال مش هيتحدد بالشكل الجبري المألوف بس.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "اتفقنا إن معرفة شكل التعبير بتدينا أسئلة ذكية: هل هو خط مستقيم؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "وتحريك الرسم يمين وشمال وفوق وتحت،",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "وساعتها المجال مش هيتحدد بالشكل الجبري المألوف بس.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-algebraic-graphs-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Classify algebraic forms and their domain restrictions",
+      "beat": "T10"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "S13",
+  "title": "Teaching 13",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "Printed pp. 13–18, exercises pp. 19–20; PDF pp. 10–13; explanations and numerical examples independently authored"
+    }
+  ],
+  "narration": {
+    "id": "N13",
+    "role": "teaching",
+    "script": "خلينا نختم بسؤال يجمع متباينة كسرية وشرطًا ثانيًا. حل كل جزء الأول، وبعدها خد المشترك.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "خلينا نختم بسؤال يجمع متباينة كسرية وشرطًا ثانيًا.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the initial complete spoken concept clause"
+      },
+      {
+        "id": "U02",
+        "text": "حل كل جزء الأول،",
+        "occurrence": 1,
+        "visualIntent": "Progress concept diagram at this complete spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "وبعدها خد المشترك.",
+        "occurrence": 1,
+        "visualIntent": "Reveal the final relation when this clause is heard"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-prelim-rational-sign-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "concept": "Intersect separate rational/linear constraints",
+      "stage": 2
+    },
+    "landscape": "16:9: place one neutral concept-specific SVG on left and one RTL concept panel on right; reveal relationships at matched semantic units, not before speech.",
+    "portrait": "9:16 on 320px+: stack title/diagram/single RTL learning panel, not a shrunk desktop; reduced-motion timeline cue disclosure."
+  }
+}

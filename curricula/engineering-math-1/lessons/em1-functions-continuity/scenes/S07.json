@@ -1,0 +1,49 @@
+{
+  "id": "S07",
+  "title": "Teaching concept 7",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed theory 47–50; PDF 27–28; Exercise (2) printed 51–53 PDF 29–30 LEFT; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N07",
+    "role": "teaching",
+    "script": "وفيه فرق مهم قبل ما نمهد للمشتقة: الدالة ممكن تكون متصلة عند نقطة حتى لو الرسم عامل زاوية حادة. مثلًا $|x|$ عند الصفر قيمتها صفر ومن اليمين والشمال بتقرب من صفر، فهي متصلة. كون الرسم ناعم أو له ميل واحد موضوع تاني مش هنفترضه من الاتصال.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "وفيه فرق مهم قبل ما نمهد للمشتقة: الدالة ممكن تكون متصلة عند نقطة حتى لو الرسم عامل زاوية حادة.",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "فهي متصلة.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "كون الرسم ناعم أو له ميل واحد موضوع تاني مش هنفترضه من الاتصال.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-continuity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Diagnose removable point mismatch",
+      "beat": "T7"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}

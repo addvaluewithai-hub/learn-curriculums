@@ -1,0 +1,92 @@
+{
+  "id": "S07",
+  "title": "Independent question B2",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 30–35; PDF 18–21; printed p.34 apparent exponential source erratum; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N07",
+    "role": "question",
+    "script": "Which family contains $h(x)=\\log_3(x-2)$? State its real domain.\nالدالة لوغاريتم أساس ثلاثة لإكس ناقص اتنين، تنتمي لأي عائلة؟ وما مجالها الحقيقي؟",
+    "units": [
+      {
+        "id": "QEN",
+        "text": "Which family contains $h(x)=\\log_3(x-2)$? State its real domain.",
+        "occurrence": 1,
+        "visualIntent": "Read whole English prompt at its real recorded onset"
+      },
+      {
+        "id": "QAR",
+        "text": "الدالة لوغاريتم أساس ثلاثة لإكس ناقص اتنين، تنتمي لأي عائلة؟ وما مجالها الحقيقي؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal Arabic support when its spoken clause starts"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-trig-exp-log-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "focus": "Determine exponential and logarithmic domain/range conditions",
+      "beat": "B2"
+    },
+    "landscape": "16:9: separate large English exam panel and readable Arabic support, staggered only at recorded onset; hold full question for written attempt; never include the solution.",
+    "portrait": "9:16: vertically stack full English/Arabic question cards on 320px+, wrap math, preserve full question after narration; feedback only after submit."
+  },
+  "question": {
+    "id": "B2",
+    "english": "Which family contains $h(x)=\\log_3(x-2)$? State its real domain.",
+    "arabic": "الدالة لوغاريتم أساس ثلاثة لإكس ناقص اتنين، تنتمي لأي عائلة؟ وما مجالها الحقيقي؟",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "QEN",
+      "arabic": "QAR"
+    },
+    "answer": {
+      "english": "Logarithmic; domain $x>2$, or $(2,\\infty)$.",
+      "arabic": "دي دالة لوغاريتمية. أي حاجة داخل اللوغاريتم لازم تكون أكبر من صفر، يعني إكس ناقص اتنين أكبر من صفر، وبالتالي إكس أكبر من اتنين. مش بنسمح بالصفر هنا، حتى لو هو مسموح جوه الجذر التربيعي في بعض الدوال.",
+      "reasoning": "دي دالة لوغاريتمية. أي حاجة داخل اللوغاريتم لازم تكون أكبر من صفر، يعني إكس ناقص اتنين أكبر من صفر، وبالتالي إكس أكبر من اتنين. مش بنسمح بالصفر هنا، حتى لو هو مسموح جوه الجذر التربيعي في بعض الدوال."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "Logarithmic; domain $x>2$, or $(2,\\infty)$.\nدي دالة لوغاريتمية. أي حاجة داخل اللوغاريتم لازم تكون أكبر من صفر، يعني إكس ناقص اتنين أكبر من صفر، وبالتالي إكس أكبر من اتنين. مش بنسمح بالصفر هنا، حتى لو هو مسموح جوه الجذر التربيعي في بعض الدوال.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "Logarithmic; domain $x>2$, or $(2,\\infty)$.",
+          "occurrence": 1,
+          "visualIntent": "English model answer only after valid attempt"
+        },
+        {
+          "id": "AAR",
+          "text": "دي دالة لوغاريتمية. أي حاجة داخل اللوغاريتم لازم تكون أكبر من صفر، يعني إكس ناقص اتنين أكبر من صفر، وبالتالي إكس أكبر من اتنين. مش بنسمح بالصفر هنا، حتى لو هو مسموح جوه الجذر التربيعي في بعض الدوال.",
+          "occurrence": 1,
+          "visualIntent": "Reasoned Egyptian Arabic feedback only after valid attempt"
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      },
+      "visual": {
+        "renderer": "em1-functions-trig-exp-log-board",
+        "module": "scenes/ConceptBoard.tsx",
+        "params": {
+          "kind": "feedback",
+          "focus": "Determine exponential and logarithmic domain/range conditions",
+          "beat": "B2"
+        },
+        "landscape": "16:9: withheld until valid written submit; then English answer and step-by-step Arabic reasoning, separate readable regions.",
+        "portrait": "9:16: after submit only, vertically stacked English result and Arabic reasoned explanation with mobile wrapping."
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "S06",
+  "title": "Teaching concept 5",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "abd-el-salam-math-i-scan",
+      "locator": "printed 35–37; PDF 21–22; explanatory numerics/exam items independently authored, not transcribed textbook exercises"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "teaching",
+    "script": "هل لازم يكون فيه منحنى عشان نقول متزايد ومتناقص؟ لأ. لو $g(x)=3x+2$، خد أي مدخلين $x_1<x_2$. الفرق في النتيجتين $g(x_2)-g(x_1)=3(x_2-x_1)$؛ لأن الفرق بين المدخلين موجب، والضرب في تلاتة موجب يفضل موجب. إذن $g$ متزايدة على كل الأعداد الحقيقية. لو الميل سالب، زي $-3x+4$، نفس الفرق يطلع سالب، فالدالة متناقصة. ما احتجناش مشتقة عشان نفهم ده.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "هل لازم يكون فيه منحنى عشان نقول متزايد ومتناقص؟",
+        "occurrence": 1,
+        "visualIntent": "Reveal neutral mathematical setup at this full spoken clause"
+      },
+      {
+        "id": "U02",
+        "text": "والضرب في تلاتة موجب يفضل موجب.",
+        "occurrence": 1,
+        "visualIntent": "Develop the relationship/restriction at this spoken clause"
+      },
+      {
+        "id": "U03",
+        "text": "ما احتجناش مشتقة عشان نفهم ده.",
+        "occurrence": 1,
+        "visualIntent": "Finish corresponding math relation at these spoken words"
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "em1-functions-monotonicity-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "teaching",
+      "focus": "Explain strict monotonicity of lines using ordered inputs",
+      "beat": "T5"
+    },
+    "landscape": "16:9: subject-specific SVG left, concise one-sentence RTL concept to right, speech-anchored gradual drawing; no all-at-once solution or text wall.",
+    "portrait": "9:16: independent mobile composition, title/diagram/RTL concept stacked, readable at 320px and reduced-motion; validate real overflow later."
+  }
+}
