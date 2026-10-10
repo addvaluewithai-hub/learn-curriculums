@@ -1,8 +1,8 @@
 # L03 — إيجاد A وB لعاملين خطيين مختلفين
 
-- **Stable lesson ID (Stage 03):** \`math1-pf-two-linear\`.
+- **Stable lesson ID (Stage 03):** `math1-pf-two-linear`.
 - **Order:** 3.
-- **Original source:** \`math1-algebra-scan-20261009\`؛ printed **3–4** / PDF **4–5**؛ قاعدة linear distinct وExample 4 ص4.
+- **Original source:** `math1-algebra-scan-20261009`؛ printed **3–4** / PDF **4–5**؛ قاعدة linear distinct وExample 4 ص4.
 - **Prerequisites:** L01: Proper/Improper & degree؛ L02: image of distinct linear factors.
 - **Objectives:** T1 تحليل المقام واختيار \(\frac{A}{x-a}+\frac{B}{x-b}\)؛ T2 تحويل مساواة الكسور إلى هوية في البسط؛ T3 استخراج معاملين بالتعويض المدروس والتحقق من الناتج والمجال.
 - **Independent check:** T-Q1/T-F1.
