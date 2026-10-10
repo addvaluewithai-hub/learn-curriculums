@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "chem1-charles-law",
+  "curriculumId": "chemistry-preparatory-engineering",
+  "order": 3,
+  "title": "قانون شارل: الحجم ودرجة الحرارة",
+  "englishTitle": "Charles's Law: Volume and Temperature",
+  "scriptRevision": "script-b01-stage04-v1",
+  "prerequisites": [
+    "chem1-boyle-law",
+    "Celsius temperature and basic proportional reasoning, both bridged in the script"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Explain V proportional to temperature in Kelvin at constant pressure and fixed gas amount; calculate a new volume.",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S07"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "Rearrange Charles's law to find final temperature and convert the result to Celsius.",
+      "taughtIn": [
+        "S04",
+        "S07"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "Recognize when a rigid or nonconstant-pressure setup does not satisfy Charles's law.",
+      "taughtIn": [
+        "S01",
+        "S04",
+        "S07"
+      ],
+      "assessedIn": [
+        "Q03"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07"
+  ],
+  "glossary": []
+}

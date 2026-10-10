@@ -1,0 +1,50 @@
+{
+  "id": "S01",
+  "title": "Opening and part 1: physical relation — spoken",
+  "objectiveIds": [
+    "O1",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p8; printed p13; constant-pressure piston and statement"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "في قانون Boyle كنا بنثبّت درجة الحرارة ونقارن بين ضغط الغاز وحجمه. النهارده هنغيّر التجربة: نخلي الضغط ثابت وناخد نفس كمية الغاز، ونشوف الحجم لما درجة الحرارة تتغير. تخيل أسطوانة فيها مكبس حر الحركة من غير تسريب للغاز. لما نسخّن الغاز تحت ضغط ثابت، المكبس يقدر يطلع لفوق ويزيد الحجم. الفكرة دي هي بداية Charles's Law، قانون شارل.\n\nالقانون بيقول: عند ضغط ثابت ولكمية ثابتة من الغاز، Volume يتناسب طرديًا مع Absolute Temperature، يعني درجة الحرارة المطلقة. «طردي» هنا مش معناه مجرد إن الاتنين يزيدوا، لكن إن النسبة بينهم تكون ثابتة في النموذج اللي بنتعلمه. الرسم في الكتاب صفحة 13 بيوضح الغاز عند 1 atm: لما T زادت من 200 K إلى 400 K، V زاد من 0.5 L إلى 1.0 L. يعني درجة الحرارة المطلقة اتضاعفت، والحجم اتضاعف.\n\nعشان كده بنكتب V/T = constant، ولما نقارن حالتين لنفس كمية الغاز وعند نفس الضغط: V₁/T₁ = V₂/T₂. الرقم واحد للحالة الأولى، والاتنين للتانية. وخلّي بالك من شرط مهم: T لازم تكون Kelvin. مش بنعوض في نسبة شارل بأرقام Celsius مباشرة.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "في قانون Boyle كنا بنثبّت درجة الحرارة ونقارن بين ضغط الغاز وحجمه.",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 1 in heat-piston only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U02",
+        "text": "القانون بيقول: عند ضغط ثابت ولكمية ثابتة من الغاز، Volume يتناسب طرديًا",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 2 in heat-piston only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U03",
+        "text": "عشان كده بنكتب V/T = constant، ولما نقارن حالتين لنفس كمية الغاز",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 3 in heat-piston only when the anchored spoken phrase begins. Keep later details hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-charles-law-board",
+    "module": "scenes/CharlesBoard.tsx",
+    "params": {
+      "title": "Constant-pressure movable piston at 200K/0.5L and 400K/1L",
+      "mode": "heat-piston",
+      "anchor": "U01"
+    },
+    "landscape": "16:9: Show matching pistons under a visible 1 atm lock, 200K→400K arrows, volume 0.5L→1L as spoken. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
+    "portrait": "9:16: Show matching pistons under a visible 1 atm lock, 200K→400K arrows, volume 0.5L→1L as spoken. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."
+  }
+}

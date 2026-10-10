@@ -1,0 +1,49 @@
+{
+  "id": "S01",
+  "title": "Opening and connected teaching — spoken",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p6; printed p8; authored container comparison"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "أهلًا بيك في أول جزء من Chemistry لسنة أولى هندسة. قبل ما نتعامل مع قوانين الغازات، تخيل إن قدامنا تلات عينات: قطعة معدن، كمية مية في كوباية، وهواء محبوس في أسطوانة. التلاتة Matter، يعني مادة. لكن هل كل واحدة منهم ليها شكل ثابت؟ ولو نقلناها لوعاء تاني، شكلها وحجمها هيعملوا إيه؟\n\nقطعة المعدن مثال على Solid، حالة صلبة؛ في الظروف العادية ليها شكل محدد وحجم شبه ثابت، وصعب نقلل حجمها بالضغط. المية مثال على Liquid، حالة سائلة؛ بتنساب وتاخد شكل الوعاء اللي بنحطها فيه، لكن حجم نفس كمية المية بيبقى تقريبًا ثابت طالما الظروف ما اتغيرتش بشكل مؤثر. أما الهواء فهو Gas؛ الغاز بياخد شكل الحيز المتاح وينتشر فيه، وممكن نقلل حجمه بالضغط بشكل أوضح من الصلب والسائل. المقارنة دي موجودة في جدول الكتاب في صفحة 8.\n\nخلينا نفرّق بين مصطلحين مهمين. Shape يعني الشكل، وVolume يعني الحجم. لو صبّينا مية من كوب رفيع في طبق عريض، شكل سطح المية اختلف، لكن ده مش معناه إن حجمها زاد. وفيه مصطلح تالت: Compressibility، قابلية الانضغاط، يعني إمكانية إن الحجم يقل لما نضغط على المادة. الغاز أسهل انضغاطًا من المية أو قطعة المعدن في الأمثلة دي. التفسير البسيط إن جزيئات الغاز، في الظروف اللي بنقارنها هنا، بينها فراغات أكبر نسبيًا؛ ده جسر توضيحي هنوسع تفسيره بعدين. لما نقول إن الغاز بيملأ الوعاء، نقصد الحيز المتاح داخل الوعاء، مش إنه يقدر ياخد حجم غير محدود.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "أهلًا بيك في أول جزء من Chemistry لسنة أولى هندسة. قبل ما",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 1 in states only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U02",
+        "text": "قطعة المعدن مثال على Solid، حالة صلبة؛ في الظروف العادية ليها شكل",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 2 in states only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U03",
+        "text": "خلينا نفرّق بين مصطلحين مهمين. Shape يعني الشكل، وVolume يعني الحجم. لو",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 3 in states only when the anchored spoken phrase begins. Keep later details hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-states-phase-changes-board",
+    "module": "scenes/MatterBoard.tsx",
+    "params": {
+      "title": "Compare solid/liquid/gas containers and compressibility",
+      "mode": "states",
+      "anchor": "U01"
+    },
+    "landscape": "16:9: Show three large containers with solid keeping shape, liquid taking container shape, gas spreading in available volume; introduce labels on first semantic anchors. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
+    "portrait": "9:16: Show three large containers with solid keeping shape, liquid taking container shape, gas spreading in available volume; introduce labels on first semantic anchors. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."
+  }
+}

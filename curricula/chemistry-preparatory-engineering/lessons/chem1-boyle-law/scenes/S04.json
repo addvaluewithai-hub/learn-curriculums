@@ -1,0 +1,81 @@
+{
+  "id": "S04",
+  "title": "Question Q01 — independent attempt; keep feedback hidden",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p10; printed p17; adapted Sheet 1 #5 with author-added constant-temperature condition"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "question",
+    "script": "A fixed sample of oxygen gas occupies 48.0 L at a pressure of 99.3 kPa. Assume its temperature stays constant. What pressure is required to compress the gas to 16.0 L?\n\nالأرقام دي من سؤال خمسة في Sheet 1. وضّحنا ثبات الحرارة صراحة لأنه شرط لقانون بويل، وده توضيح أضفناه وليس نص السؤال الحرفي. قبل الحساب اكتب: هل الحجم قل ولا زاد؟ إذن الضغط الجديد لازم يعمل إيه؟ وبعد كده طلع القيمة بوحدة kPa.",
+    "units": [
+      {
+        "id": "UEN",
+        "text": "A fixed sample of oxygen gas occupies 48.0 L at a pressure of 99.3 kPa. Assume its temperature stays constant. What pressure is required to compress the gas to 16.0 L?",
+        "occurrence": 1,
+        "visualIntent": "Reveal full English exam question at its actual spoken-word onset."
+      },
+      {
+        "id": "UAR",
+        "text": "الأرقام دي من سؤال خمسة في Sheet 1. وضّحنا ثبات الحرارة صراحة لأنه شرط لقانون بويل، وده توضيح أضفناه وليس نص السؤال الحرفي. قبل الحساب اكتب: هل الحجم قل ولا زاد؟ إذن الضغط الجديد لازم يعمل إيه؟ وبعد كده طلع القيمة بوحدة kPa.",
+        "occurrence": 1,
+        "visualIntent": "Reveal full Arabic support only at its spoken onset; keep model answer hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-boyle-law-board",
+    "module": "scenes/BoyleBoard.tsx",
+    "params": {
+      "title": "Question 1",
+      "mode": "question",
+      "anchor": "UEN"
+    },
+    "landscape": "16:9: Display English full question at its reviewed onset then show the Arabic supporting clause at its own onset; allow full-size written attempt field below the prompt. Keep numeric answer, rationale and feedback offscreen before submission; reveal feedback only in feedback phase.",
+    "portrait": "9:16: Stack English question in a large readable paragraph then Arabic support in a separate RTL panel; reserve vertical space and allow scrolling for written response on 320px phone screens. No answer at question/attempt phase; feedback only after valid attempt."
+  },
+  "question": {
+    "id": "Q01",
+    "english": "A fixed sample of oxygen gas occupies 48.0 L at a pressure of 99.3 kPa. Assume its temperature stays constant. What pressure is required to compress the gas to 16.0 L?",
+    "arabic": "الأرقام دي من سؤال خمسة في Sheet 1. وضّحنا ثبات الحرارة صراحة لأنه شرط لقانون بويل، وده توضيح أضفناه وليس نص السؤال الحرفي. قبل الحساب اكتب: هل الحجم قل ولا زاد؟ إذن الضغط الجديد لازم يعمل إيه؟ وبعد كده طلع القيمة بوحدة kPa.",
+    "readingUnitIds": {
+      "english": "UEN",
+      "arabic": "UAR"
+    },
+    "attempt": "written",
+    "answer": {
+      "english": "P₂ = P₁V₁/V₂ = (99.3 kPa × 48.0 L)/(16.0 L) = 297.9 kPa ≈ 298 kPa.",
+      "arabic": "الحجم انخفض من 48 إلى 16 لتر؛ يعني بقى تلت الحجم الأصلي. عند ثبات الحرارة والكمية، الضغط يبقى ثلاثة أضعاف: 99.3 في 3 يساوي 297.9، وبالتقريب 298 كيلو باسكال. لو ظهر معاك ضغط أقل من 99.3، راجع من حطيت في البسط والمقام. ولو نسيت kPa، لازم تكمل وحدة الإجابة.",
+      "reasoning": "الحجم انخفض من 48 إلى 16 لتر؛ يعني بقى تلت الحجم الأصلي. عند ثبات الحرارة والكمية، الضغط يبقى ثلاثة أضعاف: 99.3 في 3 يساوي 297.9، وبالتقريب 298 كيلو باسكال. لو ظهر معاك ضغط أقل من 99.3، راجع من حطيت في البسط والمقام. ولو نسيت kPa، لازم تكمل وحدة الإجابة."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "P₂ = P₁V₁/V₂ = (99.3 kPa × 48.0 L)/(16.0 L) = 297.9 kPa ≈ 298 kPa.\n\nالحجم انخفض من 48 إلى 16 لتر؛ يعني بقى تلت الحجم الأصلي. عند ثبات الحرارة والكمية، الضغط يبقى ثلاثة أضعاف: 99.3 في 3 يساوي 297.9، وبالتقريب 298 كيلو باسكال. لو ظهر معاك ضغط أقل من 99.3، راجع من حطيت في البسط والمقام. ولو نسيت kPa، لازم تكمل وحدة الإجابة.",
+      "units": [
+        {
+          "id": "AEN",
+          "text": "P₂ = P₁V₁/V₂ = (99.3 kPa × 48.0 L)/(16.0 L) = 297.9 kPa ≈ 298 kPa.",
+          "occurrence": 1,
+          "visualIntent": "Only after valid student attempt, reveal full English model answer at its actual spoken onset."
+        },
+        {
+          "id": "AAR",
+          "text": "الحجم انخفض من 48 إلى 16 لتر؛ يعني بقى تلت الحجم الأصلي. عند ثبات الحرارة والكمية، الضغط يبقى ثلاثة أضعاف: 99.3 في 3 يساوي 297.9، وبالتقريب 298 كيلو باسكال. لو ظهر معاك ضغط أقل من 99.3، راجع من حطيت في البسط والمقام. ولو نسيت kPa، لازم تكمل وحدة الإجابة.",
+          "occurrence": 1,
+          "visualIntent": "After answer onset, reveal explanatory Arabic reasoning at its actual spoken onset."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "AEN",
+        "arabic": "AAR"
+      }
+    }
+  }
+}

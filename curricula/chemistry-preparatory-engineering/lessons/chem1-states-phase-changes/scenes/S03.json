@@ -1,0 +1,55 @@
+{
+  "id": "S03",
+  "title": "Continue teaching — spoken",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "chemistry-prep-sadik-scan-20261009",
+      "locator": "PDF p6; printed p9; condensation row corrected and disclosed"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "دلوقتي عرفنا الفرق بين الحالات الثلاثة. السؤال التاني: هل نفس المادة ممكن تنتقل من حالة للتانية؟ أيوه. لما التلج يسيح ويبقى مية سائلة، ده Melting، انصهار، من Solid إلى Liquid. ولو المية بردت لحد ما تتجمد، ده Freezing، من Liquid إلى Solid. إحنا بنتكلم عن Physical Changes في الحالة، من غير ما نحتاج نفترض تكوّن مادة كيميائية جديدة.\n\nولو السائل اتحول لغاز، العملية اسمها Vaporization: من Liquid إلى Gas. ولو بخار المية اتكثف وبقى قطرات مية سائلة، ده Condensation: من Gas إلى Liquid. خد بالك من الاتجاه، لأنه اللي بيفرق العمليتين حتى لو اسم المادة هو المية في الحالتين.\n\nفيه كمان انتقال مباشر بين الصلب والغاز. من Solid إلى Gas من غير المرور بالحالة السائلة بنسميه Sublimation، أو تسامي. والعكس المباشر من Gas إلى Solid اسمه Deposition، أو ترسّب مباشر. الرسم في صفحة 9 بيربط كل حالتين بسهمين في اتجاهين مختلفين. لو نسيت الاسم، ارسم في خيالك سهم من حالة البداية لحالة النهاية؛ الاتجاه بيقودك للمصطلح.\n\nقبل التدريب، لاحظ إن وجود بخار ثم قطرات ماء سائل غير وجود بخار ثم بلورات ثلج صلبة مباشرة. كلمة Liquid أو Solid في نهاية الوصف بتغيّر الإجابة، ومش كل تحول بالتبريد اسمه Freezing.",
+    "units": [
+      {
+        "id": "U01",
+        "text": "دلوقتي عرفنا الفرق بين الحالات الثلاثة. السؤال التاني: هل نفس المادة ممكن",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 1 in phase-arrows only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U02",
+        "text": "ولو السائل اتحول لغاز، العملية اسمها Vaporization: من Liquid إلى Gas. ولو",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 2 in phase-arrows only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U03",
+        "text": "فيه كمان انتقال مباشر بين الصلب والغاز. من Solid إلى Gas من",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 3 in phase-arrows only when the anchored spoken phrase begins. Keep later details hidden."
+      },
+      {
+        "id": "U04",
+        "text": "قبل التدريب، لاحظ إن وجود بخار ثم قطرات ماء سائل غير وجود",
+        "occurrence": 1,
+        "visualIntent": "Reveal concept 4 in phase-arrows only when the anchored spoken phrase begins. Keep later details hidden."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "chem1-states-phase-changes-board",
+    "module": "scenes/MatterBoard.tsx",
+    "params": {
+      "title": "Directed arrows between states, six processes",
+      "mode": "phase-arrows",
+      "anchor": "U01"
+    },
+    "landscape": "16:9: Show solid, liquid, gas as large labeled nodes; reveal melting/freezing, vaporization/condensation, sublimation/deposition on their spoken cues. Keep a single readable 2-column main idea with labels >=24px and stage new content at the actual cue starts; do not show concluding equations before narration. Reduced motion uses instant disclosure.",
+    "portrait": "9:16: Show solid, liquid, gas as large labeled nodes; reveal melting/freezing, vaporization/condensation, sublimation/deposition on their spoken cues. Reflow to vertical stack at 320px width; focus one main diagram then large concise labels, use readable question cards and no horizontally shrunken desktop grid. Reduced motion uses instant disclosure."
+  }
+}
