@@ -1,5 +1,7 @@
 # L03 — إيجاد A وB لعاملين خطيين مختلفين
 
+> **Stage 03 frozen editorial snapshot (2026-10-10).** The canonical operational narration, question and feedback text now lives under `../../lessons/math1-pf-two-linear/scenes/*.json`. Do not independently edit this older connected script after Stage 04; regenerate a reading copy from the scene clips when needed.
+
 - **Stable lesson ID (Stage 03):** `math1-pf-two-linear`.
 - **Order:** 3.
 - **Original source:** `math1-algebra-scan-20261009`؛ printed **3–4** / PDF **4–5**؛ قاعدة linear distinct وExample 4 ص4.

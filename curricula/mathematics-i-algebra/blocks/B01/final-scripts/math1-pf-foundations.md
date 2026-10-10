@@ -1,5 +1,7 @@
 # L01 — الكسور الجبرية: الفكرة والتصنيف (Partial Fractions Foundations)
 
+> **Stage 03 frozen editorial snapshot (2026-10-10).** The canonical operational narration, question and feedback text now lives under `../../lessons/math1-pf-foundations/scenes/*.json`. Do not independently edit this older connected script after Stage 04; regenerate a reading copy from the scene clips when needed.
+
 - **Stable lesson ID (issued at Stage 03):** `math1-pf-foundations`
 - **Order:** 1 (within Mathematics I — Algebra)
 - **Original source:** `math1-algebra-scan-20261009`; printed pp. **1–2** / PDF **3–4**؛ Example 1 والتعريفات والأمثلة الأولى لـProper/Improper.

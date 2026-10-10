@@ -1,5 +1,7 @@
 # L02 — اختيار صورة الكسور الجزئية من عوامل المقام
 
+> **Stage 03 frozen editorial snapshot (2026-10-10).** The canonical operational narration, question and feedback text now lives under `../../lessons/math1-pf-forms/scenes/*.json`. Do not independently edit this older connected script after Stage 04; regenerate a reading copy from the scene clips when needed.
+
 - **Stable lesson ID (Stage 03):** `math1-pf-forms`
 - **Order:** 2.
 - **Original source:** `math1-algebra-scan-20261009`، المطبوع **2–3** / PDF **4**؛ Rules 1–7 وExamples 2/3.
