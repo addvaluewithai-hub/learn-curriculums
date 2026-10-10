@@ -2,7 +2,7 @@
 
 **Date of re-access:** 2026-10-10  
 **Book:** *Mathematics I (Calculus-Differentiation) For Engineering*, Associate Professor Dr. Mohamed A. Abd El Salam.  
-**Source ID:** `abd-el-salam-math-i-scan`; **43 PDF image pages**, local current-session byte length **18,199,705**, current-session measured **SHA-256 `a4d6e631fd887071db151c6e494519424dc46369376c5aeff6a5b58f72c99623`**, matching `../../references/SOURCE_MANIFEST.md`.  
+**Source ID:** `abd-el-salam-math-i-scan`; **43 PDF image pages**, local current-session byte length **18,199,705**, current-session measured **SHA-256 `a4d6e631fd887071db151c6e494519424dc46369376c5aeff6a5b58f72c99623`**, matching `../../../references/SOURCE_MANIFEST.md`.  
 **Storage:** genuine conversation-mounted attachment available in this turn **only**. This re-access **does NOT** establish durable private storage or future-agent access; user postponed that. The original scan or cropped images are **not committed** to public GitHub.
 
 ## Actually inspected photographed book pages this time
@@ -24,7 +24,7 @@ Images visually opened or re-rendered for the following **1-based PDF** spreads.
 ## Visible source discrepancy to queue, not silently resolve
 - On the photographed **printed p. 34 (PDF p. 20, right-hand side)**, the exponential-functions prose appears to assign `(0,∞)` as the **domain** and `(-∞,∞)` as the **range** of `a^x`. This is the reverse of the standard real exponential input/output sets and inconsistent with the graph shown on the same page. The previously authored B02 B draft describes standard `2^x` as accepting all real inputs and yielding positive outputs. **This is a conflict between source typography and the authored explanation, not a silently corrected quote.** Mark for independent mathematics reviewer/source fidelity recheck at B02 Stage 02. We do not transcribe the source's incorrect pair as mathematical fact.
 - Some pages are photographed/angled with faint formulas; no OCR claims, verbatim reconstruction or exact attribution of newly authored numerical examples.
-- The older `working-drafts/01-functions.md`–`05-continuity.md` and historical `reviews/STAGE_02_CRITIQUE.md` were already AI-written before the Block workflow. New `blocks/B02/working-drafts/` files copy the earlier complete spoken/assessment bodies exactly and become the **only active Stage 01 B02 manuscript set**. Metadata was updated to identify the correct active scope and historical lineage; no new Stage 02 critique or final lesson-boundary decision took place.
+- The older `../../../working-drafts/01-functions.md`–`../../../working-drafts/05-continuity.md` and historical `reviews/STAGE_02_CRITIQUE.md` were already AI-written before the Block workflow. New `blocks/B02/working-drafts/` files copy the earlier complete spoken/assessment bodies exactly and become the **only active Stage 01 B02 manuscript set**. Metadata was updated to identify the correct active scope and historical lineage; no new Stage 02 critique or final lesson-boundary decision took place.
 
 ## Reuse integrity and downstream guardrails
 - Stage 01 bounded structure is intact across the five drafts: explanation narrative, source distinctions, English exam prompts with Egyptian Arabic meaning, written attempt boundaries, and separately delayed English model answers with Egyptian Arabic reasoning.
