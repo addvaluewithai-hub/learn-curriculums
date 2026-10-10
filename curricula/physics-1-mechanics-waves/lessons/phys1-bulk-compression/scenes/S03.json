@@ -1,0 +1,44 @@
+{
+  "id": "S03",
+  "title": "Bulk Modulus and Volumetric Strain — concept 3",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.129; exercise types printed pp.130–133; authored engineering examples not book exercises"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "طيب إيه بقى Bulk Modulus؟ معامل الحجم B بيقيس مقاومة المادة للتغير الحجمي تحت تغير ضغط صغير في الظروف المناسبة. هنستخدم صيغة علمية واضحة مع **الإشارة اللي عرّفناها**: B ≈ −ΔP/(ΔV/V0). السالب هنا علشان لما الضغط يزيد والحجم يقل، قيمة B تطلع موجبة لمادة مستقرة في الظروف المعتادة. لو الكتاب أو ورقة الامتحان عرّفوا «مقدار النقص في الحجم» كمقدار موجب، ممكن تشوف نفس العلاقة من غير السالب. مفيش تناقض، بس لازم تحدد إذا ΔV معناها تغير موقّع ولا مقدار نقصان.\n\nعشان الصورة تبقى واضحة، افترض إن جسم حجمه الأصلي مية سنتيمتر مكعب، وبعد زيادة الضغط بقى تسعة وتسعين سنتيمتر مكعب. ΔV بإشارتها تساوي تسعة وتسعين ناقص مية، يعني سالب واحد سنتيمتر مكعب. لكن **مقدار النقص** هو واحد سنتيمتر مكعب بالموجب. في كتير من مسائل الامتحان السؤال ممكن يطلب quantity اسمها volume change أو magnitude of decrease؛ والتمييز بينهم جزء من فهم الفيزياء، مش مجرد مسألة إشارة على الآلة.",
+    "units": [
+      {
+        "id": "U031",
+        "text": "طيب إيه بقى Bulk Modulus؟ معامل الحجم B بيقيس مقاومة المادة للتغير الحجمي تحت تغير ضغط صغير في الظروف الم",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      },
+      {
+        "id": "U032",
+        "text": "عشان الصورة تبقى واضحة، افترض إن جسم حجمه الأصلي مية سنتيمتر مكعب، وبعد زيادة الضغط بقى تسعة وتسعين سنتيم",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-804-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "bulk",
+      "heading": "الحجم تحت ضغط منتظم",
+      "formula": "B ≈ −ΔP/(ΔV/V₀)",
+      "firstCue": "U031"
+    },
+    "landscape": "16:9: bespoke labeled bulk diagram occupying 60%; only current formula/caption at narrated cue to right, large legible math.",
+    "portrait": "9:16: reorganize bulk visual above, captions/formula full width below, at least 320px-safe labels and reduced-motion static equivalence."
+  }
+}

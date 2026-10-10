@@ -1,0 +1,39 @@
+{
+  "id": "S06",
+  "title": "Bulk Modulus and Volumetric Strain — concept 6",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.129; exercise types printed pp.130–133; authored engineering examples not book exercises"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "teaching",
+    "script": "وفي صفحات تمارين نهاية الجزء من الكتاب فيه تطبيقات تشمل أحمالًا على أعضاء، قصًا، وأجسامًا تحت ضغط. بعض أرقامها مش واضحة في الصورة، فمش هننسب إجابات أو ثوابت كتابية غير متحقَّق منها. هنختبر نفس المهارة بمسألة جديدة واضحة: تحديد نوع التشوه، واختيار العلاقة، ومراعاة الإشارة والوحدة.",
+    "units": [
+      {
+        "id": "U061",
+        "text": "وفي صفحات تمارين نهاية الجزء من الكتاب فيه تطبيقات تشمل أحمالًا على أعضاء، قصًا، وأجسامًا تحت ضغط. بعض أر",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-804-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "shear",
+      "heading": "القص وإزاحة الوجه",
+      "formula": "B ≈ −ΔP/(ΔV/V₀)",
+      "firstCue": "U061"
+    },
+    "landscape": "16:9: bespoke labeled shear diagram occupying 60%; only current formula/caption at narrated cue to right, large legible math.",
+    "portrait": "9:16: reorganize shear visual above, captions/formula full width below, at least 320px-safe labels and reduced-motion static equivalence."
+  }
+}

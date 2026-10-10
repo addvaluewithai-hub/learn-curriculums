@@ -1,0 +1,40 @@
+{
+  "id": "S09",
+  "title": "خاتمة وربط",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF pp.5–8, printed pp.121–126; clearer duplicate printed pp.124–125; original lesson recap"
+    }
+  ],
+  "narration": {
+    "id": "N09",
+    "role": "teaching",
+    "script": "إحنا فهمنا إن الصلب ممكن يكون بلوريًا أو غير متبلور، وإن شكله بيتغير تحت الحمل، وفرقنا بين رجوعه المرن والتشوه الدائم. واتعلمنا إن Stress هو متوسط حمل على مساحة في حالة مناسبة، وStrain هو التغير النسبي في الطول. السؤال اللي باقي: لو عندي Stress معين، أقدر أتوقع Strain قد إيه؟ في الدرس التالي هنربط الاتنين بمعامل المادة Young's Modulus، ونفهم ليه أبعاد القضيب نفسها بتفرق.",
+    "units": [
+      {
+        "id": "U091",
+        "text": "إحنا فهمنا إن الصلب ممكن يكون بلوريًا أو غير متبلور، وإن شكله بيتغير تحت الحمل، وفرقنا بين رجوعه المرن وا",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-801-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "المفهوم الأساسي",
+      "kind": "recap",
+      "formula": "",
+      "firstCue": "U091"
+    },
+    "landscape": "16:9: large recap explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: recap diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

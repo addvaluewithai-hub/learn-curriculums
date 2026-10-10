@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [
+    "../curricula/physics-1-mechanics-waves/lessons/*/scenes/*.tsx"
+  ]
+}

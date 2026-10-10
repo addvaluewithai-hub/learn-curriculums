@@ -1,0 +1,44 @@
+{
+  "id": "S03",
+  "title": "Solids, Deformation, Stress and Strain — step 3",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF pp.5–8, printed pp.121–126; clearer duplicate printed pp.124–125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "طيب نقرّب من أحمال الهندسة. لو عندي قضيب، وزودت قوة شد على طوله، ممكن يزيد طوله بمقدار صغير. ده نوع من Deformation، يعني تغيّر في شكل الجسم أو أبعاده. لو شلت القوة ورجع لطوله الأصلي في ظروف التجربة، يبقى حصل Elastic recovery؛ يعني استجابة مرنة قابلة للاسترجاع. ولو بعد إزالة الحمل فضل جزء من التغير، يبقى Plastic deformation أو تشوه دائم. ومع أحمال أخرى قد يحصل كسر. كلمة Elastic مش وعد إن الجسم آمن تحت أي قوة؛ هي بتوصف قدرته على الرجوع ضمن ظروف معينة.\n\nبص للمنحنى اللي عنوانه Stress–Strain في صفحة مية خمسة وعشرين. هنلاحظ جزءًا أول قريبًا من الخط المستقيم، ومنطقة تانية عليها كلمة Plastic، وعلامات توضيحية من نوع Elastic Limit وBreaking Point. فيه فرق دقيق عايزك تفتكره: كلمة Elastic معناها إن الاستجابة قابلة للاسترجاع بعد إزالة الحمل، وكلمة Linear معناها إن النسب بين الإجهاد والانفعال بتتبع خطًا مستقيمًا تقريبًا. الاتنين مش لازم يكونوا متطابقين عند كل المواد، والرسم تخطيطي من غير تدريج رقمي؛ عشان كده مش هنطلع منه قيمة لحد الكسر أو الأمان الهندسي.",
+    "units": [
+      {
+        "id": "U031",
+        "text": "طيب نقرّب من أحمال الهندسة. لو عندي قضيب، وزودت قوة شد على طوله، ممكن يزيد طوله بمقدار صغير. ده نوع من De",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      },
+      {
+        "id": "U032",
+        "text": "بص للمنحنى اللي عنوانه Stress–Strain في صفحة مية خمسة وعشرين. هنلاحظ جزءًا أول قريبًا من الخط المستقيم، و",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-801-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "المرونة والتشوّه",
+      "kind": "elastic",
+      "formula": "Elastic ≠ always linear",
+      "firstCue": "U031"
+    },
+    "landscape": "16:9: large elastic explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: elastic diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

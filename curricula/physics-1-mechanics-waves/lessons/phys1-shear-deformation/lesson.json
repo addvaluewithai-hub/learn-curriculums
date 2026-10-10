@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "phys1-shear-deformation",
+  "curriculumId": "physics-1-mechanics-waves",
+  "order": 803,
+  "title": "تشوه القص ومعامل القص",
+  "englishTitle": "Shear Deformation and Shear Modulus",
+  "scriptRevision": "B01-stage04-scenes-v1",
+  "prerequisites": [
+    "phys1-solid-structure-stress-strain",
+    "phys1-young-axial-stiffness"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "تمييز قوة القص المماسية عن التحميل الطولي",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S08"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "وصف إجهاد القص وانفعال القص والهندسة البسيطة ذات الإزاحة الصغيرة",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S08"
+      ],
+      "assessedIn": [
+        "Q01",
+        "Q02"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "حساب معامل القص وتوقع أثر مساحة السطح",
+      "taughtIn": [
+        "S03",
+        "S04",
+        "S05",
+        "S08"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08"
+  ],
+  "glossary": [
+    {
+      "term": "Shear",
+      "definition": "Explained in the spoken teaching, see applicable source scene."
+    },
+    {
+      "term": "Tangential force",
+      "definition": "Explained in the spoken teaching, see applicable source scene."
+    },
+    {
+      "term": "Shear stress",
+      "definition": "Explained in the spoken teaching, see applicable source scene."
+    },
+    {
+      "term": "Shear strain",
+      "definition": "Explained in the spoken teaching, see applicable source scene."
+    },
+    {
+      "term": "Shear modulus",
+      "definition": "Explained in the spoken teaching, see applicable source scene."
+    }
+  ]
+}

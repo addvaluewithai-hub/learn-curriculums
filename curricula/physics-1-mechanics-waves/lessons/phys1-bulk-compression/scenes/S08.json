@@ -1,0 +1,82 @@
+{
+  "id": "S08",
+  "title": "Independent assessment 2",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.129; exercise types printed pp.130–133; newly authored assessment, not numerical book solution"
+    }
+  ],
+  "narration": {
+    "id": "NQ02",
+    "role": "question",
+    "script": "A rod elongates under axial tension. A fixed-bottom block undergoes sideways displacement from a tangential top-face force. A third body shrinks in volume under nearly uniform increased surrounding pressure. Name the suitable elastic modulus and the strain measure for each situation.\n\nقدامك تلات صور تحميل مختلفة: شد محوري، قص جانبي، وانضغاط حجمي من كل الاتجاهات. قول لكل واحدة معامل المادة المناسب والانفعال المناسب، واشرح سبب الاختيار، من غير تعويض أرقام.",
+    "units": [
+      {
+        "id": "E01",
+        "text": "A rod elongates under axial tension. A fixed-bottom block undergoes sideways displacement from a tangential top-face force. A third body shrinks in volume under nearly uniform increased surrounding pressure. Name the suitable elastic modulus and the strain measure for each situation.",
+        "occurrence": 1,
+        "visualIntent": "Show English exam sentence as it is spoken."
+      },
+      {
+        "id": "A01",
+        "text": "قدامك تلات صور تحميل مختلفة: شد محوري، قص جانبي، وانضغاط حجمي من كل الاتجاهات. قول لكل واحدة معامل المادة المناسب والانفعال المناسب، واشرح سبب الاختيار، من غير تعويض أرقام.",
+        "occurrence": 1,
+        "visualIntent": "Show Arabic support only at its speech onset."
+      }
+    ]
+  },
+  "question": {
+    "id": "Q02",
+    "english": "A rod elongates under axial tension. A fixed-bottom block undergoes sideways displacement from a tangential top-face force. A third body shrinks in volume under nearly uniform increased surrounding pressure. Name the suitable elastic modulus and the strain measure for each situation.",
+    "arabic": "قدامك تلات صور تحميل مختلفة: شد محوري، قص جانبي، وانضغاط حجمي من كل الاتجاهات. قول لكل واحدة معامل المادة المناسب والانفعال المناسب، واشرح سبب الاختيار، من غير تعويض أرقام.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "E01",
+      "arabic": "A01"
+    },
+    "answer": {
+      "english": "Axial tension: Young's modulus and ΔL/L0. Simple shear: shear modulus and Δx/h. Volumetric compression: bulk modulus and ΔV/V0.",
+      "arabic": "الأول بيغير طول على محور القضيب، فنتكلم عن Young والانفعال الطولي. التاني بيحرك وجه جنبًا بالنسبة لوجه، فنتكلم عن القص وانفعال القص. التالت بيتعلق بتغير الحجم تحت زيادة الضغط، فنتكلم عن Bulk والانفعال الحجمي. ده الترتيب اللي المفروض تبدأ بيه قبل أي قانون.",
+      "reasoning": "الأول بيغير طول على محور القضيب، فنتكلم عن Young والانفعال الطولي. التاني بيحرك وجه جنبًا بالنسبة لوجه، فنتكلم عن القص وانفعال القص. التالت بيتعلق بتغير الحجم تحت زيادة الضغط، فنتكلم عن Bulk والانفعال الحجمي. ده الترتيب اللي المفروض تبدأ بيه قبل أي قانون."
+    },
+    "feedback": {
+      "id": "F02",
+      "role": "feedback",
+      "script": "Axial tension: Young's modulus and ΔL/L0. Simple shear: shear modulus and Δx/h. Volumetric compression: bulk modulus and ΔV/V0.\n\nالأول بيغير طول على محور القضيب، فنتكلم عن Young والانفعال الطولي. التاني بيحرك وجه جنبًا بالنسبة لوجه، فنتكلم عن القص وانفعال القص. التالت بيتعلق بتغير الحجم تحت زيادة الضغط، فنتكلم عن Bulk والانفعال الحجمي. ده الترتيب اللي المفروض تبدأ بيه قبل أي قانون.",
+      "units": [
+        {
+          "id": "E01",
+          "text": "Axial tension: Young's modulus and ΔL/L0. Simple shear: shear modulus and Δx/h. Volumetric compression: bulk modulus and ΔV/V0.",
+          "occurrence": 1,
+          "visualIntent": "Only after submission reveal English answer."
+        },
+        {
+          "id": "A01",
+          "text": "الأول بيغير طول على محور القضيب، فنتكلم عن Young والانفعال الطولي. التاني بيحرك وجه جنبًا بالنسبة لوجه، فنتكلم عن القص وانفعال القص. التالت بيتعلق بتغير الحجم تحت زيادة الضغط، فنتكلم عن Bulk والانفعال الحجمي. ده الترتيب اللي المفروض تبدأ بيه قبل أي قانون.",
+          "occurrence": 1,
+          "visualIntent": "Only after submission reveal Arabic reasoning."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "E01",
+        "arabic": "A01"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "phys1-804-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "heading": "تحديد النموذج",
+      "formula": "",
+      "firstCue": "E01"
+    },
+    "landscape": "16:9: neutral shear or pressure schematic at left, question reading clauses progressively revealed at right in English then Arabic; no model-answer formula or solutions before attempt.",
+    "portrait": "9:16: simplified small top diagram, English question and Arabic support in separate large wrapped blocks, ample response space; never disclose feedback."
+  }
+}

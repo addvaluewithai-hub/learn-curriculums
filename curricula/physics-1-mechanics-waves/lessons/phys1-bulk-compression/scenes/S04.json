@@ -1,0 +1,44 @@
+{
+  "id": "S04",
+  "title": "Bulk Modulus and Volumetric Strain — concept 4",
+  "objectiveIds": [
+    "O2"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.129; exercise types printed pp.130–133; authored engineering examples not book exercises"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "قبل الحساب، لازم نقول إمتى العلاقة مناسبة. إحنا بنفترض تغيرًا صغيرًا في الحجم، وزيادة ضغط شبه منتظمة حول الجسم، ومعامل B مناسب للحالة الفيزيائية المدروسة. لو حجم الجسم اتغير بنسبة كبيرة أو الضغط غير منتظم جدًا أو المادة لها استجابة مختلفة، النموذج البسيط وحده مش كفاية. كمان مش شرط جسم صلب تحت ضغط متجانس يصغّر كل اتجاه بنفس النسبة لو خواصه معقدة؛ إحنا بنستخدم تغيير الحجم الكلي في هذا التمهيد.\n\nهنحل مثالًا من تأليفنا، وليس من قيم تمارين الكتاب. جسم حجمه الأصلي 0.005 متر مكعب، وزيادة الضغط المنتظمة عليه 2 × 10⁶ باسكال. ومعامل Bulk Modulus المفترض 1 × 10⁹ باسكال. المطلوب مقدار النقص في الحجم. نكتب مقدار النقص |ΔV| ≈ (ΔP/B)V0. النسبة 2 × 10⁶ على 10⁹ تساوي 0.002، ونضرب في 0.005 متر مكعب، فيطلع 0.00001 متر مكعب. وده يساوي 10 سنتيمترات مكعبة، لأن كل متر مكعب يساوي مليون سنتيمتر مكعب. لكن لو السؤال طلب ΔV نفسه بالتعريف الموقّع، هتكتب سالب 0.00001 متر مكعب.",
+    "units": [
+      {
+        "id": "U041",
+        "text": "قبل الحساب، لازم نقول إمتى العلاقة مناسبة. إحنا بنفترض تغيرًا صغيرًا في الحجم، وزيادة ضغط شبه منتظمة حول",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      },
+      {
+        "id": "U042",
+        "text": "هنحل مثالًا من تأليفنا، وليس من قيم تمارين الكتاب. جسم حجمه الأصلي 0.005 متر مكعب، وزيادة الضغط المنتظمة",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-804-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "bulk",
+      "heading": "الحجم تحت ضغط منتظم",
+      "formula": "B ≈ −ΔP/(ΔV/V₀)",
+      "firstCue": "U041"
+    },
+    "landscape": "16:9: bespoke labeled bulk diagram occupying 60%; only current formula/caption at narrated cue to right, large legible math.",
+    "portrait": "9:16: reorganize bulk visual above, captions/formula full width below, at least 320px-safe labels and reduced-motion static equivalence."
+  }
+}

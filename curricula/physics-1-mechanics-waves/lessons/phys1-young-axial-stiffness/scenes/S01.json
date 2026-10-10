@@ -1,0 +1,44 @@
+{
+  "id": "S01",
+  "title": "Young's Modulus and Axial Stiffness — step 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.8, printed pp.126–127; clearer duplicate printed p.125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "آخر مرة عرفنا نفرّق بين حاجتين: Stress بيحكي متوسط القوة على مساحة المقطع في حالة شد محوري مبسطة، وStrain بيحكي مقدار الاستطالة مقارنة بالطول الأصلي. لكن كمهندسين ده لسه نص الإجابة. لو هنعمل قضيب في ماكينة، مش كفاية نقول عليه شد مقداره ألف نيوتن؛ لازم نعرف هل هيتغير طوله جزء صغير من الملّيمتر ولا أكتر. وعلشان نتوقع ده، هنحتاج خاصية من خواص المادة.\n\nتخيل قضيبين من أبعاد متطابقة اتشدوا بالقوة نفسها، لكن كل واحد مصنوع من مادة مختلفة. ممكن التغير النسبي في الطول يبقى مختلف. في الجزء المرن الخطي، يعني بنفترض علاقة تناسب تقريبية بين Stress وStrain ضمن حمل صغير مناسب، بنسمي ثابت التناسب Young's Modulus. في صفحات المصدر رمزه Y، وهتلاقيه كمان E في مراجع هندسية. وهنستخدم Y هنا علشان يكون متسقًا مع الكتاب.",
+    "units": [
+      {
+        "id": "U011",
+        "text": "آخر مرة عرفنا نفرّق بين حاجتين: Stress بيحكي متوسط القوة على مساحة المقطع في حالة شد محوري مبسطة، وStrain",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      },
+      {
+        "id": "U012",
+        "text": "تخيل قضيبين من أبعاد متطابقة اتشدوا بالقوة نفسها، لكن كل واحد مصنوع من مادة مختلفة. ممكن التغير النسبي في",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-802-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "Young's Modulus",
+      "kind": "axial",
+      "formula": "Y = σ/ε",
+      "firstCue": "U011"
+    },
+    "landscape": "16:9: large axial explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: axial diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

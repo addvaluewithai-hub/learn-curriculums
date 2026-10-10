@@ -1,0 +1,45 @@
+{
+  "id": "S05",
+  "title": "Young's Modulus and Axial Stiffness — step 5",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.8, printed pp.126–127; clearer duplicate printed p.125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N05",
+    "role": "teaching",
+    "script": "يعني لو صنعنا قضيبين من نفس المادة ونفس مساحة المقطع، لكن واحد أطول، الاتنين لهم نفس Y ما دمنا بنقارن خواص المادة في الظروف نفسها. إنما k للقضيب الأطول أقل، لأنه عند نفس القوة هيتمدد أكتر. دي كلمة مهمة: **material modulus** مقابل **effective axial stiffness of a component**. لا تخلطهم، ولا تتخيل إن كل جسم حقيقي يمكن اعتباره نابضًا واحدًا بنفس k مهما كان اتجاه التحميل.\n\nممكن تكون شوفت في النابض قوة الاسترجاع مكتوبة بإشارة سالبة: F_restoring = −kx. السالب هنا يصف اتجاه قوة الاسترجاع المعاكس للإزاحة؛ إنما في مسائل شد القضيب اللي بنحسب فيها **مقادير** القوة والاستطالة بنكتب F = k ΔL. الاختلاف مش تناقض، هو فرق بين اتجاه متجه ومقدار موجب.",
+    "units": [
+      {
+        "id": "U051",
+        "text": "يعني لو صنعنا قضيبين من نفس المادة ونفس مساحة المقطع، لكن واحد أطول، الاتنين لهم نفس Y ما دمنا بنقارن خوا",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      },
+      {
+        "id": "U052",
+        "text": "ممكن تكون شوفت في النابض قوة الاسترجاع مكتوبة بإشارة سالبة: F_restoring = −kx. السالب هنا يصف اتجاه قوة ا",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-802-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "Hooke & k",
+      "kind": "spring",
+      "formula": "k = YA/L₀",
+      "firstCue": "U051"
+    },
+    "landscape": "16:9: large spring explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: spring diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

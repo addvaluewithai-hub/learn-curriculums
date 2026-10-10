@@ -1,0 +1,44 @@
+{
+  "id": "S02",
+  "title": "Solids, Deformation, Stress and Strain — step 2",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF pp.5–8, printed pp.121–126; clearer duplicate printed pp.124–125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N02",
+    "role": "teaching",
+    "script": "في الصلب، الجسيمات مرتبطة بتآثرات فيما بينها، وكتير منها بيهتز حوالين مواضع اتزانه بدل ما يتحرك بحرية داخل الجسم. الرسم اللي قدامنا في المصدر بيقرب التآثر كأنه وصلات تشبه النوابض. ده **نموذج توضيحي**، مش معناه وجود سوست حرفية بين الذرات. لو المسافة بين الجسيمات تغيرت مقدار صغير، التآثرات ممكن تميل لإعادتها للاتزان. وعلشان كده نقدر نتصور مقاومة الصلب للتشوه.\n\nبس هل كل المواد الصلبة ترتيبها الداخلي واحد؟ لا. لو الجسيمات بتكوّن نمطًا منتظمًا يتكرر على مدى طويل، بنسمي المادة Crystalline solid، أو مادة بلورية. الرسم في الكتاب بيستخدم مثال الشبكة البلورية لمركب زي NaCl. ولو الترتيب ما فيهوش نفس التكرار الدوري طويل المدى، بنتكلم عن Amorphous solid، والمثال المذكور هو الزجاج. لاحظ إن Amorphous مش معناها إن مفيش روابط أو إن الجسيمات بلا تنظيم محلي؛ المقصود غياب الشبكة الدورية الممتدة. وما نقدرش نقول إن البلوري «أقوى» لمجرد شكل الرسم؛ قوة التحمل محتاجة اختبار مختلف.",
+    "units": [
+      {
+        "id": "U021",
+        "text": "في الصلب، الجسيمات مرتبطة بتآثرات فيما بينها، وكتير منها بيهتز حوالين مواضع اتزانه بدل ما يتحرك بحرية داخ",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      },
+      {
+        "id": "U022",
+        "text": "بس هل كل المواد الصلبة ترتيبها الداخلي واحد؟ لا. لو الجسيمات بتكوّن نمطًا منتظمًا يتكرر على مدى طويل، بنس",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-801-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "تركيب المادة",
+      "kind": "particles",
+      "formula": "Crystalline ≠ Amorphous",
+      "firstCue": "U021"
+    },
+    "landscape": "16:9: large particles explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: particles diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

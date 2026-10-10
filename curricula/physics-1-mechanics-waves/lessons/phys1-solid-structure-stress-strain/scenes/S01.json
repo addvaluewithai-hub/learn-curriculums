@@ -1,0 +1,44 @@
+{
+  "id": "S01",
+  "title": "Solids, Deformation, Stress and Strain — step 1",
+  "objectiveIds": [
+    "O1"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF pp.5–8, printed pp.121–126; clearer duplicate printed pp.124–125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N01",
+    "role": "teaching",
+    "script": "تخيل معايا إنك مهندس جديد داخل ورشة، وقدامك قضيب معدني وجزء زجاجي، وكل واحد فيهم شكله ثابت وإنت ماسكه. هل كده معنى إن الجسيمات اللي جواهم متوقفة تمامًا؟ ولو شدينا القضيب شوية، هل لازم يفضل ممدود، ولا ممكن يرجع لطوله بعد ما نشيل القوة؟ إحنا النهارده هنمشي من السؤال اللي جوا المادة، للسؤال اللي بيحصل للجسم لما نحمله قوة، لحد ما يبقى عندنا طريقتان واضحتان لوصف التحميل والاستجابة: Stress وStrain.\n\nأول رسم في الفصل بيقارن States of Matter. Solid غالبًا بيحافظ على شكل وحجم محددين في الظروف المعتادة. Liquid بيحتفظ تقريبًا بحجمه لكنه بياخد شكل الوعاء. Gas بينتشر ويملأ الحيز المتاح. وفي الرسم كمان Plasma، حالة فيها جسيمات مشحونة، بس مش هنفصل فيها هنا. إحنا محتاجين المقارنة فقط علشان نفهم ليه المادة الصلبة بتقاوم تغيّر شكلها بصورة مختلفة عن السائل والغاز.",
+    "units": [
+      {
+        "id": "U011",
+        "text": "تخيل معايا إنك مهندس جديد داخل ورشة، وقدامك قضيب معدني وجزء زجاجي، وكل واحد فيهم شكله ثابت وإنت ماسكه. هل",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      },
+      {
+        "id": "U012",
+        "text": "أول رسم في الفصل بيقارن States of Matter. Solid غالبًا بيحافظ على شكل وحجم محددين في الظروف المعتادة. Liq",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-801-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "تركيب المادة",
+      "kind": "particles",
+      "formula": "Crystalline ≠ Amorphous",
+      "firstCue": "U011"
+    },
+    "landscape": "16:9: large particles explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: particles diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

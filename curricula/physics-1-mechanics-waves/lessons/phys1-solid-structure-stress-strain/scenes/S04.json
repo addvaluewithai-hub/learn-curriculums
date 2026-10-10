@@ -1,0 +1,44 @@
+{
+  "id": "S04",
+  "title": "Solids, Deformation, Stress and Strain — step 4",
+  "objectiveIds": [
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF pp.5–8, printed pp.121–126; clearer duplicate printed pp.124–125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "خلينا نسأل: إزاي نقارن شد قضيب رفيع بشد قضيب سميك؟ لو الاتنين اتعرضوا لنفس القوة، التأثير موزع على مساحتين مختلفتين. علشان كده عندنا Normal stress، أو الإجهاد العمودي. في نموذج قضيب مستقيم منتظم المقطع محمّل بشد محوري منتظم تقريبًا، متوسط الإجهاد الهندسي يساوي F/A، حيث F مقدار القوة بالنيوتن وA مساحة المقطع الأصلية العمودية على اتجاه القوة، بالمتر المربع. الناتج نيوتن لكل متر مربع، اللي اسمه Pascal أو Pa. لو توزيع الحمل معقد، الإجهاد عند نقطة جوه الجسم قد يكون مختلفًا؛ إحنا بنحسب متوسطًا في النموذج البسيط.\n\nلكن مقدار القوة لكل مساحة بيحكي جانب التحميل بس. الجسم اتغير قد إيه بالنسبة لأبعاده الأصلية؟ هنا يظهر Strain أو الانفعال. لو القضيب طوله الأصلي L0، وطوله بعد الشد Lfinal، نكتب ΔL = Lfinal ناقص L0. والانفعال الطولي الهندسي يساوي ε = ΔL/L0. في الشد اللي يزيد الطول، ΔL موجبة. وفي الضغط اللي يقصّر الطول ممكن تكون سالبة لو احتفظنا بالإشارة. وبما إننا بنقسم طول على طول، الانفعال ملوش وحدة. مش معنى كده إنه ملوش قيمة؛ هو نسبة بتسمح بالمقارنة بين عينات مختلفة الطول.",
+    "units": [
+      {
+        "id": "U041",
+        "text": "خلينا نسأل: إزاي نقارن شد قضيب رفيع بشد قضيب سميك؟ لو الاتنين اتعرضوا لنفس القوة، التأثير موزع على مساحتي",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      },
+      {
+        "id": "U042",
+        "text": "لكن مقدار القوة لكل مساحة بيحكي جانب التحميل بس. الجسم اتغير قد إيه بالنسبة لأبعاده الأصلية؟ هنا يظهر Str",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-801-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "Stress & Strain",
+      "kind": "stress",
+      "formula": "σ = F/A  ·  ε = ΔL/L₀",
+      "firstCue": "U041"
+    },
+    "landscape": "16:9: large stress explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: stress diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

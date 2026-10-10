@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "phys1-young-axial-stiffness",
+  "curriculumId": "physics-1-mechanics-waves",
+  "order": 802,
+  "title": "معامل يونج والصلابة المحورية",
+  "englishTitle": "Young's Modulus and Axial Stiffness",
+  "scriptRevision": "B01-stage04-scenes-v1",
+  "prerequisites": [
+    "phys1-solid-structure-stress-strain"
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "اشتقاق معامل يونج واستطالة قضيب منتظم صغير الانفعال",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "تمييز معامل مادة Y من صلابة العنصر k",
+      "taughtIn": [
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q01",
+        "Q02"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "توقع أثر الطول والمساحة وحل مسائل وحدات SI",
+      "taughtIn": [
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09"
+  ],
+  "glossary": [
+    {
+      "term": "Young's Modulus",
+      "definition": "Explained contextually in the spoken scenes."
+    },
+    {
+      "term": "Hooke's Law",
+      "definition": "Explained contextually in the spoken scenes."
+    },
+    {
+      "term": "Axial stiffness",
+      "definition": "Explained contextually in the spoken scenes."
+    },
+    {
+      "term": "Tensile stress",
+      "definition": "Explained contextually in the spoken scenes."
+    }
+  ]
+}

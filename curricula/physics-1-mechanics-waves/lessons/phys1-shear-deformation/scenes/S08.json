@@ -1,0 +1,40 @@
+{
+  "id": "S08",
+  "title": "خلاصة الدرس وربطه بما قبله وبعده",
+  "objectiveIds": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.128; exercise types printed pp.130–133; editorial wrap-up"
+    }
+  ],
+  "narration": {
+    "id": "N08",
+    "role": "teaching",
+    "script": "بدأنا بحركة وجه فوق بالنسبة لوجه تحت، وميزنا القوة الموازية للوجه عن قوة الشد المحورية. بعدها عرفنا Shear stress وShear strain ومعامل القص S، وحسبنا مثالًا وحلينا حالة جديدة بنفس المنطق. وبكده بقيت تعرف تختار بين استطالة طولية وبين إزاحة جانبية من شكل الحمل. في الدرس اللي جاي هنتحول لتأثير تالت: ضغط ييجي من كل الاتجاهات ويغير الحجم، مش مجرد طول أو ميل؛ وده Bulk Modulus.",
+    "units": [
+      {
+        "id": "U081",
+        "text": "بدأنا بحركة وجه فوق بالنسبة لوجه تحت، وميزنا القوة الموازية للوجه عن قوة الشد المحورية. بعدها عرفنا Shear",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-803-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "bulk",
+      "heading": "الحجم تحت ضغط منتظم",
+      "formula": "τ = F/A   γ = Δx/h   S = τ/γ",
+      "firstCue": "U081"
+    },
+    "landscape": "16:9: bespoke labeled bulk diagram occupying 60%; only current formula/caption at narrated cue to right, large legible math.",
+    "portrait": "9:16: reorganize bulk visual above, captions/formula full width below, at least 320px-safe labels and reduced-motion static equivalence."
+  }
+}

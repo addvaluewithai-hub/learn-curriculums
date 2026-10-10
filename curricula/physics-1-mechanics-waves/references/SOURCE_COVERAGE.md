@@ -1,0 +1,42 @@
+# SOURCE COVERAGE — Physics I (Stage 00)
+
+البيانات أدناه تفرق بين **ترقيم صفحات PDF** و**أرقام صفحات الكتاب المطبوعة**. الصور ليست PDF نصيًا قابلًا للبحث؛ اعتمد الفحص البصري للغلاف/الفهرس والصفحات المختارة، ويعاد فتح كل صفحة تفصيليًا عند تأليف الـBlock. بعض المعادلات/الأرقام في الصور غير واضحة بالكامل.
+
+| الملف | صفحات PDF | ترقيم الكتاب المطبوع | الحالة | شاهد ومضمون مسموح التخطيط منه |
+|---|---|---|---|---|
+| S01 | 1–2 | الغلاف/العنوان، ص2 | body-inspected (هوية) | PHYSICS I، Mechanics and Waves، اسما المؤلفين |
+| S01 | 3–4 | فهرس ص3–4 | contents-only | عناوين الفصول 1–9، موضوعات الموائع وبعض فهرس الصفحات؛ روابط وأرقام صفحات معطوبة |
+| S01 | 5 | ص121 | skimmed-available | States of Matter وElastic Properties of Solids؛ بداية الجزء المصور |
+| S01 | 6 | ص122–123 | body-inspected | Solids، Structure of Solids، crystalline/amorphous وتمثيلات البنية |
+| S01 | 7 | ص124–125 | body-inspected | Stress/Strain، منحنى الاستجابة والمعاملات الثلاثة؛ الصورة غير مثالية |
+| S01 | 8 | ص126–127 | body-inspected | Deformation of Solids؛ stress/strain؛ Young's Modulus، علاقة Hooke/constant |
+| S01 | 9 | ص128–129 | body-inspected | Shear Modulus وBulk Modulus وتغير الحجم |
+| S01 | 10–11 | ص130–133 | skimmed-available | تمارين صلبة/مرونة؛ تُراجع الأرقام والمسائل تفصيليًا قبل الحل |
+| S01 | 12–13 | ص134–137 | skimmed-available | بداية Sound Waves؛ موجات طولية، compressions/rarefactions ومعلمات الموجة |
+| S01 | 14–15 | ص138–141 | skimmed-available | Characteristics/Intensity of Sound، decibel، مسائل وتطبيقات |
+| S01 | 16–17 | ص142–145 | skimmed-available | Reflection/Refraction وInterference وDiffraction |
+| S01 | 18–19 | ص146–149 | skimmed-available | Doppler Effect ورسومات/أمثلة للمصدر والمراقب |
+| S02 | 1 | ص124–125 | body-inspected | لقطة أدق لتعريف Stress/Strain والمنحنى وأنواع Moduli؛ **مكرر** من S01 PDF ص7 |
+| غير موجود | — | فصول 1–7 بالكامل | not-provided (فهرس فقط) | لا يجوز كتابة شرح مفصل أو اختلاق أمثلة من عناوينها |
+| غير موجود | — | المقرر بعد ص149: Fluid Mechanics وغيرها | not-provided (فهرس فقط) | تذكرها قائمة المحتويات؛ جسمها غير متاح |
+
+## القيود الحرجة
+- المرفوع **19 صورة PDF رئيسية + صورة PDF تكميلية واحدة**؛ لكنه ليس 20 صفحة مطبوعة متجاورة من البداية. الصور الثنائية تضم ورقتين مطبوعتين في كل صورة؛ المتاح من جسم الكتاب تقريبًا المطبوع ص121–149.
+- النص القابل للاستخراج من الـPDF يساوي صفرًا تقريبًا؛ عرض الصورة وفهم الرسم والمعادلات إلزامي قبل تأليف المحتوى. لا تعتبر حالة `body-inspected` مراجعة علمية أو تدقيقًا لكل رقم.
+- يوجد **خلل في فهرس المصدر**: `Error! Bookmark not defined.` متكرر؛ مداخل الموائع وأرقامها غير موثوقة مقابل صور المتن المصور. لا توحّد صفحات غير متطابقة دون تحقق.
+- S02 يرفع الوضوح في ص124–125 ولا يزيد مدى التغطية.
+- موضوعات نهاية الموجات أو بداية الموائع بعد ص149، وكذلك جسم فصول 1–7، **غير متاحة** في الملفات المرفوعة.
+- أي فصل/Block يبدأ Stage 01 يعيد فحص الصفحات الأصلية والمصطلحات والرموز والمعادلات والتمارين بالأرقام، ويسجل مشاكل المصدر قبل التدريس.
+
+## Stage 01 — B01 إعادة فتح المرجع (2026-10-10)
+- أُعيد فتح ومراجعة **S01 PDF صفحات 5–11** مباشرة، عبر صور موضحة، مع **S02 PDF ص1** للتحقق من النص/الرسم في المطبوع 124–125.
+- الصفحات المطبوع 121–129 تدعم مفاهيم States/Structure of Solids وDeformation وStress/Strain وYoung/Shear/Bulk وHooke بالرسوم والمعادلات الظاهرة.
+- الصفحات المطبوع 130–133 عُوينت كتمارين: عمود رأسي، حمولة الذراع، قص لوح/مكدس، كرة مضغوطة في سائل. **أرقام/أسس بعض المعطيات غير مقروءة بدقة** ولا تُعد مصدرًا لقيم مسائلنا المؤلفة أو إجابات كتابية مزعومة.
+- **اختلاف صياغة الصيغ:** رسم Bulk في المطبوع 129 باهت؛ استخدام \(B=-\Delta P/(\Delta V/V_0)\) في مسودة 03 هو توضيح بإشارة الضغط/الحجم يحتاج مراجعة بشرية، وليس نقلًا حرفيًا مؤكَّدًا من الصورة.
+- **الناتج:** خريطة متطلبات ومسودات B01 الثلاث فقط؛ لا مراجعة علمية مستقلة ولا إثبات وصول مستقبلي إلى نسخة Drive ثابتة.
+
+## B01 Stage 03 — finalized topical coverage (2026-10-10)
+- Source S01 printed pp.121–126 and S02 clearer pp.124–125 → L801 particle structure, deformation, stress-strain. S01 pp.126–127 → L802 Young/Hooke and axial stiffness.
+- Source S01 printed p.128 → L803 shear; printed p.129 → L804 bulk. S01 printed pp.130–133 are exercise examples/themes referenced without attributing illegible numeric constants or answers to the scan.
+- Re-checked provided images at Stage 03; no source additions and no resolution of faint text in p.129 and numerical exercises. Bulk sign and shear angular caveats are *authored scientific clarifications*, pending qualified review.
+- This Stage 03 map makes **no new claims about chapters 1–7, Fluid Mechanics or other unseen pages**, and does not turn source ownership or access into publication permission.

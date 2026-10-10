@@ -1,0 +1,83 @@
+{
+  "id": "S07",
+  "title": "Independent assessment 1",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.129; exercise types printed pp.130–133; newly authored assessment, not numerical book solution"
+    }
+  ],
+  "narration": {
+    "id": "NQ01",
+    "role": "question",
+    "script": "A solid initially occupies 0.006 m³. Its bulk modulus is 3 × 10⁹ Pa. The external pressure rises uniformly by 1.5 × 10⁶ Pa. Assuming a small elastic volume change, estimate ΔV with its sign and the magnitude of the volume reduction in cm³.\n\nالحجم الأول 0.006 متر مكعب، B تلاتة في عشرة أس تسعة باسكال، وزيادة الضغط واحد ونص في عشرة أس ستة باسكال. عايز التغير في الحجم بإشارته، ومقدار النقص بالسنتيمتر المكعب. اكتب قانونك وحول وحداتك واتأكد قبل الرد.",
+    "units": [
+      {
+        "id": "E01",
+        "text": "A solid initially occupies 0.006 m³. Its bulk modulus is 3 × 10⁹ Pa. The external pressure rises uniformly by 1.5 × 10⁶ Pa. Assuming a small elastic volume change, estimate ΔV with its sign and the magnitude of the volume reduction in cm³.",
+        "occurrence": 1,
+        "visualIntent": "Show English exam sentence as it is spoken."
+      },
+      {
+        "id": "A01",
+        "text": "الحجم الأول 0.006 متر مكعب، B تلاتة في عشرة أس تسعة باسكال، وزيادة الضغط واحد ونص في عشرة أس ستة باسكال. عايز التغير في الحجم بإشارته، ومقدار النقص بالسنتيمتر المكعب. اكتب قانونك وحول وحداتك واتأكد قبل الرد.",
+        "occurrence": 1,
+        "visualIntent": "Show Arabic support only at its speech onset."
+      }
+    ]
+  },
+  "question": {
+    "id": "Q01",
+    "english": "A solid initially occupies 0.006 m³. Its bulk modulus is 3 × 10⁹ Pa. The external pressure rises uniformly by 1.5 × 10⁶ Pa. Assuming a small elastic volume change, estimate ΔV with its sign and the magnitude of the volume reduction in cm³.",
+    "arabic": "الحجم الأول 0.006 متر مكعب، B تلاتة في عشرة أس تسعة باسكال، وزيادة الضغط واحد ونص في عشرة أس ستة باسكال. عايز التغير في الحجم بإشارته، ومقدار النقص بالسنتيمتر المكعب. اكتب قانونك وحول وحداتك واتأكد قبل الرد.",
+    "attempt": "written",
+    "readingUnitIds": {
+      "english": "E01",
+      "arabic": "A01"
+    },
+    "answer": {
+      "english": "ΔV = −(ΔP/B)V0 = −(1.5 × 10⁶ / 3 × 10⁹) × 0.006 = −3 × 10⁻⁶ m³. Magnitude of the reduction = 3 cm³.",
+      "arabic": "قسمنا ΔP على B، ثم ضربنا في الحجم الأصلي، وحطينا إشارة سالبة علشان الحجم النهائي أقل. مقدار النقص 0.000003 متر مكعب، يعني 3 سنتيمترات مكعبة. لو كنت جاوبت موجب 3 وأنت مطلوب منك signed ΔV، فده مقدار النقص وليس التغير الموقّع. خلي بالك من صياغة السؤال.",
+      "reasoning": "قسمنا ΔP على B، ثم ضربنا في الحجم الأصلي، وحطينا إشارة سالبة علشان الحجم النهائي أقل. مقدار النقص 0.000003 متر مكعب، يعني 3 سنتيمترات مكعبة. لو كنت جاوبت موجب 3 وأنت مطلوب منك signed ΔV، فده مقدار النقص وليس التغير الموقّع. خلي بالك من صياغة السؤال."
+    },
+    "feedback": {
+      "id": "F01",
+      "role": "feedback",
+      "script": "ΔV = −(ΔP/B)V0 = −(1.5 × 10⁶ / 3 × 10⁹) × 0.006 = −3 × 10⁻⁶ m³. Magnitude of the reduction = 3 cm³.\n\nقسمنا ΔP على B، ثم ضربنا في الحجم الأصلي، وحطينا إشارة سالبة علشان الحجم النهائي أقل. مقدار النقص 0.000003 متر مكعب، يعني 3 سنتيمترات مكعبة. لو كنت جاوبت موجب 3 وأنت مطلوب منك signed ΔV، فده مقدار النقص وليس التغير الموقّع. خلي بالك من صياغة السؤال.",
+      "units": [
+        {
+          "id": "E01",
+          "text": "ΔV = −(ΔP/B)V0 = −(1.5 × 10⁶ / 3 × 10⁹) × 0.006 = −3 × 10⁻⁶ m³. Magnitude of the reduction = 3 cm³.",
+          "occurrence": 1,
+          "visualIntent": "Only after submission reveal English answer."
+        },
+        {
+          "id": "A01",
+          "text": "قسمنا ΔP على B، ثم ضربنا في الحجم الأصلي، وحطينا إشارة سالبة علشان الحجم النهائي أقل. مقدار النقص 0.000003 متر مكعب، يعني 3 سنتيمترات مكعبة. لو كنت جاوبت موجب 3 وأنت مطلوب منك signed ΔV، فده مقدار النقص وليس التغير الموقّع. خلي بالك من صياغة السؤال.",
+          "occurrence": 1,
+          "visualIntent": "Only after submission reveal Arabic reasoning."
+        }
+      ],
+      "answerUnitIds": {
+        "english": "E01",
+        "arabic": "A01"
+      }
+    }
+  },
+  "visual": {
+    "renderer": "phys1-804-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "question",
+      "heading": "تحديد النموذج",
+      "formula": "",
+      "firstCue": "E01"
+    },
+    "landscape": "16:9: neutral shear or pressure schematic at left, question reading clauses progressively revealed at right in English then Arabic; no model-answer formula or solutions before attempt.",
+    "portrait": "9:16: simplified small top diagram, English question and Arabic support in separate large wrapped blocks, ample response space; never disclose feedback."
+  }
+}

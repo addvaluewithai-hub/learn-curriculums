@@ -1,0 +1,45 @@
+{
+  "id": "S04",
+  "title": "Shear Deformation and Shear Modulus — concept 4",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.7 printed p.125; p.9 printed p.128; exercise types printed pp.130–133; authored engineering examples not book exercises"
+    }
+  ],
+  "narration": {
+    "id": "N04",
+    "role": "teaching",
+    "script": "دلوقتي عايزك تتأكد من معنى كل طول، لأن ده مكان خطأ متكرر. الارتفاع h هو المسافة بين الوجه اللي بيتحرك والوجه المثبت، مش طول أي ضلع في الصورة. وΔx هي الحركة الجانبية **النسبية** بين الوجهين، مش الاستطالة المحورية. لو استخدمت ΔL/L0 بالصدفة من مسألة Young، هتبقى غيرت نوع التشوه قبل ما تبدأ الحل. الرسم هنا ضروري علشان تعرف اتجاه الحمل وتحدد الأبعاد الصح.\n\nسؤال قصير قبل التطبيق: لو زوّدنا مساحة الوجه للضعف مع ثبات القوة والارتفاع ومعامل المادة، إيه اللي يحصل للإجهاد والإزاحة في النموذج البسيط؟ الإجهاد F/A هيقل للنصف. والانفعال τ/S هيقل للنصف، ومع ثبات h، الإزاحة الجانبية Δx تقل للنصف. ده مش قانون إضافي؛ ده قراءة واعية للعلاقات. ولو زوّدنا الارتفاع مع ثبات الإجهاد ومعامل المادة، نفس γ ممكن يقابله Δx أكبر؛ الأبعاد الهندسية مهمة زي ما شفنا في القضيب الطولي.",
+    "units": [
+      {
+        "id": "U041",
+        "text": "دلوقتي عايزك تتأكد من معنى كل طول، لأن ده مكان خطأ متكرر. الارتفاع h هو المسافة بين الوجه اللي بيتحرك وال",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      },
+      {
+        "id": "U042",
+        "text": "سؤال قصير قبل التطبيق: لو زوّدنا مساحة الوجه للضعف مع ثبات القوة والارتفاع ومعامل المادة، إيه اللي يحصل ل",
+        "occurrence": 1,
+        "visualIntent": "Reveal this narrated concept only at its speech onset."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-803-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "kind": "shear",
+      "heading": "القص وإزاحة الوجه",
+      "formula": "τ = F/A   γ = Δx/h   S = τ/γ",
+      "firstCue": "U041"
+    },
+    "landscape": "16:9: bespoke labeled shear diagram occupying 60%; only current formula/caption at narrated cue to right, large legible math.",
+    "portrait": "9:16: reorganize shear visual above, captions/formula full width below, at least 320px-safe labels and reduced-motion static equivalence."
+  }
+}

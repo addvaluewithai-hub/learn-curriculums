@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "kind": "learn-authoring",
+  "id": "phys1-solid-structure-stress-strain",
+  "curriculumId": "physics-1-mechanics-waves",
+  "order": 801,
+  "title": "بنية الصلب والتشوه والإجهاد والانفعال",
+  "englishTitle": "Solids, Deformation, Stress and Strain",
+  "scriptRevision": "B01-stage04-scenes-v1",
+  "prerequisites": [],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "تصنيف المواد البلورية وغير المتبلورة حسب البنية",
+      "taughtIn": [
+        "S01",
+        "S02",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "O2",
+      "description": "التمييز بين الرجوع المرن والتغير البلاستيكي وحدود رسم الإجهاد والانفعال",
+      "taughtIn": [
+        "S03",
+        "S06",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "O3",
+      "description": "حساب متوسط إجهاد الشد والانفعال الهندسي في النظام الدولي",
+      "taughtIn": [
+        "S04",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "assessedIn": [
+        "Q02"
+      ]
+    }
+  ],
+  "scenes": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09"
+  ],
+  "glossary": [
+    {
+      "term": "Solid",
+      "definition": "Explained contextually in the spoken scenes."
+    },
+    {
+      "term": "Crystalline",
+      "definition": "Explained contextually in the spoken scenes."
+    },
+    {
+      "term": "Amorphous",
+      "definition": "Explained contextually in the spoken scenes."
+    },
+    {
+      "term": "Elastic",
+      "definition": "Explained contextually in the spoken scenes."
+    },
+    {
+      "term": "Plastic",
+      "definition": "Explained contextually in the spoken scenes."
+    },
+    {
+      "term": "Stress",
+      "definition": "Explained contextually in the spoken scenes."
+    },
+    {
+      "term": "Strain",
+      "definition": "Explained contextually in the spoken scenes."
+    }
+  ]
+}

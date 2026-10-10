@@ -1,0 +1,39 @@
+{
+  "id": "S06",
+  "title": "Young's Modulus and Axial Stiffness — step 6",
+  "objectiveIds": [
+    "O2",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.8, printed pp.126–127; clearer duplicate printed p.125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N06",
+    "role": "teaching",
+    "script": "قبل مسألة الامتحان، افتكر إننا ما نقدرش نستخدم الصيغ دي لو الجسم خرج عن الاستجابة الخطية أو حصل له تشوه دائم كبير. المسألة لازم تصرّح أو تسمح نفترض سلوكًا مرنًا خطيًا، وهنعتبر القضيب موحد المقطع والتحميل محوريًا. لو كانت الحالة فيها انحناء أو قص أو تغيير كبير في المساحة، يبقى محتاجين نموذج مختلف.",
+    "units": [
+      {
+        "id": "U061",
+        "text": "قبل مسألة الامتحان، افتكر إننا ما نقدرش نستخدم الصيغ دي لو الجسم خرج عن الاستجابة الخطية أو حصل له تشوه د",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-802-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "المفهوم الأساسي",
+      "kind": "rod",
+      "formula": "",
+      "firstCue": "U061"
+    },
+    "landscape": "16:9: large rod explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: rod diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}

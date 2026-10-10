@@ -1,0 +1,45 @@
+{
+  "id": "S03",
+  "title": "Young's Modulus and Axial Stiffness — step 3",
+  "objectiveIds": [
+    "O1",
+    "O3"
+  ],
+  "sources": [
+    {
+      "sourceId": "phys1-main-scan",
+      "locator": "Main PDF p.8, printed pp.126–127; clearer duplicate printed p.125; authored teaching examples explicitly marked"
+    }
+  ],
+  "narration": {
+    "id": "N03",
+    "role": "teaching",
+    "script": "هنشتغل أولًا على معنى العوامل بدل الرقم. في ΔL = F L0/(Y A)، لو القوة زادت للضعف وكل حاجة تانية ثابتة في نفس النطاق، الاستطالة تتضاعف. لو الطول الأصلي اتضاعف، الاستطالة كمان تتضاعف. لو مساحة المقطع اتضاعفت، الاستطالة تنخفض للنصف. ولو المادة معامل Y بتاعها أكبر للضعف، الاستطالة أقل للنصف. مفيش قانون جديد في كل جملة؛ ده تفسير العلاقة.\n\nوأهم تحذير في الوحدات: واحد ملّيمتر يساوي 0.001 متر، لكن واحد ملّيمتر مربع يساوي 0.000001 متر مربع. تحويل المساحة مختلف عن تحويل الطول، لأننا بنربّع عامل التحويل. لما تلاقي A بالـmm² وY بالـPa، الأفضل تحول للمتر المربع قبل ما تعمل الحساب، علشان وحدات الإجابة تطلع بالمتر.",
+    "units": [
+      {
+        "id": "U031",
+        "text": "هنشتغل أولًا على معنى العوامل بدل الرقم. في ΔL = F L0/(Y A)، لو القوة زادت للضعف وكل حاجة تانية ثابتة في",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      },
+      {
+        "id": "U032",
+        "text": "وأهم تحذير في الوحدات: واحد ملّيمتر يساوي 0.001 متر، لكن واحد ملّيمتر مربع يساوي 0.000001 متر مربع. تحويل",
+        "occurrence": 1,
+        "visualIntent": "Reveal only the concept currently being spoken; earlier and future deductions are withheld."
+      }
+    ]
+  },
+  "visual": {
+    "renderer": "phys1-802-concept-board",
+    "module": "scenes/ConceptBoard.tsx",
+    "params": {
+      "heading": "التحويلات",
+      "kind": "units",
+      "formula": "1 mm² = 10⁻⁶ m²",
+      "firstCue": "U031"
+    },
+    "landscape": "16:9: large units explanatory graphic occupying left half; show one legible focused equation/label to right, only at its matching semantic onset; no wall of text.",
+    "portrait": "9:16: units diagram on upper portion, focus caption/equation in single-column lower portion (not downscaled 16:9); high contrast and reduced-motion fallback."
+  }
+}
