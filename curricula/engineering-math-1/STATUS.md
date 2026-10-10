@@ -1,34 +1,40 @@
-# Curriculum STATUS — Mathematics I, first-year engineering
+# Curriculum STATUS — Engineering Mathematics I (أولى هندسة)
 
 **Updated:** 2026-10-10  
-**Active Block:** **B02 — Functions and Their Graphs**, printed pp. **21–53**, PDF images 14–30 (left half of 30).  
-**Last completed gate:** **B02 Stage 02 — critique and complete-draft rewrite**, STOP. User's new `next` authorized **this stage only**. **Future `next` → B02 Stage 03 only.**
+**Active authoring Block:** **B02 — Functions, Limits and Continuity**, printed source **pp. 21–53**.  
+**Last completed authorized gate:** **B02 Stage 03**, final student lesson boundaries and full script manuscripts with issued stable IDs. **STOP — a new human `next` authorizes B02 Stage 04 scenes ONLY.** No B02 scenes/audio/preview/user release exist.
+**Branch / PR:** `curriculum/engineering-math-1/stage-01-functions` / [Draft PR #8](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8) — **OPEN DRAFT, unmerged**.
 
-## Whole-course scope
-- `engineering-math-1` in Egyptian Arabic with standard English math terms and English exam prompts/Arabic explanation.
-- [Draft PR #8](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8), branch `curriculum/engineering-math-1/stage-01-functions`; **not merged or published**.
-- Source `abd-el-salam-math-i-scan`, 43 photographed PDF pages; printed pp. 1–80 body supplied, later chapters contents-only. Original PDF reopened and matched recorded SHA-256 `a4d6e631fd887071db151c6e494519424dc46369376c5aeff6a5b58f72c99623`. Private future-agent retrieval **not verified**, user deferred storing the PDF; none uploaded publicly. See `references/SOURCE_MANIFEST.md`, `SOURCE_COVERAGE.md`, `blocks/B02/reviews/STAGE_01_SOURCE_REOPEN.md`.
-- Provisional full-course roadmap `OUTLINE.md` keeps B01–B07; active editorial ownership and next gate live here and in `blocks/B02/STATUS.md`.
+## Source, access and whole-course plan
+- Course `engineering-math-1`: Egyptian Arabic natural teaching, standard English math terms and English exam prompts + spoken Arabic comprehension, later English model answer with Egyptian-Arabic reasoning.
+- Book original `abd-el-salam-math-i-scan`, 43 photographed image-PDF pages, body only printed **pp. 1–80**, source hash SHA-256 `a4d6e631fd887071db151c6e494519424dc46369376c5aeff6a5b58f72c99623` previously verified/reopened. Rights and private future-agent retrieval **unresolved** by explicit user decision to defer PDF storage. No original scanned pages in public GitHub. Full roadmap B01–B07 `OUTLINE.md`, exact body/contents-only map `references/SOURCE_COVERAGE.md`, version `references/SOURCE_MANIFEST.md`.
+- **Book p. 34** exponential domain/range pair appears reversed relative to graph and correct real functions; the B02 third script explicitly identifies the discrepancy instead of silently transcribing it. Qualified faculty source/math sign-off still **UNTESTED**.
+- **B03 differentiation printed pp. 54–80** available only as source, no active B03 authoring. **B04–B07** contents-headings only, actual text absent; don't invent later teaching material.
 
-## Block table
-
-| Block | Real achievements | Current state |
+## Per-Block ownership and state
+| Block | Real completed work | Explicitly deferred or future |
 |---|---|---|
-| **B01 Preliminaries, printed pp. 1–20** | Five **stable** issued student lesson IDs, **72 canonical scenes, 15 question/feedback pairs, 87 clips**, actual prior script-stage CI passed | **INACTIVE after handoff**, Stage 04 complete as authoring **only**. Audio, academic sign-off, real media preview and publication all deferred/untested; `blocks/B01/STATUS.md` |
-| **B02 Functions/Limits/Continuity, pp. 21–53** | Five complete **revised** provisional connected manuscripts and **21 independent exam prompts with 21 separate feedback**, **new detailed critique**, source/pedagogy fixes and 30/30 spot checks | **ACTIVE — Stage 02 complete**; `blocks/B02/STATUS.md`, `blocks/B02/reviews/STAGE_02_CRITIQUE.md`; Stage 03 boundaries still unissued |
-| **B03 differentiation, pp. 54–80** | Source body visible/skimmed; no new Block authoring | Planned only |
-| **B04–B07 later chapters** | Source contents titles only, body not supplied | Blocked on actual source |
+| **B01 — Preliminaries**, pp. **1–20** | **INACTIVE** after human `next block`; **Stage 04 canonical source**: five stable issued student lesson IDs, 72 scenes/15 questions and 15 separated feedback clips (87 clips), prior actual script-stage CI passed. `blocks/B01/STATUS.md`. | Human academic review, voice/audio, timings, real SDK preview and student publication **UNTESTED/DEFERRED**. |
+| **B02 — Functions and Limits**, pp. **21–53** | **ACTIVE — Stage 03 COMPLETE**. A/E **kept**; B/C/D each **split into two** → **8 stable issued B02 IDs** (within-Block orders 1–8) and **eight complete canonical Stage 03 editorial manuscripts, 26 independent Q with 26 separate explanatory feedback**. `blocks/B02/STATUS.md`, `blocks/B02/reviews/STAGE_03_BOUNDARY_DECISION.md`. | Stage 04 lesson/scene JSON, visuals, timed/audio, professor certification and student trial **NOT DONE**. |
+| **B03** pp. **54–80** | Body supplied, editor not activated. | Starts by distinct later `next block` only after proper gate. |
+| **B04–B07** | Contents-only headings; body absent. | Requires actual original source. |
 
-## Active B02 Stage 02 canonical editorial artifacts
-- `blocks/B02/working-drafts/01-functions.md` — **A, four** independent questions; functions, domain, range, co-domain and vertical-line test.
-- `blocks/B02/working-drafts/02-function-families.md` — **B, five** questions; algebraic/trig/exp/log, tangent exclusions and graph shifts.
-- `blocks/B02/working-drafts/03-monotonicity-limits.md` — **C, four** questions; monotonicity, limit vs point value and one-sided limits.
-- `blocks/B02/working-drafts/04-calculating-limits.md` — **D, four** questions; laws, factoring/conjugate, sided divergent and radians-based limits.
-- `blocks/B02/working-drafts/05-continuity.md` — **E, four** questions; three continuity conditions, removable hole/jump, endpoints and sharp corners.
-- **Provenance:** historical joint-workflow `working-drafts/01-functions.md`–`05-continuity.md` and `reviews/STAGE_02_CRITIQUE.md` remain frozen evidence. Current Stage 02 rewrites are independent new work in B02-scoped files. The A–E labels **are provisional, not stable lesson IDs**; no B02 scenes have been created.
+## B02 stable issued student lesson IDs (canonical Stage 03 scripts)
 
-## Evidence, caution and human stop
-- **5/5** new revised manuscript readbacks passed; **21/21** question-before-distinct-feedback pairs verified, each English exam/Arabic support + English model answer/Arabic explanation; **30/30** selected limit, sign, denominator, continuity and boundary arithmetic checks passed. This is **not** faculty approval or exhaustive source verification.
-- Printed book **p. 34** appears to reverse the domain/range of a real exponential function; the source's prose conflicts with its graph and independently checked mathematics. Report explicitly distinguishes source error from independently authored correction; faculty/source review still **untested**.
-- Educational novice tests, final cognitive-load boundaries, bilingual voice, media timings, B02 scene validators and actual lesson preview are all **untested**. B01 assets not changed.
-- **STOP**. A new explicit `next` authorizes **B02 Stage 03 only**: select keep/internal-chunks/split/merge from critique, author each coherent resulting final script and issue B02 stable lesson IDs/order; then STOP. No Stage 04, paid TTS, B03, merge or student release without later authorization.
+**These are now stable and ordered exactly as below; no B01 IDs changed.**
+1. `em1-functions-domain-range` — domain/range/co-domain and vertical-line test, printed pp. 21–25; **4 Q**.
+2. `em1-functions-algebraic-graphs` — algebraic function families/translations, pp. 25–30; **3 Q**.
+3. `em1-functions-trig-exp-log` — trigonometric/exponential/logarithmic, pp. 30–35; **3 Q**.
+4. `em1-functions-monotonicity` — strictly increasing/decreasing intervals, pp. 35–37; **3 Q**.
+5. `em1-limits-concept-one-sided` — limit meaning, left/right and assigned point, pp. 37–40; **3 Q**.
+6. `em1-limits-algebraic-methods` — laws, factorization, conjugates, divergence, pp. 39–45; **3 Q**.
+7. `em1-limits-trigonometric` — radians and sine/tangent ratios, pp. 44–46; **3 Q**.
+8. `em1-functions-continuity` — continuity/hole/jump/piecewise, pp. 47–50 and exercise coverage 51–53; **4 Q**.
+
+**Spoken editorial canon at this gate:** `blocks/B02/final-scripts/<id>.md` (**8 files**). Historical Stage 02 full masters remain in `blocks/B02/working-drafts/` and critique `blocks/B02/reviews/STAGE_02_CRITIQUE.md` for provenance but are **not the second final script master**. All 21 previous B02 assessment IDs preserved and five new Q added (B6, C5, C6, D5, D6) with delayed answer/reasoning. After a separately authorized Stage 04, scene JSON becomes canonical runtime speech.
+
+## Actual verification and remaining authority
+- **GitHub readback 8/8** complete scripts; **26/26** independent Q/feedback pairs checked for order, English/Arabic clauses and no model answer in question block; unique IDs/order and all 21 historic assessment IDs preserved; balanced inline math, 300-line cap. Teaching examples edited to avoid overly direct disclosure of the subsequent answer.
+- **CI regression test** `tests/test_b02_stage03_final_scripts.py` saved for script/ID/question coverage and selected arithmetic. Report the actual GitHub Actions conclusion only when observed; Stage 03 is manuscript authoring, not B02 Stage `script` scene validation. Stage 02's 30 spot checks are historical, not claimed as newly measured.
+- **Never conflate technical success with human academic approval, novice learner trial, TTS listen-through, recorded timing, 9:16/16:9 runtime preview or publication.** All are untested or deferred; no media/source PDF uploaded.
+- **STOP now.** Human corrections revise B02 Stage 03. A later bare `next` advances **B02 Stage 04 scene/storyboard decomposition and actual script checks only**, then STOP. No automatic B03 start, paid audio, main merge or student release.
