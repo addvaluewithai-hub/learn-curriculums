@@ -1,35 +1,29 @@
-# B01 — STATUS
+# B01 — STATUS (2026-10-10)
 
-- **تاريخ التحديث:** 2026-10-10.
-- **الجمهور:** طلبة سنة أولى هندسة (مؤكد).
-- **آخر مرحلة مكتملة:** **Stage 02 — نقد/تصحيح داخلي كامل لمسودتي B01**.
-- **Stage 03–06:** لم تبدأ، وبانتظار موافقة بشرية على الانتقال.
-- **المصدر المُراجع:** math1-algebra-scan-20261009؛ PDF صفحات **3–5** ↔ المطبوع **1–5**؛ أعيد فحص الصور فعليًا في هذه المرحلة.
-- **حالة المعرفات:** B01 هو Block إنتاجي، وليس Lesson. لا يوجد أي stable lesson IDs / lessons / scenes / recordings / timings.
-- **فرع العمل:** curriculum/mathematics-i-algebra-stage00-20261010؛ Draft PR #12، لا دمج.
+- Audience: First-year engineering students.
+- Source: math1-algebra-scan-20261009; PDF pages 3–5 = printed pages 1–5.
+- **Last completed gate: Stage 03 — final editorial boundaries and four complete connected teaching scripts.**
+- **Next: Stage 04 only after human `كمل`**; no scenes, audio, timing, or student publication yet.
+- Branch: curriculum/mathematics-i-algebra-stage00-20261010; Draft PR #12, not merged.
 
-## الملفات المعتمدة تحريرياً كنقطة انطلاق لـ Stage 03
+## Issued stable lesson IDs
 
-1. [CONCEPT_MAP.md](CONCEPT_MAP.md) — خريطة الاعتماد والهدف/التقويم المحدثة. التجميع المؤقت إلى Draft A وDraft B لم يُحسم.
-2. [working-drafts/A-rational-fractions-and-forms.md](working-drafts/A-rational-fractions-and-forms.md) — مسودة A المنقحة: تعريفات وقواعد/اختيار القالب؛ 3 أسئلة مستقلة A-Q0/Q1/Q2 ولكل منها Feedback منفصل.
-3. [working-drafts/B-distinct-linear-factors.md](working-drafts/B-distinct-linear-factors.md) — مسودة B المنقحة: عوامل خطية مختلفة، ثوابت، مقارنة معاملات، سؤالان مستقلان B-Q1/Q2 مع Feedback منفصل.
-4. [CRITIQUE_STAGE02.md](CRITIQUE_STAGE02.md) — **14 ملاحظة مراجعة منظمة**، قبل/بعد والإصلاح، مع تحقق رمزي وتوصيات حدود **غير ملزمة**.
-5. [SOURCE_OBSERVATIONS.md](SOURCE_OBSERVATIONS.md) — تضاربات مرئية في Examples 3/5 (مطبوع 3 و5). الصياغة التعليمية المصححة قائمة على الجبر مع تنبيه، لا تعديل للأصل.
+| Order | Stable lesson ID | Stage 03 complete script | Printed pages |
+|---|---|---|---|
+| 1 | `math1-pf-foundations` | [L01](final-scripts/math1-pf-foundations.md) | 1–2 |
+| 2 | `math1-pf-forms` | [L02](final-scripts/math1-pf-forms.md) | 2–3 |
+| 3 | `math1-pf-two-linear` | [L03](final-scripts/math1-pf-two-linear.md) | 3–4 |
+| 4 | `math1-pf-three-linear` | [L04](final-scripts/math1-pf-three-linear.md) | 4–5 |
 
-## التحقق الحقيقي في Stage 02
+Detailed boundary decision and before/after mapping: [BOUNDARY_DECISION_STAGE03.md](BOUNDARY_DECISION_STAGE03.md). These IDs are fixed in OUTLINE, but runtime lesson.json files have NOT been created.
 
-- أعيد فتح الصور المطبوعة 1–5 (PDF 3–5). المصدر لم يتغير داخل الريبو؛ **لا رفع PDF**.
-- تحقق رمزي بواسطة SymPy: اختبارات تفكيك Examples 1 و4 و5، والأسئلة المصطنعة A-Q0 وB-Q1 وB-Q2؛ الفرق بين الطرفين **صفر جبريًا** على مجال التعريف.
-- أسئلة A-Q1 (degree/proper/improper) وA-Q2 (form without constants) راجعت مطابقتها للقواعد والشكل؛ لا تدعي اختبارها على طلاب.
-- جرت مراجعة منهجية مبدئية لجسور التعلم، النطق المصري والإنجليزي، فصل السؤال والإجابة، الحمل المعرفي وإشارات المصدر؛ الإصلاحات مفصلة في النقد.
-- **هذه مراجعة ذاتية تحريرية فحسب** وليست تدقيقًا مستقلًا أو اعتمادًا مؤسسيًا. Academic/teaching review: **untested**؛ runtime/audio/visual: **untested**.
-- فحوص \`validate --stage script\` غير منطبقة لأن **Stage 04 لم يبدأ** ولا \`lesson.json\` ولا \`scenes\` موجودة.
+## Checks and limits
 
-## المشاكل المفتوحة
+- Each independent script has its own opening, prerequisite bridge, guided worked example, hidden-until-attempt question, separate explanatory English/Arabic feedback, and recap.
+- Examples 1/4/5 and selected authored identities checked algebraically; print discrepancies in Examples 3/5 still recorded in SOURCE_OBSERVATIONS.md.
+- No independent human academic approval; teaching/learner review and runtime/audio/visual review remain untested.
+- No stage script validation yet: Stage 04 scenes and lesson.json do not exist.
+- Original scan not published to GitHub; redistribution rights are unknown; secure private future access remains unresolved.
+- Printed pages 46 onward are not included in the scan and cannot ground later chapters.
 
-- عدد الدروس/حدودها **غير مستقر**: اقتراح أجزاء داخلية لـA وربما B، واحتمال فصل بعض القوالب عن درس الجبر التمهيدي؛ **لا تقسيم نهائي قبل Stage 03**.
-- فحص بشري علمي مطلوب لتثبيت تعامل النسخة الطلابية مع أخطاء Examples 3 و5.
-- تخزين Drive آمن مستقبليًا غير محسوم، وتظهر مشاركة anyone-with-link writer من الفحص السابق؛ المصدر لم يُنشر في GitHub.
-- حقوق إعادة نشر المسح الأصلي غير موثقة، والصفحات المطبوعة 46 فما فوق غير مقدمة.
-
-**STOP — awaiting human \`next / كمل\`.** التالي **Stage 03 لـB01 فقط**: تأكيد الحدود، صياغة النصوص النهائية لكل درس، تحديث OUTLINE بالترتيب/المعرفات المصدرة عند تثبيتها، ثم توقف. أي تعليق تصحيحي يعيد العمل على Stage 02 ولا يفتح Stage 03.
+**STOP — awaiting human next to create Stage 04 scenes, storyboards and run script checks.**
