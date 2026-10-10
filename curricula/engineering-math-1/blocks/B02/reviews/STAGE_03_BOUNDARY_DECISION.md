@@ -43,7 +43,7 @@
 ## Actual checks and approvals remaining
 
 - GitHub fetched/re-read **8/8** final scripts: unique stable IDs/order, coherent teaching and closing sections, separate 26 independent questions and 26 feedbacks, matching ID and ordering, English question/Arabic support and model/Arabic reasoning, balanced inline maths delimiters, <=300-line files, no escaped code-marker artifacts. **All 21 historic question IDs retained**; exactly five new Q IDs.
-- Verify selected new/final math independently, run repository CI draft quality and the new Stage 03 authoring regression test, and record actual output separately; this is **not** independent professor certification.
+- **27/27 targeted JS arithmetic and domain/limit spot checks passed** for rational exclusions/asymptote behavior, graph shift, monotonic outputs, factoring/conjugate, one-sided signs, scaled trigonometric radian limits and continuity. This finite selection is **not** a proof for all narrative equations or independent professor certification. Repo CI/test status is checked separately.
 - **UNTESTED:** assigned mathematics lecturer source/errata & answer review, novice difficulty/cognitive-load student trial, actual TTS/voice pronunciation, audio/timing, responsive scene runtime, platform publication/acceptance. These reviews cannot be inferred from a source-linked AI decision or CI.
 - **Original source retention remains temporary** by user choice; full body only through printed p. 80, beyond that contents-only; do not upload copyrighted scan to public GitHub.
 
