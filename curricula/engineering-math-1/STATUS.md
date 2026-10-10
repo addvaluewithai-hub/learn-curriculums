@@ -1,40 +1,30 @@
 # Curriculum STATUS — Engineering Mathematics I (أولى هندسة)
 
 **Updated:** 2026-10-10  
-**Active authoring Block:** **B02 — Functions, Limits and Continuity**, printed source **pp. 21–53**.  
-**Last completed authorized gate:** **B02 Stage 03**, final student lesson boundaries and full script manuscripts with issued stable IDs. **STOP — a new human `next` authorizes B02 Stage 04 scenes ONLY.** No B02 scenes/audio/preview/user release exist.
-**Branch / PR:** `curriculum/engineering-math-1/stage-01-functions` / [Draft PR #8](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8) — **OPEN DRAFT, unmerged**.
+**ACTIVE source Block: B02** — Functions, Graphs, Limits and Continuity, printed book pp. **21–53**.  
+**Last human-authorized gate completed: B02 Stage 04 — canonical scene/script authoring, source-controlled boards and technical checks. STOP for human inspection.**  
+**Draft PR / branch:** [#8](https://github.com/addvaluewithai-hub/learn-curriculums/pull/8) / `curriculum/engineering-math-1/stage-01-functions`, **open/draft and unmerged**.
 
-## Source, access and whole-course plan
-- Course `engineering-math-1`: Egyptian Arabic natural teaching, standard English math terms and English exam prompts + spoken Arabic comprehension, later English model answer with Egyptian-Arabic reasoning.
-- Book original `abd-el-salam-math-i-scan`, 43 photographed image-PDF pages, body only printed **pp. 1–80**, source hash SHA-256 `a4d6e631fd887071db151c6e494519424dc46369376c5aeff6a5b58f72c99623` previously verified/reopened. Rights and private future-agent retrieval **unresolved** by explicit user decision to defer PDF storage. No original scanned pages in public GitHub. Full roadmap B01–B07 `OUTLINE.md`, exact body/contents-only map `references/SOURCE_COVERAGE.md`, version `references/SOURCE_MANIFEST.md`.
-- **Book p. 34** exponential domain/range pair appears reversed relative to graph and correct real functions; the B02 third script explicitly identifies the discrepancy instead of silently transcribing it. Qualified faculty source/math sign-off still **UNTESTED**.
-- **B03 differentiation printed pp. 54–80** available only as source, no active B03 authoring. **B04–B07** contents-headings only, actual text absent; don't invent later teaching material.
+## Original book, source access and full-course roadmap
+- `engineering-math-1`, first-year engineering; Egyptian Arabic narrated teaching, English exam prompts/math terminology and spoken Arabic comprehension; English model answer + Egyptian Arabic explanatory feedback after written attempts.
+- Original `abd-el-salam-math-i-scan`, photographed 43-page scanned PDF, printed book **pp. 1–80** only. Source metadata and actual earlier checked SHA-256 `a4d6e631fd887071db151c6e494519424dc46369376c5aeff6a5b58f72c99623`: `references/SOURCE_MANIFEST.md`, `SOURCE_COVERAGE.md`. Original future authorized-agent/private retrieval remains **unverified**; user expressly postponed durable private PDF storage. Copyrighted scan **not uploaded to public GitHub**. Printed beyond p. 80 is contents-only, not actual inspectable teaching.
+- Whole-course Blocks B01–B07 and issued student IDs/coverage: `OUTLINE.md`. Do not mistake a production Block for one student lesson.
+- Source caveat in B02: printed **p.34** appears to reverse the real exponential domain/range pair, inconsistent with its graph and standard math; B02 teaching uses independently checked correct math and explicitly flags possible printed typo for qualified human review. Printed p.42 quotient-zero shorthand also needs one-sided sign conditions. No source/faculty sign-off.
 
-## Per-Block ownership and state
-| Block | Real completed work | Explicitly deferred or future |
+## Per-Block status — no invented approvals
+| Block | Actual authoring and tests | Current state |
 |---|---|---|
-| **B01 — Preliminaries**, pp. **1–20** | **INACTIVE** after human `next block`; **Stage 04 canonical source**: five stable issued student lesson IDs, 72 scenes/15 questions and 15 separated feedback clips (87 clips), prior actual script-stage CI passed. `blocks/B01/STATUS.md`. | Human academic review, voice/audio, timings, real SDK preview and student publication **UNTESTED/DEFERRED**. |
-| **B02 — Functions and Limits**, pp. **21–53** | **ACTIVE — Stage 03 COMPLETE**. A/E **kept**; B/C/D each **split into two** → **8 stable issued B02 IDs** (within-Block orders 1–8) and **eight complete canonical Stage 03 editorial manuscripts, 26 independent Q with 26 separate explanatory feedback**. `blocks/B02/STATUS.md`, `blocks/B02/reviews/STAGE_03_BOUNDARY_DECISION.md`. | Stage 04 lesson/scene JSON, visuals, timed/audio, professor certification and student trial **NOT DONE**. |
-| **B03** pp. **54–80** | Body supplied, editor not activated. | Starts by distinct later `next block` only after proper gate. |
-| **B04–B07** | Contents-only headings; body absent. | Requires actual original source. |
+| **B01 — Preliminaries, printed 1–20** | **5 issued stable student lesson IDs** at global runtime orders **1–5**. Stage 04 **72 scene files, 15 written questions + 15 withheld feedback = 87 speech clips**, prior actual script CI passed. `blocks/B01/STATUS.md`. | **INACTIVE since next block**. Audio, professor/learner sign-off and real preview all **untested/deferred**. |
+| **B02 — Functions/Limits/Continuity, printed 21–53** | **8 issued stable student IDs** with local Block order **1–8** and unique global runtime `lesson.json.order` **6–13**. Stage 04 **106 scenes = 80 teaching + 26 independent written questions, with 26 separate post-attempt feedback clips = 132 speech clips**. 8 subject-specific React/Remotion `ConceptBoard.tsx` source files and independent 16:9/9:16 `STORYBOARDS.md`. `blocks/B02/STATUS.md`, `blocks/B02/reviews/STAGE_04_SCENES.md`. | **ACTIVE — Stage 04 authoring complete, awaiting human inspection**. Real source/teaching/audio/timing/visual/runtime approvals **untested**, no real B02 playback. |
+| **B03 — Differentiation, printed 54–80** | Original body was available in prior source inspection but no active authoring. | Only starts by explicit future `next block`, re-access actual source first. |
+| **B04–B07** | Later book chapters visible only as table-of-contents headings; original body absent. | Blocked until actual pages supplied. |
 
-## B02 stable issued student lesson IDs (canonical Stage 03 scripts)
+## What is now canonical for B02 and what remains historical
+- **Stable issued B02 IDs/order:** `em1-functions-domain-range` (1), `em1-functions-algebraic-graphs` (2), `em1-functions-trig-exp-log` (3), `em1-functions-monotonicity` (4), `em1-limits-concept-one-sided` (5), `em1-limits-algebraic-methods` (6), `em1-limits-trigonometric` (7), `em1-functions-continuity` (8). No stable IDs/order changed from Stage 03. Source coverage and dependency map in `OUTLINE.md`.
+- **Canon AFTER Stage 04:** `lessons/<id>/lesson.json` and all ordered `scenes/Sxx.json`, including separate `question.feedback` clips and full spoken-phrase semantic units. The eight older `blocks/B02/final-scripts/<id>.md` remain **unchanged historical comparison**, not a second editable final master. Historical Stage 02 drafts and earlier joint-course critique also preserved.
+- **26/26 independent exam prompt IDs and delayed feedback** remain mapped, preserving **21** older B02 assessment IDs and **five** new Stage 03 transfer questions, plus B01's unchanged 15/15. No audio jobs, clip takes, voice pilot, media receipt, real transcript/timing, player or student publication.
 
-**These are now stable and ordered exactly as below; no B01 IDs changed.**
-1. `em1-functions-domain-range` — domain/range/co-domain and vertical-line test, printed pp. 21–25; **4 Q**.
-2. `em1-functions-algebraic-graphs` — algebraic function families/translations, pp. 25–30; **3 Q**.
-3. `em1-functions-trig-exp-log` — trigonometric/exponential/logarithmic, pp. 30–35; **3 Q**.
-4. `em1-functions-monotonicity` — strictly increasing/decreasing intervals, pp. 35–37; **3 Q**.
-5. `em1-limits-concept-one-sided` — limit meaning, left/right and assigned point, pp. 37–40; **3 Q**.
-6. `em1-limits-algebraic-methods` — laws, factorization, conjugates, divergence, pp. 39–45; **3 Q**.
-7. `em1-limits-trigonometric` — radians and sine/tangent ratios, pp. 44–46; **3 Q**.
-8. `em1-functions-continuity` — continuity/hole/jump/piecewise, pp. 47–50 and exercise coverage 51–53; **4 Q**.
-
-**Spoken editorial canon at this gate:** `blocks/B02/final-scripts/<id>.md` (**8 files**). Historical Stage 02 full masters remain in `blocks/B02/working-drafts/` and critique `blocks/B02/reviews/STAGE_02_CRITIQUE.md` for provenance but are **not the second final script master**. All 21 previous B02 assessment IDs preserved and five new Q added (B6, C5, C6, D5, D6) with delayed answer/reasoning. After a separately authorized Stage 04, scene JSON becomes canonical runtime speech.
-
-## Actual verification and remaining authority
-- **GitHub readback 8/8** complete scripts; **26/26** independent Q/feedback pairs checked for order, English/Arabic clauses and no model answer in question block; unique IDs/order and all 21 historic assessment IDs preserved; balanced inline math, 300-line cap. Teaching examples edited to avoid overly direct disclosure of the subsequent answer.
-- **CI regression test** `tests/test_b02_stage03_final_scripts.py` saved for script/ID/question coverage and selected arithmetic. Report the actual GitHub Actions conclusion only when observed; Stage 03 is manuscript authoring, not B02 Stage `script` scene validation. Stage 02's 30 spot checks are historical, not claimed as newly measured.
-- **Never conflate technical success with human academic approval, novice learner trial, TTS listen-through, recorded timing, 9:16/16:9 runtime preview or publication.** All are untested or deferred; no media/source PDF uploaded.
-- **STOP now.** Human corrections revise B02 Stage 03. A later bare `next` advances **B02 Stage 04 scene/storyboard decomposition and actual script checks only**, then STOP. No automatic B03 start, paid audio, main merge or student release.
+## Evidence, limitations and human STOP
+- **GitHub structural readback:** 13 curriculum lessons total, **178 canonical scene files** (B01 72 + B02 106), 13 source-controlled boards/storyboards/review JSON; source-specific **B02 exact word-parity** with Stage 03 scripts enforced by `tests/test_b02_stage04_scene_fidelity.py`; all authored non-scaffold lesson packages checked by real `validate_lesson(...,"script")` in CI via `tests/test_script_stage_ready.py`. Track actual current GitHub Actions conclusion in the Stage 04 report/PR, never claim CI ran locally.
+- **No human approvals:** `review.json` sourceHash null and six statuses `untested` for each B02 lesson. Source-controlled visuals/fixture SDK build **are not** real 16:9/9:16 playback certification. Mathematics professor source/faint formulas, first-year learner trial, mathematical pronunciation and timed cue alignment remain outstanding.
+- **STOP:** Next new bare **`next` → B02 Stage 05 optional representative TTS pilot *preparation/dry-run only*** (paid dispatch needs separately explicit approval). Distinct **`next block` → B03 Stage 01**, only after user inspects B02 Stage 04 and we re-open genuine B03 body. B02 audio/scientific sign-off may stay deferred and unapproved. No automatic Stage 05, B03, public PDF upload, main merge or student release.
